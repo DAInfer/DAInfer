@@ -1,0 +1,236 @@
+{
+    "boolean isRegistered(AstObserver observer)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void setData(DataKey key, M object)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Node setParsed(Node.Parsedness parsed)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "Node setRange(Range range)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Optional getParentNode()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Node setTokenRange(TokenRange tokenRange)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void unregister(AstObserver observer)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "Node setParentNode(Node newParentNode)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "Node findRootNode()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Node setComment(Comment comment)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Optional getRange()": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean replace(Node node)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "List getChildNodes()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Optional getComment()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Node.Parsedness getParsed()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean removeOrphanComment(Comment comment)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "Optional findCompilationUnit()": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void register(AstObserver observer, Node.ObserverRegistrationMode mode)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "Node removeComment()": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "List getOrphanComments()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List getAllContainedComments()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Node setBlockComment(String comment)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Node getParentNodeForChildren()": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void tryAddImportToParentCompilationUnit(Class clazz)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Node setLineComment(String comment)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "M getData(DataKey key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean remove(Node node)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "NodeMetaModel getMetaModel()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean containsData(DataKey key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void registerForSubtree(AstObserver observer)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Optional getTokenRange()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "SymbolResolver getSymbolResolver()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void addOrphanComment(Comment comment)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void register(AstObserver observer)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void setAsParentNodeOf(Node childNode)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void setAsParentNodeOf(NodeList list)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean replace(Node node, Node replacementNode)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "List getChildNodesByType(Class clazz)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    }
+}

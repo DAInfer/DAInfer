@@ -1,0 +1,100 @@
+{
+    "int indexOf(String str, int fromIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "String substring(int start, int end)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "StringBuilder append(String str)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "String substring(int start)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "int indexOf(String str)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "StringBuilder replace(int start, int end, String str)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "int lastIndexOf(String str)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "int lastIndexOf(String str, int fromIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "StringBuilder insert(int offset, String str)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "StringBuilder insert(int dstOffset, CharSequence s, int start, int end)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "CharSequence subSequence(int start, int end)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "StringBuilder append(CharSequence s, int start, int end)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "StringBuilder insert(int dstOffset, CharSequence s)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "StringBuilder append(CharSequence s)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    }
+}

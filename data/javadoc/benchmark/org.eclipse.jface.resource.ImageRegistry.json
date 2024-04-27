@@ -1,0 +1,10 @@
+{
+    "class": "ImageRegistry",
+    "category": "Class",
+    "methods": {
+        "Image get(String key)": "Returns the image associated with the given key in this registry, or null if none.",
+        "void put(String key, Image image)": "Adds an image to this registry.",
+        "void put(String key, ImageDescriptor descriptor)": "Adds (or replaces) an image descriptor to this registry."
+    },
+    "super class": []
+}

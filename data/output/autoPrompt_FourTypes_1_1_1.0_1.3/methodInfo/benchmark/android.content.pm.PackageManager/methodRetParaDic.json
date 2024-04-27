@@ -1,0 +1,1163 @@
+{
+    "void addPackageToPreferred(String packageName)": {
+        "return type": "void",
+        "method name": "addPackageToPreferred",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean addPermission(PermissionInfo info)": {
+        "return type": "boolean",
+        "method name": "addPermission",
+        "parameters": [
+            "PermissionInfo"
+        ]
+    },
+    "boolean addPermissionAsync(PermissionInfo info)": {
+        "return type": "boolean",
+        "method name": "addPermissionAsync",
+        "parameters": [
+            "PermissionInfo"
+        ]
+    },
+    "void addPreferredActivity(IntentFilter filter, int match, ComponentName[] set, ComponentName activity)": {
+        "return type": "void",
+        "method name": "addPreferredActivity",
+        "parameters": [
+            "IntentFilter",
+            "int",
+            "ComponentName[]",
+            "ComponentName"
+        ]
+    },
+    "boolean addWhitelistedRestrictedPermission(String packageName, String permName, int whitelistFlags)": {
+        "return type": "boolean",
+        "method name": "addWhitelistedRestrictedPermission",
+        "parameters": [
+            "String",
+            "String",
+            "int"
+        ]
+    },
+    "boolean canPackageQuery(String sourcePackageName, String targetPackageName)": {
+        "return type": "boolean",
+        "method name": "canPackageQuery",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "boolean[] canPackageQuery(String sourcePackageName, String[] targetPackageNames)": {
+        "return type": "boolean[]",
+        "method name": "canPackageQuery",
+        "parameters": [
+            "String",
+            "String[]"
+        ]
+    },
+    "boolean canRequestPackageInstalls()": {
+        "return type": "boolean",
+        "method name": "canRequestPackageInstalls",
+        "parameters": []
+    },
+    "String[] canonicalToCurrentPackageNames(String[] packageNames)": {
+        "return type": "String[]",
+        "method name": "canonicalToCurrentPackageNames",
+        "parameters": [
+            "String[]"
+        ]
+    },
+    "int checkPermission(String permName, String packageName)": {
+        "return type": "int",
+        "method name": "checkPermission",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "int checkSignatures(String packageName1, String packageName2)": {
+        "return type": "int",
+        "method name": "checkSignatures",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "int checkSignatures(int uid1, int uid2)": {
+        "return type": "int",
+        "method name": "checkSignatures",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void clearInstantAppCookie()": {
+        "return type": "void",
+        "method name": "clearInstantAppCookie",
+        "parameters": []
+    },
+    "void clearPackagePreferredActivities(String packageName)": {
+        "return type": "void",
+        "method name": "clearPackagePreferredActivities",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String[] currentToCanonicalPackageNames(String[] packageNames)": {
+        "return type": "String[]",
+        "method name": "currentToCanonicalPackageNames",
+        "parameters": [
+            "String[]"
+        ]
+    },
+    "void extendVerificationTimeout(int id, int verificationCodeAtTimeout, long millisecondsToDelay)": {
+        "return type": "void",
+        "method name": "extendVerificationTimeout",
+        "parameters": [
+            "int",
+            "int",
+            "long"
+        ]
+    },
+    "Drawable getActivityBanner(ComponentName activityName)": {
+        "return type": "Drawable",
+        "method name": "getActivityBanner",
+        "parameters": [
+            "ComponentName"
+        ]
+    },
+    "Drawable getActivityBanner(Intent intent)": {
+        "return type": "Drawable",
+        "method name": "getActivityBanner",
+        "parameters": [
+            "Intent"
+        ]
+    },
+    "Drawable getActivityIcon(Intent intent)": {
+        "return type": "Drawable",
+        "method name": "getActivityIcon",
+        "parameters": [
+            "Intent"
+        ]
+    },
+    "Drawable getActivityIcon(ComponentName activityName)": {
+        "return type": "Drawable",
+        "method name": "getActivityIcon",
+        "parameters": [
+            "ComponentName"
+        ]
+    },
+    "ActivityInfo getActivityInfo(ComponentName component, int flags)": {
+        "return type": "ActivityInfo",
+        "method name": "getActivityInfo",
+        "parameters": [
+            "ComponentName",
+            "int"
+        ]
+    },
+    "ActivityInfo getActivityInfo(ComponentName component, PackageManager.ComponentInfoFlags flags)": {
+        "return type": "ActivityInfo",
+        "method name": "getActivityInfo",
+        "parameters": [
+            "ComponentName",
+            "PackageManager.ComponentInfoFlags"
+        ]
+    },
+    "Drawable getActivityLogo(Intent intent)": {
+        "return type": "Drawable",
+        "method name": "getActivityLogo",
+        "parameters": [
+            "Intent"
+        ]
+    },
+    "Drawable getActivityLogo(ComponentName activityName)": {
+        "return type": "Drawable",
+        "method name": "getActivityLogo",
+        "parameters": [
+            "ComponentName"
+        ]
+    },
+    "List getAllPermissionGroups(int flags)": {
+        "return type": "List",
+        "method name": "getAllPermissionGroups",
+        "parameters": [
+            "int"
+        ]
+    },
+    "Drawable getApplicationBanner(String packageName)": {
+        "return type": "Drawable",
+        "method name": "getApplicationBanner",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Drawable getApplicationBanner(ApplicationInfo info)": {
+        "return type": "Drawable",
+        "method name": "getApplicationBanner",
+        "parameters": [
+            "ApplicationInfo"
+        ]
+    },
+    "int getApplicationEnabledSetting(String packageName)": {
+        "return type": "int",
+        "method name": "getApplicationEnabledSetting",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Drawable getApplicationIcon(ApplicationInfo info)": {
+        "return type": "Drawable",
+        "method name": "getApplicationIcon",
+        "parameters": [
+            "ApplicationInfo"
+        ]
+    },
+    "Drawable getApplicationIcon(String packageName)": {
+        "return type": "Drawable",
+        "method name": "getApplicationIcon",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)": {
+        "return type": "ApplicationInfo",
+        "method name": "getApplicationInfo",
+        "parameters": [
+            "String",
+            "PackageManager.ApplicationInfoFlags"
+        ]
+    },
+    "ApplicationInfo getApplicationInfo(String packageName, int flags)": {
+        "return type": "ApplicationInfo",
+        "method name": "getApplicationInfo",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "CharSequence getApplicationLabel(ApplicationInfo info)": {
+        "return type": "CharSequence",
+        "method name": "getApplicationLabel",
+        "parameters": [
+            "ApplicationInfo"
+        ]
+    },
+    "Drawable getApplicationLogo(String packageName)": {
+        "return type": "Drawable",
+        "method name": "getApplicationLogo",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Drawable getApplicationLogo(ApplicationInfo info)": {
+        "return type": "Drawable",
+        "method name": "getApplicationLogo",
+        "parameters": [
+            "ApplicationInfo"
+        ]
+    },
+    "CharSequence getBackgroundPermissionOptionLabel()": {
+        "return type": "CharSequence",
+        "method name": "getBackgroundPermissionOptionLabel",
+        "parameters": []
+    },
+    "ChangedPackages getChangedPackages(int sequenceNumber)": {
+        "return type": "ChangedPackages",
+        "method name": "getChangedPackages",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int getComponentEnabledSetting(ComponentName componentName)": {
+        "return type": "int",
+        "method name": "getComponentEnabledSetting",
+        "parameters": [
+            "ComponentName"
+        ]
+    },
+    "Drawable getDefaultActivityIcon()": {
+        "return type": "Drawable",
+        "method name": "getDefaultActivityIcon",
+        "parameters": []
+    },
+    "Drawable getDrawable(String packageName, int resid, ApplicationInfo appInfo)": {
+        "return type": "Drawable",
+        "method name": "getDrawable",
+        "parameters": [
+            "String",
+            "int",
+            "ApplicationInfo"
+        ]
+    },
+    "void getGroupOfPlatformPermission(String permissionName, Executor executor, Consumer callback)": {
+        "return type": "void",
+        "method name": "getGroupOfPlatformPermission",
+        "parameters": [
+            "String",
+            "Executor",
+            "Consumer"
+        ]
+    },
+    "InstallSourceInfo getInstallSourceInfo(String packageName)": {
+        "return type": "InstallSourceInfo",
+        "method name": "getInstallSourceInfo",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List getInstalledApplications(int flags)": {
+        "return type": "List",
+        "method name": "getInstalledApplications",
+        "parameters": [
+            "int"
+        ]
+    },
+    "List getInstalledApplications(PackageManager.ApplicationInfoFlags flags)": {
+        "return type": "List",
+        "method name": "getInstalledApplications",
+        "parameters": [
+            "PackageManager.ApplicationInfoFlags"
+        ]
+    },
+    "List getInstalledModules(int flags)": {
+        "return type": "List",
+        "method name": "getInstalledModules",
+        "parameters": [
+            "int"
+        ]
+    },
+    "List getInstalledPackages(int flags)": {
+        "return type": "List",
+        "method name": "getInstalledPackages",
+        "parameters": [
+            "int"
+        ]
+    },
+    "List getInstalledPackages(PackageManager.PackageInfoFlags flags)": {
+        "return type": "List",
+        "method name": "getInstalledPackages",
+        "parameters": [
+            "PackageManager.PackageInfoFlags"
+        ]
+    },
+    "String getInstallerPackageName(String packageName)": {
+        "return type": "String",
+        "method name": "getInstallerPackageName",
+        "parameters": [
+            "String"
+        ]
+    },
+    "byte[] getInstantAppCookie()": {
+        "return type": "byte[]",
+        "method name": "getInstantAppCookie",
+        "parameters": []
+    },
+    "int getInstantAppCookieMaxBytes()": {
+        "return type": "int",
+        "method name": "getInstantAppCookieMaxBytes",
+        "parameters": []
+    },
+    "InstrumentationInfo getInstrumentationInfo(ComponentName className, int flags)": {
+        "return type": "InstrumentationInfo",
+        "method name": "getInstrumentationInfo",
+        "parameters": [
+            "ComponentName",
+            "int"
+        ]
+    },
+    "Intent getLaunchIntentForPackage(String packageName)": {
+        "return type": "Intent",
+        "method name": "getLaunchIntentForPackage",
+        "parameters": [
+            "String"
+        ]
+    },
+    "IntentSender getLaunchIntentSenderForPackage(String packageName)": {
+        "return type": "IntentSender",
+        "method name": "getLaunchIntentSenderForPackage",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Intent getLeanbackLaunchIntentForPackage(String packageName)": {
+        "return type": "Intent",
+        "method name": "getLeanbackLaunchIntentForPackage",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Set getMimeGroup(String mimeGroup)": {
+        "return type": "Set",
+        "method name": "getMimeGroup",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ModuleInfo getModuleInfo(String packageName, int flags)": {
+        "return type": "ModuleInfo",
+        "method name": "getModuleInfo",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "String getNameForUid(int uid)": {
+        "return type": "String",
+        "method name": "getNameForUid",
+        "parameters": [
+            "int"
+        ]
+    },
+    "PackageInfo getPackageArchiveInfo(String archiveFilePath, int flags)": {
+        "return type": "PackageInfo",
+        "method name": "getPackageArchiveInfo",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "PackageInfo getPackageArchiveInfo(String archiveFilePath, PackageManager.PackageInfoFlags flags)": {
+        "return type": "PackageInfo",
+        "method name": "getPackageArchiveInfo",
+        "parameters": [
+            "String",
+            "PackageManager.PackageInfoFlags"
+        ]
+    },
+    "int[] getPackageGids(String packageName)": {
+        "return type": "int[]",
+        "method name": "getPackageGids",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int[] getPackageGids(String packageName, int flags)": {
+        "return type": "int[]",
+        "method name": "getPackageGids",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "int[] getPackageGids(String packageName, PackageManager.PackageInfoFlags flags)": {
+        "return type": "int[]",
+        "method name": "getPackageGids",
+        "parameters": [
+            "String",
+            "PackageManager.PackageInfoFlags"
+        ]
+    },
+    "PackageInfo getPackageInfo(String packageName, int flags)": {
+        "return type": "PackageInfo",
+        "method name": "getPackageInfo",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "PackageInfo getPackageInfo(String packageName, PackageManager.PackageInfoFlags flags)": {
+        "return type": "PackageInfo",
+        "method name": "getPackageInfo",
+        "parameters": [
+            "String",
+            "PackageManager.PackageInfoFlags"
+        ]
+    },
+    "PackageInfo getPackageInfo(VersionedPackage versionedPackage, PackageManager.PackageInfoFlags flags)": {
+        "return type": "PackageInfo",
+        "method name": "getPackageInfo",
+        "parameters": [
+            "VersionedPackage",
+            "PackageManager.PackageInfoFlags"
+        ]
+    },
+    "PackageInfo getPackageInfo(VersionedPackage versionedPackage, int flags)": {
+        "return type": "PackageInfo",
+        "method name": "getPackageInfo",
+        "parameters": [
+            "VersionedPackage",
+            "int"
+        ]
+    },
+    "PackageInstaller getPackageInstaller()": {
+        "return type": "PackageInstaller",
+        "method name": "getPackageInstaller",
+        "parameters": []
+    },
+    "int getPackageUid(String packageName, PackageManager.PackageInfoFlags flags)": {
+        "return type": "int",
+        "method name": "getPackageUid",
+        "parameters": [
+            "String",
+            "PackageManager.PackageInfoFlags"
+        ]
+    },
+    "int getPackageUid(String packageName, int flags)": {
+        "return type": "int",
+        "method name": "getPackageUid",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "String[] getPackagesForUid(int uid)": {
+        "return type": "String[]",
+        "method name": "getPackagesForUid",
+        "parameters": [
+            "int"
+        ]
+    },
+    "List getPackagesHoldingPermissions(String[] permissions, int flags)": {
+        "return type": "List",
+        "method name": "getPackagesHoldingPermissions",
+        "parameters": [
+            "String[]",
+            "int"
+        ]
+    },
+    "List getPackagesHoldingPermissions(String[] permissions, PackageManager.PackageInfoFlags flags)": {
+        "return type": "List",
+        "method name": "getPackagesHoldingPermissions",
+        "parameters": [
+            "String[]",
+            "PackageManager.PackageInfoFlags"
+        ]
+    },
+    "PermissionGroupInfo getPermissionGroupInfo(String groupName, int flags)": {
+        "return type": "PermissionGroupInfo",
+        "method name": "getPermissionGroupInfo",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "PermissionInfo getPermissionInfo(String permName, int flags)": {
+        "return type": "PermissionInfo",
+        "method name": "getPermissionInfo",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "void getPlatformPermissionsForGroup(String permissionGroupName, Executor executor, Consumer callback)": {
+        "return type": "void",
+        "method name": "getPlatformPermissionsForGroup",
+        "parameters": [
+            "String",
+            "Executor",
+            "Consumer"
+        ]
+    },
+    "int getPreferredActivities(List outFilters, List outActivities, String packageName)": {
+        "return type": "int",
+        "method name": "getPreferredActivities",
+        "parameters": [
+            "List",
+            "List",
+            "String"
+        ]
+    },
+    "List getPreferredPackages(int flags)": {
+        "return type": "List",
+        "method name": "getPreferredPackages",
+        "parameters": [
+            "int"
+        ]
+    },
+    "PackageManager.Property getProperty(String propertyName, String packageName)": {
+        "return type": "PackageManager.Property",
+        "method name": "getProperty",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "PackageManager.Property getProperty(String propertyName, ComponentName component)": {
+        "return type": "PackageManager.Property",
+        "method name": "getProperty",
+        "parameters": [
+            "String",
+            "ComponentName"
+        ]
+    },
+    "ProviderInfo getProviderInfo(ComponentName component, int flags)": {
+        "return type": "ProviderInfo",
+        "method name": "getProviderInfo",
+        "parameters": [
+            "ComponentName",
+            "int"
+        ]
+    },
+    "ProviderInfo getProviderInfo(ComponentName component, PackageManager.ComponentInfoFlags flags)": {
+        "return type": "ProviderInfo",
+        "method name": "getProviderInfo",
+        "parameters": [
+            "ComponentName",
+            "PackageManager.ComponentInfoFlags"
+        ]
+    },
+    "ActivityInfo getReceiverInfo(ComponentName component, int flags)": {
+        "return type": "ActivityInfo",
+        "method name": "getReceiverInfo",
+        "parameters": [
+            "ComponentName",
+            "int"
+        ]
+    },
+    "ActivityInfo getReceiverInfo(ComponentName component, PackageManager.ComponentInfoFlags flags)": {
+        "return type": "ActivityInfo",
+        "method name": "getReceiverInfo",
+        "parameters": [
+            "ComponentName",
+            "PackageManager.ComponentInfoFlags"
+        ]
+    },
+    "Resources getResourcesForActivity(ComponentName activityName)": {
+        "return type": "Resources",
+        "method name": "getResourcesForActivity",
+        "parameters": [
+            "ComponentName"
+        ]
+    },
+    "Resources getResourcesForApplication(ApplicationInfo app)": {
+        "return type": "Resources",
+        "method name": "getResourcesForApplication",
+        "parameters": [
+            "ApplicationInfo"
+        ]
+    },
+    "Resources getResourcesForApplication(String packageName)": {
+        "return type": "Resources",
+        "method name": "getResourcesForApplication",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Resources getResourcesForApplication(ApplicationInfo app, Configuration configuration)": {
+        "return type": "Resources",
+        "method name": "getResourcesForApplication",
+        "parameters": [
+            "ApplicationInfo",
+            "Configuration"
+        ]
+    },
+    "ServiceInfo getServiceInfo(ComponentName component, PackageManager.ComponentInfoFlags flags)": {
+        "return type": "ServiceInfo",
+        "method name": "getServiceInfo",
+        "parameters": [
+            "ComponentName",
+            "PackageManager.ComponentInfoFlags"
+        ]
+    },
+    "ServiceInfo getServiceInfo(ComponentName component, int flags)": {
+        "return type": "ServiceInfo",
+        "method name": "getServiceInfo",
+        "parameters": [
+            "ComponentName",
+            "int"
+        ]
+    },
+    "List getSharedLibraries(PackageManager.PackageInfoFlags flags)": {
+        "return type": "List",
+        "method name": "getSharedLibraries",
+        "parameters": [
+            "PackageManager.PackageInfoFlags"
+        ]
+    },
+    "List getSharedLibraries(int flags)": {
+        "return type": "List",
+        "method name": "getSharedLibraries",
+        "parameters": [
+            "int"
+        ]
+    },
+    "Bundle getSuspendedPackageAppExtras()": {
+        "return type": "Bundle",
+        "method name": "getSuspendedPackageAppExtras",
+        "parameters": []
+    },
+    "boolean getSyntheticAppDetailsActivityEnabled(String packageName)": {
+        "return type": "boolean",
+        "method name": "getSyntheticAppDetailsActivityEnabled",
+        "parameters": [
+            "String"
+        ]
+    },
+    "FeatureInfo[] getSystemAvailableFeatures()": {
+        "return type": "FeatureInfo[]",
+        "method name": "getSystemAvailableFeatures",
+        "parameters": []
+    },
+    "String[] getSystemSharedLibraryNames()": {
+        "return type": "String[]",
+        "method name": "getSystemSharedLibraryNames",
+        "parameters": []
+    },
+    "int getTargetSdkVersion(String packageName)": {
+        "return type": "int",
+        "method name": "getTargetSdkVersion",
+        "parameters": [
+            "String"
+        ]
+    },
+    "CharSequence getText(String packageName, int resid, ApplicationInfo appInfo)": {
+        "return type": "CharSequence",
+        "method name": "getText",
+        "parameters": [
+            "String",
+            "int",
+            "ApplicationInfo"
+        ]
+    },
+    "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)": {
+        "return type": "Drawable",
+        "method name": "getUserBadgedDrawableForDensity",
+        "parameters": [
+            "Drawable",
+            "UserHandle",
+            "Rect",
+            "int"
+        ]
+    },
+    "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)": {
+        "return type": "Drawable",
+        "method name": "getUserBadgedIcon",
+        "parameters": [
+            "Drawable",
+            "UserHandle"
+        ]
+    },
+    "CharSequence getUserBadgedLabel(CharSequence label, UserHandle user)": {
+        "return type": "CharSequence",
+        "method name": "getUserBadgedLabel",
+        "parameters": [
+            "CharSequence",
+            "UserHandle"
+        ]
+    },
+    "Set getWhitelistedRestrictedPermissions(String packageName, int whitelistFlag)": {
+        "return type": "Set",
+        "method name": "getWhitelistedRestrictedPermissions",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "XmlResourceParser getXml(String packageName, int resid, ApplicationInfo appInfo)": {
+        "return type": "XmlResourceParser",
+        "method name": "getXml",
+        "parameters": [
+            "String",
+            "int",
+            "ApplicationInfo"
+        ]
+    },
+    "boolean hasSigningCertificate(int uid, byte[] certificate, int type)": {
+        "return type": "boolean",
+        "method name": "hasSigningCertificate",
+        "parameters": [
+            "int",
+            "byte[]",
+            "int"
+        ]
+    },
+    "boolean hasSigningCertificate(String packageName, byte[] certificate, int type)": {
+        "return type": "boolean",
+        "method name": "hasSigningCertificate",
+        "parameters": [
+            "String",
+            "byte[]",
+            "int"
+        ]
+    },
+    "boolean hasSystemFeature(String featureName)": {
+        "return type": "boolean",
+        "method name": "hasSystemFeature",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean hasSystemFeature(String featureName, int version)": {
+        "return type": "boolean",
+        "method name": "hasSystemFeature",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "boolean isAutoRevokeWhitelisted(String packageName)": {
+        "return type": "boolean",
+        "method name": "isAutoRevokeWhitelisted",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isAutoRevokeWhitelisted()": {
+        "return type": "boolean",
+        "method name": "isAutoRevokeWhitelisted",
+        "parameters": []
+    },
+    "boolean isDefaultApplicationIcon(Drawable drawable)": {
+        "return type": "boolean",
+        "method name": "isDefaultApplicationIcon",
+        "parameters": [
+            "Drawable"
+        ]
+    },
+    "boolean isDeviceUpgrading()": {
+        "return type": "boolean",
+        "method name": "isDeviceUpgrading",
+        "parameters": []
+    },
+    "boolean isInstantApp()": {
+        "return type": "boolean",
+        "method name": "isInstantApp",
+        "parameters": []
+    },
+    "boolean isInstantApp(String packageName)": {
+        "return type": "boolean",
+        "method name": "isInstantApp",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isPackageSuspended(String packageName)": {
+        "return type": "boolean",
+        "method name": "isPackageSuspended",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isPackageSuspended()": {
+        "return type": "boolean",
+        "method name": "isPackageSuspended",
+        "parameters": []
+    },
+    "boolean isPermissionRevokedByPolicy(String permName, String packageName)": {
+        "return type": "boolean",
+        "method name": "isPermissionRevokedByPolicy",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "boolean isSafeMode()": {
+        "return type": "boolean",
+        "method name": "isSafeMode",
+        "parameters": []
+    },
+    "List queryActivityProperty(String propertyName)": {
+        "return type": "List",
+        "method name": "queryActivityProperty",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List queryApplicationProperty(String propertyName)": {
+        "return type": "List",
+        "method name": "queryApplicationProperty",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List queryBroadcastReceivers(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "return type": "List",
+        "method name": "queryBroadcastReceivers",
+        "parameters": [
+            "Intent",
+            "PackageManager.ResolveInfoFlags"
+        ]
+    },
+    "List queryBroadcastReceivers(Intent intent, int flags)": {
+        "return type": "List",
+        "method name": "queryBroadcastReceivers",
+        "parameters": [
+            "Intent",
+            "int"
+        ]
+    },
+    "List queryContentProviders(String processName, int uid, int flags)": {
+        "return type": "List",
+        "method name": "queryContentProviders",
+        "parameters": [
+            "String",
+            "int",
+            "int"
+        ]
+    },
+    "List queryContentProviders(String processName, int uid, PackageManager.ComponentInfoFlags flags)": {
+        "return type": "List",
+        "method name": "queryContentProviders",
+        "parameters": [
+            "String",
+            "int",
+            "PackageManager.ComponentInfoFlags"
+        ]
+    },
+    "List queryInstrumentation(String targetPackage, int flags)": {
+        "return type": "List",
+        "method name": "queryInstrumentation",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "List queryIntentActivities(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "return type": "List",
+        "method name": "queryIntentActivities",
+        "parameters": [
+            "Intent",
+            "PackageManager.ResolveInfoFlags"
+        ]
+    },
+    "List queryIntentActivities(Intent intent, int flags)": {
+        "return type": "List",
+        "method name": "queryIntentActivities",
+        "parameters": [
+            "Intent",
+            "int"
+        ]
+    },
+    "List queryIntentActivityOptions(ComponentName caller, Intent[] specifics, Intent intent, int flags)": {
+        "return type": "List",
+        "method name": "queryIntentActivityOptions",
+        "parameters": [
+            "ComponentName",
+            "Intent[]",
+            "Intent",
+            "int"
+        ]
+    },
+    "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "return type": "List",
+        "method name": "queryIntentActivityOptions",
+        "parameters": [
+            "ComponentName",
+            "List",
+            "Intent",
+            "PackageManager.ResolveInfoFlags"
+        ]
+    },
+    "List queryIntentContentProviders(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "return type": "List",
+        "method name": "queryIntentContentProviders",
+        "parameters": [
+            "Intent",
+            "PackageManager.ResolveInfoFlags"
+        ]
+    },
+    "List queryIntentContentProviders(Intent intent, int flags)": {
+        "return type": "List",
+        "method name": "queryIntentContentProviders",
+        "parameters": [
+            "Intent",
+            "int"
+        ]
+    },
+    "List queryIntentServices(Intent intent, int flags)": {
+        "return type": "List",
+        "method name": "queryIntentServices",
+        "parameters": [
+            "Intent",
+            "int"
+        ]
+    },
+    "List queryIntentServices(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "return type": "List",
+        "method name": "queryIntentServices",
+        "parameters": [
+            "Intent",
+            "PackageManager.ResolveInfoFlags"
+        ]
+    },
+    "List queryPermissionsByGroup(String permissionGroup, int flags)": {
+        "return type": "List",
+        "method name": "queryPermissionsByGroup",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "List queryProviderProperty(String propertyName)": {
+        "return type": "List",
+        "method name": "queryProviderProperty",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List queryReceiverProperty(String propertyName)": {
+        "return type": "List",
+        "method name": "queryReceiverProperty",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List queryServiceProperty(String propertyName)": {
+        "return type": "List",
+        "method name": "queryServiceProperty",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void relinquishUpdateOwnership(String targetPackage)": {
+        "return type": "void",
+        "method name": "relinquishUpdateOwnership",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void removePackageFromPreferred(String packageName)": {
+        "return type": "void",
+        "method name": "removePackageFromPreferred",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void removePermission(String permName)": {
+        "return type": "void",
+        "method name": "removePermission",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean removeWhitelistedRestrictedPermission(String packageName, String permName, int whitelistFlags)": {
+        "return type": "boolean",
+        "method name": "removeWhitelistedRestrictedPermission",
+        "parameters": [
+            "String",
+            "String",
+            "int"
+        ]
+    },
+    "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)": {
+        "return type": "void",
+        "method name": "requestChecksums",
+        "parameters": [
+            "String",
+            "boolean",
+            "int",
+            "List",
+            "PackageManager.OnChecksumsReadyListener"
+        ]
+    },
+    "ResolveInfo resolveActivity(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "return type": "ResolveInfo",
+        "method name": "resolveActivity",
+        "parameters": [
+            "Intent",
+            "PackageManager.ResolveInfoFlags"
+        ]
+    },
+    "ResolveInfo resolveActivity(Intent intent, int flags)": {
+        "return type": "ResolveInfo",
+        "method name": "resolveActivity",
+        "parameters": [
+            "Intent",
+            "int"
+        ]
+    },
+    "ProviderInfo resolveContentProvider(String authority, PackageManager.ComponentInfoFlags flags)": {
+        "return type": "ProviderInfo",
+        "method name": "resolveContentProvider",
+        "parameters": [
+            "String",
+            "PackageManager.ComponentInfoFlags"
+        ]
+    },
+    "ProviderInfo resolveContentProvider(String authority, int flags)": {
+        "return type": "ProviderInfo",
+        "method name": "resolveContentProvider",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "ResolveInfo resolveService(Intent intent, int flags)": {
+        "return type": "ResolveInfo",
+        "method name": "resolveService",
+        "parameters": [
+            "Intent",
+            "int"
+        ]
+    },
+    "ResolveInfo resolveService(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "return type": "ResolveInfo",
+        "method name": "resolveService",
+        "parameters": [
+            "Intent",
+            "PackageManager.ResolveInfoFlags"
+        ]
+    },
+    "void setApplicationCategoryHint(String packageName, int categoryHint)": {
+        "return type": "void",
+        "method name": "setApplicationCategoryHint",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "void setApplicationEnabledSetting(String packageName, int newState, int flags)": {
+        "return type": "void",
+        "method name": "setApplicationEnabledSetting",
+        "parameters": [
+            "String",
+            "int",
+            "int"
+        ]
+    },
+    "boolean setAutoRevokeWhitelisted(String packageName, boolean whitelisted)": {
+        "return type": "boolean",
+        "method name": "setAutoRevokeWhitelisted",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "void setComponentEnabledSetting(ComponentName componentName, int newState, int flags)": {
+        "return type": "void",
+        "method name": "setComponentEnabledSetting",
+        "parameters": [
+            "ComponentName",
+            "int",
+            "int"
+        ]
+    },
+    "void setComponentEnabledSettings(List settings)": {
+        "return type": "void",
+        "method name": "setComponentEnabledSettings",
+        "parameters": [
+            "List"
+        ]
+    },
+    "void setInstallerPackageName(String targetPackage, String installerPackageName)": {
+        "return type": "void",
+        "method name": "setInstallerPackageName",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "void setMimeGroup(String mimeGroup, Set mimeTypes)": {
+        "return type": "void",
+        "method name": "setMimeGroup",
+        "parameters": [
+            "String",
+            "Set"
+        ]
+    },
+    "void updateInstantAppCookie(byte[] cookie)": {
+        "return type": "void",
+        "method name": "updateInstantAppCookie",
+        "parameters": [
+            "byte[]"
+        ]
+    },
+    "void verifyPendingInstall(int id, int verificationCode)": {
+        "return type": "void",
+        "method name": "verifyPendingInstall",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    }
+}

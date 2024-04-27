@@ -1,0 +1,30 @@
+{
+    "void remove()": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean hasNext()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "E next()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void forEachRemaining(Consumer action)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    }
+}

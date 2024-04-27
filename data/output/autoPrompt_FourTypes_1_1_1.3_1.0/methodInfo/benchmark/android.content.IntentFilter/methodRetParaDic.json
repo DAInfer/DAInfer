@@ -1,0 +1,341 @@
+{
+    "Iterator actionsIterator()": {
+        "return type": "Iterator",
+        "method name": "actionsIterator",
+        "parameters": []
+    },
+    "void addAction(String action)": {
+        "return type": "void",
+        "method name": "addAction",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void addCategory(String category)": {
+        "return type": "void",
+        "method name": "addCategory",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void addDataAuthority(String host, String port)": {
+        "return type": "void",
+        "method name": "addDataAuthority",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "void addDataPath(String path, int type)": {
+        "return type": "void",
+        "method name": "addDataPath",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "void addDataScheme(String scheme)": {
+        "return type": "void",
+        "method name": "addDataScheme",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void addDataSchemeSpecificPart(String ssp, int type)": {
+        "return type": "void",
+        "method name": "addDataSchemeSpecificPart",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "void addDataType(String type)": {
+        "return type": "void",
+        "method name": "addDataType",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Predicate asPredicate()": {
+        "return type": "Predicate",
+        "method name": "asPredicate",
+        "parameters": []
+    },
+    "Predicate asPredicateWithTypeResolution(ContentResolver resolver)": {
+        "return type": "Predicate",
+        "method name": "asPredicateWithTypeResolution",
+        "parameters": [
+            "ContentResolver"
+        ]
+    },
+    "Iterator authoritiesIterator()": {
+        "return type": "Iterator",
+        "method name": "authoritiesIterator",
+        "parameters": []
+    },
+    "Iterator categoriesIterator()": {
+        "return type": "Iterator",
+        "method name": "categoriesIterator",
+        "parameters": []
+    },
+    "int countActions()": {
+        "return type": "int",
+        "method name": "countActions",
+        "parameters": []
+    },
+    "int countCategories()": {
+        "return type": "int",
+        "method name": "countCategories",
+        "parameters": []
+    },
+    "int countDataAuthorities()": {
+        "return type": "int",
+        "method name": "countDataAuthorities",
+        "parameters": []
+    },
+    "int countDataPaths()": {
+        "return type": "int",
+        "method name": "countDataPaths",
+        "parameters": []
+    },
+    "int countDataSchemeSpecificParts()": {
+        "return type": "int",
+        "method name": "countDataSchemeSpecificParts",
+        "parameters": []
+    },
+    "int countDataSchemes()": {
+        "return type": "int",
+        "method name": "countDataSchemes",
+        "parameters": []
+    },
+    "int countDataTypes()": {
+        "return type": "int",
+        "method name": "countDataTypes",
+        "parameters": []
+    },
+    "IntentFilter create(String action, String dataType)": {
+        "return type": "IntentFilter",
+        "method name": "create",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "int describeContents()": {
+        "return type": "int",
+        "method name": "describeContents",
+        "parameters": []
+    },
+    "void dump(Printer du, String prefix)": {
+        "return type": "void",
+        "method name": "dump",
+        "parameters": [
+            "Printer",
+            "String"
+        ]
+    },
+    "String getAction(int index)": {
+        "return type": "String",
+        "method name": "getAction",
+        "parameters": [
+            "int"
+        ]
+    },
+    "String getCategory(int index)": {
+        "return type": "String",
+        "method name": "getCategory",
+        "parameters": [
+            "int"
+        ]
+    },
+    "IntentFilter.AuthorityEntry getDataAuthority(int index)": {
+        "return type": "IntentFilter.AuthorityEntry",
+        "method name": "getDataAuthority",
+        "parameters": [
+            "int"
+        ]
+    },
+    "PatternMatcher getDataPath(int index)": {
+        "return type": "PatternMatcher",
+        "method name": "getDataPath",
+        "parameters": [
+            "int"
+        ]
+    },
+    "String getDataScheme(int index)": {
+        "return type": "String",
+        "method name": "getDataScheme",
+        "parameters": [
+            "int"
+        ]
+    },
+    "PatternMatcher getDataSchemeSpecificPart(int index)": {
+        "return type": "PatternMatcher",
+        "method name": "getDataSchemeSpecificPart",
+        "parameters": [
+            "int"
+        ]
+    },
+    "String getDataType(int index)": {
+        "return type": "String",
+        "method name": "getDataType",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int getPriority()": {
+        "return type": "int",
+        "method name": "getPriority",
+        "parameters": []
+    },
+    "boolean hasAction(String action)": {
+        "return type": "boolean",
+        "method name": "hasAction",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean hasCategory(String category)": {
+        "return type": "boolean",
+        "method name": "hasCategory",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean hasDataAuthority(Uri data)": {
+        "return type": "boolean",
+        "method name": "hasDataAuthority",
+        "parameters": [
+            "Uri"
+        ]
+    },
+    "boolean hasDataPath(String data)": {
+        "return type": "boolean",
+        "method name": "hasDataPath",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean hasDataScheme(String scheme)": {
+        "return type": "boolean",
+        "method name": "hasDataScheme",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean hasDataSchemeSpecificPart(String data)": {
+        "return type": "boolean",
+        "method name": "hasDataSchemeSpecificPart",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean hasDataType(String type)": {
+        "return type": "boolean",
+        "method name": "hasDataType",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int match(String action, String type, String scheme, Uri data, Set categories, String logTag)": {
+        "return type": "int",
+        "method name": "match",
+        "parameters": [
+            "String",
+            "String",
+            "String",
+            "Uri",
+            "Set",
+            "String"
+        ]
+    },
+    "int match(ContentResolver resolver, Intent intent, boolean resolve, String logTag)": {
+        "return type": "int",
+        "method name": "match",
+        "parameters": [
+            "ContentResolver",
+            "Intent",
+            "boolean",
+            "String"
+        ]
+    },
+    "boolean matchAction(String action)": {
+        "return type": "boolean",
+        "method name": "matchAction",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String matchCategories(Set categories)": {
+        "return type": "String",
+        "method name": "matchCategories",
+        "parameters": [
+            "Set"
+        ]
+    },
+    "int matchData(String type, String scheme, Uri data)": {
+        "return type": "int",
+        "method name": "matchData",
+        "parameters": [
+            "String",
+            "String",
+            "Uri"
+        ]
+    },
+    "int matchDataAuthority(Uri data)": {
+        "return type": "int",
+        "method name": "matchDataAuthority",
+        "parameters": [
+            "Uri"
+        ]
+    },
+    "Iterator pathsIterator()": {
+        "return type": "Iterator",
+        "method name": "pathsIterator",
+        "parameters": []
+    },
+    "void readFromXml(XmlPullParser parser)": {
+        "return type": "void",
+        "method name": "readFromXml",
+        "parameters": [
+            "XmlPullParser"
+        ]
+    },
+    "Iterator schemeSpecificPartsIterator()": {
+        "return type": "Iterator",
+        "method name": "schemeSpecificPartsIterator",
+        "parameters": []
+    },
+    "Iterator schemesIterator()": {
+        "return type": "Iterator",
+        "method name": "schemesIterator",
+        "parameters": []
+    },
+    "void setPriority(int priority)": {
+        "return type": "void",
+        "method name": "setPriority",
+        "parameters": [
+            "int"
+        ]
+    },
+    "Iterator typesIterator()": {
+        "return type": "Iterator",
+        "method name": "typesIterator",
+        "parameters": []
+    },
+    "void writeToParcel(Parcel dest, int flags)": {
+        "return type": "void",
+        "method name": "writeToParcel",
+        "parameters": [
+            "Parcel",
+            "int"
+        ]
+    },
+    "void writeToXml(XmlSerializer serializer)": {
+        "return type": "void",
+        "method name": "writeToXml",
+        "parameters": [
+            "XmlSerializer"
+        ]
+    }
+}

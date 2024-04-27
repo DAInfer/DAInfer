@@ -1,0 +1,80 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "Header getFirstHeader(String name)",
+            "String getMethod()"
+        ],
+        [
+            "HeaderIterator headerIterator(String name)",
+            "String getMethod()"
+        ],
+        [
+            "void setHeader(Header header)",
+            "Header getLastHeader(String name)"
+        ],
+        [
+            "void setConfig(RequestConfig config)",
+            "RequestConfig getConfig()"
+        ],
+        [
+            "void addHeader(String name, String value)",
+            "String getMethod()"
+        ],
+        [
+            "void removeHeader(Header header)",
+            "Header getLastHeader(String name)"
+        ],
+        [
+            "void addHeader(Header header)",
+            "Header getLastHeader(String name)"
+        ],
+        [
+            "void setHeader(Header header)",
+            "Header getFirstHeader(String name)"
+        ],
+        [
+            "void setHeaders(Header[] headers)",
+            "Header[] getAllHeaders()"
+        ],
+        [
+            "Header getLastHeader(String name)",
+            "String getMethod()"
+        ],
+        [
+            "void setURI(URI uri)",
+            "URI getURI()"
+        ],
+        [
+            "void setHeader(String name, String value)",
+            "String getMethod()"
+        ],
+        [
+            "void removeHeader(Header header)",
+            "Header getFirstHeader(String name)"
+        ],
+        [
+            "void setHeaders(Header[] headers)",
+            "Header[] getHeaders(String name)"
+        ],
+        [
+            "void addHeader(Header header)",
+            "Header getFirstHeader(String name)"
+        ],
+        [
+            "void setProtocolVersion(ProtocolVersion version)",
+            "ProtocolVersion getProtocolVersion()"
+        ],
+        [
+            "void removeHeaders(String name)",
+            "String getMethod()"
+        ],
+        [
+            "boolean containsHeader(String name)",
+            "String getMethod()"
+        ],
+        [
+            "Header[] getHeaders(String name)",
+            "String getMethod()"
+        ]
+    ]
+}

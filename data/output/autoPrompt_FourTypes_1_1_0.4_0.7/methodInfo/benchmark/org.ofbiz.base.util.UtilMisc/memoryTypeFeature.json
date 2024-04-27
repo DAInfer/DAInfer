@@ -1,0 +1,170 @@
+{
+    "T removeFirst(java.util.List lst)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "java.util.List sortMaps(java.util.List listOfMaps, java.util.List sortKeys)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "java.util.Map makeMapWritable(java.util.Map map)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "java.util.Map toMap(java.lang.Object... kvs)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void addToSortedSetInMap(V element, java.util.Map theMap, K setKey)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "java.util.Map getMapFromMap(java.util.Map outerMap, K key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void makeMapSerializable(java.util.Map map)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "int compare(java.util.List obj1, java.util.List obj2)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "java.util.List getHostHeadersAllowed()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void addToSetInMap(V element, java.util.Map theMap, K setKey)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "int compare(java.lang.Comparable obj1, T obj2)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "java.util.Map toMap(java.util.function.Supplier constructor, java.lang.Object... kvs)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "java.lang.Long toLongObject(java.lang.Object obj)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "java.util.List makeListWritable(java.util.Collection col)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "java.util.List availableLocales()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "double toDouble(java.lang.Object obj)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "long toLong(java.lang.Object obj)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "java.util.Locale ensureLocale(java.lang.Object localeObject)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "java.util.List toList(java.util.Collection collection)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "T initCause(T throwable, java.lang.Throwable cause)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "java.lang.Integer toIntegerObject(java.lang.Object obj)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "java.util.Locale parseLocale(java.lang.String localeString)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "java.lang.Double toDoubleObject(java.lang.Object obj)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "int toInteger(java.lang.Object obj)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    }
+}

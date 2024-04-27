@@ -1,0 +1,28 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "boolean isInArgsList(String paramName)",
+            "String getParamArgument(String paramName)"
+        ],
+        [
+            "boolean addParameter(String paramName, boolean hasArg)",
+            "String getParamArgument(String paramName)"
+        ],
+        [
+            "boolean addAlias(String param, String alias)",
+            "String getParamArgument(String paramName)"
+        ],
+        [
+            "boolean isKnownParameter(String paramName)",
+            "String getParamArgument(String paramName)"
+        ],
+        [
+            "void parseCmdLine(String[] args)",
+            "String[] getRestArgs()"
+        ],
+        [
+            "boolean addParameter(String paramName)",
+            "String getParamArgument(String paramName)"
+        ]
+    ]
+}

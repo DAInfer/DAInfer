@@ -1,0 +1,18 @@
+{
+    "class": "AtomicReference",
+    "category": "Class",
+    "methods": {
+        "V accumulateAndGet(V x, BinaryOperator accumulatorFunction)": "Atomically updates the current value with the results of applying the given function to the current and given values, returning the updated value.",
+        "boolean compareAndSet(V expect, V update)": "Atomically sets the value to the given updated value if the current value == the expected value.",
+        "V get()": "Gets the current value.",
+        "V getAndAccumulate(V x, BinaryOperator accumulatorFunction)": "Atomically updates the current value with the results of applying the given function to the current and given values, returning the previous value.",
+        "V getAndSet(V newValue)": "Atomically sets to the given value and returns the old value.",
+        "V getAndUpdate(UnaryOperator updateFunction)": "Atomically updates the current value with the results of applying the given function, returning the previous value.",
+        "void lazySet(V newValue)": "Eventually sets to the given value.",
+        "void set(V newValue)": "Sets to the given value.",
+        "String toString()": "Returns the String representation of the current value.",
+        "V updateAndGet(UnaryOperator updateFunction)": "Atomically updates the current value with the results of applying the given function, returning the updated value.",
+        "boolean weakCompareAndSet(V expect, V update)": "Atomically sets the value to the given updated value if the current value == the expected value."
+    },
+    "super class": []
+}

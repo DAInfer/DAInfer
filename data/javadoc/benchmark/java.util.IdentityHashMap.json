@@ -1,0 +1,27 @@
+{
+    "class": "IdentityHashMap",
+    "category": "Class",
+    "methods": {
+        "void clear()": "Removes all of the mappings from this map.",
+        "Object clone()": "Returns a shallow copy of this identity hash map: the keys and values themselves are not cloned.",
+        "boolean containsKey(Object key)": "Tests whether the specified object reference is a key in this identity hash map.",
+        "boolean containsValue(Object value)": "Tests whether the specified object reference is a value in this identity hash map.",
+        "Set entrySet()": "Returns a Set view of the mappings contained in this map.",
+        "boolean equals(Object o)": "Compares the specified object with this map for equality.",
+        "void forEach(BiConsumer action)": "Performs the given action for each entry in this map until all entries have been processed or the action throws an exception.",
+        "V get(Object key)": "Returns the value to which the specified key is mapped, or null if this map contains no mapping for the key.",
+        "int hashCode()": "Returns the hash code value for this map.",
+        "boolean isEmpty()": "Returns true if this identity hash map contains no key-value mappings.",
+        "Set keySet()": "Returns an identity-based set view of the keys contained in this map.",
+        "V put(K key, V value)": "Associates the specified value with the specified key in this identity hash map.",
+        "void putAll(Map m)": "Copies all of the mappings from the specified map to this map.",
+        "V remove(Object key)": "Removes the mapping for this key from this map if present.",
+        "void replaceAll(BiFunction function)": "Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.",
+        "int size()": "Returns the number of key-value mappings in this identity hash map.",
+        "Collection values()": "Returns a Collection view of the values contained in this map."
+    },
+    "super class": [
+        "java.util.AbstractMap",
+        "java.util.Map"
+    ]
+}

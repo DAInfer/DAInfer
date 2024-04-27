@@ -1,0 +1,380 @@
+{
+    "void putSparseParcelableArray(String key, SparseArray value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "SparseArray getSparseParcelableArray(String key, Class clazz)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putStringArrayList(String key, ArrayList value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "ArrayList getStringArrayList(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putCharSequence(String key, CharSequence value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "CharSequence getCharSequence(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putLongArray(String key, long[] value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "long[] getLongArray(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void putBinder(String key, IBinder value)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "IBinder getBinder(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putBooleanArray(String key, boolean[] value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "boolean[] getBooleanArray(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "SparseArray getSparseParcelableArray(String key)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "CharSequence getCharSequence(String key, CharSequence defaultValue)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putFloatArray(String key, float[] value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "float[] getFloatArray(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void putIntArray(String key, int[] value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "int[] getIntArray(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putCharSequenceArray(String key, CharSequence[] value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "CharSequence[] getCharSequenceArray(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void putCharArray(String key, char[] value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "char[] getCharArray(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putParcelableArrayList(String key, ArrayList value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "ArrayList getParcelableArrayList(String key)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putParcelableArray(String key, Parcelable[] value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Parcelable[] getParcelableArray(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setClassLoader(ClassLoader loader)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "ClassLoader getClassLoader()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putBundle(String key, Bundle value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Bundle getBundle(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putStringArray(String key, String[] value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "String[] getStringArray(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "String getString(String key, String defaultValue)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "String getString(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putSerializable(String key, Serializable value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Serializable getSerializable(String key)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putCharSequenceArrayList(String key, ArrayList value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "ArrayList getCharSequenceArrayList(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putShortArray(String key, short[] value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "short[] getShortArray(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void putByteArray(String key, byte[] value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "byte[] getByteArray(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putString(String key, String value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void putAll(Bundle bundle)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Bundle deepCopy()": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void putSizeF(String key, SizeF value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "SizeF getSizeF(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putIntegerArrayList(String key, ArrayList value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "ArrayList getIntegerArrayList(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "ArrayList getParcelableArrayList(String key, Class clazz)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void putDoubleArray(String key, double[] value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "double[] getDoubleArray(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void putSize(String key, Size value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Size getSize(String key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    }
+}

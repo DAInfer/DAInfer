@@ -1,0 +1,92 @@
+{
+    "Message obtain(Handler h, int what, int arg1, int arg2, Object obj)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "Handler getTarget()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Message obtain(Message orig)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Message obtain()": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Message obtain(Handler h, int what)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void setData(Bundle data)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Bundle peekData()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Message obtain(Handler h)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void setTarget(Handler target)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Message obtain(Handler h, int what, int arg1, int arg2)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "void copyFrom(Message o)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "Bundle getData()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Message obtain(Handler h, int what, Object obj)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "Message obtain(Handler h, Runnable callback)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Runnable getCallback()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    }
+}

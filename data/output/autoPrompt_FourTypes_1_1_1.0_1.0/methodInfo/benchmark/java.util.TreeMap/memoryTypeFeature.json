@@ -1,0 +1,290 @@
+{
+    "Map.Entry floorEntry(K key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "NavigableSet navigableKeySet()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Set entrySet()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "V compute(K key, BiFunction remappingFunction)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "V remove(Object key)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "void putAll(Map map)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "K firstKey()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void forEach(Consumer action)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "SortedMap tailMap(K fromKey)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Iterator iterator()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Map.Entry ceilingEntry(K key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "V putIfAbsent(K key, V value)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Set keySet()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "V replace(K key, V value)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "Map.Entry pollFirstEntry()": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "boolean remove(Object key, Object value)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "Map.Entry firstEntry()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Map.Entry lowerEntry(K key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "V put(K key, V value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "V getOrDefault(Object key, V defaultValue)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "V computeIfPresent(K key, BiFunction remappingFunction)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void putAll(Map m)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "K ceilingKey(K key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "SortedMap subMap(K fromKey, K toKey)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "NavigableMap descendingMap()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Comparator comparator()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "K higherKey(K key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "V computeIfAbsent(K key, Function mappingFunction)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "K lowerKey(K key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void replaceAll(BiFunction function)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "K lastKey()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean replace(K key, V oldValue, V newValue)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "V get(Object key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "NavigableSet descendingKeySet()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Spliterator spliterator()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "NavigableMap headMap(K toKey, boolean inclusive)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Map.Entry pollLastEntry()": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "Collection values()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean containsKey(Object key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "K floorKey(K key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "SortedMap headMap(K toKey)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean containsValue(Object value)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Map.Entry higherEntry(K key)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Map.Entry lastEntry()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "NavigableMap tailMap(K fromKey, boolean inclusive)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void forEach(BiConsumer action)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "V merge(K key, V value, BiFunction remappingFunction)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    }
+}

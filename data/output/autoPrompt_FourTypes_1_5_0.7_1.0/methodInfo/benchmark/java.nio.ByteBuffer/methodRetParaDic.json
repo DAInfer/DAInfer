@@ -1,0 +1,440 @@
+{
+    "ByteBuffer allocate(int capacity)": {
+        "return type": "ByteBuffer",
+        "method name": "allocate",
+        "parameters": [
+            "int"
+        ]
+    },
+    "ByteBuffer allocateDirect(int capacity)": {
+        "return type": "ByteBuffer",
+        "method name": "allocateDirect",
+        "parameters": [
+            "int"
+        ]
+    },
+    "byte[] array()": {
+        "return type": "byte[]",
+        "method name": "array",
+        "parameters": []
+    },
+    "int arrayOffset()": {
+        "return type": "int",
+        "method name": "arrayOffset",
+        "parameters": []
+    },
+    "CharBuffer asCharBuffer()": {
+        "return type": "CharBuffer",
+        "method name": "asCharBuffer",
+        "parameters": []
+    },
+    "DoubleBuffer asDoubleBuffer()": {
+        "return type": "DoubleBuffer",
+        "method name": "asDoubleBuffer",
+        "parameters": []
+    },
+    "FloatBuffer asFloatBuffer()": {
+        "return type": "FloatBuffer",
+        "method name": "asFloatBuffer",
+        "parameters": []
+    },
+    "IntBuffer asIntBuffer()": {
+        "return type": "IntBuffer",
+        "method name": "asIntBuffer",
+        "parameters": []
+    },
+    "LongBuffer asLongBuffer()": {
+        "return type": "LongBuffer",
+        "method name": "asLongBuffer",
+        "parameters": []
+    },
+    "ByteBuffer asReadOnlyBuffer()": {
+        "return type": "ByteBuffer",
+        "method name": "asReadOnlyBuffer",
+        "parameters": []
+    },
+    "ShortBuffer asShortBuffer()": {
+        "return type": "ShortBuffer",
+        "method name": "asShortBuffer",
+        "parameters": []
+    },
+    "ByteBuffer compact()": {
+        "return type": "ByteBuffer",
+        "method name": "compact",
+        "parameters": []
+    },
+    "int compareTo(ByteBuffer that)": {
+        "return type": "int",
+        "method name": "compareTo",
+        "parameters": [
+            "ByteBuffer"
+        ]
+    },
+    "ByteBuffer duplicate()": {
+        "return type": "ByteBuffer",
+        "method name": "duplicate",
+        "parameters": []
+    },
+    "boolean equals(Object ob)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "byte get()": {
+        "return type": "byte",
+        "method name": "get",
+        "parameters": []
+    },
+    "ByteBuffer get(byte[] dst)": {
+        "return type": "ByteBuffer",
+        "method name": "get",
+        "parameters": [
+            "byte[]"
+        ]
+    },
+    "ByteBuffer get(byte[] dst, int offset, int length)": {
+        "return type": "ByteBuffer",
+        "method name": "get",
+        "parameters": [
+            "byte[]",
+            "int",
+            "int"
+        ]
+    },
+    "byte get(int index)": {
+        "return type": "byte",
+        "method name": "get",
+        "parameters": [
+            "int"
+        ]
+    },
+    "char getChar()": {
+        "return type": "char",
+        "method name": "getChar",
+        "parameters": []
+    },
+    "char getChar(int index)": {
+        "return type": "char",
+        "method name": "getChar",
+        "parameters": [
+            "int"
+        ]
+    },
+    "double getDouble()": {
+        "return type": "double",
+        "method name": "getDouble",
+        "parameters": []
+    },
+    "double getDouble(int index)": {
+        "return type": "double",
+        "method name": "getDouble",
+        "parameters": [
+            "int"
+        ]
+    },
+    "float getFloat()": {
+        "return type": "float",
+        "method name": "getFloat",
+        "parameters": []
+    },
+    "float getFloat(int index)": {
+        "return type": "float",
+        "method name": "getFloat",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int getInt()": {
+        "return type": "int",
+        "method name": "getInt",
+        "parameters": []
+    },
+    "int getInt(int index)": {
+        "return type": "int",
+        "method name": "getInt",
+        "parameters": [
+            "int"
+        ]
+    },
+    "long getLong()": {
+        "return type": "long",
+        "method name": "getLong",
+        "parameters": []
+    },
+    "long getLong(int index)": {
+        "return type": "long",
+        "method name": "getLong",
+        "parameters": [
+            "int"
+        ]
+    },
+    "short getShort()": {
+        "return type": "short",
+        "method name": "getShort",
+        "parameters": []
+    },
+    "short getShort(int index)": {
+        "return type": "short",
+        "method name": "getShort",
+        "parameters": [
+            "int"
+        ]
+    },
+    "boolean hasArray()": {
+        "return type": "boolean",
+        "method name": "hasArray",
+        "parameters": []
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "boolean isDirect()": {
+        "return type": "boolean",
+        "method name": "isDirect",
+        "parameters": []
+    },
+    "ByteOrder order()": {
+        "return type": "ByteOrder",
+        "method name": "order",
+        "parameters": []
+    },
+    "ByteBuffer order(ByteOrder bo)": {
+        "return type": "ByteBuffer",
+        "method name": "order",
+        "parameters": [
+            "ByteOrder"
+        ]
+    },
+    "ByteBuffer put(byte b)": {
+        "return type": "ByteBuffer",
+        "method name": "put",
+        "parameters": [
+            "byte"
+        ]
+    },
+    "ByteBuffer put(byte[] src)": {
+        "return type": "ByteBuffer",
+        "method name": "put",
+        "parameters": [
+            "byte[]"
+        ]
+    },
+    "ByteBuffer put(byte[] src, int offset, int length)": {
+        "return type": "ByteBuffer",
+        "method name": "put",
+        "parameters": [
+            "byte[]",
+            "int",
+            "int"
+        ]
+    },
+    "ByteBuffer put(ByteBuffer src)": {
+        "return type": "ByteBuffer",
+        "method name": "put",
+        "parameters": [
+            "ByteBuffer"
+        ]
+    },
+    "ByteBuffer put(int index, byte b)": {
+        "return type": "ByteBuffer",
+        "method name": "put",
+        "parameters": [
+            "int",
+            "byte"
+        ]
+    },
+    "ByteBuffer putChar(char value)": {
+        "return type": "ByteBuffer",
+        "method name": "putChar",
+        "parameters": [
+            "char"
+        ]
+    },
+    "ByteBuffer putChar(int index, char value)": {
+        "return type": "ByteBuffer",
+        "method name": "putChar",
+        "parameters": [
+            "int",
+            "char"
+        ]
+    },
+    "ByteBuffer putDouble(double value)": {
+        "return type": "ByteBuffer",
+        "method name": "putDouble",
+        "parameters": [
+            "double"
+        ]
+    },
+    "ByteBuffer putDouble(int index, double value)": {
+        "return type": "ByteBuffer",
+        "method name": "putDouble",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "ByteBuffer putFloat(float value)": {
+        "return type": "ByteBuffer",
+        "method name": "putFloat",
+        "parameters": [
+            "float"
+        ]
+    },
+    "ByteBuffer putFloat(int index, float value)": {
+        "return type": "ByteBuffer",
+        "method name": "putFloat",
+        "parameters": [
+            "int",
+            "float"
+        ]
+    },
+    "ByteBuffer putInt(int value)": {
+        "return type": "ByteBuffer",
+        "method name": "putInt",
+        "parameters": [
+            "int"
+        ]
+    },
+    "ByteBuffer putInt(int index, int value)": {
+        "return type": "ByteBuffer",
+        "method name": "putInt",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "ByteBuffer putLong(int index, long value)": {
+        "return type": "ByteBuffer",
+        "method name": "putLong",
+        "parameters": [
+            "int",
+            "long"
+        ]
+    },
+    "ByteBuffer putLong(long value)": {
+        "return type": "ByteBuffer",
+        "method name": "putLong",
+        "parameters": [
+            "long"
+        ]
+    },
+    "ByteBuffer putShort(int index, short value)": {
+        "return type": "ByteBuffer",
+        "method name": "putShort",
+        "parameters": [
+            "int",
+            "short"
+        ]
+    },
+    "ByteBuffer putShort(short value)": {
+        "return type": "ByteBuffer",
+        "method name": "putShort",
+        "parameters": [
+            "short"
+        ]
+    },
+    "ByteBuffer slice()": {
+        "return type": "ByteBuffer",
+        "method name": "slice",
+        "parameters": []
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "ByteBuffer wrap(byte[] array)": {
+        "return type": "ByteBuffer",
+        "method name": "wrap",
+        "parameters": [
+            "byte[]"
+        ]
+    },
+    "ByteBuffer wrap(byte[] array, int offset, int length)": {
+        "return type": "ByteBuffer",
+        "method name": "wrap",
+        "parameters": [
+            "byte[]",
+            "int",
+            "int"
+        ]
+    },
+    "Object array()": {
+        "return type": "Object",
+        "method name": "array",
+        "parameters": []
+    },
+    "int capacity()": {
+        "return type": "int",
+        "method name": "capacity",
+        "parameters": []
+    },
+    "Buffer clear()": {
+        "return type": "Buffer",
+        "method name": "clear",
+        "parameters": []
+    },
+    "Buffer flip()": {
+        "return type": "Buffer",
+        "method name": "flip",
+        "parameters": []
+    },
+    "boolean hasRemaining()": {
+        "return type": "boolean",
+        "method name": "hasRemaining",
+        "parameters": []
+    },
+    "boolean isReadOnly()": {
+        "return type": "boolean",
+        "method name": "isReadOnly",
+        "parameters": []
+    },
+    "int limit()": {
+        "return type": "int",
+        "method name": "limit",
+        "parameters": []
+    },
+    "Buffer limit(int newLimit)": {
+        "return type": "Buffer",
+        "method name": "limit",
+        "parameters": [
+            "int"
+        ]
+    },
+    "Buffer mark()": {
+        "return type": "Buffer",
+        "method name": "mark",
+        "parameters": []
+    },
+    "int position()": {
+        "return type": "int",
+        "method name": "position",
+        "parameters": []
+    },
+    "Buffer position(int newPosition)": {
+        "return type": "Buffer",
+        "method name": "position",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int remaining()": {
+        "return type": "int",
+        "method name": "remaining",
+        "parameters": []
+    },
+    "Buffer reset()": {
+        "return type": "Buffer",
+        "method name": "reset",
+        "parameters": []
+    },
+    "Buffer rewind()": {
+        "return type": "Buffer",
+        "method name": "rewind",
+        "parameters": []
+    }
+}

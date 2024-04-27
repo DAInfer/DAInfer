@@ -1,0 +1,1732 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void setAttribute(String name, Object object)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "String getContextPath()"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "void addListener(T t)",
+            "String getServletContextName()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void addListener(String className)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void log(String msg)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "void declareRoles(String... roleNames)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "void addListener(T t)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "String getMimeType(String file)",
+            "String getContextPath()"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "JspConfigDescriptor getJspConfigDescriptor()"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "String getServerInfo()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "String getServletContextName()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "String getServerInfo()"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "URL getResource(String path)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "String getRealPath(String path)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void setSessionTrackingModes(Set sessionTrackingModes)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "String getServletContextName()"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "void addListener(T t)",
+            "URL getResource(String path)"
+        ],
+        [
+            "T createServlet(Class clazz)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void addListener(T t)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void addListener(Class listenerClass)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "String getServletContextName()"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "String getServerInfo()"
+        ],
+        [
+            "T createServlet(Class clazz)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void addListener(T t)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "String getMimeType(String file)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void addListener(T t)",
+            "Set getResourcePaths(String path)"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "URL getResource(String path)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void addListener(String className)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "T createFilter(Class clazz)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "String getContextPath()"
+        ],
+        [
+            "void addListener(T t)",
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "String getContextPath()"
+        ],
+        [
+            "void addListener(T t)",
+            "Set getDefaultSessionTrackingModes()"
+        ],
+        [
+            "void setSessionTrackingModes(Set sessionTrackingModes)",
+            "Set getResourcePaths(String path)"
+        ],
+        [
+            "T createListener(Class clazz)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "URL getResource(String path)"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "String getRealPath(String path)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "String getMimeType(String file)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)"
+        ],
+        [
+            "URL getResource(String path)",
+            "String getServerInfo()"
+        ],
+        [
+            "void addListener(String className)",
+            "String getServerInfo()"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "void setSessionTrackingModes(Set sessionTrackingModes)",
+            "Set getDefaultSessionTrackingModes()"
+        ],
+        [
+            "String getRealPath(String path)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "String getServerInfo()"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "String getRealPath(String path)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "String getServletContextName()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "String getMimeType(String file)",
+            "String getServerInfo()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "ServletContext getContext(String uripath)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "String getServletContextName()"
+        ],
+        [
+            "void addListener(T t)",
+            "FilterRegistration getFilterRegistration(String filterName)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)"
+        ],
+        [
+            "void addListener(T t)",
+            "RequestDispatcher getRequestDispatcher(String path)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "String getContextPath()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "Set getEffectiveSessionTrackingModes()"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "URL getResource(String path)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void addListener(String className)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "void log(String msg)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void addListener(T t)",
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "String getServletContextName()"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "String getContextPath()"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "String getServletContextName()"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "FilterRegistration getFilterRegistration(String filterName)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "Map getFilterRegistrations()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "RequestDispatcher getRequestDispatcher(String path)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "String getServerInfo()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void log(String msg)",
+            "String getContextPath()"
+        ],
+        [
+            "void addListener(T t)",
+            "ServletRegistration getServletRegistration(String servletName)"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "String getContextPath()"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "String getServerInfo()"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "String getServletContextName()"
+        ],
+        [
+            "URL getResource(String path)",
+            "String getServletContextName()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)"
+        ],
+        [
+            "void addListener(String className)",
+            "String getServletContextName()"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "String getContextPath()"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "String getServletContextName()"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void addListener(T t)",
+            "ClassLoader getClassLoader()"
+        ],
+        [
+            "T createFilter(Class clazz)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void declareRoles(String... roleNames)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void addListener(T t)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "String getMimeType(String file)",
+            "String getServletContextName()"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "ServletRegistration getServletRegistration(String servletName)"
+        ],
+        [
+            "T createListener(Class clazz)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void addListener(T t)",
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)"
+        ],
+        [
+            "void addListener(String className)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "void log(String msg)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "String getContextPath()"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getContextPath()"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void addListener(T t)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "URL getResource(String path)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "void addListener(String className)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "String getContextPath()"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "String getServerInfo()"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "URL getResource(String path)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "void setSessionTrackingModes(Set sessionTrackingModes)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "String getContextPath()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void addListener(Class listenerClass)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "String getRealPath(String path)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void log(String msg)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "String getContextPath()"
+        ],
+        [
+            "String getMimeType(String file)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "String getServerInfo()"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "String getMimeType(String file)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "String getServletContextName()"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "String getContextPath()"
+        ],
+        [
+            "T createServlet(Class clazz)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "void log(String msg)",
+            "String getServerInfo()"
+        ],
+        [
+            "String getRealPath(String path)",
+            "String getContextPath()"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "String getContextPath()"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "String getServerInfo()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "Set getResourcePaths(String path)"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void addListener(T t)",
+            "SessionCookieConfig getSessionCookieConfig()"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "String getServerInfo()"
+        ],
+        [
+            "void addListener(T t)",
+            "Enumeration getInitParameterNames()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "void addListener(T t)",
+            "RequestDispatcher getNamedDispatcher(String name)"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "Set getDefaultSessionTrackingModes()"
+        ],
+        [
+            "T createListener(Class clazz)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "String getServerInfo()"
+        ],
+        [
+            "String getRealPath(String path)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getServerInfo()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "String getContextPath()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "void log(String msg)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "SessionCookieConfig getSessionCookieConfig()"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void addListener(T t)",
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "String getServerInfo()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "Enumeration getInitParameterNames()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "URL getResource(String path)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "void addListener(T t)",
+            "InputStream getResourceAsStream(String path)"
+        ],
+        [
+            "void addListener(String className)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void declareRoles(String... roleNames)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "String getServerInfo()"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "String getContextPath()"
+        ],
+        [
+            "void addListener(T t)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "String getContextPath()"
+        ],
+        [
+            "void addListener(T t)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void log(String msg)",
+            "String getServletContextName()"
+        ],
+        [
+            "void setSessionTrackingModes(Set sessionTrackingModes)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "String getContextPath()"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "String getServletContextName()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "String getServerInfo()"
+        ],
+        [
+            "void addListener(Class listenerClass)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "URL getResource(String path)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void addListener(String className)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "String getRealPath(String path)",
+            "String getServerInfo()"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "String getServletContextName()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "String getServerInfo()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "void addListener(T t)",
+            "Enumeration getAttributeNames()"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "String getContextPath()"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void addListener(T t)",
+            "String getContextPath()"
+        ],
+        [
+            "URL getResource(String path)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void addListener(String className)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "URL getResource(String path)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "String getMimeType(String file)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "void addListener(T t)",
+            "Map getServletRegistrations()"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void log(String msg)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "String getServletContextName()"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getServletContextName()"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "String getMimeType(String file)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "ClassLoader getClassLoader()"
+        ],
+        [
+            "void addListener(String className)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "void log(String msg)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "Enumeration getAttributeNames()"
+        ],
+        [
+            "String getRealPath(String path)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "String getMimeType(String file)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "String getContextPath()"
+        ],
+        [
+            "void declareRoles(String... roleNames)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void addListener(T t)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "String getServletContextName()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "Map getServletRegistrations()"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void addListener(T t)",
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "T createFilter(Class clazz)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "String getServerInfo()"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "String getServletContextName()"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void setSessionTrackingModes(Set sessionTrackingModes)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "String getServerInfo()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "void addListener(Class listenerClass)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "void addListener(T t)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "String getServletContextName()"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "String getRealPath(String path)",
+            "String getServletContextName()"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "String getServletContextName()"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "String getServerInfo()"
+        ],
+        [
+            "void setResponseCharacterEncoding(String encoding)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void addListener(T t)",
+            "ServletContext getContext(String uripath)"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "RequestDispatcher getRequestDispatcher(String path)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "void addListener(T t)",
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "String getServerInfo()"
+        ],
+        [
+            "void addListener(T t)",
+            "Set getEffectiveSessionTrackingModes()"
+        ],
+        [
+            "void addListener(T t)",
+            "String getServerInfo()"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "void addListener(T t)",
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "String getContextPath()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void setSessionTrackingModes(Set sessionTrackingModes)",
+            "Set getEffectiveSessionTrackingModes()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "String getServletContextName()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "ServletRegistration getServletRegistration(String servletName)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "String getRealPath(String path)"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "String getRealPath(String path)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "boolean setInitParameter(String name, String value)",
+            "Object getAttribute(String name)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "void log(String msg)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void addListener(T t)",
+            "Map getFilterRegistrations()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "RequestDispatcher getNamedDispatcher(String name)"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "Set getResourcePaths(String path)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "String getRealPath(String path)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "String getServletContextName()"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "String getServerInfo()"
+        ],
+        [
+            "Object getAttribute(String name)",
+            "String getContextPath()"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void setRequestCharacterEncoding(String encoding)",
+            "String getServerInfo()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "RequestDispatcher getNamedDispatcher(String name)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "URL getResource(String path)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "void addListener(String className)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "String getInitParameter(String name)"
+        ],
+        [
+            "void addListener(T t)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "String getInitParameter(String name)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)"
+        ],
+        [
+            "ServletContext getContext(String uripath)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)",
+            "String getServletContextName()"
+        ],
+        [
+            "void setAttribute(String name, Object object)",
+            "InputStream getResourceAsStream(String path)"
+        ],
+        [
+            "FilterRegistration.Dynamic addFilter(String filterName, String className)",
+            "T createFilter(Class clazz)"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "String getMimeType(String file)",
+            "T createServlet(Class clazz)"
+        ],
+        [
+            "void log(String message, Throwable throwable)",
+            "String getVirtualServerName()"
+        ],
+        [
+            "void log(String msg)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "void addListener(T t)",
+            "JspConfigDescriptor getJspConfigDescriptor()"
+        ],
+        [
+            "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)",
+            "String getResponseCharacterEncoding()"
+        ],
+        [
+            "FilterRegistration getFilterRegistration(String filterName)",
+            "String getServletContextName()"
+        ],
+        [
+            "String getMimeType(String file)",
+            "String getRequestCharacterEncoding()"
+        ],
+        [
+            "ServletRegistration.Dynamic addServlet(String servletName, String className)",
+            "String getMimeType(String file)"
+        ],
+        [
+            "URL getResource(String path)",
+            "String getContextPath()"
+        ],
+        [
+            "void addListener(String className)",
+            "String getContextPath()"
+        ],
+        [
+            "void log(String msg)",
+            "T createListener(Class clazz)"
+        ],
+        [
+            "InputStream getResourceAsStream(String path)",
+            "String getResponseCharacterEncoding()"
+        ]
+    ]
+}

@@ -1,0 +1,534 @@
+{
+    "List<Long> getLongList(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "String getCurrentPath()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Object get(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "String saveToString()": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "long getLong(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "ItemStack getItemStack(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void addDefault(String path, Object value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Object get(String path, Object def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "Vector getVector(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean isLocation(String path)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setInlineComments(String path, List<String> comments)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "List<String> getInlineComments(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "Location getLocation(String path, Location def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void set(String path, Object value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "String getString(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "String createPath(ConfigurationSection section, String key)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "boolean isVector(String path)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "String getString(String path, String def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "ItemStack getItemStack(String path, ItemStack def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean isLong(String path)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "ConfigurationSection createSection(String path)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "List<Boolean> getBooleanList(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "ConfigurationSection getConfigurationSection(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "Object getDefault(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean isConfigurationSection(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean isString(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "ConfigurationSection createSection(String path, Map<?,?> map)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "boolean getBoolean(String path, boolean def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "Location getLocation(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean isInt(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void save(String file)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "String getName()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "List<Map<?,?>> getMapList(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "double getDouble(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean contains(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean isOfflinePlayer(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void load(String file)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "<T> T getObject(String path, Class<T> clazz)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "List<Integer> getIntegerList(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "boolean contains(String path, boolean ignoreDefault)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "OfflinePlayer getOfflinePlayer(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean isColor(String path)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "List<?> getList(String path, List<?> def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "List<?> getList(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "List<Character> getCharacterList(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "String buildHeader()": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "<T> T getObject(String path, Class<T> clazz, T def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "boolean isDouble(String path)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "long getLong(String path, long def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "List<String> getComments(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "Vector getVector(String path, Vector def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "List<String> getStringList(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean isSet(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "Color getColor(String path, Color def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "Color getColor(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "List<Short> getShortList(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "int getInt(String path, int def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "List<Byte> getByteList(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void loadFromString(String contents)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "int getInt(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "List<Float> getFloatList(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "List<Double> getDoubleList(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setComments(String path, List<String> comments)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "boolean isItemStack(String path)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setDefaults(Configuration defaults)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Configuration getDefaults()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "double getDouble(String path, double def)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean getBoolean(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean isList(String path)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void addDefaults(Configuration defaults)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "boolean isBoolean(String path)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    }
+}

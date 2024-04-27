@@ -1,0 +1,1028 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "boolean remove(Object key, Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Collection values()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Enumeration keys()"
+        ],
+        [
+            "V remove(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V remove(Object key)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V remove(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Collection values()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Enumeration elements()"
+        ],
+        [
+            "V remove(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V get(Object key)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Set keySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Collection values()"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V get(Object key)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Collection values()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Enumeration elements()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Enumeration keys()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V get(Object key)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "V get(Object key)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Enumeration elements()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "Collection values()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Enumeration elements()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Enumeration keys()"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V remove(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Set keySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V remove(Object key)",
+            "Enumeration elements()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V remove(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Enumeration keys()"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "Enumeration elements()"
+        ],
+        [
+            "V remove(Object key)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V get(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Enumeration keys()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "Collection values()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Set keySet()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Enumeration elements()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "Enumeration keys()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Set keySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Collection values()"
+        ],
+        [
+            "boolean contains(Object value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "V get(Object key)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V get(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "V get(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V remove(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V get(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "Enumeration keys()"
+        ],
+        [
+            "V remove(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V get(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V get(Object key)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V get(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V get(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ]
+    ]
+}

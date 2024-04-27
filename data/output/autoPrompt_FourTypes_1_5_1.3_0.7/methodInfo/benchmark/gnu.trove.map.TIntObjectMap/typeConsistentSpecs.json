@@ -1,0 +1,280 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "boolean retainEntries(TIntObjectProcedure<? super V> procedure)",
+            "V get(int key)"
+        ],
+        [
+            "V putIfAbsent(int key, V value)",
+            "V put(int key, V value)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.util.Collection<V> valueCollection()"
+        ],
+        [
+            "V put(int key, V value)",
+            "java.util.Collection<V> valueCollection()"
+        ],
+        [
+            "V[] values(V[] array)",
+            "V put(int key, V value)"
+        ],
+        [
+            "boolean forEachEntry(TIntObjectProcedure<? super V> procedure)",
+            "V putIfAbsent(int key, V value)"
+        ],
+        [
+            "V putIfAbsent(int key, V value)",
+            "V[] values(V[] array)"
+        ],
+        [
+            "V putIfAbsent(int key, V value)",
+            "int[] keys(int[] array)"
+        ],
+        [
+            "V[] values(V[] array)",
+            "V remove(int key)"
+        ],
+        [
+            "boolean retainEntries(TIntObjectProcedure<? super V> procedure)",
+            "V put(int key, V value)"
+        ],
+        [
+            "boolean forEachValue(TObjectProcedure<? super V> procedure)",
+            "V remove(int key)"
+        ],
+        [
+            "V putIfAbsent(int key, V value)",
+            "V remove(int key)"
+        ],
+        [
+            "boolean forEachValue(TObjectProcedure<? super V> procedure)",
+            "V putIfAbsent(int key, V value)"
+        ],
+        [
+            "void transformValues(TObjectFunction<V,V> function)",
+            "V get(int key)"
+        ],
+        [
+            "V[] values(V[] array)",
+            "V[] values()"
+        ],
+        [
+            "V[] values(V[] array)",
+            "V putIfAbsent(int key, V value)"
+        ],
+        [
+            "int[] keys(int[] array)",
+            "int[] keys()"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "int[] keys()"
+        ],
+        [
+            "int[] keys(int[] array)",
+            "V get(int key)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "V get(int key)"
+        ],
+        [
+            "V put(int key, V value)",
+            "V get(int key)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "TIntObjectIterator<V> iterator()"
+        ],
+        [
+            "boolean forEachKey(TIntProcedure procedure)",
+            "V get(int key)"
+        ],
+        [
+            "void putAll(TIntObjectMap<? extends V> map)",
+            "V get(int key)"
+        ],
+        [
+            "V put(int key, V value)",
+            "int[] keys()"
+        ],
+        [
+            "V putIfAbsent(int key, V value)",
+            "TIntSet keySet()"
+        ],
+        [
+            "void putAll(java.util.Map<? extends java.lang.Integer,? extends V> m)",
+            "V putIfAbsent(int key, V value)"
+        ],
+        [
+            "int[] keys(int[] array)",
+            "V put(int key, V value)"
+        ],
+        [
+            "V put(int key, V value)",
+            "TIntObjectIterator<V> iterator()"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "V put(int key, V value)"
+        ],
+        [
+            "void transformValues(TObjectFunction<V,V> function)",
+            "V put(int key, V value)"
+        ],
+        [
+            "boolean retainEntries(TIntObjectProcedure<? super V> procedure)",
+            "V putIfAbsent(int key, V value)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "V[] values(V[] array)"
+        ],
+        [
+            "boolean forEachKey(TIntProcedure procedure)",
+            "V put(int key, V value)"
+        ],
+        [
+            "void putAll(TIntObjectMap<? extends V> map)",
+            "V put(int key, V value)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "int[] keys(int[] array)"
+        ],
+        [
+            "V put(int key, V value)",
+            "V[] values(V[] array)"
+        ],
+        [
+            "V put(int key, V value)",
+            "int[] keys(int[] array)"
+        ],
+        [
+            "int[] keys(int[] array)",
+            "V remove(int key)"
+        ],
+        [
+            "void putAll(TIntObjectMap<? extends V> map)",
+            "V remove(int key)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "V remove(int key)"
+        ],
+        [
+            "V put(int key, V value)",
+            "V remove(int key)"
+        ],
+        [
+            "void transformValues(TObjectFunction<V,V> function)",
+            "V remove(int key)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "V[] values()"
+        ],
+        [
+            "boolean forEachKey(TIntProcedure procedure)",
+            "V remove(int key)"
+        ],
+        [
+            "void transformValues(TObjectFunction<V,V> function)",
+            "V putIfAbsent(int key, V value)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "V putIfAbsent(int key, V value)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "TIntSet keySet()"
+        ],
+        [
+            "V putIfAbsent(int key, V value)",
+            "V[] values()"
+        ],
+        [
+            "boolean forEachKey(TIntProcedure procedure)",
+            "V putIfAbsent(int key, V value)"
+        ],
+        [
+            "V put(int key, V value)",
+            "V[] values()"
+        ],
+        [
+            "int[] keys(int[] array)",
+            "V putIfAbsent(int key, V value)"
+        ],
+        [
+            "void putAll(TIntObjectMap<? extends V> map)",
+            "V putIfAbsent(int key, V value)"
+        ],
+        [
+            "V put(int key, V value)",
+            "V putIfAbsent(int key, V value)"
+        ],
+        [
+            "V put(int key, V value)",
+            "TIntSet keySet()"
+        ],
+        [
+            "V putIfAbsent(int key, V value)",
+            "java.util.Collection<V> valueCollection()"
+        ],
+        [
+            "void putAll(java.util.Map<? extends java.lang.Integer,? extends V> m)",
+            "V get(int key)"
+        ],
+        [
+            "boolean retainEntries(TIntObjectProcedure<? super V> procedure)",
+            "V remove(int key)"
+        ],
+        [
+            "boolean forEachEntry(TIntObjectProcedure<? super V> procedure)",
+            "V get(int key)"
+        ],
+        [
+            "void putAll(java.util.Map<? extends java.lang.Integer,? extends V> m)",
+            "V put(int key, V value)"
+        ],
+        [
+            "boolean forEachEntry(TIntObjectProcedure<? super V> procedure)",
+            "V put(int key, V value)"
+        ],
+        [
+            "V[] values(V[] array)",
+            "V get(int key)"
+        ],
+        [
+            "boolean forEachValue(TObjectProcedure<? super V> procedure)",
+            "V get(int key)"
+        ],
+        [
+            "V putIfAbsent(int key, V value)",
+            "int[] keys()"
+        ],
+        [
+            "V putIfAbsent(int key, V value)",
+            "V get(int key)"
+        ],
+        [
+            "void putAll(java.util.Map<? extends java.lang.Integer,? extends V> m)",
+            "V remove(int key)"
+        ],
+        [
+            "boolean forEachEntry(TIntObjectProcedure<? super V> procedure)",
+            "V remove(int key)"
+        ],
+        [
+            "boolean forEachValue(TObjectProcedure<? super V> procedure)",
+            "V put(int key, V value)"
+        ],
+        [
+            "V putIfAbsent(int key, V value)",
+            "TIntObjectIterator<V> iterator()"
+        ]
+    ]
+}

@@ -1,0 +1,1448 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "boolean onlyKeyExists(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress getSocketAddr(String name, String defaultAddress, int defaultPort)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "boolean hasWarnedDeprecation(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setBooleanIfUnset(String name, boolean value)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "List getInstances(String name, Class xface)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setStrings(String name, String... values)",
+            "String getRaw(String name)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String name, InetSocketAddress addr)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "int getInt(String name, int defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void setTimeDuration(String name, long value, TimeUnit unit)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setIfUnset(String name, String value)",
+            "String getRaw(String name)"
+        ],
+        [
+            "boolean getBoolean(String name, boolean defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "long getLong(String name, long defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "void setBoolean(String name, boolean value)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String hostProperty, String addressProperty, String defaultAddressValue, InetSocketAddress addr)",
+            "InetSocketAddress getSocketAddr(String hostProperty, String addressProperty, String defaultAddressValue, int defaultPort)"
+        ],
+        [
+            "boolean isDeprecated(String key)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void setClass(String name, Class theClass, Class xface)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void set(String name, String value)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void addResource(InputStream in)",
+            "InputStream getConfResourceAsInputStream(String name)"
+        ],
+        [
+            "InetSocketAddress getSocketAddr(String name, String defaultAddress, int defaultPort)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void addDefaultResource(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "boolean hasWarnedDeprecation(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "double getDouble(String name, double defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setEnum(String name, T value)",
+            "T getEnum(String name, T defaultValue)"
+        ],
+        [
+            "void addDeprecation(String key, String newKey)",
+            "String get(String name)"
+        ],
+        [
+            "InputStream getConfResourceAsInputStream(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "String getRaw(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void addResource(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "char[] getPasswordFromCredentialProviders(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "String[] getTrimmedStrings(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "Reader getConfResourceAsReader(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "File getFile(String dirsProp, String path)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Class getClassByNameOrNull(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "T getEnum(String name, T defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void setInt(String name, int value)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String name, InetSocketAddress addr)",
+            "InetSocketAddress updateConnectAddr(String hostProperty, String addressProperty, String defaultAddressValue, InetSocketAddress addr)"
+        ],
+        [
+            "boolean isDeprecated(String key)",
+            "String get(String name)"
+        ],
+        [
+            "void addDefaultResource(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setClass(String name, Class theClass, Class xface)",
+            "String get(String name)"
+        ],
+        [
+            "double getDouble(String name, double defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "String[] getStrings(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "String get(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void setEnum(String name, T value)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "Class getClassByName(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "String[] getStrings(String name, String... defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "long getTimeDuration(String name, long defaultValue, TimeUnit unit)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void addResource(Path file)",
+            "Path getLocalPath(String dirsProp, String path)"
+        ],
+        [
+            "String[] getTrimmedStrings(String name, String... defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "String getTrimmed(String name, String defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "char[] getPassword(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "Reader getConfResourceAsReader(String name)",
+            "String get(String name)"
+        ],
+        [
+            "void addResource(InputStream in, String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "org.apache.hadoop.conf.Configuration.IntegerRanges getRange(String name, String defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String hostProperty, String addressProperty, String defaultAddressValue, InetSocketAddress addr)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Class getClassByNameOrNull(String name)",
+            "String get(String name)"
+        ],
+        [
+            "void setSocketAddr(String name, InetSocketAddress addr)",
+            "InetSocketAddress updateConnectAddr(String hostProperty, String addressProperty, String defaultAddressValue, InetSocketAddress addr)"
+        ],
+        [
+            "void setInt(String name, int value)",
+            "String get(String name)"
+        ],
+        [
+            "String[] getStrings(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue, Class xface)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Class[] getClasses(String name, Class... defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "List getInstances(String name, Class xface)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "boolean onlyKeyExists(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void setStrings(String name, String... values)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void setEnum(String name, T value)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setDouble(String name, double value)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setSocketAddr(String name, InetSocketAddress addr)",
+            "InetSocketAddress updateConnectAddr(String name, InetSocketAddress addr)"
+        ],
+        [
+            "void setTimeDuration(String name, long value, TimeUnit unit)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "int[] getInts(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setIfUnset(String name, String value)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "String[] getTrimmedStrings(String name, String... defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "String getTrimmed(String name, String defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setClass(String name, Class theClass, Class xface)",
+            "Class getClass(String name, Class defaultValue, Class xface)"
+        ],
+        [
+            "org.apache.hadoop.conf.Configuration.IntegerRanges getRange(String name, String defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void set(String name, String value)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "int getInt(String name, int defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void addResource(InputStream in, String name)",
+            "String get(String name)"
+        ],
+        [
+            "InetSocketAddress getSocketAddr(String name, String defaultAddress, int defaultPort)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void setClass(String name, Class theClass, Class xface)",
+            "Class getClass(String name, Class defaultValue)"
+        ],
+        [
+            "boolean hasWarnedDeprecation(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String hostProperty, String addressProperty, String defaultAddressValue, InetSocketAddress addr)",
+            "String get(String name)"
+        ],
+        [
+            "void setSocketAddr(String name, InetSocketAddress addr)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue, Class xface)",
+            "String get(String name)"
+        ],
+        [
+            "boolean getBoolean(String name, boolean defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "Class[] getClasses(String name, Class... defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "long getLong(String name, long defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "String[] getPropertySources(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Pattern getPattern(String name, Pattern defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "int[] getInts(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "float getFloat(String name, float defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "InputStream getConfResourceAsInputStream(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "String getRaw(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "long getLongBytes(String name, long defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void addResource(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void addDeprecation(String key, String newKey)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "char[] getPasswordFromCredentialProviders(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "String[] getTrimmedStrings(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Collection getTrimmedStringCollection(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void addDefaultResource(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "double getDouble(String name, double defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "String get(String name, String defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "String[] getStrings(String name, String... defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "Map getValByRegex(String regex)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "boolean getBoolean(String name, boolean defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Collection getStringCollection(String name)",
+            "String get(String name)"
+        ],
+        [
+            "long getLong(String name, long defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "char[] getPasswordFromConfig(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Pattern getPattern(String name, Pattern defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "boolean isDeprecated(String key)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setClass(String name, Class theClass, Class xface)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "float getFloat(String name, float defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "void unset(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "long getTimeDuration(String name, long defaultValue, TimeUnit unit)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "InputStream getConfResourceAsInputStream(String name)",
+            "String get(String name)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "void addDeprecation(String key, String newKey)",
+            "String getRaw(String name)"
+        ],
+        [
+            "String getRaw(String name)",
+            "String get(String name)"
+        ],
+        [
+            "String[] getStrings(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "char[] getPasswordFromCredentialProviders(String name)",
+            "String get(String name)"
+        ],
+        [
+            "Collection getTrimmedStringCollection(String name)",
+            "String get(String name)"
+        ],
+        [
+            "void setSocketAddr(String name, InetSocketAddress addr)",
+            "InetSocketAddress getSocketAddr(String name, String defaultAddress, int defaultPort)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue, Class xface)",
+            "Class getClass(String name, Class defaultValue)"
+        ],
+        [
+            "void setEnum(String name, T value)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void main(String[] args)",
+            "String[] getStrings(String name)"
+        ],
+        [
+            "void main(String[] args)",
+            "String[] getStrings(String name, String... defaultValue)"
+        ],
+        [
+            "Reader getConfResourceAsReader(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "Map getValByRegex(String regex)",
+            "String get(String name)"
+        ],
+        [
+            "void setPattern(String name, Pattern pattern)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Class getClassByNameOrNull(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "List getInstances(String name, Class xface)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "char[] getPasswordFromConfig(String name)",
+            "String get(String name)"
+        ],
+        [
+            "String[] getTrimmedStrings(String name, String... defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "String getTrimmed(String name, String defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "org.apache.hadoop.conf.Configuration.IntegerRanges getRange(String name, String defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void unset(String name)",
+            "String get(String name)"
+        ],
+        [
+            "void setSocketAddr(String name, InetSocketAddress addr)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress getSocketAddr(String hostProperty, String addressProperty, String defaultAddressValue, int defaultPort)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "String getTrimmed(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void set(String name, String value)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String name, InetSocketAddress addr)",
+            "InetSocketAddress getSocketAddr(String hostProperty, String addressProperty, String defaultAddressValue, int defaultPort)"
+        ],
+        [
+            "String[] getPropertySources(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "Reader getConfResourceAsReader(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "int[] getInts(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void setFloat(String name, float value)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void setBoolean(String name, boolean value)",
+            "String get(String name)"
+        ],
+        [
+            "void set(String name, String value, String source)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void setClass(String name, Class theClass, Class xface)",
+            "Class getClassByNameOrNull(String name)"
+        ],
+        [
+            "void addResource(InputStream in, String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue)",
+            "Class getClass(String name, Class defaultValue, Class xface)"
+        ],
+        [
+            "void setPattern(String name, Pattern pattern)",
+            "String get(String name)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String hostProperty, String addressProperty, String defaultAddressValue, InetSocketAddress addr)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "long getLongBytes(String name, long defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "URL getResource(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void setLong(String name, long value)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Class[] getClasses(String name, Class... defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "boolean getBoolean(String name, boolean defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress getSocketAddr(String hostProperty, String addressProperty, String defaultAddressValue, int defaultPort)",
+            "String get(String name)"
+        ],
+        [
+            "String getTrimmed(String name)",
+            "String get(String name)"
+        ],
+        [
+            "void addDefaultResource(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "long getLong(String name, long defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void set(String name, String value)",
+            "String get(String name)"
+        ],
+        [
+            "void setSocketAddr(String name, InetSocketAddress addr)",
+            "InetSocketAddress getSocketAddr(String hostProperty, String addressProperty, String defaultAddressValue, int defaultPort)"
+        ],
+        [
+            "Pattern getPattern(String name, Pattern defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "File getFile(String dirsProp, String path)",
+            "String get(String name)"
+        ],
+        [
+            "void addResource(InputStream in, String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setFloat(String name, float value)",
+            "String get(String name)"
+        ],
+        [
+            "String[] getStrings(String name, String... defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Path getLocalPath(String dirsProp, String path)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String hostProperty, String addressProperty, String defaultAddressValue, InetSocketAddress addr)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void set(String name, String value, String source)",
+            "String get(String name)"
+        ],
+        [
+            "void addDeprecation(String key, String newKey, String customMessage)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void addResource(InputStream in, String name)",
+            "InputStream getConfResourceAsInputStream(String name)"
+        ],
+        [
+            "void addDeprecation(String key, String newKey)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "URL getResource(String name)",
+            "String get(String name)"
+        ],
+        [
+            "Class[] getClasses(String name, Class... defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Collection getStringCollection(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setLong(String name, long value)",
+            "String get(String name)"
+        ],
+        [
+            "void setBooleanIfUnset(String name, boolean value)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue)",
+            "Class getClassByName(String name)"
+        ],
+        [
+            "float getFloat(String name, float defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String name, InetSocketAddress addr)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "String[] getStrings(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "List getInstances(String name, Class xface)",
+            "Class getClass(String name, Class defaultValue, Class xface)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setEnum(String name, T value)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "List getInstances(String name, Class xface)",
+            "Class getClass(String name, Class defaultValue)"
+        ],
+        [
+            "Collection getTrimmedStringCollection(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue, Class xface)",
+            "Class getClassByNameOrNull(String name)"
+        ],
+        [
+            "String[] getStrings(String name, String... defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "Path getLocalPath(String dirsProp, String path)",
+            "String get(String name)"
+        ],
+        [
+            "void addDeprecation(String key, String newKey, String customMessage)",
+            "String get(String name)"
+        ],
+        [
+            "void setDouble(String name, double value)",
+            "String getRaw(String name)"
+        ],
+        [
+            "boolean onlyKeyExists(String name)",
+            "String get(String name)"
+        ],
+        [
+            "Collection getStringCollection(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Map getValByRegex(String regex)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setBooleanIfUnset(String name, boolean value)",
+            "String get(String name)"
+        ],
+        [
+            "char[] getPasswordFromConfig(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "float getFloat(String name, float defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Reader getConfResourceAsReader(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void unset(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setSocketAddr(String name, InetSocketAddress addr)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String name, InetSocketAddress addr)",
+            "String get(String name)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "int getInt(String name, int defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String hostProperty, String addressProperty, String defaultAddressValue, InetSocketAddress addr)",
+            "InetSocketAddress getSocketAddr(String name, String defaultAddress, int defaultPort)"
+        ],
+        [
+            "String[] getPropertySources(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Collection getTrimmedStringCollection(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "T getEnum(String name, T defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void setClass(String name, Class theClass, Class xface)",
+            "Class getClassByName(String name)"
+        ],
+        [
+            "Map getValByRegex(String regex)",
+            "String getRaw(String name)"
+        ],
+        [
+            "String get(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "long getLongBytes(String name, long defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void setBoolean(String name, boolean value)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "char[] getPasswordFromConfig(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Class getClassByName(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void setPattern(String name, Pattern pattern)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "String get(String name, String defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue)",
+            "Class getClassByNameOrNull(String name)"
+        ],
+        [
+            "void addResource(URL url)",
+            "URL getResource(String name)"
+        ],
+        [
+            "void addResource(InputStream in, String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void addResource(String name)",
+            "String get(String name)"
+        ],
+        [
+            "void setSocketAddr(String name, InetSocketAddress addr)",
+            "String get(String name)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String hostProperty, String addressProperty, String defaultAddressValue, InetSocketAddress addr)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "String[] getTrimmedStrings(String name)",
+            "String get(String name)"
+        ],
+        [
+            "long getLong(String name, long defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "char[] getPassword(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Pattern getPattern(String name, Pattern defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "String[] getPropertySources(String name)",
+            "String get(String name)"
+        ],
+        [
+            "Class[] getClasses(String name, Class... defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "T getEnum(String name, T defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "InetSocketAddress getSocketAddr(String hostProperty, String addressProperty, String defaultAddressValue, int defaultPort)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void set(String name, String value)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "File getFile(String dirsProp, String path)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setBoolean(String name, boolean value)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void addDeprecation(String key, String newKey)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void setFloat(String name, float value)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "boolean isDeprecated(String key)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setClass(String name, Class theClass, Class xface)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setStrings(String name, String... values)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "long getLongBytes(String name, long defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "void setPattern(String name, Pattern pattern)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void set(String name, String value, String source)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setInt(String name, int value)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void main(String[] args)",
+            "String[] getTrimmedStrings(String name, String... defaultValue)"
+        ],
+        [
+            "Class getClassByName(String name)",
+            "String get(String name)"
+        ],
+        [
+            "void setTimeDuration(String name, long value, TimeUnit unit)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "String get(String name, String defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "long getTimeDuration(String name, long defaultValue, TimeUnit unit)",
+            "String get(String name)"
+        ],
+        [
+            "void setIfUnset(String name, String value)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "URL getResource(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setLong(String name, long value)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "char[] getPassword(String name)",
+            "String get(String name)"
+        ],
+        [
+            "void setDouble(String name, double value)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress getSocketAddr(String name, String defaultAddress, int defaultPort)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "boolean hasWarnedDeprecation(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "Collection getStringCollection(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress getSocketAddr(String hostProperty, String addressProperty, String defaultAddressValue, int defaultPort)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Pattern getPattern(String name, Pattern defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "String getTrimmed(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue, Class xface)",
+            "Class getClassByName(String name)"
+        ],
+        [
+            "File getFile(String dirsProp, String path)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Class getClassByNameOrNull(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setFloat(String name, float value)",
+            "String getRaw(String name)"
+        ],
+        [
+            "float getFloat(String name, float defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "List getInstances(String name, Class xface)",
+            "Class getClassByNameOrNull(String name)"
+        ],
+        [
+            "void setInt(String name, int value)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void set(String name, String value, String source)",
+            "String getRaw(String name)"
+        ],
+        [
+            "List getInstances(String name, Class xface)",
+            "String get(String name)"
+        ],
+        [
+            "void setStrings(String name, String... values)",
+            "String get(String name)"
+        ],
+        [
+            "Path getLocalPath(String dirsProp, String path)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "String[] getStrings(String name, String... defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue, Class xface)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void addDeprecation(String key, String newKey, String customMessage)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String hostProperty, String addressProperty, String defaultAddressValue, InetSocketAddress addr)",
+            "InetSocketAddress updateConnectAddr(String name, InetSocketAddress addr)"
+        ],
+        [
+            "URL getResource(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setTimeDuration(String name, long value, TimeUnit unit)",
+            "String get(String name)"
+        ],
+        [
+            "boolean onlyKeyExists(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setPattern(String name, Pattern pattern)",
+            "Pattern getPattern(String name, Pattern defaultValue)"
+        ],
+        [
+            "void setLong(String name, long value)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setIfUnset(String name, String value)",
+            "String get(String name)"
+        ],
+        [
+            "Collection getTrimmedStringCollection(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void setBooleanIfUnset(String name, boolean value)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "double getDouble(String name, double defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "InetSocketAddress getSocketAddr(String name, String defaultAddress, int defaultPort)",
+            "String get(String name)"
+        ],
+        [
+            "Map getValByRegex(String regex)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "boolean hasWarnedDeprecation(String name)",
+            "String get(String name)"
+        ],
+        [
+            "void main(String[] args)",
+            "String[] getPropertySources(String name)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String name, InetSocketAddress addr)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "char[] getPasswordFromConfig(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "int getInt(String name, int defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void unset(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "Path getLocalPath(String dirsProp, String path)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue, Class xface)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void addDeprecation(String key, String newKey, String customMessage)",
+            "String getRaw(String name)"
+        ],
+        [
+            "boolean onlyKeyExists(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setBooleanIfUnset(String name, boolean value)",
+            "String getRaw(String name)"
+        ],
+        [
+            "InputStream getConfResourceAsInputStream(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void addDefaultResource(String name)",
+            "String get(String name)"
+        ],
+        [
+            "double getDouble(String name, double defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "void setBoolean(String name, boolean value)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "String getRaw(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String name, InetSocketAddress addr)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void addResource(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "boolean isDeprecated(String key)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void setClass(String name, Class theClass, Class xface)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void setPattern(String name, Pattern pattern)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void setSocketAddr(String name, InetSocketAddress addr)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "int getInt(String name, int defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "char[] getPasswordFromCredentialProviders(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "String[] getTrimmedStrings(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "String[] getPropertySources(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "T getEnum(String name, T defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "String[] getTrimmedStrings(String name, String... defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "org.apache.hadoop.conf.Configuration.IntegerRanges getRange(String name, String defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "String get(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "InetSocketAddress getSocketAddr(String hostProperty, String addressProperty, String defaultAddressValue, int defaultPort)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "String getTrimmed(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "long getLongBytes(String name, long defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setClassLoader(ClassLoader classLoader)",
+            "ClassLoader getClassLoader()"
+        ],
+        [
+            "Class getClassByName(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "File getFile(String dirsProp, String path)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "InputStream getConfResourceAsInputStream(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "Class getClassByNameOrNull(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "String get(String name, String defaultValue)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "String[] getStrings(String name)",
+            "String get(String name)"
+        ],
+        [
+            "long getTimeDuration(String name, long defaultValue, TimeUnit unit)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setFloat(String name, float value)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void addResource(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setInt(String name, int value)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void setDouble(String name, double value)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void set(String name, String value, String source)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "Collection getStringCollection(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "char[] getPasswordFromCredentialProviders(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "String[] getTrimmedStrings(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setEnum(String name, T value)",
+            "String get(String name)"
+        ],
+        [
+            "int[] getInts(String name)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "char[] getPassword(String name)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "URL getResource(String name)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "List getInstances(String name, Class xface)",
+            "Class getClassByName(String name)"
+        ],
+        [
+            "T getEnum(String name, T defaultValue)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setLong(String name, long value)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "String[] getTrimmedStrings(String name, String... defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "String getTrimmed(String name, String defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "org.apache.hadoop.conf.Configuration.IntegerRanges getRange(String name, String defaultValue)",
+            "String get(String name)"
+        ],
+        [
+            "String get(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "List getInstances(String name, Class xface)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void unset(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "void setStrings(String name, String... values)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "Class getClassByName(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "InetSocketAddress updateConnectAddr(String name, InetSocketAddress addr)",
+            "InetSocketAddress getSocketAddr(String name, String defaultAddress, int defaultPort)"
+        ],
+        [
+            "long getTimeDuration(String name, long defaultValue, TimeUnit unit)",
+            "String getRaw(String name)"
+        ],
+        [
+            "boolean getBoolean(String name, boolean defaultValue)",
+            "String getTrimmed(String name, String defaultValue)"
+        ],
+        [
+            "void setTimeDuration(String name, long value, TimeUnit unit)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void main(String[] args)",
+            "String[] getTrimmedStrings(String name)"
+        ],
+        [
+            "void setIfUnset(String name, String value)",
+            "String getTrimmed(String name)"
+        ],
+        [
+            "void setDouble(String name, double value)",
+            "String get(String name)"
+        ],
+        [
+            "Path getLocalPath(String dirsProp, String path)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "Class getClass(String name, Class defaultValue, Class xface)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "void addDeprecation(String key, String newKey, String customMessage)",
+            "String get(String name, String defaultValue)"
+        ],
+        [
+            "char[] getPassword(String name)",
+            "String getRaw(String name)"
+        ],
+        [
+            "int[] getInts(String name)",
+            "String get(String name)"
+        ]
+    ]
+}

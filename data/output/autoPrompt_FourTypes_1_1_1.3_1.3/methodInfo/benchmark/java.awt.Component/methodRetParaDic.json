@@ -1,0 +1,1211 @@
+{
+    "void add(PopupMenu popup)": {
+        "return type": "void",
+        "method name": "add",
+        "parameters": [
+            "PopupMenu"
+        ]
+    },
+    "void addComponentListener(ComponentListener l)": {
+        "return type": "void",
+        "method name": "addComponentListener",
+        "parameters": [
+            "ComponentListener"
+        ]
+    },
+    "void addFocusListener(FocusListener l)": {
+        "return type": "void",
+        "method name": "addFocusListener",
+        "parameters": [
+            "FocusListener"
+        ]
+    },
+    "void addHierarchyBoundsListener(HierarchyBoundsListener l)": {
+        "return type": "void",
+        "method name": "addHierarchyBoundsListener",
+        "parameters": [
+            "HierarchyBoundsListener"
+        ]
+    },
+    "void addHierarchyListener(HierarchyListener l)": {
+        "return type": "void",
+        "method name": "addHierarchyListener",
+        "parameters": [
+            "HierarchyListener"
+        ]
+    },
+    "void addInputMethodListener(InputMethodListener l)": {
+        "return type": "void",
+        "method name": "addInputMethodListener",
+        "parameters": [
+            "InputMethodListener"
+        ]
+    },
+    "void addKeyListener(KeyListener l)": {
+        "return type": "void",
+        "method name": "addKeyListener",
+        "parameters": [
+            "KeyListener"
+        ]
+    },
+    "void addMouseListener(MouseListener l)": {
+        "return type": "void",
+        "method name": "addMouseListener",
+        "parameters": [
+            "MouseListener"
+        ]
+    },
+    "void addMouseMotionListener(MouseMotionListener l)": {
+        "return type": "void",
+        "method name": "addMouseMotionListener",
+        "parameters": [
+            "MouseMotionListener"
+        ]
+    },
+    "void addMouseWheelListener(MouseWheelListener l)": {
+        "return type": "void",
+        "method name": "addMouseWheelListener",
+        "parameters": [
+            "MouseWheelListener"
+        ]
+    },
+    "void addNotify()": {
+        "return type": "void",
+        "method name": "addNotify",
+        "parameters": []
+    },
+    "void addPropertyChangeListener(PropertyChangeListener listener)": {
+        "return type": "void",
+        "method name": "addPropertyChangeListener",
+        "parameters": [
+            "PropertyChangeListener"
+        ]
+    },
+    "void addPropertyChangeListener(String propertyName, PropertyChangeListener listener)": {
+        "return type": "void",
+        "method name": "addPropertyChangeListener",
+        "parameters": [
+            "String",
+            "PropertyChangeListener"
+        ]
+    },
+    "void applyComponentOrientation(ComponentOrientation orientation)": {
+        "return type": "void",
+        "method name": "applyComponentOrientation",
+        "parameters": [
+            "ComponentOrientation"
+        ]
+    },
+    "boolean areFocusTraversalKeysSet(int id)": {
+        "return type": "boolean",
+        "method name": "areFocusTraversalKeysSet",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int checkImage(Image image, ImageObserver observer)": {
+        "return type": "int",
+        "method name": "checkImage",
+        "parameters": [
+            "Image",
+            "ImageObserver"
+        ]
+    },
+    "int checkImage(Image image, int width, int height, ImageObserver observer)": {
+        "return type": "int",
+        "method name": "checkImage",
+        "parameters": [
+            "Image",
+            "int",
+            "int",
+            "ImageObserver"
+        ]
+    },
+    "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)": {
+        "return type": "AWTEvent",
+        "method name": "coalesceEvents",
+        "parameters": [
+            "AWTEvent",
+            "AWTEvent"
+        ]
+    },
+    "boolean contains(int x, int y)": {
+        "return type": "boolean",
+        "method name": "contains",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "boolean contains(Point p)": {
+        "return type": "boolean",
+        "method name": "contains",
+        "parameters": [
+            "Point"
+        ]
+    },
+    "Image createImage(ImageProducer producer)": {
+        "return type": "Image",
+        "method name": "createImage",
+        "parameters": [
+            "ImageProducer"
+        ]
+    },
+    "Image createImage(int width, int height)": {
+        "return type": "Image",
+        "method name": "createImage",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "VolatileImage createVolatileImage(int width, int height)": {
+        "return type": "VolatileImage",
+        "method name": "createVolatileImage",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)": {
+        "return type": "VolatileImage",
+        "method name": "createVolatileImage",
+        "parameters": [
+            "int",
+            "int",
+            "ImageCapabilities"
+        ]
+    },
+    "void disableEvents(long eventsToDisable)": {
+        "return type": "void",
+        "method name": "disableEvents",
+        "parameters": [
+            "long"
+        ]
+    },
+    "void dispatchEvent(AWTEvent e)": {
+        "return type": "void",
+        "method name": "dispatchEvent",
+        "parameters": [
+            "AWTEvent"
+        ]
+    },
+    "void doLayout()": {
+        "return type": "void",
+        "method name": "doLayout",
+        "parameters": []
+    },
+    "void enableEvents(long eventsToEnable)": {
+        "return type": "void",
+        "method name": "enableEvents",
+        "parameters": [
+            "long"
+        ]
+    },
+    "void enableInputMethods(boolean enable)": {
+        "return type": "void",
+        "method name": "enableInputMethods",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void firePropertyChange(String propertyName, boolean oldValue, boolean newValue)": {
+        "return type": "void",
+        "method name": "firePropertyChange",
+        "parameters": [
+            "String",
+            "boolean",
+            "boolean"
+        ]
+    },
+    "void firePropertyChange(String propertyName, byte oldValue, byte newValue)": {
+        "return type": "void",
+        "method name": "firePropertyChange",
+        "parameters": [
+            "String",
+            "byte",
+            "byte"
+        ]
+    },
+    "void firePropertyChange(String propertyName, char oldValue, char newValue)": {
+        "return type": "void",
+        "method name": "firePropertyChange",
+        "parameters": [
+            "String",
+            "char",
+            "char"
+        ]
+    },
+    "void firePropertyChange(String propertyName, double oldValue, double newValue)": {
+        "return type": "void",
+        "method name": "firePropertyChange",
+        "parameters": [
+            "String",
+            "double",
+            "double"
+        ]
+    },
+    "void firePropertyChange(String propertyName, float oldValue, float newValue)": {
+        "return type": "void",
+        "method name": "firePropertyChange",
+        "parameters": [
+            "String",
+            "float",
+            "float"
+        ]
+    },
+    "void firePropertyChange(String propertyName, int oldValue, int newValue)": {
+        "return type": "void",
+        "method name": "firePropertyChange",
+        "parameters": [
+            "String",
+            "int",
+            "int"
+        ]
+    },
+    "void firePropertyChange(String propertyName, long oldValue, long newValue)": {
+        "return type": "void",
+        "method name": "firePropertyChange",
+        "parameters": [
+            "String",
+            "long",
+            "long"
+        ]
+    },
+    "void firePropertyChange(String propertyName, Object oldValue, Object newValue)": {
+        "return type": "void",
+        "method name": "firePropertyChange",
+        "parameters": [
+            "String",
+            "Object",
+            "Object"
+        ]
+    },
+    "void firePropertyChange(String propertyName, short oldValue, short newValue)": {
+        "return type": "void",
+        "method name": "firePropertyChange",
+        "parameters": [
+            "String",
+            "short",
+            "short"
+        ]
+    },
+    "AccessibleContext getAccessibleContext()": {
+        "return type": "AccessibleContext",
+        "method name": "getAccessibleContext",
+        "parameters": []
+    },
+    "float getAlignmentX()": {
+        "return type": "float",
+        "method name": "getAlignmentX",
+        "parameters": []
+    },
+    "float getAlignmentY()": {
+        "return type": "float",
+        "method name": "getAlignmentY",
+        "parameters": []
+    },
+    "Color getBackground()": {
+        "return type": "Color",
+        "method name": "getBackground",
+        "parameters": []
+    },
+    "int getBaseline(int width, int height)": {
+        "return type": "int",
+        "method name": "getBaseline",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "Component.BaselineResizeBehavior getBaselineResizeBehavior()": {
+        "return type": "Component.BaselineResizeBehavior",
+        "method name": "getBaselineResizeBehavior",
+        "parameters": []
+    },
+    "Rectangle getBounds()": {
+        "return type": "Rectangle",
+        "method name": "getBounds",
+        "parameters": []
+    },
+    "Rectangle getBounds(Rectangle rv)": {
+        "return type": "Rectangle",
+        "method name": "getBounds",
+        "parameters": [
+            "Rectangle"
+        ]
+    },
+    "ColorModel getColorModel()": {
+        "return type": "ColorModel",
+        "method name": "getColorModel",
+        "parameters": []
+    },
+    "Component getComponentAt(int x, int y)": {
+        "return type": "Component",
+        "method name": "getComponentAt",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "Component getComponentAt(Point p)": {
+        "return type": "Component",
+        "method name": "getComponentAt",
+        "parameters": [
+            "Point"
+        ]
+    },
+    "ComponentListener[] getComponentListeners()": {
+        "return type": "ComponentListener[]",
+        "method name": "getComponentListeners",
+        "parameters": []
+    },
+    "ComponentOrientation getComponentOrientation()": {
+        "return type": "ComponentOrientation",
+        "method name": "getComponentOrientation",
+        "parameters": []
+    },
+    "Cursor getCursor()": {
+        "return type": "Cursor",
+        "method name": "getCursor",
+        "parameters": []
+    },
+    "DropTarget getDropTarget()": {
+        "return type": "DropTarget",
+        "method name": "getDropTarget",
+        "parameters": []
+    },
+    "Container getFocusCycleRootAncestor()": {
+        "return type": "Container",
+        "method name": "getFocusCycleRootAncestor",
+        "parameters": []
+    },
+    "FocusListener[] getFocusListeners()": {
+        "return type": "FocusListener[]",
+        "method name": "getFocusListeners",
+        "parameters": []
+    },
+    "Set getFocusTraversalKeys(int id)": {
+        "return type": "Set",
+        "method name": "getFocusTraversalKeys",
+        "parameters": [
+            "int"
+        ]
+    },
+    "boolean getFocusTraversalKeysEnabled()": {
+        "return type": "boolean",
+        "method name": "getFocusTraversalKeysEnabled",
+        "parameters": []
+    },
+    "Font getFont()": {
+        "return type": "Font",
+        "method name": "getFont",
+        "parameters": []
+    },
+    "FontMetrics getFontMetrics(Font font)": {
+        "return type": "FontMetrics",
+        "method name": "getFontMetrics",
+        "parameters": [
+            "Font"
+        ]
+    },
+    "Color getForeground()": {
+        "return type": "Color",
+        "method name": "getForeground",
+        "parameters": []
+    },
+    "Graphics getGraphics()": {
+        "return type": "Graphics",
+        "method name": "getGraphics",
+        "parameters": []
+    },
+    "GraphicsConfiguration getGraphicsConfiguration()": {
+        "return type": "GraphicsConfiguration",
+        "method name": "getGraphicsConfiguration",
+        "parameters": []
+    },
+    "int getHeight()": {
+        "return type": "int",
+        "method name": "getHeight",
+        "parameters": []
+    },
+    "HierarchyBoundsListener[] getHierarchyBoundsListeners()": {
+        "return type": "HierarchyBoundsListener[]",
+        "method name": "getHierarchyBoundsListeners",
+        "parameters": []
+    },
+    "HierarchyListener[] getHierarchyListeners()": {
+        "return type": "HierarchyListener[]",
+        "method name": "getHierarchyListeners",
+        "parameters": []
+    },
+    "boolean getIgnoreRepaint()": {
+        "return type": "boolean",
+        "method name": "getIgnoreRepaint",
+        "parameters": []
+    },
+    "InputContext getInputContext()": {
+        "return type": "InputContext",
+        "method name": "getInputContext",
+        "parameters": []
+    },
+    "InputMethodListener[] getInputMethodListeners()": {
+        "return type": "InputMethodListener[]",
+        "method name": "getInputMethodListeners",
+        "parameters": []
+    },
+    "InputMethodRequests getInputMethodRequests()": {
+        "return type": "InputMethodRequests",
+        "method name": "getInputMethodRequests",
+        "parameters": []
+    },
+    "KeyListener[] getKeyListeners()": {
+        "return type": "KeyListener[]",
+        "method name": "getKeyListeners",
+        "parameters": []
+    },
+    "T[] getListeners(Class listenerType)": {
+        "return type": "T[]",
+        "method name": "getListeners",
+        "parameters": [
+            "Class"
+        ]
+    },
+    "Locale getLocale()": {
+        "return type": "Locale",
+        "method name": "getLocale",
+        "parameters": []
+    },
+    "Point getLocation()": {
+        "return type": "Point",
+        "method name": "getLocation",
+        "parameters": []
+    },
+    "Point getLocation(Point rv)": {
+        "return type": "Point",
+        "method name": "getLocation",
+        "parameters": [
+            "Point"
+        ]
+    },
+    "Point getLocationOnScreen()": {
+        "return type": "Point",
+        "method name": "getLocationOnScreen",
+        "parameters": []
+    },
+    "Dimension getMaximumSize()": {
+        "return type": "Dimension",
+        "method name": "getMaximumSize",
+        "parameters": []
+    },
+    "Dimension getMinimumSize()": {
+        "return type": "Dimension",
+        "method name": "getMinimumSize",
+        "parameters": []
+    },
+    "MouseListener[] getMouseListeners()": {
+        "return type": "MouseListener[]",
+        "method name": "getMouseListeners",
+        "parameters": []
+    },
+    "MouseMotionListener[] getMouseMotionListeners()": {
+        "return type": "MouseMotionListener[]",
+        "method name": "getMouseMotionListeners",
+        "parameters": []
+    },
+    "Point getMousePosition()": {
+        "return type": "Point",
+        "method name": "getMousePosition",
+        "parameters": []
+    },
+    "MouseWheelListener[] getMouseWheelListeners()": {
+        "return type": "MouseWheelListener[]",
+        "method name": "getMouseWheelListeners",
+        "parameters": []
+    },
+    "String getName()": {
+        "return type": "String",
+        "method name": "getName",
+        "parameters": []
+    },
+    "Container getParent()": {
+        "return type": "Container",
+        "method name": "getParent",
+        "parameters": []
+    },
+    "Dimension getPreferredSize()": {
+        "return type": "Dimension",
+        "method name": "getPreferredSize",
+        "parameters": []
+    },
+    "PropertyChangeListener[] getPropertyChangeListeners()": {
+        "return type": "PropertyChangeListener[]",
+        "method name": "getPropertyChangeListeners",
+        "parameters": []
+    },
+    "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)": {
+        "return type": "PropertyChangeListener[]",
+        "method name": "getPropertyChangeListeners",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Dimension getSize()": {
+        "return type": "Dimension",
+        "method name": "getSize",
+        "parameters": []
+    },
+    "Dimension getSize(Dimension rv)": {
+        "return type": "Dimension",
+        "method name": "getSize",
+        "parameters": [
+            "Dimension"
+        ]
+    },
+    "Toolkit getToolkit()": {
+        "return type": "Toolkit",
+        "method name": "getToolkit",
+        "parameters": []
+    },
+    "Object getTreeLock()": {
+        "return type": "Object",
+        "method name": "getTreeLock",
+        "parameters": []
+    },
+    "int getWidth()": {
+        "return type": "int",
+        "method name": "getWidth",
+        "parameters": []
+    },
+    "int getX()": {
+        "return type": "int",
+        "method name": "getX",
+        "parameters": []
+    },
+    "int getY()": {
+        "return type": "int",
+        "method name": "getY",
+        "parameters": []
+    },
+    "boolean hasFocus()": {
+        "return type": "boolean",
+        "method name": "hasFocus",
+        "parameters": []
+    },
+    "boolean imageUpdate(Image img, int infoflags, int x, int y, int w, int h)": {
+        "return type": "boolean",
+        "method name": "imageUpdate",
+        "parameters": [
+            "Image",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "void invalidate()": {
+        "return type": "void",
+        "method name": "invalidate",
+        "parameters": []
+    },
+    "boolean isBackgroundSet()": {
+        "return type": "boolean",
+        "method name": "isBackgroundSet",
+        "parameters": []
+    },
+    "boolean isCursorSet()": {
+        "return type": "boolean",
+        "method name": "isCursorSet",
+        "parameters": []
+    },
+    "boolean isDisplayable()": {
+        "return type": "boolean",
+        "method name": "isDisplayable",
+        "parameters": []
+    },
+    "boolean isDoubleBuffered()": {
+        "return type": "boolean",
+        "method name": "isDoubleBuffered",
+        "parameters": []
+    },
+    "boolean isEnabled()": {
+        "return type": "boolean",
+        "method name": "isEnabled",
+        "parameters": []
+    },
+    "boolean isFocusable()": {
+        "return type": "boolean",
+        "method name": "isFocusable",
+        "parameters": []
+    },
+    "boolean isFocusCycleRoot(Container container)": {
+        "return type": "boolean",
+        "method name": "isFocusCycleRoot",
+        "parameters": [
+            "Container"
+        ]
+    },
+    "boolean isFocusOwner()": {
+        "return type": "boolean",
+        "method name": "isFocusOwner",
+        "parameters": []
+    },
+    "boolean isFontSet()": {
+        "return type": "boolean",
+        "method name": "isFontSet",
+        "parameters": []
+    },
+    "boolean isForegroundSet()": {
+        "return type": "boolean",
+        "method name": "isForegroundSet",
+        "parameters": []
+    },
+    "boolean isLightweight()": {
+        "return type": "boolean",
+        "method name": "isLightweight",
+        "parameters": []
+    },
+    "boolean isMaximumSizeSet()": {
+        "return type": "boolean",
+        "method name": "isMaximumSizeSet",
+        "parameters": []
+    },
+    "boolean isMinimumSizeSet()": {
+        "return type": "boolean",
+        "method name": "isMinimumSizeSet",
+        "parameters": []
+    },
+    "boolean isOpaque()": {
+        "return type": "boolean",
+        "method name": "isOpaque",
+        "parameters": []
+    },
+    "boolean isPreferredSizeSet()": {
+        "return type": "boolean",
+        "method name": "isPreferredSizeSet",
+        "parameters": []
+    },
+    "boolean isShowing()": {
+        "return type": "boolean",
+        "method name": "isShowing",
+        "parameters": []
+    },
+    "boolean isValid()": {
+        "return type": "boolean",
+        "method name": "isValid",
+        "parameters": []
+    },
+    "boolean isVisible()": {
+        "return type": "boolean",
+        "method name": "isVisible",
+        "parameters": []
+    },
+    "void list()": {
+        "return type": "void",
+        "method name": "list",
+        "parameters": []
+    },
+    "void list(PrintStream out)": {
+        "return type": "void",
+        "method name": "list",
+        "parameters": [
+            "PrintStream"
+        ]
+    },
+    "void list(PrintStream out, int indent)": {
+        "return type": "void",
+        "method name": "list",
+        "parameters": [
+            "PrintStream",
+            "int"
+        ]
+    },
+    "void list(PrintWriter out)": {
+        "return type": "void",
+        "method name": "list",
+        "parameters": [
+            "PrintWriter"
+        ]
+    },
+    "void list(PrintWriter out, int indent)": {
+        "return type": "void",
+        "method name": "list",
+        "parameters": [
+            "PrintWriter",
+            "int"
+        ]
+    },
+    "void paint(Graphics g)": {
+        "return type": "void",
+        "method name": "paint",
+        "parameters": [
+            "Graphics"
+        ]
+    },
+    "void paintAll(Graphics g)": {
+        "return type": "void",
+        "method name": "paintAll",
+        "parameters": [
+            "Graphics"
+        ]
+    },
+    "String paramString()": {
+        "return type": "String",
+        "method name": "paramString",
+        "parameters": []
+    },
+    "boolean prepareImage(Image image, ImageObserver observer)": {
+        "return type": "boolean",
+        "method name": "prepareImage",
+        "parameters": [
+            "Image",
+            "ImageObserver"
+        ]
+    },
+    "boolean prepareImage(Image image, int width, int height, ImageObserver observer)": {
+        "return type": "boolean",
+        "method name": "prepareImage",
+        "parameters": [
+            "Image",
+            "int",
+            "int",
+            "ImageObserver"
+        ]
+    },
+    "void print(Graphics g)": {
+        "return type": "void",
+        "method name": "print",
+        "parameters": [
+            "Graphics"
+        ]
+    },
+    "void printAll(Graphics g)": {
+        "return type": "void",
+        "method name": "printAll",
+        "parameters": [
+            "Graphics"
+        ]
+    },
+    "void processComponentEvent(ComponentEvent e)": {
+        "return type": "void",
+        "method name": "processComponentEvent",
+        "parameters": [
+            "ComponentEvent"
+        ]
+    },
+    "void processEvent(AWTEvent e)": {
+        "return type": "void",
+        "method name": "processEvent",
+        "parameters": [
+            "AWTEvent"
+        ]
+    },
+    "void processFocusEvent(FocusEvent e)": {
+        "return type": "void",
+        "method name": "processFocusEvent",
+        "parameters": [
+            "FocusEvent"
+        ]
+    },
+    "void processHierarchyBoundsEvent(HierarchyEvent e)": {
+        "return type": "void",
+        "method name": "processHierarchyBoundsEvent",
+        "parameters": [
+            "HierarchyEvent"
+        ]
+    },
+    "void processHierarchyEvent(HierarchyEvent e)": {
+        "return type": "void",
+        "method name": "processHierarchyEvent",
+        "parameters": [
+            "HierarchyEvent"
+        ]
+    },
+    "void processInputMethodEvent(InputMethodEvent e)": {
+        "return type": "void",
+        "method name": "processInputMethodEvent",
+        "parameters": [
+            "InputMethodEvent"
+        ]
+    },
+    "void processKeyEvent(KeyEvent e)": {
+        "return type": "void",
+        "method name": "processKeyEvent",
+        "parameters": [
+            "KeyEvent"
+        ]
+    },
+    "void processMouseEvent(MouseEvent e)": {
+        "return type": "void",
+        "method name": "processMouseEvent",
+        "parameters": [
+            "MouseEvent"
+        ]
+    },
+    "void processMouseMotionEvent(MouseEvent e)": {
+        "return type": "void",
+        "method name": "processMouseMotionEvent",
+        "parameters": [
+            "MouseEvent"
+        ]
+    },
+    "void processMouseWheelEvent(MouseWheelEvent e)": {
+        "return type": "void",
+        "method name": "processMouseWheelEvent",
+        "parameters": [
+            "MouseWheelEvent"
+        ]
+    },
+    "void remove(MenuComponent popup)": {
+        "return type": "void",
+        "method name": "remove",
+        "parameters": [
+            "MenuComponent"
+        ]
+    },
+    "void removeComponentListener(ComponentListener l)": {
+        "return type": "void",
+        "method name": "removeComponentListener",
+        "parameters": [
+            "ComponentListener"
+        ]
+    },
+    "void removeFocusListener(FocusListener l)": {
+        "return type": "void",
+        "method name": "removeFocusListener",
+        "parameters": [
+            "FocusListener"
+        ]
+    },
+    "void removeHierarchyBoundsListener(HierarchyBoundsListener l)": {
+        "return type": "void",
+        "method name": "removeHierarchyBoundsListener",
+        "parameters": [
+            "HierarchyBoundsListener"
+        ]
+    },
+    "void removeHierarchyListener(HierarchyListener l)": {
+        "return type": "void",
+        "method name": "removeHierarchyListener",
+        "parameters": [
+            "HierarchyListener"
+        ]
+    },
+    "void removeInputMethodListener(InputMethodListener l)": {
+        "return type": "void",
+        "method name": "removeInputMethodListener",
+        "parameters": [
+            "InputMethodListener"
+        ]
+    },
+    "void removeKeyListener(KeyListener l)": {
+        "return type": "void",
+        "method name": "removeKeyListener",
+        "parameters": [
+            "KeyListener"
+        ]
+    },
+    "void removeMouseListener(MouseListener l)": {
+        "return type": "void",
+        "method name": "removeMouseListener",
+        "parameters": [
+            "MouseListener"
+        ]
+    },
+    "void removeMouseMotionListener(MouseMotionListener l)": {
+        "return type": "void",
+        "method name": "removeMouseMotionListener",
+        "parameters": [
+            "MouseMotionListener"
+        ]
+    },
+    "void removeMouseWheelListener(MouseWheelListener l)": {
+        "return type": "void",
+        "method name": "removeMouseWheelListener",
+        "parameters": [
+            "MouseWheelListener"
+        ]
+    },
+    "void removeNotify()": {
+        "return type": "void",
+        "method name": "removeNotify",
+        "parameters": []
+    },
+    "void removePropertyChangeListener(PropertyChangeListener listener)": {
+        "return type": "void",
+        "method name": "removePropertyChangeListener",
+        "parameters": [
+            "PropertyChangeListener"
+        ]
+    },
+    "void removePropertyChangeListener(String propertyName, PropertyChangeListener listener)": {
+        "return type": "void",
+        "method name": "removePropertyChangeListener",
+        "parameters": [
+            "String",
+            "PropertyChangeListener"
+        ]
+    },
+    "void repaint()": {
+        "return type": "void",
+        "method name": "repaint",
+        "parameters": []
+    },
+    "void repaint(int x, int y, int width, int height)": {
+        "return type": "void",
+        "method name": "repaint",
+        "parameters": [
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "void repaint(long tm)": {
+        "return type": "void",
+        "method name": "repaint",
+        "parameters": [
+            "long"
+        ]
+    },
+    "void repaint(long tm, int x, int y, int width, int height)": {
+        "return type": "void",
+        "method name": "repaint",
+        "parameters": [
+            "long",
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "void requestFocus()": {
+        "return type": "void",
+        "method name": "requestFocus",
+        "parameters": []
+    },
+    "boolean requestFocus(boolean temporary)": {
+        "return type": "boolean",
+        "method name": "requestFocus",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "boolean requestFocusInWindow()": {
+        "return type": "boolean",
+        "method name": "requestFocusInWindow",
+        "parameters": []
+    },
+    "boolean requestFocusInWindow(boolean temporary)": {
+        "return type": "boolean",
+        "method name": "requestFocusInWindow",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void revalidate()": {
+        "return type": "void",
+        "method name": "revalidate",
+        "parameters": []
+    },
+    "void setBackground(Color c)": {
+        "return type": "void",
+        "method name": "setBackground",
+        "parameters": [
+            "Color"
+        ]
+    },
+    "void setBounds(int x, int y, int width, int height)": {
+        "return type": "void",
+        "method name": "setBounds",
+        "parameters": [
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "void setBounds(Rectangle r)": {
+        "return type": "void",
+        "method name": "setBounds",
+        "parameters": [
+            "Rectangle"
+        ]
+    },
+    "void setComponentOrientation(ComponentOrientation o)": {
+        "return type": "void",
+        "method name": "setComponentOrientation",
+        "parameters": [
+            "ComponentOrientation"
+        ]
+    },
+    "void setCursor(Cursor cursor)": {
+        "return type": "void",
+        "method name": "setCursor",
+        "parameters": [
+            "Cursor"
+        ]
+    },
+    "void setDropTarget(DropTarget dt)": {
+        "return type": "void",
+        "method name": "setDropTarget",
+        "parameters": [
+            "DropTarget"
+        ]
+    },
+    "void setEnabled(boolean b)": {
+        "return type": "void",
+        "method name": "setEnabled",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setFocusable(boolean focusable)": {
+        "return type": "void",
+        "method name": "setFocusable",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setFocusTraversalKeys(int id, Set keystrokes)": {
+        "return type": "void",
+        "method name": "setFocusTraversalKeys",
+        "parameters": [
+            "int",
+            "Set"
+        ]
+    },
+    "void setFocusTraversalKeysEnabled(boolean focusTraversalKeysEnabled)": {
+        "return type": "void",
+        "method name": "setFocusTraversalKeysEnabled",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setFont(Font f)": {
+        "return type": "void",
+        "method name": "setFont",
+        "parameters": [
+            "Font"
+        ]
+    },
+    "void setForeground(Color c)": {
+        "return type": "void",
+        "method name": "setForeground",
+        "parameters": [
+            "Color"
+        ]
+    },
+    "void setIgnoreRepaint(boolean ignoreRepaint)": {
+        "return type": "void",
+        "method name": "setIgnoreRepaint",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setLocale(Locale l)": {
+        "return type": "void",
+        "method name": "setLocale",
+        "parameters": [
+            "Locale"
+        ]
+    },
+    "void setLocation(int x, int y)": {
+        "return type": "void",
+        "method name": "setLocation",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void setLocation(Point p)": {
+        "return type": "void",
+        "method name": "setLocation",
+        "parameters": [
+            "Point"
+        ]
+    },
+    "void setMaximumSize(Dimension maximumSize)": {
+        "return type": "void",
+        "method name": "setMaximumSize",
+        "parameters": [
+            "Dimension"
+        ]
+    },
+    "void setMinimumSize(Dimension minimumSize)": {
+        "return type": "void",
+        "method name": "setMinimumSize",
+        "parameters": [
+            "Dimension"
+        ]
+    },
+    "void setName(String name)": {
+        "return type": "void",
+        "method name": "setName",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setPreferredSize(Dimension preferredSize)": {
+        "return type": "void",
+        "method name": "setPreferredSize",
+        "parameters": [
+            "Dimension"
+        ]
+    },
+    "void setSize(Dimension d)": {
+        "return type": "void",
+        "method name": "setSize",
+        "parameters": [
+            "Dimension"
+        ]
+    },
+    "void setSize(int width, int height)": {
+        "return type": "void",
+        "method name": "setSize",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void setVisible(boolean b)": {
+        "return type": "void",
+        "method name": "setVisible",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "void transferFocus()": {
+        "return type": "void",
+        "method name": "transferFocus",
+        "parameters": []
+    },
+    "void transferFocusBackward()": {
+        "return type": "void",
+        "method name": "transferFocusBackward",
+        "parameters": []
+    },
+    "void transferFocusUpCycle()": {
+        "return type": "void",
+        "method name": "transferFocusUpCycle",
+        "parameters": []
+    },
+    "void update(Graphics g)": {
+        "return type": "void",
+        "method name": "update",
+        "parameters": [
+            "Graphics"
+        ]
+    },
+    "void validate()": {
+        "return type": "void",
+        "method name": "validate",
+        "parameters": []
+    }
+}

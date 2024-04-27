@@ -1,0 +1,737 @@
+{
+    "void setObject(String parameterName, Object x, int targetSqlType, int scale)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "Object getObject(String parameterName, Map map)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "T getObject(String parameterName, Class type)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setCharacterStream(int parameterIndex, Reader reader, long length)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Reader getCharacterStream(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setBlob(int parameterIndex, Blob x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Blob getBlob(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setRef(int parameterIndex, Ref x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Ref getRef(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setDate(int parameterIndex, Date x, Calendar cal)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Date getDate(String parameterName, Calendar cal)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setNClob(String parameterName, NClob value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "NClob getNClob(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "NClob getNClob(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Object getObject(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setBytes(String parameterName, byte[] x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "byte[] getBytes(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setDate(int parameterIndex, Date x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Date getDate(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Object getObject(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setTime(String parameterName, Time x, Calendar cal)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Time getTime(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setCharacterStream(String parameterName, Reader reader, int length)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Reader getCharacterStream(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setClob(String parameterName, Clob x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Clob getClob(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setTimestamp(String parameterName, Timestamp x, Calendar cal)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "Timestamp getTimestamp(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "boolean execute(String sql, int autoGeneratedKeys)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "String getString(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "T getObject(int parameterIndex, Class type)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setTime(int parameterIndex, Time x, Calendar cal)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Time getTime(String parameterName, Calendar cal)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setNull(String parameterName, int sqlType, String typeName)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "String getNString(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setURL(int parameterIndex, URL x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "URL getURL(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setCharacterStream(String parameterName, Reader reader, long length)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setNCharacterStream(int parameterIndex, Reader value, long length)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Reader getNCharacterStream(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean execute(String sql)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setObject(String parameterName, Object x, SQLType targetSqlType)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setDate(String parameterName, Date x, Calendar cal)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setNString(String parameterName, String value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "String getNString(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "Time getTime(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setRowId(String parameterName, RowId x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "RowId getRowId(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setBlob(String parameterName, Blob x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Blob getBlob(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setBigDecimal(String parameterName, BigDecimal x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "BigDecimal getBigDecimal(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setURL(String parameterName, URL val)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "URL getURL(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setNCharacterStream(String parameterName, Reader value, long length)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setObject(int parameterIndex, Object x, int targetSqlType)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setNull(int parameterIndex, int sqlType, String typeName)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setObject(int parameterIndex, Object x, SQLType targetSqlType, int scaleOrLength)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setObject(int parameterIndex, Object x, SQLType targetSqlType)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Object getObject(int parameterIndex, Map map)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setTimestamp(String parameterName, Timestamp x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Timestamp getTimestamp(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Timestamp getTimestamp(int parameterIndex, Calendar cal)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Timestamp getTimestamp(String parameterName, Calendar cal)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setArray(int parameterIndex, Array x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Array getArray(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setString(String parameterName, String x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "String getString(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setTimestamp(int parameterIndex, Timestamp x, Calendar cal)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setSQLXML(String parameterName, SQLXML xmlObject)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "SQLXML getSQLXML(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setNString(int parameterIndex, String value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setNCharacterStream(String parameterName, Reader value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setCharacterStream(int parameterIndex, Reader reader, int length)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setDate(String parameterName, Date x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "byte[] getBytes(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setCharacterStream(int parameterIndex, Reader reader)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setObject(String parameterName, Object x, int targetSqlType)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setString(int parameterIndex, String x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "boolean execute(String sql, int[] columnIndexes)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "boolean execute(String sql, String[] columnNames)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setObject(String parameterName, Object x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "void setBigDecimal(int parameterIndex, BigDecimal x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "void setRowId(int parameterIndex, RowId x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setObject(String parameterName, Object x, SQLType targetSqlType, int scaleOrLength)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setSQLXML(int parameterIndex, SQLXML xmlObject)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "SQLXML getSQLXML(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "BigDecimal getBigDecimal(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setNClob(int parameterIndex, NClob value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Reader getNCharacterStream(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setTime(String parameterName, Time x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setBytes(int parameterIndex, byte[] x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Time getTime(int parameterIndex, Calendar cal)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Clob getClob(int parameterIndex)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Date getDate(int parameterIndex, Calendar cal)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Date getDate(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setNCharacterStream(int parameterIndex, Reader value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setTimestamp(int parameterIndex, Timestamp x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setClob(int parameterIndex, Clob x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "int[] executeBatch()": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setCharacterStream(String parameterName, Reader reader)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setObject(int parameterIndex, Object x, int targetSqlType, int scaleOrLength)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "void setTime(int parameterIndex, Time x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "RowId getRowId(String parameterName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "void setObject(int parameterIndex, Object x)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    }
+}

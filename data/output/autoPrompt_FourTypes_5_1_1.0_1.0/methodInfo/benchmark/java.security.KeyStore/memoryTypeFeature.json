@@ -1,0 +1,128 @@
+{
+    "boolean containsAlias(String alias)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Provider getProvider()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "String getDefaultType()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void setKeyEntry(String alias, Key key, char[] password, Certificate[] chain)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Certificate[] getCertificateChain(String alias)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean isKeyEntry(String alias)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Key getKey(String alias, char[] password)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "KeyStore.Entry getEntry(String alias, KeyStore.ProtectionParameter protParam)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "KeyStore getInstance(String type)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "boolean entryInstanceOf(String alias, Class entryClass)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void setCertificateEntry(String alias, Certificate cert)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "Certificate getCertificate(String alias)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void setEntry(String alias, KeyStore.Entry entry, KeyStore.ProtectionParameter protParam)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "KeyStore getInstance(String type, String provider)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "String getType()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void deleteEntry(String alias)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "String getCertificateAlias(Certificate cert)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "KeyStore getInstance(String type, Provider provider)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void setKeyEntry(String alias, byte[] key, Certificate[] chain)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "Date getCreationDate(String alias)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean isCertificateEntry(String alias)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    }
+}

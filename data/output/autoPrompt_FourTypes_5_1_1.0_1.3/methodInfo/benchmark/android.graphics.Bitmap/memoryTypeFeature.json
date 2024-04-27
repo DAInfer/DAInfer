@@ -1,0 +1,198 @@
+{
+    "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Bitmap.Config getConfig()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "boolean sameAs(Bitmap other)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Bitmap extractAlpha()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "ColorSpace getColorSpace()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "Bitmap createBitmap(int[] colors, int width, int height, Bitmap.Config config)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setConfig(Bitmap.Config config)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Bitmap createBitmap(DisplayMetrics display, int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "Bitmap asShared()": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "Bitmap createBitmap(Picture source, int width, int height, Bitmap.Config config)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "Bitmap createBitmap(DisplayMetrics display, int[] colors, int width, int height, Bitmap.Config config)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Bitmap wrapHardwareBuffer(HardwareBuffer hardwareBuffer, ColorSpace colorSpace)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "HardwareBuffer getHardwareBuffer()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "Bitmap copy(Bitmap.Config config, boolean isMutable)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "Bitmap createBitmap(int width, int height, Bitmap.Config config)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setColorSpace(ColorSpace colorSpace)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "Bitmap createBitmap(Bitmap src)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void reconfigure(int width, int height, Bitmap.Config config)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "void setGainmap(Gainmap gainmap)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "Gainmap getGainmap()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "Bitmap createBitmap(int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    }
+}

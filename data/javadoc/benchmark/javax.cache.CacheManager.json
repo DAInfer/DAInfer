@@ -1,0 +1,24 @@
+{
+    "class": "CacheManager",
+    "category": "Interface",
+    "methods": {
+        "void close()": "Closes the CacheManager.",
+        "Cache createCache(String cacheName, C configuration)": "Creates a named Cache at runtime.",
+        "void destroyCache(String cacheName)": "Destroys a specifically named and managed Cache.",
+        "void enableManagement(String cacheName, boolean enabled)": "Controls whether management is enabled.",
+        "void enableStatistics(String cacheName, boolean enabled)": "Enables or disables statistics gathering for a managed Cache at runtime.",
+        "Cache getCache(String cacheName)": "Looks up a managed Cache given its name.",
+        "Cache getCache(String cacheName, Class keyType, Class valueType)": "Looks up a managed Cache given its name.",
+        "Iterable getCacheNames()": "Obtains an Iterable over the names of Caches managed by the CacheManager.",
+        "CachingProvider getCachingProvider()": "Get the CachingProvider that created and is responsible for the CacheManager.",
+        "ClassLoader getClassLoader()": "Get the ClassLoader used by the CacheManager.",
+        "Properties getProperties()": "Get the Properties that were used to create this CacheManager.",
+        "URI getURI()": "Get the URI of the CacheManager.",
+        "boolean isClosed()": "Determines whether the CacheManager instance has been closed.",
+        "T unwrap(Class clazz)": "Provides a standard mechanism to access the underlying concrete caching implementation to provide access to further, proprietary features."
+    },
+    "super class": [
+        "java.lang.AutoCloseable",
+        "java.io.Closeable"
+    ]
+}

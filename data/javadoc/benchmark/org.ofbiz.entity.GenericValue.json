@@ -1,0 +1,34 @@
+{
+    "class": "GenericValue",
+    "category": "Class",
+    "methods": {
+        "java.lang.Object clone()": "Clones this GenericValue, this is a shallow clone and uses the default shallow HashMap clone",
+        "GenericValue create()": "",
+        "GenericValue create(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)": "Creates new GenericValue from existing Map",
+        "GenericValue create(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)": "Creates new GenericValue from existing Map",
+        "GenericValue create(GenericPK primaryKey)": "Creates new GenericValue from existing GenericValue",
+        "GenericValue create(GenericValue value)": "Creates new GenericValue from existing GenericValue",
+        "GenericValue create(ModelEntity modelEntity)": "Creates new GenericValue",
+        "boolean equals(java.lang.Object obj)": "Determines the equality of two GenericEntity objects, overrides the default equals",
+        "java.util.List getRelated(java.lang.String relationName)": "Deprecated. use getRelated(String, Map, List, boolean)",
+        "java.util.List getRelated(java.lang.String relationName, java.util.List orderBy)": "Deprecated. use getRelated(String, Map, List, boolean)",
+        "java.util.List getRelated(java.lang.String relationName, java.util.Map byAndFields, java.util.List orderBy)": "Deprecated. use getRelated(String, Map, List, boolean)",
+        "java.util.List getRelated(java.lang.String relationName, java.util.Map byAndFields, java.util.List orderBy, boolean useCache)": "Get the named Related Entity for the GenericValue from the persistent store",
+        "GenericPK getRelatedDummyPK(java.lang.String relationName)": "Get a dummy primary key for the named Related Entity for the GenericValue",
+        "GenericPK getRelatedDummyPK(java.lang.String relationName, java.util.Map byAndFields)": "Get a dummy primary key for the named Related Entity for the GenericValue",
+        "java.util.List getRelatedMulti(java.lang.String relationNameOne, java.lang.String relationNameTwo)": "Get the named Related Entity for the GenericValue from the persistent store across another Relation.",
+        "java.util.List getRelatedMulti(java.lang.String relationNameOne, java.lang.String relationNameTwo, java.util.List orderBy)": "Get the named Related Entity for the GenericValue from the persistent store across another Relation.",
+        "GenericValue getRelatedOne(java.lang.String relationName)": "Deprecated. use getRelatedOne(String, boolean)",
+        "GenericValue getRelatedOne(java.lang.String relationName, boolean useCache)": "Get the named Related Entity for the GenericValue from the persistent store",
+        "java.lang.String getStackTraceAsString()": "",
+        "int hashCode()": "Creates a hashCode for the entity, using the default String hashCode and Map hashCode, overrides the default hashCode",
+        "void refresh()": "",
+        "void refreshFromCache()": "",
+        "void remove()": "",
+        "void removeRelated(java.lang.String relationName)": "Remove the named Related Entity for the GenericValue from the persistent store",
+        "void store()": ""
+    },
+    "super class": [
+        "org.apache.ofbiz.entity.GenericEntity"
+    ]
+}

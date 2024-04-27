@@ -1,0 +1,50 @@
+{
+    "void setHeaders(Header[] headers)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "void setHeader(Header header)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "void addHeader(Header header)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Header getLastHeader(String name)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Header getFirstHeader(String name)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Header[] getAllHeaders()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Header[] getHeaders(String name)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void removeHeader(Header header)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    }
+}

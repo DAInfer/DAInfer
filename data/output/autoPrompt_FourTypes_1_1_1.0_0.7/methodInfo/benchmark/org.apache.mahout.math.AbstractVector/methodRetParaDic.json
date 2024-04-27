@@ -1,0 +1,325 @@
+{
+    "double aggregate(DoubleDoubleFunction aggregator, DoubleFunction map)": {
+        "return type": "double",
+        "method name": "aggregate",
+        "parameters": [
+            "DoubleDoubleFunction",
+            "DoubleFunction"
+        ]
+    },
+    "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)": {
+        "return type": "double",
+        "method name": "aggregate",
+        "parameters": [
+            "Vector",
+            "DoubleDoubleFunction",
+            "DoubleDoubleFunction"
+        ]
+    },
+    "Iterable all()": {
+        "return type": "Iterable",
+        "method name": "all",
+        "parameters": []
+    },
+    "String asFormatString()": {
+        "return type": "String",
+        "method name": "asFormatString",
+        "parameters": []
+    },
+    "Vector assign(double value)": {
+        "return type": "Vector",
+        "method name": "assign",
+        "parameters": [
+            "double"
+        ]
+    },
+    "Vector assign(double[] values)": {
+        "return type": "Vector",
+        "method name": "assign",
+        "parameters": [
+            "double[]"
+        ]
+    },
+    "Vector assign(DoubleDoubleFunction f, double y)": {
+        "return type": "Vector",
+        "method name": "assign",
+        "parameters": [
+            "DoubleDoubleFunction",
+            "double"
+        ]
+    },
+    "Vector assign(DoubleFunction f)": {
+        "return type": "Vector",
+        "method name": "assign",
+        "parameters": [
+            "DoubleFunction"
+        ]
+    },
+    "Vector assign(Vector other)": {
+        "return type": "Vector",
+        "method name": "assign",
+        "parameters": [
+            "Vector"
+        ]
+    },
+    "Vector assign(Vector other, DoubleDoubleFunction function)": {
+        "return type": "Vector",
+        "method name": "assign",
+        "parameters": [
+            "Vector",
+            "DoubleDoubleFunction"
+        ]
+    },
+    "Vector clone()": {
+        "return type": "Vector",
+        "method name": "clone",
+        "parameters": []
+    },
+    "Vector createOptimizedCopy()": {
+        "return type": "Vector",
+        "method name": "createOptimizedCopy",
+        "parameters": []
+    },
+    "Matrix cross(Vector other)": {
+        "return type": "Matrix",
+        "method name": "cross",
+        "parameters": [
+            "Vector"
+        ]
+    },
+    "Vector divide(double x)": {
+        "return type": "Vector",
+        "method name": "divide",
+        "parameters": [
+            "double"
+        ]
+    },
+    "double dot(Vector x)": {
+        "return type": "double",
+        "method name": "dot",
+        "parameters": [
+            "Vector"
+        ]
+    },
+    "double dotSelf()": {
+        "return type": "double",
+        "method name": "dotSelf",
+        "parameters": []
+    },
+    "boolean equals(Object o)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "double get(int index)": {
+        "return type": "double",
+        "method name": "get",
+        "parameters": [
+            "int"
+        ]
+    },
+    "double getDistanceSquared(Vector that)": {
+        "return type": "double",
+        "method name": "getDistanceSquared",
+        "parameters": [
+            "Vector"
+        ]
+    },
+    "Vector.Element getElement(int index)": {
+        "return type": "Vector.Element",
+        "method name": "getElement",
+        "parameters": [
+            "int"
+        ]
+    },
+    "double getLengthSquared()": {
+        "return type": "double",
+        "method name": "getLengthSquared",
+        "parameters": []
+    },
+    "int getNumNonZeroElements()": {
+        "return type": "int",
+        "method name": "getNumNonZeroElements",
+        "parameters": []
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "void incrementQuick(int index, double increment)": {
+        "return type": "void",
+        "method name": "incrementQuick",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "void invalidateCachedLength()": {
+        "return type": "void",
+        "method name": "invalidateCachedLength",
+        "parameters": []
+    },
+    "Iterator iterateNonZero()": {
+        "return type": "Iterator",
+        "method name": "iterateNonZero",
+        "parameters": []
+    },
+    "Iterator iterator()": {
+        "return type": "Iterator",
+        "method name": "iterator",
+        "parameters": []
+    },
+    "Vector logNormalize()": {
+        "return type": "Vector",
+        "method name": "logNormalize",
+        "parameters": []
+    },
+    "Vector logNormalize(double power)": {
+        "return type": "Vector",
+        "method name": "logNormalize",
+        "parameters": [
+            "double"
+        ]
+    },
+    "Vector logNormalize(double power, double normLength)": {
+        "return type": "Vector",
+        "method name": "logNormalize",
+        "parameters": [
+            "double",
+            "double"
+        ]
+    },
+    "Matrix matrixLike(int rows, int columns)": {
+        "return type": "Matrix",
+        "method name": "matrixLike",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "double maxValue()": {
+        "return type": "double",
+        "method name": "maxValue",
+        "parameters": []
+    },
+    "int maxValueIndex()": {
+        "return type": "int",
+        "method name": "maxValueIndex",
+        "parameters": []
+    },
+    "Vector minus(Vector that)": {
+        "return type": "Vector",
+        "method name": "minus",
+        "parameters": [
+            "Vector"
+        ]
+    },
+    "double minValue()": {
+        "return type": "double",
+        "method name": "minValue",
+        "parameters": []
+    },
+    "int minValueIndex()": {
+        "return type": "int",
+        "method name": "minValueIndex",
+        "parameters": []
+    },
+    "Iterable nonZeroes()": {
+        "return type": "Iterable",
+        "method name": "nonZeroes",
+        "parameters": []
+    },
+    "double norm(double power)": {
+        "return type": "double",
+        "method name": "norm",
+        "parameters": [
+            "double"
+        ]
+    },
+    "Vector normalize()": {
+        "return type": "Vector",
+        "method name": "normalize",
+        "parameters": []
+    },
+    "Vector normalize(double power)": {
+        "return type": "Vector",
+        "method name": "normalize",
+        "parameters": [
+            "double"
+        ]
+    },
+    "Vector plus(double x)": {
+        "return type": "Vector",
+        "method name": "plus",
+        "parameters": [
+            "double"
+        ]
+    },
+    "Vector plus(Vector that)": {
+        "return type": "Vector",
+        "method name": "plus",
+        "parameters": [
+            "Vector"
+        ]
+    },
+    "void set(int index, double value)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "String sparseVectorToString()": {
+        "return type": "String",
+        "method name": "sparseVectorToString",
+        "parameters": []
+    },
+    "Vector times(double x)": {
+        "return type": "Vector",
+        "method name": "times",
+        "parameters": [
+            "double"
+        ]
+    },
+    "Vector times(Vector that)": {
+        "return type": "Vector",
+        "method name": "times",
+        "parameters": [
+            "Vector"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "String toString(String[] dictionary)": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": [
+            "String[]"
+        ]
+    },
+    "Vector viewPart(int offset, int length)": {
+        "return type": "Vector",
+        "method name": "viewPart",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "double zSum()": {
+        "return type": "double",
+        "method name": "zSum",
+        "parameters": []
+    }
+}

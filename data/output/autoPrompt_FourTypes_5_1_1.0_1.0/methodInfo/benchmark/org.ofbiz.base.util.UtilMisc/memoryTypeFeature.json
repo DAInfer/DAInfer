@@ -1,0 +1,248 @@
+{
+    "java.util.List getListFromMap(java.util.Map outerMap, K key)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Map makeMapWritable(java.util.Map map)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.lang.String collectionToString(java.util.Collection values, java.lang.String delimiter)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.math.BigDecimal addToBigDecimalInMap(java.util.Map theMap, K mapKey, java.math.BigDecimal addNumber)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void makeArrayListSerializable(java.util.ArrayList arrayList)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "java.util.Map splitPhoneNumber(java.lang.String phoneNumber, Delegator delegator)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Locale parseLocale(java.lang.String localeString)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.List makeListWritable(java.util.Collection col)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Locale ensureLocale(java.lang.Object localeObject)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Map toMap(java.util.function.Supplier constructor, java.lang.Object... kvs)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void addToSortedSetInMap(V element, java.util.Map theMap, K setKey)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Set collectionToSet(java.util.Collection c)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Set toSet(T... data)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "int compare(java.lang.Comparable obj1, T obj2)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void addToDoubleInMap(java.util.Map theMap, K key, java.lang.Double value)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.List sortMaps(java.util.List listOfMaps, java.util.List sortKeys)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.lang.Integer toIntegerObject(java.lang.Object obj)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.List availableLocales()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "long toLong(java.lang.Object obj)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.lang.Long toLongObject(java.lang.Object obj)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "int toInteger(java.lang.Object obj)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Map getMapFromMap(java.util.Map outerMap, K key)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "double toDouble(java.lang.Object obj)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Set toSetArray(T[] data)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.List toListArray(T[] data)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void makeMapSerializable(java.util.Map map)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "java.util.Iterator toIterator(java.util.Collection col)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.List toList(T... data)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Map toMap(java.lang.Object... kvs)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.lang.Double toDoubleObject(java.lang.Object obj)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Set toSet(java.util.Collection collection)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "T initCause(T throwable, java.lang.Throwable cause)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "java.util.List toList(java.util.Collection collection)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void copyFile(java.io.File sourceLocation, java.io.File targetLocation)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void addToSetInMap(V element, java.util.Map theMap, K setKey)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "int compare(java.util.List obj1, java.util.List obj2)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.lang.String printMap(java.util.Map theMap)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "T removeFirst(java.util.List lst)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "java.util.List getHostHeadersAllowed()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void addToListInMap(V element, java.util.Map theMap, K listKey)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Set makeSetWritable(java.util.Collection col)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    }
+}

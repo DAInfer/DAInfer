@@ -1,0 +1,29 @@
+{
+    "class": "InventoryBasic",
+    "category": "Class",
+    "methods": {
+        "void addInventoryChangeListener(IInventoryChangedListener listener)": "",
+        "ItemStack addItem(ItemStack stack)": "",
+        "void clear()": "",
+        "void closeInventory(EntityPlayer player)": "",
+        "ItemStack decrStackSize(int index, int count)": "",
+        "ITextComponent getDisplayName()": "",
+        "int getField(int id)": "",
+        "int getFieldCount()": "",
+        "int getInventoryStackLimit()": "",
+        "java.lang.String getName()": "",
+        "int getSizeInventory()": "",
+        "ItemStack getStackInSlot(int index)": "",
+        "boolean hasCustomName()": "",
+        "boolean isItemValidForSlot(int index, ItemStack stack)": "",
+        "boolean isUseableByPlayer(EntityPlayer player)": "",
+        "void markDirty()": "",
+        "void openInventory(EntityPlayer player)": "",
+        "void removeInventoryChangeListener(IInventoryChangedListener listener)": "",
+        "ItemStack removeStackFromSlot(int index)": "",
+        "void setCustomName(java.lang.String inventoryTitleIn)": "",
+        "void setField(int id, int value)": "",
+        "void setInventorySlotContents(int index, ItemStack stack)": ""
+    },
+    "super class": []
+}

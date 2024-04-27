@@ -1,0 +1,551 @@
+{
+    "Object _processValue(Object value, JsonConfig jsonConfig)": {
+        "return type": "Object",
+        "method name": "_processValue",
+        "parameters": [
+            "Object",
+            "JsonConfig"
+        ]
+    },
+    "JSONObject accumulate(String key, boolean value)": {
+        "return type": "JSONObject",
+        "method name": "accumulate",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "JSONObject accumulate(String key, double value)": {
+        "return type": "JSONObject",
+        "method name": "accumulate",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "JSONObject accumulate(String key, int value)": {
+        "return type": "JSONObject",
+        "method name": "accumulate",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "JSONObject accumulate(String key, long value)": {
+        "return type": "JSONObject",
+        "method name": "accumulate",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "JSONObject accumulate(String key, Object value)": {
+        "return type": "JSONObject",
+        "method name": "accumulate",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "JSONObject accumulate(String key, Object value, JsonConfig jsonConfig)": {
+        "return type": "JSONObject",
+        "method name": "accumulate",
+        "parameters": [
+            "String",
+            "Object",
+            "JsonConfig"
+        ]
+    },
+    "void accumulateAll(Map map)": {
+        "return type": "void",
+        "method name": "accumulateAll",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "void accumulateAll(Map map, JsonConfig jsonConfig)": {
+        "return type": "void",
+        "method name": "accumulateAll",
+        "parameters": [
+            "Map",
+            "JsonConfig"
+        ]
+    },
+    "boolean addInstance(Object instance)": {
+        "return type": "boolean",
+        "method name": "addInstance",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "void clear()": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": []
+    },
+    "int compareTo(Object obj)": {
+        "return type": "int",
+        "method name": "compareTo",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean containsKey(Object key)": {
+        "return type": "boolean",
+        "method name": "containsKey",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean containsValue(Object value)": {
+        "return type": "boolean",
+        "method name": "containsValue",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean containsValue(Object value, JsonConfig jsonConfig)": {
+        "return type": "boolean",
+        "method name": "containsValue",
+        "parameters": [
+            "Object",
+            "JsonConfig"
+        ]
+    },
+    "JSONObject discard(String key)": {
+        "return type": "JSONObject",
+        "method name": "discard",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JSONObject element(String key, boolean value)": {
+        "return type": "JSONObject",
+        "method name": "element",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "JSONObject element(String key, Collection value)": {
+        "return type": "JSONObject",
+        "method name": "element",
+        "parameters": [
+            "String",
+            "Collection"
+        ]
+    },
+    "JSONObject element(String key, Collection value, JsonConfig jsonConfig)": {
+        "return type": "JSONObject",
+        "method name": "element",
+        "parameters": [
+            "String",
+            "Collection",
+            "JsonConfig"
+        ]
+    },
+    "JSONObject element(String key, double value)": {
+        "return type": "JSONObject",
+        "method name": "element",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "JSONObject element(String key, int value)": {
+        "return type": "JSONObject",
+        "method name": "element",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "JSONObject element(String key, long value)": {
+        "return type": "JSONObject",
+        "method name": "element",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "JSONObject element(String key, Map value)": {
+        "return type": "JSONObject",
+        "method name": "element",
+        "parameters": [
+            "String",
+            "Map"
+        ]
+    },
+    "JSONObject element(String key, Map value, JsonConfig jsonConfig)": {
+        "return type": "JSONObject",
+        "method name": "element",
+        "parameters": [
+            "String",
+            "Map",
+            "JsonConfig"
+        ]
+    },
+    "JSONObject element(String key, Object value)": {
+        "return type": "JSONObject",
+        "method name": "element",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "JSONObject element(String key, Object value, JsonConfig jsonConfig)": {
+        "return type": "JSONObject",
+        "method name": "element",
+        "parameters": [
+            "String",
+            "Object",
+            "JsonConfig"
+        ]
+    },
+    "JSONObject elementOpt(String key, Object value)": {
+        "return type": "JSONObject",
+        "method name": "elementOpt",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "JSONObject elementOpt(String key, Object value, JsonConfig jsonConfig)": {
+        "return type": "JSONObject",
+        "method name": "elementOpt",
+        "parameters": [
+            "String",
+            "Object",
+            "JsonConfig"
+        ]
+    },
+    "Set entrySet()": {
+        "return type": "Set",
+        "method name": "entrySet",
+        "parameters": []
+    },
+    "boolean equals(Object obj)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "void fireArrayEndEvent(JsonConfig jsonConfig)": {
+        "return type": "void",
+        "method name": "fireArrayEndEvent",
+        "parameters": [
+            "JsonConfig"
+        ]
+    },
+    "void fireArrayStartEvent(JsonConfig jsonConfig)": {
+        "return type": "void",
+        "method name": "fireArrayStartEvent",
+        "parameters": [
+            "JsonConfig"
+        ]
+    },
+    "void fireElementAddedEvent(int index, Object element, JsonConfig jsonConfig)": {
+        "return type": "void",
+        "method name": "fireElementAddedEvent",
+        "parameters": [
+            "int",
+            "Object",
+            "JsonConfig"
+        ]
+    },
+    "void fireErrorEvent(JSONException jsone, JsonConfig jsonConfig)": {
+        "return type": "void",
+        "method name": "fireErrorEvent",
+        "parameters": [
+            "JSONException",
+            "JsonConfig"
+        ]
+    },
+    "void fireObjectEndEvent(JsonConfig jsonConfig)": {
+        "return type": "void",
+        "method name": "fireObjectEndEvent",
+        "parameters": [
+            "JsonConfig"
+        ]
+    },
+    "void fireObjectStartEvent(JsonConfig jsonConfig)": {
+        "return type": "void",
+        "method name": "fireObjectStartEvent",
+        "parameters": [
+            "JsonConfig"
+        ]
+    },
+    "void firePropertySetEvent(String key, Object value, boolean accumulated, JsonConfig jsonConfig)": {
+        "return type": "void",
+        "method name": "firePropertySetEvent",
+        "parameters": [
+            "String",
+            "Object",
+            "boolean",
+            "JsonConfig"
+        ]
+    },
+    "void fireWarnEvent(String warning, JsonConfig jsonConfig)": {
+        "return type": "void",
+        "method name": "fireWarnEvent",
+        "parameters": [
+            "String",
+            "JsonConfig"
+        ]
+    },
+    "JSONObject fromObject(Object object)": {
+        "return type": "JSONObject",
+        "method name": "fromObject",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "Object get(Object key)": {
+        "return type": "Object",
+        "method name": "get",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "Object get(String key)": {
+        "return type": "Object",
+        "method name": "get",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean getBoolean(String key)": {
+        "return type": "boolean",
+        "method name": "getBoolean",
+        "parameters": [
+            "String"
+        ]
+    },
+    "double getDouble(String key)": {
+        "return type": "double",
+        "method name": "getDouble",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int getInt(String key)": {
+        "return type": "int",
+        "method name": "getInt",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JSONArray getJSONArray(String key)": {
+        "return type": "JSONArray",
+        "method name": "getJSONArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JSONObject getJSONObject(String key)": {
+        "return type": "JSONObject",
+        "method name": "getJSONObject",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getString(String key)": {
+        "return type": "String",
+        "method name": "getString",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean has(String key)": {
+        "return type": "boolean",
+        "method name": "has",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isArray()": {
+        "return type": "boolean",
+        "method name": "isArray",
+        "parameters": []
+    },
+    "boolean isEmpty()": {
+        "return type": "boolean",
+        "method name": "isEmpty",
+        "parameters": []
+    },
+    "Object opt(String key)": {
+        "return type": "Object",
+        "method name": "opt",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean optBoolean(String key)": {
+        "return type": "boolean",
+        "method name": "optBoolean",
+        "parameters": [
+            "String"
+        ]
+    },
+    "double optDouble(String key)": {
+        "return type": "double",
+        "method name": "optDouble",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int optInt(String key)": {
+        "return type": "int",
+        "method name": "optInt",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JSONArray optJSONArray(String key)": {
+        "return type": "JSONArray",
+        "method name": "optJSONArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JSONObject optJSONObject(String key)": {
+        "return type": "JSONObject",
+        "method name": "optJSONObject",
+        "parameters": [
+            "String"
+        ]
+    },
+    "long optLong(String key)": {
+        "return type": "long",
+        "method name": "optLong",
+        "parameters": [
+            "String"
+        ]
+    },
+    "long optLong(String key, long defaultValue)": {
+        "return type": "long",
+        "method name": "optLong",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "String optString(String key)": {
+        "return type": "String",
+        "method name": "optString",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String optString(String key, String defaultValue)": {
+        "return type": "String",
+        "method name": "optString",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "Object put(Object key, Object value)": {
+        "return type": "Object",
+        "method name": "put",
+        "parameters": [
+            "Object",
+            "Object"
+        ]
+    },
+    "void putAll(Map map)": {
+        "return type": "void",
+        "method name": "putAll",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "Object remove(Object key) or remove(String key)": {
+        "return type": "Object",
+        "method name": "remove",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "JSONArray toJSONArray(JSONArray names)": {
+        "return type": "JSONArray",
+        "method name": "toJSONArray",
+        "parameters": [
+            "JSONArray"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "String toString(int indentFactor)": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": [
+            "int"
+        ]
+    },
+    "String toString(int indentFactor, int indent)": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "Writer write(Writer writer)": {
+        "return type": "Writer",
+        "method name": "write",
+        "parameters": [
+            "Writer"
+        ]
+    },
+    "Object toBean(JSONObject jsonObject)": {
+        "return type": "Object",
+        "method name": "toBean",
+        "parameters": [
+            "JSONObject"
+        ]
+    },
+    "Object toBean(JSONObject jsonObject, Class beanClass)": {
+        "return type": "Object",
+        "method name": "toBean",
+        "parameters": [
+            "JSONObject",
+            "Class"
+        ]
+    },
+    "Object toBean(JSONObject jsonObject, Class beanClass, Map classMap)": {
+        "return type": "Object",
+        "method name": "toBean",
+        "parameters": [
+            "JSONObject",
+            "Class",
+            "Map"
+        ]
+    },
+    "Object toBean(JSONObject jsonObject, JsonConfig jsonConfig)": {
+        "return type": "Object",
+        "method name": "toBean",
+        "parameters": [
+            "JSONObject",
+            "JsonConfig"
+        ]
+    },
+    "Object toBean(JSONObject jsonObject, Object root, JsonConfig jsonConfig)": {
+        "return type": "Object",
+        "method name": "toBean",
+        "parameters": [
+            "JSONObject",
+            "Object",
+            "JsonConfig"
+        ]
+    }
+}

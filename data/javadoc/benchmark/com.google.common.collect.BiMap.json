@@ -1,0 +1,14 @@
+{
+    "class": "BiMap",
+    "category": "Interface",
+    "methods": {
+        "V forcePut(K key, V value)": "An alternate form of put that silently removes any existing entry with the value value before proceeding with the put(K, V) operation.",
+        "BiMap inverse()": "Returns the inverse view of this bimap, which maps each of this bimap's values to its associated key.",
+        "V put(K key, V value)": "",
+        "void putAll(Map map)": "",
+        "Set values()": ""
+    },
+    "super class": [
+        "java.util.Map"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "byte[] bytes()": {
+        "return type": "byte[]",
+        "method name": "bytes",
+        "parameters": []
+    },
+    "InputStream byteStream()": {
+        "return type": "InputStream",
+        "method name": "byteStream",
+        "parameters": []
+    },
+    "Reader charStream()": {
+        "return type": "Reader",
+        "method name": "charStream",
+        "parameters": []
+    },
+    "void close()": {
+        "return type": "void",
+        "method name": "close",
+        "parameters": []
+    },
+    "long contentLength()": {
+        "return type": "long",
+        "method name": "contentLength",
+        "parameters": []
+    },
+    "MediaType contentType()": {
+        "return type": "MediaType",
+        "method name": "contentType",
+        "parameters": []
+    },
+    "ResponseBody create(MediaType contentType, byte[] content)": {
+        "return type": "ResponseBody",
+        "method name": "create",
+        "parameters": [
+            "MediaType",
+            "byte[]"
+        ]
+    },
+    "ResponseBody create(MediaType contentType, long contentLength, okio.BufferedSource content)": {
+        "return type": "ResponseBody",
+        "method name": "create",
+        "parameters": [
+            "MediaType",
+            "long",
+            "okio.BufferedSource"
+        ]
+    },
+    "ResponseBody create(MediaType contentType, String content)": {
+        "return type": "ResponseBody",
+        "method name": "create",
+        "parameters": [
+            "MediaType",
+            "String"
+        ]
+    },
+    "okio.BufferedSource source()": {
+        "return type": "okio.BufferedSource",
+        "method name": "source",
+        "parameters": []
+    },
+    "String string()": {
+        "return type": "String",
+        "method name": "string",
+        "parameters": []
+    }
+}

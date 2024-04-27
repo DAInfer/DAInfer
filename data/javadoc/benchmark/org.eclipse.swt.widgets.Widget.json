@@ -1,0 +1,24 @@
+{
+    "class": "Widget",
+    "category": "Class",
+    "methods": {
+        "void addListener(int eventType, Listener listener)": "Adds the listener to the collection of listeners who will be notified when an event of the given type occurs.",
+        "void checkSubclass()": "Checks that this class can be subclassed.",
+        "void checkWidget()": "Throws an SWTException if the receiver cannot be accessed by the caller.",
+        "void dispose()": "Disposes of the operating system resources associated with the receiver and all its descendants.",
+        "Object getData()": "Returns the application-defined widget data associated with the receiver, or null if it has not been set.",
+        "Object getData(String key)": "Returns the application-defined property of the receiver with the specified name, or null if it has not been set.",
+        "abstract Display getDisplay()": "Returns the Display that is associated with the receiver.",
+        "int getStyle()": "Returns the receiver's style information.",
+        "boolean isDisposed()": "Returns true if the widget has been disposed, and false otherwise.",
+        "boolean isListening(int eventType)": "Returns true if there are any listeners for the specified event type associated with the receiver, and false otherwise.",
+        "void notifyListeners(int eventType, Event event)": "Notifies all of the receiver's listeners for events of the given type that one such event has occurred by invoking their handleEvent() method.",
+        "void removeDisposeListener(DisposeListener listener)": "Removes the listener from the collection of listeners who will be notified when the widget is disposed.",
+        "void removeListener(int eventType, Listener listener)": "Removes the listener from the collection of listeners who will be notified when an event of the given type occurs.",
+        "void removeListener(int eventType, org.eclipse.swt.internal.SWTEventListener listener)": "Removes the listener from the collection of listeners who will be notified when an event of the given type occurs.",
+        "void setData(Object data)": "Sets the application-defined widget data associated with the receiver to be the argument.",
+        "void setData(String key, Object value)": "Sets the application-defined property of the receiver with the specified name to the given value.",
+        "String toString()": "Returns a string containing a concise, human-readable description of the receiver."
+    },
+    "super class": []
+}

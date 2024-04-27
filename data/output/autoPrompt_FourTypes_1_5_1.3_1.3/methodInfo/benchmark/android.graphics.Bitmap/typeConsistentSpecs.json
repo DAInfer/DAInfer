@@ -1,0 +1,488 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)",
+            "ColorSpace getColorSpace()"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap wrapHardwareBuffer(HardwareBuffer hardwareBuffer, ColorSpace colorSpace)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap copy(Bitmap.Config config, boolean isMutable)"
+        ],
+        [
+            "Bitmap copy(Bitmap.Config config, boolean isMutable)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(Picture source, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(Picture source, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap wrapHardwareBuffer(HardwareBuffer hardwareBuffer, ColorSpace colorSpace)",
+            "HardwareBuffer getHardwareBuffer()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap copy(Bitmap.Config config, boolean isMutable)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(int[] colors, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap extractAlpha(Paint paint, int[] offsetXY)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap copy(Bitmap.Config config, boolean isMutable)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap extractAlpha()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)"
+        ],
+        [
+            "void setColorSpace(ColorSpace colorSpace)",
+            "ColorSpace getColorSpace()"
+        ],
+        [
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)",
+            "ColorSpace getColorSpace()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap extractAlpha()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(int[] colors, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap asShared()"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(Picture source)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap extractAlpha()"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap wrapHardwareBuffer(HardwareBuffer hardwareBuffer, ColorSpace colorSpace)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap wrapHardwareBuffer(HardwareBuffer hardwareBuffer, ColorSpace colorSpace)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(Picture source)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha)"
+        ],
+        [
+            "Bitmap createBitmap(int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(int[] colors, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap extractAlpha(Paint paint, int[] offsetXY)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha)"
+        ],
+        [
+            "void reconfigure(int width, int height, Bitmap.Config config)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap copy(Bitmap.Config config, boolean isMutable)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap copy(Bitmap.Config config, boolean isMutable)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(Picture source)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap extractAlpha(Paint paint, int[] offsetXY)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap asShared()"
+        ],
+        [
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(Bitmap src)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(Picture source, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(Picture source, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap extractAlpha()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap extractAlpha()"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap asShared()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap extractAlpha(Paint paint, int[] offsetXY)"
+        ],
+        [
+            "Bitmap wrapHardwareBuffer(HardwareBuffer hardwareBuffer, ColorSpace colorSpace)",
+            "ColorSpace getColorSpace()"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(Bitmap src)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(int[] colors, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(Picture source)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(Picture source, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap asShared()"
+        ],
+        [
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int width, int height, Bitmap.Config config)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "void setGainmap(Gainmap gainmap)",
+            "Gainmap getGainmap()"
+        ],
+        [
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap extractAlpha(Paint paint, int[] offsetXY)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)"
+        ],
+        [
+            "boolean sameAs(Bitmap other)",
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap wrapHardwareBuffer(HardwareBuffer hardwareBuffer, ColorSpace colorSpace)"
+        ],
+        [
+            "Bitmap createBitmap(Picture source, int width, int height, Bitmap.Config config)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(DisplayMetrics display, int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap wrapHardwareBuffer(HardwareBuffer hardwareBuffer, ColorSpace colorSpace)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)"
+        ],
+        [
+            "void setConfig(Bitmap.Config config)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(int[] colors, int width, int height, Bitmap.Config config)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(Picture source)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap asShared()"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap src)",
+            "Bitmap createBitmap(int[] colors, int width, int height, Bitmap.Config config)"
+        ],
+        [
+            "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config)",
+            "Bitmap.Config getConfig()"
+        ],
+        [
+            "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)",
+            "Bitmap createBitmap(Bitmap src)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)",
+            "Bitmap createBitmap(Bitmap src)"
+        ],
+        [
+            "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)",
+            "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha)"
+        ]
+    ]
+}

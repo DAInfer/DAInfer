@@ -1,0 +1,357 @@
+{
+    "FilterRegistration.Dynamic addFilter(String filterName, Class filterClass)": {
+        "return type": "FilterRegistration.Dynamic",
+        "method name": "addFilter",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "FilterRegistration.Dynamic addFilter(String filterName, Filter filter)": {
+        "return type": "FilterRegistration.Dynamic",
+        "method name": "addFilter",
+        "parameters": [
+            "String",
+            "Filter"
+        ]
+    },
+    "FilterRegistration.Dynamic addFilter(String filterName, String className)": {
+        "return type": "FilterRegistration.Dynamic",
+        "method name": "addFilter",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "ServletRegistration.Dynamic addJspFile(String servletName, String jspFile)": {
+        "return type": "ServletRegistration.Dynamic",
+        "method name": "addJspFile",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "void addListener(Class listenerClass)": {
+        "return type": "void",
+        "method name": "addListener",
+        "parameters": [
+            "Class"
+        ]
+    },
+    "void addListener(String className)": {
+        "return type": "void",
+        "method name": "addListener",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void addListener(T t)": {
+        "return type": "void",
+        "method name": "addListener",
+        "parameters": [
+            "T"
+        ]
+    },
+    "ServletRegistration.Dynamic addServlet(String servletName, Class servletClass)": {
+        "return type": "ServletRegistration.Dynamic",
+        "method name": "addServlet",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "ServletRegistration.Dynamic addServlet(String servletName, Servlet servlet)": {
+        "return type": "ServletRegistration.Dynamic",
+        "method name": "addServlet",
+        "parameters": [
+            "String",
+            "Servlet"
+        ]
+    },
+    "ServletRegistration.Dynamic addServlet(String servletName, String className)": {
+        "return type": "ServletRegistration.Dynamic",
+        "method name": "addServlet",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "T createFilter(Class clazz)": {
+        "return type": "T",
+        "method name": "createFilter",
+        "parameters": [
+            "Class"
+        ]
+    },
+    "T createListener(Class clazz)": {
+        "return type": "T",
+        "method name": "createListener",
+        "parameters": [
+            "Class"
+        ]
+    },
+    "T createServlet(Class clazz)": {
+        "return type": "T",
+        "method name": "createServlet",
+        "parameters": [
+            "Class"
+        ]
+    },
+    "void declareRoles(String... roleNames)": {
+        "return type": "void",
+        "method name": "declareRoles",
+        "parameters": [
+            "String..."
+        ]
+    },
+    "Object getAttribute(String name)": {
+        "return type": "Object",
+        "method name": "getAttribute",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Enumeration getAttributeNames()": {
+        "return type": "Enumeration",
+        "method name": "getAttributeNames",
+        "parameters": []
+    },
+    "ClassLoader getClassLoader()": {
+        "return type": "ClassLoader",
+        "method name": "getClassLoader",
+        "parameters": []
+    },
+    "ServletContext getContext(String uripath)": {
+        "return type": "ServletContext",
+        "method name": "getContext",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getContextPath()": {
+        "return type": "String",
+        "method name": "getContextPath",
+        "parameters": []
+    },
+    "Set getDefaultSessionTrackingModes()": {
+        "return type": "Set",
+        "method name": "getDefaultSessionTrackingModes",
+        "parameters": []
+    },
+    "int getEffectiveMajorVersion()": {
+        "return type": "int",
+        "method name": "getEffectiveMajorVersion",
+        "parameters": []
+    },
+    "int getEffectiveMinorVersion()": {
+        "return type": "int",
+        "method name": "getEffectiveMinorVersion",
+        "parameters": []
+    },
+    "Set getEffectiveSessionTrackingModes()": {
+        "return type": "Set",
+        "method name": "getEffectiveSessionTrackingModes",
+        "parameters": []
+    },
+    "FilterRegistration getFilterRegistration(String filterName)": {
+        "return type": "FilterRegistration",
+        "method name": "getFilterRegistration",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Map getFilterRegistrations()": {
+        "return type": "Map",
+        "method name": "getFilterRegistrations",
+        "parameters": []
+    },
+    "String getInitParameter(String name)": {
+        "return type": "String",
+        "method name": "getInitParameter",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Enumeration getInitParameterNames()": {
+        "return type": "Enumeration",
+        "method name": "getInitParameterNames",
+        "parameters": []
+    },
+    "JspConfigDescriptor getJspConfigDescriptor()": {
+        "return type": "JspConfigDescriptor",
+        "method name": "getJspConfigDescriptor",
+        "parameters": []
+    },
+    "int getMajorVersion()": {
+        "return type": "int",
+        "method name": "getMajorVersion",
+        "parameters": []
+    },
+    "String getMimeType(String file)": {
+        "return type": "String",
+        "method name": "getMimeType",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int getMinorVersion()": {
+        "return type": "int",
+        "method name": "getMinorVersion",
+        "parameters": []
+    },
+    "RequestDispatcher getNamedDispatcher(String name)": {
+        "return type": "RequestDispatcher",
+        "method name": "getNamedDispatcher",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getRealPath(String path)": {
+        "return type": "String",
+        "method name": "getRealPath",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getRequestCharacterEncoding()": {
+        "return type": "String",
+        "method name": "getRequestCharacterEncoding",
+        "parameters": []
+    },
+    "RequestDispatcher getRequestDispatcher(String path)": {
+        "return type": "RequestDispatcher",
+        "method name": "getRequestDispatcher",
+        "parameters": [
+            "String"
+        ]
+    },
+    "URL getResource(String path)": {
+        "return type": "URL",
+        "method name": "getResource",
+        "parameters": [
+            "String"
+        ]
+    },
+    "InputStream getResourceAsStream(String path)": {
+        "return type": "InputStream",
+        "method name": "getResourceAsStream",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Set getResourcePaths(String path)": {
+        "return type": "Set",
+        "method name": "getResourcePaths",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getResponseCharacterEncoding()": {
+        "return type": "String",
+        "method name": "getResponseCharacterEncoding",
+        "parameters": []
+    },
+    "String getServerInfo()": {
+        "return type": "String",
+        "method name": "getServerInfo",
+        "parameters": []
+    },
+    "String getServletContextName()": {
+        "return type": "String",
+        "method name": "getServletContextName",
+        "parameters": []
+    },
+    "ServletRegistration getServletRegistration(String servletName)": {
+        "return type": "ServletRegistration",
+        "method name": "getServletRegistration",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Map getServletRegistrations()": {
+        "return type": "Map",
+        "method name": "getServletRegistrations",
+        "parameters": []
+    },
+    "SessionCookieConfig getSessionCookieConfig()": {
+        "return type": "SessionCookieConfig",
+        "method name": "getSessionCookieConfig",
+        "parameters": []
+    },
+    "int getSessionTimeout()": {
+        "return type": "int",
+        "method name": "getSessionTimeout",
+        "parameters": []
+    },
+    "String getVirtualServerName()": {
+        "return type": "String",
+        "method name": "getVirtualServerName",
+        "parameters": []
+    },
+    "void log(String msg)": {
+        "return type": "void",
+        "method name": "log",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void log(String message, Throwable throwable)": {
+        "return type": "void",
+        "method name": "log",
+        "parameters": [
+            "String",
+            "Throwable"
+        ]
+    },
+    "void removeAttribute(String name)": {
+        "return type": "void",
+        "method name": "removeAttribute",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setAttribute(String name, Object object)": {
+        "return type": "void",
+        "method name": "setAttribute",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "boolean setInitParameter(String name, String value)": {
+        "return type": "boolean",
+        "method name": "setInitParameter",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "void setRequestCharacterEncoding(String encoding)": {
+        "return type": "void",
+        "method name": "setRequestCharacterEncoding",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setResponseCharacterEncoding(String encoding)": {
+        "return type": "void",
+        "method name": "setResponseCharacterEncoding",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setSessionTimeout(int sessionTimeout)": {
+        "return type": "void",
+        "method name": "setSessionTimeout",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setSessionTrackingModes(Set sessionTrackingModes)": {
+        "return type": "void",
+        "method name": "setSessionTrackingModes",
+        "parameters": [
+            "Set"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "void addNamedTemplate(String name, CompiledTemplate template)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "CompiledTemplate getNamedTemplate(String name)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    }
+}

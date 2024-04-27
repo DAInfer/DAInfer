@@ -1,0 +1,1238 @@
+{
+    "FSDataOutputStream append(Path f)": {
+        "return type": "FSDataOutputStream",
+        "method name": "append",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "FSDataOutputStream append(Path f, boolean appendToNewBlock)": {
+        "return type": "FSDataOutputStream",
+        "method name": "append",
+        "parameters": [
+            "Path",
+            "boolean"
+        ]
+    },
+    "FSDataOutputStream append(Path f, int bufferSize)": {
+        "return type": "FSDataOutputStream",
+        "method name": "append",
+        "parameters": [
+            "Path",
+            "int"
+        ]
+    },
+    "FSDataOutputStream append(Path f, int bufferSize, Progressable progress)": {
+        "return type": "FSDataOutputStream",
+        "method name": "append",
+        "parameters": [
+            "Path",
+            "int",
+            "Progressable"
+        ]
+    },
+    "FSDataOutputStream append(Path f, int bufferSize, Progressable progress, boolean appendToNewBlock)": {
+        "return type": "FSDataOutputStream",
+        "method name": "append",
+        "parameters": [
+            "Path",
+            "int",
+            "Progressable",
+            "boolean"
+        ]
+    },
+    "FSDataOutputStreamBuilder appendFile(Path path)": {
+        "return type": "FSDataOutputStreamBuilder",
+        "method name": "appendFile",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "boolean areSymlinksEnabled()": {
+        "return type": "boolean",
+        "method name": "areSymlinksEnabled",
+        "parameters": []
+    },
+    "boolean cancelDeleteOnExit(Path f)": {
+        "return type": "boolean",
+        "method name": "cancelDeleteOnExit",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "URI canonicalizeUri(URI uri)": {
+        "return type": "URI",
+        "method name": "canonicalizeUri",
+        "parameters": [
+            "URI"
+        ]
+    },
+    "void checkPath(Path path)": {
+        "return type": "void",
+        "method name": "checkPath",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "void clearStatistics()": {
+        "return type": "void",
+        "method name": "clearStatistics",
+        "parameters": []
+    },
+    "void close()": {
+        "return type": "void",
+        "method name": "close",
+        "parameters": []
+    },
+    "void closeAll()": {
+        "return type": "void",
+        "method name": "closeAll",
+        "parameters": []
+    },
+    "void closeAllForUGI(UserGroupInformation ugi)": {
+        "return type": "void",
+        "method name": "closeAllForUGI",
+        "parameters": [
+            "UserGroupInformation"
+        ]
+    },
+    "void completeLocalOutput(Path fsOutputFile, Path tmpLocalFile)": {
+        "return type": "void",
+        "method name": "completeLocalOutput",
+        "parameters": [
+            "Path",
+            "Path"
+        ]
+    },
+    "void concat(Path trg, Path[] psrcs)": {
+        "return type": "void",
+        "method name": "concat",
+        "parameters": [
+            "Path",
+            "Path[]"
+        ]
+    },
+    "void copyFromLocalFile(boolean delSrc, boolean overwrite, Path[] srcs, Path dst)": {
+        "return type": "void",
+        "method name": "copyFromLocalFile",
+        "parameters": [
+            "boolean",
+            "boolean",
+            "Path[]",
+            "Path"
+        ]
+    },
+    "void copyFromLocalFile(boolean delSrc, boolean overwrite, Path src, Path dst)": {
+        "return type": "void",
+        "method name": "copyFromLocalFile",
+        "parameters": [
+            "boolean",
+            "boolean",
+            "Path",
+            "Path"
+        ]
+    },
+    "void copyFromLocalFile(boolean delSrc, Path src, Path dst)": {
+        "return type": "void",
+        "method name": "copyFromLocalFile",
+        "parameters": [
+            "boolean",
+            "Path",
+            "Path"
+        ]
+    },
+    "void copyFromLocalFile(Path src, Path dst)": {
+        "return type": "void",
+        "method name": "copyFromLocalFile",
+        "parameters": [
+            "Path",
+            "Path"
+        ]
+    },
+    "void copyToLocalFile(boolean delSrc, Path src, Path dst)": {
+        "return type": "void",
+        "method name": "copyToLocalFile",
+        "parameters": [
+            "boolean",
+            "Path",
+            "Path"
+        ]
+    },
+    "void copyToLocalFile(boolean delSrc, Path src, Path dst, boolean useRawLocalFileSystem)": {
+        "return type": "void",
+        "method name": "copyToLocalFile",
+        "parameters": [
+            "boolean",
+            "Path",
+            "Path",
+            "boolean"
+        ]
+    },
+    "void copyToLocalFile(Path src, Path dst)": {
+        "return type": "void",
+        "method name": "copyToLocalFile",
+        "parameters": [
+            "Path",
+            "Path"
+        ]
+    },
+    "FSDataOutputStream create(FileSystem fs, Path file, FsPermission permission)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "FileSystem",
+            "Path",
+            "FsPermission"
+        ]
+    },
+    "FSDataOutputStream create(Path f)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "FSDataOutputStream create(Path f, boolean overwrite)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path",
+            "boolean"
+        ]
+    },
+    "FSDataOutputStream create(Path f, boolean overwrite, int bufferSize)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path",
+            "boolean",
+            "int"
+        ]
+    },
+    "FSDataOutputStream create(Path f, boolean overwrite, int bufferSize, Progressable progress)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path",
+            "boolean",
+            "int",
+            "Progressable"
+        ]
+    },
+    "FSDataOutputStream create(Path f, boolean overwrite, int bufferSize, short replication, long blockSize)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path",
+            "boolean",
+            "int",
+            "short",
+            "long"
+        ]
+    },
+    "FSDataOutputStream create(Path f, boolean overwrite, int bufferSize, short replication, long blockSize, Progressable progress)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path",
+            "boolean",
+            "int",
+            "short",
+            "long",
+            "Progressable"
+        ]
+    },
+    "FSDataOutputStream create(Path f, FsPermission permission, boolean overwrite, int bufferSize, short replication, long blockSize, Progressable progress)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path",
+            "FsPermission",
+            "boolean",
+            "int",
+            "short",
+            "long",
+            "Progressable"
+        ]
+    },
+    "FSDataOutputStream create(Path f, FsPermission permission, EnumSet flags, int bufferSize, short replication, long blockSize, Progressable progress)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path",
+            "FsPermission",
+            "EnumSet",
+            "int",
+            "short",
+            "long",
+            "Progressable"
+        ]
+    },
+    "FSDataOutputStream create(Path f, FsPermission permission, EnumSet flags, int bufferSize, short replication, long blockSize, Progressable progress, org.apache.hadoop.fs.Options.ChecksumOpt checksumOpt)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path",
+            "FsPermission",
+            "EnumSet",
+            "int",
+            "short",
+            "long",
+            "Progressable",
+            "org.apache.hadoop.fs.Options.ChecksumOpt"
+        ]
+    },
+    "FSDataOutputStream create(Path f, Progressable progress)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path",
+            "Progressable"
+        ]
+    },
+    "FSDataOutputStream create(Path f, short replication)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path",
+            "short"
+        ]
+    },
+    "FSDataOutputStream create(Path f, short replication, Progressable progress)": {
+        "return type": "FSDataOutputStream",
+        "method name": "create",
+        "parameters": [
+            "Path",
+            "short",
+            "Progressable"
+        ]
+    },
+    "FSDataOutputStreamBuilder createDataOutputStreamBuilder(FileSystem fileSystem, Path path)": {
+        "return type": "FSDataOutputStreamBuilder",
+        "method name": "createDataOutputStreamBuilder",
+        "parameters": [
+            "FileSystem",
+            "Path"
+        ]
+    },
+    "FSDataOutputStreamBuilder createFile(Path path)": {
+        "return type": "FSDataOutputStreamBuilder",
+        "method name": "createFile",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "org.apache.hadoop.fs.MultipartUploaderBuilder createMultipartUploader(Path basePath)": {
+        "return type": "org.apache.hadoop.fs.MultipartUploaderBuilder",
+        "method name": "createMultipartUploader",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "boolean createNewFile(Path f)": {
+        "return type": "boolean",
+        "method name": "createNewFile",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "FSDataOutputStream createNonRecursive(Path f, boolean overwrite, int bufferSize, short replication, long blockSize, Progressable progress)": {
+        "return type": "FSDataOutputStream",
+        "method name": "createNonRecursive",
+        "parameters": [
+            "Path",
+            "boolean",
+            "int",
+            "short",
+            "long",
+            "Progressable"
+        ]
+    },
+    "FSDataOutputStream createNonRecursive(Path f, FsPermission permission, boolean overwrite, int bufferSize, short replication, long blockSize, Progressable progress)": {
+        "return type": "FSDataOutputStream",
+        "method name": "createNonRecursive",
+        "parameters": [
+            "Path",
+            "FsPermission",
+            "boolean",
+            "int",
+            "short",
+            "long",
+            "Progressable"
+        ]
+    },
+    "FSDataOutputStream createNonRecursive(Path f, FsPermission permission, EnumSet flags, int bufferSize, short replication, long blockSize, Progressable progress)": {
+        "return type": "FSDataOutputStream",
+        "method name": "createNonRecursive",
+        "parameters": [
+            "Path",
+            "FsPermission",
+            "EnumSet",
+            "int",
+            "short",
+            "long",
+            "Progressable"
+        ]
+    },
+    "PathHandle createPathHandle(FileStatus stat, org.apache.hadoop.fs.Options.HandleOpt... opt)": {
+        "return type": "PathHandle",
+        "method name": "createPathHandle",
+        "parameters": [
+            "FileStatus",
+            "org.apache.hadoop.fs.Options.HandleOpt..."
+        ]
+    },
+    "Path createSnapshot(Path path)": {
+        "return type": "Path",
+        "method name": "createSnapshot",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "Path createSnapshot(Path path, String snapshotName)": {
+        "return type": "Path",
+        "method name": "createSnapshot",
+        "parameters": [
+            "Path",
+            "String"
+        ]
+    },
+    "void createSymlink(Path target, Path link, boolean createParent)": {
+        "return type": "void",
+        "method name": "createSymlink",
+        "parameters": [
+            "Path",
+            "Path",
+            "boolean"
+        ]
+    },
+    "boolean delete(Path f, boolean recursive)": {
+        "return type": "boolean",
+        "method name": "delete",
+        "parameters": [
+            "Path",
+            "boolean"
+        ]
+    },
+    "boolean deleteOnExit(Path f)": {
+        "return type": "boolean",
+        "method name": "deleteOnExit",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "void deleteSnapshot(Path path, String snapshotName)": {
+        "return type": "void",
+        "method name": "deleteSnapshot",
+        "parameters": [
+            "Path",
+            "String"
+        ]
+    },
+    "void enableSymlinks()": {
+        "return type": "void",
+        "method name": "enableSymlinks",
+        "parameters": []
+    },
+    "boolean exists(Path f)": {
+        "return type": "boolean",
+        "method name": "exists",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "Path fixRelativePart(Path p)": {
+        "return type": "Path",
+        "method name": "fixRelativePart",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "FileSystem get(Configuration conf)": {
+        "return type": "FileSystem",
+        "method name": "get",
+        "parameters": [
+            "Configuration"
+        ]
+    },
+    "FileSystem get(URI uri, Configuration conf)": {
+        "return type": "FileSystem",
+        "method name": "get",
+        "parameters": [
+            "URI",
+            "Configuration"
+        ]
+    },
+    "FileSystem get(URI uri, Configuration conf, String user)": {
+        "return type": "FileSystem",
+        "method name": "get",
+        "parameters": [
+            "URI",
+            "Configuration",
+            "String"
+        ]
+    },
+    "AclStatus getAclStatus(Path path)": {
+        "return type": "AclStatus",
+        "method name": "getAclStatus",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "Collection getAllStoragePolicies()": {
+        "return type": "Collection",
+        "method name": "getAllStoragePolicies",
+        "parameters": []
+    },
+    "String getCanonicalServiceName()": {
+        "return type": "String",
+        "method name": "getCanonicalServiceName",
+        "parameters": []
+    },
+    "URI getCanonicalUri()": {
+        "return type": "URI",
+        "method name": "getCanonicalUri",
+        "parameters": []
+    },
+    "ContentSummary getContentSummary(Path f)": {
+        "return type": "ContentSummary",
+        "method name": "getContentSummary",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "long getDefaultBlockSize(Path f)": {
+        "return type": "long",
+        "method name": "getDefaultBlockSize",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "int getDefaultPort()": {
+        "return type": "int",
+        "method name": "getDefaultPort",
+        "parameters": []
+    },
+    "short getDefaultReplication(Path path)": {
+        "return type": "short",
+        "method name": "getDefaultReplication",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "URI getDefaultUri(Configuration conf)": {
+        "return type": "URI",
+        "method name": "getDefaultUri",
+        "parameters": [
+            "Configuration"
+        ]
+    },
+    "BlockLocation[] getFileBlockLocations(FileStatus file, long start, long len)": {
+        "return type": "BlockLocation[]",
+        "method name": "getFileBlockLocations",
+        "parameters": [
+            "FileStatus",
+            "long",
+            "long"
+        ]
+    },
+    "BlockLocation[] getFileBlockLocations(Path p, long start, long len)": {
+        "return type": "BlockLocation[]",
+        "method name": "getFileBlockLocations",
+        "parameters": [
+            "Path",
+            "long",
+            "long"
+        ]
+    },
+    "FileChecksum getFileChecksum(Path f)": {
+        "return type": "FileChecksum",
+        "method name": "getFileChecksum",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "FileChecksum getFileChecksum(Path f, long length)": {
+        "return type": "FileChecksum",
+        "method name": "getFileChecksum",
+        "parameters": [
+            "Path",
+            "long"
+        ]
+    },
+    "FileStatus getFileLinkStatus(Path f)": {
+        "return type": "FileStatus",
+        "method name": "getFileLinkStatus",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "FileStatus getFileStatus(Path f)": {
+        "return type": "FileStatus",
+        "method name": "getFileStatus",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "Class getFileSystemClass(String scheme, Configuration conf)": {
+        "return type": "Class",
+        "method name": "getFileSystemClass",
+        "parameters": [
+            "String",
+            "Configuration"
+        ]
+    },
+    "FileSystem getFSofPath(Path absOrFqPath, Configuration conf)": {
+        "return type": "FileSystem",
+        "method name": "getFSofPath",
+        "parameters": [
+            "Path",
+            "Configuration"
+        ]
+    },
+    "GlobalStorageStatistics getGlobalStorageStatistics()": {
+        "return type": "GlobalStorageStatistics",
+        "method name": "getGlobalStorageStatistics",
+        "parameters": []
+    },
+    "Path getHomeDirectory()": {
+        "return type": "Path",
+        "method name": "getHomeDirectory",
+        "parameters": []
+    },
+    "Path getInitialWorkingDirectory()": {
+        "return type": "Path",
+        "method name": "getInitialWorkingDirectory",
+        "parameters": []
+    },
+    "Path getLinkTarget(Path f)": {
+        "return type": "Path",
+        "method name": "getLinkTarget",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "LocalFileSystem getLocal(Configuration conf)": {
+        "return type": "LocalFileSystem",
+        "method name": "getLocal",
+        "parameters": [
+            "Configuration"
+        ]
+    },
+    "PathHandle getPathHandle(FileStatus stat, org.apache.hadoop.fs.Options.HandleOpt... opt)": {
+        "return type": "PathHandle",
+        "method name": "getPathHandle",
+        "parameters": [
+            "FileStatus",
+            "org.apache.hadoop.fs.Options.HandleOpt..."
+        ]
+    },
+    "QuotaUsage getQuotaUsage(Path f)": {
+        "return type": "QuotaUsage",
+        "method name": "getQuotaUsage",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "String getScheme()": {
+        "return type": "String",
+        "method name": "getScheme",
+        "parameters": []
+    },
+    "FsServerDefaults getServerDefaults(Path p)": {
+        "return type": "FsServerDefaults",
+        "method name": "getServerDefaults",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "FsStatus getStatus()": {
+        "return type": "FsStatus",
+        "method name": "getStatus",
+        "parameters": []
+    },
+    "FsStatus getStatus(Path p)": {
+        "return type": "FsStatus",
+        "method name": "getStatus",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "BlockStoragePolicySpi getStoragePolicy(Path src)": {
+        "return type": "BlockStoragePolicySpi",
+        "method name": "getStoragePolicy",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "StorageStatistics getStorageStatistics()": {
+        "return type": "StorageStatistics",
+        "method name": "getStorageStatistics",
+        "parameters": []
+    },
+    "Path getTrashRoot(Path path)": {
+        "return type": "Path",
+        "method name": "getTrashRoot",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "Collection getTrashRoots(boolean allUsers)": {
+        "return type": "Collection",
+        "method name": "getTrashRoots",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "URI getUri()": {
+        "return type": "URI",
+        "method name": "getUri",
+        "parameters": []
+    },
+    "long getUsed()": {
+        "return type": "long",
+        "method name": "getUsed",
+        "parameters": []
+    },
+    "long getUsed(Path path)": {
+        "return type": "long",
+        "method name": "getUsed",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "Path getWorkingDirectory()": {
+        "return type": "Path",
+        "method name": "getWorkingDirectory",
+        "parameters": []
+    },
+    "byte[] getXAttr(Path path, String name)": {
+        "return type": "byte[]",
+        "method name": "getXAttr",
+        "parameters": [
+            "Path",
+            "String"
+        ]
+    },
+    "Map getXAttrs(Path path)": {
+        "return type": "Map",
+        "method name": "getXAttrs",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "Map getXAttrs(Path path, List names)": {
+        "return type": "Map",
+        "method name": "getXAttrs",
+        "parameters": [
+            "Path",
+            "List"
+        ]
+    },
+    "FileStatus[] globStatus(Path pathPattern)": {
+        "return type": "FileStatus[]",
+        "method name": "globStatus",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "FileStatus[] globStatus(Path pathPattern, PathFilter filter)": {
+        "return type": "FileStatus[]",
+        "method name": "globStatus",
+        "parameters": [
+            "Path",
+            "PathFilter"
+        ]
+    },
+    "boolean hasPathCapability(Path path, String capability)": {
+        "return type": "boolean",
+        "method name": "hasPathCapability",
+        "parameters": [
+            "Path",
+            "String"
+        ]
+    },
+    "void initialize(URI name, Configuration conf)": {
+        "return type": "void",
+        "method name": "initialize",
+        "parameters": [
+            "URI",
+            "Configuration"
+        ]
+    },
+    "org.apache.hadoop.fs.RemoteIterator listCorruptFileBlocks(Path path)": {
+        "return type": "org.apache.hadoop.fs.RemoteIterator",
+        "method name": "listCorruptFileBlocks",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "org.apache.hadoop.fs.RemoteIterator listFiles(Path f, boolean recursive)": {
+        "return type": "org.apache.hadoop.fs.RemoteIterator",
+        "method name": "listFiles",
+        "parameters": [
+            "Path",
+            "boolean"
+        ]
+    },
+    "org.apache.hadoop.fs.RemoteIterator listLocatedStatus(Path f)": {
+        "return type": "org.apache.hadoop.fs.RemoteIterator",
+        "method name": "listLocatedStatus",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "org.apache.hadoop.fs.RemoteIterator listLocatedStatus(Path f, PathFilter filter)": {
+        "return type": "org.apache.hadoop.fs.RemoteIterator",
+        "method name": "listLocatedStatus",
+        "parameters": [
+            "Path",
+            "PathFilter"
+        ]
+    },
+    "FileStatus[] listStatus(Path f)": {
+        "return type": "FileStatus[]",
+        "method name": "listStatus",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "FileStatus[] listStatus(Path[] files)": {
+        "return type": "FileStatus[]",
+        "method name": "listStatus",
+        "parameters": [
+            "Path[]"
+        ]
+    },
+    "FileStatus[] listStatus(Path[] files, PathFilter filter)": {
+        "return type": "FileStatus[]",
+        "method name": "listStatus",
+        "parameters": [
+            "Path[]",
+            "PathFilter"
+        ]
+    },
+    "FileStatus[] listStatus(Path f, PathFilter filter)": {
+        "return type": "FileStatus[]",
+        "method name": "listStatus",
+        "parameters": [
+            "Path",
+            "PathFilter"
+        ]
+    },
+    "org.apache.hadoop.fs.RemoteIterator listStatusIterator(Path p)": {
+        "return type": "org.apache.hadoop.fs.RemoteIterator",
+        "method name": "listStatusIterator",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "List listXAttrs(Path path)": {
+        "return type": "List",
+        "method name": "listXAttrs",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "Path makeQualified(Path path)": {
+        "return type": "Path",
+        "method name": "makeQualified",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "boolean mkdirs(FileSystem fs, Path dir, FsPermission permission)": {
+        "return type": "boolean",
+        "method name": "mkdirs",
+        "parameters": [
+            "FileSystem",
+            "Path",
+            "FsPermission"
+        ]
+    },
+    "boolean mkdirs(Path f)": {
+        "return type": "boolean",
+        "method name": "mkdirs",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "boolean mkdirs(Path f, FsPermission permission)": {
+        "return type": "boolean",
+        "method name": "mkdirs",
+        "parameters": [
+            "Path",
+            "FsPermission"
+        ]
+    },
+    "void modifyAclEntries(Path path, List aclSpec)": {
+        "return type": "void",
+        "method name": "modifyAclEntries",
+        "parameters": [
+            "Path",
+            "List"
+        ]
+    },
+    "void moveFromLocalFile(Path[] srcs, Path dst)": {
+        "return type": "void",
+        "method name": "moveFromLocalFile",
+        "parameters": [
+            "Path[]",
+            "Path"
+        ]
+    },
+    "void moveFromLocalFile(Path src, Path dst)": {
+        "return type": "void",
+        "method name": "moveFromLocalFile",
+        "parameters": [
+            "Path",
+            "Path"
+        ]
+    },
+    "void moveToLocalFile(Path src, Path dst)": {
+        "return type": "void",
+        "method name": "moveToLocalFile",
+        "parameters": [
+            "Path",
+            "Path"
+        ]
+    },
+    "void msync()": {
+        "return type": "void",
+        "method name": "msync",
+        "parameters": []
+    },
+    "FileSystem newInstance(Configuration conf)": {
+        "return type": "FileSystem",
+        "method name": "newInstance",
+        "parameters": [
+            "Configuration"
+        ]
+    },
+    "FileSystem newInstance(URI uri, Configuration config)": {
+        "return type": "FileSystem",
+        "method name": "newInstance",
+        "parameters": [
+            "URI",
+            "Configuration"
+        ]
+    },
+    "FileSystem newInstance(URI uri, Configuration conf, String user)": {
+        "return type": "FileSystem",
+        "method name": "newInstance",
+        "parameters": [
+            "URI",
+            "Configuration",
+            "String"
+        ]
+    },
+    "LocalFileSystem newInstanceLocal(Configuration conf)": {
+        "return type": "LocalFileSystem",
+        "method name": "newInstanceLocal",
+        "parameters": [
+            "Configuration"
+        ]
+    },
+    "FSDataInputStream open(Path f)": {
+        "return type": "FSDataInputStream",
+        "method name": "open",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "FSDataInputStream open(PathHandle fd)": {
+        "return type": "FSDataInputStream",
+        "method name": "open",
+        "parameters": [
+            "PathHandle"
+        ]
+    },
+    "FSDataInputStream open(PathHandle fd, int bufferSize)": {
+        "return type": "FSDataInputStream",
+        "method name": "open",
+        "parameters": [
+            "PathHandle",
+            "int"
+        ]
+    },
+    "FSDataInputStream open(Path f, int bufferSize)": {
+        "return type": "FSDataInputStream",
+        "method name": "open",
+        "parameters": [
+            "Path",
+            "int"
+        ]
+    },
+    "FutureDataInputStreamBuilder openFile(Path path)": {
+        "return type": "FutureDataInputStreamBuilder",
+        "method name": "openFile",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "FutureDataInputStreamBuilder openFile(PathHandle pathHandle)": {
+        "return type": "FutureDataInputStreamBuilder",
+        "method name": "openFile",
+        "parameters": [
+            "PathHandle"
+        ]
+    },
+    "CompletableFuture openFileWithOptions(PathHandle pathHandle, org.apache.hadoop.fs.impl.OpenFileParameters parameters)": {
+        "return type": "CompletableFuture",
+        "method name": "openFileWithOptions",
+        "parameters": [
+            "PathHandle",
+            "org.apache.hadoop.fs.impl.OpenFileParameters"
+        ]
+    },
+    "CompletableFuture openFileWithOptions(Path path, org.apache.hadoop.fs.impl.OpenFileParameters parameters)": {
+        "return type": "CompletableFuture",
+        "method name": "openFileWithOptions",
+        "parameters": [
+            "Path",
+            "org.apache.hadoop.fs.impl.OpenFileParameters"
+        ]
+    },
+    "void printStatistics()": {
+        "return type": "void",
+        "method name": "printStatistics",
+        "parameters": []
+    },
+    "void processDeleteOnExit()": {
+        "return type": "void",
+        "method name": "processDeleteOnExit",
+        "parameters": []
+    },
+    "void removeAcl(Path path)": {
+        "return type": "void",
+        "method name": "removeAcl",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "void removeAclEntries(Path path, List aclSpec)": {
+        "return type": "void",
+        "method name": "removeAclEntries",
+        "parameters": [
+            "Path",
+            "List"
+        ]
+    },
+    "void removeDefaultAcl(Path path)": {
+        "return type": "void",
+        "method name": "removeDefaultAcl",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "void removeXAttr(Path path, String name)": {
+        "return type": "void",
+        "method name": "removeXAttr",
+        "parameters": [
+            "Path",
+            "String"
+        ]
+    },
+    "boolean rename(Path src, Path dst)": {
+        "return type": "boolean",
+        "method name": "rename",
+        "parameters": [
+            "Path",
+            "Path"
+        ]
+    },
+    "void renameSnapshot(Path path, String snapshotOldName, String snapshotNewName)": {
+        "return type": "void",
+        "method name": "renameSnapshot",
+        "parameters": [
+            "Path",
+            "String",
+            "String"
+        ]
+    },
+    "Path resolveLink(Path f)": {
+        "return type": "Path",
+        "method name": "resolveLink",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "Path resolvePath(Path p)": {
+        "return type": "Path",
+        "method name": "resolvePath",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "void satisfyStoragePolicy(Path path)": {
+        "return type": "void",
+        "method name": "satisfyStoragePolicy",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "void setAcl(Path path, List aclSpec)": {
+        "return type": "void",
+        "method name": "setAcl",
+        "parameters": [
+            "Path",
+            "List"
+        ]
+    },
+    "void setDefaultUri(Configuration conf, String uri)": {
+        "return type": "void",
+        "method name": "setDefaultUri",
+        "parameters": [
+            "Configuration",
+            "String"
+        ]
+    },
+    "void setDefaultUri(Configuration conf, URI uri)": {
+        "return type": "void",
+        "method name": "setDefaultUri",
+        "parameters": [
+            "Configuration",
+            "URI"
+        ]
+    },
+    "void setOwner(Path p, String username, String groupname)": {
+        "return type": "void",
+        "method name": "setOwner",
+        "parameters": [
+            "Path",
+            "String",
+            "String"
+        ]
+    },
+    "void setPermission(Path p, FsPermission permission)": {
+        "return type": "void",
+        "method name": "setPermission",
+        "parameters": [
+            "Path",
+            "FsPermission"
+        ]
+    },
+    "void setQuota(Path src, long namespaceQuota, long storagespaceQuota)": {
+        "return type": "void",
+        "method name": "setQuota",
+        "parameters": [
+            "Path",
+            "long",
+            "long"
+        ]
+    },
+    "void setQuotaByStorageType(Path src, StorageType type, long quota)": {
+        "return type": "void",
+        "method name": "setQuotaByStorageType",
+        "parameters": [
+            "Path",
+            "StorageType",
+            "long"
+        ]
+    },
+    "boolean setReplication(Path src, short replication)": {
+        "return type": "boolean",
+        "method name": "setReplication",
+        "parameters": [
+            "Path",
+            "short"
+        ]
+    },
+    "void setStoragePolicy(Path src, String policyName)": {
+        "return type": "void",
+        "method name": "setStoragePolicy",
+        "parameters": [
+            "Path",
+            "String"
+        ]
+    },
+    "void setTimes(Path p, long mtime, long atime)": {
+        "return type": "void",
+        "method name": "setTimes",
+        "parameters": [
+            "Path",
+            "long",
+            "long"
+        ]
+    },
+    "void setVerifyChecksum(boolean verifyChecksum)": {
+        "return type": "void",
+        "method name": "setVerifyChecksum",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setWorkingDirectory(Path new_dir)": {
+        "return type": "void",
+        "method name": "setWorkingDirectory",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "void setWriteChecksum(boolean writeChecksum)": {
+        "return type": "void",
+        "method name": "setWriteChecksum",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setXAttr(Path path, String name, byte[] value)": {
+        "return type": "void",
+        "method name": "setXAttr",
+        "parameters": [
+            "Path",
+            "String",
+            "byte[]"
+        ]
+    },
+    "void setXAttr(Path path, String name, byte[] value, EnumSet flag)": {
+        "return type": "void",
+        "method name": "setXAttr",
+        "parameters": [
+            "Path",
+            "String",
+            "byte[]",
+            "EnumSet"
+        ]
+    },
+    "Path startLocalOutput(Path fsOutputFile, Path tmpLocalFile)": {
+        "return type": "Path",
+        "method name": "startLocalOutput",
+        "parameters": [
+            "Path",
+            "Path"
+        ]
+    },
+    "boolean supportsSymlinks()": {
+        "return type": "boolean",
+        "method name": "supportsSymlinks",
+        "parameters": []
+    },
+    "boolean truncate(Path f, long newLength)": {
+        "return type": "boolean",
+        "method name": "truncate",
+        "parameters": [
+            "Path",
+            "long"
+        ]
+    },
+    "void unsetStoragePolicy(Path src)": {
+        "return type": "void",
+        "method name": "unsetStoragePolicy",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "Configuration getConf()": {
+        "return type": "Configuration",
+        "method name": "getConf",
+        "parameters": []
+    },
+    "void setConf(Configuration conf)": {
+        "return type": "void",
+        "method name": "setConf",
+        "parameters": [
+            "Configuration"
+        ]
+    }
+}

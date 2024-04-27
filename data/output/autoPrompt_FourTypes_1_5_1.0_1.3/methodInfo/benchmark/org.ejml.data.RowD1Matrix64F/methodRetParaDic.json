@@ -1,0 +1,135 @@
+{
+    "int getNumCols()": {
+        "return type": "int",
+        "method name": "getNumCols",
+        "parameters": []
+    },
+    "int getNumRows()": {
+        "return type": "int",
+        "method name": "getNumRows",
+        "parameters": []
+    },
+    "MatrixIterator iterator(boolean rowMajor, int minRow, int minCol, int maxRow, int maxCol)": {
+        "return type": "MatrixIterator",
+        "method name": "iterator",
+        "parameters": [
+            "boolean",
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "void reshape(int numRows, int numCols)": {
+        "return type": "void",
+        "method name": "reshape",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void reshape(int numRows, int numCols, boolean saveValues)": {
+        "return type": "void",
+        "method name": "reshape",
+        "parameters": [
+            "int",
+            "int",
+            "boolean"
+        ]
+    },
+    "void set(ReshapeMatrix64F A)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "ReshapeMatrix64F"
+        ]
+    },
+    "void setNumCols(int numCols)": {
+        "return type": "void",
+        "method name": "setNumCols",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setNumRows(int numRows)": {
+        "return type": "void",
+        "method name": "setNumRows",
+        "parameters": [
+            "int"
+        ]
+    },
+    "double div(int index, double val)": {
+        "return type": "double",
+        "method name": "div",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "double get(int index)": {
+        "return type": "double",
+        "method name": "get",
+        "parameters": [
+            "int"
+        ]
+    },
+    "double[] getData()": {
+        "return type": "double[]",
+        "method name": "getData",
+        "parameters": []
+    },
+    "int getIndex(int row, int col)": {
+        "return type": "int",
+        "method name": "getIndex",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "double minus(int index, double val)": {
+        "return type": "double",
+        "method name": "minus",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "double plus(int index, double val)": {
+        "return type": "double",
+        "method name": "plus",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "void set(D1Matrix64F b)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "D1Matrix64F"
+        ]
+    },
+    "double set(int index, double val)": {
+        "return type": "double",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "void setData(double[] data)": {
+        "return type": "void",
+        "method name": "setData",
+        "parameters": [
+            "double[]"
+        ]
+    },
+    "double times(int index, double val)": {
+        "return type": "double",
+        "method name": "times",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    }
+}

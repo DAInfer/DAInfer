@@ -1,0 +1,384 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void addDataType(String type)",
+            "String getCategory(int index)"
+        ],
+        [
+            "IntentFilter create(String action, String dataType)",
+            "String getAction(int index)"
+        ],
+        [
+            "void addDataScheme(String scheme)",
+            "String getAction(int index)"
+        ],
+        [
+            "int match(String action, String type, String scheme, Uri data, Set categories, String logTag)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "boolean hasDataSchemeSpecificPart(String data)",
+            "String getDataType(int index)"
+        ],
+        [
+            "void addDataSchemeSpecificPart(String ssp, int type)",
+            "String getDataType(int index)"
+        ],
+        [
+            "boolean matchAction(String action)",
+            "String getAction(int index)"
+        ],
+        [
+            "boolean hasDataScheme(String scheme)",
+            "String getCategory(int index)"
+        ],
+        [
+            "void addCategory(String category)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "void addDataPath(String path, int type)",
+            "String getDataType(int index)"
+        ],
+        [
+            "int matchData(String type, String scheme, Uri data)",
+            "String getDataType(int index)"
+        ],
+        [
+            "boolean hasDataPath(String data)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "void addAction(String action)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String getDataType(int index)"
+        ],
+        [
+            "void addDataType(String type)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "boolean hasDataType(String type)",
+            "String getDataType(int index)"
+        ],
+        [
+            "void addCategory(String category)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "boolean hasDataPath(String data)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "void addAction(String action)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "void addDataType(String type)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "IntentFilter create(String action, String dataType)",
+            "String getDataType(int index)"
+        ],
+        [
+            "boolean hasDataScheme(String scheme)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "void addDataScheme(String scheme)",
+            "String getDataType(int index)"
+        ],
+        [
+            "boolean matchAction(String action)",
+            "String getDataType(int index)"
+        ],
+        [
+            "int match(String action, String type, String scheme, Uri data, Set categories, String logTag)",
+            "String getAction(int index)"
+        ],
+        [
+            "boolean hasDataScheme(String scheme)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "void addCategory(String category)",
+            "String getAction(int index)"
+        ],
+        [
+            "boolean hasAction(String action)",
+            "String getCategory(int index)"
+        ],
+        [
+            "boolean hasDataPath(String data)",
+            "String getAction(int index)"
+        ],
+        [
+            "void addAction(String action)",
+            "String getAction(int index)"
+        ],
+        [
+            "void addDataType(String type)",
+            "String getAction(int index)"
+        ],
+        [
+            "boolean hasDataSchemeSpecificPart(String data)",
+            "String getCategory(int index)"
+        ],
+        [
+            "void addDataSchemeSpecificPart(String ssp, int type)",
+            "String getCategory(int index)"
+        ],
+        [
+            "int match(String action, String type, String scheme, Uri data, Set categories, String logTag)",
+            "String getDataType(int index)"
+        ],
+        [
+            "int match(ContentResolver resolver, Intent intent, boolean resolve, String logTag)",
+            "String getCategory(int index)"
+        ],
+        [
+            "void addDataPath(String path, int type)",
+            "String getCategory(int index)"
+        ],
+        [
+            "int matchData(String type, String scheme, Uri data)",
+            "String getCategory(int index)"
+        ],
+        [
+            "boolean hasDataScheme(String scheme)",
+            "String getAction(int index)"
+        ],
+        [
+            "void addDataAuthority(String host, String port)",
+            "String getCategory(int index)"
+        ],
+        [
+            "void dump(Printer du, String prefix)",
+            "String getCategory(int index)"
+        ],
+        [
+            "boolean hasDataType(String type)",
+            "String getCategory(int index)"
+        ],
+        [
+            "void addCategory(String category)",
+            "String getDataType(int index)"
+        ],
+        [
+            "boolean hasDataSchemeSpecificPart(String data)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "void addDataSchemeSpecificPart(String ssp, int type)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "boolean hasDataPath(String data)",
+            "String getDataType(int index)"
+        ],
+        [
+            "void addAction(String action)",
+            "String getDataType(int index)"
+        ],
+        [
+            "int match(ContentResolver resolver, Intent intent, boolean resolve, String logTag)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "IntentFilter create(String action, String dataType)",
+            "String getCategory(int index)"
+        ],
+        [
+            "void addDataType(String type)",
+            "String getDataType(int index)"
+        ],
+        [
+            "void addDataPath(String path, int type)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "void addDataScheme(String scheme)",
+            "String getCategory(int index)"
+        ],
+        [
+            "int matchData(String type, String scheme, Uri data)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "void addDataAuthority(String host, String port)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "boolean matchAction(String action)",
+            "String getCategory(int index)"
+        ],
+        [
+            "boolean hasDataSchemeSpecificPart(String data)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "void addDataSchemeSpecificPart(String ssp, int type)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "int match(ContentResolver resolver, Intent intent, boolean resolve, String logTag)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "void dump(Printer du, String prefix)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "boolean hasDataType(String type)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "boolean hasDataScheme(String scheme)",
+            "String getDataType(int index)"
+        ],
+        [
+            "void addDataPath(String path, int type)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "int matchData(String type, String scheme, Uri data)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "void addDataAuthority(String host, String port)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "IntentFilter create(String action, String dataType)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "void addDataScheme(String scheme)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "void dump(Printer du, String prefix)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "boolean hasDataType(String type)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String getCategory(int index)"
+        ],
+        [
+            "boolean hasAction(String action)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "boolean matchAction(String action)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "int match(ContentResolver resolver, Intent intent, boolean resolve, String logTag)",
+            "String getDataType(int index)"
+        ],
+        [
+            "boolean hasAction(String action)",
+            "String getAction(int index)"
+        ],
+        [
+            "IntentFilter create(String action, String dataType)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "void addDataScheme(String scheme)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "int match(String action, String type, String scheme, Uri data, Set categories, String logTag)",
+            "String getCategory(int index)"
+        ],
+        [
+            "boolean hasAction(String action)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "boolean matchAction(String action)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "void addDataAuthority(String host, String port)",
+            "String getDataType(int index)"
+        ],
+        [
+            "boolean hasDataSchemeSpecificPart(String data)",
+            "String getAction(int index)"
+        ],
+        [
+            "void addDataSchemeSpecificPart(String ssp, int type)",
+            "String getAction(int index)"
+        ],
+        [
+            "int match(ContentResolver resolver, Intent intent, boolean resolve, String logTag)",
+            "String getAction(int index)"
+        ],
+        [
+            "void dump(Printer du, String prefix)",
+            "String getDataType(int index)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "void addDataPath(String path, int type)",
+            "String getAction(int index)"
+        ],
+        [
+            "int matchData(String type, String scheme, Uri data)",
+            "String getAction(int index)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String getAction(int index)"
+        ],
+        [
+            "void addDataAuthority(String host, String port)",
+            "String getAction(int index)"
+        ],
+        [
+            "void addCategory(String category)",
+            "String getCategory(int index)"
+        ],
+        [
+            "void dump(Printer du, String prefix)",
+            "String getAction(int index)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String getDataScheme(int index)"
+        ],
+        [
+            "boolean hasDataType(String type)",
+            "String getAction(int index)"
+        ],
+        [
+            "boolean hasDataPath(String data)",
+            "String getCategory(int index)"
+        ],
+        [
+            "void addAction(String action)",
+            "String getCategory(int index)"
+        ],
+        [
+            "int match(String action, String type, String scheme, Uri data, Set categories, String logTag)",
+            "String matchCategories(Set categories)"
+        ],
+        [
+            "boolean hasAction(String action)",
+            "String getDataType(int index)"
+        ]
+    ]
+}

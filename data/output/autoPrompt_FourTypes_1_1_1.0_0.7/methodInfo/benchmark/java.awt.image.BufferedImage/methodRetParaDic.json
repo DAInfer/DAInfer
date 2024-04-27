@@ -1,0 +1,331 @@
+{
+    "void addTileObserver(TileObserver to)": {
+        "return type": "void",
+        "method name": "addTileObserver",
+        "parameters": [
+            "TileObserver"
+        ]
+    },
+    "void coerceData(boolean isAlphaPremultiplied)": {
+        "return type": "void",
+        "method name": "coerceData",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "WritableRaster copyData(WritableRaster outRaster)": {
+        "return type": "WritableRaster",
+        "method name": "copyData",
+        "parameters": [
+            "WritableRaster"
+        ]
+    },
+    "Graphics2D createGraphics()": {
+        "return type": "Graphics2D",
+        "method name": "createGraphics",
+        "parameters": []
+    },
+    "WritableRaster getAlphaRaster()": {
+        "return type": "WritableRaster",
+        "method name": "getAlphaRaster",
+        "parameters": []
+    },
+    "ColorModel getColorModel()": {
+        "return type": "ColorModel",
+        "method name": "getColorModel",
+        "parameters": []
+    },
+    "Raster getData()": {
+        "return type": "Raster",
+        "method name": "getData",
+        "parameters": []
+    },
+    "Raster getData(Rectangle rect)": {
+        "return type": "Raster",
+        "method name": "getData",
+        "parameters": [
+            "Rectangle"
+        ]
+    },
+    "Graphics getGraphics()": {
+        "return type": "Graphics",
+        "method name": "getGraphics",
+        "parameters": []
+    },
+    "int getHeight()": {
+        "return type": "int",
+        "method name": "getHeight",
+        "parameters": []
+    },
+    "int getHeight(ImageObserver observer)": {
+        "return type": "int",
+        "method name": "getHeight",
+        "parameters": [
+            "ImageObserver"
+        ]
+    },
+    "int getMinTileX()": {
+        "return type": "int",
+        "method name": "getMinTileX",
+        "parameters": []
+    },
+    "int getMinTileY()": {
+        "return type": "int",
+        "method name": "getMinTileY",
+        "parameters": []
+    },
+    "int getMinX()": {
+        "return type": "int",
+        "method name": "getMinX",
+        "parameters": []
+    },
+    "int getMinY()": {
+        "return type": "int",
+        "method name": "getMinY",
+        "parameters": []
+    },
+    "int getNumXTiles()": {
+        "return type": "int",
+        "method name": "getNumXTiles",
+        "parameters": []
+    },
+    "int getNumYTiles()": {
+        "return type": "int",
+        "method name": "getNumYTiles",
+        "parameters": []
+    },
+    "Object getProperty(String name)": {
+        "return type": "Object",
+        "method name": "getProperty",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Object getProperty(String name, ImageObserver observer)": {
+        "return type": "Object",
+        "method name": "getProperty",
+        "parameters": [
+            "String",
+            "ImageObserver"
+        ]
+    },
+    "String[] getPropertyNames()": {
+        "return type": "String[]",
+        "method name": "getPropertyNames",
+        "parameters": []
+    },
+    "WritableRaster getRaster()": {
+        "return type": "WritableRaster",
+        "method name": "getRaster",
+        "parameters": []
+    },
+    "int getRGB(int x, int y)": {
+        "return type": "int",
+        "method name": "getRGB",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "int[] getRGB(int startX, int startY, int w, int h, int[] rgbArray, int offset, int scansize)": {
+        "return type": "int[]",
+        "method name": "getRGB",
+        "parameters": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "int[]",
+            "int",
+            "int"
+        ]
+    },
+    "SampleModel getSampleModel()": {
+        "return type": "SampleModel",
+        "method name": "getSampleModel",
+        "parameters": []
+    },
+    "ImageProducer getSource()": {
+        "return type": "ImageProducer",
+        "method name": "getSource",
+        "parameters": []
+    },
+    "Vector getSources()": {
+        "return type": "Vector",
+        "method name": "getSources",
+        "parameters": []
+    },
+    "BufferedImage getSubimage(int x, int y, int w, int h)": {
+        "return type": "BufferedImage",
+        "method name": "getSubimage",
+        "parameters": [
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "Raster getTile(int tileX, int tileY)": {
+        "return type": "Raster",
+        "method name": "getTile",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "int getTileGridXOffset()": {
+        "return type": "int",
+        "method name": "getTileGridXOffset",
+        "parameters": []
+    },
+    "int getTileGridYOffset()": {
+        "return type": "int",
+        "method name": "getTileGridYOffset",
+        "parameters": []
+    },
+    "int getTileHeight()": {
+        "return type": "int",
+        "method name": "getTileHeight",
+        "parameters": []
+    },
+    "int getTileWidth()": {
+        "return type": "int",
+        "method name": "getTileWidth",
+        "parameters": []
+    },
+    "int getTransparency()": {
+        "return type": "int",
+        "method name": "getTransparency",
+        "parameters": []
+    },
+    "int getType()": {
+        "return type": "int",
+        "method name": "getType",
+        "parameters": []
+    },
+    "int getWidth()": {
+        "return type": "int",
+        "method name": "getWidth",
+        "parameters": []
+    },
+    "int getWidth(ImageObserver observer)": {
+        "return type": "int",
+        "method name": "getWidth",
+        "parameters": [
+            "ImageObserver"
+        ]
+    },
+    "WritableRaster getWritableTile(int tileX, int tileY)": {
+        "return type": "WritableRaster",
+        "method name": "getWritableTile",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "Point[] getWritableTileIndices()": {
+        "return type": "Point[]",
+        "method name": "getWritableTileIndices",
+        "parameters": []
+    },
+    "boolean hasTileWriters()": {
+        "return type": "boolean",
+        "method name": "hasTileWriters",
+        "parameters": []
+    },
+    "boolean isAlphaPremultiplied()": {
+        "return type": "boolean",
+        "method name": "isAlphaPremultiplied",
+        "parameters": []
+    },
+    "boolean isTileWritable(int tileX, int tileY)": {
+        "return type": "boolean",
+        "method name": "isTileWritable",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void releaseWritableTile(int tileX, int tileY)": {
+        "return type": "void",
+        "method name": "releaseWritableTile",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void removeTileObserver(TileObserver to)": {
+        "return type": "void",
+        "method name": "removeTileObserver",
+        "parameters": [
+            "TileObserver"
+        ]
+    },
+    "void setData(Raster r)": {
+        "return type": "void",
+        "method name": "setData",
+        "parameters": [
+            "Raster"
+        ]
+    },
+    "void setRGB(int x, int y, int rgb)": {
+        "return type": "void",
+        "method name": "setRGB",
+        "parameters": [
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "void setRGB(int startX, int startY, int w, int h, int[] rgbArray, int offset, int scansize)": {
+        "return type": "void",
+        "method name": "setRGB",
+        "parameters": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "int[]",
+            "int",
+            "int"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "void flush()": {
+        "return type": "void",
+        "method name": "flush",
+        "parameters": []
+    },
+    "float getAccelerationPriority()": {
+        "return type": "float",
+        "method name": "getAccelerationPriority",
+        "parameters": []
+    },
+    "ImageCapabilities getCapabilities(GraphicsConfiguration gc)": {
+        "return type": "ImageCapabilities",
+        "method name": "getCapabilities",
+        "parameters": [
+            "GraphicsConfiguration"
+        ]
+    },
+    "Image getScaledInstance(int width, int height, int hints)": {
+        "return type": "Image",
+        "method name": "getScaledInstance",
+        "parameters": [
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "void setAccelerationPriority(float priority)": {
+        "return type": "void",
+        "method name": "setAccelerationPriority",
+        "parameters": [
+            "float"
+        ]
+    }
+}

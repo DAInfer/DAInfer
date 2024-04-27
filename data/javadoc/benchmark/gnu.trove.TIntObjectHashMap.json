@@ -1,0 +1,33 @@
+{
+    "class": "TIntObjectHashMap",
+    "category": "Class",
+    "methods": {
+        "TIntObjectHashMap<V> clone()": "",
+        "boolean containsKey(int key)": "Checks for the presence of key in the keys of the map.",
+        "boolean containsValue(V val)": "Checks for the presence of val in the values of the map.",
+        "boolean equals(java.lang.Object other)": "Compares this map with another map for equality of their stored entries.",
+        "boolean forEachEntry(TIntObjectProcedure<V> procedure)": "Executes procedure for each key/value entry in the map.",
+        "boolean forEachKey(TIntProcedure procedure)": "Executes procedure for each key in the map.",
+        "boolean forEachValue(TObjectProcedure<V> procedure)": "Executes procedure for each value in the map.",
+        "V get(int key)": "Retrieves the value for key.",
+        "java.lang.Object[] getValues()": "Returns the values of the map.",
+        "<T> T[] getValues(T[] a)": "Return the values of the map; the runtime type of the returned array is that of the specified array.",
+        "int hashCode()": "",
+        "TIntObjectIterator<V> iterator()": "",
+        "int[] keys()": "Returns the keys of the map.",
+        "V put(int key, V value)": "Inserts a key/value pair into the map.",
+        "void readExternal(java.io.ObjectInput in)": "",
+        "protected void rehash(int newCapacity)": "Rehashes the map to the new capacity.",
+        "V remove(int key)": "Deletes a key/value pair from the map.",
+        "void removeAt(int index)": "Removes the mapping at index from the map.",
+        "boolean retainEntries(TIntObjectProcedure<V> procedure)": "Retains only those entries in the map for which the procedure returns a true value.",
+        "int setUp(int initialCapacity)": "Initializes the hashtable to a prime capacity which is at least initialCapacity + 1.",
+        "void transformValues(TObjectFunction<V,V> function)": "Transform the values in this map using function.",
+        "void writeExternal(java.io.ObjectOutput out)": ""
+    },
+    "super class": [
+        "gnu.trove.THash",
+        "gnu.trove.TPrimitiveHash",
+        "gnu.trove.TIntHash"
+    ]
+}

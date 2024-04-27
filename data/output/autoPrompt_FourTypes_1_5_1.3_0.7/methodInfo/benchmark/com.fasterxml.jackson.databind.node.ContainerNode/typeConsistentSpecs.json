@@ -1,0 +1,804 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "T deepCopy()"
+        ],
+        [
+            "TextNode textNode(String text)",
+            "T removeAll()"
+        ],
+        [
+            "String asText(String defaultValue)",
+            "String asText()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "T deepCopy()"
+        ],
+        [
+            "List findParents(String fieldName)",
+            "T removeAll()"
+        ],
+        [
+            "List findValuesAsText(String fieldName)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "byte[] binaryValue()"
+        ],
+        [
+            "ValueNode numberNode(Double v)",
+            "T removeAll()"
+        ],
+        [
+            "JsonNode findParent(String fieldName)",
+            "T removeAll()"
+        ],
+        [
+            "String asText(String defaultValue)",
+            "T removeAll()"
+        ],
+        [
+            "void serializeWithType(com.fasterxml.jackson.core.JsonGenerator jgen, SerializerProvider provider, TypeSerializer typeSer)",
+            "T removeAll()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "NumericNode numberNode(BigInteger v)",
+            "T removeAll()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode numberNode(Short v)",
+            "T removeAll()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findValuesAsText(String fieldName, List foundSoFar)"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName, List foundSoFar)"
+        ],
+        [
+            "List findParents(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode at(String jsonPtrExpr)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(float v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode with(String propertyName)"
+        ],
+        [
+            "JsonNode findPath(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode findParent(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "boolean hasNonNull(String fieldName)",
+            "T deepCopy()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NullNode nullNode()"
+        ],
+        [
+            "JsonNode with(String propertyName)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode _at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode findParent(String fieldName)"
+        ],
+        [
+            "ValueNode numberNode(Byte v)",
+            "T deepCopy()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName)"
+        ],
+        [
+            "JsonNode at(String jsonPtrExpr)",
+            "String asText()"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName)"
+        ],
+        [
+            "JsonNode findPath(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "com.fasterxml.jackson.core.JsonParser traverse(com.fasterxml.jackson.core.ObjectCodec codec)",
+            "T deepCopy()"
+        ],
+        [
+            "List findValues(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "JsonNode findPath(String fieldName)",
+            "T removeAll()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Integer v)"
+        ],
+        [
+            "NumericNode numberNode(BigInteger v)",
+            "BigInteger bigIntegerValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "TextNode textNode(String text)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "Iterator elements()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findValuesAsText(String fieldName)"
+        ],
+        [
+            "boolean has(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode numberNode(Integer v)",
+            "T deepCopy()"
+        ],
+        [
+            "boolean has(String fieldName)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode rawValueNode(RawValue value)"
+        ],
+        [
+            "JsonNode with(String propertyName)",
+            "T removeAll()"
+        ],
+        [
+            "JsonNode findValue(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode numberNode(Long v)",
+            "T removeAll()"
+        ],
+        [
+            "JsonNode findValue(String fieldName)",
+            "T deepCopy()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "String asText()"
+        ],
+        [
+            "BinaryNode binaryNode(byte[] data)",
+            "T removeAll()"
+        ],
+        [
+            "TextNode textNode(String text)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "void serialize(com.fasterxml.jackson.core.JsonGenerator jgen, SerializerProvider provider)",
+            "T removeAll()"
+        ],
+        [
+            "JsonNode get(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "JsonNode with(String propertyName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "NumericNode numberNode(BigDecimal v)",
+            "BigDecimal decimalValue()"
+        ],
+        [
+            "JsonNode at(String jsonPtrExpr)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode path(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "TextNode textNode(String text)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "String asText()"
+        ],
+        [
+            "List findParents(String fieldName)",
+            "T deepCopy()"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName)"
+        ],
+        [
+            "List findValuesAsText(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "List findValues(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Float v)"
+        ],
+        [
+            "ValueNode numberNode(Double v)",
+            "T deepCopy()"
+        ],
+        [
+            "JsonNode findParent(String fieldName)",
+            "T deepCopy()"
+        ],
+        [
+            "String asText(String defaultValue)",
+            "T deepCopy()"
+        ],
+        [
+            "void serializeWithType(com.fasterxml.jackson.core.JsonGenerator jgen, SerializerProvider provider, TypeSerializer typeSer)",
+            "T deepCopy()"
+        ],
+        [
+            "JsonNode withArray(String propertyName)",
+            "String textValue()"
+        ],
+        [
+            "BinaryNode binaryNode(byte[] data)",
+            "T deepCopy()"
+        ],
+        [
+            "NumericNode numberNode(BigInteger v)",
+            "T deepCopy()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "String asText()"
+        ],
+        [
+            "BinaryNode binaryNode(byte[] data)",
+            "byte[] binaryValue()"
+        ],
+        [
+            "ValueNode numberNode(Short v)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findValues(String fieldName)"
+        ],
+        [
+            "ValueNode numberNode(Float v)",
+            "T removeAll()"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "BigDecimal decimalValue()"
+        ],
+        [
+            "BinaryNode binaryNode(byte[] data, int offset, int length)",
+            "T removeAll()"
+        ],
+        [
+            "boolean hasNonNull(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Long v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "com.fasterxml.jackson.core.JsonParser.NumberType numberType()"
+        ],
+        [
+            "JsonNode get(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode at(String jsonPtrExpr)",
+            "T removeAll()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(byte v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "Number numberValue()"
+        ],
+        [
+            "JsonNode path(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(BigInteger v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(long v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode withArray(String propertyName)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "String textValue()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "String textValue()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName)"
+        ],
+        [
+            "List findValues(String fieldName)",
+            "T removeAll()"
+        ],
+        [
+            "List findValuesAsText(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(BigDecimal v)"
+        ],
+        [
+            "NumericNode numberNode(BigDecimal v)",
+            "T removeAll()"
+        ],
+        [
+            "JsonNode at(com.fasterxml.jackson.core.JsonPointer ptr)",
+            "T removeAll()"
+        ],
+        [
+            "JsonNode withArray(String propertyName)",
+            "T removeAll()"
+        ],
+        [
+            "boolean isEmpty(SerializerProvider serializers)",
+            "T removeAll()"
+        ],
+        [
+            "JsonNode _at(com.fasterxml.jackson.core.JsonPointer ptr)",
+            "T removeAll()"
+        ],
+        [
+            "JsonNode at(String jsonPtrExpr)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "BinaryNode binaryNode(byte[] data, int offset, int length)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "com.fasterxml.jackson.core.JsonParser traverse()"
+        ],
+        [
+            "JsonNode findPath(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName, List foundSoFar)"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ArrayNode arrayNode()"
+        ],
+        [
+            "List findValues(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "BinaryNode binaryNode(byte[] data, int offset, int length)",
+            "byte[] binaryValue()"
+        ],
+        [
+            "JsonNode findPath(String fieldName)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "T removeAll()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findParents(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode withArray(String propertyName)"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName, List foundSoFar)"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "String asText()"
+        ],
+        [
+            "JsonNode with(String propertyName)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode rawValueNode(RawValue value)",
+            "T removeAll()"
+        ],
+        [
+            "boolean hasNonNull(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode get(String fieldName)",
+            "T removeAll()"
+        ],
+        [
+            "ValueNode numberNode(Long v)",
+            "T deepCopy()"
+        ],
+        [
+            "JsonNode path(String fieldName)",
+            "T removeAll()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "Iterator fields()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "T removeAll()"
+        ],
+        [
+            "JsonNode findValue(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "T removeAll()"
+        ],
+        [
+            "List findValuesAsText(String fieldName)",
+            "T removeAll()"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "BinaryNode binaryNode(byte[] data)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "BinaryNode binaryNode(byte[] data, int offset, int length)"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName)"
+        ],
+        [
+            "void serialize(com.fasterxml.jackson.core.JsonGenerator jgen, SerializerProvider provider)",
+            "T deepCopy()"
+        ],
+        [
+            "JsonNode get(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Byte v)"
+        ],
+        [
+            "TextNode textNode(String text)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "Iterator iterator()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "T removeAll()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(double v)"
+        ],
+        [
+            "List findParents(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "List findValuesAsText(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Double v)"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName)"
+        ],
+        [
+            "JsonNode findParent(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNodeType getNodeType()"
+        ],
+        [
+            "boolean hasNonNull(String fieldName)",
+            "T removeAll()"
+        ],
+        [
+            "boolean has(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "BooleanNode booleanNode(boolean v)"
+        ],
+        [
+            "ValueNode numberNode(Float v)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Short v)"
+        ],
+        [
+            "JsonNode findValue(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode numberNode(Byte v)",
+            "T removeAll()"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "com.fasterxml.jackson.core.JsonToken asToken()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "BigInteger bigIntegerValue()"
+        ],
+        [
+            "boolean hasNonNull(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode at(String jsonPtrExpr)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode objectNode()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findValues(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "TextNode textNode(String text)",
+            "String textValue()"
+        ],
+        [
+            "com.fasterxml.jackson.core.JsonParser traverse(com.fasterxml.jackson.core.ObjectCodec codec)",
+            "T removeAll()"
+        ],
+        [
+            "List findValues(String fieldName)",
+            "T deepCopy()"
+        ],
+        [
+            "JsonNode withArray(String propertyName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "List findParents(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName)"
+        ],
+        [
+            "NumericNode numberNode(BigDecimal v)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "Iterator fieldNames()"
+        ],
+        [
+            "JsonNode at(com.fasterxml.jackson.core.JsonPointer ptr)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "boolean has(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "JsonNode _at(com.fasterxml.jackson.core.JsonPointer ptr)",
+            "T deepCopy()"
+        ],
+        [
+            "String asText(String defaultValue)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode withArray(String propertyName)",
+            "T deepCopy()"
+        ],
+        [
+            "boolean isEmpty(SerializerProvider serializers)",
+            "T deepCopy()"
+        ],
+        [
+            "JsonNode findParent(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode numberNode(Integer v)",
+            "T removeAll()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(int v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findParents(String fieldName)"
+        ],
+        [
+            "boolean has(String fieldName)",
+            "T removeAll()"
+        ],
+        [
+            "JsonNode findValue(String fieldName)",
+            "T removeAll()"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "T deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(short v)"
+        ],
+        [
+            "JsonNode path(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode rawValueNode(RawValue value)",
+            "T deepCopy()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName)"
+        ],
+        [
+            "JsonNode get(String fieldName)",
+            "T deepCopy()"
+        ],
+        [
+            "JsonNode with(String propertyName)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "com.fasterxml.jackson.core.JsonParser traverse(com.fasterxml.jackson.core.ObjectCodec codec)"
+        ],
+        [
+            "JsonNode path(String fieldName)",
+            "T deepCopy()"
+        ]
+    ]
+}

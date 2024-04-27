@@ -1,0 +1,40 @@
+{
+    "class": "ContainerNode",
+    "category": "Class",
+    "methods": {
+        "ArrayNode arrayNode()": "Factory method that constructs and returns an empty ArrayNode Construction is done using registered JsonNodeFactory.",
+        "String asText()": "Method that will return a valid String representation of the container value, if the node is a value node (method JsonNode.isValueNode() returns true), otherwise empty String.",
+        "com.fasterxml.jackson.core.JsonToken asToken()": "Method that can be used for efficient type detection when using stream abstraction for traversing nodes.",
+        "BinaryNode binaryNode(byte[] data)": "",
+        "BinaryNode binaryNode(byte[] data, int offset, int length)": "",
+        "BooleanNode booleanNode(boolean v)": "",
+        "JsonNode get(int index)": "Method for accessing value of the specified element of an array node.",
+        "JsonNode get(String fieldName)": "Method for accessing value of the specified field of an object node.",
+        "NullNode nullNode()": "",
+        "NumericNode numberNode(BigDecimal v)": "",
+        "NumericNode numberNode(BigInteger v)": "",
+        "NumericNode numberNode(byte v)": "",
+        "ValueNode numberNode(Byte v)": "",
+        "NumericNode numberNode(double v)": "",
+        "ValueNode numberNode(Double v)": "",
+        "NumericNode numberNode(float v)": "",
+        "ValueNode numberNode(Float v)": "",
+        "NumericNode numberNode(int v)": "",
+        "ValueNode numberNode(Integer v)": "",
+        "NumericNode numberNode(long v)": "",
+        "ValueNode numberNode(Long v)": "",
+        "NumericNode numberNode(short v)": "",
+        "ValueNode numberNode(Short v)": "",
+        "ObjectNode objectNode()": "Factory method that constructs and returns an empty ObjectNode Construction is done using registered JsonNodeFactory.",
+        "ValueNode pojoNode(Object pojo)": "",
+        "ValueNode rawValueNode(RawValue value)": "Factory method to use for adding \"raw values\"; pre-encoded values that are included exactly as-is when node is serialized.",
+        "T removeAll()": "Method for removing all children container has (if any)",
+        "int size()": "",
+        "TextNode textNode(String text)": ""
+    },
+    "super class": [
+        "com.fasterxml.jackson.databind.node.BaseJsonNode",
+        "com.fasterxml.jackson.databind.JsonNode",
+        "com.fasterxml.jackson.databind.JsonSerializable.Base"
+    ]
+}

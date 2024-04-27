@@ -1,0 +1,18 @@
+{
+    "class": "RemotingUtil",
+    "category": "Class",
+    "methods": {
+        "void closeChannel(io.netty.channel.Channel channel)": "Closes the specified channel.",
+        "SocketChannel connect(SocketAddress remote)": "Connects to the specified remote address.",
+        "SocketChannel connect(SocketAddress remote, int timeoutMillis)": "Connects to the specified remote address with a timeout.",
+        "String getLocalAddress()": "Returns the local address of the machine.",
+        "boolean isLinuxPlatform()": "Returns whether the current platform is Linux.",
+        "boolean isWindowsPlatform()": "Returns whether the current platform is Windows.",
+        "String normalizeHostAddress(InetAddress localHost)": "Normalizes the specified local host address.",
+        "Selector openSelector()": "Opens a new selector.",
+        "String socketAddress2String(SocketAddress addr)": "Converts a socket address to a string.",
+        "SocketAddress string2SocketAddress(String addr)": "Converts a string to a socket address."
+    },
+    "super class": [
+    ]
+}

@@ -1,0 +1,5924 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, int value)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, byte[] value)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String getScheme()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String toURI()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtras(Bundle extras)"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "CharSequence getCharSequenceExtra(String name)"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String getDataString()"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, String[] value)"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String getType()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setIdentifier(String identifier)"
+        ],
+        [
+            "Intent putExtras(Bundle extras)",
+            "Bundle getExtras()"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String getPackage()"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String getPackage()"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String getDataString()"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "Bundle getBundleExtra(String name)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtras(Intent src)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, short[] value)"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String getType()"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String getIdentifier()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String getScheme()"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String getType()"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setClassName(String packageName, String className)"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String getAction()"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "short[] getShortArrayExtra(String name)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent makeMainActivity(ComponentName mainActivity)"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, short value)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String getPackage()"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent parseUri(String uri, int flags)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String getPackage()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, int[] value)"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String getType()"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String getAction()"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent setData(Uri data)",
+            "Uri getData()"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "boolean[] getBooleanArrayExtra(String name)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent createChooser(Intent target, CharSequence title)"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setClass(Context packageContext, Class cls)"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, long value)"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String getPackage()"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent setType(String type)",
+            "String getDataString()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, float[] value)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setDataAndType(Uri data, String type)"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, long[] value)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, Parcelable value)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String getDataString()"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String getType()"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent setType(String type)",
+            "String getType()"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, Parcelable[] value)"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String getScheme()"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String getType()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, byte value)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String getIdentifier()"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String toURI()"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent addCategory(String category)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setData(Uri data)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent replaceExtras(Intent src)"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String toUri(int flags)"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String getScheme()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent getIntentOld(String uri)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent addFlags(int flags)"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, CharSequence[] value)"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, boolean value)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String getAction()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent getSelector()"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String toURI()"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, double value)"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String getPackage()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putStringArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "double[] getDoubleArrayExtra(String name)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, char[] value)"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String toURI()"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String getScheme()"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent getSelector()"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String getPackage()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent getIntent(String uri)"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String getType()"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String getScheme()"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String getDataString()"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setDataAndNormalize(Uri data)"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String getPackage()"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, float value)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, String[] value)"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setData(Uri data)"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String getScheme()"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String toURI()"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String getScheme()"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, String[] value)"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String getType()"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, String value)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setTypeAndNormalize(String type)"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "void setClipData(ClipData clip)",
+            "ClipData getClipData()"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String getScheme()"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String toURI()"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String toURI()"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String getAction()"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, CharSequence value)"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "long[] getLongArrayExtra(String name)"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, int value)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, byte[] value)"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setFlags(int flags)"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, double[] value)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent parseUri(String uri, int flags)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, int[] value)"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String getScheme()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, Serializable value)"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setAction(String action)"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String getScheme()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent getIntentOld(String uri)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent parseUri(String uri, int flags)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, short[] value)"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String getDataString()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setComponent(ComponentName component)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setClassName(Context packageContext, String className)"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent setType(String type)",
+            "String getPackage()"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String toURI()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, Parcelable[] value)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, long value)"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent parseIntent(Resources resources, XmlPullParser parser, AttributeSet attrs)"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setDataAndType(Uri data, String type)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, boolean[] value)"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent getIntent(String uri)"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, Parcelable value)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setClassName(String packageName, String className)"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String getIdentifier()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setDataAndNormalize(Uri data)"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String getScheme()"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String toURI()"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String getAction()"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent addCategory(String category)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent replaceExtras(Bundle extras)"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String getType()"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, char value)"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String getScheme()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, short value)"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent setType(String type)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String getDataString()"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String toUri(int flags)"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putStringArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String getIdentifier()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setClass(Context packageContext, Class cls)"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "CharSequence[] getCharSequenceArrayExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String getAction()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, char[] value)"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String getDataString()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String getType()"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String toURI()"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String getScheme()"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String toURI()"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, int value)"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String getAction()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, byte[] value)"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent setType(String type)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, long[] value)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String getPackage()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, char[] value)"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setIdentifier(String identifier)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, Parcelable[] value)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String getDataString()"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String toURI()"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String getIdentifier()"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String getAction()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setData(Uri data)"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String getType()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, short[] value)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setTypeAndNormalize(String type)"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String getAction()"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String getDataString()"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, int[] value)"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String getAction()"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String getAction()"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, CharSequence value)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, CharSequence[] value)"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "ArrayList getParcelableArrayListExtra(String name)"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String getType()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setClassName(String packageName, String className)"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, long value)"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, CharSequence value)"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, double[] value)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setDataAndType(Uri data, String type)"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent getSelector()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, Serializable value)"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setAction(String action)"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String toURI()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, Parcelable value)"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, byte value)"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, double[] value)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setType(String type)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, Bundle value)"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent replaceExtras(Intent src)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, Parcelable[] value)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, String value)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, Serializable value)"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setClass(Context packageContext, Class cls)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "Parcelable[] getParcelableArrayExtra(String name)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setAction(String action)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent parseIntent(Resources resources, XmlPullParser parser, AttributeSet attrs)"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent addCategory(String category)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String getPackage()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, String[] value)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, double value)"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String getScheme()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, long[] value)"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setPackage(String packageName)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent parseIntent(Resources resources, XmlPullParser parser, AttributeSet attrs)"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "Uri getData()"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String toURI()"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String getType()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putStringArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setFlags(int flags)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtras(Bundle extras)"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent makeRestartActivityTask(ComponentName mainActivity)",
+            "ComponentName resolveActivity(PackageManager pm)"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String getAction()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, int[] value)"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String getPackage()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setData(Uri data)"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String getAction()"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent makeRestartActivityTask(ComponentName mainActivity)"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String toUri(int flags)"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent replaceExtras(Bundle extras)"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, long value)"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String getIdentifier()"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setDataAndType(Uri data, String type)"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent parseUri(String uri, int flags)"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setComponent(ComponentName component)"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setClassName(Context packageContext, String className)"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String getAction()"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String getPackage()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, Parcelable value)"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String getIdentifier()"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, boolean[] value)"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, float[] value)"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent addCategory(String category)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, char value)"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setIdentifier(String identifier)"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String getAction()"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String getPackage()"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String toURI()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, String value)"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String getScheme()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, int[] value)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String getAction()"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtras(Intent src)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putStringArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent setComponent(ComponentName component)",
+            "ComponentName getComponent()"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String getIdentifier()"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "ArrayList getCharSequenceArrayListExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent getIntentOld(String uri)"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent setType(String type)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "ArrayList getCharSequenceArrayListExtra(String name)"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "ArrayList getIntegerArrayListExtra(String name)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, long value)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setFlags(int flags)"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setDataAndType(Uri data, String type)"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "ArrayList getStringArrayListExtra(String name)"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String getAction()"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent makeMainActivity(ComponentName mainActivity)"
+        ],
+        [
+            "Intent putExtras(Bundle extras)",
+            "Bundle getBundleExtra(String name)"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent getIntent(String uri)"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "ArrayList getStringArrayListExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, byte value)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, Parcelable value)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, char[] value)"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setDataAndNormalize(Uri data)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent replaceExtras(Intent src)"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setTypeAndNormalize(String type)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, short value)"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent addFlags(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, boolean value)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String getType()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent addCategory(String category)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, double value)"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent makeMainActivity(ComponentName mainActivity)",
+            "ComponentName getComponent()"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent replaceExtras(Bundle extras)",
+            "Bundle getExtras()"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String getDataString()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putStringArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String getIdentifier()"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String getAction()"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, float value)"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String getType()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, int value)"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String toURI()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, byte[] value)"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String getAction()"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String getType()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, char value)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String getAction()"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, CharSequence value)"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String getType()"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, Bundle value)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, short[] value)"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String toURI()"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String getAction()"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String getScheme()"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, Serializable value)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent createChooser(Intent target, CharSequence title)"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setTypeAndNormalize(String type)"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String getDataString()"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setAction(String action)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, CharSequence[] value)"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String getType()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtras(Bundle extras)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, float[] value)"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String getType()"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String getType()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent createChooser(Intent target, CharSequence title)"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setClassName(String packageName, String className)"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setPackage(String packageName)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent parseIntent(Resources resources, XmlPullParser parser, AttributeSet attrs)"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String getScheme()"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, float[] value)"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent makeRestartActivityTask(ComponentName mainActivity)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent getIntentOld(String uri)"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String toUri(int flags)"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent replaceExtras(Bundle extras)"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent replaceExtras(Intent src)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String toURI()"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setClass(Context packageContext, Class cls)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String getScheme()"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "float[] getFloatArrayExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent getIntentOld(String uri)"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, double value)"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String getPackage()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent getIntent(String uri)"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, long[] value)"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String toUri(int flags)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String getAction()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setDataAndNormalize(Uri data)"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, short value)"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent getIntent(String uri)"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String getType()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String getType()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setData(Uri data)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setIdentifier(String identifier)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setDataAndNormalize(Uri data)"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String getPackage()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent parseUri(String uri, int flags)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtras(Intent src)"
+        ],
+        [
+            "void setSourceBounds(Rect r)",
+            "Rect getSourceBounds()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setComponent(ComponentName component)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setClassName(Context packageContext, String className)"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String getDataString()"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String getType()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtras(Bundle extras)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String getDataString()"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String getAction()"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String getDataString()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, boolean[] value)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, int value)"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, byte[] value)"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String getType()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, byte value)"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "ArrayList getParcelableArrayListExtra(String name)"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String getType()"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent replaceExtras(Intent src)"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String getDataString()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent makeMainActivity(ComponentName mainActivity)"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String getPackage()"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "char[] getCharArrayExtra(String name)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, int value)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent addFlags(int flags)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, byte[] value)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, boolean value)"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String toUri(int flags)"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String getDataString()"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String getAction()"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String getType()"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String toUri(int flags)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, double value)"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String getScheme()"
+        ],
+        [
+            "Intent makeRestartActivityTask(ComponentName mainActivity)",
+            "ComponentName getComponent()"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, short[] value)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setType(String type)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, CharSequence[] value)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, String value)"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String getType()"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String getType()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, short[] value)"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String getDataString()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setClassName(String packageName, String className)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, float value)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent getSelector()"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String toURI()"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String getDataString()"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setFlags(int flags)"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String getType()"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String toURI()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String getAction()"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setClassName(String packageName, String className)"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String getDataString()"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, byte value)"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, String[] value)"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String getType()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, short value)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String getScheme()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setClass(Context packageContext, Class cls)"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String getAction()"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, double value)"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String getPackage()"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setClass(Context packageContext, Class cls)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, long[] value)"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String getDataString()"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String getScheme()"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String getPackage()"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String getDataString()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent createChooser(Intent target, CharSequence title)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent addFlags(int flags)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, CharSequence value)"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String getPackage()"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, boolean value)"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, long[] value)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, char value)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setData(Uri data)"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String toURI()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, float[] value)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, Parcelable[] value)"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String getType()"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent parseUri(String uri, int flags)"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setComponent(ComponentName component)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setClassName(Context packageContext, String className)"
+        ],
+        [
+            "Intent setType(String type)",
+            "String toURI()"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String getScheme()"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String getPackage()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, Bundle value)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setData(Uri data)"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "ArrayList getCharSequenceArrayListExtra(String name)"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String getDataString()"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, boolean[] value)"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String toURI()"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, float value)"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String getPackage()"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "ArrayList getIntegerArrayListExtra(String name)"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String getType()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, CharSequence[] value)"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent getIntentOld(String uri)"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "Bundle getExtras()"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String getPackage()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setPackage(String packageName)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, short value)"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String getAction()"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "ArrayList getStringArrayListExtra(String name)"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String getIdentifier()"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent setType(String type)",
+            "String getScheme()"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String getScheme()"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String getDataString()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setType(String type)"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String getAction()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setTypeAndNormalize(String type)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String toURI()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, String value)"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent makeRestartActivityTask(ComponentName mainActivity)"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String getPackage()"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String getType()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setDataAndNormalize(Uri data)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent replaceExtras(Bundle extras)"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String getDataString()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String getAction()"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String toURI()"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String toURI()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, String value)"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String getPackage()"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setFlags(int flags)"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, char[] value)"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "Serializable getSerializableExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String toUri(int flags)"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String getDataString()"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setFlags(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, int[] value)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String getAction()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, int value)"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String getType()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, short value)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setIdentifier(String identifier)"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, byte[] value)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, CharSequence[] value)"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String getAction()"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String getIdentifier()"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "ArrayList getIntegerArrayListExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String getScheme()"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtras(Intent src)"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String getPackage()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String toUri(int flags)"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, long value)"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String getDataString()"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String getAction()"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String getAction()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent getSelector()"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String getType()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setComponent(ComponentName component)"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setClassName(Context packageContext, String className)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setDataAndType(Uri data, String type)"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String getType()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtras(Bundle extras)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, short[] value)"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, CharSequence value)"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, boolean[] value)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, Parcelable value)"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String toURI()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, char value)"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String toURI()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent makeMainActivity(ComponentName mainActivity)"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String toURI()"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String getIdentifier()"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)"
+        ],
+        [
+            "Intent setType(String type)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, double[] value)"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String getPackage()"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setClassName(String packageName, String className)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, Bundle value)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, String[] value)"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String toURI()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent addCategory(String category)"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String getDataString()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, Serializable value)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, char value)"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setAction(String action)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String getAction()"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String toURI()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putStringArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, CharSequence[] value)"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String toURI()"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setPackage(String packageName)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent parseIntent(Resources resources, XmlPullParser parser, AttributeSet attrs)"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String toURI()"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String getIdentifier()"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String getPackage()"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setClass(Context packageContext, Class cls)"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, double[] value)"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String getAction()"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent makeRestartActivityTask(ComponentName mainActivity)"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Bundle extras)",
+            "Bundle getBundleExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String getScheme()"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent parseUri(String uri, int flags)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setComponent(ComponentName component)"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String toURI()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setClassName(Context packageContext, String className)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent replaceExtras(Bundle extras)"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, long[] value)"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String getIdentifier()"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String getType()"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, Parcelable[] value)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String toURI()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, boolean[] value)"
+        ],
+        [
+            "Intent setComponent(ComponentName component)",
+            "ComponentName resolveActivity(PackageManager pm)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent setTypeAndNormalize(String type)"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String getAction()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent getSelector()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String toURI()"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String getAction()"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String getPackage()"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String getAction()"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String getIdentifier()"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String getType()"
+        ],
+        [
+            "Intent setClassName(String packageName, String className)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, byte value)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent createChooser(Intent target, CharSequence title)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String toURI()"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setIdentifier(String identifier)"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String getPackage()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, String[] value)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent addFlags(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, int value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, float[] value)"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String getPackage()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, boolean value)"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent setType(String type)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String getIdentifier()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String getPackage()"
+        ],
+        [
+            "Intent makeMainActivity(ComponentName mainActivity)",
+            "ComponentName resolveActivity(PackageManager pm)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setComponent(ComponentName component)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, Bundle value)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setClassName(Context packageContext, String className)"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String getAction()"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtras(Bundle extras)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setType(String type)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, char[] value)"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String getScheme()"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, String value)"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, boolean[] value)"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtra(String name, float value)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent makeMainActivity(ComponentName mainActivity)"
+        ],
+        [
+            "Intent putExtra(String name, long value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String toURI()"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String getIdentifier()"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "int[] getIntArrayExtra(String name)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtras(Bundle extras)"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String toURI()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent setPackage(String packageName)"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String toURI()"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String toUri(int flags)"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent setType(String type)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setFlags(int flags)"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, int[] value)"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent makeRestartActivityTask(ComponentName mainActivity)"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent setType(String type)",
+            "String getIdentifier()"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String getIdentifier()"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent addCategory(String category)",
+            "String toUri(int flags)"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String getType()"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String toURI()"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "Intent putExtra(String name, int[] value)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, CharSequence value)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String getIdentifier()"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String getPackage()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, long value)"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String getAction()"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String getScheme()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setDataAndType(Uri data, String type)"
+        ],
+        [
+            "String normalizeMimeType(String type)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, long[] value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "CharSequence getCharSequenceExtra(String name)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, double[] value)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, Parcelable value)"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent setDataAndType(Uri data, String type)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, Bundle value)"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtra(String name, Serializable value)"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "boolean hasCategory(String category)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setAction(String action)"
+        ],
+        [
+            "Intent putExtra(String name, short[] value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String getPackage()"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Serializable getSerializableExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String getIdentifier()"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent addCategory(String category)"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putExtra(String name, char value)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setPackage(String packageName)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent parseIntent(Resources resources, XmlPullParser parser, AttributeSet attrs)"
+        ],
+        [
+            "Intent setDataAndNormalize(Uri data)",
+            "Uri getData()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, char[] value)"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable[] value)",
+            "String getType()"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putExtras(Intent src)"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "ArrayList getCharSequenceArrayListExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent putStringArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "CharSequence getCharSequenceExtra(String name)"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent createChooser(Intent target, CharSequence title)"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent getIntentOld(String uri)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent getIntent(String uri)",
+            "String getType()"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent putExtra(String name, float[] value)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent makeRestartActivityTask(ComponentName mainActivity)"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "ArrayList getIntegerArrayListExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String toURI()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent addFlags(int flags)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, boolean value)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent replaceExtras(Bundle extras)"
+        ],
+        [
+            "short[] getShortArrayExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "int[] getIntArrayExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "ArrayList getStringArrayListExtra(String name)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, byte value)"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name, Class clazz)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent makeMainActivity(ComponentName mainActivity)"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String getAction()"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "long[] getLongArrayExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent replaceExtras(Intent src)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String getPackage()"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent addFlags(int flags)"
+        ],
+        [
+            "ArrayList getStringArrayListExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, boolean value)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, Bundle value)"
+        ],
+        [
+            "Intent setType(String type)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "short getShortExtra(String name, short defaultValue)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String toURI()"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, double value)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayListExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent setTypeAndNormalize(String type)"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent getIntentOld(String uri)"
+        ],
+        [
+            "float getFloatExtra(String name, float defaultValue)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "char[] getCharArrayExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent putExtra(String name, float value)"
+        ],
+        [
+            "Intent putExtra(String name, Parcelable value)",
+            "String getType()"
+        ],
+        [
+            "T getSerializableExtra(String name, Class clazz)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "ArrayList getIntegerArrayListExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String toURI()"
+        ],
+        [
+            "Intent putExtra(String name, float[] value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent setPackage(String packageName)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, String[] value)",
+            "String[] getStringArrayExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, boolean value)",
+            "String getType()"
+        ],
+        [
+            "Bundle getBundleExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)"
+        ],
+        [
+            "Intent putExtra(String name, char[] value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, Bundle value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "T getParcelableExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, boolean[] value)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "Uri getData()"
+        ],
+        [
+            "Intent putExtra(String name, CharSequence[] value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent setPackage(String packageName)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent setIdentifier(String identifier)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, double[] value)"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String getPackage()"
+        ],
+        [
+            "int getIntExtra(String name, int defaultValue)",
+            "String getPackage()"
+        ],
+        [
+            "T[] getParcelableArrayExtra(String name, Class clazz)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)",
+            "Intent putExtra(String name, float value)"
+        ],
+        [
+            "boolean[] getBooleanArrayExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent getIntent(String uri)"
+        ],
+        [
+            "ArrayList getParcelableArrayListExtra(String name)",
+            "String toUri(int flags)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, Serializable value)"
+        ],
+        [
+            "boolean getBooleanExtra(String name, boolean defaultValue)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, byte value)",
+            "String getDataString()"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "Intent putParcelableArrayListExtra(String name, ArrayList value)",
+            "String getScheme()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setAction(String action)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent putExtras(Intent src)"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "byte[] getByteArrayExtra(String name)"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent setDataAndNormalize(Uri data)"
+        ],
+        [
+            "void removeExtra(String name)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String toURI()"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)",
+            "String toUri(int flags)"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String toURI()"
+        ],
+        [
+            "Intent setAction(String action)",
+            "String getType()"
+        ],
+        [
+            "Intent setClassName(Context packageContext, String className)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent putExtra(String name, double[] value)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent makeRestartActivityTask(ComponentName mainActivity)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent putExtra(String name, Parcelable[] value)"
+        ],
+        [
+            "T getParcelableExtra(String name, Class clazz)",
+            "String getScheme()"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, String value)",
+            "String toURI()"
+        ],
+        [
+            "byte getByteExtra(String name, byte defaultValue)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, double value)",
+            "String getPackage()"
+        ],
+        [
+            "Parcelable[] getParcelableArrayExtra(String name)",
+            "String getDataString()"
+        ],
+        [
+            "double[] getDoubleArrayExtra(String name)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent parseIntent(Resources resources, XmlPullParser parser, AttributeSet attrs)"
+        ],
+        [
+            "Intent putExtra(String name, short value)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "double getDoubleExtra(String name, double defaultValue)",
+            "String getScheme()"
+        ],
+        [
+            "Intent replaceExtras(Intent src)",
+            "Intent replaceExtras(Bundle extras)"
+        ],
+        [
+            "Intent putExtra(String name, char value)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "float[] getFloatArrayExtra(String name)",
+            "String getIdentifier()"
+        ],
+        [
+            "void setSelector(Intent selector)",
+            "Intent setDataAndTypeAndNormalize(Uri data, String type)"
+        ],
+        [
+            "Intent parseUri(String uri, int flags)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String getDataString()"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String getIdentifier()"
+        ],
+        [
+            "CharSequence[] getCharSequenceArrayExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "Intent putStringArrayListExtra(String name, ArrayList value)",
+            "ArrayList getParcelableArrayListExtra(String name)"
+        ],
+        [
+            "int fillIn(Intent other, int flags)",
+            "Intent makeMainActivity(ComponentName mainActivity)"
+        ],
+        [
+            "Intent createChooser(Intent target, CharSequence title)",
+            "Intent getSelector()"
+        ],
+        [
+            "long getLongExtra(String name, long defaultValue)",
+            "String getAction()"
+        ],
+        [
+            "Intent putExtra(String name, byte[] value)",
+            "String toUri(int flags)"
+        ],
+        [
+            "byte[] getByteArrayExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putCharSequenceArrayListExtra(String name, ArrayList value)",
+            "ArrayList getParcelableArrayListExtra(String name)"
+        ],
+        [
+            "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)",
+            "String getType()"
+        ],
+        [
+            "boolean filterEquals(Intent other)",
+            "Intent getIntent(String uri)"
+        ],
+        [
+            "void removeCategory(String category)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "Intent putExtra(String name, Serializable value)",
+            "String getAction()"
+        ],
+        [
+            "Intent setTypeAndNormalize(String type)",
+            "String resolveType(Context context)"
+        ],
+        [
+            "boolean hasExtra(String name)",
+            "String getStringExtra(String name)"
+        ],
+        [
+            "Intent putExtra(String name, float value)",
+            "String getScheme()"
+        ],
+        [
+            "Intent putIntegerArrayListExtra(String name, ArrayList value)",
+            "String getType()"
+        ],
+        [
+            "Intent putExtras(Intent src)",
+            "Intent createChooser(Intent target, CharSequence title, IntentSender sender)"
+        ],
+        [
+            "char getCharExtra(String name, char defaultValue)",
+            "String resolveType(ContentResolver resolver)"
+        ],
+        [
+            "String[] getStringArrayExtra(String name)",
+            "String toURI()"
+        ],
+        [
+            "String getStringExtra(String name)",
+            "String resolveTypeIfNeeded(ContentResolver resolver)"
+        ],
+        [
+            "CharSequence getCharSequenceExtra(String name)",
+            "String normalizeMimeType(String type)"
+        ],
+        [
+            "Intent setIdentifier(String identifier)",
+            "String getScheme()"
+        ]
+    ]
+}

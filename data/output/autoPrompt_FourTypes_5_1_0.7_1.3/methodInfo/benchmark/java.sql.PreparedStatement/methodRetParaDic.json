@@ -1,0 +1,454 @@
+{
+    "void addBatch()": {
+        "return type": "void",
+        "method name": "addBatch",
+        "parameters": []
+    },
+    "void clearParameters()": {
+        "return type": "void",
+        "method name": "clearParameters",
+        "parameters": []
+    },
+    "boolean execute()": {
+        "return type": "boolean",
+        "method name": "execute",
+        "parameters": []
+    },
+    "long executeLargeUpdate()": {
+        "return type": "long",
+        "method name": "executeLargeUpdate",
+        "parameters": []
+    },
+    "ResultSet executeQuery()": {
+        "return type": "ResultSet",
+        "method name": "executeQuery",
+        "parameters": []
+    },
+    "int executeUpdate()": {
+        "return type": "int",
+        "method name": "executeUpdate",
+        "parameters": []
+    },
+    "ResultSetMetaData getMetaData()": {
+        "return type": "ResultSetMetaData",
+        "method name": "getMetaData",
+        "parameters": []
+    },
+    "ParameterMetaData getParameterMetaData()": {
+        "return type": "ParameterMetaData",
+        "method name": "getParameterMetaData",
+        "parameters": []
+    },
+    "void setArray(int parameterIndex, Array x)": {
+        "return type": "void",
+        "method name": "setArray",
+        "parameters": [
+            "int",
+            "Array"
+        ]
+    },
+    "void setAsciiStream(int parameterIndex, InputStream x)": {
+        "return type": "void",
+        "method name": "setAsciiStream",
+        "parameters": [
+            "int",
+            "InputStream"
+        ]
+    },
+    "void setAsciiStream(int parameterIndex, InputStream x, int length)": {
+        "return type": "void",
+        "method name": "setAsciiStream",
+        "parameters": [
+            "int",
+            "InputStream",
+            "int"
+        ]
+    },
+    "void setAsciiStream(int parameterIndex, InputStream x, long length)": {
+        "return type": "void",
+        "method name": "setAsciiStream",
+        "parameters": [
+            "int",
+            "InputStream",
+            "long"
+        ]
+    },
+    "void setBigDecimal(int parameterIndex, BigDecimal x)": {
+        "return type": "void",
+        "method name": "setBigDecimal",
+        "parameters": [
+            "int",
+            "BigDecimal"
+        ]
+    },
+    "void setBinaryStream(int parameterIndex, InputStream x)": {
+        "return type": "void",
+        "method name": "setBinaryStream",
+        "parameters": [
+            "int",
+            "InputStream"
+        ]
+    },
+    "void setBinaryStream(int parameterIndex, InputStream x, int length)": {
+        "return type": "void",
+        "method name": "setBinaryStream",
+        "parameters": [
+            "int",
+            "InputStream",
+            "int"
+        ]
+    },
+    "void setBinaryStream(int parameterIndex, InputStream x, long length)": {
+        "return type": "void",
+        "method name": "setBinaryStream",
+        "parameters": [
+            "int",
+            "InputStream",
+            "long"
+        ]
+    },
+    "void setBlob(int parameterIndex, Blob x)": {
+        "return type": "void",
+        "method name": "setBlob",
+        "parameters": [
+            "int",
+            "Blob"
+        ]
+    },
+    "void setBlob(int parameterIndex, InputStream inputStream)": {
+        "return type": "void",
+        "method name": "setBlob",
+        "parameters": [
+            "int",
+            "InputStream"
+        ]
+    },
+    "void setBlob(int parameterIndex, InputStream inputStream, long length)": {
+        "return type": "void",
+        "method name": "setBlob",
+        "parameters": [
+            "int",
+            "InputStream",
+            "long"
+        ]
+    },
+    "void setBoolean(int parameterIndex, boolean x)": {
+        "return type": "void",
+        "method name": "setBoolean",
+        "parameters": [
+            "int",
+            "boolean"
+        ]
+    },
+    "void setByte(int parameterIndex, byte x)": {
+        "return type": "void",
+        "method name": "setByte",
+        "parameters": [
+            "int",
+            "byte"
+        ]
+    },
+    "void setBytes(int parameterIndex, byte[] x)": {
+        "return type": "void",
+        "method name": "setBytes",
+        "parameters": [
+            "int",
+            "byte[]"
+        ]
+    },
+    "void setCharacterStream(int parameterIndex, Reader reader)": {
+        "return type": "void",
+        "method name": "setCharacterStream",
+        "parameters": [
+            "int",
+            "Reader"
+        ]
+    },
+    "void setCharacterStream(int parameterIndex, Reader reader, int length)": {
+        "return type": "void",
+        "method name": "setCharacterStream",
+        "parameters": [
+            "int",
+            "Reader",
+            "int"
+        ]
+    },
+    "void setCharacterStream(int parameterIndex, Reader reader, long length)": {
+        "return type": "void",
+        "method name": "setCharacterStream",
+        "parameters": [
+            "int",
+            "Reader",
+            "long"
+        ]
+    },
+    "void setClob(int parameterIndex, Clob x)": {
+        "return type": "void",
+        "method name": "setClob",
+        "parameters": [
+            "int",
+            "Clob"
+        ]
+    },
+    "void setClob(int parameterIndex, Reader reader)": {
+        "return type": "void",
+        "method name": "setClob",
+        "parameters": [
+            "int",
+            "Reader"
+        ]
+    },
+    "void setClob(int parameterIndex, Reader reader, long length)": {
+        "return type": "void",
+        "method name": "setClob",
+        "parameters": [
+            "int",
+            "Reader",
+            "long"
+        ]
+    },
+    "void setDate(int parameterIndex, Date x)": {
+        "return type": "void",
+        "method name": "setDate",
+        "parameters": [
+            "int",
+            "Date"
+        ]
+    },
+    "void setDate(int parameterIndex, Date x, Calendar cal)": {
+        "return type": "void",
+        "method name": "setDate",
+        "parameters": [
+            "int",
+            "Date",
+            "Calendar"
+        ]
+    },
+    "void setDouble(int parameterIndex, double x)": {
+        "return type": "void",
+        "method name": "setDouble",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "void setFloat(int parameterIndex, float x)": {
+        "return type": "void",
+        "method name": "setFloat",
+        "parameters": [
+            "int",
+            "float"
+        ]
+    },
+    "void setInt(int parameterIndex, int x)": {
+        "return type": "void",
+        "method name": "setInt",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void setLong(int parameterIndex, long x)": {
+        "return type": "void",
+        "method name": "setLong",
+        "parameters": [
+            "int",
+            "long"
+        ]
+    },
+    "void setNCharacterStream(int parameterIndex, Reader value)": {
+        "return type": "void",
+        "method name": "setNCharacterStream",
+        "parameters": [
+            "int",
+            "Reader"
+        ]
+    },
+    "void setNCharacterStream(int parameterIndex, Reader value, long length)": {
+        "return type": "void",
+        "method name": "setNCharacterStream",
+        "parameters": [
+            "int",
+            "Reader",
+            "long"
+        ]
+    },
+    "void setNClob(int parameterIndex, NClob value)": {
+        "return type": "void",
+        "method name": "setNClob",
+        "parameters": [
+            "int",
+            "NClob"
+        ]
+    },
+    "void setNClob(int parameterIndex, Reader reader)": {
+        "return type": "void",
+        "method name": "setNClob",
+        "parameters": [
+            "int",
+            "Reader"
+        ]
+    },
+    "void setNClob(int parameterIndex, Reader reader, long length)": {
+        "return type": "void",
+        "method name": "setNClob",
+        "parameters": [
+            "int",
+            "Reader",
+            "long"
+        ]
+    },
+    "void setNString(int parameterIndex, String value)": {
+        "return type": "void",
+        "method name": "setNString",
+        "parameters": [
+            "int",
+            "String"
+        ]
+    },
+    "void setNull(int parameterIndex, int sqlType)": {
+        "return type": "void",
+        "method name": "setNull",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void setNull(int parameterIndex, int sqlType, String typeName)": {
+        "return type": "void",
+        "method name": "setNull",
+        "parameters": [
+            "int",
+            "int",
+            "String"
+        ]
+    },
+    "void setObject(int parameterIndex, Object x)": {
+        "return type": "void",
+        "method name": "setObject",
+        "parameters": [
+            "int",
+            "Object"
+        ]
+    },
+    "void setObject(int parameterIndex, Object x, int targetSqlType)": {
+        "return type": "void",
+        "method name": "setObject",
+        "parameters": [
+            "int",
+            "Object",
+            "int"
+        ]
+    },
+    "void setObject(int parameterIndex, Object x, int targetSqlType, int scaleOrLength)": {
+        "return type": "void",
+        "method name": "setObject",
+        "parameters": [
+            "int",
+            "Object",
+            "int",
+            "int"
+        ]
+    },
+    "void setObject(int parameterIndex, Object x, SQLType targetSqlType)": {
+        "return type": "void",
+        "method name": "setObject",
+        "parameters": [
+            "int",
+            "Object",
+            "SQLType"
+        ]
+    },
+    "void setObject(int parameterIndex, Object x, SQLType targetSqlType, int scaleOrLength)": {
+        "return type": "void",
+        "method name": "setObject",
+        "parameters": [
+            "int",
+            "Object",
+            "SQLType",
+            "int"
+        ]
+    },
+    "void setRef(int parameterIndex, Ref x)": {
+        "return type": "void",
+        "method name": "setRef",
+        "parameters": [
+            "int",
+            "Ref"
+        ]
+    },
+    "void setRowId(int parameterIndex, RowId x)": {
+        "return type": "void",
+        "method name": "setRowId",
+        "parameters": [
+            "int",
+            "RowId"
+        ]
+    },
+    "void setShort(int parameterIndex, short x)": {
+        "return type": "void",
+        "method name": "setShort",
+        "parameters": [
+            "int",
+            "short"
+        ]
+    },
+    "void setSQLXML(int parameterIndex, SQLXML xmlObject)": {
+        "return type": "void",
+        "method name": "setSQLXML",
+        "parameters": [
+            "int",
+            "SQLXML"
+        ]
+    },
+    "void setString(int parameterIndex, String x)": {
+        "return type": "void",
+        "method name": "setString",
+        "parameters": [
+            "int",
+            "String"
+        ]
+    },
+    "void setTime(int parameterIndex, Time x)": {
+        "return type": "void",
+        "method name": "setTime",
+        "parameters": [
+            "int",
+            "Time"
+        ]
+    },
+    "void setTime(int parameterIndex, Time x, Calendar cal)": {
+        "return type": "void",
+        "method name": "setTime",
+        "parameters": [
+            "int",
+            "Time",
+            "Calendar"
+        ]
+    },
+    "void setTimestamp(int parameterIndex, Timestamp x)": {
+        "return type": "void",
+        "method name": "setTimestamp",
+        "parameters": [
+            "int",
+            "Timestamp"
+        ]
+    },
+    "void setTimestamp(int parameterIndex, Timestamp x, Calendar cal)": {
+        "return type": "void",
+        "method name": "setTimestamp",
+        "parameters": [
+            "int",
+            "Timestamp",
+            "Calendar"
+        ]
+    },
+    "void setURL(int parameterIndex, URL x)": {
+        "return type": "void",
+        "method name": "setURL",
+        "parameters": [
+            "int",
+            "URL"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "String getInstallerPackageName(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void setInstallerPackageName(String targetPackage, String installerPackageName)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    }
+}

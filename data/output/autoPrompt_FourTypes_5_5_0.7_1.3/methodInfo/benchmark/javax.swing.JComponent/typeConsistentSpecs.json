@@ -1,0 +1,4728 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "InputMap getInputMap()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "void applyComponentOrientation(ComponentOrientation orientation)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Locale getLocale()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "boolean isLightweightComponent(Component c)",
+            "Component add(Component comp)"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "void repaint(Rectangle r)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void paintComponents(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "void addComponentListener(ComponentListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setToolTipText(String text)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void setForeground(Color fg)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void removeAncestorListener(AncestorListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "int getComponentZOrder(Component comp)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "int getConditionForKeyStroke(KeyStroke aKeyStroke)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, short oldValue, short newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "String getName()"
+        ],
+        [
+            "void setComponentOrientation(ComponentOrientation o)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "boolean isLightweightComponent(Component c)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "InputContext getInputContext()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "GraphicsConfiguration getGraphicsConfiguration()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "KeyStroke[] getRegisteredKeyStrokes()"
+        ],
+        [
+            "void removeKeyListener(KeyListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "JRootPane getRootPane()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "InputMethodRequests getInputMethodRequests()"
+        ],
+        [
+            "void addPropertyChangeListener(PropertyChangeListener listener)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Border getBorder()"
+        ],
+        [
+            "void remove(MenuComponent popup)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void paintComponent(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "T[] getListeners(Class listenerType)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "void remove(Component comp)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Point getToolTipLocation(MouseEvent event)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Component add(Component comp)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Component add(Component comp)"
+        ],
+        [
+            "void list(PrintWriter out, int indent)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "InputMap getInputMap(int condition)"
+        ],
+        [
+            "void printAll(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Container getFocusCycleRootAncestor()"
+        ],
+        [
+            "void removeMouseWheelListener(MouseWheelListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setName(String name)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Container getTopLevelAncestor()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, double oldValue, double newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "FontMetrics getFontMetrics(Font font)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "FontMetrics getFontMetrics(Font font)"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Component findComponentAt(Point p)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "JToolTip createToolTip()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void removeMouseListener(MouseListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void processComponentEvent(ComponentEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "HierarchyListener[] getHierarchyListeners()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "KeyStroke[] getRegisteredKeyStrokes()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "DropTarget getDropTarget()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "T[] getListeners(Class listenerType)"
+        ],
+        [
+            "void setTransferHandler(TransferHandler newHandler)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "ActionListener getActionForKeyStroke(KeyStroke aKeyStroke)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "AccessibleContext getAccessibleContext()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "VolatileImage createVolatileImage(int width, int height)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "InputMap getInputMap(int condition)"
+        ],
+        [
+            "void setForeground(Color c)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addAncestorListener(AncestorListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "String getUIClassID()"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Dimension getSize()"
+        ],
+        [
+            "void remove(Component comp)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "int getComponentZOrder(Component comp)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "int checkImage(Image image, ImageObserver observer)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void paintComponent(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void addVetoableChangeListener(VetoableChangeListener listener)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Toolkit getToolkit()"
+        ],
+        [
+            "Component findComponentAt(Point p)",
+            "Point getLocation()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "InputMethodListener[] getInputMethodListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)"
+        ],
+        [
+            "void printAll(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addPropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String getName()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "String paramString()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "void add(PopupMenu popup)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, int oldValue, int newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "boolean isLightweightComponent(Component c)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "HierarchyBoundsListener[] getHierarchyBoundsListeners()"
+        ],
+        [
+            "void printComponents(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "VolatileImage createVolatileImage(int width, int height)"
+        ],
+        [
+            "void processInputMethodEvent(InputMethodEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void computeVisibleRect(Rectangle visibleRect)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "boolean prepareImage(Image image, ImageObserver observer)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "FocusTraversalPolicy getFocusTraversalPolicy()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "VetoableChangeListener[] getVetoableChangeListeners()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "FocusListener[] getFocusListeners()"
+        ],
+        [
+            "void setInputMap(int condition, InputMap map)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "String getToolTipText()"
+        ],
+        [
+            "void dispatchEvent(AWTEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Cursor getCursor()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Point getLocation()"
+        ],
+        [
+            "void list(PrintStream out, int indent)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "GraphicsConfiguration getGraphicsConfiguration()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "ContainerListener[] getContainerListeners()"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "String getToolTipText()"
+        ],
+        [
+            "int getComponentZOrder(Component comp)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "void setTransferHandler(TransferHandler newHandler)",
+            "TransferHandler getTransferHandler()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Set getFocusTraversalKeys(int id)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Color getForeground()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Toolkit getToolkit()"
+        ],
+        [
+            "Component findComponentAt(Point p)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "void scrollRectToVisible(Rectangle aRect)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void applyComponentOrientation(ComponentOrientation orientation)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Point getLocation()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "InputMap getInputMap(int condition)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "ActionListener getActionForKeyStroke(KeyStroke aKeyStroke)"
+        ],
+        [
+            "void repaint(Rectangle r)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void paintComponents(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void printChildren(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void remove(MenuComponent popup)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Component add(Component comp)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "FocusTraversalPolicy getFocusTraversalPolicy()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "LayoutManager getLayout()"
+        ],
+        [
+            "void printComponents(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void removeAncestorListener(AncestorListener listener)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void computeVisibleRect(Rectangle visibleRect)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, short oldValue, short newValue)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "int getConditionForKeyStroke(KeyStroke aKeyStroke)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setFocusTraversalPolicy(FocusTraversalPolicy policy)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void remove(Component comp)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "void setComponentOrientation(ComponentOrientation o)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Dimension getSize(Dimension rv)",
+            "Dimension getSize()"
+        ],
+        [
+            "boolean isLightweightComponent(Component c)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addMouseWheelListener(MouseWheelListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Set getFocusTraversalKeys(int id)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "MouseListener[] getMouseListeners()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "GraphicsConfiguration getGraphicsConfiguration()"
+        ],
+        [
+            "void printComponent(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "JPopupMenu getComponentPopupMenu()"
+        ],
+        [
+            "int getComponentZOrder(Component comp)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "void removeContainerListener(ContainerListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setCursor(Cursor cursor)",
+            "Cursor getCursor()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Container getParent()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "InputMap getInputMap()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Toolkit getToolkit()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "void addPropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String paramString()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "MouseMotionListener[] getMouseMotionListeners()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "VetoableChangeListener[] getVetoableChangeListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, byte oldValue, byte newValue)",
+            "String paramString()"
+        ],
+        [
+            "void paintBorder(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getSize()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "Component findComponentAt(Point p)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void addMouseListener(MouseListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addHierarchyListener(HierarchyListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void removeMouseWheelListener(MouseWheelListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void processHierarchyBoundsEvent(HierarchyEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setFocusTraversalKeys(int id, Set keystrokes)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addMouseMotionListener(MouseMotionListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, char oldValue, char newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, double oldValue, double newValue)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, short oldValue, short newValue)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void remove(Component comp)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "InputMethodRequests getInputMethodRequests()"
+        ],
+        [
+            "FontMetrics getFontMetrics(Font font)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void paintComponents(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Container getParent()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "MouseMotionListener[] getMouseMotionListeners()"
+        ],
+        [
+            "void setForeground(Color fg)",
+            "Color getForeground()"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "String getName()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "KeyStroke[] getRegisteredKeyStrokes()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "InputContext getInputContext()"
+        ],
+        [
+            "void removeComponentListener(ComponentListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void removePropertyChangeListener(PropertyChangeListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "int getComponentZOrder(Component comp)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "void unregisterKeyboardAction(KeyStroke aKeyStroke)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Locale getDefaultLocale()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, boolean oldValue, boolean newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setForeground(Color c)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, byte oldValue, byte newValue)",
+            "String getToolTipText()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "HierarchyListener[] getHierarchyListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "DropTarget getDropTarget()"
+        ],
+        [
+            "void addAncestorListener(AncestorListener listener)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "ActionMap getActionMap()"
+        ],
+        [
+            "Image createImage(ImageProducer producer)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setToolTipText(String text)",
+            "String getName()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Container getFocusCycleRootAncestor()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, double oldValue, double newValue)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "Component add(Component comp)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Point getLocation()"
+        ],
+        [
+            "void repaint(Rectangle r)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "void remove(Component comp)",
+            "Component add(Component comp)"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Container getParent()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "MouseMotionListener[] getMouseMotionListeners()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "FontMetrics getFontMetrics(Font font)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, int oldValue, int newValue)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "boolean processKeyBinding(KeyStroke ks, KeyEvent e, int condition, boolean pressed)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "AncestorListener[] getAncestorListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "TransferHandler getTransferHandler()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "T[] getListeners(Class listenerType)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "DropTarget getDropTarget()"
+        ],
+        [
+            "void applyComponentOrientation(ComponentOrientation o)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "boolean isLightweightComponent(Component c)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "InputMethodListener[] getInputMethodListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "String getUIClassID()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)"
+        ],
+        [
+            "void setInputVerifier(InputVerifier inputVerifier)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void remove(Component comp)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Point getToolTipLocation(MouseEvent event)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Component add(Component comp)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Dimension getSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, long oldValue, long newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void list(PrintWriter out, int indent)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void setBounds(Rectangle r)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "TransferHandler getTransferHandler()"
+        ],
+        [
+            "void list(PrintStream out, int indent)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "ColorModel getColorModel()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Point getLocation()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Component.BaselineResizeBehavior getBaselineResizeBehavior()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, int oldValue, int newValue)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void print(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getMousePosition()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Insets getInsets(Insets insets)"
+        ],
+        [
+            "void scrollRectToVisible(Rectangle aRect)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Container getTopLevelAncestor()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "void setToolTipText(String text)",
+            "String getUIClassID()"
+        ],
+        [
+            "void applyComponentOrientation(ComponentOrientation orientation)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void registerKeyboardAction(ActionListener anAction, String aCommand, KeyStroke aKeyStroke, int aCondition)",
+            "String paramString()"
+        ],
+        [
+            "int getComponentZOrder(Component comp)",
+            "Component add(Component comp)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Color getForeground()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "FocusListener[] getFocusListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, float oldValue, float newValue)",
+            "String paramString()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "Dimension getSize(Dimension rv)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "boolean isLightweightComponent(Component c)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "void paint(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Component findComponentAt(Point p)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "ActionListener getActionForKeyStroke(KeyStroke aKeyStroke)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Component[] getComponents()"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void setFocusTraversalPolicy(FocusTraversalPolicy policy)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Container getTopLevelAncestor()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "ContainerListener[] getContainerListeners()"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void setComponentOrientation(ComponentOrientation o)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void update(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void paintImmediately(Rectangle r)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "GraphicsConfiguration getGraphicsConfiguration()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Component.BaselineResizeBehavior getBaselineResizeBehavior()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "TransferHandler getTransferHandler()"
+        ],
+        [
+            "void addMouseWheelListener(MouseWheelListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Cursor getCursor()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "MouseWheelListener[] getMouseWheelListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "void setBackground(Color bg)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "Dimension getSize(Dimension rv)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void registerKeyboardAction(ActionListener anAction, String aCommand, KeyStroke aKeyStroke, int aCondition)",
+            "String getToolTipText()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "void remove(Component comp)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, float oldValue, float newValue)",
+            "String getToolTipText()"
+        ],
+        [
+            "Point getPopupLocation(MouseEvent event)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "VetoableChangeListener[] getVetoableChangeListeners()"
+        ],
+        [
+            "void processEvent(AWTEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "HierarchyListener[] getHierarchyListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "PropertyChangeListener[] getPropertyChangeListeners()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "String getToolTipText()"
+        ],
+        [
+            "Component add(Component comp)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addMouseListener(MouseListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addMouseMotionListener(MouseMotionListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setBorder(Border border)",
+            "Border getBorder()"
+        ],
+        [
+            "void setBackground(Color c)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "AccessibleContext getAccessibleContext()"
+        ],
+        [
+            "void processEvent(AWTEvent e)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "void setFocusTraversalKeys(int id, Set keystrokes)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, char oldValue, char newValue)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "boolean prepareImage(Image image, int width, int height, ImageObserver observer)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void list(PrintStream out)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Component add(Component comp, int index)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void printChildren(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "void paintAll(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setComponentPopupMenu(JPopupMenu popup)",
+            "JPopupMenu getComponentPopupMenu()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "PropertyChangeListener[] getPropertyChangeListeners()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "MouseListener[] getMouseListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "ComponentListener[] getComponentListeners()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Container getTopLevelAncestor()"
+        ],
+        [
+            "void removeFocusListener(FocusListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void removePropertyChangeListener(PropertyChangeListener listener)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void removeComponentListener(ComponentListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Set getFocusTraversalKeys(int id)"
+        ],
+        [
+            "void setInputMap(int condition, InputMap map)",
+            "InputMap getInputMap()"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "boolean isFocusCycleRoot(Container container)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "String getName()"
+        ],
+        [
+            "void unregisterKeyboardAction(KeyStroke aKeyStroke)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, boolean oldValue, boolean newValue)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "InputContext getInputContext()"
+        ],
+        [
+            "void paintImmediately(Rectangle r)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "HierarchyListener[] getHierarchyListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "int getComponentZOrder(Component comp)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "InputVerifier getInputVerifier()"
+        ],
+        [
+            "Image createImage(ImageProducer producer)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "AccessibleContext getAccessibleContext()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, char oldValue, char newValue)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "KeyStroke[] getRegisteredKeyStrokes()"
+        ],
+        [
+            "void scrollRectToVisible(Rectangle aRect)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "JPopupMenu getComponentPopupMenu()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "void addPropertyChangeListener(PropertyChangeListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void paintChildren(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "Rectangle getBounds(Rectangle rv)",
+            "Object getTreeLock()"
+        ],
+        [
+            "int checkImage(Image image, int width, int height, ImageObserver observer)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Container getFocusCycleRootAncestor()"
+        ],
+        [
+            "void paintBorder(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "ComponentListener[] getComponentListeners()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Container getParent()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "MouseMotionListener[] getMouseMotionListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component add(Component comp)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "boolean processKeyBinding(KeyStroke ks, KeyEvent e, int condition, boolean pressed)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "PropertyChangeListener[] getPropertyChangeListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "JRootPane getRootPane()"
+        ],
+        [
+            "void removePropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String paramString()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Font getFont()"
+        ],
+        [
+            "void setActionMap(ActionMap am)",
+            "ActionMap getActionMap()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "LayoutManager getLayout()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "Component add(Component comp)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "FontMetrics getFontMetrics(Font font)"
+        ],
+        [
+            "void setName(String name)",
+            "String getToolTipText()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, boolean oldValue, boolean newValue)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Color getForeground()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)"
+        ],
+        [
+            "void setFont(Font font)",
+            "Font getFont()"
+        ],
+        [
+            "void setInputVerifier(InputVerifier inputVerifier)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "ActionListener getActionForKeyStroke(KeyStroke aKeyStroke)"
+        ],
+        [
+            "FontMetrics getFontMetrics(Font font)",
+            "Font getFont()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "ActionMap getActionMap()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "boolean imageUpdate(Image img, int infoflags, int x, int y, int w, int h)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, long oldValue, long newValue)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "String getUIClassID()"
+        ],
+        [
+            "void setBounds(Rectangle r)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Font getFont()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "LayoutManager getLayout()"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addHierarchyListener(HierarchyListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Color getBackground()"
+        ],
+        [
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Dimension getSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Locale getDefaultLocale()"
+        ],
+        [
+            "void removePropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String getToolTipText()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, short oldValue, short newValue)",
+            "String getName()"
+        ],
+        [
+            "void processHierarchyBoundsEvent(HierarchyEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setFont(Font font)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "Insets getInsets(Insets insets)",
+            "Insets getInsets()"
+        ],
+        [
+            "void setFont(Font f)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void processComponentKeyEvent(KeyEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setLayout(LayoutManager mgr)",
+            "Object getTreeLock()"
+        ],
+        [
+            "int checkImage(Image image, ImageObserver observer)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void setInputMap(int condition, InputMap map)",
+            "InputMap getInputMap(int condition)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Color getForeground()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "InputMap getInputMap()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "String paramString()"
+        ],
+        [
+            "void paint(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setLocale(Locale l)",
+            "Locale getLocale()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, long oldValue, long newValue)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "ActionListener getActionForKeyStroke(KeyStroke aKeyStroke)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Component add(Component comp)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Color getBackground()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, double oldValue, double newValue)",
+            "String getName()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "AncestorListener[] getAncestorListeners()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "TransferHandler getTransferHandler()"
+        ],
+        [
+            "void update(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Font getFont()"
+        ],
+        [
+            "void setName(String name)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "LayoutManager getLayout()"
+        ],
+        [
+            "boolean isLightweightComponent(Component c)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Component[] getComponents()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "void setBackground(Color bg)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "boolean prepareImage(Image image, ImageObserver observer)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void processInputMethodEvent(InputMethodEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Component add(Component comp, int index)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "String getName()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "MouseWheelListener[] getMouseWheelListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Cursor getCursor()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "InputContext getInputContext()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "KeyListener[] getKeyListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, short oldValue, short newValue)",
+            "String getUIClassID()"
+        ],
+        [
+            "Component add(Component comp)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "String paramString()"
+        ],
+        [
+            "void addHierarchyBoundsListener(HierarchyBoundsListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "ColorModel getColorModel()"
+        ],
+        [
+            "boolean prepareImage(Image image, int width, int height, ImageObserver observer)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "InputMap getInputMap()"
+        ],
+        [
+            "void printBorder(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "GraphicsConfiguration getGraphicsConfiguration()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "void list(PrintStream out)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "boolean isAncestorOf(Component c)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "HierarchyBoundsListener[] getHierarchyBoundsListeners()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Container getFocusCycleRootAncestor()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "T[] getListeners(Class listenerType)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Insets getInsets(Insets insets)"
+        ],
+        [
+            "void paintAll(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Container getTopLevelAncestor()"
+        ],
+        [
+            "void setLocale(Locale l)",
+            "Locale getDefaultLocale()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Component[] getComponents()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "ContainerListener[] getContainerListeners()"
+        ],
+        [
+            "void paint(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "InputMap getInputMap(int condition)"
+        ],
+        [
+            "void removeFocusListener(FocusListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void remove(Component comp)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Component.BaselineResizeBehavior getBaselineResizeBehavior()"
+        ],
+        [
+            "void addPropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "boolean isFocusCycleRoot(Container container)",
+            "Container getParent()"
+        ],
+        [
+            "boolean isFocusCycleRoot(Container container)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "MouseWheelListener[] getMouseWheelListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Insets getInsets()"
+        ],
+        [
+            "void setBounds(Rectangle r)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, int oldValue, int newValue)",
+            "String getName()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "FontMetrics getFontMetrics(Font font)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "KeyListener[] getKeyListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, byte oldValue, byte newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "String getName()"
+        ],
+        [
+            "void update(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "int checkImage(Image image, ImageObserver observer)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "String getToolTipText()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, double oldValue, double newValue)",
+            "String getUIClassID()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "InputContext getInputContext()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "T[] getListeners(Class listenerType)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Locale getLocale()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "AccessibleContext getAccessibleContext()"
+        ],
+        [
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "String getUIClassID()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "Rectangle getBounds(Rectangle rv)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "int checkImage(Image image, int width, int height, ImageObserver observer)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Dimension getSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "VolatileImage createVolatileImage(int width, int height)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Container getFocusCycleRootAncestor()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "PropertyChangeListener[] getPropertyChangeListeners()"
+        ],
+        [
+            "Component add(Component comp, int index)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "void processMouseWheelEvent(MouseWheelEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "MouseListener[] getMouseListeners()"
+        ],
+        [
+            "void setComponentZOrder(Component comp, int index)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "boolean prepareImage(Image image, ImageObserver observer)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Insets getInsets()"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "void paintAll(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void applyComponentOrientation(ComponentOrientation o)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "JRootPane getRootPane()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "FontMetrics getFontMetrics(Font font)"
+        ],
+        [
+            "void setBorder(Border border)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Border getBorder()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Locale getLocale()"
+        ],
+        [
+            "void addKeyListener(KeyListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Point getPopupLocation(MouseEvent event)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "VolatileImage createVolatileImage(int width, int height)"
+        ],
+        [
+            "boolean imageUpdate(Image img, int infoflags, int x, int y, int w, int h)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "T[] getListeners(Class listenerType)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void printAll(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "InputVerifier getInputVerifier()"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "void setComponentZOrder(Component comp, int index)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, int oldValue, int newValue)",
+            "String getUIClassID()"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getSize()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "InputMap getInputMap(int condition)"
+        ],
+        [
+            "void scrollRectToVisible(Rectangle aRect)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "ActionMap getActionMap()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "String getUIClassID()"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Point getMousePosition()"
+        ],
+        [
+            "Component add(Component comp)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Dimension getSize()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "ComponentListener[] getComponentListeners()"
+        ],
+        [
+            "void setFont(Font font)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void setBackground(Color c)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void processFocusEvent(FocusEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setFont(Font f)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Cursor getCursor()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "FocusTraversalPolicy getFocusTraversalPolicy()"
+        ],
+        [
+            "void processComponentKeyEvent(KeyEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setLayout(LayoutManager mgr)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "JToolTip createToolTip()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "JRootPane getRootPane()"
+        ],
+        [
+            "Component add(Component comp, int index)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "InputMethodRequests getInputMethodRequests()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Border getBorder()"
+        ],
+        [
+            "void addPropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String getToolTipText()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getLocation()"
+        ],
+        [
+            "void setComponentPopupMenu(JPopupMenu popup)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, int oldValue, int newValue)",
+            "String paramString()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "ActionListener getActionForKeyStroke(KeyStroke aKeyStroke)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Set getFocusTraversalKeys(int id)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Component add(Component comp)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "VolatileImage createVolatileImage(int width, int height)"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, char oldValue, char newValue)",
+            "String getName()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Font getFont()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "FocusTraversalPolicy getFocusTraversalPolicy()"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Locale getDefaultLocale()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "LayoutManager getLayout()"
+        ],
+        [
+            "boolean isAncestorOf(Component c)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "void setComponentZOrder(Component comp, int index)",
+            "Object getTreeLock()"
+        ],
+        [
+            "boolean isFocusCycleRoot(Container container)",
+            "Container getTopLevelAncestor()"
+        ],
+        [
+            "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void registerKeyboardAction(ActionListener anAction, String aCommand, KeyStroke aKeyStroke, int aCondition)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, float oldValue, float newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "JToolTip createToolTip()"
+        ],
+        [
+            "void scrollRectToVisible(Rectangle aRect)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "Rectangle getBounds(Rectangle rv)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Cursor getCursor()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Set getFocusTraversalKeys(int id)"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, boolean oldValue, boolean newValue)",
+            "String getName()"
+        ],
+        [
+            "void printComponents(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "boolean isAncestorOf(Component c)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void addHierarchyBoundsListener(HierarchyBoundsListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "InputMap getInputMap()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "void printBorder(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "String getToolTipText(MouseEvent event)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void removeHierarchyListener(HierarchyListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Color getBackground()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "FocusTraversalPolicy getFocusTraversalPolicy()"
+        ],
+        [
+            "void computeVisibleRect(Rectangle visibleRect)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "InputMethodListener[] getInputMethodListeners()"
+        ],
+        [
+            "boolean isAncestorOf(Component c)",
+            "Component add(Component comp)"
+        ],
+        [
+            "void addPropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "ContainerListener[] getContainerListeners()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, byte oldValue, byte newValue)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, char oldValue, char newValue)",
+            "String getUIClassID()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Set getFocusTraversalKeys(int id)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "ColorModel getColorModel()"
+        ],
+        [
+            "void addFocusListener(FocusListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "String paramString()"
+        ],
+        [
+            "void paintComponents(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "Component add(Component comp, int index)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "boolean isAncestorOf(Component c)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "ActionMap getActionMap()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Insets getInsets(Insets insets)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, long oldValue, long newValue)",
+            "String getName()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "FocusListener[] getFocusListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "HierarchyListener[] getHierarchyListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "HierarchyBoundsListener[] getHierarchyBoundsListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, boolean oldValue, boolean newValue)",
+            "String getUIClassID()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "DropTarget getDropTarget()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "void setComponentZOrder(Component comp, int index)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "void processMouseWheelEvent(MouseWheelEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void printBorder(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)",
+            "String getName()"
+        ],
+        [
+            "void addPropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "void registerKeyboardAction(ActionListener anAction, KeyStroke aKeyStroke, int aCondition)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Insets getInsets(Insets insets)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, byte oldValue, byte newValue)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "FontMetrics getFontMetrics(Font font)"
+        ],
+        [
+            "void setToolTipText(String text)",
+            "String paramString()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "MouseListener[] getMouseListeners()"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "VetoableChangeListener[] getVetoableChangeListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "KeyListener[] getKeyListeners()"
+        ],
+        [
+            "void setBorder(Border border)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setDropTarget(DropTarget dt)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setLocale(Locale l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void printComponent(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "String getToolTipText()"
+        ],
+        [
+            "Component add(Component comp, int index)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "void addKeyListener(KeyListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Toolkit getToolkit()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "T[] getListeners(Class listenerType)"
+        ],
+        [
+            "void paintImmediately(Rectangle r)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "DropTarget getDropTarget()"
+        ],
+        [
+            "void setFocusTraversalPolicy(FocusTraversalPolicy policy)",
+            "FocusTraversalPolicy getFocusTraversalPolicy()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "InputMap getInputMap(int condition)"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "String getUIClassID()"
+        ],
+        [
+            "void setForeground(Color fg)",
+            "Color getBackground()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void removePropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getSize()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "ActionMap getActionMap()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "InputVerifier getInputVerifier()"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void processFocusEvent(FocusEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setToolTipText(String text)",
+            "String getToolTipText()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Insets getInsets()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, long oldValue, long newValue)",
+            "String getUIClassID()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "void setComponentPopupMenu(JPopupMenu popup)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)",
+            "String getUIClassID()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Locale getLocale()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "VolatileImage createVolatileImage(int width, int height)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component.BaselineResizeBehavior getBaselineResizeBehavior()"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "Component add(Component comp, int index)",
+            "Component add(Component comp)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "DropTarget getDropTarget()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "JPopupMenu getComponentPopupMenu()"
+        ],
+        [
+            "boolean isAncestorOf(Component c)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "void setFocusTraversalKeys(int id, Set keystrokes)",
+            "Set getFocusTraversalKeys(int id)"
+        ],
+        [
+            "void setComponentZOrder(Component comp, int index)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Color getForeground()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Container getParent()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void registerKeyboardAction(ActionListener anAction, String aCommand, KeyStroke aKeyStroke, int aCondition)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "ContainerListener[] getContainerListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, float oldValue, float newValue)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "ActionListener getActionForKeyStroke(KeyStroke aKeyStroke)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "KeyStroke[] getRegisteredKeyStrokes()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Component.BaselineResizeBehavior getBaselineResizeBehavior()"
+        ],
+        [
+            "Component add(Component comp, int index)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "Graphics getComponentGraphics(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Component add(Component comp)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "InputMethodRequests getInputMethodRequests()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Border getBorder()"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void setName(String name)",
+            "String getUIClassID()"
+        ],
+        [
+            "void applyComponentOrientation(ComponentOrientation o)",
+            "Object getTreeLock()"
+        ],
+        [
+            "String getToolTipText(MouseEvent event)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void removeHierarchyListener(HierarchyListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void processHierarchyEvent(HierarchyEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setDefaultLocale(Locale l)",
+            "Locale getLocale()"
+        ],
+        [
+            "Dimension getSize(Dimension rv)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "FocusTraversalPolicy getFocusTraversalPolicy()"
+        ],
+        [
+            "void setForeground(Color c)",
+            "Color getForeground()"
+        ],
+        [
+            "void setFont(Font f)",
+            "Font getFont()"
+        ],
+        [
+            "T[] getListeners(Class listenerType)",
+            "Object getTreeLock()"
+        ],
+        [
+            "boolean isFocusCycleRoot(Container container)",
+            "Container getFocusCycleRootAncestor()"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Locale getDefaultLocale()"
+        ],
+        [
+            "void setLayout(LayoutManager mgr)",
+            "LayoutManager getLayout()"
+        ],
+        [
+            "void registerKeyboardAction(ActionListener anAction, String aCommand, KeyStroke aKeyStroke, int aCondition)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "InputMap getInputMap()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getLocation()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, float oldValue, float newValue)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void setComponentZOrder(Component comp, int index)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "Component findComponentAt(Point p)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "ContainerListener[] getContainerListeners()"
+        ],
+        [
+            "void repaint(Rectangle r)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "JToolTip createToolTip()"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "MouseListener[] getMouseListeners()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Set getFocusTraversalKeys(int id)"
+        ],
+        [
+            "void processContainerEvent(ContainerEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Component.BaselineResizeBehavior getBaselineResizeBehavior()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Toolkit getToolkit()"
+        ],
+        [
+            "Rectangle getBounds(Rectangle rv)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void print(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addFocusListener(FocusListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "ComponentListener[] getComponentListeners()"
+        ],
+        [
+            "void printChildren(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "boolean isAncestorOf(Component c)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "String getName()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "AncestorListener[] getAncestorListeners()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "InputVerifier getInputVerifier()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "TransferHandler getTransferHandler()"
+        ],
+        [
+            "Component add(Component comp, int index)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "String getName()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "InputContext getInputContext()"
+        ],
+        [
+            "void registerKeyboardAction(ActionListener anAction, KeyStroke aKeyStroke, int aCondition)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setDefaultLocale(Locale l)",
+            "Locale getDefaultLocale()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "HierarchyBoundsListener[] getHierarchyBoundsListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "InputMethodListener[] getInputMethodListeners()"
+        ],
+        [
+            "Insets getInsets(Insets insets)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "ComponentListener[] getComponentListeners()"
+        ],
+        [
+            "boolean prepareImage(Image image, int width, int height, ImageObserver observer)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void setDropTarget(DropTarget dt)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setLocale(Locale l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setComponentZOrder(Component comp, int index)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "MouseListener[] getMouseListeners()"
+        ],
+        [
+            "void printComponent(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Container getFocusCycleRootAncestor()"
+        ],
+        [
+            "void processMouseEvent(MouseEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "VetoableChangeListener[] getVetoableChangeListeners()"
+        ],
+        [
+            "void paintImmediately(Rectangle r)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "ColorModel getColorModel()"
+        ],
+        [
+            "void setCursor(Cursor cursor)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void repaint(Rectangle r)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "void paintBorder(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "String getToolTipText()"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "Component findComponentAt(Point p)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "ActionMap getActionMap()"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "FontMetrics getFontMetrics(Font font)"
+        ],
+        [
+            "void removePropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Insets getInsets(Insets insets)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "FocusListener[] getFocusListeners()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "InputVerifier getInputVerifier()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "GraphicsConfiguration getGraphicsConfiguration()"
+        ],
+        [
+            "void setName(String name)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Point getLocation()"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "void computeVisibleRect(Rectangle visibleRect)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addContainerListener(ContainerListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "String getUIClassID()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "ComponentListener[] getComponentListeners()"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Toolkit getToolkit()"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Dimension getSize()"
+        ],
+        [
+            "void setComponentZOrder(Component comp, int index)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "int checkImage(Image image, int width, int height, ImageObserver observer)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "VetoableChangeListener[] getVetoableChangeListeners()"
+        ],
+        [
+            "Component add(String name, Component comp)",
+            "String getUIClassID()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, short oldValue, short newValue)",
+            "String paramString()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Color getBackground()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getSize()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "HierarchyListener[] getHierarchyListeners()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "DropTarget getDropTarget()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "Dimension getSize(Dimension rv)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void removeContainerListener(ContainerListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void printComponent(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void removePropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void removeInputMethodListener(InputMethodListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "JPopupMenu getComponentPopupMenu()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "PropertyChangeListener[] getPropertyChangeListeners()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void setBackground(Color c)",
+            "Color getForeground()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Color getBackground()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "String paramString()"
+        ],
+        [
+            "boolean isAncestorOf(Component c)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "void paintChildren(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Container getParent()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "MouseMotionListener[] getMouseMotionListeners()"
+        ],
+        [
+            "boolean prepareImage(Image image, int width, int height, ImageObserver observer)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "boolean imageUpdate(Image img, int infoflags, int x, int y, int w, int h)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Graphics getComponentGraphics(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, short oldValue, short newValue)",
+            "String getToolTipText()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, double oldValue, double newValue)",
+            "String paramString()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, byte oldValue, byte newValue)",
+            "String getName()"
+        ],
+        [
+            "void setForeground(Color c)",
+            "Color getBackground()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component[] getComponents()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)"
+        ],
+        [
+            "void paintComponent(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "void processHierarchyEvent(HierarchyEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "String paramString()"
+        ],
+        [
+            "void removeVetoableChangeListener(VetoableChangeListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "InputMethodRequests getInputMethodRequests()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Cursor getCursor()"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "MouseWheelListener[] getMouseWheelListeners()"
+        ],
+        [
+            "void addInputMethodListener(InputMethodListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "KeyListener[] getKeyListeners()"
+        ],
+        [
+            "T[] getListeners(Class listenerType)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "JPopupMenu getComponentPopupMenu()"
+        ],
+        [
+            "void paintImmediately(Rectangle r)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "HierarchyBoundsListener[] getHierarchyBoundsListeners()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Container getParent()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "MouseMotionListener[] getMouseMotionListeners()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Component[] getComponents()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Locale getDefaultLocale()"
+        ],
+        [
+            "void removeHierarchyBoundsListener(HierarchyBoundsListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Color getBackground()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "boolean isAncestorOf(Component c)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Component.BaselineResizeBehavior getBaselineResizeBehavior()"
+        ],
+        [
+            "void processContainerEvent(ContainerEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, double oldValue, double newValue)",
+            "String getToolTipText()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "KeyStroke[] getRegisteredKeyStrokes()"
+        ],
+        [
+            "void dispatchEvent(AWTEvent e)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "MouseWheelListener[] getMouseWheelListeners()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "void print(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "int checkImage(Image image, int width, int height, ImageObserver observer)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "VetoableChangeListener[] getVetoableChangeListeners()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "void setComponentZOrder(Component comp, int index)",
+            "Component add(Component comp)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "KeyListener[] getKeyListeners()"
+        ],
+        [
+            "void setDropTarget(DropTarget dt)",
+            "DropTarget getDropTarget()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Color getForeground()"
+        ],
+        [
+            "void registerKeyboardAction(ActionListener anAction, String aCommand, KeyStroke aKeyStroke, int aCondition)",
+            "ActionListener getActionForKeyStroke(KeyStroke aKeyStroke)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "String getToolTipText()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Point getLocation()"
+        ],
+        [
+            "void paint(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Component add(Component comp)"
+        ],
+        [
+            "void addPropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String getUIClassID()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Insets getInsets()"
+        ],
+        [
+            "Graphics getComponentGraphics(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Font getFont()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "String paramString()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, byte oldValue, byte newValue)",
+            "String getUIClassID()"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getSize()"
+        ],
+        [
+            "void setActionMap(ActionMap am)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Component findComponentAt(Point p)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void update(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Point getLocation()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "AncestorListener[] getAncestorListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "TransferHandler getTransferHandler()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Locale getLocale()"
+        ],
+        [
+            "void removeKeyListener(KeyListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "boolean imageUpdate(Image img, int infoflags, int x, int y, int w, int h)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "HierarchyBoundsListener[] getHierarchyBoundsListeners()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void setUI(ComponentUI newUI)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Component[] getComponents()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "InputMethodListener[] getInputMethodListeners()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Insets getInsets()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "void processMouseEvent(MouseEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "MouseWheelListener[] getMouseWheelListeners()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "void setCursor(Cursor cursor)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "KeyListener[] getKeyListeners()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, int oldValue, int newValue)",
+            "String getToolTipText()"
+        ],
+        [
+            "void removeMouseMotionListener(MouseMotionListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Locale getLocale()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "String getToolTipText()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "ColorModel getColorModel()"
+        ],
+        [
+            "void processKeyEvent(KeyEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "void print(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void processMouseMotionEvent(MouseEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "JRootPane getRootPane()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "InputVerifier getInputVerifier()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "JPopupMenu getComponentPopupMenu()"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "AncestorListener[] getAncestorListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Border getBorder()"
+        ],
+        [
+            "void paintAll(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "TransferHandler getTransferHandler()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Insets getInsets(Insets insets)"
+        ],
+        [
+            "void setToolTipText(String text)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Container getTopLevelAncestor()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void registerKeyboardAction(ActionListener anAction, String aCommand, KeyStroke aKeyStroke, int aCondition)",
+            "String getName()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "FocusListener[] getFocusListeners()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "ComponentListener[] getComponentListeners()"
+        ],
+        [
+            "void removeMouseListener(MouseListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addContainerListener(ContainerListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, float oldValue, float newValue)",
+            "String getName()"
+        ],
+        [
+            "void setInputVerifier(InputVerifier inputVerifier)",
+            "InputVerifier getInputVerifier()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "ActionMap getActionMap()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "String getName()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "boolean isLightweightComponent(Component c)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void setDefaultLocale(Locale l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Insets getInsets()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "JRootPane getRootPane()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "InputContext getInputContext()"
+        ],
+        [
+            "void remove(Component comp)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void setBackground(Color bg)",
+            "Color getForeground()"
+        ],
+        [
+            "void setBackground(Color c)",
+            "Color getBackground()"
+        ],
+        [
+            "Dimension getSize(Dimension rv)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void registerKeyboardAction(ActionListener anAction, KeyStroke aKeyStroke, int aCondition)",
+            "ActionListener getActionForKeyStroke(KeyStroke aKeyStroke)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Border getBorder()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Component add(Component comp, int index)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "InputMethodRequests getInputMethodRequests()"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Point getLocation()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "AccessibleContext getAccessibleContext()"
+        ],
+        [
+            "void setComponentZOrder(Component comp, int index)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "JToolTip createToolTip()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Locale getLocale()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void removeInputMethodListener(InputMethodListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Point getToolTipLocation(MouseEvent event)"
+        ],
+        [
+            "void addComponentListener(ComponentListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "JPopupMenu getComponentPopupMenu()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Container getTopLevelAncestor()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Container getFocusCycleRootAncestor()"
+        ],
+        [
+            "void paintChildren(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Locale getDefaultLocale()"
+        ],
+        [
+            "void setForeground(Color fg)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "PropertyChangeListener[] getPropertyChangeListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "GraphicsConfiguration getGraphicsConfiguration()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "int getComponentZOrder(Component comp)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, char oldValue, char newValue)",
+            "String paramString()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "JToolTip createToolTip()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "HierarchyListener[] getHierarchyListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Toolkit getToolkit()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "void setBounds(Rectangle r)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "JRootPane getRootPane()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "InputMap getInputMap(int condition)"
+        ],
+        [
+            "void registerKeyboardAction(ActionListener anAction, String aCommand, KeyStroke aKeyStroke, int aCondition)",
+            "String getUIClassID()"
+        ],
+        [
+            "void removeVetoableChangeListener(VetoableChangeListener listener)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "AccessibleContext getAccessibleContext()"
+        ],
+        [
+            "void paintComponent(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "InputMethodRequests getInputMethodRequests()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, float oldValue, float newValue)",
+            "String getUIClassID()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Border getBorder()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "void addInputMethodListener(InputMethodListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Component getComponent(int n)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "int getComponentZOrder(Component comp)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "AccessibleContext getAccessibleContext()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, boolean oldValue, boolean newValue)",
+            "String paramString()"
+        ],
+        [
+            "void printAll(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "AncestorListener[] getAncestorListeners()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Color getBackground()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "PropertyChangeListener[] getPropertyChangeListeners()"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Point getPopupLocation(MouseEvent event)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, char oldValue, char newValue)",
+            "String getToolTipText()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Locale getDefaultLocale()"
+        ],
+        [
+            "void setName(String name)",
+            "String getName()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "InputMethodListener[] getInputMethodListeners()"
+        ],
+        [
+            "Component add(Component comp)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "Component findComponentAt(Point p)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "KeyStroke[] getRegisteredKeyStrokes()"
+        ],
+        [
+            "void paintChildren(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "boolean isAncestorOf(Component c)",
+            "Component findComponentAt(Point p)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "JToolTip createToolTip()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "VolatileImage createVolatileImage(int width, int height)"
+        ],
+        [
+            "void printChildren(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void processComponentEvent(ComponentEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void computeVisibleRect(Rectangle visibleRect)",
+            "Rectangle getVisibleRect()"
+        ],
+        [
+            "void setTransferHandler(TransferHandler newHandler)",
+            "Object getTreeLock()"
+        ],
+        [
+            "ActionListener getActionForKeyStroke(KeyStroke aKeyStroke)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "ColorModel getColorModel()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "String paramString()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "ContainerListener[] getContainerListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, boolean oldValue, boolean newValue)",
+            "String getToolTipText()"
+        ],
+        [
+            "void setActionMap(ActionMap am)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Component add(Component comp)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void setBounds(Rectangle r)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "void removePropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String getName()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Font getFont()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Insets getInsets(Insets insets)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "LayoutManager getLayout()"
+        ],
+        [
+            "int getComponentZOrder(Component comp)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "HierarchyBoundsListener[] getHierarchyBoundsListeners()"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "FocusListener[] getFocusListeners()"
+        ],
+        [
+            "int checkImage(Image image, ImageObserver observer)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "AncestorListener[] getAncestorListeners()"
+        ],
+        [
+            "void addVetoableChangeListener(VetoableChangeListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Component[] getComponents()"
+        ],
+        [
+            "void setUI(ComponentUI newUI)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "MouseMotionListener[] getMouseMotionListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, long oldValue, long newValue)",
+            "String paramString()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "MouseWheelListener[] getMouseWheelListeners()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Cursor getCursor()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "InputMethodListener[] getInputMethodListeners()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Color getForeground()"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "KeyListener[] getKeyListeners()"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void add(PopupMenu popup)",
+            "Object getTreeLock()"
+        ],
+        [
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)",
+            "String paramString()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "boolean isLightweightComponent(Component c)",
+            "Component add(String name, Component comp)"
+        ],
+        [
+            "void addImpl(Component comp, Object constraints, int index)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void paintBorder(Graphics g)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)"
+        ],
+        [
+            "void removeMouseMotionListener(MouseMotionListener l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "InputMap getInputMap()"
+        ],
+        [
+            "void printComponents(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "ActionListener getActionForKeyStroke(KeyStroke aKeyStroke)"
+        ],
+        [
+            "void printBorder(Graphics g)",
+            "Graphics getComponentGraphics(Graphics g)"
+        ],
+        [
+            "void processKeyEvent(KeyEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void add(Component comp, Object constraints)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "FocusTraversalPolicy getFocusTraversalPolicy()"
+        ],
+        [
+            "void processMouseMotionEvent(MouseEvent e)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "ColorModel getColorModel()"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Component add(Component comp)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "MouseListener[] getMouseListeners()"
+        ],
+        [
+            "void remove(Component comp)",
+            "Component findComponentAt(int x, int y)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "Font getFont()"
+        ],
+        [
+            "boolean prepareImage(Image image, ImageObserver observer)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setToolTipText(String text)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void putClientProperty(Object key, Object value)",
+            "LayoutManager getLayout()"
+        ],
+        [
+            "void removePropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String getUIClassID()"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void setBackground(Color bg)",
+            "Color getBackground()"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "Point getLocation()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "Insets getInsets(Insets insets)"
+        ],
+        [
+            "boolean isLightweightComponent(Component c)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void setInputMap(int condition, InputMap map)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, long oldValue, long newValue)",
+            "String getToolTipText()"
+        ],
+        [
+            "Object getClientProperty(Object key)",
+            "FocusListener[] getFocusListeners()"
+        ],
+        [
+            "void dispatchEvent(AWTEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Point getMousePosition(boolean allowChildren)"
+        ],
+        [
+            "void add(Component comp, Object constraints, int index)",
+            "String getToolTipText(MouseEvent event)"
+        ],
+        [
+            "void fireVetoableChange(String propertyName, Object oldValue, Object newValue)",
+            "Insets getInsets()"
+        ],
+        [
+            "void removeHierarchyBoundsListener(HierarchyBoundsListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)",
+            "String getToolTipText()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "InputVerifier getInputVerifier()"
+        ],
+        [
+            "void setDefaultLocale(Locale l)",
+            "Object getClientProperty(Object key)"
+        ],
+        [
+            "void processEvent(AWTEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setName(String name)",
+            "String paramString()"
+        ]
+    ]
+}

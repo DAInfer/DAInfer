@@ -1,0 +1,925 @@
+{
+    "Intent addCategory(String category)": {
+        "return type": "Intent",
+        "method name": "addCategory",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Intent addFlags(int flags)": {
+        "return type": "Intent",
+        "method name": "addFlags",
+        "parameters": [
+            "int"
+        ]
+    },
+    "Object clone()": {
+        "return type": "Object",
+        "method name": "clone",
+        "parameters": []
+    },
+    "Intent cloneFilter()": {
+        "return type": "Intent",
+        "method name": "cloneFilter",
+        "parameters": []
+    },
+    "Intent createChooser(Intent target, CharSequence title, IntentSender sender)": {
+        "return type": "Intent",
+        "method name": "createChooser",
+        "parameters": [
+            "Intent",
+            "CharSequence",
+            "IntentSender"
+        ]
+    },
+    "Intent createChooser(Intent target, CharSequence title)": {
+        "return type": "Intent",
+        "method name": "createChooser",
+        "parameters": [
+            "Intent",
+            "CharSequence"
+        ]
+    },
+    "int describeContents()": {
+        "return type": "int",
+        "method name": "describeContents",
+        "parameters": []
+    },
+    "int fillIn(Intent other, int flags)": {
+        "return type": "int",
+        "method name": "fillIn",
+        "parameters": [
+            "Intent",
+            "int"
+        ]
+    },
+    "boolean filterEquals(Intent other)": {
+        "return type": "boolean",
+        "method name": "filterEquals",
+        "parameters": [
+            "Intent"
+        ]
+    },
+    "int filterHashCode()": {
+        "return type": "int",
+        "method name": "filterHashCode",
+        "parameters": []
+    },
+    "String getAction()": {
+        "return type": "String",
+        "method name": "getAction",
+        "parameters": []
+    },
+    "boolean[] getBooleanArrayExtra(String name)": {
+        "return type": "boolean[]",
+        "method name": "getBooleanArrayExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean getBooleanExtra(String name, boolean defaultValue)": {
+        "return type": "boolean",
+        "method name": "getBooleanExtra",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "Bundle getBundleExtra(String name)": {
+        "return type": "Bundle",
+        "method name": "getBundleExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "byte[] getByteArrayExtra(String name)": {
+        "return type": "byte[]",
+        "method name": "getByteArrayExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "byte getByteExtra(String name, byte defaultValue)": {
+        "return type": "byte",
+        "method name": "getByteExtra",
+        "parameters": [
+            "String",
+            "byte"
+        ]
+    },
+    "Set getCategories()": {
+        "return type": "Set",
+        "method name": "getCategories",
+        "parameters": []
+    },
+    "char[] getCharArrayExtra(String name)": {
+        "return type": "char[]",
+        "method name": "getCharArrayExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "char getCharExtra(String name, char defaultValue)": {
+        "return type": "char",
+        "method name": "getCharExtra",
+        "parameters": [
+            "String",
+            "char"
+        ]
+    },
+    "CharSequence[] getCharSequenceArrayExtra(String name)": {
+        "return type": "CharSequence[]",
+        "method name": "getCharSequenceArrayExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ArrayList getCharSequenceArrayListExtra(String name)": {
+        "return type": "ArrayList",
+        "method name": "getCharSequenceArrayListExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "CharSequence getCharSequenceExtra(String name)": {
+        "return type": "CharSequence",
+        "method name": "getCharSequenceExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ClipData getClipData()": {
+        "return type": "ClipData",
+        "method name": "getClipData",
+        "parameters": []
+    },
+    "ComponentName getComponent()": {
+        "return type": "ComponentName",
+        "method name": "getComponent",
+        "parameters": []
+    },
+    "Uri getData()": {
+        "return type": "Uri",
+        "method name": "getData",
+        "parameters": []
+    },
+    "String getDataString()": {
+        "return type": "String",
+        "method name": "getDataString",
+        "parameters": []
+    },
+    "double[] getDoubleArrayExtra(String name)": {
+        "return type": "double[]",
+        "method name": "getDoubleArrayExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "double getDoubleExtra(String name, double defaultValue)": {
+        "return type": "double",
+        "method name": "getDoubleExtra",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "Bundle getExtras()": {
+        "return type": "Bundle",
+        "method name": "getExtras",
+        "parameters": []
+    },
+    "int getFlags()": {
+        "return type": "int",
+        "method name": "getFlags",
+        "parameters": []
+    },
+    "float[] getFloatArrayExtra(String name)": {
+        "return type": "float[]",
+        "method name": "getFloatArrayExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "float getFloatExtra(String name, float defaultValue)": {
+        "return type": "float",
+        "method name": "getFloatExtra",
+        "parameters": [
+            "String",
+            "float"
+        ]
+    },
+    "String getIdentifier()": {
+        "return type": "String",
+        "method name": "getIdentifier",
+        "parameters": []
+    },
+    "int[] getIntArrayExtra(String name)": {
+        "return type": "int[]",
+        "method name": "getIntArrayExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int getIntExtra(String name, int defaultValue)": {
+        "return type": "int",
+        "method name": "getIntExtra",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "ArrayList getIntegerArrayListExtra(String name)": {
+        "return type": "ArrayList",
+        "method name": "getIntegerArrayListExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Intent getIntent(String uri)": {
+        "return type": "Intent",
+        "method name": "getIntent",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Intent getIntentOld(String uri)": {
+        "return type": "Intent",
+        "method name": "getIntentOld",
+        "parameters": [
+            "String"
+        ]
+    },
+    "long[] getLongArrayExtra(String name)": {
+        "return type": "long[]",
+        "method name": "getLongArrayExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "long getLongExtra(String name, long defaultValue)": {
+        "return type": "long",
+        "method name": "getLongExtra",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "String getPackage()": {
+        "return type": "String",
+        "method name": "getPackage",
+        "parameters": []
+    },
+    "Parcelable[] getParcelableArrayExtra(String name)": {
+        "return type": "Parcelable[]",
+        "method name": "getParcelableArrayExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "T[] getParcelableArrayExtra(String name, Class clazz)": {
+        "return type": "T[]",
+        "method name": "getParcelableArrayExtra",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "ArrayList getParcelableArrayListExtra(String name, Class clazz)": {
+        "return type": "ArrayList",
+        "method name": "getParcelableArrayListExtra",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "ArrayList getParcelableArrayListExtra(String name)": {
+        "return type": "ArrayList",
+        "method name": "getParcelableArrayListExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "T getParcelableExtra(String name)": {
+        "return type": "T",
+        "method name": "getParcelableExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "T getParcelableExtra(String name, Class clazz)": {
+        "return type": "T",
+        "method name": "getParcelableExtra",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "String getScheme()": {
+        "return type": "String",
+        "method name": "getScheme",
+        "parameters": []
+    },
+    "Intent getSelector()": {
+        "return type": "Intent",
+        "method name": "getSelector",
+        "parameters": []
+    },
+    "T getSerializableExtra(String name, Class clazz)": {
+        "return type": "T",
+        "method name": "getSerializableExtra",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "Serializable getSerializableExtra(String name)": {
+        "return type": "Serializable",
+        "method name": "getSerializableExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "short[] getShortArrayExtra(String name)": {
+        "return type": "short[]",
+        "method name": "getShortArrayExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "short getShortExtra(String name, short defaultValue)": {
+        "return type": "short",
+        "method name": "getShortExtra",
+        "parameters": [
+            "String",
+            "short"
+        ]
+    },
+    "Rect getSourceBounds()": {
+        "return type": "Rect",
+        "method name": "getSourceBounds",
+        "parameters": []
+    },
+    "String[] getStringArrayExtra(String name)": {
+        "return type": "String[]",
+        "method name": "getStringArrayExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ArrayList getStringArrayListExtra(String name)": {
+        "return type": "ArrayList",
+        "method name": "getStringArrayListExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getStringExtra(String name)": {
+        "return type": "String",
+        "method name": "getStringExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getType()": {
+        "return type": "String",
+        "method name": "getType",
+        "parameters": []
+    },
+    "boolean hasCategory(String category)": {
+        "return type": "boolean",
+        "method name": "hasCategory",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean hasExtra(String name)": {
+        "return type": "boolean",
+        "method name": "hasExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean hasFileDescriptors()": {
+        "return type": "boolean",
+        "method name": "hasFileDescriptors",
+        "parameters": []
+    },
+    "Intent makeMainActivity(ComponentName mainActivity)": {
+        "return type": "Intent",
+        "method name": "makeMainActivity",
+        "parameters": [
+            "ComponentName"
+        ]
+    },
+    "Intent makeMainSelectorActivity(String selectorAction, String selectorCategory)": {
+        "return type": "Intent",
+        "method name": "makeMainSelectorActivity",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "Intent makeRestartActivityTask(ComponentName mainActivity)": {
+        "return type": "Intent",
+        "method name": "makeRestartActivityTask",
+        "parameters": [
+            "ComponentName"
+        ]
+    },
+    "String normalizeMimeType(String type)": {
+        "return type": "String",
+        "method name": "normalizeMimeType",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Intent parseIntent(Resources resources, XmlPullParser parser, AttributeSet attrs)": {
+        "return type": "Intent",
+        "method name": "parseIntent",
+        "parameters": [
+            "Resources",
+            "XmlPullParser",
+            "AttributeSet"
+        ]
+    },
+    "Intent parseUri(String uri, int flags)": {
+        "return type": "Intent",
+        "method name": "parseUri",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "Intent putCharSequenceArrayListExtra(String name, ArrayList value)": {
+        "return type": "Intent",
+        "method name": "putCharSequenceArrayListExtra",
+        "parameters": [
+            "String",
+            "ArrayList"
+        ]
+    },
+    "Intent putExtra(String name, Parcelable value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "Parcelable"
+        ]
+    },
+    "Intent putExtra(String name, long[] value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "long[]"
+        ]
+    },
+    "Intent putExtra(String name, byte value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "byte"
+        ]
+    },
+    "Intent putExtra(String name, double[] value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "double[]"
+        ]
+    },
+    "Intent putExtra(String name, CharSequence value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "CharSequence"
+        ]
+    },
+    "Intent putExtra(String name, boolean[] value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "boolean[]"
+        ]
+    },
+    "Intent putExtra(String name, int value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "Intent putExtra(String name, char[] value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "char[]"
+        ]
+    },
+    "Intent putExtra(String name, byte[] value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "byte[]"
+        ]
+    },
+    "Intent putExtra(String name, Parcelable[] value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "Parcelable[]"
+        ]
+    },
+    "Intent putExtra(String name, Bundle value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "Bundle"
+        ]
+    },
+    "Intent putExtra(String name, CharSequence[] value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "CharSequence[]"
+        ]
+    },
+    "Intent putExtra(String name, float[] value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "float[]"
+        ]
+    },
+    "Intent putExtra(String name, double value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "Intent putExtra(String name, int[] value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "int[]"
+        ]
+    },
+    "Intent putExtra(String name, String[] value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "String[]"
+        ]
+    },
+    "Intent putExtra(String name, short[] value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "short[]"
+        ]
+    },
+    "Intent putExtra(String name, boolean value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "Intent putExtra(String name, String value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "Intent putExtra(String name, long value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "Intent putExtra(String name, char value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "char"
+        ]
+    },
+    "Intent putExtra(String name, Serializable value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "Serializable"
+        ]
+    },
+    "Intent putExtra(String name, float value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "float"
+        ]
+    },
+    "Intent putExtra(String name, short value)": {
+        "return type": "Intent",
+        "method name": "putExtra",
+        "parameters": [
+            "String",
+            "short"
+        ]
+    },
+    "Intent putExtras(Intent src)": {
+        "return type": "Intent",
+        "method name": "putExtras",
+        "parameters": [
+            "Intent"
+        ]
+    },
+    "Intent putExtras(Bundle extras)": {
+        "return type": "Intent",
+        "method name": "putExtras",
+        "parameters": [
+            "Bundle"
+        ]
+    },
+    "Intent putIntegerArrayListExtra(String name, ArrayList value)": {
+        "return type": "Intent",
+        "method name": "putIntegerArrayListExtra",
+        "parameters": [
+            "String",
+            "ArrayList"
+        ]
+    },
+    "Intent putParcelableArrayListExtra(String name, ArrayList value)": {
+        "return type": "Intent",
+        "method name": "putParcelableArrayListExtra",
+        "parameters": [
+            "String",
+            "ArrayList"
+        ]
+    },
+    "Intent putStringArrayListExtra(String name, ArrayList value)": {
+        "return type": "Intent",
+        "method name": "putStringArrayListExtra",
+        "parameters": [
+            "String",
+            "ArrayList"
+        ]
+    },
+    "void readFromParcel(Parcel in)": {
+        "return type": "void",
+        "method name": "readFromParcel",
+        "parameters": [
+            "Parcel"
+        ]
+    },
+    "void removeCategory(String category)": {
+        "return type": "void",
+        "method name": "removeCategory",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void removeExtra(String name)": {
+        "return type": "void",
+        "method name": "removeExtra",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void removeFlags(int flags)": {
+        "return type": "void",
+        "method name": "removeFlags",
+        "parameters": [
+            "int"
+        ]
+    },
+    "Intent replaceExtras(Intent src)": {
+        "return type": "Intent",
+        "method name": "replaceExtras",
+        "parameters": [
+            "Intent"
+        ]
+    },
+    "Intent replaceExtras(Bundle extras)": {
+        "return type": "Intent",
+        "method name": "replaceExtras",
+        "parameters": [
+            "Bundle"
+        ]
+    },
+    "ComponentName resolveActivity(PackageManager pm)": {
+        "return type": "ComponentName",
+        "method name": "resolveActivity",
+        "parameters": [
+            "PackageManager"
+        ]
+    },
+    "ActivityInfo resolveActivityInfo(PackageManager pm, int flags)": {
+        "return type": "ActivityInfo",
+        "method name": "resolveActivityInfo",
+        "parameters": [
+            "PackageManager",
+            "int"
+        ]
+    },
+    "String resolveType(Context context)": {
+        "return type": "String",
+        "method name": "resolveType",
+        "parameters": [
+            "Context"
+        ]
+    },
+    "String resolveType(ContentResolver resolver)": {
+        "return type": "String",
+        "method name": "resolveType",
+        "parameters": [
+            "ContentResolver"
+        ]
+    },
+    "String resolveTypeIfNeeded(ContentResolver resolver)": {
+        "return type": "String",
+        "method name": "resolveTypeIfNeeded",
+        "parameters": [
+            "ContentResolver"
+        ]
+    },
+    "Intent setAction(String action)": {
+        "return type": "Intent",
+        "method name": "setAction",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Intent setClass(Context packageContext, Class cls)": {
+        "return type": "Intent",
+        "method name": "setClass",
+        "parameters": [
+            "Context",
+            "Class"
+        ]
+    },
+    "Intent setClassName(String packageName, String className)": {
+        "return type": "Intent",
+        "method name": "setClassName",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "Intent setClassName(Context packageContext, String className)": {
+        "return type": "Intent",
+        "method name": "setClassName",
+        "parameters": [
+            "Context",
+            "String"
+        ]
+    },
+    "void setClipData(ClipData clip)": {
+        "return type": "void",
+        "method name": "setClipData",
+        "parameters": [
+            "ClipData"
+        ]
+    },
+    "Intent setComponent(ComponentName component)": {
+        "return type": "Intent",
+        "method name": "setComponent",
+        "parameters": [
+            "ComponentName"
+        ]
+    },
+    "Intent setData(Uri data)": {
+        "return type": "Intent",
+        "method name": "setData",
+        "parameters": [
+            "Uri"
+        ]
+    },
+    "Intent setDataAndNormalize(Uri data)": {
+        "return type": "Intent",
+        "method name": "setDataAndNormalize",
+        "parameters": [
+            "Uri"
+        ]
+    },
+    "Intent setDataAndType(Uri data, String type)": {
+        "return type": "Intent",
+        "method name": "setDataAndType",
+        "parameters": [
+            "Uri",
+            "String"
+        ]
+    },
+    "Intent setDataAndTypeAndNormalize(Uri data, String type)": {
+        "return type": "Intent",
+        "method name": "setDataAndTypeAndNormalize",
+        "parameters": [
+            "Uri",
+            "String"
+        ]
+    },
+    "void setExtrasClassLoader(ClassLoader loader)": {
+        "return type": "void",
+        "method name": "setExtrasClassLoader",
+        "parameters": [
+            "ClassLoader"
+        ]
+    },
+    "Intent setFlags(int flags)": {
+        "return type": "Intent",
+        "method name": "setFlags",
+        "parameters": [
+            "int"
+        ]
+    },
+    "Intent setIdentifier(String identifier)": {
+        "return type": "Intent",
+        "method name": "setIdentifier",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Intent setPackage(String packageName)": {
+        "return type": "Intent",
+        "method name": "setPackage",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setSelector(Intent selector)": {
+        "return type": "void",
+        "method name": "setSelector",
+        "parameters": [
+            "Intent"
+        ]
+    },
+    "void setSourceBounds(Rect r)": {
+        "return type": "void",
+        "method name": "setSourceBounds",
+        "parameters": [
+            "Rect"
+        ]
+    },
+    "Intent setType(String type)": {
+        "return type": "Intent",
+        "method name": "setType",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Intent setTypeAndNormalize(String type)": {
+        "return type": "Intent",
+        "method name": "setTypeAndNormalize",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "String toURI()": {
+        "return type": "String",
+        "method name": "toURI",
+        "parameters": []
+    },
+    "String toUri(int flags)": {
+        "return type": "String",
+        "method name": "toUri",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void writeToParcel(Parcel out, int flags)": {
+        "return type": "void",
+        "method name": "writeToParcel",
+        "parameters": [
+            "Parcel",
+            "int"
+        ]
+    }
+}

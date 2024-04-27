@@ -1,0 +1,1816 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "boolean hasNonNull(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNodeType getNodeType()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "com.fasterxml.jackson.core.JsonParser traverse(com.fasterxml.jackson.core.ObjectCodec codec)"
+        ],
+        [
+            "JsonNode at(String jsonPtrExpr)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ValueNode pojoNode(Object pojo)"
+        ],
+        [
+            "ObjectNode putRawValue(String fieldName, RawValue raw)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode putObject(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode withArray(String propertyName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode at(String jsonPtrExpr)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Long v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, short v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(float v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "T removeAll()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode put(String fieldName, double v)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "TextNode textNode(String text)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "BooleanNode booleanNode(boolean v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "Iterator iterator()"
+        ],
+        [
+            "ObjectNode put(String fieldName, long v)",
+            "String asText()"
+        ],
+        [
+            "TextNode textNode(String text)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode put(String fieldName, short v)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode findParent(String fieldName)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, Long v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, long v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ValueNode numberNode(Integer v)"
+        ],
+        [
+            "ArrayNode putArray(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, int v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, Double v)"
+        ],
+        [
+            "JsonNode findValue(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode set(String fieldName, JsonNode value)"
+        ],
+        [
+            "List findParents(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode _at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "boolean hasNonNull(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode withArray(String propertyName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode findParent(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "Iterator fieldNames()"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode remove(String fieldName)"
+        ],
+        [
+            "JsonNode without(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode findParent(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "NumericNode numberNode(long v)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, long v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "T deepCopy()"
+        ],
+        [
+            "List findValuesAsText(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, int v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, Short v)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, Double v)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode replace(String fieldName, JsonNode value)"
+        ],
+        [
+            "JsonNode findPath(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode put(String fieldName, Double v)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode retain(Collection fieldNames)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "Iterator fields()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "BigDecimal decimalValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, Boolean v)"
+        ],
+        [
+            "ObjectNode putObject(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Byte v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findValuesAsText(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(BigInteger v)"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, Integer v)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode putObject(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ArrayNode withArray(String propertyName)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Integer v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "String asText()"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, Boolean v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, BigDecimal v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Long v)"
+        ],
+        [
+            "ObjectNode put(String fieldName, BigDecimal v)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, short v)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode deepCopy()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, byte[] v)"
+        ],
+        [
+            "List findValues(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "JsonNode without(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "List findParents(String fieldName, List foundSoFar)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "JsonNode remove(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Float v)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode put(String fieldName, boolean v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, BigDecimal v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, Long v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "NullNode nullNode()"
+        ],
+        [
+            "JsonNode findParent(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode get(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, float v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ArrayNode putArray(String fieldName)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "byte[] binaryValue()"
+        ],
+        [
+            "JsonNode withArray(String propertyName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, boolean v)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, float v)"
+        ],
+        [
+            "ObjectNode put(String fieldName, int v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, Float v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode withArray(String propertyName)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode findParent(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ArrayNode arrayNode()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode with(String propertyName)"
+        ],
+        [
+            "String asText(String defaultValue)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "Iterator elements()"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, boolean v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, String v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode putObject(String fieldName)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, Float v)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode findParent(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "Number numberValue()"
+        ],
+        [
+            "ObjectNode with(String propertyName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode replace(String fieldName, JsonNode value)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode remove(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "BinaryNode binaryNode(byte[] data)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "com.fasterxml.jackson.core.JsonParser traverse(com.fasterxml.jackson.core.ObjectCodec codec)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode objectNode()"
+        ],
+        [
+            "JsonNode findParent(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode get(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, byte[] v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(double v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Short v)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode findParent(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode set(String fieldName, JsonNode value)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode remove(Collection fieldNames)"
+        ],
+        [
+            "ArrayNode putArray(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode at(String jsonPtrExpr)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "String asText()"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "ObjectNode findParent(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode objectNode()"
+        ],
+        [
+            "JsonNode at(String jsonPtrExpr)",
+            "String asText()"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode _put(String fieldName, JsonNode value)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode remove(Collection fieldNames)"
+        ],
+        [
+            "ObjectNode put(String fieldName, int v)",
+            "String textValue()"
+        ],
+        [
+            "List findValuesAsText(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode setAll(ObjectNode other)"
+        ],
+        [
+            "ObjectNode putRawValue(String fieldName, RawValue raw)",
+            "String asText()"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode with(String propertyName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Double v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode put(String fieldName, byte[] v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode findPath(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findValues(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Double v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode without(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode removeAll()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "com.fasterxml.jackson.core.JsonParser.NumberType numberType()"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode _put(String fieldName, JsonNode value)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode retain(String... fieldNames)"
+        ],
+        [
+            "ObjectNode with(String propertyName)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode put(String fieldName, short v)",
+            "String asText()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName, List foundSoFar)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Float v)"
+        ],
+        [
+            "BinaryNode binaryNode(byte[] data)",
+            "byte[] binaryValue()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, Short v)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, long v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode with(String propertyName)"
+        ],
+        [
+            "JsonNode findValue(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode removeAll()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, Double v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode setAll(ObjectNode other)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode retain(String... fieldNames)"
+        ],
+        [
+            "ObjectNode findParent(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode with(String propertyName)"
+        ],
+        [
+            "ObjectNode putNull(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode _at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "NumericNode numberNode(BigDecimal v)"
+        ],
+        [
+            "ArrayNode withArray(String propertyName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode remove(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "BinaryNode binaryNode(byte[] data, int offset, int length)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ValueNode rawValueNode(RawValue value)"
+        ],
+        [
+            "ObjectNode putObject(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode put(String fieldName, byte[] v)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, Boolean v)"
+        ],
+        [
+            "ObjectNode put(String fieldName, float v)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode setAll(Map properties)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "NumericNode numberNode(short v)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Long v)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode putPOJO(String fieldName, Object pojo)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "com.fasterxml.jackson.core.JsonToken asToken()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode without(Collection fieldNames)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode putRawValue(String fieldName, RawValue raw)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, String v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode withArray(String propertyName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NullNode nullNode()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode at(String jsonPtrExpr)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode putPOJO(String fieldName, Object pojo)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, BigDecimal v)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Short v)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode without(Collection fieldNames)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "NumericNode numberNode(float v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "T removeAll()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, double v)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode putRawValue(String fieldName, RawValue raw)"
+        ],
+        [
+            "List findParents(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode without(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "Iterator iterator()"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode setAll(ObjectNode other)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode replace(String fieldName, JsonNode value)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode with(String propertyName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, long v)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findParents(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findValues(String fieldName)"
+        ],
+        [
+            "ObjectNode put(String fieldName, String v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, double v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, int v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode retain(Collection fieldNames)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, Double v)"
+        ],
+        [
+            "ArrayNode withArray(String propertyName)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode without(String fieldName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "Iterator fieldNames()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findValuesAsText(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, Integer v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "com.fasterxml.jackson.core.JsonParser traverse()"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode retain(Collection fieldNames)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, boolean v)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Integer v)",
+            "String asText()"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, Boolean v)"
+        ],
+        [
+            "String asText(String defaultValue)",
+            "String asText()"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, Integer v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode deepCopy()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ValueNode numberNode(Byte v)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode without(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "BigInteger bigIntegerValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "List findValuesAsText(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ArrayNode withArray(String propertyName)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode _at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "List findValues(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode remove(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode remove(String fieldName)"
+        ],
+        [
+            "ObjectNode put(String fieldName, boolean v)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode put(String fieldName, Float v)",
+            "String textValue()"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode deepCopy()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(int v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, BigDecimal v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(byte v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ValueNode numberNode(Long v)"
+        ],
+        [
+            "boolean has(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode findParent(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode put(String fieldName, String v)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode get(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode putNull(String fieldName)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode setAll(Map properties)"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName, List foundSoFar)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode objectNode()"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNodeType getNodeType()"
+        ],
+        [
+            "JsonNode with(String propertyName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode remove(Collection fieldNames)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "BinaryNode binaryNode(byte[] data, int offset, int length)",
+            "byte[] binaryValue()"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode putNull(String fieldName)"
+        ],
+        [
+            "JsonNode withArray(String propertyName)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode put(String fieldName, int v)",
+            "String asText()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode _put(String fieldName, JsonNode value)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, float v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "String asText()"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName)"
+        ],
+        [
+            "JsonNode path(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode setAll(Map properties)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "BooleanNode booleanNode(boolean v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode findParent(String fieldName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "byte[] binaryValue()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode removeAll()"
+        ],
+        [
+            "ObjectNode put(String fieldName, float v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, boolean v)"
+        ],
+        [
+            "ObjectNode with(String propertyName)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode numberNode(Integer v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, Float v)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "String asText()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode retain(String... fieldNames)"
+        ],
+        [
+            "ObjectNode put(String fieldName, BigDecimal v)",
+            "BigDecimal decimalValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode put(String fieldName, double v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode at(String jsonPtrExpr)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode findParent(String fieldName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ArrayNode arrayNode()"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode findParent(String fieldName)"
+        ],
+        [
+            "ObjectNode put(String fieldName, long v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(long v)"
+        ],
+        [
+            "TextNode textNode(String text)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "T deepCopy()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "Number numberValue()"
+        ],
+        [
+            "ArrayNode putArray(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode put(String fieldName, Short v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode with(String propertyName)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode put(String fieldName, Boolean v)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, int v)"
+        ],
+        [
+            "List findParents(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "BinaryNode binaryNode(byte[] data)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "Iterator fields()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "BigDecimal decimalValue()"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode without(String fieldName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode objectNode()"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, Short v)"
+        ],
+        [
+            "List findValuesAsText(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "NumericNode numberNode(double v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ValueNode numberNode(Short v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode set(String fieldName, JsonNode value)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode remove(Collection fieldNames)"
+        ],
+        [
+            "ObjectNode put(String fieldName, byte[] v)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode put(String fieldName, float v)",
+            "String asText()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName)"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Double v)",
+            "String asText()"
+        ],
+        [
+            "JsonNode findPath(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode putPOJO(String fieldName, Object pojo)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "ObjectNode put(String fieldName, byte[] v)",
+            "byte[] binaryValue()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode without(Collection fieldNames)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode _put(String fieldName, JsonNode value)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode putRawValue(String fieldName, RawValue raw)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, short v)"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ValueNode numberNode(Double v)"
+        ],
+        [
+            "ObjectNode put(String fieldName, double v)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode put(String fieldName, Short v)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "List findValues(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "List findParents(String fieldName, List foundSoFar)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode findParent(String fieldName)"
+        ],
+        [
+            "ObjectNode put(String fieldName, long v)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode removeAll()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, Long v)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "TextNode textNode(String text)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "com.fasterxml.jackson.core.JsonParser.NumberType numberType()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, double v)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, short v)"
+        ],
+        [
+            "ObjectNode put(String fieldName, BigDecimal v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode retain(String... fieldNames)"
+        ],
+        [
+            "NumericNode numberNode(BigDecimal v)",
+            "BigDecimal decimalValue()"
+        ],
+        [
+            "ObjectNode putNull(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ValueNode numberNode(Float v)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "com.fasterxml.jackson.core.JsonParser traverse()"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode setAll(Map properties)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ArrayNode putArray(String fieldName)"
+        ],
+        [
+            "List findValues(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "boolean hasNonNull(String fieldName)",
+            "String textValue()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "TextNode textNode(String text)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, Long v)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Float v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ArrayNode withArray(String propertyName)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode setAll(ObjectNode other)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode with(String propertyName)"
+        ],
+        [
+            "boolean has(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Long v)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode at(String jsonPtrExpr)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, float v)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "NumericNode numberNode(BigInteger v)",
+            "BigInteger bigIntegerValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "BinaryNode binaryNode(byte[] data, int offset, int length)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, String v)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode putObject(String fieldName)"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, Float v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "com.fasterxml.jackson.core.JsonToken asToken()"
+        ],
+        [
+            "JsonNode path(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode without(Collection fieldNames)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode putRawValue(String fieldName, RawValue raw)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, String v)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode putObject(String fieldName)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "ObjectNode put(String fieldName, BigDecimal v)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode put(String fieldName, byte[] v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "NumericNode numberNode(BigInteger v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode withArray(String propertyName)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode set(String fieldName, JsonNode value)"
+        ],
+        [
+            "boolean has(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "ObjectNode put(String fieldName, String v)",
+            "String asText()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode putNull(String fieldName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, double v)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode put(String fieldName, byte[] v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode replace(String fieldName, JsonNode value)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "String textValue()"
+        ],
+        [
+            "ObjectNode put(String fieldName, Boolean v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "List findParents(String fieldName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "List findValues(String fieldName)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode retain(Collection fieldNames)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode without(String fieldName)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Integer v)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode _at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "JsonNode path(String fieldName)",
+            "String asText()"
+        ],
+        [
+            "JsonNode at(String jsonPtrExpr)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode remove(String fieldName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "List findValuesAsText(String fieldName)"
+        ],
+        [
+            "ObjectNode putRawValue(String fieldName, RawValue raw)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode put(String fieldName, Integer v)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName)"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName)"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ObjectNode with(String propertyName)"
+        ],
+        [
+            "JsonNode set(String fieldName, JsonNode value)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "ObjectNode put(String fieldName, boolean v)",
+            "String textValue()"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode setAll(ObjectNode other)"
+        ],
+        [
+            "JsonNode replace(String fieldName, JsonNode value)",
+            "JsonNode with(String propertyName)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName)"
+        ],
+        [
+            "ObjectNode _put(String fieldName, JsonNode value)",
+            "JsonNode at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode deepCopy()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "BigInteger bigIntegerValue()"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "ObjectNode put(String fieldName, short v)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "boolean _childrenEqual(ObjectNode other)",
+            "ObjectNode with(String propertyName)"
+        ],
+        [
+            "JsonNode with(String propertyName)",
+            "String asText()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode _at(com.fasterxml.jackson.core.JsonPointer ptr)"
+        ],
+        [
+            "ObjectNode put(String fieldName, Boolean v)",
+            "String asText()"
+        ],
+        [
+            "JsonNode setAll(ObjectNode other)",
+            "ObjectNode put(String fieldName, Short v)"
+        ],
+        [
+            "JsonNode findValue(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(BigDecimal v)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode remove(String fieldName)"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName, List foundSoFar)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "Iterator elements()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "ValueNode rawValueNode(RawValue value)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "NumericNode numberNode(int v)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "NumericNode numberNode(byte v)"
+        ],
+        [
+            "JsonNode withArray(String propertyName)",
+            "String textValue()"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "JsonNode setAll(Map properties)"
+        ],
+        [
+            "ValueNode pojoNode(Object pojo)",
+            "NumericNode numberNode(short v)"
+        ],
+        [
+            "ObjectNode putNull(String fieldName)",
+            "String asText(String defaultValue)"
+        ],
+        [
+            "ObjectNode putPOJO(String fieldName, Object pojo)",
+            "ObjectNode putNull(String fieldName)"
+        ]
+    ]
+}

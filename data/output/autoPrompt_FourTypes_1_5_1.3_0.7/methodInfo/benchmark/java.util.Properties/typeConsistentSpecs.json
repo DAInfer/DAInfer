@@ -1,0 +1,1912 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void loadFromXML(InputStream in)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void loadFromXML(InputStream in)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "String getProperty(String key)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Enumeration elements()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Enumeration elements()"
+        ],
+        [
+            "void load(InputStream inStream)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void load(InputStream inStream)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Enumeration elements()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V remove(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void load(Reader reader)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void list(PrintStream out)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void load(Reader reader)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void loadFromXML(InputStream in)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "String getProperty(String key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Enumeration elements()"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V get(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "void load(InputStream inStream)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void loadFromXML(InputStream in)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Collection values()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "void list(PrintStream out)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void load(InputStream inStream)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Enumeration elements()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Enumeration elements()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Enumeration keys()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Set entrySet()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Set keySet()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Enumeration keys()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "String getProperty(String key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "String getProperty(String key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "V remove(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "void loadFromXML(InputStream in)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void putAll(Map t)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Set entrySet()"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void putAll(Map t)",
+            "V remove(Object key)"
+        ],
+        [
+            "void load(InputStream inStream)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Enumeration elements()"
+        ],
+        [
+            "V get(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "String getProperty(String key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void putAll(Map t)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void list(PrintStream out)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "void list(PrintStream out)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "String getProperty(String key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void putAll(Map t)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "void putAll(Map t)",
+            "V get(Object key)"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V remove(Object key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Set keySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void load(Reader reader)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Collection values()"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V get(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "V remove(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "String getProperty(String key)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V get(Object key)"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "String getProperty(String key)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "V put(K key, V value)",
+            "Set entrySet()"
+        ],
+        [
+            "void list(PrintStream out)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Enumeration keys()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "String getProperty(String key)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Set keySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Enumeration keys()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Enumeration keys()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Enumeration elements()"
+        ],
+        [
+            "String getProperty(String key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void list(PrintStream out)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Enumeration keys()"
+        ],
+        [
+            "V get(Object key)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "V get(Object key)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Set keySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Enumeration keys()"
+        ],
+        [
+            "V remove(Object key)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "V remove(Object key)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "String getProperty(String key)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V get(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "String getProperty(String key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Set keySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Enumeration keys()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Enumeration elements()"
+        ],
+        [
+            "void loadFromXML(InputStream in)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Enumeration elements()"
+        ],
+        [
+            "void putAll(Map m)",
+            "V get(Object key)"
+        ],
+        [
+            "void list(PrintStream out)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void loadFromXML(InputStream in)",
+            "V remove(Object key)"
+        ],
+        [
+            "void putAll(Map m)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "String getProperty(String key)"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "String getProperty(String key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void load(InputStream inStream)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "String getProperty(String key)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Collection values()"
+        ],
+        [
+            "void load(InputStream inStream)",
+            "V remove(Object key)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Collection values()"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "V get(Object key)"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Collection values()"
+        ],
+        [
+            "void load(Reader reader)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void load(Reader reader)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void loadFromXML(InputStream in)",
+            "V get(Object key)"
+        ],
+        [
+            "void loadFromXML(InputStream in)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "String getProperty(String key)"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "String getProperty(String key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "String getProperty(String key)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Collection values()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void load(InputStream inStream)",
+            "V get(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "void load(InputStream inStream)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Enumeration keys()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Enumeration elements()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "V remove(Object key)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void putAll(Map t)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void load(Reader reader)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "String getProperty(String key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Collection values()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void load(Reader reader)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "String getProperty(String key)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "String getProperty(String key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "String getProperty(String key)",
+            "V remove(Object key)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Set keySet()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "String getProperty(String key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "String getProperty(String key)",
+            "V get(Object key)"
+        ],
+        [
+            "String getProperty(String key)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "Enumeration elements()"
+        ],
+        [
+            "void load(Reader reader)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "V get(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Set entrySet()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Collection values()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "V get(Object key)",
+            "Enumeration keys()"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void load(Reader reader)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "void list(PrintStream out)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void list(PrintStream out)",
+            "V remove(Object key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "String getProperty(String key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "void putAll(Map t)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void putAll(Map t)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "void loadFromXML(InputStream in)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "void putAll(Map m)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Set keySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Enumeration keys()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Enumeration keys()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "void list(PrintStream out)",
+            "V get(Object key)"
+        ],
+        [
+            "void load(InputStream inStream)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void list(PrintStream out)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "Enumeration elements()"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Object setProperty(String key, String value)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "void putAll(Map t)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V get(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "Enumeration keys()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Enumeration elements()"
+        ],
+        [
+            "void loadFromXML(InputStream in)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void putAll(Map t)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void putAll(Map t)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V get(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "V remove(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "Collection values()"
+        ],
+        [
+            "void load(InputStream inStream)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "String getProperty(String key)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Set keySet()"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Enumeration keys()"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "V remove(Object key)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "String getProperty(String key)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void store(Writer writer, String comments)",
+            "V get(Object key)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void store(OutputStream out, String comments)",
+            "V get(Object key)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "String getProperty(String key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Collection values()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Enumeration propertyNames()"
+        ],
+        [
+            "void putAll(Map m)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V remove(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "void storeToXML(OutputStream os, String comment, String encoding)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "String getProperty(String key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "V get(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "V remove(Object key)",
+            "Collection values()"
+        ],
+        [
+            "V put(K key, V value)",
+            "Enumeration elements()"
+        ],
+        [
+            "Object setProperty(String key, String value)",
+            "V get(Object key)"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "String getProperty(String key, String defaultValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "String getProperty(String key)"
+        ],
+        [
+            "V get(Object key)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "String getProperty(String key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Enumeration keys()"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "String getProperty(String key)",
+            "String getProperty(String key, String defaultValue)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Set stringPropertyNames()"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void load(Reader reader)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void load(Reader reader)",
+            "V remove(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ]
+    ]
+}

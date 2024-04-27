@@ -1,0 +1,752 @@
+{
+    "Drawable getActivityIcon(Intent intent)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Set getMimeGroup(String mimeGroup)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean removeWhitelistedRestrictedPermission(String packageName, String permName, int whitelistFlags)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "void setApplicationEnabledSetting(String packageName, int newState, int flags)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "Drawable getActivityLogo(ComponentName activityName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "CharSequence getUserBadgedLabel(CharSequence label, UserHandle user)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "String[] canonicalToCurrentPackageNames(String[] packageNames)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryIntentActivityOptions(ComponentName caller, Intent[] specifics, Intent intent, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "List getInstalledApplications(int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "PackageManager.Property getProperty(String propertyName, String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "IntentSender getLaunchIntentSenderForPackage(String packageName)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryContentProviders(String processName, int uid, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getDrawable(String packageName, int resid, ApplicationInfo appInfo)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Resources getResourcesForApplication(ApplicationInfo app)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void setMimeGroup(String mimeGroup, Set mimeTypes)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "List getSharedLibraries(PackageManager.PackageInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Intent getLaunchIntentForPackage(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryInstrumentation(String targetPackage, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void relinquishUpdateOwnership(String targetPackage)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean addPermission(PermissionInfo info)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "String[] currentToCanonicalPackageNames(String[] packageNames)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Set getWhitelistedRestrictedPermissions(String packageName, int whitelistFlag)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "CharSequence getText(String packageName, int resid, ApplicationInfo appInfo)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "int getApplicationEnabledSetting(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean[] canPackageQuery(String sourcePackageName, String[] targetPackageNames)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "PermissionInfo getPermissionInfo(String permName, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean isPermissionRevokedByPolicy(String permName, String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List getSharedLibraries(int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "int getPreferredActivities(List outFilters, List outActivities, String packageName)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean hasSystemFeature(String featureName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "byte[] getInstantAppCookie()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Resources getResourcesForApplication(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "int getPackageUid(String packageName, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void getPlatformPermissionsForGroup(String permissionGroupName, Executor executor, Consumer callback)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List getInstalledPackages(PackageManager.PackageInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void clearPackagePreferredActivities(String packageName)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "boolean canPackageQuery(String sourcePackageName, String targetPackageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "int[] getPackageGids(String packageName, PackageManager.PackageInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean getSyntheticAppDetailsActivityEnabled(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List getInstalledPackages(int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void removePermission(String permName)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "ApplicationInfo getApplicationInfo(String packageName, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List getPackagesHoldingPermissions(String[] permissions, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getApplicationIcon(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryApplicationProperty(String propertyName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "PackageInfo getPackageArchiveInfo(String archiveFilePath, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getApplicationIcon(ApplicationInfo info)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getActivityIcon(ComponentName activityName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "ResolveInfo resolveActivity(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryIntentServices(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryIntentContentProviders(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean hasSigningCertificate(String packageName, byte[] certificate, int type)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getDefaultActivityIcon()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getActivityLogo(Intent intent)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "String[] getSystemSharedLibraryNames()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void setInstallerPackageName(String targetPackage, String installerPackageName)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "boolean addWhitelistedRestrictedPermission(String packageName, String permName, int whitelistFlags)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "Intent getLeanbackLaunchIntentForPackage(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "PackageInfo getPackageInfo(String packageName, PackageManager.PackageInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryPermissionsByGroup(String permissionGroup, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean setAutoRevokeWhitelisted(String packageName, boolean whitelisted)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "List queryIntentServices(Intent intent, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getApplicationLogo(ApplicationInfo info)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List getPreferredPackages(int flags)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "XmlResourceParser getXml(String packageName, int resid, ApplicationInfo appInfo)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void removePackageFromPreferred(String packageName)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "PackageInfo getPackageArchiveInfo(String archiveFilePath, PackageManager.PackageInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getActivityBanner(ComponentName activityName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "int getTargetSdkVersion(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getApplicationLogo(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean isInstantApp(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryReceiverProperty(String propertyName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "int checkPermission(String permName, String packageName)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean hasSystemFeature(String featureName, int version)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "String getInstallerPackageName(String packageName)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getApplicationBanner(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void updateInstantAppCookie(byte[] cookie)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "List getInstalledModules(int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "ResolveInfo resolveService(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "int[] getPackageGids(String packageName, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void setApplicationCategoryHint(String packageName, int categoryHint)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "PackageInfo getPackageInfo(String packageName, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryActivityProperty(String propertyName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Resources getResourcesForApplication(ApplicationInfo app, Configuration configuration)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean hasSigningCertificate(int uid, byte[] certificate, int type)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "String getNameForUid(int uid)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void addPackageToPreferred(String packageName)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getActivityBanner(Intent intent)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean isAutoRevokeWhitelisted(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "int getPackageUid(String packageName, PackageManager.PackageInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List getPackagesHoldingPermissions(String[] permissions, PackageManager.PackageInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryBroadcastReceivers(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean addPermissionAsync(PermissionInfo info)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "ResolveInfo resolveActivity(Intent intent, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "String[] getPackagesForUid(int uid)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryProviderProperty(String propertyName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "PermissionGroupInfo getPermissionGroupInfo(String groupName, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean isDefaultApplicationIcon(Drawable drawable)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List getAllPermissionGroups(int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "int[] getPackageGids(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "ProviderInfo resolveContentProvider(String authority, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void setComponentEnabledSettings(List settings)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "List queryIntentActivities(Intent intent, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryContentProviders(String processName, int uid, PackageManager.ComponentInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryIntentActivities(Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryIntentContentProviders(Intent intent, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "ProviderInfo resolveContentProvider(String authority, PackageManager.ComponentInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "CharSequence getBackgroundPermissionOptionLabel()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "InstallSourceInfo getInstallSourceInfo(String packageName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "CharSequence getApplicationLabel(ApplicationInfo info)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List getInstalledApplications(PackageManager.ApplicationInfoFlags flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void getGroupOfPlatformPermission(String permissionName, Executor executor, Consumer callback)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "PackageManager.Property getProperty(String propertyName, ComponentName component)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "ResolveInfo resolveService(Intent intent, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "int checkSignatures(String packageName1, String packageName2)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "boolean isPackageSuspended(String packageName)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "List queryServiceProperty(String propertyName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryBroadcastReceivers(Intent intent, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Drawable getApplicationBanner(ApplicationInfo info)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "ModuleInfo getModuleInfo(String packageName, int flags)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    }
+}

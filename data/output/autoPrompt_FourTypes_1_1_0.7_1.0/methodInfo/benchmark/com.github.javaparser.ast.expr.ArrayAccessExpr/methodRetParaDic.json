@@ -1,0 +1,84 @@
+{
+    "R accept(GenericVisitor v, A arg)": {
+        "return type": "R",
+        "method name": "accept",
+        "parameters": [
+            "GenericVisitor",
+            "A"
+        ]
+    },
+    "void accept(VoidVisitor v, A arg)": {
+        "return type": "void",
+        "method name": "accept",
+        "parameters": [
+            "VoidVisitor",
+            "A"
+        ]
+    },
+    "ArrayAccessExpr asArrayAccessExpr()": {
+        "return type": "ArrayAccessExpr",
+        "method name": "asArrayAccessExpr",
+        "parameters": []
+    },
+    "ArrayAccessExpr clone()": {
+        "return type": "ArrayAccessExpr",
+        "method name": "clone",
+        "parameters": []
+    },
+    "Expression getIndex()": {
+        "return type": "Expression",
+        "method name": "getIndex",
+        "parameters": []
+    },
+    "ArrayAccessExprMetaModel getMetaModel()": {
+        "return type": "ArrayAccessExprMetaModel",
+        "method name": "getMetaModel",
+        "parameters": []
+    },
+    "Expression getName()": {
+        "return type": "Expression",
+        "method name": "getName",
+        "parameters": []
+    },
+    "void ifArrayAccessExpr(Consumer action)": {
+        "return type": "void",
+        "method name": "ifArrayAccessExpr",
+        "parameters": [
+            "Consumer"
+        ]
+    },
+    "boolean isArrayAccessExpr()": {
+        "return type": "boolean",
+        "method name": "isArrayAccessExpr",
+        "parameters": []
+    },
+    "boolean remove(Node node)": {
+        "return type": "boolean",
+        "method name": "remove",
+        "parameters": [
+            "Node"
+        ]
+    },
+    "boolean replace(Node node, Node replacementNode)": {
+        "return type": "boolean",
+        "method name": "replace",
+        "parameters": [
+            "Node",
+            "Node"
+        ]
+    },
+    "ArrayAccessExpr setIndex(Expression index)": {
+        "return type": "ArrayAccessExpr",
+        "method name": "setIndex",
+        "parameters": [
+            "Expression"
+        ]
+    },
+    "ArrayAccessExpr setName(Expression name)": {
+        "return type": "ArrayAccessExpr",
+        "method name": "setName",
+        "parameters": [
+            "Expression"
+        ]
+    }
+}

@@ -1,0 +1,5604 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "ConfigurationSection getDefaultSection()"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Location getLocation(String path, Location def)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "ConfigurationSection getParent()"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "ConfigurationSection getDefaultSection()"
+        ],
+        [
+            "boolean isSet(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "ConfigurationSection createSection(String path)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<?> getList(String path, List<?> def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "String buildHeader()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<Character> getCharacterList(String path)"
+        ],
+        [
+            "String getString(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void load(Reader reader)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "ConfigurationSection createSection(String path)"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean contains(String path)",
+            "String getName()"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void load(String file)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "String getString(String path)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefaults(Map<String,Object> defaults)",
+            "Map<String,Object> getValues(boolean deep)"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean contains(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "long getLong(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<Boolean> getBooleanList(String path)"
+        ],
+        [
+            "String getString(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "void addDefaults(Map<String,Object> defaults)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "OfflinePlayer getOfflinePlayer(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Configuration getDefaults()"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isString(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void load(Reader reader)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isInt(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<Boolean> getBooleanList(String path)"
+        ],
+        [
+            "void load(String file)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void save(File file)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isColor(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<Byte> getByteList(String path)"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefaults(Map<String,Object> defaults)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "protected boolean isPrimitiveWrapper(Object input)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean contains(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "String getName()"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "void load(File file)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<Double> getDoubleList(String path)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<Integer> getIntegerList(String path)"
+        ],
+        [
+            "boolean contains(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "Object get(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "ConfigurationSection createSection(String path, Map<?,?> map)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Object get(String path)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<?> getList(String path)"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Location getLocation(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "FileConfigurationOptions options()"
+        ],
+        [
+            "String getString(String path, String def)",
+            "String getString(String path)"
+        ],
+        [
+            "String getString(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Configuration getRoot()"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<String> getInlineComments(String path)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "String getName()"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void save(String file)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean contains(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "YamlConfiguration loadConfiguration(Reader reader)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void setDefaults(Configuration defaults)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "void load(String file)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "String saveToString()"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "ConfigurationSection getConfigurationSection(String path)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<Long> getLongList(String path)"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "void save(String file)",
+            "String saveToString()"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "void setDefaults(Configuration defaults)",
+            "Configuration getRoot()"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isLong(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "String getName()"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "String saveToString()"
+        ],
+        [
+            "void setDefaults(Configuration defaults)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "String getName()"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<String> getStringList(String path)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<String> getInlineComments(String path)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean isString(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "String getName()"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "ConfigurationSection getParent()"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Location getLocation(String path)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<Float> getFloatList(String path)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "ItemStack getItemStack(String path, ItemStack def)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "String getString(String path)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "String getName()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "String getString(String path)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "String saveToString()"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "String getCurrentPath()"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "String buildHeader()"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isColor(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<Byte> getByteList(String path)"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<?> getList(String path)"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "ItemStack getItemStack(String path)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Location getLocation(String path)",
+            "String saveToString()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Vector getVector(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "String getString(String path, String def)",
+            "String saveToString()"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Color getColor(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<String> getComments(String path)"
+        ],
+        [
+            "boolean isColor(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<Character> getCharacterList(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Vector getVector(String path)"
+        ],
+        [
+            "boolean isInt(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "ConfigurationSection getConfigurationSection(String path)"
+        ],
+        [
+            "Color getColor(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "String saveToString()"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "Color getColor(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "Location getLocation(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Set<String> getKeys(boolean deep)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<Double> getDoubleList(String path)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "String getString(String path, String def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "String saveToString()"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "String saveToString()"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Map<String,Object> getValues(boolean deep)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "ConfigurationSection getConfigurationSection(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<Byte> getByteList(String path)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Set<String> getKeys(boolean deep)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Color getColor(String path)"
+        ],
+        [
+            "void load(File file)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Color getColor(String path, Color def)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "YamlConfigurationOptions options()"
+        ],
+        [
+            "YamlConfiguration loadConfiguration(Reader reader)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<Long> getLongList(String path)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Color getColor(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isLong(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "String saveToString()"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "String saveToString()"
+        ],
+        [
+            "String getString(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "String saveToString()"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "String getString(String path)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isColor(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isString(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "String getString(String path)"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "void addDefaults(Configuration defaults)",
+            "Object get(String path)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "ConfigurationSection createSection(String path, Map<?,?> map)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "Map<String,Object> getValues(boolean deep)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "Object get(String path)"
+        ],
+        [
+            "void load(String file)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "long getLong(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "String getString(String path)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "String getString(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<Long> getLongList(String path)"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isString(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "void addDefaults(Configuration defaults)",
+            "Configuration getRoot()"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "ConfigurationSection getParent()"
+        ],
+        [
+            "boolean isVector(String path)",
+            "String saveToString()"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<?> getList(String path, List<?> def)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<Short> getShortList(String path)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "Location getLocation(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<Integer> getIntegerList(String path)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean contains(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "String getString(String path)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "String getName()"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<Map<?,?>> getMapList(String path)"
+        ],
+        [
+            "boolean isSet(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<Double> getDoubleList(String path)"
+        ],
+        [
+            "int getInt(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "double getDouble(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void save(String file)",
+            "String getName()"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "ConfigurationSection getParent()"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "long getLong(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void save(String file)",
+            "String getCurrentPath()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Vector getVector(String path, Vector def)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<Boolean> getBooleanList(String path)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "ItemStack getItemStack(String path)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "String getName()"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "ConfigurationSection createSection(String path, Map<?,?> map)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "String saveToString()"
+        ],
+        [
+            "boolean isList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "boolean isLong(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "String saveToString()"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "String getString(String path)"
+        ],
+        [
+            "boolean isList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "ItemStack getItemStack(String path)"
+        ],
+        [
+            "long getLong(String path)",
+            "String saveToString()"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "String saveToString()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "ConfigurationSection createSection(String path, Map<?,?> map)"
+        ],
+        [
+            "void load(Reader reader)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Vector getVector(String path)"
+        ],
+        [
+            "boolean isList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<Double> getDoubleList(String path)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "String saveToString()"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void save(String file)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "ConfigurationSection getConfigurationSection(String path)"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<String> getComments(String path)"
+        ],
+        [
+            "void addDefaults(Map<String,Object> defaults)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Location getLocation(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Set<String> getKeys(boolean deep)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "FileConfigurationOptions options()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void save(String file)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Color getColor(String path)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean contains(String path)",
+            "String saveToString()"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "ConfigurationSection getDefaultSection()"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "String saveToString()"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "String getName()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<?> getList(String path)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isColor(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void save(String file)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "String getName()"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "String getName()"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<?> getList(String path, List<?> def)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "String getCurrentPath()"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "ConfigurationSection getParent()"
+        ],
+        [
+            "boolean contains(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "String getString(String path)"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isSet(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)"
+        ],
+        [
+            "Location getLocation(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "String getString(String path, String def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<String> getStringList(String path)"
+        ],
+        [
+            "Color getColor(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "String buildHeader()"
+        ],
+        [
+            "Location getLocation(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<Short> getShortList(String path)"
+        ],
+        [
+            "Object get(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "String getString(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "String getName()"
+        ],
+        [
+            "void setDefaults(Configuration defaults)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<Boolean> getBooleanList(String path)"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "String getName()"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<?> getList(String path, List<?> def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<Short> getShortList(String path)"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "Object get(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "String getCurrentPath()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<Map<?,?>> getMapList(String path)"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "boolean isLong(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "MemoryConfigurationOptions options()"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "String getString(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<Map<?,?>> getMapList(String path)"
+        ],
+        [
+            "boolean isLong(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "String getName()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<Boolean> getBooleanList(String path)"
+        ],
+        [
+            "boolean isInt(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "boolean isString(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "String getString(String path)"
+        ],
+        [
+            "Color getColor(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isVector(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "String saveToString()"
+        ],
+        [
+            "Location getLocation(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "String getString(String path, String def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "ConfigurationSection createSection(String path, Map<?,?> map)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Vector getVector(String path, Vector def)"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "String getName()"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "String getName()"
+        ],
+        [
+            "Color getColor(String path)",
+            "String saveToString()"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean contains(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "Location getLocation(String path)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isSet(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "protected boolean isPrimitiveWrapper(Object input)"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "YamlConfiguration loadConfiguration(Reader reader)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<String> getStringList(String path)"
+        ],
+        [
+            "boolean isLong(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "YamlConfiguration loadConfiguration(Reader reader)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "Object get(String path)"
+        ],
+        [
+            "long getLong(String path)",
+            "String getName()"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "double getDouble(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "ItemStack getItemStack(String path, ItemStack def)"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "String getCurrentPath()"
+        ],
+        [
+            "boolean isSet(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "long getLong(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "String getName()"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<Float> getFloatList(String path)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<Integer> getIntegerList(String path)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "String buildHeader()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Configuration getDefaults()"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "String getCurrentPath()"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "ItemStack getItemStack(String path, ItemStack def)"
+        ],
+        [
+            "void load(Reader reader)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Configuration getRoot()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "String saveToString()"
+        ],
+        [
+            "boolean isList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<String> getStringList(String path)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefaults(Map<String,Object> defaults)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "long getLong(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "void load(File file)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "String getName()"
+        ],
+        [
+            "long getLong(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void save(String file)",
+            "String getString(String path)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<Short> getShortList(String path)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<String> getInlineComments(String path)"
+        ],
+        [
+            "int getInt(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "String getString(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isSet(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "double getDouble(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void load(String file)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Location getLocation(String path, Location def)"
+        ],
+        [
+            "void save(File file)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "String buildHeader()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<Map<?,?>> getMapList(String path)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "ConfigurationSection getDefaultSection()"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "long getLong(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "void load(String file)",
+            "Object get(String path)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean contains(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "int getInt(String path)",
+            "String saveToString()"
+        ],
+        [
+            "void load(String file)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Vector getVector(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "String buildHeader()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Location getLocation(String path, Location def)"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "MemoryConfigurationOptions options()"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "double getDouble(String path)",
+            "String saveToString()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "ConfigurationSection createSection(String path)"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Map<String,Object> getValues(boolean deep)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "ConfigurationSection getConfigurationSection(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "String buildHeader()"
+        ],
+        [
+            "Location getLocation(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void save(File file)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean contains(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "String getString(String path, String def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "void load(Reader reader)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Set<String> getKeys(boolean deep)"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "OfflinePlayer getOfflinePlayer(String path)"
+        ],
+        [
+            "void addDefaults(Configuration defaults)",
+            "Configuration getDefaults()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "OfflinePlayer getOfflinePlayer(String path)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<String> getStringList(String path)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "ConfigurationSection getDefaultSection()"
+        ],
+        [
+            "boolean isList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "YamlConfigurationOptions options()"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "void addDefaults(Map<String,Object> defaults)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Color getColor(String path)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<Character> getCharacterList(String path)"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "OfflinePlayer getOfflinePlayer(String path)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "ConfigurationSection createSection(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "Object get(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "String saveToString()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<Byte> getByteList(String path)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "String getString(String path)"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "boolean isLong(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Color getColor(String path, Color def)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<Integer> getIntegerList(String path)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "String getName()"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<String> getInlineComments(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isInt(String path)",
+            "String getName()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "protected boolean isPrimitiveWrapper(Object input)"
+        ],
+        [
+            "void save(String file)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Color getColor(String path)",
+            "String getName()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<Integer> getIntegerList(String path)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "String saveToString()"
+        ],
+        [
+            "boolean isInt(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "boolean contains(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Color getColor(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "String getName()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "Vector getVector(String path)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<Short> getShortList(String path)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "String getString(String path)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<Long> getLongList(String path)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "Object get(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void setDefaults(Configuration defaults)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "YamlConfigurationOptions options()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Configuration getRoot()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isInt(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "YamlConfiguration loadConfiguration(Reader reader)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<Map<?,?>> getMapList(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "ConfigurationSection getParent()"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isInt(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isSet(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "Object get(String path)",
+            "String saveToString()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Location getLocation(String path)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "String getName()"
+        ],
+        [
+            "Object getDefault(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isColor(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "String getName()"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "Object get(String path)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Location getLocation(String path)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "String getCurrentPath()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "ItemStack getItemStack(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "ConfigurationSection createSection(String path, Map<?,?> map)"
+        ],
+        [
+            "boolean isInt(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<String> getInlineComments(String path)"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Location getLocation(String path, Location def)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Color getColor(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<?> getList(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "ConfigurationSection getDefaultSection()"
+        ],
+        [
+            "void load(Reader reader)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "String buildHeader()"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<?> getList(String path)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "ConfigurationSection createSection(String path)"
+        ],
+        [
+            "void save(String file)",
+            "String buildHeader()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<Character> getCharacterList(String path)"
+        ],
+        [
+            "void addDefaults(Map<String,Object> defaults)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "String getName()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<Double> getDoubleList(String path)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "Object get(String path)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "String saveToString()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<Character> getCharacterList(String path)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefaults(Configuration defaults)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "OfflinePlayer getOfflinePlayer(String path)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "int getInt(String path)",
+            "String getName()"
+        ],
+        [
+            "Color getColor(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "double getDouble(String path)",
+            "String getName()"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "YamlConfiguration loadConfiguration(Reader reader)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "int getInt(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<Float> getFloatList(String path)"
+        ],
+        [
+            "double getDouble(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "FileConfigurationOptions options()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "boolean isString(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<Short> getShortList(String path)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<String> getComments(String path)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)"
+        ],
+        [
+            "void addDefaults(Configuration defaults)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isString(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "void load(String file)",
+            "String getString(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<Byte> getByteList(String path)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "String saveToString()"
+        ],
+        [
+            "boolean isString(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "boolean contains(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean isList(String path)",
+            "String getName()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "String saveToString()"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<Map<?,?>> getMapList(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Color getColor(String path, Color def)"
+        ],
+        [
+            "boolean isList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "String getString(String path, String def)",
+            "String buildHeader()"
+        ],
+        [
+            "int getInt(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "double getDouble(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "String saveToString()"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "Object get(String path)"
+        ],
+        [
+            "int getInt(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isString(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "double getDouble(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<Short> getShortList(String path)"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<Map<?,?>> getMapList(String path)"
+        ],
+        [
+            "String getString(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "int getInt(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "String getName()"
+        ],
+        [
+            "double getDouble(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<?> getList(String path, List<?> def)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<Long> getLongList(String path)"
+        ],
+        [
+            "void load(String file)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "String getName()"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "ConfigurationSection getParent()"
+        ],
+        [
+            "void save(String file)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "String buildHeader()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "ConfigurationSection getParent()"
+        ],
+        [
+            "long getLong(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "String buildHeader()"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "ConfigurationSection getDefaultSection()"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void load(String file)",
+            "String saveToString()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Configuration getDefaults()"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void save(String file)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "ConfigurationSection createSection(String path)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Object get(String path)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<Float> getFloatList(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<Boolean> getBooleanList(String path)"
+        ],
+        [
+            "void save(File file)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "String getString(String path)"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "Object get(String path)",
+            "String getName()"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "Object get(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "YamlConfiguration loadConfiguration(Reader reader)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<Character> getCharacterList(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isInt(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<String> getComments(String path)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<Float> getFloatList(String path)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<Integer> getIntegerList(String path)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<Double> getDoubleList(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "ItemStack getItemStack(String path, ItemStack def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<String> getComments(String path)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void save(String file)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "YamlConfiguration loadConfiguration(Reader reader)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<String> getInlineComments(String path)"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Location getLocation(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "String saveToString()"
+        ],
+        [
+            "String getString(String path, String def)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "FileConfigurationOptions options()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "String getName()"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "String buildHeader()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "String buildHeader()"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "String saveToString()"
+        ],
+        [
+            "long getLong(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "String buildHeader()"
+        ],
+        [
+            "Object get(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "String saveToString()"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "String buildHeader()"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<Boolean> getBooleanList(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<String> getStringList(String path)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "String getString(String path)"
+        ],
+        [
+            "boolean isLong(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "String getName()"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "String getName()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "String getName()"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "String saveToString()"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "boolean isColor(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Location getLocation(String path, Location def)"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "boolean isInt(String path)",
+            "String saveToString()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "ConfigurationSection getDefaultSection()"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "Object get(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isString(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "String getName()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "ConfigurationSection createSection(String path)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<?> getList(String path)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "Object get(String path)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "String saveToString()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "String getName()"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "boolean isInt(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<?> getList(String path, List<?> def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Color getColor(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Vector getVector(String path)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "Color getColor(String path)"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "Object get(String path)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<Integer> getIntegerList(String path)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "String getString(String path)"
+        ],
+        [
+            "int getInt(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "OfflinePlayer getOfflinePlayer(String path)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<Character> getCharacterList(String path)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Map<String,Object> getValues(boolean deep)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "ConfigurationSection getConfigurationSection(String path)"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "ConfigurationSection getDefaultSection()"
+        ],
+        [
+            "Object getDefault(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Set<String> getKeys(boolean deep)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "ConfigurationSection createSection(String path)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Vector getVector(String path, Vector def)"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "String getString(String path)",
+            "String getName()"
+        ],
+        [
+            "boolean isSet(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<Boolean> getBooleanList(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "YamlConfigurationOptions options()"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "String saveToString()"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "String getString(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Color getColor(String path)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<String> getStringList(String path)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "String saveToString()"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Vector getVector(String path, Vector def)"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void load(String file)",
+            "String getName()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<Long> getLongList(String path)"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<Integer> getIntegerList(String path)"
+        ],
+        [
+            "void load(String file)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "long getLong(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isString(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void load(File file)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "String getName()"
+        ],
+        [
+            "void save(String file)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<String> getComments(String path)"
+        ],
+        [
+            "void addDefaults(Configuration defaults)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void load(Reader reader)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "String getName()"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "String getString(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "long getLong(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isString(String path)",
+            "String saveToString()"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "void save(File file)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "Object get(String path)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Configuration getDefaults()"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "Object get(String path)"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "String getName()"
+        ],
+        [
+            "void load(File file)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "String getString(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void addDefaults(Map<String,Object> defaults)",
+            "Object get(String path)"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "Object get(String path)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "YamlConfiguration loadConfiguration(Reader reader)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "String saveToString()"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "Color getColor(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<?> getList(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "ConfigurationSection getDefaultSection()"
+        ],
+        [
+            "Vector getVector(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "String getString(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "ConfigurationSection createSection(String path)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "String getName()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Location getLocation(String path)"
+        ],
+        [
+            "int getInt(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "double getDouble(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void load(String file)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<Character> getCharacterList(String path)"
+        ],
+        [
+            "void setDefaults(Configuration defaults)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean contains(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "String getName()"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "long getLong(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "String getName()"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<?> getList(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "YamlConfiguration loadConfiguration(Reader reader)"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "boolean isList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "ItemStack getItemStack(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "MemoryConfigurationOptions options()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "ConfigurationSection createSection(String path, Map<?,?> map)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void save(File file)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void setDefaults(Configuration defaults)",
+            "Object get(String path)"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "String buildHeader()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<Character> getCharacterList(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "MemoryConfigurationOptions options()"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "Object get(String path)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Vector getVector(String path)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<String> getStringList(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isColor(String path)",
+            "String getName()"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "ConfigurationSection getConfigurationSection(String path)"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<String> getComments(String path)"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "String saveToString()"
+        ],
+        [
+            "boolean isColor(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Map<String,Object> getValues(boolean deep)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "ConfigurationSection getConfigurationSection(String path)"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "Set<String> getKeys(boolean deep)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "String getName()"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Vector getVector(String path, Vector def)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Set<String> getKeys(boolean deep)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "Location getLocation(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "boolean isInt(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "String getString(String path, String def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "Color getColor(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Color getColor(String path)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "int getInt(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<?> getList(String path, List<?> def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "double getDouble(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isColor(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "protected boolean isPrimitiveWrapper(Object input)"
+        ],
+        [
+            "boolean isInt(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "String getName()"
+        ],
+        [
+            "Color getColor(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "String getString(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "Object get(String path)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<Byte> getByteList(String path)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "boolean isColor(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "String getName()"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "String getCurrentPath()"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "String getString(String path)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "String getString(String path)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "String getCurrentPath()"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Map<String,Object> getValues(boolean deep)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Object get(String path)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Configuration getDefaults()"
+        ],
+        [
+            "boolean isLong(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Object get(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "YamlConfiguration loadConfiguration(Reader reader)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "YamlConfiguration loadConfiguration(Reader reader)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<Short> getShortList(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<Boolean> getBooleanList(String path)"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isSet(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "boolean isColor(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "YamlConfigurationOptions options()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Configuration getRoot()"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "boolean isLong(String path)",
+            "String saveToString()"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean isString(String path)",
+            "String getName()"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<Map<?,?>> getMapList(String path)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "String getString(String path)"
+        ],
+        [
+            "boolean isString(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void addDefaults(Configuration defaults)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Configuration getRoot()"
+        ],
+        [
+            "long getLong(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "ConfigurationSection getConfigurationSection(String path)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "String getName()"
+        ],
+        [
+            "boolean isInt(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<Long> getLongList(String path)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "void setComments(String path, List<String> comments)",
+            "List<String> getComments(String path)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void save(File file)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<String> getInlineComments(String path)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "Object getDefault(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "YamlConfiguration loadConfiguration(Reader reader)"
+        ],
+        [
+            "boolean contains(String path, boolean ignoreDefault)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<String> getInlineComments(String path)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "String saveToString()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "MemoryConfigurationOptions options()"
+        ],
+        [
+            "boolean isSet(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "String saveToString()"
+        ],
+        [
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)",
+            "ConfigurationSection createSection(String path, Map<?,?> map)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "ItemStack getItemStack(String path)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "ConfigurationSection createSection(String path, Map<?,?> map)"
+        ],
+        [
+            "int getInt(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "String getString(String path)"
+        ],
+        [
+            "double getDouble(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "List<String> getComments(String path)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isSet(String path)",
+            "String saveToString()"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<String> getStringList(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Object get(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "int getInt(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void setDefaults(Configuration defaults)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "double getDouble(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "String saveToString()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<Float> getFloatList(String path)"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "void addDefaults(Configuration defaults)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "String getName()"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "ItemStack getItemStack(String path, ItemStack def)"
+        ],
+        [
+            "int getInt(String path, int def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "String getName()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<Byte> getByteList(String path)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<Double> getDoubleList(String path)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "Color getColor(String path, Color def)"
+        ],
+        [
+            "boolean isList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "void load(File file)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<Byte> getByteList(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "String getString(String path)",
+            "String saveToString()"
+        ],
+        [
+            "boolean isString(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "Color getColor(String path, Color def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "protected boolean isPrimitiveWrapper(Object input)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "String buildHeader()"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "String getName()"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<String> getComments(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "String getString(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Map<String,Object> getValues(boolean deep)"
+        ],
+        [
+            "int getInt(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "String saveToString()"
+        ],
+        [
+            "double getDouble(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean contains(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "ConfigurationSection createSection(String path, Map<?,?> map)"
+        ],
+        [
+            "void save(String file)",
+            "Object get(String path)"
+        ],
+        [
+            "Location getLocation(String path)",
+            "String getName()"
+        ],
+        [
+            "void load(String file)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "String getString(String path, String def)",
+            "String getName()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<Short> getShortList(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "YamlConfigurationOptions options()"
+        ],
+        [
+            "Location getLocation(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Configuration getRoot()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<Long> getLongList(String path)"
+        ],
+        [
+            "List<String> getInlineComments(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Location getLocation(String path, Location def)"
+        ],
+        [
+            "String getString(String path, String def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "boolean isInt(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "Color getColor(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "String saveToString()"
+        ],
+        [
+            "Vector getVector(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "ConfigurationSection getParent()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<Long> getLongList(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "String buildHeader()"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<Map<?,?>> getMapList(String path)"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<?> getList(String path, List<?> def)",
+            "List<Float> getFloatList(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "ConfigurationSection createSection(String path)"
+        ],
+        [
+            "List<Byte> getByteList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "String getName()"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isColor(String path)",
+            "String getString(String path)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "Object get(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "boolean isLong(String path)",
+            "String getName()"
+        ],
+        [
+            "ConfigurationSection createSection(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Location getLocation(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "String getString(String path)"
+        ],
+        [
+            "String getString(String path, String def)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "boolean isLong(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "String getString(String path)"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "OfflinePlayer getOfflinePlayer(String path)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Vector getVector(String path, Vector def)"
+        ],
+        [
+            "Location getLocation(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "Object get(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key)",
+            "String saveToString()"
+        ],
+        [
+            "String getString(String path, String def)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "ConfigurationSection getParent()"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "ConfigurationSection getConfigurationSection(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "String getName()"
+        ],
+        [
+            "boolean isConfigurationSection(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<Integer> getIntegerList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "boolean isOfflinePlayer(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "List<Long> getLongList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)",
+            "Object get(String path)"
+        ],
+        [
+            "boolean isLong(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "boolean isBoolean(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "void addDefaults(Configuration defaults)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "ConfigurationSection createSection(String path, Map<?,?> map)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "Location getLocation(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "String getName()"
+        ],
+        [
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)",
+            "String getString(String path)"
+        ],
+        [
+            "String getString(String path, String def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "Vector getVector(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<Integer> getIntegerList(String path)"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<Double> getDoubleList(String path)"
+        ],
+        [
+            "ItemStack getItemStack(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "String getName()"
+        ],
+        [
+            "boolean isLong(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void set(String path, Object value)",
+            "Configuration getDefaults()"
+        ],
+        [
+            "void load(String file)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean getBoolean(String path, boolean def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "Vector getVector(String path, Vector def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "List<Double> getDoubleList(String path)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "List<Float> getFloatList(String path)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "String getName()"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "FileConfigurationOptions options()"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "List<Short> getShortList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isSet(String path)",
+            "String getName()"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "Object get(String path)"
+        ],
+        [
+            "Color getColor(String path, Color def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz, T def)",
+            "ItemStack getItemStack(String path, ItemStack def)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "List<Byte> getByteList(String path)"
+        ],
+        [
+            "boolean isLong(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isSet(String path)",
+            "String getCurrentPath()"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "boolean isColor(String path)",
+            "String saveToString()"
+        ],
+        [
+            "Object get(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "FileConfigurationOptions options()"
+        ],
+        [
+            "List<Float> getFloatList(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "boolean isLocation(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "void setDefaults(Configuration defaults)",
+            "Configuration getDefaults()"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)"
+        ],
+        [
+            "List<?> getList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "Color getColor(String path, Color def)"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "Map<String,Object> getValues(boolean deep)"
+        ],
+        [
+            "List<Map<?,?>> getMapList(String path)",
+            "String saveToString()"
+        ],
+        [
+            "void addDefault(String path, Object value)",
+            "ItemStack getItemStack(String path)"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "ConfigurationSection getConfigurationSection(String path)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "String saveToString()"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "String saveToString()"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "int getInt(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "long getLong(String path, long def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "double getDouble(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean isColor(String path)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "protected boolean isPrimitiveWrapper(Object input)",
+            "String saveToString()"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "<T> T getObject(String path, Class<T> clazz)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)",
+            "<T> T getObject(String path, Class<T> clazz, T def)"
+        ],
+        [
+            "boolean getBoolean(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isSet(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "Location getLocation(String path)"
+        ],
+        [
+            "List<Double> getDoubleList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "String getName()"
+        ],
+        [
+            "List<Boolean> getBooleanList(String path)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<Float> getFloatList(String path)"
+        ],
+        [
+            "boolean isVector(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "double getDouble(String path, double def)",
+            "String getCurrentPath()"
+        ],
+        [
+            "void loadFromString(String contents)",
+            "String getName()"
+        ],
+        [
+            "boolean isList(String path)",
+            "Object getDefault(String path)"
+        ],
+        [
+            "boolean isSet(String path)",
+            "<T> T getObject(String path, Class<T> clazz)"
+        ],
+        [
+            "ItemStack getItemStack(String path, ItemStack def)",
+            "String getName()"
+        ],
+        [
+            "Location getLocation(String path, Location def)",
+            "Object get(String path, Object def)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "String createPath(ConfigurationSection section, String key)"
+        ],
+        [
+            "boolean isDouble(String path)",
+            "String buildHeader()"
+        ],
+        [
+            "void load(File file)",
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)"
+        ],
+        [
+            "void set(String path, Object value)",
+            "MemoryConfigurationOptions options()"
+        ],
+        [
+            "void setInlineComments(String path, List<String> comments)",
+            "List<String> getInlineComments(String path)"
+        ],
+        [
+            "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)",
+            "List<?> getList(String path)"
+        ],
+        [
+            "List<String> getStringList(String path)",
+            "String getString(String path, String def)"
+        ],
+        [
+            "boolean isItemStack(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "List<Character> getCharacterList(String path)",
+            "Object get(String path)"
+        ],
+        [
+            "Object get(String path, Object def)",
+            "List<?> getList(String path, List<?> def)"
+        ]
+    ]
+}

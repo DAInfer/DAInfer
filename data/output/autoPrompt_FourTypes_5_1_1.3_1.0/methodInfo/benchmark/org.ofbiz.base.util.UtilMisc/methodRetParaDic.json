@@ -1,0 +1,320 @@
+{
+    "java.math.BigDecimal addToBigDecimalInMap(java.util.Map theMap, K mapKey, java.math.BigDecimal addNumber)": {
+        "return type": "java.math.BigDecimal",
+        "method name": "addToBigDecimalInMap",
+        "parameters": [
+            "java.util.Map",
+            "K",
+            "java.math.BigDecimal"
+        ]
+    },
+    "void addToDoubleInMap(java.util.Map theMap, K key, java.lang.Double value)": {
+        "return type": "void",
+        "method name": "addToDoubleInMap",
+        "parameters": [
+            "java.util.Map",
+            "K",
+            "java.lang.Double"
+        ]
+    },
+    "void addToListInMap(V element, java.util.Map theMap, K listKey)": {
+        "return type": "void",
+        "method name": "addToListInMap",
+        "parameters": [
+            "V",
+            "java.util.Map",
+            "K"
+        ]
+    },
+    "void addToSetInMap(V element, java.util.Map theMap, K setKey)": {
+        "return type": "void",
+        "method name": "addToSetInMap",
+        "parameters": [
+            "V",
+            "java.util.Map",
+            "K"
+        ]
+    },
+    "void addToSortedSetInMap(V element, java.util.Map theMap, K setKey)": {
+        "return type": "void",
+        "method name": "addToSortedSetInMap",
+        "parameters": [
+            "V",
+            "java.util.Map",
+            "K"
+        ]
+    },
+    "java.util.List availableLocales()": {
+        "return type": "java.util.List",
+        "method name": "availableLocales",
+        "parameters": []
+    },
+    "java.util.Set collectionToSet(java.util.Collection c)": {
+        "return type": "java.util.Set",
+        "method name": "collectionToSet",
+        "parameters": [
+            "java.util.Collection"
+        ]
+    },
+    "java.lang.String collectionToString(java.util.Collection values, java.lang.String delimiter)": {
+        "return type": "java.lang.String",
+        "method name": "collectionToString",
+        "parameters": [
+            "java.util.Collection",
+            "java.lang.String"
+        ]
+    },
+    "int compare(java.lang.Comparable obj1, T obj2)": {
+        "return type": "int",
+        "method name": "compare",
+        "parameters": [
+            "java.lang.Comparable",
+            "T"
+        ]
+    },
+    "int compare(java.util.List obj1, java.util.List obj2)": {
+        "return type": "int",
+        "method name": "compare",
+        "parameters": [
+            "java.util.List",
+            "java.util.List"
+        ]
+    },
+    "void copyFile(java.io.File sourceLocation, java.io.File targetLocation)": {
+        "return type": "void",
+        "method name": "copyFile",
+        "parameters": [
+            "java.io.File",
+            "java.io.File"
+        ]
+    },
+    "java.util.Locale ensureLocale(java.lang.Object localeObject)": {
+        "return type": "java.util.Locale",
+        "method name": "ensureLocale",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "java.util.List getHostHeadersAllowed()": {
+        "return type": "java.util.List",
+        "method name": "getHostHeadersAllowed",
+        "parameters": []
+    },
+    "java.util.List getListFromMap(java.util.Map outerMap, K key)": {
+        "return type": "java.util.List",
+        "method name": "getListFromMap",
+        "parameters": [
+            "java.util.Map",
+            "K"
+        ]
+    },
+    "java.util.Map getMapFromMap(java.util.Map outerMap, K key)": {
+        "return type": "java.util.Map",
+        "method name": "getMapFromMap",
+        "parameters": [
+            "java.util.Map",
+            "K"
+        ]
+    },
+    "int getViewLastIndex(int listSize, int viewSize)": {
+        "return type": "int",
+        "method name": "getViewLastIndex",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "T initCause(T throwable, java.lang.Throwable cause)": {
+        "return type": "T",
+        "method name": "initCause",
+        "parameters": [
+            "T",
+            "java.lang.Throwable"
+        ]
+    },
+    "void makeArrayListSerializable(java.util.ArrayList arrayList)": {
+        "return type": "void",
+        "method name": "makeArrayListSerializable",
+        "parameters": [
+            "java.util.ArrayList"
+        ]
+    },
+    "java.util.List makeListWritable(java.util.Collection col)": {
+        "return type": "java.util.List",
+        "method name": "makeListWritable",
+        "parameters": [
+            "java.util.Collection"
+        ]
+    },
+    "void makeMapSerializable(java.util.Map map)": {
+        "return type": "void",
+        "method name": "makeMapSerializable",
+        "parameters": [
+            "java.util.Map"
+        ]
+    },
+    "java.util.Map makeMapWritable(java.util.Map map)": {
+        "return type": "java.util.Map",
+        "method name": "makeMapWritable",
+        "parameters": [
+            "java.util.Map"
+        ]
+    },
+    "java.util.Set makeSetWritable(java.util.Collection col)": {
+        "return type": "java.util.Set",
+        "method name": "makeSetWritable",
+        "parameters": [
+            "java.util.Collection"
+        ]
+    },
+    "java.util.Locale parseLocale(java.lang.String localeString)": {
+        "return type": "java.util.Locale",
+        "method name": "parseLocale",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "java.lang.String printMap(java.util.Map theMap)": {
+        "return type": "java.lang.String",
+        "method name": "printMap",
+        "parameters": [
+            "java.util.Map"
+        ]
+    },
+    "T removeFirst(java.util.List lst)": {
+        "return type": "T",
+        "method name": "removeFirst",
+        "parameters": [
+            "java.util.List"
+        ]
+    },
+    "java.util.List sortMaps(java.util.List listOfMaps, java.util.List sortKeys)": {
+        "return type": "java.util.List",
+        "method name": "sortMaps",
+        "parameters": [
+            "java.util.List",
+            "java.util.List"
+        ]
+    },
+    "java.util.Map splitPhoneNumber(java.lang.String phoneNumber, Delegator delegator)": {
+        "return type": "java.util.Map",
+        "method name": "splitPhoneNumber",
+        "parameters": [
+            "java.lang.String",
+            "Delegator"
+        ]
+    },
+    "void staticWait(long timeout)": {
+        "return type": "void",
+        "method name": "Wait",
+        "parameters": [
+            "long"
+        ]
+    },
+    "double toDouble(java.lang.Object obj)": {
+        "return type": "double",
+        "method name": "toDouble",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "java.lang.Double toDoubleObject(java.lang.Object obj)": {
+        "return type": "java.lang.Double",
+        "method name": "toDoubleObject",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "int toInteger(java.lang.Object obj)": {
+        "return type": "int",
+        "method name": "toInteger",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "java.lang.Integer toIntegerObject(java.lang.Object obj)": {
+        "return type": "java.lang.Integer",
+        "method name": "toIntegerObject",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "java.util.Iterator toIterator(java.util.Collection col)": {
+        "return type": "java.util.Iterator",
+        "method name": "toIterator",
+        "parameters": [
+            "java.util.Collection"
+        ]
+    },
+    "java.util.List toList(java.util.Collection collection)": {
+        "return type": "java.util.List",
+        "method name": "toList",
+        "parameters": [
+            "java.util.Collection"
+        ]
+    },
+    "java.util.List toList(T... data)": {
+        "return type": "java.util.List",
+        "method name": "toList",
+        "parameters": [
+            "T..."
+        ]
+    },
+    "java.util.List toListArray(T[] data)": {
+        "return type": "java.util.List",
+        "method name": "toListArray",
+        "parameters": [
+            "T[]"
+        ]
+    },
+    "long toLong(java.lang.Object obj)": {
+        "return type": "long",
+        "method name": "toLong",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "java.lang.Long toLongObject(java.lang.Object obj)": {
+        "return type": "java.lang.Long",
+        "method name": "toLongObject",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "java.util.Map toMap(java.lang.Object... kvs)": {
+        "return type": "java.util.Map",
+        "method name": "toMap",
+        "parameters": [
+            "java.lang.Object..."
+        ]
+    },
+    "java.util.Map toMap(java.util.function.Supplier constructor, java.lang.Object... kvs)": {
+        "return type": "java.util.Map",
+        "method name": "toMap",
+        "parameters": [
+            "java.util.function.Supplier",
+            "java.lang.Object..."
+        ]
+    },
+    "java.util.Set toSet(java.util.Collection collection)": {
+        "return type": "java.util.Set",
+        "method name": "toSet",
+        "parameters": [
+            "java.util.Collection"
+        ]
+    },
+    "java.util.Set toSet(T... data)": {
+        "return type": "java.util.Set",
+        "method name": "toSet",
+        "parameters": [
+            "T..."
+        ]
+    },
+    "java.util.Set toSetArray(T[] data)": {
+        "return type": "java.util.Set",
+        "method name": "toSetArray",
+        "parameters": [
+            "T[]"
+        ]
+    }
+}

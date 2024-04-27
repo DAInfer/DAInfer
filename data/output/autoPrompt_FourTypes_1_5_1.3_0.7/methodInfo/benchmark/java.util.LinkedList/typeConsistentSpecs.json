@@ -1,0 +1,2200 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void forEach(Consumer action)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean add(E e)",
+            "E getLast()"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E peek()"
+        ],
+        [
+            "void push(E e)",
+            "E element()"
+        ],
+        [
+            "boolean add(E e)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "void add(int index, E element)",
+            "Stream stream()"
+        ],
+        [
+            "void add(int index, E element)",
+            "Stream parallelStream()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E pop()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E remove()"
+        ],
+        [
+            "void addFirst(E e)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E element()"
+        ],
+        [
+            "void addFirst(E e)",
+            "E pop()"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E peek()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E remove(int index)"
+        ],
+        [
+            "void addLast(E e)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E remove(int index)"
+        ],
+        [
+            "void push(E e)",
+            "E poll()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E pop()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E pollLast()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E remove()"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E pollLast()"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E removeFirst()"
+        ],
+        [
+            "void add(int index, E element)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E peek()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E element()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E remove()"
+        ],
+        [
+            "void add(int index, E element)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E peekFirst()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean add(E e)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E getFirst()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "void push(E e)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E peekFirst()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E getFirst()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E pollFirst()"
+        ],
+        [
+            "void push(E e)",
+            "E peek()"
+        ],
+        [
+            "void add(int index, E element)",
+            "E peekLast()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E peekFirst()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E remove()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E peekFirst()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E peek()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E getFirst()"
+        ],
+        [
+            "void add(int index, E element)",
+            "Object[] toArray()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E pollLast()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E pollFirst()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E getLast()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E set(int index, E element)"
+        ],
+        [
+            "void addFirst(E e)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E removeLast()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E peek()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E getLast()"
+        ],
+        [
+            "void addLast(E e)",
+            "E remove()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E remove()"
+        ],
+        [
+            "boolean offer(E e)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E getLast()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E getLast()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "E set(int index, E element)",
+            "E removeFirst()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E remove()"
+        ],
+        [
+            "boolean offer(E e)",
+            "Iterator iterator()"
+        ],
+        [
+            "void addLast(E e)",
+            "E peekFirst()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E peekFirst()"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E remove()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E getFirst()"
+        ],
+        [
+            "boolean add(E e)",
+            "E removeLast()"
+        ],
+        [
+            "void addFirst(E e)",
+            "E removeLast()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E removeFirst()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "Stream stream()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "Stream parallelStream()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E poll()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E removeFirst()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E remove(int index)"
+        ],
+        [
+            "void add(int index, E element)",
+            "E pollLast()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E remove()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E removeLast()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E element()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E get(int index)"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E remove(int index)"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E peekLast()"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E peekFirst()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "Stream stream()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "Stream parallelStream()"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E getFirst()"
+        ],
+        [
+            "void add(int index, E element)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E get(int index)"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E peekFirst()"
+        ],
+        [
+            "void addLast(E e)",
+            "E removeFirst()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E poll()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "void add(int index, E element)",
+            "E getFirst()"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E getFirst()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E poll()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "Stream parallelStream()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "Stream stream()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "Stream stream()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "Stream parallelStream()"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E poll()"
+        ],
+        [
+            "void push(E e)",
+            "E remove()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "E set(int index, E element)",
+            "Stream stream()"
+        ],
+        [
+            "boolean add(E e)",
+            "E removeFirst()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E peekFirst()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E remove()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E get(int index)"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E peekLast()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "boolean add(E e)",
+            "E element()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E remove(int index)"
+        ],
+        [
+            "void addLast(E e)",
+            "E poll()"
+        ],
+        [
+            "E set(int index, E element)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "void addFirst(E e)",
+            "E element()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E remove()"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E set(int index, E element)"
+        ],
+        [
+            "void addFirst(E e)",
+            "E remove(int index)"
+        ],
+        [
+            "E set(int index, E element)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E peek()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E pop()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E getLast()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E element()"
+        ],
+        [
+            "boolean add(E e)",
+            "E poll()"
+        ],
+        [
+            "void push(E e)",
+            "E peekFirst()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E getLast()"
+        ],
+        [
+            "void addFirst(E e)",
+            "E poll()"
+        ],
+        [
+            "void push(E e)",
+            "E getFirst()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E removeLast()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E pop()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E peekFirst()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E removeFirst()"
+        ],
+        [
+            "void push(E e)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E peekLast()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E peekLast()"
+        ],
+        [
+            "boolean add(E e)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "E set(int index, E element)",
+            "E peekLast()"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E pollLast()"
+        ],
+        [
+            "void addLast(E e)",
+            "Stream stream()"
+        ],
+        [
+            "void addLast(E e)",
+            "Stream parallelStream()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "Object[] toArray()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E removeLast()"
+        ],
+        [
+            "void addFirst(E e)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E pop()"
+        ],
+        [
+            "E set(int index, E element)",
+            "Object[] toArray()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E get(int index)"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "Iterator iterator()"
+        ],
+        [
+            "void push(E e)",
+            "E set(int index, E element)"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean add(E e)",
+            "E peek()"
+        ],
+        [
+            "void addLast(E e)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "void addFirst(E e)",
+            "E peek()"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E getFirst()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E removeFirst()"
+        ],
+        [
+            "void addLast(E e)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E peekLast()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E getLast()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E removeFirst()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E peekLast()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E peek()"
+        ],
+        [
+            "void addFirst(E e)",
+            "E getLast()"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E get(int index)"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E removeFirst()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E pollLast()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E getLast()"
+        ],
+        [
+            "void add(int index, E element)",
+            "E get(int index)"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E get(int index)"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E removeFirst()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E element()"
+        ],
+        [
+            "void addLast(E e)",
+            "E peekLast()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E peekLast()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E poll()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E remove()"
+        ],
+        [
+            "void addLast(E e)",
+            "Object[] toArray()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E element()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E poll()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E pop()"
+        ],
+        [
+            "void addFirst(E e)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E pollLast()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E poll()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E pollLast()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "boolean add(E e)",
+            "Object[] toArray()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E poll()"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E peekLast()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E pollLast()"
+        ],
+        [
+            "boolean offer(E e)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E remove()"
+        ],
+        [
+            "void push(E e)",
+            "Stream stream()"
+        ],
+        [
+            "void push(E e)",
+            "Stream parallelStream()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E pop()"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E peekLast()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "Stream parallelStream()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "Stream stream()"
+        ],
+        [
+            "void add(int index, E element)",
+            "E getLast()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E getFirst()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E remove()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E peekFirst()"
+        ],
+        [
+            "void add(int index, E element)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "void add(int index, E element)",
+            "E pop()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E getFirst()"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E pop()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E peek()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E removeLast()"
+        ],
+        [
+            "void push(E e)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E removeLast()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E pollLast()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E peekLast()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E pollFirst()"
+        ],
+        [
+            "void push(E e)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E pollLast()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E peek()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E peekFirst()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E peekFirst()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E getFirst()"
+        ],
+        [
+            "boolean add(E e)",
+            "E remove()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E peekFirst()"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E get(int index)"
+        ],
+        [
+            "void addLast(E e)",
+            "E pollLast()"
+        ],
+        [
+            "void addFirst(E e)",
+            "E remove()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E getFirst()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E pollLast()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E pollFirst()"
+        ],
+        [
+            "void push(E e)",
+            "E peekLast()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E pollFirst()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E peekLast()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E remove()"
+        ],
+        [
+            "void addLast(E e)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "void push(E e)",
+            "Object[] toArray()"
+        ],
+        [
+            "void push(E e)",
+            "E pop()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E removeFirst()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "Object[] toArray()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E removeLast()"
+        ],
+        [
+            "void addLast(E e)",
+            "E getFirst()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E removeFirst()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E pollLast()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean offer(E e)",
+            "Object[] toArray()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E peekLast()"
+        ],
+        [
+            "void addLast(E e)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean add(E e)",
+            "E peekFirst()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E element()"
+        ],
+        [
+            "void add(int index, E element)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "void addFirst(E e)",
+            "E peekFirst()"
+        ],
+        [
+            "boolean add(E e)",
+            "E getFirst()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E pollLast()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "Object[] toArray()"
+        ],
+        [
+            "boolean add(E e)",
+            "E pollFirst()"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E getLast()"
+        ],
+        [
+            "void addFirst(E e)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E poll()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E pollLast()"
+        ],
+        [
+            "void addLast(E e)",
+            "E set(int index, E element)"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E pop()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean add(E e)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E removeFirst()"
+        ],
+        [
+            "E set(int index, E element)",
+            "Stream parallelStream()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E get(int index)"
+        ],
+        [
+            "boolean contains(Object o)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "void addFirst(E e)",
+            "E removeFirst()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E getFirst()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E get(int index)"
+        ],
+        [
+            "boolean offer(E e)",
+            "E remove()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E removeFirst()"
+        ],
+        [
+            "void push(E e)",
+            "E pollLast()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E element()"
+        ],
+        [
+            "void add(int index, E element)",
+            "E removeLast()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E peek()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E getLast()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E peek()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E pollLast()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "Stream parallelStream()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "Stream stream()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E remove()"
+        ],
+        [
+            "void push(E e)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E poll()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E getLast()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E get(int index)"
+        ],
+        [
+            "boolean contains(Object o)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E pollLast()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E get(int index)"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E getFirst()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean offer(E e)",
+            "E peekFirst()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E poll()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E getLast()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E getFirst()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E getLast()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E pop()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E peekFirst()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "boolean offer(E e)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E getFirst()"
+        ],
+        [
+            "void addLast(E e)",
+            "E get(int index)"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E peekFirst()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E pop()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E getFirst()"
+        ],
+        [
+            "boolean add(E e)",
+            "Stream stream()"
+        ],
+        [
+            "boolean add(E e)",
+            "Stream parallelStream()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E peek()"
+        ],
+        [
+            "void addFirst(E e)",
+            "Stream stream()"
+        ],
+        [
+            "void addFirst(E e)",
+            "Stream parallelStream()"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E pollFirst()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E peekLast()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean add(E e)",
+            "E get(int index)"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "Object[] toArray()"
+        ],
+        [
+            "void add(int index, E element)",
+            "E element()"
+        ],
+        [
+            "void add(int index, E element)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E remove(int index)"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "Object[] toArray()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean add(E e)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E pop()"
+        ],
+        [
+            "boolean add(E e)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "void addFirst(E e)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E set(int index, E element)"
+        ],
+        [
+            "void addFirst(E e)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "void add(int index, E element)",
+            "E poll()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E pop()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E set(int index, E element)"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E removeLast()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E getLast()"
+        ],
+        [
+            "void add(int index, E element)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E get(int index)"
+        ],
+        [
+            "void addLast(E e)",
+            "E pop()"
+        ],
+        [
+            "boolean add(E e)",
+            "E peekLast()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "void addFirst(E e)",
+            "E peekLast()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E remove()"
+        ],
+        [
+            "void push(E e)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean add(E e)",
+            "E pop()"
+        ],
+        [
+            "E set(int index, E element)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "void addFirst(E e)",
+            "Object[] toArray()"
+        ],
+        [
+            "void add(int index, E element)",
+            "E peek()"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E getLast()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E peekLast()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E remove()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E removeLast()"
+        ],
+        [
+            "void push(E e)",
+            "E get(int index)"
+        ],
+        [
+            "E set(int index, E element)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E getLast()"
+        ],
+        [
+            "boolean offer(E e)",
+            "Stream stream()"
+        ],
+        [
+            "boolean offer(E e)",
+            "Stream parallelStream()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E get(int index)"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E pollLast()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E get(int index)"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E getLast()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E peekFirst()"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E element()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "Stream parallelStream()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "Stream stream()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E getFirst()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E get(int index)"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E pop()"
+        ],
+        [
+            "boolean offer(E e)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E removeLast()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E get(int index)"
+        ],
+        [
+            "boolean offer(E e)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E getFirst()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E removeLast()"
+        ],
+        [
+            "void add(int index, E element)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E remove()"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E poll()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E removeLast()"
+        ],
+        [
+            "void addLast(E e)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E removeFirst()"
+        ],
+        [
+            "void push(E e)",
+            "E getLast()"
+        ],
+        [
+            "void push(E e)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "boolean add(E e)",
+            "E pollLast()"
+        ],
+        [
+            "boolean add(E e)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E set(int index, E element)"
+        ],
+        [
+            "void addFirst(E e)",
+            "E pollLast()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E removeFirst()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E peekLast()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E pop()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E element()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E removeLast()"
+        ],
+        [
+            "boolean add(E e)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E pollLast()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E removeLast()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E pop()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E peekFirst()"
+        ],
+        [
+            "void addFirst(E e)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E peekLast()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E element()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E getFirst()"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E peek()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E removeFirst()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E poll()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E removeFirst()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E pop()"
+        ],
+        [
+            "void addFirst(E e)",
+            "E getFirst()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E pollFirst()"
+        ],
+        [
+            "void push(E e)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E pop()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E peekFirst()"
+        ],
+        [
+            "void addLast(E e)",
+            "E removeLast()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E poll()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E getFirst()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E element()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E removeLast()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E element()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E pollFirst()"
+        ],
+        [
+            "void add(int index, E element)",
+            "E remove()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E element()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E poll()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E poll()"
+        ],
+        [
+            "void addFirst(E e)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E removeLast()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "E peek()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E set(int index, E element)"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "Stream stream()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "Stream parallelStream()"
+        ],
+        [
+            "void push(E e)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E element()"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E removeLast()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E remove(int index)"
+        ],
+        [
+            "int indexOf(Object o)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E element()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E get(int index)"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E remove(int index)"
+        ],
+        [
+            "E set(int index, E element)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "void add(int index, E element)",
+            "E peekFirst()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E removeFirst()"
+        ],
+        [
+            "boolean offer(E e)",
+            "E pollLast()"
+        ],
+        [
+            "boolean offer(E e)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E get(int index)"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E removeLast()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "Iterator descendingIterator()"
+        ],
+        [
+            "void add(int index, E element)",
+            "E pollFirst()"
+        ],
+        [
+            "boolean removeFirstOccurrence(Object o)",
+            "E peek()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "ListIterator listIterator()"
+        ],
+        [
+            "boolean remove(Object o)",
+            "E peek()"
+        ],
+        [
+            "boolean offer(E e)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "E pollLast()"
+        ],
+        [
+            "void addLast(E e)",
+            "E element()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E element()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E peek()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "List subList(int fromIndex, int toIndex)"
+        ],
+        [
+            "void addLast(E e)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E removeFirst()"
+        ],
+        [
+            "E set(int index, E element)",
+            "E getLast()"
+        ],
+        [
+            "boolean removeLastOccurrence(Object o)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean add(E e)",
+            "E remove(int index)"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E poll()"
+        ],
+        [
+            "E set(int index, E element)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "void add(int index, E element)",
+            "E set(int index, E element)"
+        ],
+        [
+            "void add(int index, E element)",
+            "E removeFirst()"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E removeFirst()"
+        ],
+        [
+            "void push(E e)",
+            "E removeLast()"
+        ],
+        [
+            "boolean offerFirst(E e)",
+            "Object[] toArray()"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E peekLast()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "E peekLast()"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E element()"
+        ],
+        [
+            "int indexOf(Object o)",
+            "E removeLast()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E peek()"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E get(int index)"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E remove()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E peek()"
+        ],
+        [
+            "boolean contains(Object o)",
+            "Object[] toArray()"
+        ],
+        [
+            "void addLast(E e)",
+            "T[] toArray(T[] a)"
+        ],
+        [
+            "boolean offerLast(E e)",
+            "E pop()"
+        ],
+        [
+            "void addFirst(E e)",
+            "E get(int index)"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E element()"
+        ],
+        [
+            "boolean retainAll(Collection c)",
+            "E getLast()"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "int lastIndexOf(Object o)",
+            "E pop()"
+        ],
+        [
+            "boolean containsAll(Collection c)",
+            "E poll()"
+        ],
+        [
+            "boolean removeIf(Predicate filter)",
+            "E getLast()"
+        ],
+        [
+            "boolean removeAll(Collection c)",
+            "E removeLast()"
+        ],
+        [
+            "E set(int index, E element)",
+            "Iterator iterator()"
+        ],
+        [
+            "void replaceAll(UnaryOperator operator)",
+            "E get(int index)"
+        ],
+        [
+            "boolean addAll(int index, Collection c)",
+            "E poll()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E element()"
+        ],
+        [
+            "void addLast(E e)",
+            "E peek()"
+        ],
+        [
+            "void sort(Comparator c)",
+            "E peek()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E remove(int index)"
+        ],
+        [
+            "boolean remove(Object o)",
+            "Object[] toArray()"
+        ],
+        [
+            "void addLast(E e)",
+            "E getLast()"
+        ],
+        [
+            "void push(E e)",
+            "E removeFirst()"
+        ],
+        [
+            "void forEach(Consumer action)",
+            "E peekFirst()"
+        ],
+        [
+            "T[] toArray(T[] a)",
+            "E poll()"
+        ],
+        [
+            "void addLast(E e)",
+            "ListIterator listIterator(int index)"
+        ],
+        [
+            "boolean addAll(Collection c)",
+            "E peekLast()"
+        ]
+    ]
+}

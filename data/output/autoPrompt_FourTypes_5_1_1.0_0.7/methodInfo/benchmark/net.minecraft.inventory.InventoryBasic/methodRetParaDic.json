@@ -1,0 +1,144 @@
+{
+    "void addInventoryChangeListener(IInventoryChangedListener listener)": {
+        "return type": "void",
+        "method name": "addInventoryChangeListener",
+        "parameters": [
+            "IInventoryChangedListener"
+        ]
+    },
+    "ItemStack addItem(ItemStack stack)": {
+        "return type": "ItemStack",
+        "method name": "addItem",
+        "parameters": [
+            "ItemStack"
+        ]
+    },
+    "void clear()": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": []
+    },
+    "void closeInventory(EntityPlayer player)": {
+        "return type": "void",
+        "method name": "closeInventory",
+        "parameters": [
+            "EntityPlayer"
+        ]
+    },
+    "ItemStack decrStackSize(int index, int count)": {
+        "return type": "ItemStack",
+        "method name": "decrStackSize",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "ITextComponent getDisplayName()": {
+        "return type": "ITextComponent",
+        "method name": "getDisplayName",
+        "parameters": []
+    },
+    "int getField(int id)": {
+        "return type": "int",
+        "method name": "getField",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int getFieldCount()": {
+        "return type": "int",
+        "method name": "getFieldCount",
+        "parameters": []
+    },
+    "int getInventoryStackLimit()": {
+        "return type": "int",
+        "method name": "getInventoryStackLimit",
+        "parameters": []
+    },
+    "java.lang.String getName()": {
+        "return type": "java.lang.String",
+        "method name": "getName",
+        "parameters": []
+    },
+    "int getSizeInventory()": {
+        "return type": "int",
+        "method name": "getSizeInventory",
+        "parameters": []
+    },
+    "ItemStack getStackInSlot(int index)": {
+        "return type": "ItemStack",
+        "method name": "getStackInSlot",
+        "parameters": [
+            "int"
+        ]
+    },
+    "boolean hasCustomName()": {
+        "return type": "boolean",
+        "method name": "hasCustomName",
+        "parameters": []
+    },
+    "boolean isItemValidForSlot(int index, ItemStack stack)": {
+        "return type": "boolean",
+        "method name": "isItemValidForSlot",
+        "parameters": [
+            "int",
+            "ItemStack"
+        ]
+    },
+    "boolean isUseableByPlayer(EntityPlayer player)": {
+        "return type": "boolean",
+        "method name": "isUseableByPlayer",
+        "parameters": [
+            "EntityPlayer"
+        ]
+    },
+    "void markDirty()": {
+        "return type": "void",
+        "method name": "markDirty",
+        "parameters": []
+    },
+    "void openInventory(EntityPlayer player)": {
+        "return type": "void",
+        "method name": "openInventory",
+        "parameters": [
+            "EntityPlayer"
+        ]
+    },
+    "void removeInventoryChangeListener(IInventoryChangedListener listener)": {
+        "return type": "void",
+        "method name": "removeInventoryChangeListener",
+        "parameters": [
+            "IInventoryChangedListener"
+        ]
+    },
+    "ItemStack removeStackFromSlot(int index)": {
+        "return type": "ItemStack",
+        "method name": "removeStackFromSlot",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setCustomName(java.lang.String inventoryTitleIn)": {
+        "return type": "void",
+        "method name": "setCustomName",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "void setField(int id, int value)": {
+        "return type": "void",
+        "method name": "setField",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void setInventorySlotContents(int index, ItemStack stack)": {
+        "return type": "void",
+        "method name": "setInventorySlotContents",
+        "parameters": [
+            "int",
+            "ItemStack"
+        ]
+    }
+}

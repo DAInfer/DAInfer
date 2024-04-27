@@ -1,0 +1,1932 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getNodeName()"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node getLastChild()"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String getNodeName()"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getTagName()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getPrefix()"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String getPrefix()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getNodeName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Attr setAttributeNode(Attr newAttr)",
+            "Attr removeAttributeNode(Attr oldAttr)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String getLocalName()"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String getTextContent()"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "String getPrefix()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getLocalName()"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node getNextSibling()"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String getNodeName()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "String getAttribute(String name)",
+            "String getTextContent()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getBaseURI()"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String getTagName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node getNextSibling()"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getTextContent()"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getNodeName()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getLocalName()"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getBaseURI()"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "NodeList getElementsByTagName(String name)"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String getLocalName()"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getTagName()"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node getParentNode()"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Object getUserData(String key)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "String getLocalName()"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String getPrefix()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node getParentNode()"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getNodeValue()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "String getAttribute(String name)",
+            "String getPrefix()"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Attr setAttributeNodeNS(Attr newAttr)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String getTagName()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getTagName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getNodeName()"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getPrefix()"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String getNodeValue()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node getFirstChild()"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String getBaseURI()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Attr setAttributeNode(Attr newAttr)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node getNextSibling()"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String getLocalName()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getTagName()"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String getBaseURI()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String getNodeName()"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String getTagName()"
+        ],
+        [
+            "String getAttribute(String name)",
+            "String getLocalName()"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String getTextContent()"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "String getTagName()"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getLocalName()"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String getTextContent()"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String getBaseURI()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node getLastChild()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getNodeName()"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getBaseURI()"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String getBaseURI()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getBaseURI()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getBaseURI()"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Attr removeAttributeNode(Attr oldAttr)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node getFirstChild()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String getNodeName()"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String getPrefix()"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String getTextContent()"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String getTagName()"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node getNextSibling()"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "String getAttribute(String name)",
+            "String getTagName()"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "NamedNodeMap getAttributes()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Attr setAttributeNode(Attr newAttr)"
+        ],
+        [
+            "Attr setAttributeNodeNS(Attr newAttr)",
+            "Attr removeAttributeNode(Attr oldAttr)"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getTagName()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node getParentNode()"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getBaseURI()"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "String getAttribute(String name)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getNodeValue()"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getNodeValue()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node getFirstChild()"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String getLocalName()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getNodeName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node getFirstChild()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getNodeValue()"
+        ],
+        [
+            "void setIdAttributeNode(Attr idAttr, boolean isId)",
+            "Attr setAttributeNode(Attr newAttr)"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node getLastChild()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getNodeName()"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "Attr removeAttributeNode(Attr oldAttr)",
+            "Attr setAttributeNodeNS(Attr newAttr)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getTextContent()"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "NodeList getChildNodes()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Attr getAttributeNode(String name)"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node getFirstChild()"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getNodeName()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getTextContent()"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String getNodeName()"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String getNodeValue()"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String getBaseURI()"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String getLocalName()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node getNextSibling()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void setIdAttributeNode(Attr idAttr, boolean isId)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String getTagName()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)"
+        ],
+        [
+            "Attr setAttributeNodeNS(Attr newAttr)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getPrefix()"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String getNodeValue()"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Attr setAttributeNode(Attr newAttr)",
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getBaseURI()"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String getTextContent()"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String getNodeValue()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getPrefix()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node getParentNode()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String getNodeName()"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String getTextContent()"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String getBaseURI()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getNodeValue()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "String getAttribute(String name)",
+            "String getNodeName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getLocalName()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String getNodeValue()"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String getTagName()"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node getLastChild()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getNodeValue()"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "String getAttribute(String name)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getBaseURI()"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String getNodeValue()"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String getPrefix()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getLocalName()"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getTextContent()"
+        ],
+        [
+            "String getAttribute(String name)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Attr setAttributeNodeNS(Attr newAttr)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String getTextContent()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "Attr removeAttributeNode(Attr oldAttr)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getTextContent()"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getNodeValue()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getTextContent()"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String getPrefix()"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String getBaseURI()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getBaseURI()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node getParentNode()"
+        ],
+        [
+            "void setIdAttributeNode(Attr idAttr, boolean isId)",
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String getPrefix()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getTagName()"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String getLocalName()"
+        ],
+        [
+            "Attr setAttributeNode(Attr newAttr)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Attr setAttributeNode(Attr newAttr)",
+            "Attr getAttributeNode(String name)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getTextContent()"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getNodeName()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getBaseURI()"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node getLastChild()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getPrefix()"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String getBaseURI()"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String getPrefix()"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String getLocalName()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getTagName()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node getFirstChild()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getPrefix()"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "String getBaseURI()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getPrefix()"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String getNodeName()"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String getPrefix()"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String getNodeName()"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node getNextSibling()"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String getLocalName()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String getNodeValue()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setIdAttributeNode(Attr idAttr, boolean isId)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "Attr removeAttributeNode(Attr oldAttr)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node getNextSibling()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getLocalName()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getPrefix()"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String getTagName()"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String getLocalName()"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node getLastChild()"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node getParentNode()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getLocalName()"
+        ],
+        [
+            "String getAttribute(String name)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getLocalName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node getLastChild()"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String getBaseURI()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getNodeValue()"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "Attr setAttributeNodeNS(Attr newAttr)",
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String getTextContent()"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "String getAttribute(String name)",
+            "String getBaseURI()"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String getTagName()"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "String getNodeName()"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Attr setAttributeNodeNS(Attr newAttr)"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "void setIdAttributeNode(Attr idAttr, boolean isId)",
+            "Attr getAttributeNode(String name)"
+        ],
+        [
+            "String getAttribute(String name)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getBaseURI()"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node getLastChild()"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String getNodeValue()"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getLocalName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String getTagName()"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getTextContent()"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node getParentNode()"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "void setIdAttributeNode(Attr idAttr, boolean isId)",
+            "Attr setAttributeNodeNS(Attr newAttr)"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getTagName()"
+        ],
+        [
+            "Attr setAttributeNodeNS(Attr newAttr)",
+            "Attr setAttributeNode(Attr newAttr)"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String getTagName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Attr removeAttributeNode(Attr oldAttr)"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String getPrefix()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getTagName()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getTagName()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String getTextContent()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "TypeInfo getSchemaTypeInfo()"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getNodeValue()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getNodeName()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String getNodeValue()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node getParentNode()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getNodeValue()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node getFirstChild()"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getPrefix()"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getTextContent()"
+        ],
+        [
+            "void setIdAttributeNode(Attr idAttr, boolean isId)",
+            "Attr removeAttributeNode(Attr oldAttr)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getNodeName()"
+        ],
+        [
+            "Attr removeAttributeNode(Attr oldAttr)",
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getTagName()"
+        ],
+        [
+            "Attr setAttributeNode(Attr newAttr)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String getLocalName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "String getAttribute(String name)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "Attr setAttributeNodeNS(Attr newAttr)",
+            "Attr getAttributeNode(String name)"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node getNextSibling()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String getBaseURI()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "boolean hasAttribute(String name)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String getPrefix()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getNodeValue()"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String getTextContent()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String getNodeValue()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getTextContent()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "String getNodeValue()"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String getNodeName()"
+        ],
+        [
+            "void removeAttribute(String name)",
+            "String getLocalName()"
+        ],
+        [
+            "Attr removeAttributeNode(Attr oldAttr)",
+            "Attr setAttributeNode(Attr newAttr)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getPrefix()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String getAttributeNS(String namespaceURI, String localName)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getTextContent()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getAttribute(String name)"
+        ],
+        [
+            "NodeList getElementsByTagNameNS(String namespaceURI, String localName)",
+            "String getTextContent()"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String getNodeName()"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "void setAttribute(String name, String value)",
+            "String getLocalName()"
+        ],
+        [
+            "Attr getAttributeNodeNS(String namespaceURI, String localName)",
+            "String getBaseURI()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Document getOwnerDocument()"
+        ],
+        [
+            "String getAttributeNS(String namespaceURI, String localName)",
+            "String getTextContent()"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "String getTagName()"
+        ],
+        [
+            "Attr setAttributeNode(Attr newAttr)",
+            "Attr setAttributeNodeNS(Attr newAttr)"
+        ],
+        [
+            "boolean hasAttributeNS(String namespaceURI, String localName)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "void removeAttributeNS(String namespaceURI, String localName)",
+            "String getPrefix()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getPrefix()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node getFirstChild()"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String getNodeName()"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "String getNodeValue()"
+        ],
+        [
+            "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "void setIdAttribute(String name, boolean isId)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getLocalName()"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "void setIdAttributeNode(Attr idAttr, boolean isId)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "String getAttribute(String name)",
+            "String getNodeValue()"
+        ],
+        [
+            "NodeList getElementsByTagName(String name)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "String getAttribute(String name)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Attr removeAttributeNode(Attr oldAttr)",
+            "Attr getAttributeNode(String name)"
+        ],
+        [
+            "Attr getAttributeNode(String name)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "void setAttributeNS(String namespaceURI, String qualifiedName, String value)",
+            "String getNamespaceURI()"
+        ]
+    ]
+}

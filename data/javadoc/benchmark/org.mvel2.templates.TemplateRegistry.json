@@ -1,0 +1,12 @@
+{
+    "class": "TemplateRegistry",
+    "category": "Interface",
+    "methods": {
+        "void addNamedTemplate(String name, CompiledTemplate template)": "Adds a named template to the registry.",
+        "boolean contains(String name)": "Returns true if the registry contains a named template with the specified name.",
+        "CompiledTemplate getNamedTemplate(String name)": "Returns the named template with the specified name, or null if no such template exists.",
+        "Set<String> getNames()": "Returns a set of all the names of the named templates in the registry.",
+        "Iterator iterator()": "Returns an iterator over the named templates in the registry."
+    },
+    "super class": []
+}

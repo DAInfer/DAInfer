@@ -1,0 +1,940 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "HierarchyBoundsListener[] getHierarchyBoundsListeners()"
+        ],
+        [
+            "void paint(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setBounds(Rectangle r)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "FontMetrics getFontMetrics(Font font)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void addHierarchyBoundsListener(HierarchyBoundsListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void processHierarchyBoundsEvent(HierarchyEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Dimension getSize(Dimension rv)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, long oldValue, long newValue)",
+            "String paramString()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Locale getLocale()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Toolkit getToolkit()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "FocusListener[] getFocusListeners()"
+        ],
+        [
+            "void setDropTarget(DropTarget dt)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addMouseWheelListener(MouseWheelListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)",
+            "String getName()"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getSize()"
+        ],
+        [
+            "void processKeyEvent(KeyEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Dimension getSize(Dimension rv)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "void setBackground(Color c)",
+            "Color getBackground()"
+        ],
+        [
+            "Rectangle getBounds(Rectangle rv)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "KeyListener[] getKeyListeners()"
+        ],
+        [
+            "void addPropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, short oldValue, short newValue)",
+            "String getName()"
+        ],
+        [
+            "boolean isFocusCycleRoot(Container container)",
+            "Container getParent()"
+        ],
+        [
+            "boolean prepareImage(Image image, int width, int height, ImageObserver observer)",
+            "Object getTreeLock()"
+        ],
+        [
+            "boolean prepareImage(Image image, ImageObserver observer)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Point getLocation()"
+        ],
+        [
+            "void print(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addInputMethodListener(InputMethodListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "int checkImage(Image image, int width, int height, ImageObserver observer)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void processInputMethodEvent(InputMethodEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setFont(Font f)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void list(PrintStream out)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void processMouseWheelEvent(MouseWheelEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, boolean oldValue, boolean newValue)",
+            "String paramString()"
+        ],
+        [
+            "void list(PrintWriter out)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, float oldValue, float newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Image createImage(ImageProducer producer)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void printAll(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "ColorModel getColorModel()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "InputContext getInputContext()"
+        ],
+        [
+            "void addKeyListener(KeyListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addComponentListener(ComponentListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void addPropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String getName()"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Container getParent()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "PropertyChangeListener[] getPropertyChangeListeners()"
+        ],
+        [
+            "int checkImage(Image image, ImageObserver observer)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "boolean prepareImage(Image image, int width, int height, ImageObserver observer)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "boolean prepareImage(Image image, ImageObserver observer)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "MouseListener[] getMouseListeners()"
+        ],
+        [
+            "void list(PrintWriter out, int indent)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "T[] getListeners(Class listenerType)"
+        ],
+        [
+            "void removeFocusListener(FocusListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setBackground(Color c)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "VolatileImage createVolatileImage(int width, int height)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)",
+            "String paramString()"
+        ],
+        [
+            "void setComponentOrientation(ComponentOrientation o)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setBounds(Rectangle r)",
+            "Object getTreeLock()"
+        ],
+        [
+            "FontMetrics getFontMetrics(Font font)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void setFocusTraversalKeys(int id, Set keystrokes)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, short oldValue, short newValue)",
+            "String paramString()"
+        ],
+        [
+            "boolean imageUpdate(Image img, int infoflags, int x, int y, int w, int h)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void paintAll(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void setName(String name)",
+            "String paramString()"
+        ],
+        [
+            "void addPropertyChangeListener(PropertyChangeListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Dimension getSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Color getBackground()"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void dispatchEvent(AWTEvent e)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "void setName(String name)",
+            "String getName()"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "boolean isFocusCycleRoot(Container container)",
+            "Object getTreeLock()"
+        ],
+        [
+            "boolean imageUpdate(Image img, int infoflags, int x, int y, int w, int h)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void setFocusTraversalKeys(int id, Set keystrokes)",
+            "Set getFocusTraversalKeys(int id)"
+        ],
+        [
+            "void removeMouseWheelListener(MouseWheelListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "ComponentListener[] getComponentListeners()"
+        ],
+        [
+            "void add(PopupMenu popup)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void addPropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String paramString()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, int oldValue, int newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "InputMethodListener[] getInputMethodListeners()"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setDropTarget(DropTarget dt)",
+            "DropTarget getDropTarget()"
+        ],
+        [
+            "void update(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, byte oldValue, byte newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "boolean isFocusCycleRoot(Container container)",
+            "Container getFocusCycleRootAncestor()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, long oldValue, long newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void printAll(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void removeInputMethodListener(InputMethodListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "void setLocale(Locale l)",
+            "Locale getLocale()"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void list(PrintStream out, int indent)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void processEvent(AWTEvent e)",
+            "AWTEvent coalesceEvents(AWTEvent existingEvent, AWTEvent newEvent)"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setBounds(Rectangle r)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "void applyComponentOrientation(ComponentOrientation orientation)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "Dimension getSize(Dimension rv)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "void addFocusListener(FocusListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void removeComponentListener(ComponentListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setBackground(Color c)",
+            "Color getForeground()"
+        ],
+        [
+            "void addMouseMotionListener(MouseMotionListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Object getTreeLock()"
+        ],
+        [
+            "int checkImage(Image image, ImageObserver observer)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Color getForeground()"
+        ],
+        [
+            "void setForeground(Color c)",
+            "Color getBackground()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, float oldValue, float newValue)",
+            "String paramString()"
+        ],
+        [
+            "void setFont(Font f)",
+            "Font getFont()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "T[] getListeners(Class listenerType)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setName(String name)",
+            "Object getTreeLock()"
+        ],
+        [
+            "int checkImage(Image image, int width, int height, ImageObserver observer)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void paintAll(Graphics g)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, int oldValue, int newValue)",
+            "String getName()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Container getFocusCycleRootAncestor()"
+        ],
+        [
+            "void processMouseEvent(MouseEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, byte oldValue, byte newValue)",
+            "String getName()"
+        ],
+        [
+            "boolean prepareImage(Image image, int width, int height, ImageObserver observer)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "boolean prepareImage(Image image, ImageObserver observer)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, boolean oldValue, boolean newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void removePropertyChangeListener(PropertyChangeListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Dimension getSize(Dimension rv)",
+            "Dimension getSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, float oldValue, float newValue)",
+            "String getName()"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void removeHierarchyBoundsListener(HierarchyBoundsListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component getComponentAt(Point p)"
+        ],
+        [
+            "void removeHierarchyListener(HierarchyListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setCursor(Cursor cursor)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "MouseWheelListener[] getMouseWheelListeners()"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, char oldValue, char newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void addHierarchyListener(HierarchyListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, double oldValue, double newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getMinimumSize()"
+        ],
+        [
+            "int checkImage(Image image, ImageObserver observer)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "VolatileImage createVolatileImage(int width, int height, ImageCapabilities caps)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Point getLocation()"
+        ],
+        [
+            "void removePropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "Object getTreeLock()"
+        ],
+        [
+            "FontMetrics getFontMetrics(Font font)",
+            "Font getFont()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Image createImage(int width, int height)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "AccessibleContext getAccessibleContext()"
+        ],
+        [
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void dispatchEvent(AWTEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "String getName()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Set getFocusTraversalKeys(int id)"
+        ],
+        [
+            "Point getLocation(Point rv)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Point getMousePosition()"
+        ],
+        [
+            "int checkImage(Image image, int width, int height, ImageObserver observer)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Cursor getCursor()"
+        ],
+        [
+            "void setForeground(Color c)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void removeMouseMotionListener(MouseMotionListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "HierarchyListener[] getHierarchyListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component getComponentAt(int x, int y)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "PropertyChangeListener[] getPropertyChangeListeners(String propertyName)"
+        ],
+        [
+            "void processMouseMotionEvent(MouseEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getSize()"
+        ],
+        [
+            "void addMouseListener(MouseListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, char oldValue, char newValue)",
+            "String getName()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Rectangle getBounds(Rectangle rv)"
+        ],
+        [
+            "boolean imageUpdate(Image img, int infoflags, int x, int y, int w, int h)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getMousePosition()"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Point getMousePosition()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, int oldValue, int newValue)",
+            "String paramString()"
+        ],
+        [
+            "void setCursor(Cursor cursor)",
+            "Cursor getCursor()"
+        ],
+        [
+            "void paint(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void processEvent(AWTEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, double oldValue, double newValue)",
+            "String getName()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, byte oldValue, byte newValue)",
+            "String paramString()"
+        ],
+        [
+            "void removePropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String getName()"
+        ],
+        [
+            "void setComponentOrientation(ComponentOrientation o)",
+            "ComponentOrientation getComponentOrientation()"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void processFocusEvent(FocusEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void removeKeyListener(KeyListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Rectangle getBounds(Rectangle rv)",
+            "Rectangle getBounds()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, long oldValue, long newValue)",
+            "String getName()"
+        ],
+        [
+            "void setSize(Dimension d)",
+            "Dimension getPreferredSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Image createImage(ImageProducer producer)"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Point getLocationOnScreen()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "String paramString()"
+        ],
+        [
+            "void print(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "InputMethodRequests getInputMethodRequests()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "MouseMotionListener[] getMouseMotionListeners()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Font getFont()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "DropTarget getDropTarget()"
+        ],
+        [
+            "boolean contains(Point p)",
+            "Point getLocation()"
+        ],
+        [
+            "void update(Graphics g)",
+            "Graphics getGraphics()"
+        ],
+        [
+            "void setForeground(Color c)",
+            "Color getForeground()"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Point getLocation(Point rv)"
+        ],
+        [
+            "void remove(MenuComponent popup)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, char oldValue, char newValue)",
+            "String paramString()"
+        ],
+        [
+            "void setLocation(Point p)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void applyComponentOrientation(ComponentOrientation orientation)",
+            "Object getTreeLock()"
+        ],
+        [
+            "Dimension getSize(Dimension rv)",
+            "Dimension getMaximumSize()"
+        ],
+        [
+            "void processHierarchyEvent(HierarchyEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "GraphicsConfiguration getGraphicsConfiguration()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, short oldValue, short newValue)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void setLocale(Locale l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, double oldValue, double newValue)",
+            "String paramString()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, boolean oldValue, boolean newValue)",
+            "String getName()"
+        ],
+        [
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getSize()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Point getLocation()"
+        ],
+        [
+            "Component getComponentAt(Point p)",
+            "Point getLocation()"
+        ],
+        [
+            "void processComponentEvent(ComponentEvent e)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void removePropertyChangeListener(String propertyName, PropertyChangeListener listener)",
+            "String paramString()"
+        ],
+        [
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getSize(Dimension rv)"
+        ],
+        [
+            "void removeMouseListener(MouseListener l)",
+            "Object getTreeLock()"
+        ],
+        [
+            "void firePropertyChange(String propertyName, Object oldValue, Object newValue)",
+            "Component.BaselineResizeBehavior getBaselineResizeBehavior()"
+        ]
+    ]
+}

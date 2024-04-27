@@ -1,0 +1,44 @@
+{
+    "MapDifference difference(Map left, Map right, Equivalence valueEquivalence)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Map transformValues(Map fromMap, Function function)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Map filterEntries(Map unfiltered, Predicate entryPredicate)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "MapDifference difference(Map left, Map right)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Map filterValues(Map unfiltered, Predicate valuePredicate)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Map filterKeys(Map unfiltered, Predicate keyPredicate)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    }
+}

@@ -1,0 +1,3988 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "Integer getInteger(String key, Integer def)",
+            "Object remove(String key)"
+        ],
+        [
+            "void writeToBuffer(Buffer buffer)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "java.time.Instant getInstant(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Iterator iterator()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Iterator iterator()"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "JsonObject putNull(String key)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "Float getFloat(String key, Float def)",
+            "Object remove(String key)"
+        ],
+        [
+            "Long getLong(String key, Long def)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "Long getLong(String key, Long def)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject of()"
+        ],
+        [
+            "Buffer getBuffer(String key, Buffer def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "Object remove(String key)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "Number getNumber(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Iterator iterator()"
+        ],
+        [
+            "Number getNumber(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "Double getDouble(String key, Double def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "Number getNumber(String key, Number def)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "void writeToBuffer(Buffer buffer)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject clear()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "byte[] getBinary(String key, byte[] def)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Iterator iterator()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "Buffer getBuffer(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Long getLong(String key)"
+        ],
+        [
+            "java.time.Instant getInstant(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "T mapTo(Class type)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject copy()"
+        ],
+        [
+            "Object getValue(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "Long getLong(String key, Long def)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject of()"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "Number getNumber(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "String getString(String key, String def)",
+            "String encode()"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Object getValue(String key)"
+        ],
+        [
+            "Float getFloat(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonArray getJsonArray(String key, JsonArray def)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Iterator iterator()"
+        ],
+        [
+            "void writeToBuffer(Buffer buffer)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "Double getDouble(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject clear()"
+        ],
+        [
+            "Number getNumber(String key, Number def)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "String getString(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "java.time.Instant getInstant(String key, java.time.Instant def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "Integer getInteger(String key, Integer def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Object remove(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "Buffer getBuffer(String key, Buffer def)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "Boolean getBoolean(String key, Boolean def)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "Float getFloat(String key, Float def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "String encodePrettily()"
+        ],
+        [
+            "byte[] getBinary(String key)",
+            "String encode()"
+        ],
+        [
+            "JsonObject getJsonObject(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Map getMap()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Iterator iterator()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Iterator iterator()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "byte[] getBinary(String key, byte[] def)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject clear()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "Buffer getBuffer(String key, Buffer def)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject clear()"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Object remove(String key)"
+        ],
+        [
+            "Double getDouble(String key, Double def)",
+            "String getString(String key)"
+        ],
+        [
+            "boolean containsKey(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "Integer getInteger(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "Long getLong(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Map getMap()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "java.time.Instant getInstant(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject clear()"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "String getString(String key)"
+        ],
+        [
+            "Object getValue(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "Boolean getBoolean(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "Boolean getBoolean(String key, Boolean def)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "Long getLong(String key, Long def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Object remove(String key)"
+        ],
+        [
+            "void writeToBuffer(Buffer buffer)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "byte[] getBinary(String key, byte[] def)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "Long getLong(String key)",
+            "String encode()"
+        ],
+        [
+            "java.time.Instant getInstant(String key, java.time.Instant def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "Buffer getBuffer(String key)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "Buffer getBuffer(String key, Buffer def)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "Double getDouble(String key, Double def)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Set fieldNames()"
+        ],
+        [
+            "Number getNumber(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "java.time.Instant getInstant(String key, java.time.Instant def)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Set fieldNames()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "String encode()"
+        ],
+        [
+            "Boolean getBoolean(String key, Boolean def)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "String encode()"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "Integer getInteger(String key, Integer def)",
+            "String encode()"
+        ],
+        [
+            "Number getNumber(String key, Number def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject putNull(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject getJsonObject(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject putNull(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonArray getJsonArray(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "Float getFloat(String key, Float def)",
+            "String encode()"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "Number getNumber(String key, Number def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "Object remove(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "Object remove(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject copy()"
+        ],
+        [
+            "Float getFloat(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "boolean containsKey(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "Integer getInteger(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "Boolean getBoolean(String key, Boolean def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "int readFromBuffer(int pos, Buffer buffer)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonArray getJsonArray(String key)",
+            "String encode()"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "Double getDouble(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "int readFromBuffer(int pos, Buffer buffer)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject putNull(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "Boolean getBoolean(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Set fieldNames()"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "String getString(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject getJsonObject(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "Buffer getBuffer(String key, Buffer def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "Object getValue(String key)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "String getString(String key, String def)",
+            "String encodePrettily()"
+        ],
+        [
+            "String getString(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "JsonArray getJsonArray(String key, JsonArray def)",
+            "String encodePrettily()"
+        ],
+        [
+            "Long getLong(String key, Long def)",
+            "String encode()"
+        ],
+        [
+            "String getString(String key, String def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "JsonArray getJsonArray(String key, JsonArray def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "Double getDouble(String key, Double def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "Double getDouble(String key)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Set fieldNames()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Set fieldNames()"
+        ],
+        [
+            "byte[] getBinary(String key, byte[] def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "boolean containsKey(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "Integer getInteger(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "String encode()"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "byte[] getBinary(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "byte[] getBinary(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Set fieldNames()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "Boolean getBoolean(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject clear()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject copy()"
+        ],
+        [
+            "Float getFloat(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Iterator iterator()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject clear()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Object getValue(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Set fieldNames()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "String encode()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Set fieldNames()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "byte[] getBinary(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Map getMap()"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Iterator iterator()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "Number getNumber(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "Boolean getBoolean(String key, Boolean def)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Set fieldNames()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject clear()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "Number getNumber(String key, Number def)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject clear()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "Long getLong(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject copy()"
+        ],
+        [
+            "Buffer getBuffer(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "Object remove(String key)"
+        ],
+        [
+            "Buffer getBuffer(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "boolean containsKey(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "Number getNumber(String key, Number def)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "Integer getInteger(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject putNull(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "Double getDouble(String key, Double def)",
+            "String encode()"
+        ],
+        [
+            "T mapTo(Class type)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "Object remove(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Set fieldNames()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Set fieldNames()"
+        ],
+        [
+            "Boolean getBoolean(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "java.time.Instant getInstant(String key, java.time.Instant def)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "Float getFloat(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "String encodePrettily()"
+        ],
+        [
+            "Integer getInteger(String key, Integer def)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "Integer getInteger(String key, Integer def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonArray getJsonArray(String key, JsonArray def)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "Long getLong(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "String getString(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "Float getFloat(String key, Float def)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject clear()"
+        ],
+        [
+            "Float getFloat(String key, Float def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject clear()"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "java.time.Instant getInstant(String key, java.time.Instant def)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject clear()"
+        ],
+        [
+            "int readFromBuffer(int pos, Buffer buffer)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "Float getFloat(String key)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonArray getJsonArray(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Map getMap()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "Number getNumber(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "java.time.Instant getInstant(String key, java.time.Instant def)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Map getMap()"
+        ],
+        [
+            "String getString(String key, String def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonArray getJsonArray(String key, JsonArray def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "byte[] getBinary(String key, byte[] def)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "String encodePrettily()"
+        ],
+        [
+            "int readFromBuffer(int pos, Buffer buffer)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "Float getFloat(String key, Float def)",
+            "String getString(String key)"
+        ],
+        [
+            "java.time.Instant getInstant(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "java.time.Instant getInstant(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "Long getLong(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "Object getValue(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key)",
+            "String encode()"
+        ],
+        [
+            "T mapTo(Class type)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject of()"
+        ],
+        [
+            "Long getLong(String key, Long def)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "Long getLong(String key, Long def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "byte[] getBinary(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "Double getDouble(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "JsonArray getJsonArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "boolean containsKey(String key)",
+            "String encode()"
+        ],
+        [
+            "java.time.Instant getInstant(String key)",
+            "String encode()"
+        ],
+        [
+            "int readFromBuffer(int pos, Buffer buffer)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "Object remove(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Map getMap()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "Object getValue(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "Boolean getBoolean(String key)",
+            "String encode()"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Long getLong(String key, Long def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "T mapTo(Class type)"
+        ],
+        [
+            "Double getDouble(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "Integer getInteger(String key, Integer def)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "byte[] getBinary(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Map getMap()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Map getMap()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "byte[] getBinary(String key, byte[] def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "Float getFloat(String key, Float def)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "Number getNumber(String key, Number def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "Long getLong(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject putNull(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonArray getJsonArray(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonArray getJsonArray(String key, JsonArray def)"
+        ],
+        [
+            "Buffer getBuffer(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "String getString(String key, String def)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonArray getJsonArray(String key, JsonArray def)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Map getMap()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "Long getLong(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "void writeToBuffer(Buffer buffer)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "Boolean getBoolean(String key, Boolean def)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "Boolean getBoolean(String key, Boolean def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Iterator iterator()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject clear()"
+        ],
+        [
+            "Number getNumber(String key)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "void writeToBuffer(Buffer buffer)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "Number getNumber(String key, Number def)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "Buffer getBuffer(String key, Buffer def)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "java.time.Instant getInstant(String key, java.time.Instant def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Map getMap()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Float getFloat(String key, Float def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "String encode()"
+        ],
+        [
+            "Buffer getBuffer(String key, Buffer def)",
+            "String encodePrettily()"
+        ],
+        [
+            "Integer getInteger(String key, Integer def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "String getString(String key)"
+        ],
+        [
+            "int readFromBuffer(int pos, Buffer buffer)",
+            "Object remove(String key)"
+        ],
+        [
+            "Buffer getBuffer(String key, Buffer def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "String getString(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "Double getDouble(String key, Double def)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "java.util.stream.Stream stream()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Long getLong(String key)"
+        ],
+        [
+            "Float getFloat(String key, Float def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Buffer toBuffer()"
+        ],
+        [
+            "Double getDouble(String key, Double def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Map getMap()"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Set fieldNames()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "String getString(String key, String def)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonArray getJsonArray(String key, JsonArray def)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "Buffer getBuffer(String key, Buffer def)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonArray getJsonArray(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Integer getInteger(String key, Integer def)"
+        ],
+        [
+            "String getString(String key)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject getJsonObject(String key)"
+        ],
+        [
+            "byte[] getBinary(String key, byte[] def)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject clear()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject mapFrom(Object obj)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject putNull(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonArray getJsonArray(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "Float getFloat(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject putNull(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "byte[] getBinary(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Set fieldNames()"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "java.time.Instant getInstant(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Map getMap()"
+        ],
+        [
+            "Object remove(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Map getMap()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "String encode()"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "Object getValue(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "Long getLong(String key, Long def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "Number getNumber(String key)"
+        ],
+        [
+            "Buffer getBuffer(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "Iterator iterator()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Buffer getBuffer(String key)"
+        ],
+        [
+            "byte[] getBinary(String key, byte[] def)",
+            "String encode()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Iterator iterator()"
+        ],
+        [
+            "Double getDouble(String key)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "java.time.Instant getInstant(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject copy()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)"
+        ],
+        [
+            "JsonObject getJsonObject(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "Double getDouble(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject getJsonObject(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other)",
+            "JsonObject put(String key, Object value)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject put(String key, Object value)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject clear()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "Float getFloat(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Double getDouble(String key, Double def)"
+        ],
+        [
+            "Integer getInteger(String key, Integer def)",
+            "String getString(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "byte[] getBinary(String key, byte[] def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "Long getLong(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "JsonArray getJsonArray(String key, JsonArray def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Number getNumber(String key, Number def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "boolean containsKey(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "java.time.Instant getInstant(String key, java.time.Instant def)"
+        ],
+        [
+            "Integer getInteger(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "Boolean getBoolean(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "boolean containsKey(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "Integer getInteger(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject mergeIn(JsonObject other)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonArray getJsonArray(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject of()"
+        ],
+        [
+            "Buffer getBuffer(String key)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "JsonObject mergeIn(JsonObject other, int depth)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "JsonObject getJsonObject(String key, JsonObject def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject of()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "Iterator iterator()"
+        ],
+        [
+            "Boolean getBoolean(String key)",
+            "String encodePrettily()"
+        ],
+        [
+            "Boolean getBoolean(String key)",
+            "Object getValue(String key)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Float getFloat(String key)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)"
+        ],
+        [
+            "byte[] getBinary(String key)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)",
+            "Buffer getBuffer(String key, Buffer def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)",
+            "Boolean getBoolean(String key, Boolean def)"
+        ],
+        [
+            "Object getValue(String key, Object def)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, boolean deep)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2)",
+            "Integer getInteger(String key)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)",
+            "JsonObject clear()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)",
+            "JsonObject clear()"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)",
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)",
+            "JsonObject of(String k1, Object v1)"
+        ],
+        [
+            "JsonObject mapFrom(Object obj)",
+            "String getString(String key, String def)"
+        ],
+        [
+            "Integer getInteger(String key)",
+            "String encode()"
+        ],
+        [
+            "Boolean getBoolean(String key, Boolean def)",
+            "Object getValue(String key, Object def)"
+        ],
+        [
+            "java.time.Instant getInstant(String key, java.time.Instant def)",
+            "Object remove(String key)"
+        ],
+        [
+            "JsonObject mergeIn(JsonObject other, int depth)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "Double getDouble(String key, Double def)",
+            "Double getDouble(String key)"
+        ],
+        [
+            "JsonObject getJsonObject(String key, JsonObject def)",
+            "JsonObject mergeIn(JsonObject other, boolean deep)"
+        ],
+        [
+            "JsonObject of(String k1, Object v1)",
+            "JsonArray getJsonArray(String key)"
+        ]
+    ]
+}

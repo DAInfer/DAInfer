@@ -1,0 +1,21 @@
+{
+    "class": "XMLReader",
+    "category": "Interface",
+    "methods": {
+        "ContentHandler getContentHandler()": "Return the current content handler.",
+        "DTDHandler getDTDHandler()": "Return the current DTD handler.",
+        "EntityResolver getEntityResolver()": "Return the current entity resolver.",
+        "ErrorHandler getErrorHandler()": "Return the current error handler.",
+        "boolean getFeature(String name)": "Look up the value of a feature flag.",
+        "Object getProperty(String name)": "Look up the value of a property.",
+        "void parse(InputSource input)": "Parse an XML document.",
+        "void parse(String systemId)": "Parse an XML document from a system identifier (URI).",
+        "void setContentHandler(ContentHandler handler)": "Allow an application to register a content event handler.",
+        "void setDTDHandler(DTDHandler handler)": "Allow an application to register a DTD event handler.",
+        "void setEntityResolver(EntityResolver resolver)": "Allow an application to register an entity resolver.",
+        "void setErrorHandler(ErrorHandler handler)": "Allow an application to register an error event handler.",
+        "void setFeature(String name, boolean value)": "Set the value of a feature flag.",
+        "void setProperty(String name, Object value)": "Set the value of a property."
+    },
+    "super class": []
+}

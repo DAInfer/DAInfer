@@ -1,0 +1,17 @@
+{
+    "class": "BaseJsonNode",
+    "category": "Class",
+    "methods": {
+        "com.fasterxml.jackson.core.JsonToken asToken()": "Method that can be used for efficient type detection when using stream abstraction for traversing nodes.",
+        "JsonNode findPath(String fieldName)": "Method similar to JsonNode.findValue(java.lang.String), but that will return a \"missing node\" instead of null if no field is found.",
+        "com.fasterxml.jackson.core.JsonParser.NumberType numberType()": "Returns code that identifies type of underlying numeric value, if (and only if) node is a number node.",
+        "void serialize(com.fasterxml.jackson.core.JsonGenerator jgen, SerializerProvider provider)": "Method called to serialize node instances using given generator.",
+        "void serializeWithType(com.fasterxml.jackson.core.JsonGenerator jgen, SerializerProvider provider, TypeSerializer typeSer)": "Type information is needed, even if JsonNode instances are \"plain\" JSON, since they may be mixed with other types.",
+        "com.fasterxml.jackson.core.JsonParser traverse()": "",
+        "com.fasterxml.jackson.core.JsonParser traverse(com.fasterxml.jackson.core.ObjectCodec codec)": ""
+    },
+    "super class": [
+        "com.fasterxml.jackson.databind.JsonNode",
+        "com.fasterxml.jackson.databind.JsonSerializable.Base"
+    ]
+}

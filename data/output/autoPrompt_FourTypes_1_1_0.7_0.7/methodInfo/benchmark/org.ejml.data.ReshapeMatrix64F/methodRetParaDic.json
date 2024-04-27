@@ -1,0 +1,61 @@
+{
+    "int getNumCols()": {
+        "return type": "int",
+        "method name": "getNumCols",
+        "parameters": []
+    },
+    "int getNumRows()": {
+        "return type": "int",
+        "method name": "getNumRows",
+        "parameters": []
+    },
+    "MatrixIterator iterator(boolean rowMajor, int minRow, int minCol, int maxRow, int maxCol)": {
+        "return type": "MatrixIterator",
+        "method name": "iterator",
+        "parameters": [
+            "boolean",
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "void reshape(int numRows, int numCols)": {
+        "return type": "void",
+        "method name": "reshape",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void reshape(int numRows, int numCols, boolean saveValues)": {
+        "return type": "void",
+        "method name": "reshape",
+        "parameters": [
+            "int",
+            "int",
+            "boolean"
+        ]
+    },
+    "void set(ReshapeMatrix64F A)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "ReshapeMatrix64F"
+        ]
+    },
+    "void setNumCols(int numCols)": {
+        "return type": "void",
+        "method name": "setNumCols",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setNumRows(int numRows)": {
+        "return type": "void",
+        "method name": "setNumRows",
+        "parameters": [
+            "int"
+        ]
+    }
+}

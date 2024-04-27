@@ -1,0 +1,1176 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void putParcelableArray(String key, Parcelable[] value)",
+            "String getString(String key)"
+        ],
+        [
+            "byte[] getByteArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "ArrayList getIntegerArrayList(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putCharArray(String key, char[] value)",
+            "String getString(String key)"
+        ],
+        [
+            "boolean getBoolean(String key, boolean defaultValue)",
+            "Object get(String key)"
+        ],
+        [
+            "long getLong(String key, long defaultValue)",
+            "Object get(String key)"
+        ],
+        [
+            "void setClassLoader(ClassLoader loader)",
+            "ClassLoader getClassLoader()"
+        ],
+        [
+            "void putChar(String key, char value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putIntArray(String key, int[] value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putParcelableArray(String key, Parcelable[] value)",
+            "Parcelable[] getParcelableArray(String key)"
+        ],
+        [
+            "double getDouble(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putInt(String key, int value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putBooleanArray(String key, boolean[] value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putFloatArray(String key, float[] value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "int getInt(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "char[] getCharArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "boolean getBoolean(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putSize(String key, Size value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putStringArrayList(String key, ArrayList value)",
+            "Object get(String key)"
+        ],
+        [
+            "int getInt(String key, int defaultValue)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "IBinder getBinder(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "byte[] getByteArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "Byte getByte(String key, byte defaultValue)",
+            "Object get(String key)"
+        ],
+        [
+            "void putBinder(String key, IBinder value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putBundle(String key, Bundle value)",
+            "Object get(String key)"
+        ],
+        [
+            "int[] getIntArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putLong(String key, long value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putShortArray(String key, short[] value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putParcelableArrayList(String key, ArrayList value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putIntegerArrayList(String key, ArrayList value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "CharSequence getCharSequence(String key, CharSequence defaultValue)",
+            "String getString(String key)"
+        ],
+        [
+            "float getFloat(String key, float defaultValue)",
+            "String getString(String key)"
+        ],
+        [
+            "float[] getFloatArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "float getFloat(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putFloat(String key, float value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putSparseParcelableArray(String key, SparseArray value)",
+            "String getString(String key)"
+        ],
+        [
+            "T[] getParcelableArray(String key, Class clazz)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putStringArrayList(String key, ArrayList value)",
+            "ArrayList getParcelableArrayList(String key)"
+        ],
+        [
+            "void putParcelableArray(String key, Parcelable[] value)",
+            "Object get(String key)"
+        ],
+        [
+            "void writeToParcel(Parcel parcel, int flags)",
+            "Object get(String key)"
+        ],
+        [
+            "Size getSize(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "boolean containsKey(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putDouble(String key, double value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putInt(String key, int value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putIntegerArrayList(String key, ArrayList value)",
+            "ArrayList getCharSequenceArrayList(String key)"
+        ],
+        [
+            "SizeF getSizeF(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "T getParcelable(String key, Class clazz)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "ArrayList getParcelableArrayList(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putIntegerArrayList(String key, ArrayList value)",
+            "ArrayList getParcelableArrayList(String key, Class clazz)"
+        ],
+        [
+            "String[] getStringArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "T getParcelable(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putBoolean(String key, boolean value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "CharSequence getCharSequence(String key, CharSequence defaultValue)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "ArrayList getIntegerArrayList(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "float getFloat(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "char getChar(String key, char defaultValue)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "double getDouble(String key, double defaultValue)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "char getChar(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "Size getSize(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "SparseArray getSparseParcelableArray(String key, Class clazz)",
+            "Object get(String key)"
+        ],
+        [
+            "boolean[] getBooleanArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putParcelableArrayList(String key, ArrayList value)",
+            "ArrayList getStringArrayList(String key)"
+        ],
+        [
+            "int[] getIntArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putCharSequence(String key, CharSequence value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putAll(Bundle bundle)",
+            "Object get(String key)"
+        ],
+        [
+            "void putIntArray(String key, int[] value)",
+            "String getString(String key)"
+        ],
+        [
+            "SizeF getSizeF(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "ArrayList getStringArrayList(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "CharSequence getCharSequence(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "float[] getFloatArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putSparseParcelableArray(String key, SparseArray value)",
+            "Object get(String key)"
+        ],
+        [
+            "Object get(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putFloatArray(String key, float[] value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putCharSequenceArray(String key, CharSequence[] value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putParcelableArrayList(String key, ArrayList value)",
+            "ArrayList getIntegerArrayList(String key)"
+        ],
+        [
+            "short getShort(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void remove(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "int getInt(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "boolean getBoolean(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "double[] getDoubleArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "int getInt(String key, int defaultValue)",
+            "String getString(String key)"
+        ],
+        [
+            "void putBinder(String key, IBinder value)",
+            "String getString(String key)"
+        ],
+        [
+            "long[] getLongArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "long getLong(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putBundle(String key, Bundle value)",
+            "Bundle deepCopy()"
+        ],
+        [
+            "void putSerializable(String key, Serializable value)",
+            "Serializable getSerializable(String key)"
+        ],
+        [
+            "void putIntegerArrayList(String key, ArrayList value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putParcelableArrayList(String key, ArrayList value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putString(String key, String value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putCharSequenceArray(String key, CharSequence[] value)",
+            "CharSequence[] getCharSequenceArray(String key)"
+        ],
+        [
+            "short getShort(String key, short defaultValue)",
+            "Object get(String key)"
+        ],
+        [
+            "T[] getParcelableArray(String key, Class clazz)",
+            "String getString(String key)"
+        ],
+        [
+            "void putCharSequence(String key, CharSequence value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putSizeF(String key, SizeF value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "boolean containsKey(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "ArrayList getIntegerArrayList(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putParcelable(String key, Parcelable value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putCharSequenceArray(String key, CharSequence[] value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "short getShort(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putBundle(String key, Bundle value)",
+            "Bundle getBundle(String key)"
+        ],
+        [
+            "void putShort(String key, short value)",
+            "Object get(String key)"
+        ],
+        [
+            "T getParcelable(String key, Class clazz)",
+            "String getString(String key)"
+        ],
+        [
+            "byte getByte(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "SparseArray getSparseParcelableArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "short[] getShortArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putIntArray(String key, int[] value)",
+            "int[] getIntArray(String key)"
+        ],
+        [
+            "void putDoubleArray(String key, double[] value)",
+            "double[] getDoubleArray(String key)"
+        ],
+        [
+            "void putBoolean(String key, boolean value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putCharSequence(String key, CharSequence value)",
+            "CharSequence getCharSequence(String key, CharSequence defaultValue)"
+        ],
+        [
+            "void putFloatArray(String key, float[] value)",
+            "Object get(String key)"
+        ],
+        [
+            "Bundle getBundle(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayList(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "char getChar(String key, char defaultValue)",
+            "String getString(String key)"
+        ],
+        [
+            "boolean getBoolean(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "double getDouble(String key, double defaultValue)",
+            "String getString(String key)"
+        ],
+        [
+            "char getChar(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putByteArray(String key, byte[] value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "byte[] getByteArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "Serializable getSerializable(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putCharArray(String key, char[] value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putParcelableArrayList(String key, ArrayList value)",
+            "ArrayList getCharSequenceArrayList(String key)"
+        ],
+        [
+            "String getString(String key, String defaultValue)",
+            "Object get(String key)"
+        ],
+        [
+            "boolean[] getBooleanArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putStringArray(String key, String[] value)",
+            "String[] getStringArray(String key)"
+        ],
+        [
+            "ArrayList getStringArrayList(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putIntegerArrayList(String key, ArrayList value)",
+            "Object get(String key)"
+        ],
+        [
+            "Object get(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "String getString(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putParcelableArrayList(String key, ArrayList value)",
+            "ArrayList getParcelableArrayList(String key, Class clazz)"
+        ],
+        [
+            "double[] getDoubleArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "double getDouble(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putInt(String key, int value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putBooleanArray(String key, boolean[] value)",
+            "Object get(String key)"
+        ],
+        [
+            "Bundle getBundle(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "char[] getCharArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putIntegerArrayList(String key, ArrayList value)",
+            "ArrayList getParcelableArrayList(String key)"
+        ],
+        [
+            "long[] getLongArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "long getLong(String key, long defaultValue)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "T getSerializable(String key, Class clazz)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putLong(String key, long value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putCharSequenceArrayList(String key, ArrayList value)",
+            "ArrayList getStringArrayList(String key)"
+        ],
+        [
+            "void putShortArray(String key, short[] value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putSizeF(String key, SizeF value)",
+            "String getString(String key)"
+        ],
+        [
+            "CharSequence getCharSequence(String key, CharSequence defaultValue)",
+            "Object get(String key)"
+        ],
+        [
+            "float getFloat(String key, float defaultValue)",
+            "Object get(String key)"
+        ],
+        [
+            "void putFloat(String key, float value)",
+            "Object get(String key)"
+        ],
+        [
+            "float getFloat(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putParcelable(String key, Parcelable value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putSerializable(String key, Serializable value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "IBinder getBinder(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "char getChar(String key, char defaultValue)",
+            "Object get(String key)"
+        ],
+        [
+            "void putBundle(String key, Bundle value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putSize(String key, Size value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "Size getSize(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putCharSequenceArrayList(String key, ArrayList value)",
+            "ArrayList getIntegerArrayList(String key)"
+        ],
+        [
+            "byte getByte(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "short[] getShortArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "SizeF getSizeF(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putSize(String key, Size value)",
+            "Size getSize(String key)"
+        ],
+        [
+            "void putDouble(String key, double value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayList(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putByte(String key, byte value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putShortArray(String key, short[] value)",
+            "short[] getShortArray(String key)"
+        ],
+        [
+            "void putByteArray(String key, byte[] value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putDoubleArray(String key, double[] value)",
+            "String getString(String key)"
+        ],
+        [
+            "Serializable getSerializable(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putStringArray(String key, String[] value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void readFromParcel(Parcel parcel)",
+            "Object get(String key)"
+        ],
+        [
+            "long[] getLongArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "Parcelable[] getParcelableArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "String getString(String key, String defaultValue)",
+            "String getString(String key)"
+        ],
+        [
+            "ArrayList getParcelableArrayList(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "String[] getStringArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "T getParcelable(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putCharSequence(String key, CharSequence value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putBinder(String key, IBinder value)",
+            "IBinder getBinder(String key)"
+        ],
+        [
+            "void putStringArrayList(String key, ArrayList value)",
+            "ArrayList getStringArrayList(String key)"
+        ],
+        [
+            "void putSizeF(String key, SizeF value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putIntArray(String key, int[] value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putParcelable(String key, Parcelable value)",
+            "Object get(String key)"
+        ],
+        [
+            "SparseArray getSparseParcelableArray(String key, Class clazz)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putCharSequenceArray(String key, CharSequence[] value)",
+            "Object get(String key)"
+        ],
+        [
+            "short getShort(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putCharSequenceArrayList(String key, ArrayList value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "int getInt(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "long getLong(String key, long defaultValue)",
+            "String getString(String key)"
+        ],
+        [
+            "void putByte(String key, byte value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putStringArrayList(String key, ArrayList value)",
+            "ArrayList getIntegerArrayList(String key)"
+        ],
+        [
+            "T getSerializable(String key, Class clazz)",
+            "String getString(String key)"
+        ],
+        [
+            "int getInt(String key, int defaultValue)",
+            "Object get(String key)"
+        ],
+        [
+            "byte getByte(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "CharSequence getCharSequence(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putDoubleArray(String key, double[] value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "short[] getShortArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putBinder(String key, IBinder value)",
+            "Object get(String key)"
+        ],
+        [
+            "ArrayList getParcelableArrayList(String key, Class clazz)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "Parcelable[] getParcelableArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void remove(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putAll(PersistableBundle bundle)",
+            "Object get(String key)"
+        ],
+        [
+            "void putLongArray(String key, long[] value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putParcelableArrayList(String key, ArrayList value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putSerializable(String key, Serializable value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putAll(Bundle bundle)",
+            "Bundle deepCopy()"
+        ],
+        [
+            "void putSize(String key, Size value)",
+            "String getString(String key)"
+        ],
+        [
+            "IBinder getBinder(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putByteArray(String key, byte[] value)",
+            "byte[] getByteArray(String key)"
+        ],
+        [
+            "T[] getParcelableArray(String key, Class clazz)",
+            "Object get(String key)"
+        ],
+        [
+            "void putBundle(String key, Bundle value)",
+            "String getString(String key)"
+        ],
+        [
+            "boolean containsKey(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "boolean getBoolean(String key, boolean defaultValue)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "long getLong(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putCharSequenceArrayList(String key, ArrayList value)",
+            "ArrayList getParcelableArrayList(String key, Class clazz)"
+        ],
+        [
+            "void putString(String key, String value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putParcelableArrayList(String key, ArrayList value)",
+            "ArrayList getParcelableArrayList(String key)"
+        ],
+        [
+            "String getString(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "short getShort(String key, short defaultValue)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "T getParcelable(String key, Class clazz)",
+            "Object get(String key)"
+        ],
+        [
+            "void putChar(String key, char value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putDouble(String key, double value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putAll(Bundle bundle)",
+            "Bundle getBundle(String key)"
+        ],
+        [
+            "void putBoolean(String key, boolean value)",
+            "Object get(String key)"
+        ],
+        [
+            "CharSequence[] getCharSequenceArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putStringArray(String key, String[] value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putShort(String key, short value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "Bundle getBundle(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putSparseParcelableArray(String key, SparseArray value)",
+            "SparseArray getSparseParcelableArray(String key)"
+        ],
+        [
+            "void putStringArrayList(String key, ArrayList value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putBooleanArray(String key, boolean[] value)",
+            "boolean[] getBooleanArray(String key)"
+        ],
+        [
+            "void putCharArray(String key, char[] value)",
+            "char[] getCharArray(String key)"
+        ],
+        [
+            "Byte getByte(String key, byte defaultValue)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "SparseArray getSparseParcelableArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "char getChar(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "ArrayList getParcelableArrayList(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "T getSerializable(String key, Class clazz)",
+            "Object get(String key)"
+        ],
+        [
+            "double getDouble(String key, double defaultValue)",
+            "Object get(String key)"
+        ],
+        [
+            "boolean[] getBooleanArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "T getParcelable(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "String[] getStringArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putStringArrayList(String key, ArrayList value)",
+            "ArrayList getCharSequenceArrayList(String key)"
+        ],
+        [
+            "ArrayList getStringArrayList(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putSerializable(String key, Serializable value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putParcelableArray(String key, Parcelable[] value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "SparseArray getSparseParcelableArray(String key, Class clazz)",
+            "String getString(String key)"
+        ],
+        [
+            "void putCharSequenceArrayList(String key, ArrayList value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putCharArray(String key, char[] value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putSizeF(String key, SizeF value)",
+            "SizeF getSizeF(String key)"
+        ],
+        [
+            "double[] getDoubleArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putStringArrayList(String key, ArrayList value)",
+            "ArrayList getParcelableArrayList(String key, Class clazz)"
+        ],
+        [
+            "CharSequence getCharSequence(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putLongArray(String key, long[] value)",
+            "String getString(String key)"
+        ],
+        [
+            "ArrayList getParcelableArrayList(String key, Class clazz)",
+            "String getString(String key)"
+        ],
+        [
+            "void remove(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putFloatArray(String key, float[] value)",
+            "float[] getFloatArray(String key)"
+        ],
+        [
+            "CharSequence getCharSequence(String key, CharSequence defaultValue)",
+            "CharSequence getCharSequence(String key)"
+        ],
+        [
+            "double getDouble(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putBooleanArray(String key, boolean[] value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "boolean getBoolean(String key, boolean defaultValue)",
+            "String getString(String key)"
+        ],
+        [
+            "char[] getCharArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putStringArray(String key, String[] value)",
+            "Object get(String key)"
+        ],
+        [
+            "long getLong(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putString(String key, String value)",
+            "String getString(String key)"
+        ],
+        [
+            "int[] getIntArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "short getShort(String key, short defaultValue)",
+            "String getString(String key)"
+        ],
+        [
+            "void setClassLoader(ClassLoader loader)",
+            "Object get(String key)"
+        ],
+        [
+            "void putLong(String key, long value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putChar(String key, char value)",
+            "String getString(String key)"
+        ],
+        [
+            "void putShortArray(String key, short[] value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "float[] getFloatArray(String key)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "float getFloat(String key, float defaultValue)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putFloat(String key, float value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putSparseParcelableArray(String key, SparseArray value)",
+            "String getString(String key, String defaultValue)"
+        ],
+        [
+            "void putCharSequenceArrayList(String key, ArrayList value)",
+            "ArrayList getCharSequenceArrayList(String key)"
+        ],
+        [
+            "void putSparseParcelableArray(String key, SparseArray value)",
+            "SparseArray getSparseParcelableArray(String key, Class clazz)"
+        ],
+        [
+            "void putLongArray(String key, long[] value)",
+            "long[] getLongArray(String key)"
+        ],
+        [
+            "void putCharSequenceArrayList(String key, ArrayList value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putShort(String key, short value)",
+            "String getString(String key)"
+        ],
+        [
+            "ArrayList getCharSequenceArrayList(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putIntegerArrayList(String key, ArrayList value)",
+            "ArrayList getStringArrayList(String key)"
+        ],
+        [
+            "void putStringArrayList(String key, ArrayList value)",
+            "String getString(String key)"
+        ],
+        [
+            "Byte getByte(String key, byte defaultValue)",
+            "String getString(String key)"
+        ],
+        [
+            "SparseArray getSparseParcelableArray(String key)",
+            "String getString(String key)"
+        ],
+        [
+            "void putByte(String key, byte value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putByteArray(String key, byte[] value)",
+            "Object get(String key)"
+        ],
+        [
+            "void putDoubleArray(String key, double[] value)",
+            "Object get(String key)"
+        ],
+        [
+            "Serializable getSerializable(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putLongArray(String key, long[] value)",
+            "Object get(String key)"
+        ],
+        [
+            "ArrayList getParcelableArrayList(String key, Class clazz)",
+            "Object get(String key)"
+        ],
+        [
+            "Parcelable[] getParcelableArray(String key)",
+            "Object get(String key)"
+        ],
+        [
+            "void putCharSequence(String key, CharSequence value)",
+            "CharSequence getCharSequence(String key)"
+        ],
+        [
+            "void putIntegerArrayList(String key, ArrayList value)",
+            "ArrayList getIntegerArrayList(String key)"
+        ],
+        [
+            "void putCharSequenceArrayList(String key, ArrayList value)",
+            "ArrayList getParcelableArrayList(String key)"
+        ]
+    ]
+}

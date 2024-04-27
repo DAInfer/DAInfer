@@ -1,0 +1,33 @@
+{
+    "class": "TableItem",
+    "category": "Class",
+    "methods": {
+        "void checkSubclass()": "Checks that this class can be subclassed.",
+        "Color getBackground()": "Returns the receiver's background color.",
+        "Rectangle getBounds(int index)": "Returns a rectangle describing the receiver's size and location relative to its parent at a column in the table.",
+        "boolean getChecked()": "Returns true if the receiver is checked, and false otherwise.",
+        "Display getDisplay()": "Returns the Display that is associated with the receiver.",
+        "Color getForeground()": "Returns the foreground color that the receiver will use to draw.",
+        "boolean getGrayed()": "Returns true if the receiver is grayed, and false otherwise.",
+        "Image getImage(int index)": "Returns the image stored at the given column index in the receiver, or null if the image has not been set or if the column does not exist.",
+        "Rectangle getImageBounds(int index)": "Returns a rectangle describing the size and location relative to its parent of an image at a column in the table.",
+        "int getImageIndent()": "Gets the image indent.",
+        "Table getParent()": "Returns the receiver's parent, which must be a Table.",
+        "String getText(int index)": "Returns the text stored at the given column index in the receiver, or empty string if the text has not been set.",
+        "void setBackground(Color color)": "Sets the receiver's background color to the color specified by the argument, or to the default system color for the item if the argument is null.",
+        "void setChecked(boolean checked)": "Sets the checked state of the receiver.",
+        "void setForeground(Color color)": "Sets the receiver's foreground color to the color specified by the argument, or to the default system color for the item if the argument is null.",
+        "void setGrayed(boolean grayed)": "Sets the grayed state of the receiver.",
+        "void setImage(Image image)": "Sets the receiver's image to the argument, which may be null indicating that no image should be displayed.",
+        "void setImages(Image[] images)": "Sets the image for multiple columns in the Table.",
+        "void setImage(int index, Image image)": "Sets the receiver's image at a column.",
+        "void setImageIndent(int indent)": "Sets the image indent.",
+        "void setText(int index, String string)": "Sets the receiver's text at a column",
+        "void setText(String string)": "Sets the receiver's text.",
+        "void setTexts(String[] strings)": "Sets the text for multiple columns in the table."
+    },
+    "super class": [
+        "org.eclipse.swt.widgets.Widget",
+        "org.eclipse.swt.widgets.Item"
+    ]
+}

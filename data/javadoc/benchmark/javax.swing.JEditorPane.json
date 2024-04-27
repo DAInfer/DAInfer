@@ -1,0 +1,42 @@
+{
+    "class": "JEditorPane",
+    "category": "Class",
+    "methods": {
+        "void addHyperlinkListener(HyperlinkListener listener)": "Adds a hyperlink listener for notification of any changes, for example when a link is selected and entered.",
+        "EditorKit createDefaultEditorKit()": "Creates the default editor kit (PlainEditorKit) for when the component is first created.",
+        "EditorKit createEditorKitForContentType(String type)": "Creates a handler for the given type from the default registry of editor kits.",
+        "void fireHyperlinkUpdate(HyperlinkEvent e)": "Notifies all listeners that have registered interest for notification on this event type.",
+        "AccessibleContext getAccessibleContext()": "Gets the AccessibleContext associated with this JEditorPane.",
+        "String getContentType()": "Gets the type of content that this editor is currently set to deal with.",
+        "EditorKit getEditorKit()": "Fetches the currently installed kit for handling content.",
+        "String getEditorKitClassNameForContentType(String type)": "Returns the currently registered EditorKit class name for the type type.",
+        "EditorKit getEditorKitForContentType(String type)": "Fetches the editor kit to use for the given type of content.",
+        "HyperlinkListener[] getHyperlinkListeners()": "Returns an array of all the HyperLinkListeners added to this JEditorPane with addHyperlinkListener().",
+        "URL getPage()": "Gets the current URL being displayed.",
+        "Dimension getPreferredSize()": "Returns the preferred size for the JEditorPane.",
+        "boolean getScrollableTracksViewportHeight()": "Returns true if a viewport should always force the height of this Scrollable to match the height of the viewport.",
+        "boolean getScrollableTracksViewportWidth()": "Returns true if a viewport should always force the width of this Scrollable to match the width of the viewport.",
+        "InputStream getStream(URL page)": "Fetches a stream for the given URL, which is about to be loaded by the setPage method.",
+        "String getText()": "Returns the text contained in this TextComponent in terms of the content type of this editor.",
+        "String getUIClassID()": "Gets the class ID for the UI.",
+        "String paramString()": "Returns a string representation of this JEditorPane.",
+        "void read(InputStream in, Object desc)": "This method initializes from a stream.",
+        "void registerEditorKitForContentType(String type, String classname)": "Establishes the default bindings of type to classname.",
+        "void registerEditorKitForContentType(String type, String classname, ClassLoader loader)": "Establishes the default bindings of type to classname.",
+        "void removeHyperlinkListener(HyperlinkListener listener)": "Removes a hyperlink listener.",
+        "void replaceSelection(String content)": "Replaces the currently selected content with new content represented by the given string.",
+        "void scrollToReference(String reference)": "Scrolls the view to the given reference location (that is, the value returned by the UL.getRef method for the URL being displayed).",
+        "void setContentType(String type)": "Sets the type of content that this editor handles.",
+        "void setEditorKit(EditorKit kit)": "Sets the currently installed kit for handling content.",
+        "void setEditorKitForContentType(String type, EditorKit k)": "Directly sets the editor kit to use for the given type.",
+        "void setPage(String url)": "Sets the current URL being displayed.",
+        "void setPage(URL page)": "Sets the current URL being displayed.",
+        "void setText(String t)": "Sets the text of this TextComponent to the specified content, which is expected to be in the format of the content type of this editor."
+    },
+    "super class": [
+        "javax.swing.text.JTextComponent",
+        "javax.swing.JComponent",
+        "java.awt.Container",
+        "java.awt.Component"
+    ]
+}

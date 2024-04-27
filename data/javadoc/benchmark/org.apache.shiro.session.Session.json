@@ -1,0 +1,19 @@
+{
+    "class": "Session",
+    "category": "Interface",
+    "methods": {
+        "Object getAttribute(Object key)": "Returns the object bound to this session identified by the specified key.",
+        "Collection getAttributeKeys()": "Returns the keys of all the attributes stored under this session.",
+        "String getHost()": "Returns the host name or IP string of the host that originated this session, or null if the host is unknown.",
+        "Serializable getId()": "Returns the unique identifier assigned by the system upon session creation.",
+        "Date getLastAccessTime()": "Returns the last time the application received a request or method invocation from the user associated with this session.",
+        "Date getStartTimestamp()": "Returns the time the session was started; that is, the time the system created the instance.",
+        "long getTimeout()": "Returns the time in milliseconds that the session session may remain idle before expiring.",
+        "Object removeAttribute(Object key)": "Removes (unbinds) the object bound to this session under the specified key name.",
+        "void setAttribute(Object key, Object value)": "Binds the specified value to this session, uniquely identified by the specified key name.",
+        "void setTimeout(long maxIdleTimeInMillis)": "Sets the time in milliseconds that the session may remain idle before expiring.",
+        "void stop()": "Explicitly stops (invalidates) this session and releases all associated resources.",
+        "void touch()": "Explicitly updates the lastAccessTime of this session to the current time when this method is invoked."
+    },
+    "super class": []
+}

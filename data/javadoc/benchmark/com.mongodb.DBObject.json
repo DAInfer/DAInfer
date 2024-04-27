@@ -1,0 +1,11 @@
+{
+    "class": "DBObject",
+    "category": "Interface",
+    "methods": {
+        "boolean isPartialObject()": "Whether markAsPartialObject() was ever called only matters if you are going to upsert and do not want to risk losing fields.",
+        "void markAsPartialObject()": "If this object was retrieved with only some fields (using a field filter) this method will be called to mark it as such."
+    },
+    "super class": [
+        "org.bson.BSONObject"
+    ]
+}

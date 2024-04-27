@@ -1,0 +1,34 @@
+{
+    "class": "JTextPane",
+    "category": "Class",
+    "methods": {
+        "Style addStyle(String nm, Style parent)": "Adds a style into the logical style hierarchy.",
+        "EditorKit createDefaultEditorKit()": "Creates the EditorKit to use by default.",
+        "AttributeSet getCharacterAttributes()": "Fetches the character attributes in effect at the current location of the caret, or null.",
+        "MutableAttributeSet getInputAttributes()": "Gets the input attributes for the pane.",
+        "Style getLogicalStyle()": "Fetches the logical style assigned to the paragraph represented by the current position of the caret, or null.",
+        "AttributeSet getParagraphAttributes()": "Fetches the current paragraph attributes in effect at the location of the caret, or null if none.",
+        "Style getStyle(String nm)": "Fetches a named non-null style previously added.",
+        "StyledDocument getStyledDocument()": "Fetches the model associated with the editor.",
+        "StyledEditorKit getStyledEditorKit()": "Gets the editor kit.",
+        "String getUIClassID()": "Returns the class ID for the UI.",
+        "void insertComponent(Component c)": "Inserts a component into the document as a replacement for the currently selected content.",
+        "void insertIcon(Icon g)": "Inserts an icon into the document as a replacement for the currently selected content.",
+        "String paramString()": "Returns a string representation of this JTextPane.",
+        "void removeStyle(String nm)": "Removes a named non-null style previously added to the document.",
+        "void replaceSelection(String content)": "Replaces the currently selected content with new content represented by the given string.",
+        "void setCharacterAttributes(AttributeSet attr, boolean replace)": "Applies the given attributes to character content.",
+        "void setDocument(Document doc)": "Associates the editor with a text document.",
+        "void setEditorKit(EditorKit kit)": "Sets the currently installed kit for handling content.",
+        "void setLogicalStyle(Style s)": "Sets the logical style to use for the paragraph at the current caret position.",
+        "void setParagraphAttributes(AttributeSet attr, boolean replace)": "Applies the given attributes to paragraphs.",
+        "void setStyledDocument(StyledDocument doc)": "Associates the editor with a text document."
+    },
+    "super class": [
+        "javax.swing.JEditorPane",
+        "javax.swing.text.JTextComponent",
+        "javax.swing.JComponent",
+        "java.awt.Container",
+        "java.awt.Component"
+    ]
+}

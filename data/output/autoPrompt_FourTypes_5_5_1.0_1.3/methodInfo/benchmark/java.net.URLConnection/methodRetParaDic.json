@@ -1,0 +1,298 @@
+{
+    "void addRequestProperty(String key, String value)": {
+        "return type": "void",
+        "method name": "addRequestProperty",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "void connect()": {
+        "return type": "void",
+        "method name": "connect",
+        "parameters": []
+    },
+    "boolean getAllowUserInteraction()": {
+        "return type": "boolean",
+        "method name": "getAllowUserInteraction",
+        "parameters": []
+    },
+    "int getConnectTimeout()": {
+        "return type": "int",
+        "method name": "getConnectTimeout",
+        "parameters": []
+    },
+    "Object getContent()": {
+        "return type": "Object",
+        "method name": "getContent",
+        "parameters": []
+    },
+    "Object getContent(Class[] classes)": {
+        "return type": "Object",
+        "method name": "getContent",
+        "parameters": [
+            "Class[]"
+        ]
+    },
+    "String getContentEncoding()": {
+        "return type": "String",
+        "method name": "getContentEncoding",
+        "parameters": []
+    },
+    "int getContentLength()": {
+        "return type": "int",
+        "method name": "getContentLength",
+        "parameters": []
+    },
+    "long getContentLengthLong()": {
+        "return type": "long",
+        "method name": "getContentLengthLong",
+        "parameters": []
+    },
+    "String getContentType()": {
+        "return type": "String",
+        "method name": "getContentType",
+        "parameters": []
+    },
+    "long getDate()": {
+        "return type": "long",
+        "method name": "getDate",
+        "parameters": []
+    },
+    "boolean getDefaultAllowUserInteraction()": {
+        "return type": "boolean",
+        "method name": "getDefaultAllowUserInteraction",
+        "parameters": []
+    },
+    "boolean getDefaultUseCaches()": {
+        "return type": "boolean",
+        "method name": "getDefaultUseCaches",
+        "parameters": []
+    },
+    "boolean getDoInput()": {
+        "return type": "boolean",
+        "method name": "getDoInput",
+        "parameters": []
+    },
+    "boolean getDoOutput()": {
+        "return type": "boolean",
+        "method name": "getDoOutput",
+        "parameters": []
+    },
+    "long getExpiration()": {
+        "return type": "long",
+        "method name": "getExpiration",
+        "parameters": []
+    },
+    "FileNameMap getFileNameMap()": {
+        "return type": "FileNameMap",
+        "method name": "getFileNameMap",
+        "parameters": []
+    },
+    "String getHeaderField(int n)": {
+        "return type": "String",
+        "method name": "getHeaderField",
+        "parameters": [
+            "int"
+        ]
+    },
+    "String getHeaderField(String name)": {
+        "return type": "String",
+        "method name": "getHeaderField",
+        "parameters": [
+            "String"
+        ]
+    },
+    "long getHeaderFieldDate(String name, long Default)": {
+        "return type": "long",
+        "method name": "getHeaderFieldDate",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "int getHeaderFieldInt(String name, int Default)": {
+        "return type": "int",
+        "method name": "getHeaderFieldInt",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "String getHeaderFieldKey(int n)": {
+        "return type": "String",
+        "method name": "getHeaderFieldKey",
+        "parameters": [
+            "int"
+        ]
+    },
+    "long getHeaderFieldLong(String name, long Default)": {
+        "return type": "long",
+        "method name": "getHeaderFieldLong",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "Map getHeaderFields()": {
+        "return type": "Map",
+        "method name": "getHeaderFields",
+        "parameters": []
+    },
+    "long getIfModifiedSince()": {
+        "return type": "long",
+        "method name": "getIfModifiedSince",
+        "parameters": []
+    },
+    "InputStream getInputStream()": {
+        "return type": "InputStream",
+        "method name": "getInputStream",
+        "parameters": []
+    },
+    "long getLastModified()": {
+        "return type": "long",
+        "method name": "getLastModified",
+        "parameters": []
+    },
+    "OutputStream getOutputStream()": {
+        "return type": "OutputStream",
+        "method name": "getOutputStream",
+        "parameters": []
+    },
+    "Permission getPermission()": {
+        "return type": "Permission",
+        "method name": "getPermission",
+        "parameters": []
+    },
+    "int getReadTimeout()": {
+        "return type": "int",
+        "method name": "getReadTimeout",
+        "parameters": []
+    },
+    "Map getRequestProperties()": {
+        "return type": "Map",
+        "method name": "getRequestProperties",
+        "parameters": []
+    },
+    "String getRequestProperty(String key)": {
+        "return type": "String",
+        "method name": "getRequestProperty",
+        "parameters": [
+            "String"
+        ]
+    },
+    "URL getURL()": {
+        "return type": "URL",
+        "method name": "getURL",
+        "parameters": []
+    },
+    "boolean getUseCaches()": {
+        "return type": "boolean",
+        "method name": "getUseCaches",
+        "parameters": []
+    },
+    "String guessContentTypeFromName(String fname)": {
+        "return type": "String",
+        "method name": "guessContentTypeFromName",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String guessContentTypeFromStream(InputStream is)": {
+        "return type": "String",
+        "method name": "guessContentTypeFromStream",
+        "parameters": [
+            "InputStream"
+        ]
+    },
+    "void setAllowUserInteraction(boolean allowuserinteraction)": {
+        "return type": "void",
+        "method name": "setAllowUserInteraction",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setConnectTimeout(int timeout)": {
+        "return type": "void",
+        "method name": "setConnectTimeout",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setContentHandlerFactory(ContentHandlerFactory fac)": {
+        "return type": "void",
+        "method name": "setContentHandlerFactory",
+        "parameters": [
+            "ContentHandlerFactory"
+        ]
+    },
+    "void setDefaultAllowUserInteraction(boolean defaultallowuserinteraction)": {
+        "return type": "void",
+        "method name": "setDefaultAllowUserInteraction",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setDefaultUseCaches(boolean defaultusecaches)": {
+        "return type": "void",
+        "method name": "setDefaultUseCaches",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setDoInput(boolean doinput)": {
+        "return type": "void",
+        "method name": "setDoInput",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setDoOutput(boolean dooutput)": {
+        "return type": "void",
+        "method name": "setDoOutput",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setFileNameMap(FileNameMap map)": {
+        "return type": "void",
+        "method name": "setFileNameMap",
+        "parameters": [
+            "FileNameMap"
+        ]
+    },
+    "void setIfModifiedSince(long ifmodifiedsince)": {
+        "return type": "void",
+        "method name": "setIfModifiedSince",
+        "parameters": [
+            "long"
+        ]
+    },
+    "void setReadTimeout(int timeout)": {
+        "return type": "void",
+        "method name": "setReadTimeout",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setRequestProperty(String key, String value)": {
+        "return type": "void",
+        "method name": "setRequestProperty",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "void setUseCaches(boolean usecaches)": {
+        "return type": "void",
+        "method name": "setUseCaches",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    }
+}

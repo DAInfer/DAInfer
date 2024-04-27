@@ -1,0 +1,29 @@
+{
+    "class": "Element",
+    "category": "Interface",
+    "methods": {
+        "String getAttribute(String name)": "Retrieves an attribute value by name.",
+        "Attr getAttributeNode(String name)": "Retrieves an attribute node by name.",
+        "Attr getAttributeNodeNS(String namespaceURI, String localName)": "Retrieves an Attr node by local name and namespace URI.",
+        "String getAttributeNS(String namespaceURI, String localName)": "Retrieves an attribute value by local name and namespace URI.",
+        "NodeList getElementsByTagName(String name)": "Returns a NodeList of all descendant Elements with a given tag name, in document order.",
+        "NodeList getElementsByTagNameNS(String namespaceURI, String localName)": "Returns a NodeList of all the descendant Elements with a given local name and namespace URI in document order.",
+        "TypeInfo getSchemaTypeInfo()": "The type information associated with this element.",
+        "String getTagName()": "The name of the element.",
+        "boolean hasAttribute(String name)": "Returns true when an attribute with a given name is specified on this element or has a default value, false otherwise.",
+        "boolean hasAttributeNS(String namespaceURI, String localName)": "Returns true when an attribute with a given local name and namespace URI is specified on this element or has a default value, false otherwise.",
+        "void removeAttribute(String name)": "Removes an attribute by name.",
+        "Attr removeAttributeNode(Attr oldAttr)": "Removes the specified attribute node.",
+        "void removeAttributeNS(String namespaceURI, String localName)": "Removes an attribute by local name and namespace URI.",
+        "void setAttribute(String name, String value)": "Adds a new attribute.",
+        "Attr setAttributeNode(Attr newAttr)": "Adds a new attribute node.",
+        "Attr setAttributeNodeNS(Attr newAttr)": "Adds a new attribute.",
+        "void setAttributeNS(String namespaceURI, String qualifiedName, String value)": "Adds a new attribute.",
+        "void setIdAttribute(String name, boolean isId)": "If the parameter isId is true, this method declares the specified attribute to be a user-determined ID attribute .",
+        "void setIdAttributeNode(Attr idAttr, boolean isId)": "If the parameter isId is true, this method declares the specified attribute to be a user-determined ID attribute .",
+        "void setIdAttributeNS(String namespaceURI, String localName, boolean isId)": "If the parameter isId is true, this method declares the specified attribute to be a user-determined ID attribute ."
+    },
+    "super class": [
+        "org.w3c.dom.Node"
+    ]
+}

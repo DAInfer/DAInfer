@@ -1,0 +1,91 @@
+{
+    "void close()": {
+        "return type": "void",
+        "method name": "close",
+        "parameters": []
+    },
+    "Cache createCache(String cacheName, C configuration)": {
+        "return type": "Cache",
+        "method name": "createCache",
+        "parameters": [
+            "String",
+            "C"
+        ]
+    },
+    "void destroyCache(String cacheName)": {
+        "return type": "void",
+        "method name": "destroyCache",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void enableManagement(String cacheName, boolean enabled)": {
+        "return type": "void",
+        "method name": "enableManagement",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "void enableStatistics(String cacheName, boolean enabled)": {
+        "return type": "void",
+        "method name": "enableStatistics",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "Cache getCache(String cacheName)": {
+        "return type": "Cache",
+        "method name": "getCache",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Cache getCache(String cacheName, Class keyType, Class valueType)": {
+        "return type": "Cache",
+        "method name": "getCache",
+        "parameters": [
+            "String",
+            "Class",
+            "Class"
+        ]
+    },
+    "Iterable getCacheNames()": {
+        "return type": "Iterable",
+        "method name": "getCacheNames",
+        "parameters": []
+    },
+    "CachingProvider getCachingProvider()": {
+        "return type": "CachingProvider",
+        "method name": "getCachingProvider",
+        "parameters": []
+    },
+    "ClassLoader getClassLoader()": {
+        "return type": "ClassLoader",
+        "method name": "getClassLoader",
+        "parameters": []
+    },
+    "Properties getProperties()": {
+        "return type": "Properties",
+        "method name": "getProperties",
+        "parameters": []
+    },
+    "URI getURI()": {
+        "return type": "URI",
+        "method name": "getURI",
+        "parameters": []
+    },
+    "boolean isClosed()": {
+        "return type": "boolean",
+        "method name": "isClosed",
+        "parameters": []
+    },
+    "T unwrap(Class clazz)": {
+        "return type": "T",
+        "method name": "unwrap",
+        "parameters": [
+            "Class"
+        ]
+    }
+}

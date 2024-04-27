@@ -1,0 +1,28 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "ResponseBody create(MediaType contentType, byte[] content)",
+            "byte[] bytes()"
+        ],
+        [
+            "ResponseBody create(MediaType contentType, String content)",
+            "MediaType contentType()"
+        ],
+        [
+            "ResponseBody create(MediaType contentType, long contentLength, okio.BufferedSource content)",
+            "okio.BufferedSource source()"
+        ],
+        [
+            "ResponseBody create(MediaType contentType, long contentLength, okio.BufferedSource content)",
+            "MediaType contentType()"
+        ],
+        [
+            "ResponseBody create(MediaType contentType, byte[] content)",
+            "MediaType contentType()"
+        ],
+        [
+            "ResponseBody create(MediaType contentType, String content)",
+            "String string()"
+        ]
+    ]
+}

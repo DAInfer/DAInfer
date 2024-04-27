@@ -1,0 +1,3668 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Long getLong(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Double getDouble(java.lang.String name)"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void init(ModelEntity modelEntity)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void deleteObserver(Observer observer)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.sql.Date getDate(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Boolean getBoolean(java.lang.String name)"
+        ],
+        [
+            "java.util.Map getFields(java.util.Collection keysofFields)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "GenericPK getPrimaryKey()"
+        ],
+        [
+            "java.lang.Object getOriginalDbValue(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "void setDelegator(Delegator internalDelegator)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Double getDouble(java.lang.String name)"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Integer getInteger(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.sql.Timestamp getTimestamp(java.lang.String name)"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "TimeDuration getDuration(java.lang.String name)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.sql.Time getTime(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "GenericPK getPrimaryKey()"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.String getString(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void deleteObserver(Observer observer)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "TimeDuration getDuration(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.sql.Time getTime(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.sql.Timestamp getTimestamp(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void addObserver(Observer observer)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void init(ModelEntity modelEntity)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "byte[] getBytes(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Boolean getBoolean(java.lang.String name)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "GenericPK getPrimaryKey()"
+        ],
+        [
+            "void setPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "boolean matchesFields(java.util.Map keyValuePairs)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "GenericEntity createGenericEntity(GenericEntity value)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "byte[] getBytes(java.lang.String name)"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Boolean getBoolean(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "GenericPK getPrimaryKey()"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.sql.Timestamp getTimestamp(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "java.lang.Object getOriginalDbValue(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void putAll(java.util.Map map)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.util.Set keySet()"
+        ],
+        [
+            "void init(ModelEntity modelEntity)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object getOriginalDbValue(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.util.Collection values()"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Boolean getBoolean(java.lang.String name)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "java.lang.Object getOriginalDbValue(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.util.Set keySet()"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "boolean matchesFields(java.util.Map keyValuePairs)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "byte[] getBytes(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Boolean getBoolean(java.lang.String name)"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map getFields(java.util.Collection keysofFields)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "TimeDuration getDuration(java.lang.String name)"
+        ],
+        [
+            "java.lang.String getString(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.sql.Time getTime(java.lang.String name)"
+        ],
+        [
+            "void setDelegator(Delegator internalDelegator)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "boolean matchesFields(java.util.Map keyValuePairs)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.Boolean getBoolean(java.lang.String name)"
+        ],
+        [
+            "boolean matches(EntityCondition condition)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void addObserver(Observer observer)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object getOriginalDbValue(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "boolean matchesFields(java.util.Map keyValuePairs)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "java.util.Map getFields(java.util.Collection keysofFields)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "void setDelegator(Delegator internalDelegator)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.util.Map getFields(java.util.Collection keysofFields)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Float getFloat(java.lang.String name)"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Boolean getBoolean(java.lang.String name)"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void setDelegator(Delegator internalDelegator)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Float getFloat(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.util.Set keySet()"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.util.Set entrySet()"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "boolean matchesFields(java.util.Map keyValuePairs)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "boolean matchesFields(java.util.Map keyValuePairs)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "TimeDuration getDuration(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.sql.Time getTime(java.lang.String name)"
+        ],
+        [
+            "GenericEntity createGenericEntity(GenericEntity value)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.util.Map getFields(java.util.Collection keysofFields)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void setDelegator(Delegator internalDelegator)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "GenericEntity createGenericEntity(GenericEntity value)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "GenericEntity createGenericEntity(GenericEntity value)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.sql.Date getDate(java.lang.String name)"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "void putAll(java.util.Map map)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "java.util.Collection values()"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Integer getInteger(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Float getFloat(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "GenericEntity createGenericEntity(GenericEntity value)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "TimeDuration getDuration(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.sql.Time getTime(java.lang.String name)"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void setFields(java.util.Map keyValuePairs)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "TimeDuration getDuration(java.lang.String name)"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.sql.Time getTime(java.lang.String name)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Long getLong(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object getOriginalDbValue(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)"
+        ],
+        [
+            "java.lang.String getString(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "boolean matches(EntityCondition condition)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.util.Collection values()"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Long getLong(java.lang.String name)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "boolean matches(EntityCondition condition)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "boolean matches(EntityCondition condition)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Float getFloat(java.lang.String name)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "boolean matchesFields(java.util.Map keyValuePairs)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "GenericPK getPrimaryKey()"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.sql.Timestamp getTimestamp(java.lang.String name)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void setDelegator(Delegator internalDelegator)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Float getFloat(java.lang.String name)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void deleteObserver(Observer observer)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "boolean matches(EntityCondition condition)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void setFields(java.util.Map keyValuePairs)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Object getOriginalDbValue(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void putAll(java.util.Map map)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.util.Collection values()"
+        ],
+        [
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void setFields(java.util.Map keyValuePairs)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Float getFloat(java.lang.String name)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "byte[] getBytes(java.lang.String name)"
+        ],
+        [
+            "void setFields(java.util.Map keyValuePairs)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Boolean getBoolean(java.lang.String name)"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.util.Collection values()"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.util.Set entrySet()"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "GenericEntity createGenericEntity(GenericEntity value)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Float getFloat(java.lang.String name)"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "boolean matchesFields(java.util.Map keyValuePairs)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "java.lang.String getString(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.util.Map getFields(java.util.Collection keysofFields)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object getOriginalDbValue(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void setDelegator(Delegator internalDelegator)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void init(ModelEntity modelEntity)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "void setFields(java.util.Map keyValuePairs)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void setFields(java.util.Map keyValuePairs)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "TimeDuration getDuration(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.sql.Time getTime(java.lang.String name)"
+        ],
+        [
+            "void init(ModelEntity modelEntity)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.util.Set keySet()"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Float getFloat(java.lang.String name)"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "TimeDuration getDuration(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.sql.Time getTime(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.util.Set entrySet()"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "boolean matchesFields(java.util.Map keyValuePairs)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "boolean matchesFields(java.util.Map keyValuePairs)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.util.Set entrySet()"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.util.Collection values()"
+        ],
+        [
+            "java.util.Map getFields(java.util.Collection keysofFields)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void setDelegator(Delegator internalDelegator)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "GenericEntity createGenericEntity(GenericEntity value)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Long getLong(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)"
+        ],
+        [
+            "void putAll(java.util.Map map)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "TimeDuration getDuration(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.sql.Time getTime(java.lang.String name)"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "void putAll(java.util.Map map)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.util.Collection values()"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "GenericEntity createGenericEntity(GenericEntity value)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void putAll(java.util.Map map)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Double getDouble(java.lang.String name)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void putAll(java.util.Map map)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)",
+            "java.util.Collection values()"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object getOriginalDbValue(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Long getLong(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.util.Set entrySet()"
+        ],
+        [
+            "void setFields(java.util.Map keyValuePairs)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Double getDouble(java.lang.String name)"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.util.Collection values()"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.sql.Date getDate(java.lang.String name)"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.lang.String getString(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Long getLong(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)"
+        ],
+        [
+            "boolean matches(EntityCondition condition)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Integer getInteger(java.lang.String name)"
+        ],
+        [
+            "void addObserver(Observer observer)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.String getString(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void putAll(java.util.Map map)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "java.lang.String getString(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.util.Collection values()"
+        ],
+        [
+            "void addObserver(Observer observer)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Integer getInteger(java.lang.String name)"
+        ],
+        [
+            "void addObserver(Observer observer)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.util.Set entrySet()"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.util.Collection values()"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void deleteObserver(Observer observer)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "boolean matches(EntityCondition condition)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "java.lang.String getString(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void addObserver(Observer observer)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.util.Set entrySet()"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void setPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "GenericPK getPrimaryKey()"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.sql.Timestamp getTimestamp(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.util.Map getFields(java.util.Collection keysofFields)",
+            "java.util.Collection values()"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.util.Set entrySet()"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean matchesFields(java.util.Map keyValuePairs)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "GenericPK getPrimaryKey()"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.util.Map getFields(java.util.Collection keysofFields)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.sql.Timestamp getTimestamp(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "GenericEntity createGenericEntity(GenericEntity value)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "void setFields(java.util.Map keyValuePairs)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)"
+        ],
+        [
+            "void setFields(java.util.Map keyValuePairs)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.util.Set entrySet()"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void init(ModelEntity modelEntity)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "byte[] getBytes(java.lang.String name)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Boolean getBoolean(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Long getLong(java.lang.String name)"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Integer getInteger(java.lang.String name)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)"
+        ],
+        [
+            "void putAll(java.util.Map map)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "byte[] getBytes(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Long getLong(java.lang.String name)"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "java.util.Collection values()"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "java.util.Map getFields(java.util.Collection keysofFields)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.util.Set keySet()"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.sql.Date getDate(java.lang.String name)"
+        ],
+        [
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "TimeDuration getDuration(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.sql.Time getTime(java.lang.String name)"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "byte[] getBytes(java.lang.String name)"
+        ],
+        [
+            "void addObserver(Observer observer)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Long getLong(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Integer getInteger(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "void deleteObserver(Observer observer)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.sql.Date getDate(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Long getLong(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.util.Set keySet()"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void deleteObserver(Observer observer)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.Long getLong(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void deleteObserver(Observer observer)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void putAll(java.util.Map map)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.sql.Timestamp getTimestamp(java.lang.String name)"
+        ],
+        [
+            "java.util.Map getFields(java.util.Collection keysofFields)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Double getDouble(java.lang.String name)"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void setDelegator(Delegator internalDelegator)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "java.lang.String getString(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Double getDouble(java.lang.String name)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.sql.Date getDate(java.lang.String name)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "boolean matches(EntityCondition condition)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void deleteObserver(Observer observer)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.sql.Date getDate(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Integer getInteger(java.lang.String name)"
+        ],
+        [
+            "java.lang.String getString(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "int compareToFields(GenericEntity that, java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "byte[] getBytes(java.lang.String name)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "ModelEntity getModelEntity()"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void addObserver(Observer observer)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "GenericPK getPrimaryKey()"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Integer getInteger(java.lang.String name)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "void init(ModelEntity modelEntity)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void putAll(java.util.Map map)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.sql.Timestamp getTimestamp(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "GenericEntity createGenericEntity(GenericEntity value)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.util.Collection values()"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "void init(ModelEntity modelEntity)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void init(ModelEntity modelEntity)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.String getString(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.util.Set keySet()"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Double getDouble(java.lang.String name)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void setFields(java.util.Map keyValuePairs)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void addObserver(Observer observer)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "byte[] getBytes(java.lang.String name)"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "void init(GenericEntity value)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void init(ModelEntity modelEntity)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "GenericPK getPrimaryKey()"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)"
+        ],
+        [
+            "void setPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.sql.Date getDate(java.lang.String name)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Float getFloat(java.lang.String name)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.sql.Timestamp getTimestamp(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "GenericPK getPrimaryKey()"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void refreshFromValue(GenericEntity newValue)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.sql.Timestamp getTimestamp(java.lang.String name)"
+        ],
+        [
+            "java.lang.Boolean getBoolean(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "GenericEntity createGenericEntity(GenericEntity value)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.util.Set entrySet()"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "boolean matches(EntityCondition condition)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Double getDouble(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.util.Set keySet()"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Double getDouble(java.lang.String name)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void setString(java.lang.String name, java.lang.String value)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "void setBytes(java.lang.String name, byte[] bytes)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "void deleteObserver(Observer observer)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "byte[] getBytes(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Boolean getBoolean(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)"
+        ],
+        [
+            "void setFields(java.util.Map keyValuePairs)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Float getFloat(java.lang.String name)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.sql.Date getDate(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "byte[] getBytes(java.lang.String name)"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Double getDouble(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Boolean getBoolean(java.lang.String name)"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Integer getInteger(java.lang.String name)"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Float getFloat(java.lang.String name)"
+        ],
+        [
+            "java.math.BigDecimal getBigDecimal(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)"
+        ],
+        [
+            "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "TimeDuration getDuration(java.lang.String name)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name, java.util.Locale locale)",
+            "java.lang.String getEntityName()"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)",
+            "java.lang.String getPkShortValueString()"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.util.Map getAllFields()"
+        ],
+        [
+            "java.lang.Object getOriginalDbValue(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "java.lang.Integer getInteger(java.lang.String name)",
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.sql.Date getDate(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.util.Map getFields(java.util.Collection keysofFields)"
+        ],
+        [
+            "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.Object get(java.lang.Object key)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)",
+            "java.lang.Object get(java.lang.Object key)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.lang.Double getDouble(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object getOriginalDbValue(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Integer getInteger(java.lang.String name)"
+        ],
+        [
+            "java.sql.Time getTime(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)",
+            "java.util.Set keySet()"
+        ],
+        [
+            "java.lang.Object remove(java.lang.Object key)",
+            "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)"
+        ],
+        [
+            "int compareTo(GenericEntity that)",
+            "java.lang.Object remove(java.lang.Object key)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "GenericEntity createGenericEntity(GenericEntity value)"
+        ],
+        [
+            "byte[] getBytes(java.lang.String name)",
+            "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)"
+        ],
+        [
+            "boolean containsValue(java.lang.Object value)",
+            "java.lang.Object getOriginalDbValue(java.lang.String name)"
+        ],
+        [
+            "GenericEntity createGenericEntity(ModelEntity modelEntity)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void notifyObservers(java.lang.Object arg)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)"
+        ],
+        [
+            "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)"
+        ],
+        [
+            "java.sql.Timestamp getTimestamp(java.lang.String name)",
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)"
+        ],
+        [
+            "java.lang.Object put(java.lang.String key, java.lang.Object value)",
+            "java.util.Set keySet()"
+        ],
+        [
+            "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)",
+            "java.util.Collection getAllKeys()"
+        ],
+        [
+            "void setDelegator(Delegator internalDelegator)",
+            "Delegator getDelegator()"
+        ],
+        [
+            "void set(java.lang.String name, java.lang.Object value)",
+            "java.sql.Date getDate(java.lang.String name)"
+        ],
+        [
+            "boolean containsKey(java.lang.Object key)",
+            "java.lang.String getString(java.lang.String name)"
+        ],
+        [
+            "java.lang.Object get(java.lang.String name)",
+            "java.lang.String getEntityName()"
+        ]
+    ]
+}

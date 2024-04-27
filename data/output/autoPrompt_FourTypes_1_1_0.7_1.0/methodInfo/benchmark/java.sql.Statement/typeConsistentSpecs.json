@@ -1,0 +1,16 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "int executeUpdate(String sql, int[] columnIndexes)",
+            "int[] executeBatch()"
+        ],
+        [
+            "boolean execute(String sql, int[] columnIndexes)",
+            "int[] executeBatch()"
+        ],
+        [
+            "long executeLargeUpdate(String sql, int[] columnIndexes)",
+            "int[] executeBatch()"
+        ]
+    ]
+}

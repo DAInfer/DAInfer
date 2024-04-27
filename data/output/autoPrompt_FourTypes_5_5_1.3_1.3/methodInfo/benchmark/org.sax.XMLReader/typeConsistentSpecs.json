@@ -1,0 +1,72 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void setErrorHandler(ErrorHandler handler)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void parse(String systemId)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "boolean getFeature(String name)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void parse(InputSource input)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void setEntityResolver(EntityResolver resolver)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void setProperty(String name, Object value)",
+            "EntityResolver getEntityResolver()"
+        ],
+        [
+            "void setErrorHandler(ErrorHandler handler)",
+            "ErrorHandler getErrorHandler()"
+        ],
+        [
+            "void setEntityResolver(EntityResolver resolver)",
+            "EntityResolver getEntityResolver()"
+        ],
+        [
+            "void setFeature(String name, boolean value)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void setProperty(String name, Object value)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void setDTDHandler(DTDHandler handler)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void setContentHandler(ContentHandler handler)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void setProperty(String name, Object value)",
+            "DTDHandler getDTDHandler()"
+        ],
+        [
+            "void setProperty(String name, Object value)",
+            "ContentHandler getContentHandler()"
+        ],
+        [
+            "void setProperty(String name, Object value)",
+            "ErrorHandler getErrorHandler()"
+        ],
+        [
+            "void setDTDHandler(DTDHandler handler)",
+            "DTDHandler getDTDHandler()"
+        ],
+        [
+            "void setContentHandler(ContentHandler handler)",
+            "ContentHandler getContentHandler()"
+        ]
+    ]
+}

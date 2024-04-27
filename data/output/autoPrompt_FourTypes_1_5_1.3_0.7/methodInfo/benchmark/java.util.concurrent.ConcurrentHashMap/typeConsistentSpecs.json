@@ -1,0 +1,3816 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V remove(Object key)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Enumeration elements()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Enumeration elements()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Enumeration elements()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V remove(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V put(K key, V value)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V remove(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Enumeration elements()"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "void putAll(Map m)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V remove(Object key)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Collection values()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Enumeration elements()"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Enumeration elements()"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V get(Object key)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Enumeration keys()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Set entrySet()"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "Enumeration elements()"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Set keySet()"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Enumeration keys()"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "Enumeration keys()"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Set entrySet()"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Enumeration elements()"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V get(Object key)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void putAll(Map m)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V remove(Object key)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Set keySet()"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Collection values()"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "Collection values()"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "V get(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V get(Object key)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "V put(K key, V value)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "V get(Object key)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Enumeration keys()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Set keySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void putAll(Map m)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Enumeration keys()"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Enumeration keys()"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Enumeration elements()"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Enumeration keys()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V remove(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Set keySet()"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Enumeration keys()"
+        ],
+        [
+            "V remove(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void putAll(Map m)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "V put(K key, V value)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V get(Object key)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Set keySet()"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Enumeration keys()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Enumeration elements()"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Enumeration elements()"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V get(Object key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "void putAll(Map m)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "Set keySet()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Collection values()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Collection values()"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Collection values()"
+        ],
+        [
+            "V put(K key, V value)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "Set entrySet()"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Collection values()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Enumeration keys()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Enumeration elements()"
+        ],
+        [
+            "V put(K key, V value)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V get(Object key)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Collection values()"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void putAll(Map m)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V get(Object key)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Set keySet()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V get(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "Enumeration elements()"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "V get(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Set entrySet()"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Collection values()"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V get(Object key)",
+            "Enumeration keys()"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "void putAll(Map m)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Set keySet()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V remove(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Enumeration keys()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Enumeration keys()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U searchKeys(long parallelismThreshold, Function searchFunction)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "Enumeration elements()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V get(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "Enumeration keys()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Enumeration elements()"
+        ],
+        [
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V get(Object key)",
+            "Collection values()"
+        ],
+        [
+            "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "void putAll(Map m)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Set keySet()"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Enumeration keys()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Collection values()"
+        ],
+        [
+            "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "U searchValues(long parallelismThreshold, Function searchFunction)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V remove(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "V get(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "boolean contains(Object value)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiConsumer action)",
+            "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V remove(Object key)",
+            "Collection values()"
+        ],
+        [
+            "void forEachEntry(long parallelismThreshold, Consumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "U search(long parallelismThreshold, BiFunction searchFunction)",
+            "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V remove(Object key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Enumeration elements()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "V get(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U searchKeys(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Consumer action)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "ConcurrentHashMap.KeySetView keySet(V mappedValue)"
+        ],
+        [
+            "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)",
+            "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Enumeration keys()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)",
+            "U search(long parallelismThreshold, BiFunction searchFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "ConcurrentHashMap.KeySetView keySet()"
+        ],
+        [
+            "void forEachKey(long parallelismThreshold, Consumer action)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)",
+            "U searchValues(long parallelismThreshold, Function searchFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "ConcurrentHashMap.KeySetView newKeySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "K reduceKeys(long parallelismThreshold, BiFunction reducer)"
+        ],
+        [
+            "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ]
+    ]
+}

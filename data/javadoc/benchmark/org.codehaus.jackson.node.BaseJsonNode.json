@@ -1,0 +1,20 @@
+{
+    "class": "BaseJsonNode",
+    "category": "Class",
+    "methods": {
+        "JsonToken asToken()": "Method that can be used for efficient type detection when using stream abstraction for traversing nodes.",
+        "ObjectNode findParent(String fieldName)": "Method for finding a JSON Object that contains specified field, within this node or its descendants.",
+        "List findParents(String fieldName, List foundSoFar)": "",
+        "JsonNode findPath(String fieldName)": "Method similar to JsonNode.findValue(java.lang.String), but that will return a \"missing node\" instead of null if no field is found.",
+        "JsonNode findValue(String fieldName)": "Method for finding a JSON Object field with specified name in this node or its child nodes, and returning value it has.",
+        "List findValues(String fieldName, List foundSoFar)": "",
+        "List findValuesAsText(String fieldName, List foundSoFar)": "",
+        "JsonParser.NumberType getNumberType()": "If this node is a numeric type (as per JsonNode.isNumber()), returns native type that node uses to store the numeric value.",
+        "void serialize(JsonGenerator jgen, SerializerProvider provider)": "Method called to serialize node instances using given generator.",
+        "void serializeWithType(JsonGenerator jgen, SerializerProvider provider, TypeSerializer typeSer)": "Type information is needed, even if JsonNode instances are \"plain\" JSON, since they may be mixed with other types.",
+        "JsonParser traverse()": "Method for constructing a JsonParser instance for iterating over contents of the tree that this node is root of."
+    },
+    "super class": [
+        "org.codehaus.jackson.JsonNode"
+    ]
+}

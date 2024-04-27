@@ -1,0 +1,41 @@
+{
+    "class": "JsonObject",
+    "category": "Class",
+    "methods": {
+        "JsonObject add(String name, boolean value)": "Appends a new member to the end of this object, with the specified name and the JSON representation of the specified boolean value.",
+        "JsonObject add(String name, double value)": "Appends a new member to the end of this object, with the specified name and the JSON representation of the specified double value.",
+        "JsonObject add(String name, float value)": "Appends a new member to the end of this object, with the specified name and the JSON representation of the specified float value.",
+        "JsonObject add(String name, int value)": "Appends a new member to the end of this object, with the specified name and the JSON representation of the specified int value.",
+        "JsonObject add(String name, JsonValue value)": "Appends a new member to the end of this object, with the specified name and the specified JSON value.",
+        "JsonObject add(String name, long value)": "Appends a new member to the end of this object, with the specified name and the JSON representation of the specified long value.",
+        "JsonObject add(String name, String value)": "Appends a new member to the end of this object, with the specified name and the JSON representation of the specified string.",
+        "JsonObject asObject()": "Returns this JSON value as JsonObject, assuming that this value represents a JSON object.",
+        "boolean equals(Object obj)": "Indicates whether some other object is \"equal to\" this one according to the contract specified in Object.equals(Object).",
+        "JsonValue get(String name)": "Returns the value of the member with the specified name in this object.",
+        "boolean getBoolean(String name, boolean defaultValue)": "Returns the boolean value of the member with the specified name in this object.",
+        "double getDouble(String name, double defaultValue)": "Returns the double value of the member with the specified name in this object.",
+        "float getFloat(String name, float defaultValue)": "Returns the float value of the member with the specified name in this object.",
+        "int getInt(String name, int defaultValue)": "Returns the int value of the member with the specified name in this object.",
+        "long getLong(String name, long defaultValue)": "Returns the long value of the member with the specified name in this object.",
+        "String getString(String name, String defaultValue)": "Returns the String value of the member with the specified name in this object.",
+        "int hashCode()": "",
+        "boolean isEmpty()": "Returns true if this object contains no members.",
+        "boolean isObject()": "Detects whether this value represents a JSON object.",
+        "Iterator iterator()": "Returns an iterator over the members of this object in document order.",
+        "JsonObject merge(JsonObject object)": "Copies all members of the specified object into this object.",
+        "List names()": "Returns a list of the names in this object in document order.",
+        "JsonObject remove(String name)": "Removes a member with the specified name from this object.",
+        "JsonObject set(String name, boolean value)": "Sets the value of the member with the specified name to the JSON representation of the specified boolean value.",
+        "JsonObject set(String name, double value)": "Sets the value of the member with the specified name to the JSON representation of the specified double value.",
+        "JsonObject set(String name, float value)": "Sets the value of the member with the specified name to the JSON representation of the specified float value.",
+        "JsonObject set(String name, int value)": "Sets the value of the member with the specified name to the JSON representation of the specified int value.",
+        "JsonObject set(String name, JsonValue value)": "Sets the value of the member with the specified name to the specified JSON value.",
+        "JsonObject set(String name, long value)": "Sets the value of the member with the specified name to the JSON representation of the specified long value.",
+        "JsonObject set(String name, String value)": "Sets the value of the member with the specified name to the JSON representation of the specified string.",
+        "int size()": "Returns the number of members (name/value pairs) in this object.",
+        "JsonObject unmodifiableObject(JsonObject object)": "Returns an unmodifiable JsonObject for the specified one."
+    },
+    "super class": [
+        "com.eclipsesource.json.JsonValue"
+    ]
+}

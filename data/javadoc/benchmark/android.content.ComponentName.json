@@ -1,0 +1,26 @@
+{
+    "class": "ComponentName",
+    "category": "class",
+    "methods": {
+        "ComponentName clone()": "Creates and returns a copy of this object.",
+        "int compareTo(ComponentName that)": "int compareTo(ComponentName that)",
+        "ComponentName createRelative(String pkg, String cls)": "Create a new component identifier where the class name may be specified as either absolute or relative to the containing package.",
+        "ComponentName createRelative(Context pkg, String cls)": "Create a new component identifier where the class name may be specified as either absolute or relative to the containing package.",
+        "int describeContents()": "Describe the kinds of special objects contained in this Parcelable instance's marshaled representation.",
+        "boolean equals(Object obj)": "Indicates whether some other object is \"equal to\" this one. Two components are considered to be equal if the packages in which they reside have the same name, and if the classes that implement each component also have the same name.",
+        "String flattenToShortString()": "The same as flattenToString(), but abbreviates the class name if it is a suffix of the package.",
+        "String flattenToString()": "Return a String that unambiguously describes both the package and class names contained in the ComponentName.",
+        "String getClassName()": "Return the class name of this component.",
+        "String getPackageName()": "Return the package name of this component.",
+        "String getShortClassName()": "Return the class name, either fully qualified or in a shortened form (with a leading '.') if it is a suffix of the package.",
+        "int hashCode()": "Returns a hash code value for the object.",
+        "ComponentName readFromParcel(Parcel in)": "Read a ComponentName from a Parcel that was previously written with writeToParcel(android.content.ComponentName, android.os.Parcel), returning either a null or new object as appropriate.",
+        "String toShortString()": "Return string representation of this class without the class's name as a prefix.",
+        "String toString()": "Returns a string representation of the object.",
+        "ComponentName unflattenFromString(String str)": "Recover a ComponentName from a String that was previously created with flattenToString().",
+        "void writeToParcel(ComponentName c, Parcel out)": "Write a ComponentName to a Parcel, handling null pointers.",
+        "void writeToParcel(Parcel out, int flags)": "Flatten this object in to a Parcel."
+    },
+    "super class": [
+    ]
+}

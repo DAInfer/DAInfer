@@ -1,0 +1,92 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void ifArrayAccessExpr(Consumer action)",
+            "R accept(GenericVisitor v, A arg)"
+        ],
+        [
+            "R accept(GenericVisitor v, A arg)",
+            "ArrayAccessExpr setIndex(Expression index)"
+        ],
+        [
+            "void accept(VoidVisitor v, A arg)",
+            "ArrayAccessExpr setName(Expression name)"
+        ],
+        [
+            "void accept(VoidVisitor v, A arg)",
+            "ArrayAccessExpr setIndex(Expression index)"
+        ],
+        [
+            "R accept(GenericVisitor v, A arg)",
+            "ArrayAccessExprMetaModel getMetaModel()"
+        ],
+        [
+            "void accept(VoidVisitor v, A arg)",
+            "ArrayAccessExprMetaModel getMetaModel()"
+        ],
+        [
+            "boolean remove(Node node)",
+            "R accept(GenericVisitor v, A arg)"
+        ],
+        [
+            "ArrayAccessExpr setIndex(Expression index)",
+            "Expression getName()"
+        ],
+        [
+            "R accept(GenericVisitor v, A arg)",
+            "Expression getName()"
+        ],
+        [
+            "ArrayAccessExpr setName(Expression name)",
+            "Expression getName()"
+        ],
+        [
+            "ArrayAccessExpr setIndex(Expression index)",
+            "R accept(GenericVisitor v, A arg)"
+        ],
+        [
+            "void accept(VoidVisitor v, A arg)",
+            "Expression getName()"
+        ],
+        [
+            "ArrayAccessExpr setIndex(Expression index)",
+            "Expression getIndex()"
+        ],
+        [
+            "ArrayAccessExpr setName(Expression name)",
+            "R accept(GenericVisitor v, A arg)"
+        ],
+        [
+            "R accept(GenericVisitor v, A arg)",
+            "Expression getIndex()"
+        ],
+        [
+            "ArrayAccessExpr setName(Expression name)",
+            "Expression getIndex()"
+        ],
+        [
+            "void accept(VoidVisitor v, A arg)",
+            "R accept(GenericVisitor v, A arg)"
+        ],
+        [
+            "void accept(VoidVisitor v, A arg)",
+            "Expression getIndex()"
+        ],
+        [
+            "R accept(GenericVisitor v, A arg)",
+            "ArrayAccessExpr asArrayAccessExpr()"
+        ],
+        [
+            "void accept(VoidVisitor v, A arg)",
+            "ArrayAccessExpr asArrayAccessExpr()"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "R accept(GenericVisitor v, A arg)"
+        ],
+        [
+            "R accept(GenericVisitor v, A arg)",
+            "ArrayAccessExpr setName(Expression name)"
+        ]
+    ]
+}

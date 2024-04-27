@@ -1,0 +1,436 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "boolean sendMessage(Message msg)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "boolean hasMessages(int what, Object object)",
+            "Looper getLooper()"
+        ],
+        [
+            "void removeCallbacksAndMessages(Object token)",
+            "Message obtainMessage()"
+        ],
+        [
+            "String getMessageName(Message message)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "void removeCallbacksAndMessages(Object token)",
+            "Handler createAsync(Looper looper, Handler.Callback callback)"
+        ],
+        [
+            "boolean postDelayed(Runnable r, Object token, long delayMillis)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "void handleMessage(Message msg)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)",
+            "Message obtainMessage()"
+        ],
+        [
+            "void removeCallbacks(Runnable r, Object token)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "Handler createAsync(Looper looper, Handler.Callback callback)",
+            "Looper getLooper()"
+        ],
+        [
+            "void dump(Printer pw, String prefix)",
+            "String getMessageName(Message message)"
+        ],
+        [
+            "boolean sendMessage(Message msg)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "boolean postAtTime(Runnable r, Object token, long uptimeMillis)",
+            "String getMessageName(Message message)"
+        ],
+        [
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)",
+            "Handler createAsync(Looper looper, Handler.Callback callback)"
+        ],
+        [
+            "String getMessageName(Message message)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "boolean postAtTime(Runnable r, Object token, long uptimeMillis)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "boolean postDelayed(Runnable r, Object token, long delayMillis)",
+            "Looper getLooper()"
+        ],
+        [
+            "boolean hasMessages(int what, Object object)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "void removeCallbacks(Runnable r, Object token)",
+            "Handler createAsync(Looper looper)"
+        ],
+        [
+            "boolean postAtTime(Runnable r, Object token, long uptimeMillis)",
+            "Handler createAsync(Looper looper, Handler.Callback callback)"
+        ],
+        [
+            "Message obtainMessage(int what, Object obj)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "boolean sendMessageDelayed(Message msg, long delayMillis)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "void removeMessages(int what, Object object)",
+            "Looper getLooper()"
+        ],
+        [
+            "boolean sendMessage(Message msg)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "boolean hasMessages(int what, Object object)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)",
+            "String getMessageName(Message message)"
+        ],
+        [
+            "void dispatchMessage(Message msg)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "Message obtainMessage(int what, Object obj)",
+            "Looper getLooper()"
+        ],
+        [
+            "boolean postDelayed(Runnable r, Object token, long delayMillis)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "void removeCallbacksAndMessages(Object token)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "boolean sendMessage(Message msg)",
+            "Message obtainMessage()"
+        ],
+        [
+            "boolean postAtTime(Runnable r, Object token, long uptimeMillis)",
+            "Handler createAsync(Looper looper)"
+        ],
+        [
+            "void removeCallbacks(Runnable r, Object token)",
+            "Looper getLooper()"
+        ],
+        [
+            "void dispatchMessage(Message msg)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "boolean postDelayed(Runnable r, Object token, long delayMillis)",
+            "Message obtainMessage()"
+        ],
+        [
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "boolean postDelayed(Runnable r, Object token, long delayMillis)",
+            "Handler createAsync(Looper looper, Handler.Callback callback)"
+        ],
+        [
+            "boolean sendMessageAtTime(Message msg, long uptimeMillis)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "boolean postDelayed(Runnable r, Object token, long delayMillis)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "void removeMessages(int what, Object object)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "boolean sendMessageAtTime(Message msg, long uptimeMillis)",
+            "Message obtainMessage()"
+        ],
+        [
+            "boolean hasMessages(int what, Object object)",
+            "String getMessageName(Message message)"
+        ],
+        [
+            "void removeMessages(int what, Object object)",
+            "Message obtainMessage()"
+        ],
+        [
+            "boolean sendMessageAtFrontOfQueue(Message msg)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "void removeCallbacksAndMessages(Object token)",
+            "Handler createAsync(Looper looper)"
+        ],
+        [
+            "boolean hasMessages(int what, Object object)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "boolean sendMessageAtTime(Message msg, long uptimeMillis)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "void removeMessages(int what, Object object)",
+            "Handler createAsync(Looper looper, Handler.Callback callback)"
+        ],
+        [
+            "void removeMessages(int what, Object object)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "boolean postAtTime(Runnable r, Object token, long uptimeMillis)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)",
+            "Handler createAsync(Looper looper)"
+        ],
+        [
+            "void handleMessage(Message msg)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "boolean hasMessages(int what, Object object)",
+            "Message obtainMessage()"
+        ],
+        [
+            "boolean sendMessageAtFrontOfQueue(Message msg)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "Message obtainMessage(int what, Object obj)",
+            "Message obtainMessage()"
+        ],
+        [
+            "void removeCallbacks(Runnable r, Object token)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "void dispatchMessage(Message msg)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "boolean hasMessages(int what, Object object)",
+            "Handler createAsync(Looper looper, Handler.Callback callback)"
+        ],
+        [
+            "Message obtainMessage(int what, Object obj)",
+            "Handler createAsync(Looper looper, Handler.Callback callback)"
+        ],
+        [
+            "boolean postDelayed(Runnable r, Object token, long delayMillis)",
+            "String getMessageName(Message message)"
+        ],
+        [
+            "String getMessageName(Message message)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "void handleMessage(Message msg)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "void removeCallbacksAndMessages(Object token)",
+            "Looper getLooper()"
+        ],
+        [
+            "void removeCallbacks(Runnable r, Object token)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "void dispatchMessage(Message msg)",
+            "Message obtainMessage()"
+        ],
+        [
+            "boolean sendMessage(Message msg)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)",
+            "Looper getLooper()"
+        ],
+        [
+            "void removeMessages(int what, Object object)",
+            "String getMessageName(Message message)"
+        ],
+        [
+            "boolean sendMessageAtTime(Message msg, long uptimeMillis)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "boolean postDelayed(Runnable r, Object token, long delayMillis)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "void removeMessages(int what, Object object)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "boolean sendMessageDelayed(Message msg, long delayMillis)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "Handler createAsync(Looper looper)",
+            "Looper getLooper()"
+        ],
+        [
+            "boolean sendMessageDelayed(Message msg, long delayMillis)",
+            "Message obtainMessage()"
+        ],
+        [
+            "boolean sendMessageAtFrontOfQueue(Message msg)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "Message obtainMessage(int what, Object obj)",
+            "String getMessageName(Message message)"
+        ],
+        [
+            "boolean sendMessageDelayed(Message msg, long delayMillis)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "void removeMessages(int what, Object object)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "boolean postAtTime(Runnable r, Object token, long uptimeMillis)",
+            "Looper getLooper()"
+        ],
+        [
+            "Message obtainMessage(int what, Object obj)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "boolean sendMessageAtFrontOfQueue(Message msg)",
+            "Message obtainMessage()"
+        ],
+        [
+            "void removeCallbacks(Runnable r, Object token)",
+            "String getMessageName(Message message)"
+        ],
+        [
+            "void handleMessage(Message msg)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "void removeCallbacksAndMessages(Object token)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "void removeCallbacks(Runnable r, Object token)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "boolean postDelayed(Runnable r, Object token, long delayMillis)",
+            "Handler createAsync(Looper looper)"
+        ],
+        [
+            "boolean hasMessages(int what, Object object)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "void handleMessage(Message msg)",
+            "Message obtainMessage()"
+        ],
+        [
+            "Message obtainMessage(int what, Object obj)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "void removeCallbacks(Runnable r, Object token)",
+            "Message obtainMessage()"
+        ],
+        [
+            "void removeCallbacksAndMessages(Object token)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "void removeCallbacks(Runnable r, Object token)",
+            "Handler createAsync(Looper looper, Handler.Callback callback)"
+        ],
+        [
+            "void removeMessages(int what, Object object)",
+            "Handler createAsync(Looper looper)"
+        ],
+        [
+            "String getMessageName(Message message)",
+            "Message obtainMessage()"
+        ],
+        [
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "void dispatchMessage(Message msg)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "String getMessageName(Message message)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "boolean sendMessageDelayed(Message msg, long delayMillis)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "boolean postAtTime(Runnable r, Object token, long uptimeMillis)",
+            "Message obtainMessage(int what)"
+        ],
+        [
+            "boolean hasMessages(int what, Object object)",
+            "Handler createAsync(Looper looper)"
+        ],
+        [
+            "Message obtainMessage(int what, Object obj)",
+            "Handler createAsync(Looper looper)"
+        ],
+        [
+            "boolean postAtTime(Runnable r, Object token, long uptimeMillis)",
+            "Message obtainMessage()"
+        ],
+        [
+            "void removeCallbacksAndMessages(Object token)",
+            "String getMessageName(Message message)"
+        ],
+        [
+            "boolean postAtTime(Runnable r, Object token, long uptimeMillis)",
+            "Message obtainMessage(int what, Object obj)"
+        ],
+        [
+            "boolean sendMessageAtTime(Message msg, long uptimeMillis)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ],
+        [
+            "void removeCallbacksAndMessages(Object token)",
+            "Message obtainMessage(int what, int arg1, int arg2, Object obj)"
+        ],
+        [
+            "boolean sendMessageAtFrontOfQueue(Message msg)",
+            "Message obtainMessage(int what, int arg1, int arg2)"
+        ]
+    ]
+}

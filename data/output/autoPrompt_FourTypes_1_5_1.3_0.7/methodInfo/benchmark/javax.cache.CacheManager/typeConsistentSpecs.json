@@ -1,0 +1,56 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void destroyCache(String cacheName)",
+            "T unwrap(Class clazz)"
+        ],
+        [
+            "Cache createCache(String cacheName, C configuration)",
+            "CachingProvider getCachingProvider()"
+        ],
+        [
+            "Cache createCache(String cacheName, C configuration)",
+            "ClassLoader getClassLoader()"
+        ],
+        [
+            "Cache createCache(String cacheName, C configuration)",
+            "T unwrap(Class clazz)"
+        ],
+        [
+            "Cache getCache(String cacheName, Class keyType, Class valueType)",
+            "T unwrap(Class clazz)"
+        ],
+        [
+            "Cache createCache(String cacheName, C configuration)",
+            "URI getURI()"
+        ],
+        [
+            "Cache createCache(String cacheName, C configuration)",
+            "Cache getCache(String cacheName, Class keyType, Class valueType)"
+        ],
+        [
+            "Cache getCache(String cacheName)",
+            "T unwrap(Class clazz)"
+        ],
+        [
+            "Cache createCache(String cacheName, C configuration)",
+            "Properties getProperties()"
+        ],
+        [
+            "Cache createCache(String cacheName, C configuration)",
+            "Iterable getCacheNames()"
+        ],
+        [
+            "Cache createCache(String cacheName, C configuration)",
+            "Cache getCache(String cacheName)"
+        ],
+        [
+            "void enableManagement(String cacheName, boolean enabled)",
+            "T unwrap(Class clazz)"
+        ],
+        [
+            "void enableStatistics(String cacheName, boolean enabled)",
+            "T unwrap(Class clazz)"
+        ]
+    ]
+}

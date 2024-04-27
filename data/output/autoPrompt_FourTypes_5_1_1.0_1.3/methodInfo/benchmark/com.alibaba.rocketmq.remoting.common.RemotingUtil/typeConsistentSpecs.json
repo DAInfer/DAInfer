@@ -1,0 +1,28 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "SocketAddress string2SocketAddress(String addr)",
+            "String getLocalAddress()"
+        ],
+        [
+            "SocketChannel connect(SocketAddress remote, int timeoutMillis)",
+            "SocketAddress string2SocketAddress(String addr)"
+        ],
+        [
+            "SocketChannel connect(SocketAddress remote)",
+            "SocketAddress string2SocketAddress(String addr)"
+        ],
+        [
+            "String socketAddress2String(SocketAddress addr)",
+            "SocketAddress string2SocketAddress(String addr)"
+        ],
+        [
+            "SocketAddress string2SocketAddress(String addr)",
+            "String socketAddress2String(SocketAddress addr)"
+        ],
+        [
+            "SocketAddress string2SocketAddress(String addr)",
+            "String normalizeHostAddress(InetAddress localHost)"
+        ]
+    ]
+}

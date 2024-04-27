@@ -1,0 +1,24 @@
+{
+    "class": "THash",
+    "category": "Class",
+    "methods": {
+        "int calculateGrownCapacity()": "",
+        "abstract int capacity()": "",
+        "void clear()": "Empties the collection.",
+        "java.lang.Object clone()": "",
+        "void compact()": "Compresses the hashtable to the minimum prime size (as defined by PrimeFinder) that will hold all of the elements currently in the table.",
+        "void ensureCapacity(int desiredCapacity)": "Ensure that this hashtable has sufficient capacity to hold desiredCapacity additional elements without requiring a rehash.",
+        "float getAutoCompactionFactor()": "",
+        "boolean isEmpty()": "Tells whether this set is currently holding any elements.",
+        "void postInsertHook(boolean usedFreeSlot)": "After an insert, this hook is called to adjust the size/free values of the set and to perform rehashing if necessary.",
+        "void reenableAutoCompaction(boolean check_for_compaction)": "Re-enable auto-compaction after it was disabled via tempDisableAutoCompaction().",
+        "abstract void rehash(int newCapacity)": "Rehashes the set.",
+        "void removeAt(int index)": "Delete the record at index.",
+        "void setAutoCompactionFactor(float factor)": "The auto-compaction factor controls whether and when a table performs a compact() automatically after a certain number of remove operations.",
+        "int setUp(int initialCapacity)": "Initializes the hashtable to a prime capacity which is at least initialCapacity + 1.",
+        "int size()": "Returns the number of distinct elements in this collection.",
+        "void tempDisableAutoCompaction()": "Temporarily disables auto-compaction.",
+        "void trimToSize()": "This simply calls compact."
+    },
+    "super class": []
+}

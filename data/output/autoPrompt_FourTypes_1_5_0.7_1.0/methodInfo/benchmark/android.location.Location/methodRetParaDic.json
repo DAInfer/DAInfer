@@ -1,0 +1,423 @@
+{
+    "float bearingTo(Location dest)": {
+        "return type": "float",
+        "method name": "bearingTo",
+        "parameters": [
+            "Location"
+        ]
+    },
+    "String convert(double coordinate, int outputType)": {
+        "return type": "String",
+        "method name": "convert",
+        "parameters": [
+            "double",
+            "int"
+        ]
+    },
+    "double convert(String coordinate)": {
+        "return type": "double",
+        "method name": "convert",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int describeContents()": {
+        "return type": "int",
+        "method name": "describeContents",
+        "parameters": []
+    },
+    "void distanceBetween(double startLatitude, double startLongitude, double endLatitude, double endLongitude, float[] results)": {
+        "return type": "void",
+        "method name": "distanceBetween",
+        "parameters": [
+            "double",
+            "double",
+            "double",
+            "double",
+            "float[]"
+        ]
+    },
+    "float distanceTo(Location dest)": {
+        "return type": "float",
+        "method name": "distanceTo",
+        "parameters": [
+            "Location"
+        ]
+    },
+    "void dump(Printer pw, String prefix)": {
+        "return type": "void",
+        "method name": "dump",
+        "parameters": [
+            "Printer",
+            "String"
+        ]
+    },
+    "boolean equals(Object o)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "float getAccuracy()": {
+        "return type": "float",
+        "method name": "getAccuracy",
+        "parameters": []
+    },
+    "double getAltitude()": {
+        "return type": "double",
+        "method name": "getAltitude",
+        "parameters": []
+    },
+    "float getBearing()": {
+        "return type": "float",
+        "method name": "getBearing",
+        "parameters": []
+    },
+    "float getBearingAccuracyDegrees()": {
+        "return type": "float",
+        "method name": "getBearingAccuracyDegrees",
+        "parameters": []
+    },
+    "long getElapsedRealtimeAgeMillis(long referenceRealtimeMs)": {
+        "return type": "long",
+        "method name": "getElapsedRealtimeAgeMillis",
+        "parameters": [
+            "long"
+        ]
+    },
+    "long getElapsedRealtimeAgeMillis()": {
+        "return type": "long",
+        "method name": "getElapsedRealtimeAgeMillis",
+        "parameters": []
+    },
+    "long getElapsedRealtimeMillis()": {
+        "return type": "long",
+        "method name": "getElapsedRealtimeMillis",
+        "parameters": []
+    },
+    "long getElapsedRealtimeNanos()": {
+        "return type": "long",
+        "method name": "getElapsedRealtimeNanos",
+        "parameters": []
+    },
+    "double getElapsedRealtimeUncertaintyNanos()": {
+        "return type": "double",
+        "method name": "getElapsedRealtimeUncertaintyNanos",
+        "parameters": []
+    },
+    "Bundle getExtras()": {
+        "return type": "Bundle",
+        "method name": "getExtras",
+        "parameters": []
+    },
+    "double getLatitude()": {
+        "return type": "double",
+        "method name": "getLatitude",
+        "parameters": []
+    },
+    "double getLongitude()": {
+        "return type": "double",
+        "method name": "getLongitude",
+        "parameters": []
+    },
+    "float getMslAltitudeAccuracyMeters()": {
+        "return type": "float",
+        "method name": "getMslAltitudeAccuracyMeters",
+        "parameters": []
+    },
+    "double getMslAltitudeMeters()": {
+        "return type": "double",
+        "method name": "getMslAltitudeMeters",
+        "parameters": []
+    },
+    "String getProvider()": {
+        "return type": "String",
+        "method name": "getProvider",
+        "parameters": []
+    },
+    "float getSpeed()": {
+        "return type": "float",
+        "method name": "getSpeed",
+        "parameters": []
+    },
+    "float getSpeedAccuracyMetersPerSecond()": {
+        "return type": "float",
+        "method name": "getSpeedAccuracyMetersPerSecond",
+        "parameters": []
+    },
+    "long getTime()": {
+        "return type": "long",
+        "method name": "getTime",
+        "parameters": []
+    },
+    "float getVerticalAccuracyMeters()": {
+        "return type": "float",
+        "method name": "getVerticalAccuracyMeters",
+        "parameters": []
+    },
+    "boolean hasAccuracy()": {
+        "return type": "boolean",
+        "method name": "hasAccuracy",
+        "parameters": []
+    },
+    "boolean hasAltitude()": {
+        "return type": "boolean",
+        "method name": "hasAltitude",
+        "parameters": []
+    },
+    "boolean hasBearing()": {
+        "return type": "boolean",
+        "method name": "hasBearing",
+        "parameters": []
+    },
+    "boolean hasBearingAccuracy()": {
+        "return type": "boolean",
+        "method name": "hasBearingAccuracy",
+        "parameters": []
+    },
+    "boolean hasElapsedRealtimeUncertaintyNanos()": {
+        "return type": "boolean",
+        "method name": "hasElapsedRealtimeUncertaintyNanos",
+        "parameters": []
+    },
+    "boolean hasMslAltitude()": {
+        "return type": "boolean",
+        "method name": "hasMslAltitude",
+        "parameters": []
+    },
+    "boolean hasMslAltitudeAccuracy()": {
+        "return type": "boolean",
+        "method name": "hasMslAltitudeAccuracy",
+        "parameters": []
+    },
+    "boolean hasSpeed()": {
+        "return type": "boolean",
+        "method name": "hasSpeed",
+        "parameters": []
+    },
+    "boolean hasSpeedAccuracy()": {
+        "return type": "boolean",
+        "method name": "hasSpeedAccuracy",
+        "parameters": []
+    },
+    "boolean hasVerticalAccuracy()": {
+        "return type": "boolean",
+        "method name": "hasVerticalAccuracy",
+        "parameters": []
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "boolean isComplete()": {
+        "return type": "boolean",
+        "method name": "isComplete",
+        "parameters": []
+    },
+    "boolean isFromMockProvider()": {
+        "return type": "boolean",
+        "method name": "isFromMockProvider",
+        "parameters": []
+    },
+    "boolean isMock()": {
+        "return type": "boolean",
+        "method name": "isMock",
+        "parameters": []
+    },
+    "void removeAccuracy()": {
+        "return type": "void",
+        "method name": "removeAccuracy",
+        "parameters": []
+    },
+    "void removeAltitude()": {
+        "return type": "void",
+        "method name": "removeAltitude",
+        "parameters": []
+    },
+    "void removeBearing()": {
+        "return type": "void",
+        "method name": "removeBearing",
+        "parameters": []
+    },
+    "void removeBearingAccuracy()": {
+        "return type": "void",
+        "method name": "removeBearingAccuracy",
+        "parameters": []
+    },
+    "void removeElapsedRealtimeUncertaintyNanos()": {
+        "return type": "void",
+        "method name": "removeElapsedRealtimeUncertaintyNanos",
+        "parameters": []
+    },
+    "void removeMslAltitude()": {
+        "return type": "void",
+        "method name": "removeMslAltitude",
+        "parameters": []
+    },
+    "void removeMslAltitudeAccuracy()": {
+        "return type": "void",
+        "method name": "removeMslAltitudeAccuracy",
+        "parameters": []
+    },
+    "void removeSpeed()": {
+        "return type": "void",
+        "method name": "removeSpeed",
+        "parameters": []
+    },
+    "void removeSpeedAccuracy()": {
+        "return type": "void",
+        "method name": "removeSpeedAccuracy",
+        "parameters": []
+    },
+    "void removeVerticalAccuracy()": {
+        "return type": "void",
+        "method name": "removeVerticalAccuracy",
+        "parameters": []
+    },
+    "void reset()": {
+        "return type": "void",
+        "method name": "reset",
+        "parameters": []
+    },
+    "void set(Location location)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "Location"
+        ]
+    },
+    "void setAccuracy(float horizontalAccuracyMeters)": {
+        "return type": "void",
+        "method name": "setAccuracy",
+        "parameters": [
+            "float"
+        ]
+    },
+    "void setAltitude(double altitudeMeters)": {
+        "return type": "void",
+        "method name": "setAltitude",
+        "parameters": [
+            "double"
+        ]
+    },
+    "void setBearing(float bearingDegrees)": {
+        "return type": "void",
+        "method name": "setBearing",
+        "parameters": [
+            "float"
+        ]
+    },
+    "void setBearingAccuracyDegrees(float bearingAccuracyDegrees)": {
+        "return type": "void",
+        "method name": "setBearingAccuracyDegrees",
+        "parameters": [
+            "float"
+        ]
+    },
+    "void setElapsedRealtimeNanos(long elapsedRealtimeNs)": {
+        "return type": "void",
+        "method name": "setElapsedRealtimeNanos",
+        "parameters": [
+            "long"
+        ]
+    },
+    "void setElapsedRealtimeUncertaintyNanos(double elapsedRealtimeUncertaintyNs)": {
+        "return type": "void",
+        "method name": "setElapsedRealtimeUncertaintyNanos",
+        "parameters": [
+            "double"
+        ]
+    },
+    "void setExtras(Bundle extras)": {
+        "return type": "void",
+        "method name": "setExtras",
+        "parameters": [
+            "Bundle"
+        ]
+    },
+    "void setLatitude(double latitudeDegrees)": {
+        "return type": "void",
+        "method name": "setLatitude",
+        "parameters": [
+            "double"
+        ]
+    },
+    "void setLongitude(double longitudeDegrees)": {
+        "return type": "void",
+        "method name": "setLongitude",
+        "parameters": [
+            "double"
+        ]
+    },
+    "void setMock(boolean mock)": {
+        "return type": "void",
+        "method name": "setMock",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setMslAltitudeAccuracyMeters(float mslAltitudeAccuracyMeters)": {
+        "return type": "void",
+        "method name": "setMslAltitudeAccuracyMeters",
+        "parameters": [
+            "float"
+        ]
+    },
+    "void setMslAltitudeMeters(double mslAltitudeMeters)": {
+        "return type": "void",
+        "method name": "setMslAltitudeMeters",
+        "parameters": [
+            "double"
+        ]
+    },
+    "void setProvider(String provider)": {
+        "return type": "void",
+        "method name": "setProvider",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setSpeed(float speedMetersPerSecond)": {
+        "return type": "void",
+        "method name": "setSpeed",
+        "parameters": [
+            "float"
+        ]
+    },
+    "void setSpeedAccuracyMetersPerSecond(float speedAccuracyMeterPerSecond)": {
+        "return type": "void",
+        "method name": "setSpeedAccuracyMetersPerSecond",
+        "parameters": [
+            "float"
+        ]
+    },
+    "void setTime(long timeMs)": {
+        "return type": "void",
+        "method name": "setTime",
+        "parameters": [
+            "long"
+        ]
+    },
+    "void setVerticalAccuracyMeters(float altitudeAccuracyMeters)": {
+        "return type": "void",
+        "method name": "setVerticalAccuracyMeters",
+        "parameters": [
+            "float"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "void writeToParcel(Parcel parcel, int flags)": {
+        "return type": "void",
+        "method name": "writeToParcel",
+        "parameters": [
+            "Parcel",
+            "int"
+        ]
+    }
+}

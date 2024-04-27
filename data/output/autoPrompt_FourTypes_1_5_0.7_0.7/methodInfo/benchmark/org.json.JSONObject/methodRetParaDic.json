@@ -1,0 +1,286 @@
+{
+    "JSONObject accumulate(String name, Object value)": {
+        "return type": "JSONObject",
+        "method name": "accumulate",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "Object get(String name)": {
+        "return type": "Object",
+        "method name": "get",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean getBoolean(String name)": {
+        "return type": "boolean",
+        "method name": "getBoolean",
+        "parameters": [
+            "String"
+        ]
+    },
+    "double getDouble(String name)": {
+        "return type": "double",
+        "method name": "getDouble",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int getInt(String name)": {
+        "return type": "int",
+        "method name": "getInt",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JSONArray getJSONArray(String name)": {
+        "return type": "JSONArray",
+        "method name": "getJSONArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JSONObject getJSONObject(String name)": {
+        "return type": "JSONObject",
+        "method name": "getJSONObject",
+        "parameters": [
+            "String"
+        ]
+    },
+    "long getLong(String name)": {
+        "return type": "long",
+        "method name": "getLong",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getString(String name)": {
+        "return type": "String",
+        "method name": "getString",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean has(String name)": {
+        "return type": "boolean",
+        "method name": "has",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isNull(String name)": {
+        "return type": "boolean",
+        "method name": "isNull",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Iterator keys()": {
+        "return type": "Iterator",
+        "method name": "keys",
+        "parameters": []
+    },
+    "int length()": {
+        "return type": "int",
+        "method name": "length",
+        "parameters": []
+    },
+    "JSONArray names()": {
+        "return type": "JSONArray",
+        "method name": "names",
+        "parameters": []
+    },
+    "String numberToString(Number number)": {
+        "return type": "String",
+        "method name": "numberToString",
+        "parameters": [
+            "Number"
+        ]
+    },
+    "Object opt(String name)": {
+        "return type": "Object",
+        "method name": "opt",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean optBoolean(String name, boolean fallback)": {
+        "return type": "boolean",
+        "method name": "optBoolean",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "boolean optBoolean(String name)": {
+        "return type": "boolean",
+        "method name": "optBoolean",
+        "parameters": [
+            "String"
+        ]
+    },
+    "double optDouble(String name, double fallback)": {
+        "return type": "double",
+        "method name": "optDouble",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "double optDouble(String name)": {
+        "return type": "double",
+        "method name": "optDouble",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int optInt(String name, int fallback)": {
+        "return type": "int",
+        "method name": "optInt",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "int optInt(String name)": {
+        "return type": "int",
+        "method name": "optInt",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JSONArray optJSONArray(String name)": {
+        "return type": "JSONArray",
+        "method name": "optJSONArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JSONObject optJSONObject(String name)": {
+        "return type": "JSONObject",
+        "method name": "optJSONObject",
+        "parameters": [
+            "String"
+        ]
+    },
+    "long optLong(String name)": {
+        "return type": "long",
+        "method name": "optLong",
+        "parameters": [
+            "String"
+        ]
+    },
+    "long optLong(String name, long fallback)": {
+        "return type": "long",
+        "method name": "optLong",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "String optString(String name, String fallback)": {
+        "return type": "String",
+        "method name": "optString",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "String optString(String name)": {
+        "return type": "String",
+        "method name": "optString",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JSONObject put(String name, double value)": {
+        "return type": "JSONObject",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "JSONObject put(String name, boolean value)": {
+        "return type": "JSONObject",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "JSONObject put(String name, int value)": {
+        "return type": "JSONObject",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "JSONObject put(String name, long value)": {
+        "return type": "JSONObject",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "JSONObject put(String name, Object value)": {
+        "return type": "JSONObject",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "JSONObject putOpt(String name, Object value)": {
+        "return type": "JSONObject",
+        "method name": "putOpt",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "String quote(String data)": {
+        "return type": "String",
+        "method name": "quote",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Object remove(String name)": {
+        "return type": "Object",
+        "method name": "remove",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JSONArray toJSONArray(JSONArray names)": {
+        "return type": "JSONArray",
+        "method name": "toJSONArray",
+        "parameters": [
+            "JSONArray"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "String toString(int indentSpaces)": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": [
+            "int"
+        ]
+    },
+    "Object wrap(Object o)": {
+        "return type": "Object",
+        "method name": "wrap",
+        "parameters": [
+            "Object"
+        ]
+    }
+}

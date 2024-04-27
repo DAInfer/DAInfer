@@ -1,0 +1,12 @@
+{
+    "class": "ThreadLocal",
+    "category": "Class",
+    "methods": {
+        "T get()": "Returns the value in the current thread's copy of this thread-local variable.",
+        "T initialValue()": "Returns the current thread's \"initial value\" for this thread-local variable.",
+        "void remove()": "Removes the current thread's value for this thread-local variable.",
+        "void set(T value)": "Sets the current thread's copy of this thread-local variable to the specified value.",
+        "ThreadLocal withInitial(Supplier supplier)": "Creates a thread local variable."
+    },
+    "super class": []
+}

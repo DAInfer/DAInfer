@@ -1,0 +1,20 @@
+{
+    "Cache createCache(String cacheName, C configuration)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "Cache getCache(String cacheName)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "Cache getCache(String cacheName, Class keyType, Class valueType)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "class": "AtomicReferenceArray",
+    "category": "Class",
+    "methods": {
+        "E accumulateAndGet(int i, E x, BinaryOperator accumulatorFunction)": "Atomically updates the element at index i with the results of applying the given function to the current and given values, returning the updated value.",
+        "boolean compareAndSet(int i, E expect, E update)": "Atomically sets the element at position i to the given updated value if the current value == the expected value.",
+        "E get(int i)": "Gets the current value at position i.",
+        "E getAndAccumulate(int i, E x, BinaryOperator accumulatorFunction)": "Atomically updates the element at index i with the results of applying the given function to the current and given values, returning the previous value.",
+        "E getAndSet(int i, E newValue)": "Atomically sets the element at position i to the given value and returns the old value.",
+        "E getAndUpdate(int i, UnaryOperator updateFunction)": "Atomically updates the element at index i with the results of applying the given function, returning the previous value.",
+        "void lazySet(int i, E newValue)": "Eventually sets the element at position i to the given value.",
+        "int length()": "Returns the length of the array.",
+        "void set(int i, E newValue)": "Sets the element at position i to the given value.",
+        "String toString()": "Returns the String representation of the current values of array.",
+        "E updateAndGet(int i, UnaryOperator updateFunction)": "Atomically updates the element at index i with the results of applying the given function, returning the updated value.",
+        "boolean weakCompareAndSet(int i, E expect, E update)": "Atomically sets the element at position i to the given updated value if the current value == the expected value."
+    },
+    "super class": []
+}

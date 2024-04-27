@@ -1,0 +1,795 @@
+{
+    "java.lang.Object clone()": {
+        "return type": "java.lang.Object",
+        "method name": "clone",
+        "parameters": []
+    },
+    "GenericValue create()": {
+        "return type": "GenericValue",
+        "method name": "create",
+        "parameters": []
+    },
+    "GenericValue create(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)": {
+        "return type": "GenericValue",
+        "method name": "create",
+        "parameters": [
+            "Delegator",
+            "ModelEntity",
+            "java.lang.Object"
+        ]
+    },
+    "GenericValue create(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)": {
+        "return type": "GenericValue",
+        "method name": "create",
+        "parameters": [
+            "Delegator",
+            "ModelEntity",
+            "java.util.Map"
+        ]
+    },
+    "GenericValue create(GenericPK primaryKey)": {
+        "return type": "GenericValue",
+        "method name": "create",
+        "parameters": [
+            "GenericPK"
+        ]
+    },
+    "GenericValue create(GenericValue value)": {
+        "return type": "GenericValue",
+        "method name": "create",
+        "parameters": [
+            "GenericValue"
+        ]
+    },
+    "GenericValue create(ModelEntity modelEntity)": {
+        "return type": "GenericValue",
+        "method name": "create",
+        "parameters": [
+            "ModelEntity"
+        ]
+    },
+    "boolean equals(java.lang.Object obj)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "java.util.List getRelated(java.lang.String relationName)": {
+        "return type": "java.util.List",
+        "method name": "getRelated",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "java.util.List getRelated(java.lang.String relationName, java.util.List orderBy)": {
+        "return type": "java.util.List",
+        "method name": "getRelated",
+        "parameters": [
+            "java.lang.String",
+            "java.util.List"
+        ]
+    },
+    "java.util.List getRelated(java.lang.String relationName, java.util.Map byAndFields, java.util.List orderBy)": {
+        "return type": "java.util.List",
+        "method name": "getRelated",
+        "parameters": [
+            "java.lang.String",
+            "java.util.Map",
+            "java.util.List"
+        ]
+    },
+    "java.util.List getRelated(java.lang.String relationName, java.util.Map byAndFields, java.util.List orderBy, boolean useCache)": {
+        "return type": "java.util.List",
+        "method name": "getRelated",
+        "parameters": [
+            "java.lang.String",
+            "java.util.Map",
+            "java.util.List",
+            "boolean"
+        ]
+    },
+    "GenericPK getRelatedDummyPK(java.lang.String relationName)": {
+        "return type": "GenericPK",
+        "method name": "getRelatedDummyPK",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "GenericPK getRelatedDummyPK(java.lang.String relationName, java.util.Map byAndFields)": {
+        "return type": "GenericPK",
+        "method name": "getRelatedDummyPK",
+        "parameters": [
+            "java.lang.String",
+            "java.util.Map"
+        ]
+    },
+    "java.util.List getRelatedMulti(java.lang.String relationNameOne, java.lang.String relationNameTwo)": {
+        "return type": "java.util.List",
+        "method name": "getRelatedMulti",
+        "parameters": [
+            "java.lang.String",
+            "java.lang.String"
+        ]
+    },
+    "java.util.List getRelatedMulti(java.lang.String relationNameOne, java.lang.String relationNameTwo, java.util.List orderBy)": {
+        "return type": "java.util.List",
+        "method name": "getRelatedMulti",
+        "parameters": [
+            "java.lang.String",
+            "java.lang.String",
+            "java.util.List"
+        ]
+    },
+    "GenericValue getRelatedOne(java.lang.String relationName)": {
+        "return type": "GenericValue",
+        "method name": "getRelatedOne",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "GenericValue getRelatedOne(java.lang.String relationName, boolean useCache)": {
+        "return type": "GenericValue",
+        "method name": "getRelatedOne",
+        "parameters": [
+            "java.lang.String",
+            "boolean"
+        ]
+    },
+    "java.lang.String getStackTraceAsString()": {
+        "return type": "java.lang.String",
+        "method name": "getStackTraceAsString",
+        "parameters": []
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "void refresh()": {
+        "return type": "void",
+        "method name": "refresh",
+        "parameters": []
+    },
+    "void refreshFromCache()": {
+        "return type": "void",
+        "method name": "refreshFromCache",
+        "parameters": []
+    },
+    "void remove()": {
+        "return type": "void",
+        "method name": "remove",
+        "parameters": []
+    },
+    "void removeRelated(java.lang.String relationName)": {
+        "return type": "void",
+        "method name": "removeRelated",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "void store()": {
+        "return type": "void",
+        "method name": "store",
+        "parameters": []
+    },
+    "void addObserver(Observer observer)": {
+        "return type": "void",
+        "method name": "addObserver",
+        "parameters": [
+            "Observer"
+        ]
+    },
+    "int addToXmlDocument(java.util.Collection values, org.w3c.dom.Document document)": {
+        "return type": "int",
+        "method name": "addToXmlDocument",
+        "parameters": [
+            "java.util.Collection",
+            "org.w3c.dom.Document"
+        ]
+    },
+    "int addToXmlElement(java.util.Collection values, org.w3c.dom.Document document, org.w3c.dom.Element element)": {
+        "return type": "int",
+        "method name": "addToXmlElement",
+        "parameters": [
+            "java.util.Collection",
+            "org.w3c.dom.Document",
+            "org.w3c.dom.Element"
+        ]
+    },
+    "void assertIsMutable()": {
+        "return type": "void",
+        "method name": "assertIsMutable",
+        "parameters": []
+    },
+    "boolean checkFks(boolean insertDummy)": {
+        "return type": "boolean",
+        "method name": "checkFks",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void clear()": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": []
+    },
+    "void clearChanged()": {
+        "return type": "void",
+        "method name": "clearChanged",
+        "parameters": []
+    },
+    "int compareTo(GenericEntity that)": {
+        "return type": "int",
+        "method name": "compareTo",
+        "parameters": [
+            "GenericEntity"
+        ]
+    },
+    "int compareToFields(GenericEntity that, java.lang.String name)": {
+        "return type": "int",
+        "method name": "compareToFields",
+        "parameters": [
+            "GenericEntity",
+            "java.lang.String"
+        ]
+    },
+    "boolean containsKey(java.lang.Object key)": {
+        "return type": "boolean",
+        "method name": "containsKey",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "boolean containsPrimaryKey()": {
+        "return type": "boolean",
+        "method name": "containsPrimaryKey",
+        "parameters": []
+    },
+    "boolean containsPrimaryKey(boolean requireValue)": {
+        "return type": "boolean",
+        "method name": "containsPrimaryKey",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "boolean containsValue(java.lang.Object value)": {
+        "return type": "boolean",
+        "method name": "containsValue",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "GenericEntity createGenericEntity(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)": {
+        "return type": "GenericEntity",
+        "method name": "createGenericEntity",
+        "parameters": [
+            "Delegator",
+            "ModelEntity",
+            "java.util.Map"
+        ]
+    },
+    "GenericEntity createGenericEntity(GenericEntity value)": {
+        "return type": "GenericEntity",
+        "method name": "createGenericEntity",
+        "parameters": [
+            "GenericEntity"
+        ]
+    },
+    "GenericEntity createGenericEntity(ModelEntity modelEntity)": {
+        "return type": "GenericEntity",
+        "method name": "createGenericEntity",
+        "parameters": [
+            "ModelEntity"
+        ]
+    },
+    "java.lang.Object dangerousGetNoCheckButFast(ModelField modelField)": {
+        "return type": "java.lang.Object",
+        "method name": "dangerousGetNoCheckButFast",
+        "parameters": [
+            "ModelField"
+        ]
+    },
+    "void dangerousSetNoCheckButFast(ModelField modelField, java.lang.Object value)": {
+        "return type": "void",
+        "method name": "dangerousSetNoCheckButFast",
+        "parameters": [
+            "ModelField",
+            "java.lang.Object"
+        ]
+    },
+    "void deleteObserver(Observer observer)": {
+        "return type": "void",
+        "method name": "deleteObserver",
+        "parameters": [
+            "Observer"
+        ]
+    },
+    "void deleteObservers()": {
+        "return type": "void",
+        "method name": "deleteObservers",
+        "parameters": []
+    },
+    "java.util.Set entrySet()": {
+        "return type": "java.util.Set",
+        "method name": "entrySet",
+        "parameters": []
+    },
+    "java.lang.Object get(java.lang.Object key)": {
+        "return type": "java.lang.Object",
+        "method name": "get",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "java.lang.Object get(java.lang.String name)": {
+        "return type": "java.lang.Object",
+        "method name": "get",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "java.lang.Object get(java.lang.String name, java.lang.String resource, java.util.Locale locale)": {
+        "return type": "java.lang.Object",
+        "method name": "get",
+        "parameters": [
+            "java.lang.String",
+            "java.lang.String",
+            "java.util.Locale"
+        ]
+    },
+    "java.lang.Object get(java.lang.String name, java.util.Locale locale)": {
+        "return type": "java.lang.Object",
+        "method name": "get",
+        "parameters": [
+            "java.lang.String",
+            "java.util.Locale"
+        ]
+    },
+    "java.util.Map getAllFields()": {
+        "return type": "java.util.Map",
+        "method name": "getAllFields",
+        "parameters": []
+    },
+    "java.util.Collection getAllKeys()": {
+        "return type": "java.util.Collection",
+        "method name": "getAllKeys",
+        "parameters": []
+    },
+    "java.math.BigDecimal getBigDecimal(java.lang.String name)": {
+        "return type": "java.math.BigDecimal",
+        "method name": "getBigDecimal",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "java.lang.Boolean getBoolean(java.lang.String name)": {
+        "return type": "java.lang.Boolean",
+        "method name": "getBoolean",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "byte[] getBytes(java.lang.String name)": {
+        "return type": "byte[]",
+        "method name": "getBytes",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "java.sql.Date getDate(java.lang.String name)": {
+        "return type": "java.sql.Date",
+        "method name": "getDate",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "Delegator getDelegator()": {
+        "return type": "Delegator",
+        "method name": "getDelegator",
+        "parameters": []
+    },
+    "java.lang.Double getDouble(java.lang.String name)": {
+        "return type": "java.lang.Double",
+        "method name": "getDouble",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "TimeDuration getDuration(java.lang.String name)": {
+        "return type": "TimeDuration",
+        "method name": "getDuration",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "java.lang.String getEntityName()": {
+        "return type": "java.lang.String",
+        "method name": "getEntityName",
+        "parameters": []
+    },
+    "java.util.Map getFields(java.util.Collection keysofFields)": {
+        "return type": "java.util.Map",
+        "method name": "getFields",
+        "parameters": [
+            "java.util.Collection"
+        ]
+    },
+    "java.lang.Float getFloat(java.lang.String name)": {
+        "return type": "java.lang.Float",
+        "method name": "getFloat",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "java.lang.Integer getInteger(java.lang.String name)": {
+        "return type": "java.lang.Integer",
+        "method name": "getInteger",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "boolean getIsFromEntitySync()": {
+        "return type": "boolean",
+        "method name": "getIsFromEntitySync",
+        "parameters": []
+    },
+    "java.lang.Long getLong(java.lang.String name)": {
+        "return type": "java.lang.Long",
+        "method name": "getLong",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "ModelEntity getModelEntity()": {
+        "return type": "ModelEntity",
+        "method name": "getModelEntity",
+        "parameters": []
+    },
+    "java.lang.Object getOriginalDbValue(java.lang.String name)": {
+        "return type": "java.lang.Object",
+        "method name": "getOriginalDbValue",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "java.lang.String getPkShortValueString()": {
+        "return type": "java.lang.String",
+        "method name": "getPkShortValueString",
+        "parameters": []
+    },
+    "GenericPK getPrimaryKey()": {
+        "return type": "GenericPK",
+        "method name": "getPrimaryKey",
+        "parameters": []
+    },
+    "java.lang.String getString(java.lang.String name)": {
+        "return type": "java.lang.String",
+        "method name": "getString",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "java.sql.Time getTime(java.lang.String name)": {
+        "return type": "java.sql.Time",
+        "method name": "getTime",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "java.sql.Timestamp getTimestamp(java.lang.String name)": {
+        "return type": "java.sql.Timestamp",
+        "method name": "getTimestamp",
+        "parameters": [
+            "java.lang.String"
+        ]
+    },
+    "boolean hasChanged()": {
+        "return type": "boolean",
+        "method name": "hasChanged",
+        "parameters": []
+    },
+    "void init(Delegator delegator, ModelEntity modelEntity, java.lang.Object singlePkValue)": {
+        "return type": "void",
+        "method name": "init",
+        "parameters": [
+            "Delegator",
+            "ModelEntity",
+            "java.lang.Object"
+        ]
+    },
+    "void init(Delegator delegator, ModelEntity modelEntity, java.util.Map fields)": {
+        "return type": "void",
+        "method name": "init",
+        "parameters": [
+            "Delegator",
+            "ModelEntity",
+            "java.util.Map"
+        ]
+    },
+    "void init(GenericEntity value)": {
+        "return type": "void",
+        "method name": "init",
+        "parameters": [
+            "GenericEntity"
+        ]
+    },
+    "void init(ModelEntity modelEntity)": {
+        "return type": "void",
+        "method name": "init",
+        "parameters": [
+            "ModelEntity"
+        ]
+    },
+    "boolean isEmpty()": {
+        "return type": "boolean",
+        "method name": "isEmpty",
+        "parameters": []
+    },
+    "boolean isModified()": {
+        "return type": "boolean",
+        "method name": "isModified",
+        "parameters": []
+    },
+    "boolean isMutable()": {
+        "return type": "boolean",
+        "method name": "isMutable",
+        "parameters": []
+    },
+    "boolean isPrimaryKey()": {
+        "return type": "boolean",
+        "method name": "isPrimaryKey",
+        "parameters": []
+    },
+    "boolean isPrimaryKey(boolean requireValue)": {
+        "return type": "boolean",
+        "method name": "isPrimaryKey",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "java.util.Set keySet()": {
+        "return type": "java.util.Set",
+        "method name": "keySet",
+        "parameters": []
+    },
+    "boolean lockEnabled()": {
+        "return type": "boolean",
+        "method name": "lockEnabled",
+        "parameters": []
+    },
+    "org.w3c.dom.Document makeXmlDocument(java.util.Collection values)": {
+        "return type": "org.w3c.dom.Document",
+        "method name": "makeXmlDocument",
+        "parameters": [
+            "java.util.Collection"
+        ]
+    },
+    "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document)": {
+        "return type": "org.w3c.dom.Element",
+        "method name": "makeXmlElement",
+        "parameters": [
+            "org.w3c.dom.Document"
+        ]
+    },
+    "org.w3c.dom.Element makeXmlElement(org.w3c.dom.Document document, java.lang.String prefix)": {
+        "return type": "org.w3c.dom.Element",
+        "method name": "makeXmlElement",
+        "parameters": [
+            "org.w3c.dom.Document",
+            "java.lang.String"
+        ]
+    },
+    "boolean matches(EntityCondition condition)": {
+        "return type": "boolean",
+        "method name": "matches",
+        "parameters": [
+            "EntityCondition"
+        ]
+    },
+    "boolean matchesFields(java.util.Map keyValuePairs)": {
+        "return type": "boolean",
+        "method name": "matchesFields",
+        "parameters": [
+            "java.util.Map"
+        ]
+    },
+    "void notifyObservers()": {
+        "return type": "void",
+        "method name": "notifyObservers",
+        "parameters": []
+    },
+    "void notifyObservers(java.lang.Object arg)": {
+        "return type": "void",
+        "method name": "notifyObservers",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "boolean originalDbValuesAvailable()": {
+        "return type": "boolean",
+        "method name": "originalDbValuesAvailable",
+        "parameters": []
+    },
+    "java.lang.Object put(java.lang.String key, java.lang.Object value)": {
+        "return type": "java.lang.Object",
+        "method name": "put",
+        "parameters": [
+            "java.lang.String",
+            "java.lang.Object"
+        ]
+    },
+    "void putAll(java.util.Map map)": {
+        "return type": "void",
+        "method name": "putAll",
+        "parameters": [
+            "java.util.Map"
+        ]
+    },
+    "void refreshFromValue(GenericEntity newValue)": {
+        "return type": "void",
+        "method name": "refreshFromValue",
+        "parameters": [
+            "GenericEntity"
+        ]
+    },
+    "java.lang.Object remove(java.lang.Object key)": {
+        "return type": "java.lang.Object",
+        "method name": "remove",
+        "parameters": [
+            "java.lang.Object"
+        ]
+    },
+    "void removedFromDatasource()": {
+        "return type": "void",
+        "method name": "removedFromDatasource",
+        "parameters": []
+    },
+    "void reset()": {
+        "return type": "void",
+        "method name": "reset",
+        "parameters": []
+    },
+    "void set(java.lang.String name, java.lang.Object value)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "java.lang.String",
+            "java.lang.Object"
+        ]
+    },
+    "java.lang.Object set(java.lang.String name, java.lang.Object value, boolean setIfNull)": {
+        "return type": "java.lang.Object",
+        "method name": "set",
+        "parameters": [
+            "java.lang.String",
+            "java.lang.Object",
+            "boolean"
+        ]
+    },
+    "void setAllFields(java.util.Map fields, boolean setIfEmpty, java.lang.String namePrefix, java.lang.Boolean pks)": {
+        "return type": "void",
+        "method name": "setAllFields",
+        "parameters": [
+            "java.util.Map",
+            "boolean",
+            "java.lang.String",
+            "java.lang.Boolean"
+        ]
+    },
+    "void setBytes(java.lang.String name, byte[] bytes)": {
+        "return type": "void",
+        "method name": "setBytes",
+        "parameters": [
+            "java.lang.String",
+            "byte[]"
+        ]
+    },
+    "void setChanged()": {
+        "return type": "void",
+        "method name": "setChanged",
+        "parameters": []
+    },
+    "void setDelegator(Delegator internalDelegator)": {
+        "return type": "void",
+        "method name": "setDelegator",
+        "parameters": [
+            "Delegator"
+        ]
+    },
+    "void setFields(java.util.Map keyValuePairs)": {
+        "return type": "void",
+        "method name": "setFields",
+        "parameters": [
+            "java.util.Map"
+        ]
+    },
+    "void setImmutable()": {
+        "return type": "void",
+        "method name": "setImmutable",
+        "parameters": []
+    },
+    "void setIsFromEntitySync(boolean isFromEntitySync)": {
+        "return type": "void",
+        "method name": "setIsFromEntitySync",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setNextSeqId()": {
+        "return type": "void",
+        "method name": "setNextSeqId",
+        "parameters": []
+    },
+    "void setNonPKFields(java.util.Map fields)": {
+        "return type": "void",
+        "method name": "setNonPKFields",
+        "parameters": [
+            "java.util.Map"
+        ]
+    },
+    "void setNonPKFields(java.util.Map fields, boolean setIfEmpty)": {
+        "return type": "void",
+        "method name": "setNonPKFields",
+        "parameters": [
+            "java.util.Map",
+            "boolean"
+        ]
+    },
+    "void setPKFields(java.util.Map fields)": {
+        "return type": "void",
+        "method name": "setPKFields",
+        "parameters": [
+            "java.util.Map"
+        ]
+    },
+    "void setPKFields(java.util.Map fields, boolean setIfEmpty)": {
+        "return type": "void",
+        "method name": "setPKFields",
+        "parameters": [
+            "java.util.Map",
+            "boolean"
+        ]
+    },
+    "void setString(java.lang.String name, java.lang.String value)": {
+        "return type": "void",
+        "method name": "setString",
+        "parameters": [
+            "java.lang.String",
+            "java.lang.String"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "void synchronizedWithDatasource()": {
+        "return type": "void",
+        "method name": "synchronizedWithDatasource",
+        "parameters": []
+    },
+    "java.lang.String toString()": {
+        "return type": "java.lang.String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "java.lang.String toStringInsecure()": {
+        "return type": "java.lang.String",
+        "method name": "toStringInsecure",
+        "parameters": []
+    },
+    "java.util.Collection values()": {
+        "return type": "java.util.Collection",
+        "method name": "values",
+        "parameters": []
+    },
+    "void writeXmlText(java.io.PrintWriter writer, java.lang.String prefix)": {
+        "return type": "void",
+        "method name": "writeXmlText",
+        "parameters": [
+            "java.io.PrintWriter",
+            "java.lang.String"
+        ]
+    }
+}

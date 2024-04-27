@@ -1,0 +1,1548 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List getInstalledModules(int flags)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List getPackagesHoldingPermissions(String[] permissions, PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryActivityProperty(String propertyName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List getAllPermissionGroups(int flags)"
+        ],
+        [
+            "boolean hasSigningCertificate(int uid, byte[] certificate, int type)",
+            "byte[] getInstantAppCookie()"
+        ],
+        [
+            "CharSequence getUserBadgedLabel(CharSequence label, UserHandle user)",
+            "CharSequence getApplicationLabel(ApplicationInfo info)"
+        ],
+        [
+            "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int getPackageUid(String packageName, PackageManager.PackageInfoFlags flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "ResolveInfo resolveActivity(Intent intent, int flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "ProviderInfo resolveContentProvider(String authority, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void setApplicationCategoryHint(String packageName, int categoryHint)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryServiceProperty(String propertyName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryIntentActivities(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "Set getMimeGroup(String mimeGroup)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryIntentServices(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryBroadcastReceivers(Intent intent, int flags)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List getInstalledPackages(PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "int[] getPackageGids(String packageName, PackageManager.PackageInfoFlags flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getApplicationBanner(ApplicationInfo info)",
+            "ApplicationInfo getApplicationInfo(String packageName, int flags)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List getAllPermissionGroups(int flags)"
+        ],
+        [
+            "XmlResourceParser getXml(String packageName, int resid, ApplicationInfo appInfo)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryIntentActivities(Intent intent, int flags)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List getSharedLibraries(int flags)"
+        ],
+        [
+            "ProviderInfo resolveContentProvider(String authority, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "boolean hasSystemFeature(String featureName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryIntentContentProviders(Intent intent, int flags)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryContentProviders(String processName, int uid, int flags)"
+        ],
+        [
+            "List queryIntentServices(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryIntentActivityOptions(ComponentName caller, Intent[] specifics, Intent intent, int flags)"
+        ],
+        [
+            "List queryReceiverProperty(String propertyName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryPermissionsByGroup(String permissionGroup, int flags)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryInstrumentation(String targetPackage, int flags)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getApplicationBanner(String packageName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List getInstalledApplications(PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List getInstalledPackages(int flags)"
+        ],
+        [
+            "int checkPermission(String permName, String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int[] getPackageGids(String packageName, PackageManager.PackageInfoFlags flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getDrawable(String packageName, int resid, ApplicationInfo appInfo)"
+        ],
+        [
+            "Drawable getApplicationLogo(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "XmlResourceParser getXml(String packageName, int resid, ApplicationInfo appInfo)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "boolean hasSystemFeature(String featureName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryIntentServices(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void setMimeGroup(String mimeGroup, Set mimeTypes)",
+            "Set getWhitelistedRestrictedPermissions(String packageName, int whitelistFlag)"
+        ],
+        [
+            "Intent getLaunchIntentForPackage(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "boolean isPermissionRevokedByPolicy(String permName, String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryActivityProperty(String propertyName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void getGroupOfPlatformPermission(String permissionName, Executor executor, Consumer callback)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List getSharedLibraries(int flags)"
+        ],
+        [
+            "PackageInfo getPackageInfo(String packageName, PackageManager.PackageInfoFlags flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getApplicationIcon(ApplicationInfo info)",
+            "ApplicationInfo getApplicationInfo(String packageName, int flags)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryReceiverProperty(String propertyName)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getActivityBanner(ComponentName activityName)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryIntentActivityOptions(ComponentName caller, Intent[] specifics, Intent intent, int flags)"
+        ],
+        [
+            "List queryServiceProperty(String propertyName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getApplicationIcon(ApplicationInfo info)",
+            "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List getInstalledApplications(int flags)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryBroadcastReceivers(Intent intent, int flags)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List getInstalledApplications(PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "void updateInstantAppCookie(byte[] cookie)",
+            "byte[] getInstantAppCookie()"
+        ],
+        [
+            "List queryApplicationProperty(String propertyName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryIntentServices(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List getAllPermissionGroups(int flags)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getActivityIcon(Intent intent)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List getInstalledPackages(int flags)"
+        ],
+        [
+            "CharSequence getApplicationLabel(ApplicationInfo info)",
+            "ApplicationInfo getApplicationInfo(String packageName, int flags)"
+        ],
+        [
+            "boolean isPermissionRevokedByPolicy(String permName, String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "int getPackageUid(String packageName, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List getPackagesHoldingPermissions(String[] permissions, int flags)",
+            "String[] getPackagesForUid(int uid)"
+        ],
+        [
+            "void getGroupOfPlatformPermission(String permissionName, Executor executor, Consumer callback)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List getInstalledModules(int flags)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List getInstalledPackages(PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "PackageInfo getPackageInfo(String packageName, PackageManager.PackageInfoFlags flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "boolean[] canPackageQuery(String sourcePackageName, String[] targetPackageNames)",
+            "String[] getSystemSharedLibraryNames()"
+        ],
+        [
+            "List queryServiceProperty(String propertyName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryBroadcastReceivers(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getDefaultActivityIcon()"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryContentProviders(String processName, int uid, PackageManager.ComponentInfoFlags flags)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getActivityIcon(ComponentName activityName)"
+        ],
+        [
+            "Drawable getActivityIcon(Intent intent)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "boolean isPackageSuspended(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "List getPackagesHoldingPermissions(String[] permissions, PackageManager.PackageInfoFlags flags)",
+            "String[] canonicalToCurrentPackageNames(String[] packageNames)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryReceiverProperty(String propertyName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryIntentServices(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "List getPackagesHoldingPermissions(String[] permissions, int flags)",
+            "String[] currentToCanonicalPackageNames(String[] packageNames)"
+        ],
+        [
+            "String[] canonicalToCurrentPackageNames(String[] packageNames)",
+            "String[] currentToCanonicalPackageNames(String[] packageNames)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List getInstalledApplications(int flags)"
+        ],
+        [
+            "InstallSourceInfo getInstallSourceInfo(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getActivityLogo(ComponentName activityName)"
+        ],
+        [
+            "CharSequence getText(String packageName, int resid, ApplicationInfo appInfo)",
+            "ApplicationInfo getApplicationInfo(String packageName, int flags)"
+        ],
+        [
+            "boolean addPermissionAsync(PermissionInfo info)",
+            "PermissionInfo getPermissionInfo(String permName, int flags)"
+        ],
+        [
+            "String[] currentToCanonicalPackageNames(String[] packageNames)",
+            "String[] canonicalToCurrentPackageNames(String[] packageNames)"
+        ],
+        [
+            "boolean addPermission(PermissionInfo info)",
+            "PermissionInfo getPermissionInfo(String permName, int flags)"
+        ],
+        [
+            "List queryPermissionsByGroup(String permissionGroup, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getApplicationBanner(ApplicationInfo info)"
+        ],
+        [
+            "boolean isPackageSuspended(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getActivityBanner(Intent intent)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List getInstalledPackages(PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getApplicationBanner(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getApplicationLogo(ApplicationInfo info)"
+        ],
+        [
+            "void setInstallerPackageName(String targetPackage, String installerPackageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "ProviderInfo resolveContentProvider(String authority, PackageManager.ComponentInfoFlags flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryBroadcastReceivers(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List getInstalledPackages(int flags)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryContentProviders(String processName, int uid, PackageManager.ComponentInfoFlags flags)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryIntentContentProviders(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryApplicationProperty(String propertyName)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getDrawable(String packageName, int resid, ApplicationInfo appInfo)"
+        ],
+        [
+            "Drawable getActivityBanner(Intent intent)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryProviderProperty(String propertyName)"
+        ],
+        [
+            "ResolveInfo resolveService(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "List queryPermissionsByGroup(String permissionGroup, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "PackageInfo getPackageArchiveInfo(String archiveFilePath, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getActivityIcon(Intent intent)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "void setApplicationEnabledSetting(String packageName, int newState, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getActivityLogo(Intent intent)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryIntentActivities(Intent intent, int flags)"
+        ],
+        [
+            "Drawable getApplicationLogo(ApplicationInfo info)",
+            "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryIntentContentProviders(Intent intent, int flags)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryContentProviders(String processName, int uid, int flags)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryPermissionsByGroup(String permissionGroup, int flags)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getActivityBanner(Intent intent)"
+        ],
+        [
+            "List queryIntentServices(Intent intent, int flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "void setInstallerPackageName(String targetPackage, String installerPackageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "ProviderInfo resolveContentProvider(String authority, PackageManager.ComponentInfoFlags flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryReceiverProperty(String propertyName)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getApplicationIcon(ApplicationInfo info)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryInstrumentation(String targetPackage, int flags)"
+        ],
+        [
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List getInstalledApplications(int flags)"
+        ],
+        [
+            "boolean getSyntheticAppDetailsActivityEnabled(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List getSharedLibraries(PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "int getTargetSdkVersion(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void setApplicationEnabledSetting(String packageName, int newState, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getActivityLogo(Intent intent)"
+        ],
+        [
+            "CharSequence getText(String packageName, int resid, ApplicationInfo appInfo)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryIntentActivities(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryIntentContentProviders(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryBroadcastReceivers(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "void getPlatformPermissionsForGroup(String permissionGroupName, Executor executor, Consumer callback)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryServiceProperty(String propertyName)"
+        ],
+        [
+            "Drawable getActivityLogo(Intent intent)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryContentProviders(String processName, int uid, PackageManager.ComponentInfoFlags flags)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryIntentActivities(Intent intent, int flags)"
+        ],
+        [
+            "Drawable getActivityBanner(Intent intent)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryIntentContentProviders(Intent intent, int flags)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryContentProviders(String processName, int uid, int flags)"
+        ],
+        [
+            "List queryIntentContentProviders(Intent intent, int flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "ResolveInfo resolveService(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryPermissionsByGroup(String permissionGroup, int flags)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryInstrumentation(String targetPackage, int flags)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List getPackagesHoldingPermissions(String[] permissions, PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "PackageManager.Property getProperty(String propertyName, ComponentName component)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryIntentServices(Intent intent, int flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getActivityLogo(ComponentName activityName)"
+        ],
+        [
+            "CharSequence getText(String packageName, int resid, ApplicationInfo appInfo)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "boolean[] canPackageQuery(String sourcePackageName, String[] targetPackageNames)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryProviderProperty(String propertyName)"
+        ],
+        [
+            "void getPlatformPermissionsForGroup(String permissionGroupName, Executor executor, Consumer callback)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "int getApplicationEnabledSetting(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryReceiverProperty(String propertyName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getApplicationBanner(ApplicationInfo info)"
+        ],
+        [
+            "boolean setAutoRevokeWhitelisted(String packageName, boolean whitelisted)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getDrawable(String packageName, int resid, ApplicationInfo appInfo)",
+            "ApplicationInfo getApplicationInfo(String packageName, int flags)"
+        ],
+        [
+            "PackageInfo getPackageArchiveInfo(String archiveFilePath, PackageManager.PackageInfoFlags flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getDrawable(String packageName, int resid, ApplicationInfo appInfo)",
+            "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "PackageManager.Property getProperty(String propertyName, ComponentName component)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List getPackagesHoldingPermissions(String[] permissions, int flags)"
+        ],
+        [
+            "int checkPermission(String permName, String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryContentProviders(String processName, int uid, PackageManager.ComponentInfoFlags flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryIntentActivities(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getApplicationLogo(String packageName)"
+        ],
+        [
+            "List queryIntentContentProviders(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "PackageManager.Property getProperty(String propertyName, String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getApplicationIcon(String packageName)"
+        ],
+        [
+            "Drawable getActivityLogo(Intent intent)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List getSharedLibraries(PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "ResolveInfo resolveService(Intent intent, int flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, Intent[] specifics, Intent intent, int flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "List queryIntentContentProviders(Intent intent, int flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "boolean[] canPackageQuery(String sourcePackageName, String[] targetPackageNames)",
+            "String[] getPackagesForUid(int uid)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryIntentActivities(Intent intent, int flags)"
+        ],
+        [
+            "Intent getLaunchIntentForPackage(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "PackageInfo getPackageInfo(String packageName, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "PackageInfo getPackageArchiveInfo(String archiveFilePath, PackageManager.PackageInfoFlags flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryActivityProperty(String propertyName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryIntentContentProviders(Intent intent, int flags)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List getSharedLibraries(int flags)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryContentProviders(String processName, int uid, int flags)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryPermissionsByGroup(String permissionGroup, int flags)"
+        ],
+        [
+            "String[] canonicalToCurrentPackageNames(String[] packageNames)",
+            "String[] getPackagesForUid(int uid)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryProviderProperty(String propertyName)"
+        ],
+        [
+            "boolean hasSigningCertificate(String packageName, byte[] certificate, int type)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List getPreferredPackages(int flags)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryIntentActivityOptions(ComponentName caller, Intent[] specifics, Intent intent, int flags)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryInstrumentation(String targetPackage, int flags)"
+        ],
+        [
+            "int[] getPackageGids(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryIntentServices(Intent intent, int flags)"
+        ],
+        [
+            "PermissionInfo getPermissionInfo(String permName, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getApplicationIcon(ApplicationInfo info)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List getInstalledApplications(PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "PackageManager.Property getProperty(String propertyName, String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "boolean isAutoRevokeWhitelisted(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "boolean[] canPackageQuery(String sourcePackageName, String[] targetPackageNames)",
+            "String[] currentToCanonicalPackageNames(String[] packageNames)"
+        ],
+        [
+            "List getPackagesHoldingPermissions(String[] permissions, int flags)",
+            "String[] canonicalToCurrentPackageNames(String[] packageNames)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryIntentContentProviders(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryApplicationProperty(String propertyName)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "void removePackageFromPreferred(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List getPackagesHoldingPermissions(String[] permissions, PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "PackageInfo getPackageInfo(String packageName, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "boolean addWhitelistedRestrictedPermission(String packageName, String permName, int whitelistFlags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List getInstalledModules(int flags)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryActivityProperty(String propertyName)"
+        ],
+        [
+            "boolean hasSigningCertificate(String packageName, byte[] certificate, int type)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "CharSequence getUserBadgedLabel(CharSequence label, UserHandle user)",
+            "CharSequence getText(String packageName, int resid, ApplicationInfo appInfo)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List getSharedLibraries(PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "int[] getPackageGids(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "PermissionInfo getPermissionInfo(String permName, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryContentProviders(String processName, int uid, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "boolean isAutoRevokeWhitelisted(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List getPackagesHoldingPermissions(String[] permissions, PackageManager.PackageInfoFlags flags)",
+            "String[] getSystemSharedLibraryNames()"
+        ],
+        [
+            "ResolveInfo resolveService(Intent intent, int flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "ModuleInfo getModuleInfo(String packageName, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getActivityIcon(ComponentName activityName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, Intent[] specifics, Intent intent, int flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "Drawable getDrawable(String packageName, int resid, ApplicationInfo appInfo)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int[] getPackageGids(String packageName, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void removePackageFromPreferred(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "InstallSourceInfo getInstallSourceInfo(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryIntentActivities(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "boolean addWhitelistedRestrictedPermission(String packageName, String permName, int whitelistFlags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Resources getResourcesForApplication(ApplicationInfo app, Configuration configuration)",
+            "ApplicationInfo getApplicationInfo(String packageName, int flags)"
+        ],
+        [
+            "String[] currentToCanonicalPackageNames(String[] packageNames)",
+            "String[] getSystemSharedLibraryNames()"
+        ],
+        [
+            "boolean removeWhitelistedRestrictedPermission(String packageName, String permName, int whitelistFlags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Resources getResourcesForApplication(ApplicationInfo app, Configuration configuration)",
+            "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getActivityIcon(Intent intent)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryIntentContentProviders(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "boolean hasSystemFeature(String featureName, int version)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryApplicationProperty(String propertyName)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List getPackagesHoldingPermissions(String[] permissions, PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "List queryContentProviders(String processName, int uid, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getApplicationLogo(ApplicationInfo info)",
+            "ApplicationInfo getApplicationInfo(String packageName, int flags)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List getInstalledPackages(PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "ModuleInfo getModuleInfo(String packageName, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getDrawable(String packageName, int resid, ApplicationInfo appInfo)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "int[] getPackageGids(String packageName, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "int getPackageUid(String packageName, PackageManager.PackageInfoFlags flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getDefaultActivityIcon()"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getActivityBanner(ComponentName activityName)"
+        ],
+        [
+            "boolean hasSystemFeature(String featureName, int version)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getActivityIcon(Intent intent)"
+        ],
+        [
+            "Set getMimeGroup(String mimeGroup)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void addPackageToPreferred(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "ApplicationInfo getApplicationInfo(String packageName, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "PermissionGroupInfo getPermissionGroupInfo(String groupName, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getDefaultActivityIcon()"
+        ],
+        [
+            "void clearPackagePreferredActivities(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getApplicationBanner(String packageName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List getPackagesHoldingPermissions(String[] permissions, int flags)"
+        ],
+        [
+            "int getTargetSdkVersion(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryIntentContentProviders(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryApplicationProperty(String propertyName)"
+        ],
+        [
+            "Drawable getApplicationBanner(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryBroadcastReceivers(Intent intent, int flags)"
+        ],
+        [
+            "void addPackageToPreferred(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "CharSequence getUserBadgedLabel(CharSequence label, UserHandle user)",
+            "CharSequence getBackgroundPermissionOptionLabel()"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List getAllPermissionGroups(int flags)"
+        ],
+        [
+            "ApplicationInfo getApplicationInfo(String packageName, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getDrawable(String packageName, int resid, ApplicationInfo appInfo)"
+        ],
+        [
+            "int checkSignatures(String packageName1, String packageName2)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "PermissionGroupInfo getPermissionGroupInfo(String groupName, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void relinquishUpdateOwnership(String targetPackage)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryIntentActivities(Intent intent, int flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "Drawable getApplicationBanner(ApplicationInfo info)",
+            "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "void clearPackagePreferredActivities(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getApplicationIcon(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List getPreferredPackages(int flags)"
+        ],
+        [
+            "List queryProviderProperty(String propertyName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryIntentServices(Intent intent, int flags)"
+        ],
+        [
+            "Set getWhitelistedRestrictedPermissions(String packageName, int whitelistFlag)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getActivityIcon(ComponentName activityName)"
+        ],
+        [
+            "Drawable getApplicationBanner(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "IntentSender getLaunchIntentSenderForPackage(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getApplicationLogo(ApplicationInfo info)"
+        ],
+        [
+            "List queryBroadcastReceivers(Intent intent, int flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getActivityBanner(ComponentName activityName)"
+        ],
+        [
+            "ResolveInfo resolveActivity(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "int checkSignatures(String packageName1, String packageName2)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List getPackagesHoldingPermissions(String[] permissions, int flags)"
+        ],
+        [
+            "boolean[] canPackageQuery(String sourcePackageName, String[] targetPackageNames)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryIntentServices(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void relinquishUpdateOwnership(String targetPackage)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List getInstalledModules(int flags)"
+        ],
+        [
+            "int getApplicationEnabledSetting(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryApplicationProperty(String propertyName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "boolean isInstantApp(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryActivityProperty(String propertyName)"
+        ],
+        [
+            "Drawable getApplicationIcon(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryProviderProperty(String propertyName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "boolean setAutoRevokeWhitelisted(String packageName, boolean whitelisted)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Resources getResourcesForApplication(ApplicationInfo app)",
+            "ApplicationInfo getApplicationInfo(String packageName, int flags)"
+        ],
+        [
+            "Set getWhitelistedRestrictedPermissions(String packageName, int whitelistFlag)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryServiceProperty(String propertyName)"
+        ],
+        [
+            "int getPackageUid(String packageName, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "IntentSender getLaunchIntentSenderForPackage(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Resources getResourcesForApplication(ApplicationInfo app)",
+            "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "String getInstallerPackageName(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getActivityBanner(Intent intent)"
+        ],
+        [
+            "List queryBroadcastReceivers(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List getPreferredPackages(int flags)"
+        ],
+        [
+            "List queryContentProviders(String processName, int uid, PackageManager.ComponentInfoFlags flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryIntentServices(Intent intent, int flags)"
+        ],
+        [
+            "boolean[] canPackageQuery(String sourcePackageName, String[] targetPackageNames)",
+            "String[] canonicalToCurrentPackageNames(String[] packageNames)"
+        ],
+        [
+            "List queryIntentActivities(Intent intent, int flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryIntentActivities(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "List queryInstrumentation(String targetPackage, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "boolean isInstantApp(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List getInstalledPackages(int flags)"
+        ],
+        [
+            "Resources getResourcesForApplication(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getActivityLogo(ComponentName activityName)"
+        ],
+        [
+            "boolean canPackageQuery(String sourcePackageName, String targetPackageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void removePermission(String permName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void setMimeGroup(String mimeGroup, Set mimeTypes)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryProviderProperty(String propertyName)"
+        ],
+        [
+            "CharSequence getApplicationLabel(ApplicationInfo info)",
+            "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "List queryBroadcastReceivers(Intent intent, int flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getActivityLogo(Intent intent)"
+        ],
+        [
+            "List getPackagesHoldingPermissions(String[] permissions, PackageManager.PackageInfoFlags flags)",
+            "String[] getPackagesForUid(int uid)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryActivityProperty(String propertyName)"
+        ],
+        [
+            "ResolveInfo resolveActivity(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "boolean isDefaultApplicationIcon(Drawable drawable)",
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getApplicationBanner(ApplicationInfo info)"
+        ],
+        [
+            "List getPackagesHoldingPermissions(String[] permissions, int flags)",
+            "String[] getSystemSharedLibraryNames()"
+        ],
+        [
+            "String[] canonicalToCurrentPackageNames(String[] packageNames)",
+            "String[] getSystemSharedLibraryNames()"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List getPackagesHoldingPermissions(String[] permissions, int flags)"
+        ],
+        [
+            "String[] currentToCanonicalPackageNames(String[] packageNames)",
+            "String[] getPackagesForUid(int uid)"
+        ],
+        [
+            "List queryInstrumentation(String targetPackage, int flags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryReceiverProperty(String propertyName)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getApplicationLogo(ApplicationInfo info)"
+        ],
+        [
+            "Resources getResourcesForApplication(String packageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List getInstalledApplications(int flags)"
+        ],
+        [
+            "List getPackagesHoldingPermissions(String[] permissions, PackageManager.PackageInfoFlags flags)",
+            "String[] currentToCanonicalPackageNames(String[] packageNames)"
+        ],
+        [
+            "boolean canPackageQuery(String sourcePackageName, String targetPackageName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void removePermission(String permName)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "void setMimeGroup(String mimeGroup, Set mimeTypes)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getApplicationLogo(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getApplicationIcon(String packageName)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List getSharedLibraries(PackageManager.PackageInfoFlags flags)"
+        ],
+        [
+            "void requestChecksums(String packageName, boolean includeSplits, int required, List trustedInstallers, PackageManager.OnChecksumsReadyListener onChecksumsReadyListener)",
+            "List queryIntentActivities(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "ResolveInfo resolveActivity(Intent intent, int flags)",
+            "Intent getLeanbackLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "List queryBroadcastReceivers(Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "Intent getLaunchIntentForPackage(String packageName)"
+        ],
+        [
+            "boolean hasSigningCertificate(String packageName, byte[] certificate, int type)",
+            "byte[] getInstantAppCookie()"
+        ],
+        [
+            "XmlResourceParser getXml(String packageName, int resid, ApplicationInfo appInfo)",
+            "ApplicationInfo getApplicationInfo(String packageName, int flags)"
+        ],
+        [
+            "Drawable getApplicationLogo(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "CharSequence getText(String packageName, int resid, ApplicationInfo appInfo)",
+            "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List getSharedLibraries(int flags)"
+        ],
+        [
+            "XmlResourceParser getXml(String packageName, int resid, ApplicationInfo appInfo)",
+            "ApplicationInfo getApplicationInfo(String packageName, PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "void setMimeGroup(String mimeGroup, Set mimeTypes)",
+            "Set getMimeGroup(String mimeGroup)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryIntentActivityOptions(ComponentName caller, Intent[] specifics, Intent intent, int flags)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List getPreferredPackages(int flags)"
+        ],
+        [
+            "PackageInfo getPackageArchiveInfo(String archiveFilePath, int flags)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List queryIntentServices(Intent intent, int flags)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryServiceProperty(String propertyName)"
+        ],
+        [
+            "void setComponentEnabledSettings(List settings)",
+            "List getInstalledApplications(PackageManager.ApplicationInfoFlags flags)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryBroadcastReceivers(Intent intent, PackageManager.ResolveInfoFlags flags)"
+        ],
+        [
+            "Drawable getUserBadgedDrawableForDensity(Drawable drawable, UserHandle user, Rect badgeLocation, int badgeDensity)",
+            "Drawable getApplicationIcon(ApplicationInfo info)"
+        ],
+        [
+            "int getPreferredActivities(List outFilters, List outActivities, String packageName)",
+            "List queryContentProviders(String processName, int uid, PackageManager.ComponentInfoFlags flags)"
+        ],
+        [
+            "boolean removeWhitelistedRestrictedPermission(String packageName, String permName, int whitelistFlags)",
+            "String getInstallerPackageName(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getApplicationLogo(String packageName)"
+        ],
+        [
+            "Drawable getUserBadgedIcon(Drawable drawable, UserHandle user)",
+            "Drawable getApplicationIcon(String packageName)"
+        ],
+        [
+            "boolean getSyntheticAppDetailsActivityEnabled(String packageName)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "void setApplicationCategoryHint(String packageName, int categoryHint)",
+            "String getNameForUid(int uid)"
+        ],
+        [
+            "List queryIntentActivityOptions(ComponentName caller, List specifics, Intent intent, PackageManager.ResolveInfoFlags flags)",
+            "List queryBroadcastReceivers(Intent intent, int flags)"
+        ]
+    ]
+}

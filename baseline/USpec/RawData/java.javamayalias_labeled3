@@ -1,0 +1,4260 @@
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.bukkit.World"
+  call_type: "MethodCallExpr"
+  call_value: "getBlockAt"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 9
+    pattern_id: 11
+    repo_support: 4
+    file_support: 8
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-8_org.bukkit.World-getBlockAt-after-getBlockAt_9"
+    score: 0.7841532
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.bukkit.World"
+  call_type: "MethodCallExpr"
+  call_value: "getBlockAt"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 9
+    pattern_id: 11
+    repo_support: 4
+    file_support: 8
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-8_org.bukkit.World-getBlockAt-after-getBlockAt_9"
+    score: 0.7841532
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.math.BigDecimal"
+  call_type: "MethodCallExpr"
+  call_value: "multiply"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 11
+    pattern_id: 11
+    repo_support: 4
+    file_support: 23
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-23_java.math.BigDecimal-multiply-after-multiply_11"
+    score: 0.7165627
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.math.BigDecimal"
+  call_type: "MethodCallExpr"
+  call_value: "multiply"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 11
+    pattern_id: 11
+    repo_support: 4
+    file_support: 23
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-23_java.math.BigDecimal-multiply-after-multiply_11"
+    score: 0.7165627
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.axiom.om.OMElement"
+  call_type: "MethodCallExpr"
+  call_value: "getAttributeValue"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 13
+    pattern_id: 11
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-5_org.apache.axiom.om.OMElement-getAttributeValue-after-getAttributeValue_13"
+    score: 0.073728
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.axiom.om.OMElement"
+  call_type: "MethodCallExpr"
+  call_value: "getAttributeValue"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 13
+    pattern_id: 11
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-5_org.apache.axiom.om.OMElement-getAttributeValue-after-getAttributeValue_13"
+    score: 0.073728
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.StringBuilder"
+  call_type: "MethodCallExpr"
+  call_value: "substring"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 40
+    pattern_id: 78
+    repo_support: 5
+    file_support: 10
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,1)), TV(Arg(src,1),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 5-10_java.lang.StringBuilder-substring-after-substring_40"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.StringBuilder"
+  call_type: "MethodCallExpr"
+  call_value: "substring"
+  directive: "TV2"
+  field_access_type: WRITE
+  arg_num: 1
+  info {
+    id: 40
+    pattern_id: 78
+    repo_support: 5
+    file_support: 10
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,1)), TV(Arg(src,1),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 5-10_java.lang.StringBuilder-substring-after-substring_40"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Hashtable"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 57
+    pattern_id: 90
+    repo_support: 42
+    file_support: 90
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 42-90_java.util.Hashtable-get-after-put_57"
+    score: 0.9537401
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Hashtable"
+  call_type: "MethodCallExpr"
+  call_value: "put"
+  directive: "Eq1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 57
+    pattern_id: 90
+    repo_support: 42
+    file_support: 90
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 42-90_java.util.Hashtable-get-after-put_57"
+    score: 0.9537401
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.hadoop.fs.FileSystem"
+  call_type: "MethodCallExpr"
+  call_value: "getFileStatus"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 64
+    pattern_id: 90
+    repo_support: 3
+    file_support: 4
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-4_org.apache.hadoop.fs.FileSystem-getFileStatus-after-delete_64"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.hadoop.fs.FileSystem"
+  call_type: "MethodCallExpr"
+  call_value: "delete"
+  directive: "Eq1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 64
+    pattern_id: 90
+    repo_support: 3
+    file_support: 4
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-4_org.apache.hadoop.fs.FileSystem-getFileStatus-after-delete_64"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Properties"
+  call_type: "MethodCallExpr"
+  call_value: "getProperty"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 68
+    pattern_id: 90
+    repo_support: 23
+    file_support: 31
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 23-31_java.util.Properties-getProperty-after-setProperty_68"
+    score: 0.9364664
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Properties"
+  call_type: "MethodCallExpr"
+  call_value: "setProperty"
+  directive: "Eq1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 68
+    pattern_id: 90
+    repo_support: 23
+    file_support: 31
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 23-31_java.util.Properties-getProperty-after-setProperty_68"
+    score: 0.9364664
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "net.minecraft.nbt.NBTTagCompound"
+  call_type: "MethodCallExpr"
+  call_value: "getCompoundTag"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 73
+    pattern_id: 90
+    repo_support: 3
+    file_support: 5
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-5_net.minecraft.nbt.NBTTagCompound-getCompoundTag-after-hasKey_73"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "net.minecraft.nbt.NBTTagCompound"
+  call_type: "MethodCallExpr"
+  call_value: "hasKey"
+  directive: "Eq1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 73
+    pattern_id: 90
+    repo_support: 3
+    file_support: 5
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-5_net.minecraft.nbt.NBTTagCompound-getCompoundTag-after-hasKey_73"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.jface.preference.IPreferenceStore"
+  call_type: "MethodCallExpr"
+  call_value: "getString"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 123
+    pattern_id: 11
+    repo_support: 3
+    file_support: 3
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-3_org.eclipse.jface.preference.IPreferenceStore-getString-after-getString_123"
+    score: 0.0016832
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.jface.preference.IPreferenceStore"
+  call_type: "MethodCallExpr"
+  call_value: "getString"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 123
+    pattern_id: 11
+    repo_support: 3
+    file_support: 3
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-3_org.eclipse.jface.preference.IPreferenceStore-getString-after-getString_123"
+    score: 0.0016832
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.w3c.dom.Document"
+  call_type: "MethodCallExpr"
+  call_value: "createElement"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 136
+    pattern_id: 32
+    repo_support: 13
+    file_support: 21
+    label: MAYBE_FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 13-21_org.w3c.dom.Document-createElement-after-createElement_136"
+    score: 0.0597883
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.w3c.dom.Document"
+  call_type: "MethodCallExpr"
+  call_value: "createElement"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 136
+    pattern_id: 32
+    repo_support: 13
+    file_support: 21
+    label: MAYBE_FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 13-21_org.w3c.dom.Document-createElement-after-createElement_136"
+    score: 0.0597883
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.concurrent.atomic.AtomicInteger"
+  call_type: "MethodCallExpr"
+  call_value: "getAndSet"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 164
+    pattern_id: 11
+    repo_support: 3
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-4_java.util.concurrent.atomic.AtomicInteger-getAndSet-after-getAndSet_164"
+    score: 5.2e-06
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.concurrent.atomic.AtomicInteger"
+  call_type: "MethodCallExpr"
+  call_value: "getAndSet"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 164
+    pattern_id: 11
+    repo_support: 3
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-4_java.util.concurrent.atomic.AtomicInteger-getAndSet-after-getAndSet_164"
+    score: 5.2e-06
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.os.Bundle"
+  call_type: "MethodCallExpr"
+  call_value: "getLong"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 170
+    pattern_id: 32
+    repo_support: 3
+    file_support: 3
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-3_android.os.Bundle-getLong-after-getLong_170"
+    score: 0.0004365
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.os.Bundle"
+  call_type: "MethodCallExpr"
+  call_value: "getLong"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 170
+    pattern_id: 32
+    repo_support: 3
+    file_support: 3
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-3_android.os.Bundle-getLong-after-getLong_170"
+    score: 0.0004365
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "gnu.trove.list.array.TIntArrayList"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 178
+    pattern_id: 11
+    repo_support: 5
+    file_support: 8
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-8_gnu.trove.list.array.TIntArrayList-get-after-get_178"
+    score: 0.034575
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "gnu.trove.list.array.TIntArrayList"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 178
+    pattern_id: 11
+    repo_support: 5
+    file_support: 8
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-8_gnu.trove.list.array.TIntArrayList-get-after-get_178"
+    score: 0.034575
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javafx.beans.property.DoubleProperty"
+  call_type: "MethodCallExpr"
+  call_value: "multiply"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 180
+    pattern_id: 11
+    repo_support: 3
+    file_support: 3
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-3_javafx.beans.property.DoubleProperty-multiply-after-multiply_180"
+    score: 0.0379985
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javafx.beans.property.DoubleProperty"
+  call_type: "MethodCallExpr"
+  call_value: "multiply"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 180
+    pattern_id: 11
+    repo_support: 3
+    file_support: 3
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-3_javafx.beans.property.DoubleProperty-multiply-after-multiply_180"
+    score: 0.0379985
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.HashMap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 198
+    pattern_id: 90
+    repo_support: 408
+    file_support: 834
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 408-834_java.util.HashMap-get-after-put_198"
+    score: 0.9934367
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.HashMap"
+  call_type: "MethodCallExpr"
+  call_value: "put"
+  directive: "Eq1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 198
+    pattern_id: 90
+    repo_support: 408
+    file_support: 834
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 408-834_java.util.HashMap-get-after-put_198"
+    score: 0.9934367
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.commons.cli.Options"
+  call_type: "MethodCallExpr"
+  call_value: "getOption"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 214
+    pattern_id: 32
+    repo_support: 3
+    file_support: 3
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-3_org.apache.commons.cli.Options-getOption-after-getOption_214"
+    score: 0.3758
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.commons.cli.Options"
+  call_type: "MethodCallExpr"
+  call_value: "getOption"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 214
+    pattern_id: 32
+    repo_support: 3
+    file_support: 3
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-3_org.apache.commons.cli.Options-getOption-after-getOption_214"
+    score: 0.3758
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSet"
+  call_type: "MethodCallExpr"
+  call_value: "getTimestamp"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 218
+    pattern_id: 21
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_java.sql.ResultSet-getTimestamp-after-getDate_218"
+    score: 0.03611
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSet"
+  call_type: "MethodCallExpr"
+  call_value: "getDate"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 218
+    pattern_id: 21
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_java.sql.ResultSet-getTimestamp-after-getDate_218"
+    score: 0.03611
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.swing.InputMap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 227
+    pattern_id: 11
+    repo_support: 4
+    file_support: 6
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-6_javax.swing.InputMap-get-after-get_227"
+    score: 0.0820135
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.swing.InputMap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 227
+    pattern_id: 11
+    repo_support: 4
+    file_support: 6
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-6_javax.swing.InputMap-get-after-get_227"
+    score: 0.0820135
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getTableName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 240
+    repo_support: 4
+    file_support: 5
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-5_java.sql.ResultSetMetaData-getTableName-after-getColumnName_240"
+    score: 0.0050289
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 240
+    repo_support: 4
+    file_support: 5
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-5_java.sql.ResultSetMetaData-getTableName-after-getColumnName_240"
+    score: 0.0050289
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.Class"
+  call_type: "MethodCallExpr"
+  call_value: "getConstructor"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 248
+    pattern_id: 11
+    repo_support: 8
+    file_support: 9
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 8-9_java.lang.Class-getConstructor-after-getConstructor_248"
+    score: 0.139807
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.Class"
+  call_type: "MethodCallExpr"
+  call_value: "getConstructor"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 248
+    pattern_id: 11
+    repo_support: 8
+    file_support: 9
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 8-9_java.lang.Class-getConstructor-after-getConstructor_248"
+    score: 0.139807
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.swing.JTable"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 257
+    pattern_id: 11
+    repo_support: 6
+    file_support: 9
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 6-9_javax.swing.JTable-getColumnName-after-getColumnName_257"
+    score: 0.0058699
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.swing.JTable"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 257
+    pattern_id: 11
+    repo_support: 6
+    file_support: 9
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 6-9_javax.swing.JTable-getColumnName-after-getColumnName_257"
+    score: 0.0058699
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSet"
+  call_type: "MethodCallExpr"
+  call_value: "getObject"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 267
+    pattern_id: 11
+    repo_support: 4
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-5_java.sql.ResultSet-getObject-after-getObject_267"
+    score: 0.0732173
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSet"
+  call_type: "MethodCallExpr"
+  call_value: "getObject"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 267
+    pattern_id: 11
+    repo_support: 4
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-5_java.sql.ResultSet-getObject-after-getObject_267"
+    score: 0.0732173
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.regex.Matcher"
+  call_type: "MethodCallExpr"
+  call_value: "start"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 277
+    pattern_id: 21
+    repo_support: 12
+    file_support: 15
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 12-15_java.util.regex.Matcher-start-after-end_277"
+    score: 6.25e-05
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.regex.Matcher"
+  call_type: "MethodCallExpr"
+  call_value: "end"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 277
+    pattern_id: 21
+    repo_support: 12
+    file_support: 15
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 12-15_java.util.regex.Matcher-start-after-end_277"
+    score: 6.25e-05
+  }
+}
+objects {
+  receiver_type: "MethodCallExpr"
+  receiver_value: "createObjectNode"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 289
+    pattern_id: 114
+    repo_support: 3
+    file_support: 4
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 3-4_createObjectNode-get-after-put_289"
+    score: 0.6369893
+  }
+}
+objects {
+  receiver_type: "MethodCallExpr"
+  receiver_value: "createObjectNode"
+  call_type: "MethodCallExpr"
+  call_value: "put"
+  directive: "TV1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 289
+    pattern_id: 114
+    repo_support: 3
+    file_support: 4
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 3-4_createObjectNode-get-after-put_289"
+    score: 0.6369893
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.jms.Session"
+  call_type: "MethodCallExpr"
+  call_value: "createConsumer"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 291
+    repo_support: 9
+    file_support: 143
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 9-143_javax.jms.Session-createConsumer-after-createProducer_291"
+    score: 0.4890056
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.jms.Session"
+  call_type: "MethodCallExpr"
+  call_value: "createProducer"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 291
+    repo_support: 9
+    file_support: 143
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 9-143_javax.jms.Session-createConsumer-after-createProducer_291"
+    score: 0.4890056
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.antlr.runtime.tree.TreeAdaptor"
+  call_type: "MethodCallExpr"
+  call_value: "create"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 306
+    pattern_id: 11
+    repo_support: 5
+    file_support: 5
+    label: MAYBE_FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-5_org.antlr.runtime.tree.TreeAdaptor-create-after-create_306"
+    score: 0.002336
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.antlr.runtime.tree.TreeAdaptor"
+  call_type: "MethodCallExpr"
+  call_value: "create"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 306
+    pattern_id: 11
+    repo_support: 5
+    file_support: 5
+    label: MAYBE_FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-5_org.antlr.runtime.tree.TreeAdaptor-create-after-create_306"
+    score: 0.002336
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.google.gwt.user.client.ui.ListBox"
+  call_type: "MethodCallExpr"
+  call_value: "getItemText"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 317
+    pattern_id: 11
+    repo_support: 4
+    file_support: 7
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-7_com.google.gwt.user.client.ui.ListBox-getItemText-after-getItemText_317"
+    score: 0.0012844
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.google.gwt.user.client.ui.ListBox"
+  call_type: "MethodCallExpr"
+  call_value: "getItemText"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 317
+    pattern_id: 11
+    repo_support: 4
+    file_support: 7
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-7_com.google.gwt.user.client.ui.ListBox-getItemText-after-getItemText_317"
+    score: 0.0012844
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.List"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 321
+    repo_support: 4
+    file_support: 5
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-5_java.util.List-get-after-remove_321"
+    score: 0.0342913
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.List"
+  call_type: "MethodCallExpr"
+  call_value: "remove"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 321
+    repo_support: 4
+    file_support: 5
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-5_java.util.List-get-after-remove_321"
+    score: 0.0342913
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.swt.widgets.Table"
+  call_type: "MethodCallExpr"
+  call_value: "getItem"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 338
+    pattern_id: 32
+    repo_support: 6
+    file_support: 16
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 6-16_org.eclipse.swt.widgets.Table-getItem-after-getItem_338"
+    score: 0.8977338
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.swt.widgets.Table"
+  call_type: "MethodCallExpr"
+  call_value: "getItem"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 338
+    pattern_id: 32
+    repo_support: 6
+    file_support: 16
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 6-16_org.eclipse.swt.widgets.Table-getItem-after-getItem_338"
+    score: 0.8977338
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.csvreader.CsvReader"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 368
+    pattern_id: 32
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-5_com.csvreader.CsvReader-get-after-get_368"
+    score: 0.0185306
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.csvreader.CsvReader"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 368
+    pattern_id: 32
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-5_com.csvreader.CsvReader-get-after-get_368"
+    score: 0.0185306
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.StringBuilder"
+  call_type: "MethodCallExpr"
+  call_value: "insert"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 371
+    pattern_id: 114
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 3-3_java.lang.StringBuilder-insert-after-delete_371"
+    score: 0.031635
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.StringBuilder"
+  call_type: "MethodCallExpr"
+  call_value: "delete"
+  directive: "TV1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 371
+    pattern_id: 114
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 3-3_java.lang.StringBuilder-insert-after-delete_371"
+    score: 0.031635
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.io.BufferedReader"
+  call_type: "MethodCallExpr"
+  call_value: "read"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 389
+    pattern_id: 11
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-4_java.io.BufferedReader-read-after-read_389"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.io.BufferedReader"
+  call_type: "MethodCallExpr"
+  call_value: "read"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 389
+    pattern_id: 11
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-4_java.io.BufferedReader-read-after-read_389"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.solr.common.params.SolrParams"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 390
+    pattern_id: 11
+    repo_support: 3
+    file_support: 7
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-7_org.apache.solr.common.params.SolrParams-get-after-get_390"
+    score: 0.037924
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.solr.common.params.SolrParams"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 390
+    pattern_id: 11
+    repo_support: 3
+    file_support: 7
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-7_org.apache.solr.common.params.SolrParams-get-after-get_390"
+    score: 0.037924
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.HashMap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 391
+    pattern_id: 90
+    repo_support: 3
+    file_support: 4
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-4_java.util.HashMap-get-after-putIfAbsent_391"
+    score: 0.8392562
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.HashMap"
+  call_type: "MethodCallExpr"
+  call_value: "putIfAbsent"
+  directive: "Eq1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 391
+    pattern_id: 90
+    repo_support: 3
+    file_support: 4
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-4_java.util.HashMap-get-after-putIfAbsent_391"
+    score: 0.8392562
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.util.SparseIntArray"
+  call_type: "MethodCallExpr"
+  call_value: "keyAt"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 431
+    repo_support: 3
+    file_support: 5
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-5_android.util.SparseIntArray-keyAt-after-valueAt_431"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.util.SparseIntArray"
+  call_type: "MethodCallExpr"
+  call_value: "valueAt"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 431
+    repo_support: 3
+    file_support: 5
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-5_android.util.SparseIntArray-keyAt-after-valueAt_431"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.jdom2.Element"
+  call_type: "MethodCallExpr"
+  call_value: "getChild"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 443
+    pattern_id: 32
+    repo_support: 6
+    file_support: 10
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 6-10_org.jdom2.Element-getChild-after-getChild_443"
+    score: 0.7896836
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.jdom2.Element"
+  call_type: "MethodCallExpr"
+  call_value: "getChild"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 443
+    pattern_id: 32
+    repo_support: 6
+    file_support: 10
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 6-10_org.jdom2.Element-getChild-after-getChild_443"
+    score: 0.7896836
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getScale"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 447
+    repo_support: 7
+    file_support: 8
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 7-8_java.sql.ResultSetMetaData-getScale-after-getColumnName_447"
+    score: 0.00204
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 447
+    repo_support: 7
+    file_support: 8
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 7-8_java.sql.ResultSetMetaData-getScale-after-getColumnName_447"
+    score: 0.00204
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "net.minecraft.nbt.NBTTagCompound"
+  call_type: "MethodCallExpr"
+  call_value: "getCompoundTag"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 468
+    pattern_id: 32
+    repo_support: 12
+    file_support: 113
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 12-113_net.minecraft.nbt.NBTTagCompound-getCompoundTag-after-getCompoundTag_468"
+    score: 0.898864
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "net.minecraft.nbt.NBTTagCompound"
+  call_type: "MethodCallExpr"
+  call_value: "getCompoundTag"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 468
+    pattern_id: 32
+    repo_support: 12
+    file_support: 113
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 12-113_net.minecraft.nbt.NBTTagCompound-getCompoundTag-after-getCompoundTag_468"
+    score: 0.898864
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.jooq.Result"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 483
+    pattern_id: 32
+    repo_support: 3
+    file_support: 4
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-4_org.jooq.Result-get-after-get_483"
+    score: 0.126611
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.jooq.Result"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 483
+    pattern_id: 32
+    repo_support: 3
+    file_support: 4
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-4_org.jooq.Result-get-after-get_483"
+    score: 0.126611
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.content.Intent"
+  call_type: "MethodCallExpr"
+  call_value: "getStringExtra"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 488
+    pattern_id: 11
+    repo_support: 5
+    file_support: 6
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-6_android.content.Intent-getStringExtra-after-getStringExtra_488"
+    score: 0.000728
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.content.Intent"
+  call_type: "MethodCallExpr"
+  call_value: "getStringExtra"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 488
+    pattern_id: 11
+    repo_support: 5
+    file_support: 6
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-6_android.content.Intent-getStringExtra-after-getStringExtra_488"
+    score: 0.000728
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.swing.JTabbedPane"
+  call_type: "MethodCallExpr"
+  call_value: "getComponentAt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 492
+    pattern_id: 21
+    repo_support: 5
+    file_support: 7
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 5-7_javax.swing.JTabbedPane-getComponentAt-after-getTitleAt_492"
+    score: 0.1067035
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.swing.JTabbedPane"
+  call_type: "MethodCallExpr"
+  call_value: "getTitleAt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 492
+    pattern_id: 21
+    repo_support: 5
+    file_support: 7
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 5-7_javax.swing.JTabbedPane-getComponentAt-after-getTitleAt_492"
+    score: 0.1067035
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.tools.ant.types.FileSet"
+  call_type: "MethodCallExpr"
+  call_value: "getDir"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 497
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-4_org.apache.tools.ant.types.FileSet-getDir-after-getDirectoryScanner_497"
+    score: 0.2221502
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.tools.ant.types.FileSet"
+  call_type: "MethodCallExpr"
+  call_value: "getDirectoryScanner"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 497
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-4_org.apache.tools.ant.types.FileSet-getDir-after-getDirectoryScanner_497"
+    score: 0.2221502
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.joda.time.DateTime"
+  call_type: "MethodCallExpr"
+  call_value: "minusDays"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 502
+    pattern_id: 21
+    repo_support: 4
+    file_support: 7
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-7_org.joda.time.DateTime-minusDays-after-plusDays_502"
+    score: 0.1428268
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.joda.time.DateTime"
+  call_type: "MethodCallExpr"
+  call_value: "plusDays"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 502
+    pattern_id: 21
+    repo_support: 4
+    file_support: 7
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-7_org.joda.time.DateTime-minusDays-after-plusDays_502"
+    score: 0.1428268
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.List"
+  call_type: "MethodCallExpr"
+  call_value: "indexOf"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 542
+    pattern_id: 11
+    repo_support: 40
+    file_support: 61
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 40-61_java.util.List-indexOf-after-indexOf_542"
+    score: 0.8806985
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.List"
+  call_type: "MethodCallExpr"
+  call_value: "indexOf"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 542
+    pattern_id: 11
+    repo_support: 40
+    file_support: 61
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 40-61_java.util.List-indexOf-after-indexOf_542"
+    score: 0.8806985
+  }
+}
+objects {
+  receiver_type: "MethodCallExpr"
+  receiver_value: "next"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 547
+    pattern_id: 32
+    repo_support: 12
+    file_support: 16
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 12-16_next-get-after-get_547"
+    score: 0.1939349
+  }
+}
+objects {
+  receiver_type: "MethodCallExpr"
+  receiver_value: "next"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 547
+    pattern_id: 32
+    repo_support: 12
+    file_support: 16
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 12-16_next-get-after-get_547"
+    score: 0.1939349
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.w3c.dom.Document"
+  call_type: "MethodCallExpr"
+  call_value: "getElementsByTagName"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 559
+    pattern_id: 32
+    repo_support: 26
+    file_support: 36
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 26-36_org.w3c.dom.Document-getElementsByTagName-after-getElementsByTagName_559"
+    score: 0.2846737
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.w3c.dom.Document"
+  call_type: "MethodCallExpr"
+  call_value: "getElementsByTagName"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 559
+    pattern_id: 32
+    repo_support: 26
+    file_support: 36
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 26-36_org.w3c.dom.Document-getElementsByTagName-after-getElementsByTagName_559"
+    score: 0.2846737
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.text.NumberFormat"
+  call_type: "MethodCallExpr"
+  call_value: "format"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 561
+    pattern_id: 11
+    repo_support: 19
+    file_support: 24
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 19-24_java.text.NumberFormat-format-after-format_561"
+    score: 0.0027305
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.text.NumberFormat"
+  call_type: "MethodCallExpr"
+  call_value: "format"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 561
+    pattern_id: 11
+    repo_support: 19
+    file_support: 24
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 19-24_java.text.NumberFormat-format-after-format_561"
+    score: 0.0027305
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "net.minecraft.client.renderer.VertexBuffer"
+  call_type: "MethodCallExpr"
+  call_value: "pos"
+  directive: "TV1TV2TV3"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 564
+    pattern_id: 2465
+    repo_support: 8
+    file_support: 17
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,3)), TV(Arg(src,2),Arg(tg,1)), TV(Arg(src,3),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 8-17_net.minecraft.client.renderer.VertexBuffer-pos-after-pos_564"
+    score: 0.0037293
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "net.minecraft.client.renderer.VertexBuffer"
+  call_type: "MethodCallExpr"
+  call_value: "pos"
+  directive: "TV1TV2TV3"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 564
+    pattern_id: 2465
+    repo_support: 8
+    file_support: 17
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,3)), TV(Arg(src,2),Arg(tg,1)), TV(Arg(src,3),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 8-17_net.minecraft.client.renderer.VertexBuffer-pos-after-pos_564"
+    score: 0.0037293
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Map"
+  call_type: "MethodCallExpr"
+  call_value: "getOrDefault"
+  directive: "Eq1Eq2"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 595
+    pattern_id: 152
+    repo_support: 5
+    file_support: 6
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,2),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 5-6_java.util.Map-getOrDefault-after-getOrDefault_595"
+    score: 0.4082604
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Map"
+  call_type: "MethodCallExpr"
+  call_value: "getOrDefault"
+  directive: "Eq1Eq2"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 595
+    pattern_id: 152
+    repo_support: 5
+    file_support: 6
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,2),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 5-6_java.util.Map-getOrDefault-after-getOrDefault_595"
+    score: 0.4082604
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.util.SparseIntArray"
+  call_type: "MethodCallExpr"
+  call_value: "keyAt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 605
+    pattern_id: 32
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-5_android.util.SparseIntArray-keyAt-after-keyAt_605"
+    score: 0.0012981
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.util.SparseIntArray"
+  call_type: "MethodCallExpr"
+  call_value: "keyAt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 605
+    pattern_id: 32
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-5_android.util.SparseIntArray-keyAt-after-keyAt_605"
+    score: 0.0012981
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "net.minecraftforge.items.ItemStackHandler"
+  call_type: "MethodCallExpr"
+  call_value: "getStackInSlot"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 610
+    pattern_id: 11
+    repo_support: 3
+    file_support: 7
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-7_net.minecraftforge.items.ItemStackHandler-getStackInSlot-after-getStackInSlot_610"
+    score: 0.6794635
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "net.minecraftforge.items.ItemStackHandler"
+  call_type: "MethodCallExpr"
+  call_value: "getStackInSlot"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 610
+    pattern_id: 11
+    repo_support: 3
+    file_support: 7
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-7_net.minecraftforge.items.ItemStackHandler-getStackInSlot-after-getStackInSlot_610"
+    score: 0.6794635
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "io.vertx.ext.web.Router"
+  call_type: "MethodCallExpr"
+  call_value: "post"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 619
+    pattern_id: 21
+    repo_support: 9
+    file_support: 21
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 9-21_io.vertx.ext.web.Router-post-after-get_619"
+    score: 0.1346437
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "io.vertx.ext.web.Router"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 619
+    pattern_id: 21
+    repo_support: 9
+    file_support: 21
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 9-21_io.vertx.ext.web.Router-post-after-get_619"
+    score: 0.1346437
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.codehaus.jettison.json.JSONArray"
+  call_type: "MethodCallExpr"
+  call_value: "getJSONObject"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 629
+    pattern_id: 11
+    repo_support: 8
+    file_support: 12
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 8-12_org.codehaus.jettison.json.JSONArray-getJSONObject-after-getJSONObject_629"
+    score: 0.6424323
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.codehaus.jettison.json.JSONArray"
+  call_type: "MethodCallExpr"
+  call_value: "getJSONObject"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 629
+    pattern_id: 11
+    repo_support: 8
+    file_support: 12
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 8-12_org.codehaus.jettison.json.JSONArray-getJSONObject-after-getJSONObject_629"
+    score: 0.6424323
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Properties"
+  call_type: "MethodCallExpr"
+  call_value: "getProperty"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 650
+    pattern_id: 114
+    repo_support: 35
+    file_support: 58
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 35-58_java.util.Properties-getProperty-after-setProperty_650"
+    score: 0.9370099
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Properties"
+  call_type: "MethodCallExpr"
+  call_value: "setProperty"
+  directive: "TV1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 650
+    pattern_id: 114
+    repo_support: 35
+    file_support: 58
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 35-58_java.util.Properties-getProperty-after-setProperty_650"
+    score: 0.9370099
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "gnu.trove.map.TIntObjectMap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 675
+    pattern_id: 90
+    repo_support: 5
+    file_support: 6
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 5-6_gnu.trove.map.TIntObjectMap-get-after-put_675"
+    score: 0.7734087
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "gnu.trove.map.TIntObjectMap"
+  call_type: "MethodCallExpr"
+  call_value: "put"
+  directive: "Eq1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 675
+    pattern_id: 90
+    repo_support: 5
+    file_support: 6
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 5-6_gnu.trove.map.TIntObjectMap-get-after-put_675"
+    score: 0.7734087
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.jface.text.Document"
+  call_type: "MethodCallExpr"
+  call_value: "getChar"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 696
+    pattern_id: 90
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-3_org.eclipse.jface.text.Document-getChar-after-get_696"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.jface.text.Document"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 696
+    pattern_id: 90
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-3_org.eclipse.jface.text.Document-getChar-after-get_696"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.TreeMap"
+  call_type: "MethodCallExpr"
+  call_value: "tailMap"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 717
+    pattern_id: 32
+    repo_support: 4
+    file_support: 4
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 4-4_java.util.TreeMap-tailMap-after-tailMap_717"
+    score: 0.04867
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.TreeMap"
+  call_type: "MethodCallExpr"
+  call_value: "tailMap"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 717
+    pattern_id: 32
+    repo_support: 4
+    file_support: 4
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 4-4_java.util.TreeMap-tailMap-after-tailMap_717"
+    score: 0.04867
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.Object"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 734
+    pattern_id: 32
+    repo_support: 11
+    file_support: 13
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 11-13_java.lang.Object-get-after-get_734"
+    score: 0.4548723
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.Object"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 734
+    pattern_id: 32
+    repo_support: 11
+    file_support: 13
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 11-13_java.lang.Object-get-after-get_734"
+    score: 0.4548723
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.swt.widgets.TabFolder"
+  call_type: "MethodCallExpr"
+  call_value: "getItem"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 736
+    pattern_id: 11
+    repo_support: 3
+    file_support: 3
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-3_org.eclipse.swt.widgets.TabFolder-getItem-after-getItem_736"
+    score: 0.506173666667
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.swt.widgets.TabFolder"
+  call_type: "MethodCallExpr"
+  call_value: "getItem"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 736
+    pattern_id: 11
+    repo_support: 3
+    file_support: 3
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-3_org.eclipse.swt.widgets.TabFolder-getItem-after-getItem_736"
+    score: 0.506173666667
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.bukkit.block.Block"
+  call_type: "MethodCallExpr"
+  call_value: "getRelative"
+  directive: "TV1TV2TV3"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 743
+    pattern_id: 1345
+    repo_support: 3
+    file_support: 4
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), TV(Arg(src,2),Arg(tg,2)), TV(Arg(src,3),Arg(tg,3)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 3-4_org.bukkit.block.Block-getRelative-after-getRelative_743"
+    score: 0.3035028
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.bukkit.block.Block"
+  call_type: "MethodCallExpr"
+  call_value: "getRelative"
+  directive: "TV1TV2TV3"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 743
+    pattern_id: 1345
+    repo_support: 3
+    file_support: 4
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), TV(Arg(src,2),Arg(tg,2)), TV(Arg(src,3),Arg(tg,3)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 3-4_org.bukkit.block.Block-getRelative-after-getRelative_743"
+    score: 0.3035028
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "freemarker.template.Configuration"
+  call_type: "MethodCallExpr"
+  call_value: "getTemplate"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 754
+    pattern_id: 11
+    repo_support: 4
+    file_support: 4
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-4_freemarker.template.Configuration-getTemplate-after-getTemplate_754"
+    score: 0.322925
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "freemarker.template.Configuration"
+  call_type: "MethodCallExpr"
+  call_value: "getTemplate"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 754
+    pattern_id: 11
+    repo_support: 4
+    file_support: 4
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-4_freemarker.template.Configuration-getTemplate-after-getTemplate_754"
+    score: 0.322925
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.jcraft.jogg.SyncState"
+  call_type: "MethodCallExpr"
+  call_value: "buffer"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 774
+    pattern_id: 32
+    repo_support: 4
+    file_support: 10
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 4-10_com.jcraft.jogg.SyncState-buffer-after-buffer_774"
+    score: 3e-06
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.jcraft.jogg.SyncState"
+  call_type: "MethodCallExpr"
+  call_value: "buffer"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 774
+    pattern_id: 32
+    repo_support: 4
+    file_support: 10
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 4-10_com.jcraft.jogg.SyncState-buffer-after-buffer_774"
+    score: 3e-06
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.jface.text.IDocument"
+  call_type: "MethodCallExpr"
+  call_value: "getChar"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 778
+    pattern_id: 11
+    repo_support: 16
+    file_support: 28
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 16-28_org.eclipse.jface.text.IDocument-getChar-after-getChar_778"
+    score: 0.143867
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.jface.text.IDocument"
+  call_type: "MethodCallExpr"
+  call_value: "getChar"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 778
+    pattern_id: 11
+    repo_support: 16
+    file_support: 28
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 16-28_org.eclipse.jface.text.IDocument-getChar-after-getChar_778"
+    score: 0.143867
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.jboss.dmr.ModelNode"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 789
+    pattern_id: 11
+    repo_support: 7
+    file_support: 29
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 7-29_org.jboss.dmr.ModelNode-get-after-get_789"
+    score: 0.4850318
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.jboss.dmr.ModelNode"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 789
+    pattern_id: 11
+    repo_support: 7
+    file_support: 29
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 7-29_org.jboss.dmr.ModelNode-get-after-get_789"
+    score: 0.4850318
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.swing.DefaultComboBoxModel"
+  call_type: "MethodCallExpr"
+  call_value: "getElementAt"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 807
+    pattern_id: 11
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-5_javax.swing.DefaultComboBoxModel-getElementAt-after-getElementAt_807"
+    score: 0.625501
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.swing.DefaultComboBoxModel"
+  call_type: "MethodCallExpr"
+  call_value: "getElementAt"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 807
+    pattern_id: 11
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-5_javax.swing.DefaultComboBoxModel-getElementAt-after-getElementAt_807"
+    score: 0.625501
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnDisplaySize"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 814
+    repo_support: 10
+    file_support: 13
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 10-13_java.sql.ResultSetMetaData-getColumnDisplaySize-after-getColumnTypeName_814"
+    score: 0.7702668
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnTypeName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 814
+    repo_support: 10
+    file_support: 13
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 10-13_java.sql.ResultSetMetaData-getColumnDisplaySize-after-getColumnTypeName_814"
+    score: 0.7702668
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.fasterxml.jackson.databind.JsonNode"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 839
+    pattern_id: 11
+    repo_support: 27
+    file_support: 54
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 27-54_com.fasterxml.jackson.databind.JsonNode-get-after-get_839"
+    score: 0.7685765
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.fasterxml.jackson.databind.JsonNode"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 839
+    pattern_id: 11
+    repo_support: 27
+    file_support: 54
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 27-54_com.fasterxml.jackson.databind.JsonNode-get-after-get_839"
+    score: 0.7685765
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "nu.xom.Elements"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 842
+    pattern_id: 32
+    repo_support: 3
+    file_support: 3
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-3_nu.xom.Elements-get-after-get_842"
+    score: 0.392315875
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "nu.xom.Elements"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 842
+    pattern_id: 32
+    repo_support: 3
+    file_support: 3
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-3_nu.xom.Elements-get-after-get_842"
+    score: 0.392315875
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Map"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 852
+    pattern_id: 11
+    repo_support: 1375
+    file_support: 3336
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 1375-3336_java.util.Map-get-after-get_852"
+    score: 0.9999858
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Map"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 852
+    pattern_id: 11
+    repo_support: 1375
+    file_support: 3336
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 1375-3336_java.util.Map-get-after-get_852"
+    score: 0.9999858
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "INodeDirectoryWithQuota"
+  call_type: "MethodCallExpr"
+  call_value: "getNode"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 863
+    pattern_id: 11
+    repo_support: 4
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-5_INodeDirectoryWithQuota-getNode-after-getNode_863"
+    score: 0.924251
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "INodeDirectoryWithQuota"
+  call_type: "MethodCallExpr"
+  call_value: "getNode"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 863
+    pattern_id: 11
+    repo_support: 4
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-5_INodeDirectoryWithQuota-getNode-after-getNode_863"
+    score: 0.924251
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.math.BigInteger"
+  call_type: "MethodCallExpr"
+  call_value: "remainder"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 881
+    repo_support: 6
+    file_support: 7
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 6-7_java.math.BigInteger-remainder-after-divide_881"
+    score: 0.0368427
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.math.BigInteger"
+  call_type: "MethodCallExpr"
+  call_value: "divide"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 881
+    repo_support: 6
+    file_support: 7
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 6-7_java.math.BigInteger-remainder-after-divide_881"
+    score: 0.0368427
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.google.gson.JsonObject"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 905
+    pattern_id: 32
+    repo_support: 86
+    file_support: 327
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 86-327_com.google.gson.JsonObject-get-after-get_905"
+    score: 0.9731087
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.google.gson.JsonObject"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 905
+    pattern_id: 32
+    repo_support: 86
+    file_support: 327
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 86-327_com.google.gson.JsonObject-get-after-get_905"
+    score: 0.9731087
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.util.SparseArray"
+  call_type: "MethodCallExpr"
+  call_value: "valueAt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 928
+    pattern_id: 32
+    repo_support: 17
+    file_support: 38
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 17-38_android.util.SparseArray-valueAt-after-valueAt_928"
+    score: 0.964491
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.util.SparseArray"
+  call_type: "MethodCallExpr"
+  call_value: "valueAt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 928
+    pattern_id: 32
+    repo_support: 17
+    file_support: 38
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 17-38_android.util.SparseArray-valueAt-after-valueAt_928"
+    score: 0.964491
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.alibaba.fastjson.JSONObject"
+  call_type: "MethodCallExpr"
+  call_value: "getJSONObject"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 930
+    pattern_id: 32
+    repo_support: 4
+    file_support: 7
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 4-7_com.alibaba.fastjson.JSONObject-getJSONObject-after-getJSONObject_930"
+    score: 0.2061692
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.alibaba.fastjson.JSONObject"
+  call_type: "MethodCallExpr"
+  call_value: "getJSONObject"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 930
+    pattern_id: 32
+    repo_support: 4
+    file_support: 7
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 4-7_com.alibaba.fastjson.JSONObject-getJSONObject-after-getJSONObject_930"
+    score: 0.2061692
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.TreeMap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 966
+    pattern_id: 11
+    repo_support: 43
+    file_support: 63
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 43-63_java.util.TreeMap-get-after-get_966"
+    score: 0.9678328
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.TreeMap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 966
+    pattern_id: 11
+    repo_support: 43
+    file_support: 63
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 43-63_java.util.TreeMap-get-after-get_966"
+    score: 0.9678328
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "net.sf.json.JSONArray"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 970
+    pattern_id: 11
+    repo_support: 3
+    file_support: 10
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-10_net.sf.json.JSONArray-get-after-get_970"
+    score: 0.1439176
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "net.sf.json.JSONArray"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 970
+    pattern_id: 11
+    repo_support: 3
+    file_support: 10
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-10_net.sf.json.JSONArray-get-after-get_970"
+    score: 0.1439176
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.w3c.dom.Element"
+  call_type: "MethodCallExpr"
+  call_value: "getAttribute"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1033
+    pattern_id: 11
+    repo_support: 19
+    file_support: 37
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 19-37_org.w3c.dom.Element-getAttribute-after-getAttribute_1033"
+    score: 0.0285655
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.w3c.dom.Element"
+  call_type: "MethodCallExpr"
+  call_value: "getAttribute"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1033
+    pattern_id: 11
+    repo_support: 19
+    file_support: 37
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 19-37_org.w3c.dom.Element-getAttribute-after-getAttribute_1033"
+    score: 0.0285655
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.os.RemoteCallbackList"
+  call_type: "MethodCallExpr"
+  call_value: "getBroadcastItem"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1034
+    pattern_id: 32
+    repo_support: 6
+    file_support: 19
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 6-19_android.os.RemoteCallbackList-getBroadcastItem-after-getBroadcastItem_1034"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.os.RemoteCallbackList"
+  call_type: "MethodCallExpr"
+  call_value: "getBroadcastItem"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1034
+    pattern_id: 32
+    repo_support: 6
+    file_support: 19
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 6-19_android.os.RemoteCallbackList-getBroadcastItem-after-getBroadcastItem_1034"
+  }
+}
+objects {
+  receiver_type: "MethodCallExpr"
+  receiver_value: "getToolkit"
+  call_type: "MethodCallExpr"
+  call_value: "createLabel"
+  directive: "Eq1TV2"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1046
+    pattern_id: 872
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,3)), Eq(Arg(src,1),Arg(tg,1)), TV(Arg(src,2),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_getToolkit-createLabel-after-createText_1046"
+  }
+}
+objects {
+  receiver_type: "MethodCallExpr"
+  receiver_value: "getToolkit"
+  call_type: "MethodCallExpr"
+  call_value: "createText"
+  directive: "Eq1TV2"
+  field_access_type: WRITE
+  arg_num: 3
+  info {
+    id: 1046
+    pattern_id: 872
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,3)), Eq(Arg(src,1),Arg(tg,1)), TV(Arg(src,2),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_getToolkit-createLabel-after-createText_1046"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.util.SparseIntArray"
+  call_type: "MethodCallExpr"
+  call_value: "valueAt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1050
+    pattern_id: 32
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-5_android.util.SparseIntArray-valueAt-after-valueAt_1050"
+    score: 0.0005313
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.util.SparseIntArray"
+  call_type: "MethodCallExpr"
+  call_value: "valueAt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1050
+    pattern_id: 32
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-5_android.util.SparseIntArray-valueAt-after-valueAt_1050"
+    score: 0.0005313
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Map"
+  call_type: "MethodCallExpr"
+  call_value: "remove"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1054
+    pattern_id: 114
+    repo_support: 8
+    file_support: 9
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 8-9_java.util.Map-remove-after-put_1054"
+    score: 0.3291792
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Map"
+  call_type: "MethodCallExpr"
+  call_value: "put"
+  directive: "TV1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 1054
+    pattern_id: 114
+    repo_support: 8
+    file_support: 9
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 8-9_java.util.Map-remove-after-put_1054"
+    score: 0.3291792
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.database.Cursor"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1066
+    pattern_id: 11
+    repo_support: 5
+    file_support: 6
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-6_android.database.Cursor-getColumnName-after-getColumnName_1066"
+    score: 0.2492722
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.database.Cursor"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1066
+    pattern_id: 11
+    repo_support: 5
+    file_support: 6
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-6_android.database.Cursor-getColumnName-after-getColumnName_1066"
+    score: 0.2492722
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.vertx.java.core.json.JsonObject"
+  call_type: "MethodCallExpr"
+  call_value: "getString"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1073
+    pattern_id: 114
+    repo_support: 3
+    file_support: 9
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 3-9_org.vertx.java.core.json.JsonObject-getString-after-putString_1073"
+    score: 0.4255723
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.vertx.java.core.json.JsonObject"
+  call_type: "MethodCallExpr"
+  call_value: "putString"
+  directive: "TV1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 1073
+    pattern_id: 114
+    repo_support: 3
+    file_support: 9
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 3-9_org.vertx.java.core.json.JsonObject-getString-after-putString_1073"
+    score: 0.4255723
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.content.pm.PackageManager"
+  call_type: "MethodCallExpr"
+  call_value: "getApplicationLabel"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1076
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_android.content.pm.PackageManager-getApplicationLabel-after-getApplicationIcon_1076"
+    score: 0.00866766666667
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.content.pm.PackageManager"
+  call_type: "MethodCallExpr"
+  call_value: "getApplicationIcon"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1076
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_android.content.pm.PackageManager-getApplicationLabel-after-getApplicationIcon_1076"
+    score: 0.00866766666667
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.mongodb.client.MongoDatabase"
+  call_type: "MethodCallExpr"
+  call_value: "getCollection"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1078
+    pattern_id: 11
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-5_com.mongodb.client.MongoDatabase-getCollection-after-getCollection_1078"
+    score: 0.3581009
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.mongodb.client.MongoDatabase"
+  call_type: "MethodCallExpr"
+  call_value: "getCollection"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1078
+    pattern_id: 11
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-5_com.mongodb.client.MongoDatabase-getCollection-after-getCollection_1078"
+    score: 0.3581009
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.google.common.collect.BiMap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1090
+    pattern_id: 90
+    repo_support: 3
+    file_support: 4
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-4_com.google.common.collect.BiMap-get-after-put_1090"
+    score: 0.125882571429
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.google.common.collect.BiMap"
+  call_type: "MethodCallExpr"
+  call_value: "put"
+  directive: "Eq1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 1090
+    pattern_id: 90
+    repo_support: 3
+    file_support: 4
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-4_com.google.common.collect.BiMap-get-after-put_1090"
+    score: 0.125882571429
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnTypeName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1095
+    pattern_id: 11
+    repo_support: 4
+    file_support: 8
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-8_java.sql.ResultSetMetaData-getColumnTypeName-after-getColumnTypeName_1095"
+    score: 0.7859608
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnTypeName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1095
+    pattern_id: 11
+    repo_support: 4
+    file_support: 8
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 4-8_java.sql.ResultSetMetaData-getColumnTypeName-after-getColumnTypeName_1095"
+    score: 0.7859608
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.NavigableMap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1098
+    pattern_id: 11
+    repo_support: 5
+    file_support: 7
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-7_java.util.NavigableMap-get-after-get_1098"
+    score: 0.8800462
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.NavigableMap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1098
+    pattern_id: 11
+    repo_support: 5
+    file_support: 7
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-7_java.util.NavigableMap-get-after-get_1098"
+    score: 0.8800462
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.swing.text.Element"
+  call_type: "MethodCallExpr"
+  call_value: "getElement"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1101
+    pattern_id: 11
+    repo_support: 5
+    file_support: 8
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-8_javax.swing.text.Element-getElement-after-getElement_1101"
+    score: 0.4916992
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.swing.text.Element"
+  call_type: "MethodCallExpr"
+  call_value: "getElement"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1101
+    pattern_id: 11
+    repo_support: 5
+    file_support: 8
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-8_javax.swing.text.Element-getElement-after-getElement_1101"
+    score: 0.4916992
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.BitSet"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1105
+    pattern_id: 114
+    repo_support: 4
+    file_support: 4
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 4-4_java.util.BitSet-get-after-set_1105"
+    score: 0.0645103
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.BitSet"
+  call_type: "MethodCallExpr"
+  call_value: "set"
+  directive: "TV1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 1105
+    pattern_id: 114
+    repo_support: 4
+    file_support: 4
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 4-4_java.util.BitSet-get-after-set_1105"
+    score: 0.0645103
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "isAutoIncrement"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1108
+    repo_support: 4
+    file_support: 7
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-7_java.sql.ResultSetMetaData-isAutoIncrement-after-getPrecision_1108"
+    score: 0.0022708
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getPrecision"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1108
+    repo_support: 4
+    file_support: 7
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-7_java.sql.ResultSetMetaData-isAutoIncrement-after-getPrecision_1108"
+    score: 0.0022708
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.StringBuilder"
+  call_type: "MethodCallExpr"
+  call_value: "subSequence"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1135
+    pattern_id: 114
+    repo_support: 3
+    file_support: 5
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 3-5_java.lang.StringBuilder-subSequence-after-substring_1135"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.StringBuilder"
+  call_type: "MethodCallExpr"
+  call_value: "substring"
+  directive: "TV1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 1135
+    pattern_id: 114
+    repo_support: 3
+    file_support: 5
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 3-5_java.lang.StringBuilder-subSequence-after-substring_1135"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.content.res.TypedArray"
+  call_type: "MethodCallExpr"
+  call_value: "getTextArray"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1144
+    pattern_id: 66
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,1)), TV(Arg(src,1),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-4_android.content.res.TypedArray-getTextArray-after-getDimensionPixelSize_1144"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.content.res.TypedArray"
+  call_type: "MethodCallExpr"
+  call_value: "getDimensionPixelSize"
+  directive: "TV2"
+  field_access_type: WRITE
+  arg_num: 1
+  info {
+    id: 1144
+    pattern_id: 66
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,1)), TV(Arg(src,1),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-4_android.content.res.TypedArray-getTextArray-after-getDimensionPixelSize_1144"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.w3c.dom.Element"
+  call_type: "MethodCallExpr"
+  call_value: "getAttribute"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1154
+    pattern_id: 32
+    repo_support: 81
+    file_support: 212
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 81-212_org.w3c.dom.Element-getAttribute-after-getAttribute_1154"
+    score: 0.6935059
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.w3c.dom.Element"
+  call_type: "MethodCallExpr"
+  call_value: "getAttribute"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1154
+    pattern_id: 32
+    repo_support: 81
+    file_support: 212
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 81-212_org.w3c.dom.Element-getAttribute-after-getAttribute_1154"
+    score: 0.6935059
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.squareup.okhttp.Headers"
+  call_type: "MethodCallExpr"
+  call_value: "value"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1155
+    repo_support: 4
+    file_support: 7
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-7_com.squareup.okhttp.Headers-value-after-name_1155"
+    score: 0.0437992
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.squareup.okhttp.Headers"
+  call_type: "MethodCallExpr"
+  call_value: "name"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1155
+    repo_support: 4
+    file_support: 7
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-7_com.squareup.okhttp.Headers-value-after-name_1155"
+    score: 0.0437992
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.io.ByteArrayOutputStream"
+  call_type: "MethodCallExpr"
+  call_value: "toString"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1172
+    pattern_id: 32
+    repo_support: 6
+    file_support: 7
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 6-7_java.io.ByteArrayOutputStream-toString-after-toString_1172"
+    score: 0.0816548571429
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.io.ByteArrayOutputStream"
+  call_type: "MethodCallExpr"
+  call_value: "toString"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1172
+    pattern_id: 32
+    repo_support: 6
+    file_support: 7
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 6-7_java.io.ByteArrayOutputStream-toString-after-toString_1172"
+    score: 0.0816548571429
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.jsoup.nodes.Document"
+  call_type: "MethodCallExpr"
+  call_value: "getElementsByClass"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1217
+    pattern_id: 32
+    repo_support: 3
+    file_support: 17
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-17_org.jsoup.nodes.Document-getElementsByClass-after-getElementsByClass_1217"
+    score: 0.706822
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.jsoup.nodes.Document"
+  call_type: "MethodCallExpr"
+  call_value: "getElementsByClass"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1217
+    pattern_id: 32
+    repo_support: 3
+    file_support: 17
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-17_org.jsoup.nodes.Document-getElementsByClass-after-getElementsByClass_1217"
+    score: 0.706822
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.mongodb.DB"
+  call_type: "MethodCallExpr"
+  call_value: "getCollection"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1219
+    pattern_id: 11
+    repo_support: 5
+    file_support: 8
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-8_com.mongodb.DB-getCollection-after-getCollection_1219"
+    score: 0.8526581
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.mongodb.DB"
+  call_type: "MethodCallExpr"
+  call_value: "getCollection"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1219
+    pattern_id: 11
+    repo_support: 5
+    file_support: 8
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 5-8_com.mongodb.DB-getCollection-after-getCollection_1219"
+    score: 0.8526581
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.List"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1223
+    pattern_id: 114
+    repo_support: 111
+    file_support: 232
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 111-232_java.util.List-get-after-add_1223"
+    score: 0.9919006
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.List"
+  call_type: "MethodCallExpr"
+  call_value: "add"
+  directive: "TV1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 1223
+    pattern_id: 114
+    repo_support: 111
+    file_support: 232
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - alias: GetAfterSetTV - 111-232_java.util.List-get-after-add_1223"
+    score: 0.9919006
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.kxml2.kdom.Element"
+  call_type: "MethodCallExpr"
+  call_value: "getAttributeValue"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1229
+    pattern_id: 21
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_org.kxml2.kdom.Element-getAttributeValue-after-getText_1229"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.kxml2.kdom.Element"
+  call_type: "MethodCallExpr"
+  call_value: "getText"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1229
+    pattern_id: 21
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_org.kxml2.kdom.Element-getAttributeValue-after-getText_1229"
+  }
+}
+objects {
+  receiver_type: "MethodCallExpr"
+  receiver_value: "java.util.Collections.unmodifiableList"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1257
+    pattern_id: 32
+    repo_support: 3
+    file_support: 3
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-3_java.util.Collections.unmodifiableList-get-after-get_1257"
+    score: 0.06483675
+  }
+}
+objects {
+  receiver_type: "MethodCallExpr"
+  receiver_value: "java.util.Collections.unmodifiableList"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1257
+    pattern_id: 32
+    repo_support: 3
+    file_support: 3
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-3_java.util.Collections.unmodifiableList-get-after-get_1257"
+    score: 0.06483675
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.typesafe.config.Config"
+  call_type: "MethodCallExpr"
+  call_value: "getInt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1284
+    pattern_id: 32
+    repo_support: 4
+    file_support: 7
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 4-7_com.typesafe.config.Config-getInt-after-getInt_1284"
+    score: 0.1220506
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.typesafe.config.Config"
+  call_type: "MethodCallExpr"
+  call_value: "getInt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1284
+    pattern_id: 32
+    repo_support: 4
+    file_support: 7
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 4-7_com.typesafe.config.Config-getInt-after-getInt_1284"
+    score: 0.1220506
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.core.runtime.IPath"
+  call_type: "MethodCallExpr"
+  call_value: "append"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1291
+    pattern_id: 32
+    repo_support: 6
+    file_support: 7
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 6-7_org.eclipse.core.runtime.IPath-append-after-append_1291"
+    score: 0.2688127
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.core.runtime.IPath"
+  call_type: "MethodCallExpr"
+  call_value: "append"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1291
+    pattern_id: 32
+    repo_support: 6
+    file_support: 7
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 6-7_org.eclipse.core.runtime.IPath-append-after-append_1291"
+    score: 0.2688127
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.StringBuilder"
+  call_type: "MethodCallExpr"
+  call_value: "substring"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1305
+    pattern_id: 54
+    repo_support: 6
+    file_support: 13
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,1)), Eq(Arg(src,1),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 6-13_java.lang.StringBuilder-substring-after-substring_1305"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.lang.StringBuilder"
+  call_type: "MethodCallExpr"
+  call_value: "substring"
+  directive: "Eq2"
+  field_access_type: WRITE
+  arg_num: 1
+  info {
+    id: 1305
+    pattern_id: 54
+    repo_support: 6
+    file_support: 13
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,1)), Eq(Arg(src,1),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 6-13_java.lang.StringBuilder-substring-after-substring_1305"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.commons.configuration.PropertiesConfiguration"
+  call_type: "MethodCallExpr"
+  call_value: "getString"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1313
+    pattern_id: 11
+    repo_support: 3
+    file_support: 3
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-3_org.apache.commons.configuration.PropertiesConfiguration-getString-after-getString_1313"
+    score: 0.000534
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.commons.configuration.PropertiesConfiguration"
+  call_type: "MethodCallExpr"
+  call_value: "getString"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1313
+    pattern_id: 11
+    repo_support: 3
+    file_support: 3
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 3-3_org.apache.commons.configuration.PropertiesConfiguration-getString-after-getString_1313"
+    score: 0.000534
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.hadoop.fs.FileSystem"
+  call_type: "MethodCallExpr"
+  call_value: "getFileStatus"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1323
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_org.apache.hadoop.fs.FileSystem-getFileStatus-after-makeQualified_1323"
+    score: 0.8458848
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.apache.hadoop.fs.FileSystem"
+  call_type: "MethodCallExpr"
+  call_value: "makeQualified"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1323
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_org.apache.hadoop.fs.FileSystem-getFileStatus-after-makeQualified_1323"
+    score: 0.8458848
+  }
+}
+objects {
+  receiver_type: "NullLiteralExpr"
+  receiver_value: "NullLiteralExpr"
+  call_type: "MethodCallExpr"
+  call_value: "getNamespacePrefix"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1330
+    pattern_id: 21
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_?-getNamespacePrefix-after-getAttributeValue_1330"
+  }
+}
+objects {
+  receiver_type: "NullLiteralExpr"
+  receiver_value: "NullLiteralExpr"
+  call_type: "MethodCallExpr"
+  call_value: "getAttributeValue"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1330
+    pattern_id: 21
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 3-3_?-getNamespacePrefix-after-getAttributeValue_1330"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.content.res.XmlResourceParser"
+  call_type: "MethodCallExpr"
+  call_value: "getAttributeValue"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1336
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-4_android.content.res.XmlResourceParser-getAttributeValue-after-getAttributeName_1336"
+    score: 0.0007673
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.content.res.XmlResourceParser"
+  call_type: "MethodCallExpr"
+  call_value: "getAttributeName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1336
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-4_android.content.res.XmlResourceParser-getAttributeValue-after-getAttributeName_1336"
+    score: 0.0007673
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.google.common.collect.Multimap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1351
+    pattern_id: 90
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-3_com.google.common.collect.Multimap-get-after-remove_1351"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "com.google.common.collect.Multimap"
+  call_type: "MethodCallExpr"
+  call_value: "remove"
+  directive: "Eq1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 1351
+    pattern_id: 90
+    repo_support: 3
+    file_support: 3
+    label: FALSE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 3-3_com.google.common.collect.Multimap-get-after-remove_1351"
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getSchemaName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1354
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-4_java.sql.ResultSetMetaData-getSchemaName-after-getColumnClassName_1354"
+    score: 0.0018699
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnClassName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1354
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-4_java.sql.ResultSetMetaData-getSchemaName-after-getColumnClassName_1354"
+    score: 0.0018699
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.ui.forms.widgets.FormToolkit"
+  call_type: "MethodCallExpr"
+  call_value: "createLabel"
+  directive: "Eq1Eq2"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1358
+    pattern_id: 152
+    repo_support: 3
+    file_support: 3
+    label: MAYBE_FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,2),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 3-3_org.eclipse.ui.forms.widgets.FormToolkit-createLabel-after-createLabel_1358"
+    score: 0.704386
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.eclipse.ui.forms.widgets.FormToolkit"
+  call_type: "MethodCallExpr"
+  call_value: "createLabel"
+  directive: "Eq1Eq2"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1358
+    pattern_id: 152
+    repo_support: 3
+    file_support: 3
+    label: MAYBE_FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,2),Arg(tg,2)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - 3-3_org.eclipse.ui.forms.widgets.FormToolkit-createLabel-after-createLabel_1358"
+    score: 0.704386
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.EnumMap"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1365
+    pattern_id: 90
+    repo_support: 6
+    file_support: 10
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 6-10_java.util.EnumMap-get-after-put_1365"
+    score: 0.7631056
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.EnumMap"
+  call_type: "MethodCallExpr"
+  call_value: "put"
+  directive: "Eq1"
+  field_access_type: WRITE
+  arg_num: 2
+  info {
+    id: 1365
+    pattern_id: 90
+    repo_support: 6
+    file_support: 10
+    label: TRUE
+    debug_name: "apiAssign(src,Arg(tg,2)), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg))_- alias: GetAfterSet - 6-10_java.util.EnumMap-get-after-put_1365"
+    score: 0.7631056
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getSchemaName"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1368
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-4_java.sql.ResultSetMetaData-getSchemaName-after-getColumnType_1368"
+    score: 0.0019364
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.sql.ResultSetMetaData"
+  call_type: "MethodCallExpr"
+  call_value: "getColumnType"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1368
+    repo_support: 4
+    file_support: 4
+    label: FALSE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 4-4_java.sql.ResultSetMetaData-getSchemaName-after-getColumnType_1368"
+    score: 0.0019364
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.json.JSONArray"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1373
+    pattern_id: 11
+    repo_support: 16
+    file_support: 28
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 16-28_org.json.JSONArray-get-after-get_1373"
+    score: 0.5474236
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "org.json.JSONArray"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1373
+    pattern_id: 11
+    repo_support: 16
+    file_support: 28
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 16-28_org.json.JSONArray-get-after-get_1373"
+    score: 0.5474236
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Properties"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1384
+    pattern_id: 11
+    repo_support: 19
+    file_support: 27
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 19-27_java.util.Properties-get-after-get_1384"
+    score: 0.1060485
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Properties"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1384
+    pattern_id: 11
+    repo_support: 19
+    file_support: 27
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGet - 19-27_java.util.Properties-get-after-get_1384"
+    score: 0.1060485
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Map"
+  call_type: "MethodCallExpr"
+  call_value: "remove"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1390
+    repo_support: 21
+    file_support: 33
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 21-33_java.util.Map-remove-after-get_1390"
+    score: 0.8304447
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.Map"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "Eq1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1390
+    repo_support: 21
+    file_support: 33
+    label: TRUE
+    debug_name: "apiPred(src,tg), Eq(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), Not(TV(src,tg)) - 21-33_java.util.Map-remove-after-get_1390"
+    score: 0.8304447
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.support.v4.app.FragmentManager"
+  call_type: "MethodCallExpr"
+  call_value: "findFragmentByTag"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1408
+    pattern_id: 32
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-5_android.support.v4.app.FragmentManager-findFragmentByTag-after-findFragmentByTag_1408"
+    score: 0.486024857143
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.support.v4.app.FragmentManager"
+  call_type: "MethodCallExpr"
+  call_value: "findFragmentByTag"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1408
+    pattern_id: 32
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-5_android.support.v4.app.FragmentManager-findFragmentByTag-after-findFragmentByTag_1408"
+    score: 0.486024857143
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.xml.xpath.XPath"
+  call_type: "MethodCallExpr"
+  call_value: "compile"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1413
+    pattern_id: 32
+    repo_support: 5
+    file_support: 8
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 5-8_javax.xml.xpath.XPath-compile-after-compile_1413"
+    score: 0.1588516
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "javax.xml.xpath.XPath"
+  call_type: "MethodCallExpr"
+  call_value: "compile"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1413
+    pattern_id: 32
+    repo_support: 5
+    file_support: 8
+    label: MAYBE_TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 5-8_javax.xml.xpath.XPath-compile-after-compile_1413"
+    score: 0.1588516
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.util.SparseBooleanArray"
+  call_type: "MethodCallExpr"
+  call_value: "keyAt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1428
+    pattern_id: 32
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-5_android.util.SparseBooleanArray-keyAt-after-keyAt_1428"
+    score: 0.0055144
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "android.util.SparseBooleanArray"
+  call_type: "MethodCallExpr"
+  call_value: "keyAt"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1428
+    pattern_id: 32
+    repo_support: 3
+    file_support: 5
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 3-5_android.util.SparseBooleanArray-keyAt-after-keyAt_1428"
+    score: 0.0055144
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.ArrayList"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1461
+    pattern_id: 32
+    repo_support: 1085
+    file_support: 2723
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 1085-2723_java.util.ArrayList-get-after-get_1461"
+    score: 0.9984612
+  }
+}
+objects {
+  receiver_type: "ClassOrInterfaceType"
+  receiver_value: "java.util.ArrayList"
+  call_type: "MethodCallExpr"
+  call_value: "get"
+  directive: "TV1"
+  field_access_type: READ
+  arg_num: -1
+  info {
+    id: 1461
+    pattern_id: 32
+    repo_support: 1085
+    file_support: 2723
+    label: TRUE
+    debug_name: "apiPred(src,tg), TV(Arg(src,1),Arg(tg,1)), Eq(Arg(src,0),Arg(tg,0)), TV(src,tg) - alias: GetAfterGetTV - 1085-2723_java.util.ArrayList-get-after-get_1461"
+    score: 0.9984612
+  }
+}

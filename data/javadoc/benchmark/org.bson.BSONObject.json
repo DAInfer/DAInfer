@@ -1,0 +1,16 @@
+{
+    "class": "BSONObject",
+    "category": "Interface",
+    "methods": {
+        "boolean containsField(java.lang.String s)": "Checks if this object contains a field with the given name.",
+        "java.lang.Object get(java.lang.String key)": " Gets a field from this object by a given name. ",
+        "java.util.Set<java.lang.String> keySet()": " Returns this object's fields' names",
+        "java.lang.Object put(java.lang.String key, java.lang.Object v)": " Sets a name/value pair in this object. ",
+        "void putAll(BSONObject o)": " Sets all key/value pairs from an object into this object ",
+        "void putAll(java.util.Map m)": " Sets all key/value pairs from a map into this object ",
+        "java.lang.Object removeField(java.lang.String key)": " Removes a field with a given name from this object. ",
+        "java.util.Map toMap()": " Returns a map representing this BSONObject."
+    },
+    "super class": []
+}
+

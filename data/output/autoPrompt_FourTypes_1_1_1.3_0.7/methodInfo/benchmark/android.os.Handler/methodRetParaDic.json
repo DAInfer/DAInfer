@@ -1,0 +1,255 @@
+{
+    "Handler createAsync(Looper looper, Handler.Callback callback)": {
+        "return type": "Handler",
+        "method name": "createAsync",
+        "parameters": [
+            "Looper",
+            "Handler.Callback"
+        ]
+    },
+    "Handler createAsync(Looper looper)": {
+        "return type": "Handler",
+        "method name": "createAsync",
+        "parameters": [
+            "Looper"
+        ]
+    },
+    "void dispatchMessage(Message msg)": {
+        "return type": "void",
+        "method name": "dispatchMessage",
+        "parameters": [
+            "Message"
+        ]
+    },
+    "void dump(Printer pw, String prefix)": {
+        "return type": "void",
+        "method name": "dump",
+        "parameters": [
+            "Printer",
+            "String"
+        ]
+    },
+    "Looper getLooper()": {
+        "return type": "Looper",
+        "method name": "getLooper",
+        "parameters": []
+    },
+    "String getMessageName(Message message)": {
+        "return type": "String",
+        "method name": "getMessageName",
+        "parameters": [
+            "Message"
+        ]
+    },
+    "void handleMessage(Message msg)": {
+        "return type": "void",
+        "method name": "handleMessage",
+        "parameters": [
+            "Message"
+        ]
+    },
+    "boolean hasCallbacks(Runnable r)": {
+        "return type": "boolean",
+        "method name": "hasCallbacks",
+        "parameters": [
+            "Runnable"
+        ]
+    },
+    "boolean hasMessages(int what)": {
+        "return type": "boolean",
+        "method name": "hasMessages",
+        "parameters": [
+            "int"
+        ]
+    },
+    "boolean hasMessages(int what, Object object)": {
+        "return type": "boolean",
+        "method name": "hasMessages",
+        "parameters": [
+            "int",
+            "Object"
+        ]
+    },
+    "Message obtainMessage(int what, Object obj)": {
+        "return type": "Message",
+        "method name": "obtainMessage",
+        "parameters": [
+            "int",
+            "Object"
+        ]
+    },
+    "Message obtainMessage()": {
+        "return type": "Message",
+        "method name": "obtainMessage",
+        "parameters": []
+    },
+    "Message obtainMessage(int what, int arg1, int arg2)": {
+        "return type": "Message",
+        "method name": "obtainMessage",
+        "parameters": [
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "Message obtainMessage(int what, int arg1, int arg2, Object obj)": {
+        "return type": "Message",
+        "method name": "obtainMessage",
+        "parameters": [
+            "int",
+            "int",
+            "int",
+            "Object"
+        ]
+    },
+    "Message obtainMessage(int what)": {
+        "return type": "Message",
+        "method name": "obtainMessage",
+        "parameters": [
+            "int"
+        ]
+    },
+    "boolean post(Runnable r)": {
+        "return type": "boolean",
+        "method name": "post",
+        "parameters": [
+            "Runnable"
+        ]
+    },
+    "boolean postAtFrontOfQueue(Runnable r)": {
+        "return type": "boolean",
+        "method name": "postAtFrontOfQueue",
+        "parameters": [
+            "Runnable"
+        ]
+    },
+    "boolean postAtTime(Runnable r, long uptimeMillis)": {
+        "return type": "boolean",
+        "method name": "postAtTime",
+        "parameters": [
+            "Runnable",
+            "long"
+        ]
+    },
+    "boolean postAtTime(Runnable r, Object token, long uptimeMillis)": {
+        "return type": "boolean",
+        "method name": "postAtTime",
+        "parameters": [
+            "Runnable",
+            "Object",
+            "long"
+        ]
+    },
+    "boolean postDelayed(Runnable r, long delayMillis)": {
+        "return type": "boolean",
+        "method name": "postDelayed",
+        "parameters": [
+            "Runnable",
+            "long"
+        ]
+    },
+    "boolean postDelayed(Runnable r, Object token, long delayMillis)": {
+        "return type": "boolean",
+        "method name": "postDelayed",
+        "parameters": [
+            "Runnable",
+            "Object",
+            "long"
+        ]
+    },
+    "void removeCallbacks(Runnable r)": {
+        "return type": "void",
+        "method name": "removeCallbacks",
+        "parameters": [
+            "Runnable"
+        ]
+    },
+    "void removeCallbacks(Runnable r, Object token)": {
+        "return type": "void",
+        "method name": "removeCallbacks",
+        "parameters": [
+            "Runnable",
+            "Object"
+        ]
+    },
+    "void removeCallbacksAndMessages(Object token)": {
+        "return type": "void",
+        "method name": "removeCallbacksAndMessages",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "void removeMessages(int what)": {
+        "return type": "void",
+        "method name": "removeMessages",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void removeMessages(int what, Object object)": {
+        "return type": "void",
+        "method name": "removeMessages",
+        "parameters": [
+            "int",
+            "Object"
+        ]
+    },
+    "boolean sendEmptyMessage(int what)": {
+        "return type": "boolean",
+        "method name": "sendEmptyMessage",
+        "parameters": [
+            "int"
+        ]
+    },
+    "boolean sendEmptyMessageAtTime(int what, long uptimeMillis)": {
+        "return type": "boolean",
+        "method name": "sendEmptyMessageAtTime",
+        "parameters": [
+            "int",
+            "long"
+        ]
+    },
+    "boolean sendEmptyMessageDelayed(int what, long delayMillis)": {
+        "return type": "boolean",
+        "method name": "sendEmptyMessageDelayed",
+        "parameters": [
+            "int",
+            "long"
+        ]
+    },
+    "boolean sendMessage(Message msg)": {
+        "return type": "boolean",
+        "method name": "sendMessage",
+        "parameters": [
+            "Message"
+        ]
+    },
+    "boolean sendMessageAtFrontOfQueue(Message msg)": {
+        "return type": "boolean",
+        "method name": "sendMessageAtFrontOfQueue",
+        "parameters": [
+            "Message"
+        ]
+    },
+    "boolean sendMessageAtTime(Message msg, long uptimeMillis)": {
+        "return type": "boolean",
+        "method name": "sendMessageAtTime",
+        "parameters": [
+            "Message",
+            "long"
+        ]
+    },
+    "boolean sendMessageDelayed(Message msg, long delayMillis)": {
+        "return type": "boolean",
+        "method name": "sendMessageDelayed",
+        "parameters": [
+            "Message",
+            "long"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    }
+}

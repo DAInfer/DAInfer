@@ -1,0 +1,244 @@
+{
+    "void add(int row, int col, double value)": {
+        "return type": "void",
+        "method name": "add",
+        "parameters": [
+            "int",
+            "int",
+            "double"
+        ]
+    },
+    "DenseMatrix64F copy()": {
+        "return type": "DenseMatrix64F",
+        "method name": "copy",
+        "parameters": []
+    },
+    "double get(int row, int col)": {
+        "return type": "double",
+        "method name": "get",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "int getIndex(int row, int col)": {
+        "return type": "int",
+        "method name": "getIndex",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "int getNumElements()": {
+        "return type": "int",
+        "method name": "getNumElements",
+        "parameters": []
+    },
+    "boolean isInBounds(int row, int col)": {
+        "return type": "boolean",
+        "method name": "isInBounds",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void print()": {
+        "return type": "void",
+        "method name": "print",
+        "parameters": []
+    },
+    "void print(String format)": {
+        "return type": "void",
+        "method name": "print",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void reshape(int numRows, int numCols, boolean saveValues)": {
+        "return type": "void",
+        "method name": "reshape",
+        "parameters": [
+            "int",
+            "int",
+            "boolean"
+        ]
+    },
+    "void set(int numRows, int numCols, boolean rowMajor, double... data)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "int",
+            "boolean",
+            "double..."
+        ]
+    },
+    "void set(int row, int col, double value)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "int",
+            "double"
+        ]
+    },
+    "void setReshape(DenseMatrix64F b)": {
+        "return type": "void",
+        "method name": "setReshape",
+        "parameters": [
+            "DenseMatrix64F"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "double unsafe_get(int row, int col)": {
+        "return type": "double",
+        "method name": "unsafe_get",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void unsafe_set(int row, int col, double value)": {
+        "return type": "void",
+        "method name": "unsafe_set",
+        "parameters": [
+            "int",
+            "int",
+            "double"
+        ]
+    },
+    "DenseMatrix64F wrap(int numRows, int numCols, double[] data)": {
+        "return type": "DenseMatrix64F",
+        "method name": "wrap",
+        "parameters": [
+            "int",
+            "int",
+            "double[]"
+        ]
+    },
+    "void zero()": {
+        "return type": "void",
+        "method name": "zero",
+        "parameters": []
+    },
+    "double div(int index, double val)": {
+        "return type": "double",
+        "method name": "div",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "double get(int index)": {
+        "return type": "double",
+        "method name": "get",
+        "parameters": [
+            "int"
+        ]
+    },
+    "double[] getData()": {
+        "return type": "double[]",
+        "method name": "getData",
+        "parameters": []
+    },
+    "double minus(int index, double val)": {
+        "return type": "double",
+        "method name": "minus",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "double plus(int index, double val)": {
+        "return type": "double",
+        "method name": "plus",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "void set(D1Matrix64F b)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "D1Matrix64F"
+        ]
+    },
+    "double set(int index, double val)": {
+        "return type": "double",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "void setData(double[] data)": {
+        "return type": "void",
+        "method name": "setData",
+        "parameters": [
+            "double[]"
+        ]
+    },
+    "double times(int index, double val)": {
+        "return type": "double",
+        "method name": "times",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "int getNumCols()": {
+        "return type": "int",
+        "method name": "getNumCols",
+        "parameters": []
+    },
+    "int getNumRows()": {
+        "return type": "int",
+        "method name": "getNumRows",
+        "parameters": []
+    },
+    "MatrixIterator iterator(boolean rowMajor, int minRow, int minCol, int maxRow, int maxCol)": {
+        "return type": "MatrixIterator",
+        "method name": "iterator",
+        "parameters": [
+            "boolean",
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "void reshape(int numRows, int numCols)": {
+        "return type": "void",
+        "method name": "reshape",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void set(ReshapeMatrix64F A)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "ReshapeMatrix64F"
+        ]
+    },
+    "void setNumCols(int numCols)": {
+        "return type": "void",
+        "method name": "setNumCols",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setNumRows(int numRows)": {
+        "return type": "void",
+        "method name": "setNumRows",
+        "parameters": [
+            "int"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "class": "D1Matrix64F",
+    "category": "Class",
+    "methods": {
+        "double div(int index, double val)": "Divides the specified value to the internal data array at the specified index. Equivalent to: this.data[index] /= val;",
+        "double get(int index)": "Returns the value of the matrix at the specified internal array index.",
+        "double[] getData()": "Used to get a reference to the internal data.",
+        "int getIndex(int row, int col)": "Returns the internal array index for the specified row and column.",
+        "double minus(int index, double val)": "Subtracts the specified value to the internal data array at the specified index. Equivalent to: this.data[index] -= val;",
+        "double plus(int index, double val)": "Adds the specified value to the internal data array at the specified index. Equivalent to: this.data[index] += val;",
+        "void set(D1Matrix64F b)": "Sets the value of this matrix to be the same as the value of the provided matrix.",
+        "double set(int index, double val)": "Sets the element's value at the specified index.",
+        "void setData(double[] data)": "Changes the internal array reference.",
+        "double times(int index, double val)": "Multiplies the specified value to the internal data array at the specified index. Equivalent to: this.data[index] *= val;"
+    },
+    "super class": [
+        "org.ejml.data.ReshapeMatrix64F"
+    ]
+}

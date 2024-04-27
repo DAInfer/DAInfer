@@ -1,0 +1,1388 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Comparator comparator()"
+        ],
+        [
+            "void putAll(Map m)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "K lastKey()"
+        ],
+        [
+            "V put(K key, V value)",
+            "K lastKey()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "V get(Object key)",
+            "Comparator comparator()"
+        ],
+        [
+            "void putAll(Map m)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "K lastKey()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "V get(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "K lastKey()"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "K lastKey()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Comparator comparator()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Comparator comparator()"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "Collection values()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Collection values()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "K lastKey()"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "V remove(Object key)",
+            "Comparator comparator()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "V remove(Object key)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Set entrySet()"
+        ],
+        [
+            "V get(Object key)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Set keySet()"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "K firstKey()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "K firstKey()"
+        ],
+        [
+            "V remove(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "K lastKey()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "V get(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Comparator comparator()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Set entrySet()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V get(Object key)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "V get(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "Comparator comparator()"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V remove(Object key)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "Set keySet()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Set keySet()"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "K lastKey()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "K lastKey()"
+        ],
+        [
+            "V get(Object key)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Collection values()"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "K firstKey()"
+        ],
+        [
+            "V put(K key, V value)",
+            "K firstKey()"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V get(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "Set entrySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V get(Object key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "Set entrySet()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Set keySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "K firstKey()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "K firstKey()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "K firstKey()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V remove(Object key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V remove(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "K lastKey()"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "Collection values()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "K lastKey()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Set keySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Comparator comparator()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V get(Object key)",
+            "K lastKey()"
+        ],
+        [
+            "void putAll(Map m)",
+            "V get(Object key)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Comparator comparator()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "K firstKey()"
+        ],
+        [
+            "V put(K key, V value)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Collection values()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Collection values()"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Collection values()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "K lastKey()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "K lastKey()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "Set keySet()"
+        ],
+        [
+            "void putAll(Map m)",
+            "K lastKey()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "K lastKey()"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "V remove(Object key)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "K firstKey()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "K firstKey()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "Comparator comparator()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Collection values()"
+        ],
+        [
+            "V put(K key, V value)",
+            "Comparator comparator()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "V get(Object key)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "K lastKey()"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "Set entrySet()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "Comparator comparator()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Comparator comparator()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Comparator comparator()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "Collection values()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Set keySet()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "K firstKey()"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "K lastKey()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "K firstKey()"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "K firstKey()"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "V get(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Set entrySet()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Collection values()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "V get(Object key)",
+            "K firstKey()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Comparator comparator()"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Set keySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Set keySet()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V remove(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "K firstKey()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "K firstKey()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V remove(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "void putAll(Map m)",
+            "K firstKey()"
+        ],
+        [
+            "V remove(Object key)",
+            "K firstKey()"
+        ],
+        [
+            "V get(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "Comparator comparator()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "V get(Object key)",
+            "Collection values()"
+        ],
+        [
+            "V put(K key, V value)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Comparator comparator()"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "K lastKey()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Set keySet()"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "K lastKey()"
+        ],
+        [
+            "void replaceAll(BiFunction function)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "Set entrySet()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "K firstKey()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "Set entrySet()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "Collection values()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Collection values()"
+        ],
+        [
+            "void putAll(Map m)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "void putAll(Map m)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "V get(Object key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V remove(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "Set keySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "Collection values()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "void forEach(BiConsumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "K firstKey()"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "SortedMap headMap(K toKey)"
+        ]
+    ]
+}

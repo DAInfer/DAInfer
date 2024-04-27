@@ -1,0 +1,128 @@
+{
+    "java.util.Map returnFailure(java.lang.String errorMessage)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "boolean isSuccess(java.util.Map results)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "java.util.Map returnSuccess(java.lang.String successMessage)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "java.util.Map returnError(java.lang.String errorMessage)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "java.lang.String getErrorMessage(java.util.Map result)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "java.util.Map returnError(java.util.List errorMessageList)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "boolean isError(java.util.Map results)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "void setMessages(HttpServletRequest request, java.lang.String errorMessage, java.lang.String eventMessage, java.lang.String defaultMessage)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "java.util.Map returnSuccess(java.util.List successMessageList)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "boolean isFailure(java.util.Map results)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": true
+    },
+    "java.util.Map returnSuccess()": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true,
+        "computation upon memory": false
+    },
+    "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true,
+        "computation upon memory": true
+    },
+    "java.util.Map returnFailure()": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    },
+    "java.util.Map returnFailure(java.util.List errorMessageList)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false,
+        "computation upon memory": false
+    }
+}

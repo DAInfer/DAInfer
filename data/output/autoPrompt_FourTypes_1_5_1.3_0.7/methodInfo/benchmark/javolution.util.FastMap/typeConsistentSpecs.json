@@ -1,0 +1,660 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "FastMap atomic()"
+        ],
+        [
+            "V put(K key, V value)",
+            "FastMap sequential()"
+        ],
+        [
+            "V get(Object key)",
+            "FastMap sequential()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "MapService service()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "FastMap atomic()"
+        ],
+        [
+            "void putAll(Map map)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void putAll(Map map)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "MapService service()"
+        ],
+        [
+            "void putAll(Map map)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "FastMap unmodifiable()"
+        ],
+        [
+            "void putAll(Map map)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "FastCollection values()"
+        ],
+        [
+            "V get(Object key)",
+            "FastCollection values()"
+        ],
+        [
+            "V put(K key, V value)",
+            "FastSet entrySet()"
+        ],
+        [
+            "V get(Object key)",
+            "FastSet entrySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "FastSet keySet()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "FastMap shared()"
+        ],
+        [
+            "V put(K key, V value)",
+            "Immutable toImmutable()"
+        ],
+        [
+            "V get(Object key)",
+            "Immutable toImmutable()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "FastMap atomic()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "MapService service()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "FastMap putAll(FastMap that)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "FastMap putAll(FastMap that)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "FastSet keySet()"
+        ],
+        [
+            "FastMap putAll(FastMap that)",
+            "FastMap atomic()"
+        ],
+        [
+            "V remove(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "FastMap atomic()"
+        ],
+        [
+            "V remove(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "FastMap unmodifiable()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "MapService service()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "FastMap unmodifiable()"
+        ],
+        [
+            "FastMap putAll(FastMap that)",
+            "V remove(Object key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "FastSet keySet()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "Immutable toImmutable()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "FastSet keySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "FastMap parallel()"
+        ],
+        [
+            "FastMap putAll(FastMap that)",
+            "FastMap shared()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "FastMap shared()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "MapService service()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V get(Object key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "FastMap unmodifiable()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "FastMap putAll(FastMap that)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "FastMap shared()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "FastSet keySet()"
+        ],
+        [
+            "V get(Object key)",
+            "FastMap shared()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "FastSet entrySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void update(Consumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Immutable toImmutable()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "FastMap putAll(FastMap that)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "Immutable toImmutable()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "FastMap unmodifiable()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "FastMap parallel()"
+        ],
+        [
+            "void perform(Consumer action)",
+            "V remove(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "FastMap sequential()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "FastMap parallel()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "FastMap putAll(FastMap that)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "MapService service()"
+        ],
+        [
+            "V remove(Object key)",
+            "FastCollection values()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "FastMap putAll(FastMap that)",
+            "V put(K key, V value)"
+        ],
+        [
+            "FastMap putAll(FastMap that)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "FastMap unmodifiable()"
+        ],
+        [
+            "V remove(Object key)",
+            "FastSet entrySet()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "FastSet keySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "FastMap parallel()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "FastMap putAll(FastMap that)"
+        ],
+        [
+            "V put(K key, V value)",
+            "FastMap atomic()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "FastCollection values()"
+        ],
+        [
+            "V get(Object key)",
+            "FastMap atomic()"
+        ],
+        [
+            "V put(K key, V value)",
+            "MapService service()"
+        ],
+        [
+            "V get(Object key)",
+            "MapService service()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "FastSet entrySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "FastMap sequential()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "FastMap sequential()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "FastMap putAll(FastMap that)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "Immutable toImmutable()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "FastMap parallel()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "FastCollection values()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "FastSet entrySet()"
+        ],
+        [
+            "void update(Consumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "void update(Consumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "FastCollection values()"
+        ],
+        [
+            "void update(Consumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "FastCollection values()"
+        ],
+        [
+            "FastMap putAll(FastMap that)",
+            "FastMap unmodifiable()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "FastSet entrySet()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "Immutable toImmutable()"
+        ],
+        [
+            "V get(Object key)",
+            "FastMap putAll(FastMap that)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "FastMap unmodifiable()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "FastMap parallel()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "FastMap sequential()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "FastSet keySet()"
+        ],
+        [
+            "V get(Object key)",
+            "FastMap unmodifiable()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "FastCollection values()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "FastSet entrySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "FastMap shared()"
+        ],
+        [
+            "V put(K key, V value)",
+            "FastSet keySet()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "FastMap sequential()"
+        ],
+        [
+            "V get(Object key)",
+            "FastSet keySet()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Immutable toImmutable()"
+        ],
+        [
+            "FastMap putAll(FastMap that)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "FastCollection values()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "FastSet entrySet()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "FastMap atomic()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "FastMap shared()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "FastMap sequential()"
+        ],
+        [
+            "FastMap putAll(FastMap that)",
+            "FastMap parallel()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Immutable toImmutable()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "FastMap parallel()"
+        ],
+        [
+            "void putAll(Map map)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "FastMap shared()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "FastMap shared()"
+        ],
+        [
+            "V put(K key, V value)",
+            "FastMap parallel()"
+        ],
+        [
+            "V get(Object key)",
+            "FastMap parallel()"
+        ],
+        [
+            "void perform(Consumer action)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V put(K key, V value)",
+            "FastMap putAll(FastMap that)"
+        ],
+        [
+            "V remove(Object key)",
+            "FastMap atomic()"
+        ],
+        [
+            "void perform(Consumer action)",
+            "V put(K key, V value)"
+        ],
+        [
+            "void update(Consumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "void perform(Consumer action)",
+            "V get(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "MapService service()"
+        ],
+        [
+            "V remove(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "void perform(Consumer action)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "FastMap putAll(FastMap that)",
+            "FastMap sequential()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "FastMap atomic()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "FastMap sequential()"
+        ],
+        [
+            "V put(K key, V value)",
+            "FastMap unmodifiable()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "FastMap shared()"
+        ],
+        [
+            "V remove(Object key)",
+            "FastMap putAll(FastMap that)"
+        ]
+    ]
+}

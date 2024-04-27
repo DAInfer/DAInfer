@@ -1,0 +1,25 @@
+{
+    "class": "AtomicLongArray",
+    "category": "Class",
+    "methods": {
+        "long accumulateAndGet(int i, long x, LongBinaryOperator accumulatorFunction)": "Atomically updates the element at index i with the results of applying the given function to the current and given values, returning the updated value.",
+        "long addAndGet(int i, long delta)": "Atomically adds the given value to the element at index i.",
+        "boolean compareAndSet(int i, long expect, long update)": "Atomically sets the element at position i to the given updated value if the current value == the expected value.",
+        "long decrementAndGet(int i)": "Atomically decrements by one the element at index i.",
+        "long get(int i)": "Gets the current value at position i.",
+        "long getAndAccumulate(int i, long x, LongBinaryOperator accumulatorFunction)": "Atomically updates the element at index i with the results of applying the given function to the current and given values, returning the previous value.",
+        "long getAndAdd(int i, long delta)": "Atomically adds the given value to the element at index i.",
+        "long getAndDecrement(int i)": "Atomically decrements by one the element at index i.",
+        "long getAndIncrement(int i)": "Atomically increments by one the element at index i.",
+        "long getAndSet(int i, long newValue)": "Atomically sets the element at position i to the given value and returns the old value.",
+        "long getAndUpdate(int i, LongUnaryOperator updateFunction)": "Atomically updates the element at index i with the results of applying the given function, returning the previous value.",
+        "long incrementAndGet(int i)": "Atomically increments by one the element at index i.",
+        "void lazySet(int i, long newValue)": "Eventually sets the element at position i to the given value.",
+        "int length()": "Returns the length of the array.",
+        "void set(int i, long newValue)": "Sets the element at position i to the given value.",
+        "String toString()": "Returns the String representation of the current values of array.",
+        "long updateAndGet(int i, LongUnaryOperator updateFunction)": "Atomically updates the element at index i with the results of applying the given function, returning the updated value.",
+        "boolean weakCompareAndSet(int i, long expect, long update)": "Atomically sets the element at position i to the given updated value if the current value == the expected value."
+    },
+    "super class": []
+}

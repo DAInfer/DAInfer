@@ -1,0 +1,34 @@
+{
+    "class": "IntBuffer",
+    "category": "Class",
+    "methods": {
+        "IntBuffer allocate(int capacity)": "Allocates a new int buffer.",
+        "int[] array()": "Returns the int array that backs this buffer (optional operation).",
+        "int arrayOffset()": "Returns the offset within this buffer's backing array of the first element of the buffer (optional operation).",
+        "IntBuffer asReadOnlyBuffer()": "Creates a new, read-only int buffer that shares this buffer's content.",
+        "IntBuffer compact()": "Compacts this buffer (optional operation).",
+        "int compareTo(IntBuffer that)": "Compares this buffer to another.",
+        "IntBuffer duplicate()": "Creates a new int buffer that shares this buffer's content.",
+        "boolean equals(Object ob)": "Tells whether or not this buffer is equal to another object.",
+        "int get()": "Relative get method.",
+        "int get(int index)": "Absolute get method.",
+        "IntBuffer get(int[] dst)": "Relative bulk get method.",
+        "IntBuffer get(int[] dst, int offset, int length)": "Relative bulk get method.",
+        "boolean hasArray()": "Tells whether or not this buffer is backed by an accessible int array.",
+        "int hashCode()": "Returns the current hash code of this buffer.",
+        "boolean isDirect()": "Tells whether or not this int buffer is direct.",
+        "ByteOrder order()": "Retrieves this buffer's byte order.",
+        "IntBuffer put(int i)": "Relative put method (optional operation).",
+        "IntBuffer put(int[] src)": "Relative bulk put method (optional operation).",
+        "IntBuffer put(int[] src, int offset, int length)": "Relative bulk put method (optional operation).",
+        "IntBuffer put(IntBuffer src)": "Relative bulk put method (optional operation).",
+        "IntBuffer put(int index, int i)": "Absolute put method (optional operation).",
+        "IntBuffer slice()": "Creates a new int buffer whose content is a shared subsequence of this buffer's content.",
+        "String toString()": "Returns a string summarizing the state of this buffer.",
+        "IntBuffer wrap(int[] array)": "Wraps an int array into a buffer.",
+        "IntBuffer wrap(int[] array, int offset, int length)": "Wraps an int array into a buffer."
+    },
+    "super class": [
+        "java.nio.Buffer"
+    ]
+}

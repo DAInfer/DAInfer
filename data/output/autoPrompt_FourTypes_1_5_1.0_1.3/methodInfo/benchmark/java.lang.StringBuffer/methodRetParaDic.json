@@ -1,0 +1,375 @@
+{
+    "StringBuffer append(boolean b)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "StringBuffer append(char c)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "char"
+        ]
+    },
+    "StringBuffer append(char[] str)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "char[]"
+        ]
+    },
+    "StringBuffer append(char[] str, int offset, int len)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "char[]",
+            "int",
+            "int"
+        ]
+    },
+    "StringBuffer append(CharSequence s)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "CharSequence"
+        ]
+    },
+    "StringBuffer append(CharSequence s, int start, int end)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "CharSequence",
+            "int",
+            "int"
+        ]
+    },
+    "StringBuffer append(double d)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "double"
+        ]
+    },
+    "StringBuffer append(float f)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "float"
+        ]
+    },
+    "StringBuffer append(int i)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "int"
+        ]
+    },
+    "StringBuffer append(long lng)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "long"
+        ]
+    },
+    "StringBuffer append(Object obj)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "StringBuffer append(String str)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "String"
+        ]
+    },
+    "StringBuffer append(StringBuffer sb)": {
+        "return type": "StringBuffer",
+        "method name": "append",
+        "parameters": [
+            "StringBuffer"
+        ]
+    },
+    "StringBuffer appendCodePoint(int codePoint)": {
+        "return type": "StringBuffer",
+        "method name": "appendCodePoint",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int capacity()": {
+        "return type": "int",
+        "method name": "capacity",
+        "parameters": []
+    },
+    "char charAt(int index)": {
+        "return type": "char",
+        "method name": "charAt",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int codePointAt(int index)": {
+        "return type": "int",
+        "method name": "codePointAt",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int codePointBefore(int index)": {
+        "return type": "int",
+        "method name": "codePointBefore",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int codePointCount(int beginIndex, int endIndex)": {
+        "return type": "int",
+        "method name": "codePointCount",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "StringBuffer delete(int start, int end)": {
+        "return type": "StringBuffer",
+        "method name": "delete",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "StringBuffer deleteCharAt(int index)": {
+        "return type": "StringBuffer",
+        "method name": "deleteCharAt",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void ensureCapacity(int minimumCapacity)": {
+        "return type": "void",
+        "method name": "ensureCapacity",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)": {
+        "return type": "void",
+        "method name": "getChars",
+        "parameters": [
+            "int",
+            "int",
+            "char[]",
+            "int"
+        ]
+    },
+    "int indexOf(String str)": {
+        "return type": "int",
+        "method name": "indexOf",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int indexOf(String str, int fromIndex)": {
+        "return type": "int",
+        "method name": "indexOf",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "StringBuffer insert(int offset, boolean b)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "boolean"
+        ]
+    },
+    "StringBuffer insert(int offset, char c)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "char"
+        ]
+    },
+    "StringBuffer insert(int offset, char[] str)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "char[]"
+        ]
+    },
+    "StringBuffer insert(int index, char[] str, int offset, int len)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "char[]",
+            "int",
+            "int"
+        ]
+    },
+    "StringBuffer insert(int dstOffset, CharSequence s)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "CharSequence"
+        ]
+    },
+    "StringBuffer insert(int dstOffset, CharSequence s, int start, int end)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "CharSequence",
+            "int",
+            "int"
+        ]
+    },
+    "StringBuffer insert(int offset, double d)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "double"
+        ]
+    },
+    "StringBuffer insert(int offset, float f)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "float"
+        ]
+    },
+    "StringBuffer insert(int offset, int i)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "StringBuffer insert(int offset, long l)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "long"
+        ]
+    },
+    "StringBuffer insert(int offset, Object obj)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "Object"
+        ]
+    },
+    "StringBuffer insert(int offset, String str)": {
+        "return type": "StringBuffer",
+        "method name": "insert",
+        "parameters": [
+            "int",
+            "String"
+        ]
+    },
+    "int lastIndexOf(String str)": {
+        "return type": "int",
+        "method name": "lastIndexOf",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int lastIndexOf(String str, int fromIndex)": {
+        "return type": "int",
+        "method name": "lastIndexOf",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "int length()": {
+        "return type": "int",
+        "method name": "length",
+        "parameters": []
+    },
+    "int offsetByCodePoints(int index, int codePointOffset)": {
+        "return type": "int",
+        "method name": "offsetByCodePoints",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "StringBuffer replace(int start, int end, String str)": {
+        "return type": "StringBuffer",
+        "method name": "replace",
+        "parameters": [
+            "int",
+            "int",
+            "String"
+        ]
+    },
+    "StringBuffer reverse()": {
+        "return type": "StringBuffer",
+        "method name": "reverse",
+        "parameters": []
+    },
+    "void setCharAt(int index, char ch)": {
+        "return type": "void",
+        "method name": "setCharAt",
+        "parameters": [
+            "int",
+            "char"
+        ]
+    },
+    "void setLength(int newLength)": {
+        "return type": "void",
+        "method name": "setLength",
+        "parameters": [
+            "int"
+        ]
+    },
+    "CharSequence subSequence(int start, int end)": {
+        "return type": "CharSequence",
+        "method name": "subSequence",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "String substring(int start)": {
+        "return type": "String",
+        "method name": "substring",
+        "parameters": [
+            "int"
+        ]
+    },
+    "String substring(int start, int end)": {
+        "return type": "String",
+        "method name": "substring",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "void trimToSize()": {
+        "return type": "void",
+        "method name": "trimToSize",
+        "parameters": []
+    }
+}

@@ -1,0 +1,477 @@
+{
+    "void clear()": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": []
+    },
+    "V compute(K key, BiFunction remappingFunction)": {
+        "return type": "V",
+        "method name": "compute",
+        "parameters": [
+            "K",
+            "BiFunction"
+        ]
+    },
+    "V computeIfAbsent(K key, Function mappingFunction)": {
+        "return type": "V",
+        "method name": "computeIfAbsent",
+        "parameters": [
+            "K",
+            "Function"
+        ]
+    },
+    "V computeIfPresent(K key, BiFunction remappingFunction)": {
+        "return type": "V",
+        "method name": "computeIfPresent",
+        "parameters": [
+            "K",
+            "BiFunction"
+        ]
+    },
+    "boolean contains(Object value)": {
+        "return type": "boolean",
+        "method name": "contains",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean containsKey(Object key)": {
+        "return type": "boolean",
+        "method name": "containsKey",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean containsValue(Object value)": {
+        "return type": "boolean",
+        "method name": "containsValue",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "Enumeration elements()": {
+        "return type": "Enumeration",
+        "method name": "elements",
+        "parameters": []
+    },
+    "Set entrySet()": {
+        "return type": "Set",
+        "method name": "entrySet",
+        "parameters": []
+    },
+    "boolean equals(Object o)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "void forEach(BiConsumer action)": {
+        "return type": "void",
+        "method name": "forEach",
+        "parameters": [
+            "BiConsumer"
+        ]
+    },
+    "void forEach(long parallelismThreshold, BiConsumer action)": {
+        "return type": "void",
+        "method name": "forEach",
+        "parameters": [
+            "long",
+            "BiConsumer"
+        ]
+    },
+    "void forEach(long parallelismThreshold, BiFunction transformer, Consumer action)": {
+        "return type": "void",
+        "method name": "forEach",
+        "parameters": [
+            "long",
+            "BiFunction",
+            "Consumer"
+        ]
+    },
+    "void forEachEntry(long parallelismThreshold, Consumer action)": {
+        "return type": "void",
+        "method name": "forEachEntry",
+        "parameters": [
+            "long",
+            "Consumer"
+        ]
+    },
+    "void forEachKey(long parallelismThreshold, Consumer action)": {
+        "return type": "void",
+        "method name": "forEachKey",
+        "parameters": [
+            "long",
+            "Consumer"
+        ]
+    },
+    "void forEachKey(long parallelismThreshold, Function transformer, Consumer action)": {
+        "return type": "void",
+        "method name": "forEachKey",
+        "parameters": [
+            "long",
+            "Function",
+            "Consumer"
+        ]
+    },
+    "void forEachValue(long parallelismThreshold, Consumer action)": {
+        "return type": "void",
+        "method name": "forEachValue",
+        "parameters": [
+            "long",
+            "Consumer"
+        ]
+    },
+    "void forEachValue(long parallelismThreshold, Function transformer, Consumer action)": {
+        "return type": "void",
+        "method name": "forEachValue",
+        "parameters": [
+            "long",
+            "Function",
+            "Consumer"
+        ]
+    },
+    "V get(Object key)": {
+        "return type": "V",
+        "method name": "get",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "V getOrDefault(Object key, V defaultValue)": {
+        "return type": "V",
+        "method name": "getOrDefault",
+        "parameters": [
+            "Object",
+            "V"
+        ]
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "boolean isEmpty()": {
+        "return type": "boolean",
+        "method name": "isEmpty",
+        "parameters": []
+    },
+    "Enumeration keys()": {
+        "return type": "Enumeration",
+        "method name": "keys",
+        "parameters": []
+    },
+    "ConcurrentHashMap.KeySetView keySet()": {
+        "return type": "ConcurrentHashMap.KeySetView",
+        "method name": "keySet",
+        "parameters": []
+    },
+    "ConcurrentHashMap.KeySetView keySet(V mappedValue)": {
+        "return type": "ConcurrentHashMap.KeySetView",
+        "method name": "keySet",
+        "parameters": [
+            "V"
+        ]
+    },
+    "long mappingCount()": {
+        "return type": "long",
+        "method name": "mappingCount",
+        "parameters": []
+    },
+    "V merge(K key, V value, BiFunction remappingFunction)": {
+        "return type": "V",
+        "method name": "merge",
+        "parameters": [
+            "K",
+            "V",
+            "BiFunction"
+        ]
+    },
+    "ConcurrentHashMap.KeySetView newKeySet()": {
+        "return type": "ConcurrentHashMap.KeySetView",
+        "method name": "newKeySet",
+        "parameters": []
+    },
+    "ConcurrentHashMap.KeySetView newKeySet(int initialCapacity)": {
+        "return type": "ConcurrentHashMap.KeySetView",
+        "method name": "newKeySet",
+        "parameters": [
+            "int"
+        ]
+    },
+    "V put(K key, V value)": {
+        "return type": "V",
+        "method name": "put",
+        "parameters": [
+            "K",
+            "V"
+        ]
+    },
+    "void putAll(Map m)": {
+        "return type": "void",
+        "method name": "putAll",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "V putIfAbsent(K key, V value)": {
+        "return type": "V",
+        "method name": "putIfAbsent",
+        "parameters": [
+            "K",
+            "V"
+        ]
+    },
+    "U reduce(long parallelismThreshold, BiFunction transformer, BiFunction reducer)": {
+        "return type": "U",
+        "method name": "reduce",
+        "parameters": [
+            "long",
+            "BiFunction",
+            "BiFunction"
+        ]
+    },
+    "double reduceEntriesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)": {
+        "return type": "double",
+        "method name": "reduceEntriesToDouble",
+        "parameters": [
+            "long",
+            "ToDoubleFunction",
+            "double",
+            "DoubleBinaryOperator"
+        ]
+    },
+    "int reduceEntriesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)": {
+        "return type": "int",
+        "method name": "reduceEntriesToInt",
+        "parameters": [
+            "long",
+            "ToIntFunction",
+            "int",
+            "IntBinaryOperator"
+        ]
+    },
+    "long reduceEntriesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)": {
+        "return type": "long",
+        "method name": "reduceEntriesToLong",
+        "parameters": [
+            "long",
+            "ToLongFunction",
+            "long",
+            "LongBinaryOperator"
+        ]
+    },
+    "K reduceKeys(long parallelismThreshold, BiFunction reducer)": {
+        "return type": "K",
+        "method name": "reduceKeys",
+        "parameters": [
+            "long",
+            "BiFunction"
+        ]
+    },
+    "U reduceKeys(long parallelismThreshold, Function transformer, BiFunction reducer)": {
+        "return type": "U",
+        "method name": "reduceKeys",
+        "parameters": [
+            "long",
+            "Function",
+            "BiFunction"
+        ]
+    },
+    "double reduceKeysToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)": {
+        "return type": "double",
+        "method name": "reduceKeysToDouble",
+        "parameters": [
+            "long",
+            "ToDoubleFunction",
+            "double",
+            "DoubleBinaryOperator"
+        ]
+    },
+    "int reduceKeysToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)": {
+        "return type": "int",
+        "method name": "reduceKeysToInt",
+        "parameters": [
+            "long",
+            "ToIntFunction",
+            "int",
+            "IntBinaryOperator"
+        ]
+    },
+    "long reduceKeysToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)": {
+        "return type": "long",
+        "method name": "reduceKeysToLong",
+        "parameters": [
+            "long",
+            "ToLongFunction",
+            "long",
+            "LongBinaryOperator"
+        ]
+    },
+    "double reduceToDouble(long parallelismThreshold, ToDoubleBiFunction transformer, double basis, DoubleBinaryOperator reducer)": {
+        "return type": "double",
+        "method name": "reduceToDouble",
+        "parameters": [
+            "long",
+            "ToDoubleBiFunction",
+            "double",
+            "DoubleBinaryOperator"
+        ]
+    },
+    "int reduceToInt(long parallelismThreshold, ToIntBiFunction transformer, int basis, IntBinaryOperator reducer)": {
+        "return type": "int",
+        "method name": "reduceToInt",
+        "parameters": [
+            "long",
+            "ToIntBiFunction",
+            "int",
+            "IntBinaryOperator"
+        ]
+    },
+    "long reduceToLong(long parallelismThreshold, ToLongBiFunction transformer, long basis, LongBinaryOperator reducer)": {
+        "return type": "long",
+        "method name": "reduceToLong",
+        "parameters": [
+            "long",
+            "ToLongBiFunction",
+            "long",
+            "LongBinaryOperator"
+        ]
+    },
+    "V reduceValues(long parallelismThreshold, BiFunction reducer)": {
+        "return type": "V",
+        "method name": "reduceValues",
+        "parameters": [
+            "long",
+            "BiFunction"
+        ]
+    },
+    "U reduceValues(long parallelismThreshold, Function transformer, BiFunction reducer)": {
+        "return type": "U",
+        "method name": "reduceValues",
+        "parameters": [
+            "long",
+            "Function",
+            "BiFunction"
+        ]
+    },
+    "double reduceValuesToDouble(long parallelismThreshold, ToDoubleFunction transformer, double basis, DoubleBinaryOperator reducer)": {
+        "return type": "double",
+        "method name": "reduceValuesToDouble",
+        "parameters": [
+            "long",
+            "ToDoubleFunction",
+            "double",
+            "DoubleBinaryOperator"
+        ]
+    },
+    "int reduceValuesToInt(long parallelismThreshold, ToIntFunction transformer, int basis, IntBinaryOperator reducer)": {
+        "return type": "int",
+        "method name": "reduceValuesToInt",
+        "parameters": [
+            "long",
+            "ToIntFunction",
+            "int",
+            "IntBinaryOperator"
+        ]
+    },
+    "long reduceValuesToLong(long parallelismThreshold, ToLongFunction transformer, long basis, LongBinaryOperator reducer)": {
+        "return type": "long",
+        "method name": "reduceValuesToLong",
+        "parameters": [
+            "long",
+            "ToLongFunction",
+            "long",
+            "LongBinaryOperator"
+        ]
+    },
+    "V remove(Object key)": {
+        "return type": "V",
+        "method name": "remove",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean remove(Object key, Object value)": {
+        "return type": "boolean",
+        "method name": "remove",
+        "parameters": [
+            "Object",
+            "Object"
+        ]
+    },
+    "V replace(K key, V value)": {
+        "return type": "V",
+        "method name": "replace",
+        "parameters": [
+            "K",
+            "V"
+        ]
+    },
+    "boolean replace(K key, V oldValue, V newValue)": {
+        "return type": "boolean",
+        "method name": "replace",
+        "parameters": [
+            "K",
+            "V",
+            "V"
+        ]
+    },
+    "void replaceAll(BiFunction function)": {
+        "return type": "void",
+        "method name": "replaceAll",
+        "parameters": [
+            "BiFunction"
+        ]
+    },
+    "U search(long parallelismThreshold, BiFunction searchFunction)": {
+        "return type": "U",
+        "method name": "search",
+        "parameters": [
+            "long",
+            "BiFunction"
+        ]
+    },
+    "U searchKeys(long parallelismThreshold, Function searchFunction)": {
+        "return type": "U",
+        "method name": "searchKeys",
+        "parameters": [
+            "long",
+            "Function"
+        ]
+    },
+    "U searchValues(long parallelismThreshold, Function searchFunction)": {
+        "return type": "U",
+        "method name": "searchValues",
+        "parameters": [
+            "long",
+            "Function"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "Collection values()": {
+        "return type": "Collection",
+        "method name": "values",
+        "parameters": []
+    },
+    "Object clone()": {
+        "return type": "Object",
+        "method name": "clone",
+        "parameters": []
+    },
+    "Set keySet()": {
+        "return type": "Set",
+        "method name": "keySet",
+        "parameters": []
+    }
+}

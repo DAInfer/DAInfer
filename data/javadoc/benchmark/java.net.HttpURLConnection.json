@@ -1,0 +1,27 @@
+{
+    "class": "HttpURLConnection",
+    "category": "Class",
+    "methods": {
+        "void disconnect()": "Indicates that other requests to the server are unlikely in the near future.",
+        "InputStream getErrorStream()": "Returns the error stream if the connection failed but the server sent useful data nonetheless.",
+        "boolean getFollowRedirects()": "Returns a boolean indicating whether or not HTTP redirects (3xx) should be automatically followed.",
+        "String getHeaderField(int n)": "Returns the value for the nth header field.",
+        "long getHeaderFieldDate(String name, long Default)": "Returns the value of the named field parsed as date.",
+        "String getHeaderFieldKey(int n)": "Returns the key for the nth header field.",
+        "boolean getInstanceFollowRedirects()": "Returns the value of this HttpURLConnection's instanceFollowRedirects field.",
+        "Permission getPermission()": "Returns a SocketPermission object representing the permission necessary to connect to the destination host and port.",
+        "String getRequestMethod()": "Get the request method.",
+        "int getResponseCode()": "Gets the status code from an HTTP response message.",
+        "String getResponseMessage()": "Gets the HTTP response message, if any, returned along with the response code from a server.",
+        "void setChunkedStreamingMode(int chunklen)": "This method is used to enable streaming of a HTTP request body without internal buffering, when the content length is not known in advance.",
+        "void setFixedLengthStreamingMode(int contentLength)": "This method is used to enable streaming of a HTTP request body without internal buffering, when the content length is known in advance.",
+        "void setFixedLengthStreamingMode(long contentLength)": "This method is used to enable streaming of a HTTP request body without internal buffering, when the content length is known in advance.",
+        "void setFollowRedirects(boolean set)": "Sets whether HTTP redirects (requests with response code 3xx) should be automatically followed by this class.",
+        "void setInstanceFollowRedirects(boolean followRedirects)": "Sets whether HTTP redirects (requests with response code 3xx) should be automatically followed by this HttpURLConnection instance.",
+        "void setRequestMethod(String method)": "Set the method for the URL request, one of: GET POST HEAD OPTIONS PUT DELETE TRACE are legal, subject to protocol restrictions.",
+        "boolean usingProxy()": "Indicates if the connection is going through a proxy."
+    },
+    "super class": [
+        "java.net.URLConnection"
+    ]
+}

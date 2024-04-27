@@ -1,0 +1,11 @@
+{
+    "class": "Observable",
+    "category": "Interface",
+    "methods": {
+        "void addListener(InvalidationListener listener)": "Adds an InvalidationListener which will be notified whenever the Observable becomes invalid.",
+        "void removeListener(InvalidationListener listener)": "Removes the given listener from the list of listeners, that are notified whenever the value of the Observable becomes invalid."
+    },
+    "super class": [
+
+    ]
+}

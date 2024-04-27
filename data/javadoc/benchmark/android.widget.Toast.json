@@ -1,0 +1,27 @@
+{
+    "class": "Toast",
+    "category": "class",
+    "methods": {
+        "void addCallback(Toast.Callback callback)": "Adds a callback to be notified when the toast is shown or hidden.",
+        "void cancel()": "Close the view if it's showing, or don't show it if it isn't showing yet.",
+        "int getDuration()": "Return the duration.",
+        "int getGravity()": "Get the location at which the notification should appear on the screen.",
+        "float getHorizontalMargin()": "Return the horizontal margin.",
+        "float getVerticalMargin()": "Return the vertical margin.",
+        "View getView()": "",
+        "int getXOffset()": "Return the X offset in pixels to apply to the gravity's location.",
+        "int getYOffset()": "Return the Y offset in pixels to apply to the gravity's location.",
+        "Toast makeText(Context context, int resId, int duration)": "Make a standard toast that just contains text from a resource.",
+        "Toast makeText(Context context, CharSequence text, int duration)": "Make a standard toast that just contains text.",
+        "void removeCallback(Toast.Callback callback)": "Removes a callback previously added with addCallback(android.widget.Toast.Callback).",
+        "void setDuration(int duration)": "Set how long to show the view for.",
+        "void setGravity(int gravity, int xOffset, int yOffset)": "Set the location at which the notification should appear on the screen.",
+        "void setMargin(float horizontalMargin, float verticalMargin)": "Set the margins of the view.",
+        "void setText(int resId)": "Update the text in a Toast that was previously created using one of the makeText() methods.",
+        "void setText(CharSequence s)": "Update the text in a Toast that was previously created using one of the makeText() methods.",
+        "void setView(View view)": "This method was deprecated in API level 30. Custom toast views are deprecated. Apps can create a standard text toast with the makeText(android.content.Context, java.lang.CharSequence, int) method, or use a Snackbar when in the foreground. Starting from Android Build.VERSION_CODES#R, apps targeting API level Build.VERSION_CODES#R or higher that are in the background will not have custom toast views displayed.",
+        "void show()": "Show the view for the specified duration."
+    },
+    "super class": [
+    ]
+}

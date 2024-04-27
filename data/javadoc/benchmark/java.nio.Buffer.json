@@ -1,0 +1,24 @@
+{
+    "class": "Buffer",
+    "category": "Class",
+    "methods": {
+        "Object array()": "Returns the array that backs this buffer (optional operation).",
+        "int arrayOffset()": "Returns the offset within this buffer's backing array of the first element of the buffer (optional operation).",
+        "int capacity()": "Returns this buffer's capacity.",
+        "Buffer clear()": "Clears this buffer.",
+        "Buffer flip()": "Flips this buffer.",
+        "boolean hasArray()": "Tells whether or not this buffer is backed by an accessible array.",
+        "boolean hasRemaining()": "Tells whether there are any elements between the current position and the limit.",
+        "boolean isDirect()": "Tells whether or not this buffer is direct.",
+        "boolean isReadOnly()": "Tells whether or not this buffer is read-only.",
+        "int limit()": "Returns this buffer's limit.",
+        "Buffer limit(int newLimit)": "Sets this buffer's limit.",
+        "Buffer mark()": "Sets this buffer's mark at its position.",
+        "int position()": "Returns this buffer's position.",
+        "Buffer position(int newPosition)": "Sets this buffer's position.",
+        "int remaining()": "Returns the number of elements between the current position and the limit.",
+        "Buffer reset()": "Resets this buffer's position to the previously-marked position.",
+        "Buffer rewind()": "Rewinds this buffer."
+    },
+    "super class": []
+}

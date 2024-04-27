@@ -1,0 +1,58 @@
+{
+    "boolean addAlias(String param, String alias)": {
+        "return type": "boolean",
+        "method name": "addAlias",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "boolean addParameter(String paramName)": {
+        "return type": "boolean",
+        "method name": "addParameter",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean addParameter(String paramName, boolean hasArg)": {
+        "return type": "boolean",
+        "method name": "addParameter",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "String getParamArgument(String paramName)": {
+        "return type": "String",
+        "method name": "getParamArgument",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String[] getRestArgs()": {
+        "return type": "String[]",
+        "method name": "getRestArgs",
+        "parameters": []
+    },
+    "boolean isInArgsList(String paramName)": {
+        "return type": "boolean",
+        "method name": "isInArgsList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isKnownParameter(String paramName)": {
+        "return type": "boolean",
+        "method name": "isKnownParameter",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void parseCmdLine(String[] args)": {
+        "return type": "void",
+        "method name": "parseCmdLine",
+        "parameters": [
+            "String[]"
+        ]
+    }
+}

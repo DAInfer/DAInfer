@@ -1,0 +1,64 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void addProperty(java.lang.String property, java.lang.Number value)",
+            "java.lang.Number getAsNumber()"
+        ],
+        [
+            "JsonArray getAsJsonArray(java.lang.String memberName)",
+            "java.lang.String getAsString()"
+        ],
+        [
+            "void add(java.lang.String property, JsonElement value)",
+            "java.lang.String getAsString()"
+        ],
+        [
+            "JsonPrimitive getAsJsonPrimitive(java.lang.String memberName)",
+            "java.lang.String getAsString()"
+        ],
+        [
+            "void add(java.lang.String property, JsonElement value)",
+            "JsonElement get(java.lang.String memberName)"
+        ],
+        [
+            "void addProperty(java.lang.String property, java.lang.Boolean value)",
+            "java.lang.String getAsString()"
+        ],
+        [
+            "void add(java.lang.String property, JsonElement value)",
+            "JsonElement remove(java.lang.String property)"
+        ],
+        [
+            "void addProperty(java.lang.String property, java.lang.Character value)",
+            "java.lang.String getAsString()"
+        ],
+        [
+            "void addProperty(java.lang.String property, java.lang.Number value)",
+            "java.lang.String getAsString()"
+        ],
+        [
+            "void add(java.lang.String property, JsonElement value)",
+            "JsonElement deepCopy()"
+        ],
+        [
+            "void addProperty(java.lang.String property, java.lang.String value)",
+            "java.lang.String getAsString()"
+        ],
+        [
+            "boolean has(java.lang.String memberName)",
+            "java.lang.String getAsString()"
+        ],
+        [
+            "JsonElement remove(java.lang.String property)",
+            "java.lang.String getAsString()"
+        ],
+        [
+            "JsonObject getAsJsonObject(java.lang.String memberName)",
+            "java.lang.String getAsString()"
+        ],
+        [
+            "JsonElement get(java.lang.String memberName)",
+            "java.lang.String getAsString()"
+        ]
+    ]
+}

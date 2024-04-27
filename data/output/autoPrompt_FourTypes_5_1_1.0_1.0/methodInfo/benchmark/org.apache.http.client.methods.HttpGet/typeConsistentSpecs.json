@@ -1,0 +1,80 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "Header getLastHeader(String name)",
+            "String getMethod()"
+        ],
+        [
+            "void setConfig(RequestConfig config)",
+            "RequestConfig getConfig()"
+        ],
+        [
+            "void setHeaders(Header[] headers)",
+            "Header[] getHeaders(String name)"
+        ],
+        [
+            "void setHeader(String name, String value)",
+            "String getMethod()"
+        ],
+        [
+            "void setProtocolVersion(ProtocolVersion version)",
+            "ProtocolVersion getProtocolVersion()"
+        ],
+        [
+            "void setHeader(Header header)",
+            "Header getLastHeader(String name)"
+        ],
+        [
+            "void removeHeaders(String name)",
+            "String getMethod()"
+        ],
+        [
+            "HeaderIterator headerIterator(String name)",
+            "String getMethod()"
+        ],
+        [
+            "void removeHeader(Header header)",
+            "Header getLastHeader(String name)"
+        ],
+        [
+            "void addHeader(String name, String value)",
+            "String getMethod()"
+        ],
+        [
+            "void addHeader(Header header)",
+            "Header getLastHeader(String name)"
+        ],
+        [
+            "void setHeaders(Header[] headers)",
+            "Header[] getAllHeaders()"
+        ],
+        [
+            "Header[] getHeaders(String name)",
+            "String getMethod()"
+        ],
+        [
+            "boolean containsHeader(String name)",
+            "String getMethod()"
+        ],
+        [
+            "void setHeader(Header header)",
+            "Header getFirstHeader(String name)"
+        ],
+        [
+            "void setURI(URI uri)",
+            "URI getURI()"
+        ],
+        [
+            "void removeHeader(Header header)",
+            "Header getFirstHeader(String name)"
+        ],
+        [
+            "void addHeader(Header header)",
+            "Header getFirstHeader(String name)"
+        ],
+        [
+            "Header getFirstHeader(String name)",
+            "String getMethod()"
+        ]
+    ]
+}

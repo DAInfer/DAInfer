@@ -1,0 +1,678 @@
+{
+    "void addDefaultResource(String name)": {
+        "return type": "void",
+        "method name": "addDefaultResource",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void addDeprecation(String key, String newKey)": {
+        "return type": "void",
+        "method name": "addDeprecation",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "void addDeprecation(String key, String newKey, String customMessage)": {
+        "return type": "void",
+        "method name": "addDeprecation",
+        "parameters": [
+            "String",
+            "String",
+            "String"
+        ]
+    },
+    "void addDeprecations(org.apache.hadoop.conf.Configuration.DeprecationDelta[] deltas)": {
+        "return type": "void",
+        "method name": "addDeprecations",
+        "parameters": [
+            "org.apache.hadoop.conf.Configuration.DeprecationDelta[]"
+        ]
+    },
+    "void addResource(Configuration conf)": {
+        "return type": "void",
+        "method name": "addResource",
+        "parameters": [
+            "Configuration"
+        ]
+    },
+    "void addResource(InputStream in)": {
+        "return type": "void",
+        "method name": "addResource",
+        "parameters": [
+            "InputStream"
+        ]
+    },
+    "void addResource(InputStream in, String name)": {
+        "return type": "void",
+        "method name": "addResource",
+        "parameters": [
+            "InputStream",
+            "String"
+        ]
+    },
+    "void addResource(Path file)": {
+        "return type": "void",
+        "method name": "addResource",
+        "parameters": [
+            "Path"
+        ]
+    },
+    "void addResource(String name)": {
+        "return type": "void",
+        "method name": "addResource",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void addResource(URL url)": {
+        "return type": "void",
+        "method name": "addResource",
+        "parameters": [
+            "URL"
+        ]
+    },
+    "void clear()": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": []
+    },
+    "void dumpConfiguration(Configuration config, Writer out)": {
+        "return type": "void",
+        "method name": "dumpConfiguration",
+        "parameters": [
+            "Configuration",
+            "Writer"
+        ]
+    },
+    "void dumpDeprecatedKeys()": {
+        "return type": "void",
+        "method name": "dumpDeprecatedKeys",
+        "parameters": []
+    },
+    "String get(String name)": {
+        "return type": "String",
+        "method name": "get",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String get(String name, String defaultValue)": {
+        "return type": "String",
+        "method name": "get",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "boolean getBoolean(String name, boolean defaultValue)": {
+        "return type": "boolean",
+        "method name": "getBoolean",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "Class getClass(String name, Class defaultValue)": {
+        "return type": "Class",
+        "method name": "getClass",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "Class getClass(String name, Class defaultValue, Class xface)": {
+        "return type": "Class",
+        "method name": "getClass",
+        "parameters": [
+            "String",
+            "Class",
+            "Class"
+        ]
+    },
+    "Class getClassByName(String name)": {
+        "return type": "Class",
+        "method name": "getClassByName",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Class getClassByNameOrNull(String name)": {
+        "return type": "Class",
+        "method name": "getClassByNameOrNull",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Class[] getClasses(String name, Class... defaultValue)": {
+        "return type": "Class[]",
+        "method name": "getClasses",
+        "parameters": [
+            "String",
+            "Class..."
+        ]
+    },
+    "ClassLoader getClassLoader()": {
+        "return type": "ClassLoader",
+        "method name": "getClassLoader",
+        "parameters": []
+    },
+    "InputStream getConfResourceAsInputStream(String name)": {
+        "return type": "InputStream",
+        "method name": "getConfResourceAsInputStream",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Reader getConfResourceAsReader(String name)": {
+        "return type": "Reader",
+        "method name": "getConfResourceAsReader",
+        "parameters": [
+            "String"
+        ]
+    },
+    "double getDouble(String name, double defaultValue)": {
+        "return type": "double",
+        "method name": "getDouble",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "T getEnum(String name, T defaultValue)": {
+        "return type": "T",
+        "method name": "getEnum",
+        "parameters": [
+            "String",
+            "T"
+        ]
+    },
+    "File getFile(String dirsProp, String path)": {
+        "return type": "File",
+        "method name": "getFile",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "Set getFinalParameters()": {
+        "return type": "Set",
+        "method name": "getFinalParameters",
+        "parameters": []
+    },
+    "float getFloat(String name, float defaultValue)": {
+        "return type": "float",
+        "method name": "getFloat",
+        "parameters": [
+            "String",
+            "float"
+        ]
+    },
+    "List getInstances(String name, Class xface)": {
+        "return type": "List",
+        "method name": "getInstances",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "int getInt(String name, int defaultValue)": {
+        "return type": "int",
+        "method name": "getInt",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "int[] getInts(String name)": {
+        "return type": "int[]",
+        "method name": "getInts",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Path getLocalPath(String dirsProp, String path)": {
+        "return type": "Path",
+        "method name": "getLocalPath",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "long getLong(String name, long defaultValue)": {
+        "return type": "long",
+        "method name": "getLong",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "long getLongBytes(String name, long defaultValue)": {
+        "return type": "long",
+        "method name": "getLongBytes",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "char[] getPassword(String name)": {
+        "return type": "char[]",
+        "method name": "getPassword",
+        "parameters": [
+            "String"
+        ]
+    },
+    "char[] getPasswordFromConfig(String name)": {
+        "return type": "char[]",
+        "method name": "getPasswordFromConfig",
+        "parameters": [
+            "String"
+        ]
+    },
+    "char[] getPasswordFromCredentialProviders(String name)": {
+        "return type": "char[]",
+        "method name": "getPasswordFromCredentialProviders",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Pattern getPattern(String name, Pattern defaultValue)": {
+        "return type": "Pattern",
+        "method name": "getPattern",
+        "parameters": [
+            "String",
+            "Pattern"
+        ]
+    },
+    "String[] getPropertySources(String name)": {
+        "return type": "String[]",
+        "method name": "getPropertySources",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Properties getProps()": {
+        "return type": "Properties",
+        "method name": "getProps",
+        "parameters": []
+    },
+    "org.apache.hadoop.conf.Configuration.IntegerRanges getRange(String name, String defaultValue)": {
+        "return type": "org.apache.hadoop.conf.Configuration.IntegerRanges",
+        "method name": "getRange",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "String getRaw(String name)": {
+        "return type": "String",
+        "method name": "getRaw",
+        "parameters": [
+            "String"
+        ]
+    },
+    "URL getResource(String name)": {
+        "return type": "URL",
+        "method name": "getResource",
+        "parameters": [
+            "String"
+        ]
+    },
+    "InetSocketAddress getSocketAddr(String name, String defaultAddress, int defaultPort)": {
+        "return type": "InetSocketAddress",
+        "method name": "getSocketAddr",
+        "parameters": [
+            "String",
+            "String",
+            "int"
+        ]
+    },
+    "InetSocketAddress getSocketAddr(String hostProperty, String addressProperty, String defaultAddressValue, int defaultPort)": {
+        "return type": "InetSocketAddress",
+        "method name": "getSocketAddr",
+        "parameters": [
+            "String",
+            "String",
+            "String",
+            "int"
+        ]
+    },
+    "Collection getStringCollection(String name)": {
+        "return type": "Collection",
+        "method name": "getStringCollection",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String[] getStrings(String name)": {
+        "return type": "String[]",
+        "method name": "getStrings",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String[] getStrings(String name, String... defaultValue)": {
+        "return type": "String[]",
+        "method name": "getStrings",
+        "parameters": [
+            "String",
+            "String..."
+        ]
+    },
+    "long getTimeDuration(String name, long defaultValue, TimeUnit unit)": {
+        "return type": "long",
+        "method name": "getTimeDuration",
+        "parameters": [
+            "String",
+            "long",
+            "TimeUnit"
+        ]
+    },
+    "String getTrimmed(String name)": {
+        "return type": "String",
+        "method name": "getTrimmed",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getTrimmed(String name, String defaultValue)": {
+        "return type": "String",
+        "method name": "getTrimmed",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "Collection getTrimmedStringCollection(String name)": {
+        "return type": "Collection",
+        "method name": "getTrimmedStringCollection",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String[] getTrimmedStrings(String name)": {
+        "return type": "String[]",
+        "method name": "getTrimmedStrings",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String[] getTrimmedStrings(String name, String... defaultValue)": {
+        "return type": "String[]",
+        "method name": "getTrimmedStrings",
+        "parameters": [
+            "String",
+            "String..."
+        ]
+    },
+    "Map getValByRegex(String regex)": {
+        "return type": "Map",
+        "method name": "getValByRegex",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean hasWarnedDeprecation(String name)": {
+        "return type": "boolean",
+        "method name": "hasWarnedDeprecation",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isDeprecated(String key)": {
+        "return type": "boolean",
+        "method name": "isDeprecated",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Iterator iterator()": {
+        "return type": "Iterator",
+        "method name": "iterator",
+        "parameters": []
+    },
+    "void main(String[] args)": {
+        "return type": "void",
+        "method name": "main",
+        "parameters": [
+            "String[]"
+        ]
+    },
+    "boolean onlyKeyExists(String name)": {
+        "return type": "boolean",
+        "method name": "onlyKeyExists",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void readFields(DataInput in)": {
+        "return type": "void",
+        "method name": "readFields",
+        "parameters": [
+            "DataInput"
+        ]
+    },
+    "void reloadConfiguration()": {
+        "return type": "void",
+        "method name": "reloadConfiguration",
+        "parameters": []
+    },
+    "void set(String name, String value)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "void set(String name, String value, String source)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "String",
+            "String",
+            "String"
+        ]
+    },
+    "void setAllowNullValueProperties(boolean val)": {
+        "return type": "void",
+        "method name": "setAllowNullValueProperties",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setBoolean(String name, boolean value)": {
+        "return type": "void",
+        "method name": "setBoolean",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "void setBooleanIfUnset(String name, boolean value)": {
+        "return type": "void",
+        "method name": "setBooleanIfUnset",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "void setClass(String name, Class theClass, Class xface)": {
+        "return type": "void",
+        "method name": "setClass",
+        "parameters": [
+            "String",
+            "Class",
+            "Class"
+        ]
+    },
+    "void setClassLoader(ClassLoader classLoader)": {
+        "return type": "void",
+        "method name": "setClassLoader",
+        "parameters": [
+            "ClassLoader"
+        ]
+    },
+    "void setDeprecatedProperties()": {
+        "return type": "void",
+        "method name": "setDeprecatedProperties",
+        "parameters": []
+    },
+    "void setDouble(String name, double value)": {
+        "return type": "void",
+        "method name": "setDouble",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "void setEnum(String name, T value)": {
+        "return type": "void",
+        "method name": "setEnum",
+        "parameters": [
+            "String",
+            "T"
+        ]
+    },
+    "void setFloat(String name, float value)": {
+        "return type": "void",
+        "method name": "setFloat",
+        "parameters": [
+            "String",
+            "float"
+        ]
+    },
+    "void setIfUnset(String name, String value)": {
+        "return type": "void",
+        "method name": "setIfUnset",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "void setInt(String name, int value)": {
+        "return type": "void",
+        "method name": "setInt",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "void setLong(String name, long value)": {
+        "return type": "void",
+        "method name": "setLong",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "void setPattern(String name, Pattern pattern)": {
+        "return type": "void",
+        "method name": "setPattern",
+        "parameters": [
+            "String",
+            "Pattern"
+        ]
+    },
+    "void setQuietMode(boolean quietmode)": {
+        "return type": "void",
+        "method name": "setQuietMode",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setSocketAddr(String name, InetSocketAddress addr)": {
+        "return type": "void",
+        "method name": "setSocketAddr",
+        "parameters": [
+            "String",
+            "InetSocketAddress"
+        ]
+    },
+    "void setStrings(String name, String... values)": {
+        "return type": "void",
+        "method name": "setStrings",
+        "parameters": [
+            "String",
+            "String..."
+        ]
+    },
+    "void setTimeDuration(String name, long value, TimeUnit unit)": {
+        "return type": "void",
+        "method name": "setTimeDuration",
+        "parameters": [
+            "String",
+            "long",
+            "TimeUnit"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "void unset(String name)": {
+        "return type": "void",
+        "method name": "unset",
+        "parameters": [
+            "String"
+        ]
+    },
+    "InetSocketAddress updateConnectAddr(String name, InetSocketAddress addr)": {
+        "return type": "InetSocketAddress",
+        "method name": "updateConnectAddr",
+        "parameters": [
+            "String",
+            "InetSocketAddress"
+        ]
+    },
+    "InetSocketAddress updateConnectAddr(String hostProperty, String addressProperty, String defaultAddressValue, InetSocketAddress addr)": {
+        "return type": "InetSocketAddress",
+        "method name": "updateConnectAddr",
+        "parameters": [
+            "String",
+            "String",
+            "String",
+            "InetSocketAddress"
+        ]
+    },
+    "void write(DataOutput out)": {
+        "return type": "void",
+        "method name": "write",
+        "parameters": [
+            "DataOutput"
+        ]
+    },
+    "void writeXml(OutputStream out)": {
+        "return type": "void",
+        "method name": "writeXml",
+        "parameters": [
+            "OutputStream"
+        ]
+    },
+    "void writeXml(Writer out)": {
+        "return type": "void",
+        "method name": "writeXml",
+        "parameters": [
+            "Writer"
+        ]
+    },
+    "void forEach(Consumer action)": {
+        "return type": "void",
+        "method name": "forEach",
+        "parameters": [
+            "Consumer"
+        ]
+    },
+    "Spliterator spliterator()": {
+        "return type": "Spliterator",
+        "method name": "spliterator",
+        "parameters": []
+    }
+}

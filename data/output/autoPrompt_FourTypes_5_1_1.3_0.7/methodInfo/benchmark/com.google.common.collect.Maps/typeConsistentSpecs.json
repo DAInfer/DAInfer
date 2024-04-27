@@ -1,0 +1,716 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)",
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "HashMap newHashMap(Map map)",
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)",
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)",
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)"
+        ],
+        [
+            "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)",
+            "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "ImmutableMap immutableEnumMap(Map map)",
+            "Map transformValues(Map fromMap, Function function)"
+        ],
+        [
+            "BiMap synchronizedBiMap(BiMap bimap)",
+            "BiMap unmodifiableBiMap(BiMap bimap)"
+        ],
+        [
+            "BiMap filterValues(BiMap unfiltered, Predicate valuePredicate)",
+            "BiMap filterEntries(BiMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "HashMap newHashMap(Map map)",
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "BiMap filterValues(BiMap unfiltered, Predicate valuePredicate)",
+            "BiMap synchronizedBiMap(BiMap bimap)"
+        ],
+        [
+            "Converter asConverter(BiMap bimap)",
+            "BiMap filterEntries(BiMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "Converter asConverter(BiMap bimap)",
+            "BiMap synchronizedBiMap(BiMap bimap)"
+        ],
+        [
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)",
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)",
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)",
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)"
+        ],
+        [
+            "SortedMap transformValues(SortedMap fromMap, Function function)",
+            "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "HashMap newHashMap(Map map)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)",
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "Map transformValues(Map fromMap, Function function)"
+        ],
+        [
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)",
+            "Map transformValues(Map fromMap, Function function)"
+        ],
+        [
+            "BiMap filterKeys(BiMap unfiltered, Predicate keyPredicate)",
+            "BiMap filterEntries(BiMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)",
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)",
+            "SortedMap asMap(SortedSet set, Function function)"
+        ],
+        [
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)",
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "BiMap unmodifiableBiMap(BiMap bimap)",
+            "BiMap filterKeys(BiMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "HashMap newHashMap(Map map)",
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)",
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)",
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "LinkedHashMap newLinkedHashMap(Map map)",
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)",
+            "SortedMap asMap(SortedSet set, Function function)"
+        ],
+        [
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)",
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "BiMap synchronizedBiMap(BiMap bimap)",
+            "BiMap filterKeys(BiMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "BiMap filterEntries(BiMap unfiltered, Predicate entryPredicate)",
+            "BiMap synchronizedBiMap(BiMap bimap)"
+        ],
+        [
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)",
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right)",
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)",
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)",
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "TreeMap newTreeMap(SortedMap map)",
+            "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)",
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)",
+            "SortedMap asMap(SortedSet set, Function function)"
+        ],
+        [
+            "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)",
+            "SortedMap transformValues(SortedMap fromMap, Function function)"
+        ],
+        [
+            "HashMap newHashMap(Map map)",
+            "Map transformValues(Map fromMap, Function function)"
+        ],
+        [
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)",
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)",
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "EnumMap newEnumMap(Map map)",
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "EnumMap newEnumMap(Map map)",
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "Converter asConverter(BiMap bimap)",
+            "BiMap filterValues(BiMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)",
+            "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "LinkedHashMap newLinkedHashMap(Map map)",
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)",
+            "SortedMap transformValues(SortedMap fromMap, Function function)"
+        ],
+        [
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)",
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)",
+            "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "EnumMap newEnumMap(Map map)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "LinkedHashMap newLinkedHashMap(Map map)",
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "SortedMap transformValues(SortedMap fromMap, Function function)",
+            "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "BiMap filterKeys(BiMap unfiltered, Predicate keyPredicate)",
+            "BiMap filterValues(BiMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right, Equivalence valueEquivalence)",
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)",
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)"
+        ],
+        [
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)",
+            "NavigableMap asMap(NavigableSet set, Function function)"
+        ],
+        [
+            "TreeMap newTreeMap(SortedMap map)",
+            "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)",
+            "NavigableMap asMap(NavigableSet set, Function function)"
+        ],
+        [
+            "LinkedHashMap newLinkedHashMap(Map map)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right)",
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)",
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)"
+        ],
+        [
+            "BiMap filterValues(BiMap unfiltered, Predicate valuePredicate)",
+            "BiMap unmodifiableBiMap(BiMap bimap)"
+        ],
+        [
+            "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)",
+            "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "Converter asConverter(BiMap bimap)",
+            "BiMap unmodifiableBiMap(BiMap bimap)"
+        ],
+        [
+            "EnumMap newEnumMap(Map map)",
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "BiMap unmodifiableBiMap(BiMap bimap)",
+            "BiMap synchronizedBiMap(BiMap bimap)"
+        ],
+        [
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)",
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)"
+        ],
+        [
+            "BiMap filterKeys(BiMap unfiltered, Predicate keyPredicate)",
+            "BiMap unmodifiableBiMap(BiMap bimap)"
+        ],
+        [
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)",
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)"
+        ],
+        [
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)",
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)",
+            "NavigableMap asMap(NavigableSet set, Function function)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "SortedMap transformValues(SortedMap fromMap, Function function)"
+        ],
+        [
+            "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)",
+            "SortedMap asMap(SortedSet set, Function function)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right)",
+            "Map transformValues(Map fromMap, Function function)"
+        ],
+        [
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)",
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)",
+            "Map transformValues(Map fromMap, Function function)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "EnumMap newEnumMap(Map map)",
+            "Map transformValues(Map fromMap, Function function)"
+        ],
+        [
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)",
+            "NavigableMap asMap(NavigableSet set, Function function)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right)",
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "Map transformValues(Map fromMap, Function function)",
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)",
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "ImmutableMap immutableEnumMap(Map map)",
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)",
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right)",
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "LinkedHashMap newLinkedHashMap(Map map)",
+            "Map transformValues(Map fromMap, Function function)"
+        ],
+        [
+            "BiMap filterEntries(BiMap unfiltered, Predicate entryPredicate)",
+            "BiMap unmodifiableBiMap(BiMap bimap)"
+        ],
+        [
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)",
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)",
+            "SortedMap transformValues(SortedMap fromMap, Function function)"
+        ],
+        [
+            "Converter asConverter(BiMap bimap)",
+            "BiMap filterKeys(BiMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)",
+            "NavigableMap asMap(NavigableSet set, Function function)"
+        ],
+        [
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)",
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)",
+            "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)",
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)",
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)"
+        ],
+        [
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)",
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "TreeMap newTreeMap(SortedMap map)",
+            "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)",
+            "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)",
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right, Equivalence valueEquivalence)",
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "SortedMap transformValues(SortedMap fromMap, Function function)",
+            "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)",
+            "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right, Equivalence valueEquivalence)",
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)",
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "SortedMap asMap(SortedSet set, Function function)"
+        ],
+        [
+            "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)",
+            "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "BiMap unmodifiableBiMap(BiMap bimap)",
+            "BiMap filterEntries(BiMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)",
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)",
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "ImmutableMap immutableEnumMap(Map map)",
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right, Equivalence valueEquivalence)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)",
+            "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "BiMap filterEntries(BiMap unfiltered, Predicate entryPredicate)",
+            "BiMap filterValues(BiMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "BiMap synchronizedBiMap(BiMap bimap)",
+            "BiMap filterEntries(BiMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)",
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)",
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)"
+        ],
+        [
+            "HashMap newHashMap(Map map)",
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)",
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)"
+        ],
+        [
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)",
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)",
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right, Equivalence valueEquivalence)",
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)",
+            "NavigableMap asMap(NavigableSet set, Function function)"
+        ],
+        [
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)",
+            "Map transformValues(Map fromMap, Function function)"
+        ],
+        [
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)",
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)",
+            "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "BiMap filterValues(BiMap unfiltered, Predicate valuePredicate)",
+            "BiMap filterKeys(BiMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "Map transformValues(Map fromMap, Function function)",
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "SortedMap transformValues(SortedMap fromMap, Function function)",
+            "SortedMap asMap(SortedSet set, Function function)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "ImmutableMap immutableEnumMap(Map map)",
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "TreeMap newTreeMap(SortedMap map)",
+            "SortedMap asMap(SortedSet set, Function function)"
+        ],
+        [
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)",
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)"
+        ],
+        [
+            "Map transformValues(Map fromMap, Function function)",
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "ImmutableMap immutableEnumMap(Map map)",
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)",
+            "Map transformValues(Map fromMap, Function function)"
+        ],
+        [
+            "BiMap filterKeys(BiMap unfiltered, Predicate keyPredicate)",
+            "BiMap synchronizedBiMap(BiMap bimap)"
+        ],
+        [
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)",
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)"
+        ],
+        [
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)",
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "Map transformValues(Map fromMap, Function function)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "MapDifference difference(Map left, Map right, Equivalence valueEquivalence)",
+            "Map transformValues(Map fromMap, Function function)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "ImmutableMap immutableEnumMap(Map map)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)",
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)"
+        ],
+        [
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)",
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "Map filterEntries(Map unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "TreeMap newTreeMap(SortedMap map)",
+            "SortedMap transformValues(SortedMap fromMap, Function function)"
+        ],
+        [
+            "BiMap unmodifiableBiMap(BiMap bimap)",
+            "BiMap filterValues(BiMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "TreeMap newTreeMap(SortedMap map)",
+            "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)",
+            "SortedMap transformValues(SortedMap fromMap, Function function)"
+        ],
+        [
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)",
+            "Map asMap(Set set, Function function)"
+        ],
+        [
+            "Map transformValues(Map fromMap, Function function)",
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "SortedMapDifference difference(SortedMap left, Map right)",
+            "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)",
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)",
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)"
+        ],
+        [
+            "BiMap filterEntries(BiMap unfiltered, Predicate entryPredicate)",
+            "BiMap filterKeys(BiMap unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)",
+            "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "BiMap synchronizedBiMap(BiMap bimap)",
+            "BiMap filterValues(BiMap unfiltered, Predicate valuePredicate)"
+        ],
+        [
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)",
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)",
+            "NavigableMap transformValues(NavigableMap fromMap, Function function)"
+        ],
+        [
+            "SortedMap transformValues(SortedMap fromMap, Function function)",
+            "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "EnumMap newEnumMap(Map map)",
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)"
+        ],
+        [
+            "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)",
+            "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "NavigableMap unmodifiableNavigableMap(NavigableMap map)",
+            "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)",
+            "NavigableMap asMap(NavigableSet set, Function function)"
+        ],
+        [
+            "Map filterValues(Map unfiltered, Predicate valuePredicate)",
+            "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)"
+        ],
+        [
+            "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)",
+            "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)"
+        ],
+        [
+            "LinkedHashMap newLinkedHashMap(Map map)",
+            "Map filterKeys(Map unfiltered, Predicate keyPredicate)"
+        ]
+    ]
+}

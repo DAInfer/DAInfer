@@ -1,0 +1,583 @@
+{
+    "JsonToken asToken()": {
+        "return type": "JsonToken",
+        "method name": "asToken",
+        "parameters": []
+    },
+    "boolean equals(Object o)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "ObjectNode findParent(String fieldName)": {
+        "return type": "ObjectNode",
+        "method name": "findParent",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List findParents(String fieldName, List foundSoFar)": {
+        "return type": "List",
+        "method name": "findParents",
+        "parameters": [
+            "String",
+            "List"
+        ]
+    },
+    "JsonNode findValue(String fieldName)": {
+        "return type": "JsonNode",
+        "method name": "findValue",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List findValues(String fieldName, List foundSoFar)": {
+        "return type": "List",
+        "method name": "findValues",
+        "parameters": [
+            "String",
+            "List"
+        ]
+    },
+    "List findValuesAsText(String fieldName, List foundSoFar)": {
+        "return type": "List",
+        "method name": "findValuesAsText",
+        "parameters": [
+            "String",
+            "List"
+        ]
+    },
+    "JsonNode get(int index)": {
+        "return type": "JsonNode",
+        "method name": "get",
+        "parameters": [
+            "int"
+        ]
+    },
+    "JsonNode get(String fieldName)": {
+        "return type": "JsonNode",
+        "method name": "get",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Iterator getElements()": {
+        "return type": "Iterator",
+        "method name": "getElements",
+        "parameters": []
+    },
+    "Iterator getFieldNames()": {
+        "return type": "Iterator",
+        "method name": "getFieldNames",
+        "parameters": []
+    },
+    "Iterator getFields()": {
+        "return type": "Iterator",
+        "method name": "getFields",
+        "parameters": []
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "boolean isObject()": {
+        "return type": "boolean",
+        "method name": "isObject",
+        "parameters": []
+    },
+    "JsonNode path(int index)": {
+        "return type": "JsonNode",
+        "method name": "path",
+        "parameters": [
+            "int"
+        ]
+    },
+    "JsonNode path(String fieldName)": {
+        "return type": "JsonNode",
+        "method name": "path",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void put(String fieldName, BigDecimal v)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "BigDecimal"
+        ]
+    },
+    "void put(String fieldName, boolean v)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "void put(String fieldName, Boolean value)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "Boolean"
+        ]
+    },
+    "void put(String fieldName, byte[] v)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "byte[]"
+        ]
+    },
+    "void put(String fieldName, double v)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "void put(String fieldName, Double value)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "Double"
+        ]
+    },
+    "void put(String fieldName, float v)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "float"
+        ]
+    },
+    "void put(String fieldName, Float value)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "Float"
+        ]
+    },
+    "void put(String fieldName, int v)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "void put(String fieldName, Integer value)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "Integer"
+        ]
+    },
+    "JsonNode put(String fieldName, JsonNode value)": {
+        "return type": "JsonNode",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "JsonNode"
+        ]
+    },
+    "void put(String fieldName, long v)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "void put(String fieldName, Long value)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "Long"
+        ]
+    },
+    "void put(String fieldName, String v)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "JsonNode putAll(Map properties)": {
+        "return type": "JsonNode",
+        "method name": "putAll",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "JsonNode putAll(ObjectNode other)": {
+        "return type": "JsonNode",
+        "method name": "putAll",
+        "parameters": [
+            "ObjectNode"
+        ]
+    },
+    "ArrayNode putArray(String fieldName)": {
+        "return type": "ArrayNode",
+        "method name": "putArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void putContentsTo(Map dst)": {
+        "return type": "void",
+        "method name": "putContentsTo",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "void putNull(String fieldName)": {
+        "return type": "void",
+        "method name": "putNull",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ObjectNode putObject(String fieldName)": {
+        "return type": "ObjectNode",
+        "method name": "putObject",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void putPOJO(String fieldName, Object pojo)": {
+        "return type": "void",
+        "method name": "putPOJO",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "ObjectNode remove(Collection fieldNames)": {
+        "return type": "ObjectNode",
+        "method name": "remove",
+        "parameters": [
+            "Collection"
+        ]
+    },
+    "JsonNode remove(String fieldName)": {
+        "return type": "JsonNode",
+        "method name": "remove",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ObjectNode removeAll()": {
+        "return type": "ObjectNode",
+        "method name": "removeAll",
+        "parameters": []
+    },
+    "ObjectNode retain(Collection fieldNames)": {
+        "return type": "ObjectNode",
+        "method name": "retain",
+        "parameters": [
+            "Collection"
+        ]
+    },
+    "ObjectNode retain(String... fieldNames)": {
+        "return type": "ObjectNode",
+        "method name": "retain",
+        "parameters": [
+            "String..."
+        ]
+    },
+    "void serialize(JsonGenerator jg, SerializerProvider provider)": {
+        "return type": "void",
+        "method name": "serialize",
+        "parameters": [
+            "JsonGenerator",
+            "SerializerProvider"
+        ]
+    },
+    "void serializeWithType(JsonGenerator jg, SerializerProvider provider, TypeSerializer typeSer)": {
+        "return type": "void",
+        "method name": "serializeWithType",
+        "parameters": [
+            "JsonGenerator",
+            "SerializerProvider",
+            "TypeSerializer"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "ObjectNode with(String propertyName)": {
+        "return type": "ObjectNode",
+        "method name": "with",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void appendElement(JsonNode node)": {
+        "return type": "void",
+        "method name": "appendElement",
+        "parameters": [
+            "JsonNode"
+        ]
+    },
+    "JsonNode getElementValue(int index)": {
+        "return type": "JsonNode",
+        "method name": "getElementValue",
+        "parameters": [
+            "int"
+        ]
+    },
+    "JsonNode getFieldValue(String fieldName)": {
+        "return type": "JsonNode",
+        "method name": "getFieldValue",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getValueAsText()": {
+        "return type": "String",
+        "method name": "getValueAsText",
+        "parameters": []
+    },
+    "void insertElement(int index, JsonNode value)": {
+        "return type": "void",
+        "method name": "insertElement",
+        "parameters": [
+            "int",
+            "JsonNode"
+        ]
+    },
+    "boolean isContainerNode()": {
+        "return type": "boolean",
+        "method name": "isContainerNode",
+        "parameters": []
+    },
+    "JsonNode removeElement(int index)": {
+        "return type": "JsonNode",
+        "method name": "removeElement",
+        "parameters": [
+            "int"
+        ]
+    },
+    "JsonNode removeElement(String fieldName)": {
+        "return type": "JsonNode",
+        "method name": "removeElement",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JsonNode setElement(int index, JsonNode value)": {
+        "return type": "JsonNode",
+        "method name": "setElement",
+        "parameters": [
+            "int",
+            "JsonNode"
+        ]
+    },
+    "JsonNode setElement(String fieldName, JsonNode value)": {
+        "return type": "JsonNode",
+        "method name": "setElement",
+        "parameters": [
+            "String",
+            "JsonNode"
+        ]
+    },
+    "JsonNode findPath(String fieldName)": {
+        "return type": "JsonNode",
+        "method name": "findPath",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JsonParser.NumberType getNumberType()": {
+        "return type": "JsonParser.NumberType",
+        "method name": "getNumberType",
+        "parameters": []
+    },
+    "void serialize(JsonGenerator jgen, SerializerProvider provider)": {
+        "return type": "void",
+        "method name": "serialize",
+        "parameters": [
+            "JsonGenerator",
+            "SerializerProvider"
+        ]
+    },
+    "void serializeWithType(JsonGenerator jgen, SerializerProvider provider, TypeSerializer typeSer)": {
+        "return type": "void",
+        "method name": "serializeWithType",
+        "parameters": [
+            "JsonGenerator",
+            "SerializerProvider",
+            "TypeSerializer"
+        ]
+    },
+    "JsonParser traverse()": {
+        "return type": "JsonParser",
+        "method name": "traverse",
+        "parameters": []
+    },
+    "boolean getBooleanValue()": {
+        "return type": "boolean",
+        "method name": "getBooleanValue",
+        "parameters": []
+    },
+    "BigDecimal getDecimalValue()": {
+        "return type": "BigDecimal",
+        "method name": "getDecimalValue",
+        "parameters": []
+    },
+    "double getDoubleValue()": {
+        "return type": "double",
+        "method name": "getDoubleValue",
+        "parameters": []
+    },
+    "Iterator<JsonNode> getElements()": {
+        "return type": "Iterator",
+        "method name": "getElements",
+        "parameters": []
+    },
+    "Iterator<String> getFieldNames()": {
+        "return type": "Iterator",
+        "method name": "getFieldNames",
+        "parameters": []
+    },
+    "Iterator<JsonNode> getFieldValues()": {
+        "return type": "Iterator",
+        "method name": "getFieldValues",
+        "parameters": []
+    },
+    "int getIntValue()": {
+        "return type": "int",
+        "method name": "getIntValue",
+        "parameters": []
+    },
+    "long getLongValue()": {
+        "return type": "long",
+        "method name": "getLongValue",
+        "parameters": []
+    },
+    "Number getNumberValue()": {
+        "return type": "Number",
+        "method name": "getNumberValue",
+        "parameters": []
+    },
+    "JsonNode getPath(int index)": {
+        "return type": "JsonNode",
+        "method name": "getPath",
+        "parameters": [
+            "int"
+        ]
+    },
+    "JsonNode getPath(String fieldName)": {
+        "return type": "JsonNode",
+        "method name": "getPath",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getTextValue()": {
+        "return type": "String",
+        "method name": "getTextValue",
+        "parameters": []
+    },
+    "boolean isArray()": {
+        "return type": "boolean",
+        "method name": "isArray",
+        "parameters": []
+    },
+    "boolean isBigDecimal()": {
+        "return type": "boolean",
+        "method name": "isBigDecimal",
+        "parameters": []
+    },
+    "boolean isBoolean()": {
+        "return type": "boolean",
+        "method name": "isBoolean",
+        "parameters": []
+    },
+    "boolean isDouble()": {
+        "return type": "boolean",
+        "method name": "isDouble",
+        "parameters": []
+    },
+    "boolean isFloatingPointNumber()": {
+        "return type": "boolean",
+        "method name": "isFloatingPointNumber",
+        "parameters": []
+    },
+    "boolean isInt()": {
+        "return type": "boolean",
+        "method name": "isInt",
+        "parameters": []
+    },
+    "boolean isIntegralNumber()": {
+        "return type": "boolean",
+        "method name": "isIntegralNumber",
+        "parameters": []
+    },
+    "boolean isLong()": {
+        "return type": "boolean",
+        "method name": "isLong",
+        "parameters": []
+    },
+    "boolean isMissingNode()": {
+        "return type": "boolean",
+        "method name": "isMissingNode",
+        "parameters": []
+    },
+    "boolean isNull()": {
+        "return type": "boolean",
+        "method name": "isNull",
+        "parameters": []
+    },
+    "boolean isNumber()": {
+        "return type": "boolean",
+        "method name": "isNumber",
+        "parameters": []
+    },
+    "boolean isTextual()": {
+        "return type": "boolean",
+        "method name": "isTextual",
+        "parameters": []
+    },
+    "boolean isValueNode()": {
+        "return type": "boolean",
+        "method name": "isValueNode",
+        "parameters": []
+    },
+    "JsonNode reportNoArrayMods()": {
+        "return type": "JsonNode",
+        "method name": "reportNoArrayMods",
+        "parameters": []
+    },
+    "JsonNode reportNoObjectMods()": {
+        "return type": "JsonNode",
+        "method name": "reportNoObjectMods",
+        "parameters": []
+    },
+    "void writeTo(JsonGenerator jg)": {
+        "return type": "void",
+        "method name": "writeTo",
+        "parameters": [
+            "JsonGenerator"
+        ]
+    }
+}

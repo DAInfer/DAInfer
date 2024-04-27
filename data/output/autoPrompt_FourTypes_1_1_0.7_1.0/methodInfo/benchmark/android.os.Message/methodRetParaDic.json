@@ -1,0 +1,153 @@
+{
+    "void copyFrom(Message o)": {
+        "return type": "void",
+        "method name": "copyFrom",
+        "parameters": [
+            "Message"
+        ]
+    },
+    "int describeContents()": {
+        "return type": "int",
+        "method name": "describeContents",
+        "parameters": []
+    },
+    "Runnable getCallback()": {
+        "return type": "Runnable",
+        "method name": "getCallback",
+        "parameters": []
+    },
+    "Bundle getData()": {
+        "return type": "Bundle",
+        "method name": "getData",
+        "parameters": []
+    },
+    "Handler getTarget()": {
+        "return type": "Handler",
+        "method name": "getTarget",
+        "parameters": []
+    },
+    "long getWhen()": {
+        "return type": "long",
+        "method name": "getWhen",
+        "parameters": []
+    },
+    "boolean isAsynchronous()": {
+        "return type": "boolean",
+        "method name": "isAsynchronous",
+        "parameters": []
+    },
+    "Message obtain(Handler h)": {
+        "return type": "Message",
+        "method name": "obtain",
+        "parameters": [
+            "Handler"
+        ]
+    },
+    "Message obtain(Handler h, int what)": {
+        "return type": "Message",
+        "method name": "obtain",
+        "parameters": [
+            "Handler",
+            "int"
+        ]
+    },
+    "Message obtain(Handler h, Runnable callback)": {
+        "return type": "Message",
+        "method name": "obtain",
+        "parameters": [
+            "Handler",
+            "Runnable"
+        ]
+    },
+    "Message obtain(Message orig)": {
+        "return type": "Message",
+        "method name": "obtain",
+        "parameters": [
+            "Message"
+        ]
+    },
+    "Message obtain(Handler h, int what, int arg1, int arg2, Object obj)": {
+        "return type": "Message",
+        "method name": "obtain",
+        "parameters": [
+            "Handler",
+            "int",
+            "int",
+            "int",
+            "Object"
+        ]
+    },
+    "Message obtain(Handler h, int what, int arg1, int arg2)": {
+        "return type": "Message",
+        "method name": "obtain",
+        "parameters": [
+            "Handler",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "Message obtain(Handler h, int what, Object obj)": {
+        "return type": "Message",
+        "method name": "obtain",
+        "parameters": [
+            "Handler",
+            "int",
+            "Object"
+        ]
+    },
+    "Message obtain()": {
+        "return type": "Message",
+        "method name": "obtain",
+        "parameters": []
+    },
+    "Bundle peekData()": {
+        "return type": "Bundle",
+        "method name": "peekData",
+        "parameters": []
+    },
+    "void recycle()": {
+        "return type": "void",
+        "method name": "recycle",
+        "parameters": []
+    },
+    "void sendToTarget()": {
+        "return type": "void",
+        "method name": "sendToTarget",
+        "parameters": []
+    },
+    "void setAsynchronous(boolean async)": {
+        "return type": "void",
+        "method name": "setAsynchronous",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setData(Bundle data)": {
+        "return type": "void",
+        "method name": "setData",
+        "parameters": [
+            "Bundle"
+        ]
+    },
+    "void setTarget(Handler target)": {
+        "return type": "void",
+        "method name": "setTarget",
+        "parameters": [
+            "Handler"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "void writeToParcel(Parcel dest, int flags)": {
+        "return type": "void",
+        "method name": "writeToParcel",
+        "parameters": [
+            "Parcel",
+            "int"
+        ]
+    }
+}

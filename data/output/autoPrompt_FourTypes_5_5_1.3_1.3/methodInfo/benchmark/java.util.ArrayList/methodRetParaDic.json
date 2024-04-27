@@ -1,0 +1,240 @@
+{
+    "boolean add(E e)": {
+        "return type": "boolean",
+        "method name": "add",
+        "parameters": [
+            "E"
+        ]
+    },
+    "void add(int index, E element)": {
+        "return type": "void",
+        "method name": "add",
+        "parameters": [
+            "int",
+            "E"
+        ]
+    },
+    "boolean addAll(Collection c)": {
+        "return type": "boolean",
+        "method name": "addAll",
+        "parameters": [
+            "Collection"
+        ]
+    },
+    "boolean addAll(int index, Collection c)": {
+        "return type": "boolean",
+        "method name": "addAll",
+        "parameters": [
+            "int",
+            "Collection"
+        ]
+    },
+    "void clear()": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": []
+    },
+    "Object clone()": {
+        "return type": "Object",
+        "method name": "clone",
+        "parameters": []
+    },
+    "boolean contains(Object o)": {
+        "return type": "boolean",
+        "method name": "contains",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "void ensureCapacity(int minCapacity)": {
+        "return type": "void",
+        "method name": "ensureCapacity",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void forEach(Consumer action)": {
+        "return type": "void",
+        "method name": "forEach",
+        "parameters": [
+            "Consumer"
+        ]
+    },
+    "E get(int index)": {
+        "return type": "E",
+        "method name": "get",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int indexOf(Object o)": {
+        "return type": "int",
+        "method name": "indexOf",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean isEmpty()": {
+        "return type": "boolean",
+        "method name": "isEmpty",
+        "parameters": []
+    },
+    "Iterator iterator()": {
+        "return type": "Iterator",
+        "method name": "iterator",
+        "parameters": []
+    },
+    "int lastIndexOf(Object o)": {
+        "return type": "int",
+        "method name": "lastIndexOf",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "ListIterator listIterator()": {
+        "return type": "ListIterator",
+        "method name": "listIterator",
+        "parameters": []
+    },
+    "ListIterator listIterator(int index)": {
+        "return type": "ListIterator",
+        "method name": "listIterator",
+        "parameters": [
+            "int"
+        ]
+    },
+    "E remove(int index)": {
+        "return type": "E",
+        "method name": "remove",
+        "parameters": [
+            "int"
+        ]
+    },
+    "boolean remove(Object o)": {
+        "return type": "boolean",
+        "method name": "remove",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean removeAll(Collection c)": {
+        "return type": "boolean",
+        "method name": "removeAll",
+        "parameters": [
+            "Collection"
+        ]
+    },
+    "boolean removeIf(Predicate filter)": {
+        "return type": "boolean",
+        "method name": "removeIf",
+        "parameters": [
+            "Predicate"
+        ]
+    },
+    "void removeRange(int fromIndex, int toIndex)": {
+        "return type": "void",
+        "method name": "removeRange",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void replaceAll(UnaryOperator operator)": {
+        "return type": "void",
+        "method name": "replaceAll",
+        "parameters": [
+            "UnaryOperator"
+        ]
+    },
+    "boolean retainAll(Collection c)": {
+        "return type": "boolean",
+        "method name": "retainAll",
+        "parameters": [
+            "Collection"
+        ]
+    },
+    "E set(int index, E element)": {
+        "return type": "E",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "E"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "void sort(Comparator c)": {
+        "return type": "void",
+        "method name": "sort",
+        "parameters": [
+            "Comparator"
+        ]
+    },
+    "Spliterator spliterator()": {
+        "return type": "Spliterator",
+        "method name": "spliterator",
+        "parameters": []
+    },
+    "List subList(int fromIndex, int toIndex)": {
+        "return type": "List",
+        "method name": "subList",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "Object[] toArray()": {
+        "return type": "Object[]",
+        "method name": "toArray",
+        "parameters": []
+    },
+    "T[] toArray(T[] a)": {
+        "return type": "T[]",
+        "method name": "toArray",
+        "parameters": [
+            "T[]"
+        ]
+    },
+    "void trimToSize()": {
+        "return type": "void",
+        "method name": "trimToSize",
+        "parameters": []
+    },
+    "boolean equals(Object o)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "boolean containsAll(Collection c)": {
+        "return type": "boolean",
+        "method name": "containsAll",
+        "parameters": [
+            "Collection"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "Stream parallelStream()": {
+        "return type": "Stream",
+        "method name": "parallelStream",
+        "parameters": []
+    },
+    "Stream stream()": {
+        "return type": "Stream",
+        "method name": "stream",
+        "parameters": []
+    }
+}

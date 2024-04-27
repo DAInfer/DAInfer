@@ -1,0 +1,832 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getNodeName()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node getLastChild()"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node getLastChild()"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getLocalName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node getLastChild()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getPrefix()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getNodeValue()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getNodeName()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node getNextSibling()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node getParentNode()"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getBaseURI()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getLocalName()"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node getNextSibling()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getLocalName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "NamedNodeMap getAttributes()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getBaseURI()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node getNextSibling()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getTextContent()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node getParentNode()"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getBaseURI()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getNodeValue()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getTextContent()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getTextContent()"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getNodeValue()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getTextContent()"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getNodeName()"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getNodeValue()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getBaseURI()"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node getFirstChild()"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getLocalName()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getBaseURI()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getNodeValue()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getNodeName()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getNodeName()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node getFirstChild()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getNodeValue()"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node getParentNode()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node getParentNode()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getNodeValue()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node getParentNode()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node getLastChild()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node getFirstChild()"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getTextContent()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getNodeName()"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getNodeName()"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getTextContent()"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node getParentNode()"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getNodeValue()"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "NodeList getChildNodes()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getTextContent()"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getNodeName()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node getNextSibling()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getBaseURI()"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node getLastChild()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getPrefix()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getNodeName()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getPrefix()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getNodeValue()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node getFirstChild()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node getFirstChild()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getPrefix()"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node getFirstChild()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getPrefix()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getTextContent()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getNodeName()"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getTextContent()"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node getNextSibling()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node getNextSibling()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Node getNextSibling()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getPrefix()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node getNextSibling()"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node appendChild(Node newChild)"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getPrefix()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getTextContent()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getLocalName()"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "boolean isSupported(String feature, String version)",
+            "String getPrefix()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String lookupNamespaceURI(String prefix)"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node getLastChild()"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getLocalName()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node getParentNode()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Document getOwnerDocument()"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getLocalName()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getLocalName()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node getLastChild()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node getLastChild()"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "String getPrefix()"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "Object getUserData(String key)",
+            "String getPrefix()"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "String lookupPrefix(String namespaceURI)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node replaceChild(Node newChild, Node oldChild)"
+        ],
+        [
+            "Node replaceChild(Node newChild, Node oldChild)",
+            "Node getFirstChild()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node getParentNode()"
+        ],
+        [
+            "boolean isDefaultNamespace(String namespaceURI)",
+            "String getNamespaceURI()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getBaseURI()"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "String lookupNamespaceURI(String prefix)",
+            "String getLocalName()"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "boolean isEqualNode(Node arg)",
+            "Node insertBefore(Node newChild, Node refChild)"
+        ],
+        [
+            "Node insertBefore(Node newChild, Node refChild)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "boolean isSameNode(Node other)",
+            "Node removeChild(Node oldChild)"
+        ],
+        [
+            "short compareDocumentPosition(Node other)",
+            "Object getUserData(String key)"
+        ],
+        [
+            "Object getFeature(String feature, String version)",
+            "String getBaseURI()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "Object getFeature(String feature, String version)"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "String getNodeValue()"
+        ],
+        [
+            "Node appendChild(Node newChild)",
+            "Node getPreviousSibling()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String lookupPrefix(String namespaceURI)"
+        ],
+        [
+            "void setPrefix(String prefix)",
+            "String getBaseURI()"
+        ],
+        [
+            "void setTextContent(String textContent)",
+            "String getBaseURI()"
+        ],
+        [
+            "Object setUserData(String key, Object data, UserDataHandler handler)",
+            "String getLocalName()"
+        ],
+        [
+            "void setNodeValue(String nodeValue)",
+            "Object setUserData(String key, Object data, UserDataHandler handler)"
+        ],
+        [
+            "Node removeChild(Node oldChild)",
+            "Node getFirstChild()"
+        ]
+    ]
+}

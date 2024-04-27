@@ -1,0 +1,15 @@
+{
+    "class": "CommandLineParser",
+    "category": "Class",
+    "methods": {
+        "boolean addAlias(String param, String alias)": "Add an alias for an already defined parameter.",
+        "boolean addParameter(String paramName)": "Add a new switch.",
+        "boolean addParameter(String paramName, boolean hasArg)": "Add a new parameter name.",
+        "String getParamArgument(String paramName)": "Get the argument to a parameter, if it exists.",
+        "String[] getRestArgs()": "Get the rest of the args, i.e., args that follow the last know parameter.",
+        "boolean isInArgsList(String paramName)": "Check if the parameter was used on the command line.",
+        "boolean isKnownParameter(String paramName)": "Check if the given parameter name is known to this parser.",
+        "void parseCmdLine(String[] args)": "Parse the command line."
+    },
+    "super class": []
+}

@@ -1,0 +1,240 @@
+{
+    "void addChild(Object t, Object child)": {
+        "return type": "void",
+        "method name": "addChild",
+        "parameters": [
+            "Object",
+            "Object"
+        ]
+    },
+    "Object becomeRoot(Object newRoot, Object oldRoot)": {
+        "return type": "Object",
+        "method name": "becomeRoot",
+        "parameters": [
+            "Object",
+            "Object"
+        ]
+    },
+    "Object becomeRoot(Token newRoot, Object oldRoot)": {
+        "return type": "Object",
+        "method name": "becomeRoot",
+        "parameters": [
+            "Token",
+            "Object"
+        ]
+    },
+    "Object create(int tokenType, String text)": {
+        "return type": "Object",
+        "method name": "create",
+        "parameters": [
+            "int",
+            "String"
+        ]
+    },
+    "Object create(int tokenType, Token fromToken)": {
+        "return type": "Object",
+        "method name": "create",
+        "parameters": [
+            "int",
+            "Token"
+        ]
+    },
+    "Object create(int tokenType, Token fromToken, String text)": {
+        "return type": "Object",
+        "method name": "create",
+        "parameters": [
+            "int",
+            "Token",
+            "String"
+        ]
+    },
+    "Object create(Token payload)": {
+        "return type": "Object",
+        "method name": "create",
+        "parameters": [
+            "Token"
+        ]
+    },
+    "Object deleteChild(Object t, int i)": {
+        "return type": "Object",
+        "method name": "deleteChild",
+        "parameters": [
+            "Object",
+            "int"
+        ]
+    },
+    "Object dupNode(Object treeNode)": {
+        "return type": "Object",
+        "method name": "dupNode",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "Object dupTree(Object tree)": {
+        "return type": "Object",
+        "method name": "dupTree",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)": {
+        "return type": "Object",
+        "method name": "errorNode",
+        "parameters": [
+            "TokenStream",
+            "Token",
+            "Token",
+            "RecognitionException"
+        ]
+    },
+    "Object getChild(Object t, int i)": {
+        "return type": "Object",
+        "method name": "getChild",
+        "parameters": [
+            "Object",
+            "int"
+        ]
+    },
+    "int getChildCount(Object t)": {
+        "return type": "int",
+        "method name": "getChildCount",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "int getChildIndex(Object t)": {
+        "return type": "int",
+        "method name": "getChildIndex",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "Object getParent(Object t)": {
+        "return type": "Object",
+        "method name": "getParent",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "String getText(Object t)": {
+        "return type": "String",
+        "method name": "getText",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "Token getToken(Object t)": {
+        "return type": "Token",
+        "method name": "getToken",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "int getTokenStartIndex(Object t)": {
+        "return type": "int",
+        "method name": "getTokenStartIndex",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "int getTokenStopIndex(Object t)": {
+        "return type": "int",
+        "method name": "getTokenStopIndex",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "int getType(Object t)": {
+        "return type": "int",
+        "method name": "getType",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "int getUniqueID(Object node)": {
+        "return type": "int",
+        "method name": "getUniqueID",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean isNil(Object tree)": {
+        "return type": "boolean",
+        "method name": "isNil",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "Object nil()": {
+        "return type": "Object",
+        "method name": "nil",
+        "parameters": []
+    },
+    "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)": {
+        "return type": "void",
+        "method name": "replaceChildren",
+        "parameters": [
+            "Object",
+            "int",
+            "int",
+            "Object"
+        ]
+    },
+    "Object rulePostProcessing(Object root)": {
+        "return type": "Object",
+        "method name": "rulePostProcessing",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "void setChild(Object t, int i, Object child)": {
+        "return type": "void",
+        "method name": "setChild",
+        "parameters": [
+            "Object",
+            "int",
+            "Object"
+        ]
+    },
+    "void setChildIndex(Object t, int index)": {
+        "return type": "void",
+        "method name": "setChildIndex",
+        "parameters": [
+            "Object",
+            "int"
+        ]
+    },
+    "void setParent(Object t, Object parent)": {
+        "return type": "void",
+        "method name": "setParent",
+        "parameters": [
+            "Object",
+            "Object"
+        ]
+    },
+    "void setText(Object t, String text)": {
+        "return type": "void",
+        "method name": "setText",
+        "parameters": [
+            "Object",
+            "String"
+        ]
+    },
+    "void setTokenBoundaries(Object t, Token startToken, Token stopToken)": {
+        "return type": "void",
+        "method name": "setTokenBoundaries",
+        "parameters": [
+            "Object",
+            "Token",
+            "Token"
+        ]
+    },
+    "void setType(Object t, int type)": {
+        "return type": "void",
+        "method name": "setType",
+        "parameters": [
+            "Object",
+            "int"
+        ]
+    }
+}

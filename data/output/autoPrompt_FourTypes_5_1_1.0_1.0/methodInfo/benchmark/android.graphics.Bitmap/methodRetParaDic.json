@@ -1,0 +1,525 @@
+{
+    "Bitmap asShared()": {
+        "return type": "Bitmap",
+        "method name": "asShared",
+        "parameters": []
+    },
+    "boolean compress(Bitmap.CompressFormat format, int quality, OutputStream stream)": {
+        "return type": "boolean",
+        "method name": "compress",
+        "parameters": [
+            "Bitmap.CompressFormat",
+            "int",
+            "OutputStream"
+        ]
+    },
+    "Bitmap copy(Bitmap.Config config, boolean isMutable)": {
+        "return type": "Bitmap",
+        "method name": "copy",
+        "parameters": [
+            "Bitmap.Config",
+            "boolean"
+        ]
+    },
+    "void copyPixelsFromBuffer(Buffer src)": {
+        "return type": "void",
+        "method name": "copyPixelsFromBuffer",
+        "parameters": [
+            "Buffer"
+        ]
+    },
+    "void copyPixelsToBuffer(Buffer dst)": {
+        "return type": "void",
+        "method name": "copyPixelsToBuffer",
+        "parameters": [
+            "Buffer"
+        ]
+    },
+    "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "Bitmap",
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "Bitmap createBitmap(int[] colors, int width, int height, Bitmap.Config config)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "int[]",
+            "int",
+            "int",
+            "Bitmap.Config"
+        ]
+    },
+    "Bitmap createBitmap(Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "Bitmap",
+            "int",
+            "int",
+            "int",
+            "int",
+            "Matrix",
+            "boolean"
+        ]
+    },
+    "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "DisplayMetrics",
+            "int",
+            "int",
+            "Bitmap.Config",
+            "boolean",
+            "ColorSpace"
+        ]
+    },
+    "Bitmap createBitmap(Bitmap src)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "Bitmap"
+        ]
+    },
+    "Bitmap createBitmap(Picture source)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "Picture"
+        ]
+    },
+    "Bitmap createBitmap(DisplayMetrics display, int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "DisplayMetrics",
+            "int[]",
+            "int",
+            "int",
+            "int",
+            "int",
+            "Bitmap.Config"
+        ]
+    },
+    "Bitmap createBitmap(DisplayMetrics display, int[] colors, int width, int height, Bitmap.Config config)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "DisplayMetrics",
+            "int[]",
+            "int",
+            "int",
+            "Bitmap.Config"
+        ]
+    },
+    "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "DisplayMetrics",
+            "int",
+            "int",
+            "Bitmap.Config"
+        ]
+    },
+    "Bitmap createBitmap(int[] colors, int offset, int stride, int width, int height, Bitmap.Config config)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "int[]",
+            "int",
+            "int",
+            "int",
+            "int",
+            "Bitmap.Config"
+        ]
+    },
+    "Bitmap createBitmap(Picture source, int width, int height, Bitmap.Config config)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "Picture",
+            "int",
+            "int",
+            "Bitmap.Config"
+        ]
+    },
+    "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha, ColorSpace colorSpace)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "int",
+            "int",
+            "Bitmap.Config",
+            "boolean",
+            "ColorSpace"
+        ]
+    },
+    "Bitmap createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config, boolean hasAlpha)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "DisplayMetrics",
+            "int",
+            "int",
+            "Bitmap.Config",
+            "boolean"
+        ]
+    },
+    "Bitmap createBitmap(int width, int height, Bitmap.Config config)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "int",
+            "int",
+            "Bitmap.Config"
+        ]
+    },
+    "Bitmap createBitmap(int width, int height, Bitmap.Config config, boolean hasAlpha)": {
+        "return type": "Bitmap",
+        "method name": "createBitmap",
+        "parameters": [
+            "int",
+            "int",
+            "Bitmap.Config",
+            "boolean"
+        ]
+    },
+    "Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)": {
+        "return type": "Bitmap",
+        "method name": "createScaledBitmap",
+        "parameters": [
+            "Bitmap",
+            "int",
+            "int",
+            "boolean"
+        ]
+    },
+    "int describeContents()": {
+        "return type": "int",
+        "method name": "describeContents",
+        "parameters": []
+    },
+    "void eraseColor(int c)": {
+        "return type": "void",
+        "method name": "eraseColor",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void eraseColor(long color)": {
+        "return type": "void",
+        "method name": "eraseColor",
+        "parameters": [
+            "long"
+        ]
+    },
+    "Bitmap extractAlpha()": {
+        "return type": "Bitmap",
+        "method name": "extractAlpha",
+        "parameters": []
+    },
+    "Bitmap extractAlpha(Paint paint, int[] offsetXY)": {
+        "return type": "Bitmap",
+        "method name": "extractAlpha",
+        "parameters": [
+            "Paint",
+            "int[]"
+        ]
+    },
+    "int getAllocationByteCount()": {
+        "return type": "int",
+        "method name": "getAllocationByteCount",
+        "parameters": []
+    },
+    "int getByteCount()": {
+        "return type": "int",
+        "method name": "getByteCount",
+        "parameters": []
+    },
+    "Color getColor(int x, int y)": {
+        "return type": "Color",
+        "method name": "getColor",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "ColorSpace getColorSpace()": {
+        "return type": "ColorSpace",
+        "method name": "getColorSpace",
+        "parameters": []
+    },
+    "Bitmap.Config getConfig()": {
+        "return type": "Bitmap.Config",
+        "method name": "getConfig",
+        "parameters": []
+    },
+    "int getDensity()": {
+        "return type": "int",
+        "method name": "getDensity",
+        "parameters": []
+    },
+    "Gainmap getGainmap()": {
+        "return type": "Gainmap",
+        "method name": "getGainmap",
+        "parameters": []
+    },
+    "int getGenerationId()": {
+        "return type": "int",
+        "method name": "getGenerationId",
+        "parameters": []
+    },
+    "HardwareBuffer getHardwareBuffer()": {
+        "return type": "HardwareBuffer",
+        "method name": "getHardwareBuffer",
+        "parameters": []
+    },
+    "int getHeight()": {
+        "return type": "int",
+        "method name": "getHeight",
+        "parameters": []
+    },
+    "byte[] getNinePatchChunk()": {
+        "return type": "byte[]",
+        "method name": "getNinePatchChunk",
+        "parameters": []
+    },
+    "int getPixel(int x, int y)": {
+        "return type": "int",
+        "method name": "getPixel",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void getPixels(int[] pixels, int offset, int stride, int x, int y, int width, int height)": {
+        "return type": "void",
+        "method name": "getPixels",
+        "parameters": [
+            "int[]",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "int getRowBytes()": {
+        "return type": "int",
+        "method name": "getRowBytes",
+        "parameters": []
+    },
+    "int getScaledHeight(int targetDensity)": {
+        "return type": "int",
+        "method name": "getScaledHeight",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int getScaledHeight(Canvas canvas)": {
+        "return type": "int",
+        "method name": "getScaledHeight",
+        "parameters": [
+            "Canvas"
+        ]
+    },
+    "int getScaledHeight(DisplayMetrics metrics)": {
+        "return type": "int",
+        "method name": "getScaledHeight",
+        "parameters": [
+            "DisplayMetrics"
+        ]
+    },
+    "int getScaledWidth(int targetDensity)": {
+        "return type": "int",
+        "method name": "getScaledWidth",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int getScaledWidth(DisplayMetrics metrics)": {
+        "return type": "int",
+        "method name": "getScaledWidth",
+        "parameters": [
+            "DisplayMetrics"
+        ]
+    },
+    "int getScaledWidth(Canvas canvas)": {
+        "return type": "int",
+        "method name": "getScaledWidth",
+        "parameters": [
+            "Canvas"
+        ]
+    },
+    "int getWidth()": {
+        "return type": "int",
+        "method name": "getWidth",
+        "parameters": []
+    },
+    "boolean hasAlpha()": {
+        "return type": "boolean",
+        "method name": "hasAlpha",
+        "parameters": []
+    },
+    "boolean hasGainmap()": {
+        "return type": "boolean",
+        "method name": "hasGainmap",
+        "parameters": []
+    },
+    "boolean hasMipMap()": {
+        "return type": "boolean",
+        "method name": "hasMipMap",
+        "parameters": []
+    },
+    "boolean isMutable()": {
+        "return type": "boolean",
+        "method name": "isMutable",
+        "parameters": []
+    },
+    "boolean isPremultiplied()": {
+        "return type": "boolean",
+        "method name": "isPremultiplied",
+        "parameters": []
+    },
+    "boolean isRecycled()": {
+        "return type": "boolean",
+        "method name": "isRecycled",
+        "parameters": []
+    },
+    "void prepareToDraw()": {
+        "return type": "void",
+        "method name": "prepareToDraw",
+        "parameters": []
+    },
+    "void reconfigure(int width, int height, Bitmap.Config config)": {
+        "return type": "void",
+        "method name": "reconfigure",
+        "parameters": [
+            "int",
+            "int",
+            "Bitmap.Config"
+        ]
+    },
+    "void recycle()": {
+        "return type": "void",
+        "method name": "recycle",
+        "parameters": []
+    },
+    "boolean sameAs(Bitmap other)": {
+        "return type": "boolean",
+        "method name": "sameAs",
+        "parameters": [
+            "Bitmap"
+        ]
+    },
+    "void setColorSpace(ColorSpace colorSpace)": {
+        "return type": "void",
+        "method name": "setColorSpace",
+        "parameters": [
+            "ColorSpace"
+        ]
+    },
+    "void setConfig(Bitmap.Config config)": {
+        "return type": "void",
+        "method name": "setConfig",
+        "parameters": [
+            "Bitmap.Config"
+        ]
+    },
+    "void setDensity(int density)": {
+        "return type": "void",
+        "method name": "setDensity",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setGainmap(Gainmap gainmap)": {
+        "return type": "void",
+        "method name": "setGainmap",
+        "parameters": [
+            "Gainmap"
+        ]
+    },
+    "void setHasAlpha(boolean hasAlpha)": {
+        "return type": "void",
+        "method name": "setHasAlpha",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setHasMipMap(boolean hasMipMap)": {
+        "return type": "void",
+        "method name": "setHasMipMap",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setHeight(int height)": {
+        "return type": "void",
+        "method name": "setHeight",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setPixel(int x, int y, int color)": {
+        "return type": "void",
+        "method name": "setPixel",
+        "parameters": [
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "void setPixels(int[] pixels, int offset, int stride, int x, int y, int width, int height)": {
+        "return type": "void",
+        "method name": "setPixels",
+        "parameters": [
+            "int[]",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "void setPremultiplied(boolean premultiplied)": {
+        "return type": "void",
+        "method name": "setPremultiplied",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setWidth(int width)": {
+        "return type": "void",
+        "method name": "setWidth",
+        "parameters": [
+            "int"
+        ]
+    },
+    "Bitmap wrapHardwareBuffer(HardwareBuffer hardwareBuffer, ColorSpace colorSpace)": {
+        "return type": "Bitmap",
+        "method name": "wrapHardwareBuffer",
+        "parameters": [
+            "HardwareBuffer",
+            "ColorSpace"
+        ]
+    },
+    "void writeToParcel(Parcel p, int flags)": {
+        "return type": "void",
+        "method name": "writeToParcel",
+        "parameters": [
+            "Parcel",
+            "int"
+        ]
+    }
+}

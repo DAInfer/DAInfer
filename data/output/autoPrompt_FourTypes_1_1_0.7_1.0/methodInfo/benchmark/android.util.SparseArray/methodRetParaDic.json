@@ -1,0 +1,145 @@
+{
+    "void append(int key, E value)": {
+        "return type": "void",
+        "method name": "append",
+        "parameters": [
+            "int",
+            "E"
+        ]
+    },
+    "void clear()": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": []
+    },
+    "SparseArray clone()": {
+        "return type": "SparseArray",
+        "method name": "clone",
+        "parameters": []
+    },
+    "boolean contains(int key)": {
+        "return type": "boolean",
+        "method name": "contains",
+        "parameters": [
+            "int"
+        ]
+    },
+    "boolean contentEquals(SparseArray other)": {
+        "return type": "boolean",
+        "method name": "contentEquals",
+        "parameters": [
+            "SparseArray"
+        ]
+    },
+    "int contentHashCode()": {
+        "return type": "int",
+        "method name": "contentHashCode",
+        "parameters": []
+    },
+    "void delete(int key)": {
+        "return type": "void",
+        "method name": "delete",
+        "parameters": [
+            "int"
+        ]
+    },
+    "E get(int key)": {
+        "return type": "E",
+        "method name": "get",
+        "parameters": [
+            "int"
+        ]
+    },
+    "E get(int key, E valueIfKeyNotFound)": {
+        "return type": "E",
+        "method name": "get",
+        "parameters": [
+            "int",
+            "E"
+        ]
+    },
+    "int indexOfKey(int key)": {
+        "return type": "int",
+        "method name": "indexOfKey",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int indexOfValue(E value)": {
+        "return type": "int",
+        "method name": "indexOfValue",
+        "parameters": [
+            "E"
+        ]
+    },
+    "int keyAt(int index)": {
+        "return type": "int",
+        "method name": "keyAt",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void put(int key, E value)": {
+        "return type": "void",
+        "method name": "put",
+        "parameters": [
+            "int",
+            "E"
+        ]
+    },
+    "void remove(int key)": {
+        "return type": "void",
+        "method name": "remove",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void removeAt(int index)": {
+        "return type": "void",
+        "method name": "removeAt",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void removeAtRange(int index, int size)": {
+        "return type": "void",
+        "method name": "removeAtRange",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void set(int key, E value)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "E"
+        ]
+    },
+    "void setValueAt(int index, E value)": {
+        "return type": "void",
+        "method name": "setValueAt",
+        "parameters": [
+            "int",
+            "E"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "E valueAt(int index)": {
+        "return type": "E",
+        "method name": "valueAt",
+        "parameters": [
+            "int"
+        ]
+    }
+}

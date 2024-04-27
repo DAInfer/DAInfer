@@ -1,0 +1,27 @@
+{
+    "class": "Multimap",
+    "category": "Interface",
+    "methods": {
+        "Map asMap()": "Returns a view of this multimap as a Map from each distinct key to the nonempty collection of that key's associated values.",
+        "void clear()": "Removes all key-value pairs from the multimap, leaving it empty.",
+        "boolean containsEntry(Object key, Object value)": "Returns true if this multimap contains at least one key-value pair with the key key and the value value.",
+        "boolean containsKey(Object key)": "Returns true if this multimap contains at least one key-value pair with the key key.",
+        "boolean containsValue(Object value)": "Returns true if this multimap contains at least one key-value pair with the value value.",
+        "Collection entries()": "Returns a view collection of all key-value pairs contained in this multimap, as Map.Entry instances.",
+        "boolean equals(Object obj)": "Compares the specified object with this multimap for equality.",
+        "Collection get(K key)": "Returns a view collection of the values associated with key in this multimap, if any.",
+        "int hashCode()": "Returns the hash code for this multimap.",
+        "boolean isEmpty()": "Returns true if this multimap contains no key-value pairs.",
+        "Multiset keys()": "Returns a view collection containing the key from each key-value pair in this multimap, without collapsing duplicates.",
+        "Set keySet()": "Returns a view collection of all distinct keys contained in this multimap.",
+        "boolean put(K key, V value)": "Stores a key-value pair in this multimap.",
+        "boolean putAll(K key, Iterable values)": "Stores a key-value pair in this multimap for each of values, all using the same key, key.",
+        "boolean putAll(Multimap multimap)": "Stores all key-value pairs of multimap in this multimap, in the order returned by multimap.entries().",
+        "boolean remove(Object key, Object value)": "Removes a single key-value pair with the key key and the value value from this multimap, if such exists.",
+        "Collection removeAll(Object key)": "Removes all values associated with the key key.",
+        "Collection replaceValues(K key, Iterable values)": "Stores a collection of values with the same key, replacing any existing values for that key.",
+        "int size()": "Returns the number of key-value pairs in this multimap.",
+        "Collection values()": "Returns a view collection containing the value from each key-value pair contained in this multimap, without collapsing duplicates (so values().size() == size())."
+    },
+    "super class": []
+}

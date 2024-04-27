@@ -1,0 +1,29 @@
+{
+    "class": "JsonValue",
+    "category": "Class",
+    "methods": {
+        "JsonArray asArray()": "Returns this JSON value as JsonArray, assuming that this value represents a JSON array.",
+        "boolean asBoolean()": "Returns this JSON value as a boolean value, assuming that this value is either true or false.",
+        "double asDouble()": "Returns this JSON value as a double value, assuming that this value represents a JSON number.",
+        "float asFloat()": "Returns this JSON value as a float value, assuming that this value represents a JSON number.",
+        "int asInt()": "Returns this JSON value as an int value, assuming that this value represents a JSON number that can be interpreted as Java int.",
+        "long asLong()": "Returns this JSON value as a long value, assuming that this value represents a JSON number that can be interpreted as Java long.",
+        "JsonObject asObject()": "Returns this JSON value as JsonObject, assuming that this value represents a JSON object.",
+        "String asString()": "Returns this JSON value as String, assuming that this value represents a JSON string.",
+        "boolean equals(Object object)": "Indicates whether some other object is \"equal to\" this one according to the contract specified in Object.equals(Object).",
+        "int hashCode()": "",
+        "boolean isArray()": "Detects whether this value represents a JSON array.",
+        "boolean isBoolean()": "Detects whether this value represents a boolean value.",
+        "boolean isFalse()": "Detects whether this value represents the JSON literal false.",
+        "boolean isNull()": "Detects whether this value represents the JSON literal null.",
+        "boolean isNumber()": "Detects whether this value represents a JSON number.",
+        "boolean isObject()": "Detects whether this value represents a JSON object.",
+        "boolean isString()": "Detects whether this value represents a JSON string.",
+        "boolean isTrue()": "Detects whether this value represents the JSON literal true.",
+        "String toString()": "Returns the JSON string for this value in its minimal form, without any additional whitespace.",
+        "String toString(WriterConfig config)": "Returns the JSON string for this value using the given formatting.",
+        "void writeTo(Writer writer)": "Writes the JSON representation of this value to the given writer in its minimal form, without any additional whitespace.",
+        "void writeTo(Writer writer, WriterConfig config)": "Writes the JSON representation of this value to the given writer using the given formatting."
+    },
+    "super class": []
+}

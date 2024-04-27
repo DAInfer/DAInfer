@@ -1,0 +1,709 @@
+{
+    "void clear()": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": []
+    },
+    "Object clone()": {
+        "return type": "Object",
+        "method name": "clone",
+        "parameters": []
+    },
+    "Bundle deepCopy()": {
+        "return type": "Bundle",
+        "method name": "deepCopy",
+        "parameters": []
+    },
+    "int describeContents()": {
+        "return type": "int",
+        "method name": "describeContents",
+        "parameters": []
+    },
+    "IBinder getBinder(String key)": {
+        "return type": "IBinder",
+        "method name": "getBinder",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Bundle getBundle(String key)": {
+        "return type": "Bundle",
+        "method name": "getBundle",
+        "parameters": [
+            "String"
+        ]
+    },
+    "byte getByte(String key)": {
+        "return type": "byte",
+        "method name": "getByte",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Byte getByte(String key, byte defaultValue)": {
+        "return type": "Byte",
+        "method name": "getByte",
+        "parameters": [
+            "String",
+            "byte"
+        ]
+    },
+    "byte[] getByteArray(String key)": {
+        "return type": "byte[]",
+        "method name": "getByteArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "char getChar(String key)": {
+        "return type": "char",
+        "method name": "getChar",
+        "parameters": [
+            "String"
+        ]
+    },
+    "char getChar(String key, char defaultValue)": {
+        "return type": "char",
+        "method name": "getChar",
+        "parameters": [
+            "String",
+            "char"
+        ]
+    },
+    "char[] getCharArray(String key)": {
+        "return type": "char[]",
+        "method name": "getCharArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "CharSequence getCharSequence(String key, CharSequence defaultValue)": {
+        "return type": "CharSequence",
+        "method name": "getCharSequence",
+        "parameters": [
+            "String",
+            "CharSequence"
+        ]
+    },
+    "CharSequence getCharSequence(String key)": {
+        "return type": "CharSequence",
+        "method name": "getCharSequence",
+        "parameters": [
+            "String"
+        ]
+    },
+    "CharSequence[] getCharSequenceArray(String key)": {
+        "return type": "CharSequence[]",
+        "method name": "getCharSequenceArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ArrayList getCharSequenceArrayList(String key)": {
+        "return type": "ArrayList",
+        "method name": "getCharSequenceArrayList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ClassLoader getClassLoader()": {
+        "return type": "ClassLoader",
+        "method name": "getClassLoader",
+        "parameters": []
+    },
+    "float getFloat(String key, float defaultValue)": {
+        "return type": "float",
+        "method name": "getFloat",
+        "parameters": [
+            "String",
+            "float"
+        ]
+    },
+    "float getFloat(String key)": {
+        "return type": "float",
+        "method name": "getFloat",
+        "parameters": [
+            "String"
+        ]
+    },
+    "float[] getFloatArray(String key)": {
+        "return type": "float[]",
+        "method name": "getFloatArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ArrayList getIntegerArrayList(String key)": {
+        "return type": "ArrayList",
+        "method name": "getIntegerArrayList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "T getParcelable(String key)": {
+        "return type": "T",
+        "method name": "getParcelable",
+        "parameters": [
+            "String"
+        ]
+    },
+    "T getParcelable(String key, Class clazz)": {
+        "return type": "T",
+        "method name": "getParcelable",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "T[] getParcelableArray(String key, Class clazz)": {
+        "return type": "T[]",
+        "method name": "getParcelableArray",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "Parcelable[] getParcelableArray(String key)": {
+        "return type": "Parcelable[]",
+        "method name": "getParcelableArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ArrayList getParcelableArrayList(String key, Class clazz)": {
+        "return type": "ArrayList",
+        "method name": "getParcelableArrayList",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "ArrayList getParcelableArrayList(String key)": {
+        "return type": "ArrayList",
+        "method name": "getParcelableArrayList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "T getSerializable(String key, Class clazz)": {
+        "return type": "T",
+        "method name": "getSerializable",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "Serializable getSerializable(String key)": {
+        "return type": "Serializable",
+        "method name": "getSerializable",
+        "parameters": [
+            "String"
+        ]
+    },
+    "short getShort(String key)": {
+        "return type": "short",
+        "method name": "getShort",
+        "parameters": [
+            "String"
+        ]
+    },
+    "short getShort(String key, short defaultValue)": {
+        "return type": "short",
+        "method name": "getShort",
+        "parameters": [
+            "String",
+            "short"
+        ]
+    },
+    "short[] getShortArray(String key)": {
+        "return type": "short[]",
+        "method name": "getShortArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Size getSize(String key)": {
+        "return type": "Size",
+        "method name": "getSize",
+        "parameters": [
+            "String"
+        ]
+    },
+    "SizeF getSizeF(String key)": {
+        "return type": "SizeF",
+        "method name": "getSizeF",
+        "parameters": [
+            "String"
+        ]
+    },
+    "SparseArray getSparseParcelableArray(String key)": {
+        "return type": "SparseArray",
+        "method name": "getSparseParcelableArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "SparseArray getSparseParcelableArray(String key, Class clazz)": {
+        "return type": "SparseArray",
+        "method name": "getSparseParcelableArray",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "ArrayList getStringArrayList(String key)": {
+        "return type": "ArrayList",
+        "method name": "getStringArrayList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean hasFileDescriptors()": {
+        "return type": "boolean",
+        "method name": "hasFileDescriptors",
+        "parameters": []
+    },
+    "void putAll(Bundle bundle)": {
+        "return type": "void",
+        "method name": "putAll",
+        "parameters": [
+            "Bundle"
+        ]
+    },
+    "void putBinder(String key, IBinder value)": {
+        "return type": "void",
+        "method name": "putBinder",
+        "parameters": [
+            "String",
+            "IBinder"
+        ]
+    },
+    "void putBundle(String key, Bundle value)": {
+        "return type": "void",
+        "method name": "putBundle",
+        "parameters": [
+            "String",
+            "Bundle"
+        ]
+    },
+    "void putByte(String key, byte value)": {
+        "return type": "void",
+        "method name": "putByte",
+        "parameters": [
+            "String",
+            "byte"
+        ]
+    },
+    "void putByteArray(String key, byte[] value)": {
+        "return type": "void",
+        "method name": "putByteArray",
+        "parameters": [
+            "String",
+            "byte[]"
+        ]
+    },
+    "void putChar(String key, char value)": {
+        "return type": "void",
+        "method name": "putChar",
+        "parameters": [
+            "String",
+            "char"
+        ]
+    },
+    "void putCharArray(String key, char[] value)": {
+        "return type": "void",
+        "method name": "putCharArray",
+        "parameters": [
+            "String",
+            "char[]"
+        ]
+    },
+    "void putCharSequence(String key, CharSequence value)": {
+        "return type": "void",
+        "method name": "putCharSequence",
+        "parameters": [
+            "String",
+            "CharSequence"
+        ]
+    },
+    "void putCharSequenceArray(String key, CharSequence[] value)": {
+        "return type": "void",
+        "method name": "putCharSequenceArray",
+        "parameters": [
+            "String",
+            "CharSequence[]"
+        ]
+    },
+    "void putCharSequenceArrayList(String key, ArrayList value)": {
+        "return type": "void",
+        "method name": "putCharSequenceArrayList",
+        "parameters": [
+            "String",
+            "ArrayList"
+        ]
+    },
+    "void putFloat(String key, float value)": {
+        "return type": "void",
+        "method name": "putFloat",
+        "parameters": [
+            "String",
+            "float"
+        ]
+    },
+    "void putFloatArray(String key, float[] value)": {
+        "return type": "void",
+        "method name": "putFloatArray",
+        "parameters": [
+            "String",
+            "float[]"
+        ]
+    },
+    "void putIntegerArrayList(String key, ArrayList value)": {
+        "return type": "void",
+        "method name": "putIntegerArrayList",
+        "parameters": [
+            "String",
+            "ArrayList"
+        ]
+    },
+    "void putParcelable(String key, Parcelable value)": {
+        "return type": "void",
+        "method name": "putParcelable",
+        "parameters": [
+            "String",
+            "Parcelable"
+        ]
+    },
+    "void putParcelableArray(String key, Parcelable[] value)": {
+        "return type": "void",
+        "method name": "putParcelableArray",
+        "parameters": [
+            "String",
+            "Parcelable[]"
+        ]
+    },
+    "void putParcelableArrayList(String key, ArrayList value)": {
+        "return type": "void",
+        "method name": "putParcelableArrayList",
+        "parameters": [
+            "String",
+            "ArrayList"
+        ]
+    },
+    "void putSerializable(String key, Serializable value)": {
+        "return type": "void",
+        "method name": "putSerializable",
+        "parameters": [
+            "String",
+            "Serializable"
+        ]
+    },
+    "void putShort(String key, short value)": {
+        "return type": "void",
+        "method name": "putShort",
+        "parameters": [
+            "String",
+            "short"
+        ]
+    },
+    "void putShortArray(String key, short[] value)": {
+        "return type": "void",
+        "method name": "putShortArray",
+        "parameters": [
+            "String",
+            "short[]"
+        ]
+    },
+    "void putSize(String key, Size value)": {
+        "return type": "void",
+        "method name": "putSize",
+        "parameters": [
+            "String",
+            "Size"
+        ]
+    },
+    "void putSizeF(String key, SizeF value)": {
+        "return type": "void",
+        "method name": "putSizeF",
+        "parameters": [
+            "String",
+            "SizeF"
+        ]
+    },
+    "void putSparseParcelableArray(String key, SparseArray value)": {
+        "return type": "void",
+        "method name": "putSparseParcelableArray",
+        "parameters": [
+            "String",
+            "SparseArray"
+        ]
+    },
+    "void putStringArrayList(String key, ArrayList value)": {
+        "return type": "void",
+        "method name": "putStringArrayList",
+        "parameters": [
+            "String",
+            "ArrayList"
+        ]
+    },
+    "void readFromParcel(Parcel parcel)": {
+        "return type": "void",
+        "method name": "readFromParcel",
+        "parameters": [
+            "Parcel"
+        ]
+    },
+    "void remove(String key)": {
+        "return type": "void",
+        "method name": "remove",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setClassLoader(ClassLoader loader)": {
+        "return type": "void",
+        "method name": "setClassLoader",
+        "parameters": [
+            "ClassLoader"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "void writeToParcel(Parcel parcel, int flags)": {
+        "return type": "void",
+        "method name": "writeToParcel",
+        "parameters": [
+            "Parcel",
+            "int"
+        ]
+    },
+    "boolean containsKey(String key)": {
+        "return type": "boolean",
+        "method name": "containsKey",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Object get(String key)": {
+        "return type": "Object",
+        "method name": "get",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean getBoolean(String key, boolean defaultValue)": {
+        "return type": "boolean",
+        "method name": "getBoolean",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "boolean getBoolean(String key)": {
+        "return type": "boolean",
+        "method name": "getBoolean",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean[] getBooleanArray(String key)": {
+        "return type": "boolean[]",
+        "method name": "getBooleanArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "double getDouble(String key, double defaultValue)": {
+        "return type": "double",
+        "method name": "getDouble",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "double getDouble(String key)": {
+        "return type": "double",
+        "method name": "getDouble",
+        "parameters": [
+            "String"
+        ]
+    },
+    "double[] getDoubleArray(String key)": {
+        "return type": "double[]",
+        "method name": "getDoubleArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int getInt(String key)": {
+        "return type": "int",
+        "method name": "getInt",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int getInt(String key, int defaultValue)": {
+        "return type": "int",
+        "method name": "getInt",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "int[] getIntArray(String key)": {
+        "return type": "int[]",
+        "method name": "getIntArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "long getLong(String key)": {
+        "return type": "long",
+        "method name": "getLong",
+        "parameters": [
+            "String"
+        ]
+    },
+    "long getLong(String key, long defaultValue)": {
+        "return type": "long",
+        "method name": "getLong",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "long[] getLongArray(String key)": {
+        "return type": "long[]",
+        "method name": "getLongArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getString(String key)": {
+        "return type": "String",
+        "method name": "getString",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getString(String key, String defaultValue)": {
+        "return type": "String",
+        "method name": "getString",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "String[] getStringArray(String key)": {
+        "return type": "String[]",
+        "method name": "getStringArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isEmpty()": {
+        "return type": "boolean",
+        "method name": "isEmpty",
+        "parameters": []
+    },
+    "Set keySet()": {
+        "return type": "Set",
+        "method name": "keySet",
+        "parameters": []
+    },
+    "void putAll(PersistableBundle bundle)": {
+        "return type": "void",
+        "method name": "putAll",
+        "parameters": [
+            "PersistableBundle"
+        ]
+    },
+    "void putBoolean(String key, boolean value)": {
+        "return type": "void",
+        "method name": "putBoolean",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "void putBooleanArray(String key, boolean[] value)": {
+        "return type": "void",
+        "method name": "putBooleanArray",
+        "parameters": [
+            "String",
+            "boolean[]"
+        ]
+    },
+    "void putDouble(String key, double value)": {
+        "return type": "void",
+        "method name": "putDouble",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "void putDoubleArray(String key, double[] value)": {
+        "return type": "void",
+        "method name": "putDoubleArray",
+        "parameters": [
+            "String",
+            "double[]"
+        ]
+    },
+    "void putInt(String key, int value)": {
+        "return type": "void",
+        "method name": "putInt",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "void putIntArray(String key, int[] value)": {
+        "return type": "void",
+        "method name": "putIntArray",
+        "parameters": [
+            "String",
+            "int[]"
+        ]
+    },
+    "void putLong(String key, long value)": {
+        "return type": "void",
+        "method name": "putLong",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "void putLongArray(String key, long[] value)": {
+        "return type": "void",
+        "method name": "putLongArray",
+        "parameters": [
+            "String",
+            "long[]"
+        ]
+    },
+    "void putString(String key, String value)": {
+        "return type": "void",
+        "method name": "putString",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "void putStringArray(String key, String[] value)": {
+        "return type": "void",
+        "method name": "putStringArray",
+        "parameters": [
+            "String",
+            "String[]"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    }
+}

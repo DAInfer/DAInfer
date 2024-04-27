@@ -1,0 +1,21 @@
+{
+    "class": "LinkedHashMap",
+    "category": "Class",
+    "methods": {
+        "void clear()": "Removes all of the mappings from this map.",
+        "boolean containsValue(Object value)": "Returns true if this map maps one or more keys to the specified value.",
+        "Set entrySet()": "Returns a Set view of the mappings contained in this map.",
+        "void forEach(BiConsumer action)": "Performs the given action for each entry in this map until all entries have been processed or the action throws an exception.",
+        "V get(Object key)": "Returns the value to which the specified key is mapped, or null if this map contains no mapping for the key.",
+        "V getOrDefault(Object key, V defaultValue)": "Returns the value to which the specified key is mapped, or defaultValue if this map contains no mapping for the key.",
+        "Set keySet()": "Returns a Set view of the keys contained in this map.",
+        "boolean removeEldestEntry(Map.Entry eldest)": "Returns true if this map should remove its eldest entry.",
+        "void replaceAll(BiFunction function)": "Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.",
+        "Collection values()": "Returns a Collection view of the values contained in this map."
+    },
+    "super class": [
+        "java.util.HashMap",
+        "java.util.AbstractMap",
+        "java.util.Map"
+    ]
+}

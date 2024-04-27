@@ -1,0 +1,1858 @@
+{
+    "inferredWrongSpecs": [
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(String parameterName, Object x, SQLType targetSqlType, int scaleOrLength)",
+            "Object getObject(String parameterName)",
+            1.0,
+            1,
+            "[(1, 1)]-->(3, 0)"
+        ],
+        [
+            "java.lang.ThreadLocal",
+            "java.lang.ThreadLocal",
+            "void set(T value)",
+            "T initialValue()",
+            1.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentMap",
+            "java.util.concurrent.ConcurrentMap",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.net.HttpCookie",
+            "java.net.HttpCookie",
+            "List parse(String header)",
+            "String getDomain()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer append(String str)",
+            "String substring(int start, int end)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setNCharacterStream(String parameterName, Reader value, long length)",
+            "Reader getNCharacterStream(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getMinimumSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuilder",
+            "java.lang.StringBuilder",
+            "StringBuilder insert(int offset, String str)",
+            "String substring(int start, int end)",
+            1,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "android.content.ComponentName",
+            "android.content.ComponentName",
+            "ComponentName createRelative(Context pkg, String cls)",
+            "String getPackageName()",
+            0.0,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getPreferredSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.IdentityHashMap",
+            "java.util.IdentityHashMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.nio.IntBuffer",
+            "java.nio.IntBuffer",
+            "IntBuffer get(int[] dst)",
+            "int[] array()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getMaximumSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(int parameterIndex, Object x, SQLType targetSqlType)",
+            "Object getObject(String parameterName)",
+            0.0,
+            1,
+            "[(2, 1)]-->(3, 0)"
+        ],
+        [
+            "java.util.Properties",
+            "java.util.Properties",
+            "V replace(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "android.content.ComponentName",
+            "android.content.ComponentName",
+            "void writeToParcel(ComponentName c, Parcel out)",
+            "ComponentName readFromParcel(Parcel in)",
+            0.0,
+            1,
+            "[(2, 1)]-->(1, 0)"
+        ],
+        [
+            "java.util.IdentityHashMap",
+            "java.util.IdentityHashMap",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.security.KeyStore",
+            "java.security.KeyStore",
+            "KeyStore getInstance(String type)",
+            "String getType()",
+            1.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.nio.IntBuffer",
+            "java.nio.IntBuffer",
+            "IntBuffer put(int[] src, int offset, int length)",
+            "int[] array()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.AbstractMap",
+            "java.util.AbstractMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.util.EnumMap",
+            "java.util.EnumMap",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.SortedMap",
+            "java.util.SortedMap",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "android.content.IntentFilter",
+            "android.content.IntentFilter",
+            "IntentFilter create(String action, String dataType)",
+            "String getDataScheme(int index)",
+            0.5,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setSize(Dimension d)",
+            "Dimension getMaximumSize()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuilder",
+            "java.lang.StringBuilder",
+            "StringBuilder append(String str)",
+            "String substring(int start)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getPreferredSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.EnumMap",
+            "java.util.EnumMap",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.NavigableMap",
+            "java.util.NavigableMap",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.TreeMap",
+            "java.util.TreeMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.util.LinkedHashMap",
+            "java.util.LinkedHashMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.util.HashMap",
+            "java.util.HashMap",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.lang.StringBuilder",
+            "java.lang.StringBuilder",
+            "StringBuilder insert(int offset, String str)",
+            "String substring(int start)",
+            1,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentMap",
+            "java.util.concurrent.ConcurrentMap",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.Properties",
+            "java.util.Properties",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer append(CharSequence s, int start, int end)",
+            "CharSequence subSequence(int start, int end)",
+            2.0,
+            1,
+            "[(2, 1), (3, 2)]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuilder",
+            "java.lang.StringBuilder",
+            "StringBuilder append(CharSequence s, int start, int end)",
+            "CharSequence subSequence(int start, int end)",
+            2.0,
+            1,
+            "[(2, 1), (3, 2)]-->(1, 0)"
+        ],
+        [
+            "java.util.LinkedHashMap",
+            "java.util.LinkedHashMap",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.TreeMap",
+            "java.util.TreeMap",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.SortedMap",
+            "java.util.SortedMap",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(String parameterName, Object x, SQLType targetSqlType)",
+            "Object getObject(String parameterName)",
+            1.0,
+            1,
+            "[(1, 1)]-->(3, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "boolean execute(String sql, String[] columnNames)",
+            "String getNString(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.net.HttpCookie",
+            "java.net.HttpCookie",
+            "List parse(String header)",
+            "String getComment()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "boolean execute(String sql, int[] columnIndexes)",
+            "String getNString(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.Properties",
+            "java.util.Properties",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.util.HashMap",
+            "java.util.HashMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.nio.IntBuffer",
+            "java.nio.IntBuffer",
+            "IntBuffer put(IntBuffer src)",
+            "IntBuffer get(int[] dst, int offset, int length)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.LinkedHashMap",
+            "java.util.LinkedHashMap",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.IdentityHashMap",
+            "java.util.IdentityHashMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer insert(int offset, String str)",
+            "String substring(int start)",
+            1,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.util.IdentityHashMap",
+            "java.util.IdentityHashMap",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "Rectangle getBounds(Rectangle rv)",
+            "Rectangle getBounds()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.TreeMap",
+            "java.util.TreeMap",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.lang.StringBuilder",
+            "java.lang.StringBuilder",
+            "StringBuilder replace(int start, int end, String str)",
+            "String substring(int start, int end)",
+            3.0,
+            1,
+            "[(1, 1), (2, 2)]-->(3, 0)"
+        ],
+        [
+            "java.lang.StringBuilder",
+            "java.lang.StringBuilder",
+            "StringBuilder replace(int start, int end, String str)",
+            "String substring(int start)",
+            2.0,
+            1,
+            "[(1, 1)]-->(3, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setSize(Dimension d)",
+            "Dimension getPreferredSize()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.AbstractMap",
+            "java.util.AbstractMap",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(String parameterName, Object x, SQLType targetSqlType)",
+            "Object getObject(String parameterName, Map map)",
+            1.0,
+            1,
+            "[(1, 1)]-->(3, 0)"
+        ],
+        [
+            "java.lang.StringBuilder",
+            "java.lang.StringBuilder",
+            "StringBuilder append(String str)",
+            "String substring(int start, int end)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.concurrent.atomic.AtomicReferenceArray",
+            "java.util.concurrent.atomic.AtomicReferenceArray",
+            "boolean compareAndSet(int i, E expect, E update)",
+            "E get(int i)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.LinkedHashMap",
+            "java.util.LinkedHashMap",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.TreeMap",
+            "java.util.TreeMap",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.NavigableMap",
+            "java.util.NavigableMap",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setNull(int parameterIndex, int sqlType, String typeName)",
+            "String getNString(int parameterIndex)",
+            1.0,
+            1,
+            "[(1, 1)]-->(3, 0)"
+        ],
+        [
+            "android.content.IntentFilter",
+            "android.content.IntentFilter",
+            "int match(String action, String type, String scheme, Uri data, Set categories, String logTag)",
+            "String getAction(int index)",
+            1.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getMaximumSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.Properties",
+            "java.util.Properties",
+            "V replace(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.LinkedHashMap",
+            "java.util.LinkedHashMap",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(String parameterName, Object x, SQLType targetSqlType, int scaleOrLength)",
+            "Object getObject(int parameterIndex, Map map)",
+            0.0,
+            1,
+            "[(2, 2)]-->(3, 0)"
+        ],
+        [
+            "java.nio.IntBuffer",
+            "java.nio.IntBuffer",
+            "IntBuffer put(int[] src)",
+            "int[] array()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.net.HttpCookie",
+            "java.net.HttpCookie",
+            "List parse(String header)",
+            "String getPath()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer append(CharSequence s)",
+            "CharSequence subSequence(int start, int end)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.nio.IntBuffer",
+            "java.nio.IntBuffer",
+            "IntBuffer put(IntBuffer src)",
+            "IntBuffer wrap(int[] array, int offset, int length)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuilder",
+            "java.lang.StringBuilder",
+            "StringBuilder insert(int dstOffset, CharSequence s)",
+            "CharSequence subSequence(int start, int end)",
+            0.0,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentHashMap",
+            "java.util.concurrent.ConcurrentHashMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.util.AbstractMap",
+            "java.util.AbstractMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer append(StringBuffer sb)",
+            "StringBuffer delete(int start, int end)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentHashMap",
+            "java.util.concurrent.ConcurrentHashMap",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.concurrent.atomic.AtomicReferenceArray",
+            "java.util.concurrent.atomic.AtomicReferenceArray",
+            "boolean weakCompareAndSet(int i, E expect, E update)",
+            "E get(int i)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(String parameterName, Object x, SQLType targetSqlType)",
+            "Object getObject(int parameterIndex, Map map)",
+            0.0,
+            1,
+            "[(2, 2)]-->(3, 0)"
+        ],
+        [
+            "java.nio.IntBuffer",
+            "java.nio.IntBuffer",
+            "IntBuffer put(IntBuffer src)",
+            "IntBuffer slice()",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer append(StringBuffer sb)",
+            "StringBuffer insert(int index, char[] str, int offset, int len)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.BitSet",
+            "java.util.BitSet",
+            "void and(BitSet set)",
+            "BitSet get(int fromIndex, int toIndex)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.Hashtable",
+            "java.util.Hashtable",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.AbstractMap",
+            "java.util.AbstractMap",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "Dimension getSize(Dimension rv)",
+            "Dimension getMaximumSize()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.Map",
+            "java.util.Map",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "android.content.ComponentName",
+            "android.content.ComponentName",
+            "ComponentName createRelative(String pkg, String cls)",
+            "String flattenToString()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.AbstractMap",
+            "java.util.AbstractMap",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.net.HttpCookie",
+            "java.net.HttpCookie",
+            "List parse(String header)",
+            "String getCommentURL()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.net.HttpCookie",
+            "java.net.HttpCookie",
+            "List parse(String header)",
+            "String getValue()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(int parameterIndex, Object x, SQLType targetSqlType, int scaleOrLength)",
+            "Object getObject(int parameterIndex)",
+            1.0,
+            1,
+            "[(1, 1)]-->(3, 0)"
+        ],
+        [
+            "org.json.JSONArray",
+            "org.json.JSONArray",
+            "JSONObject toJSONObject(JSONArray names)",
+            "JSONArray put(int index, boolean value)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.EnumMap",
+            "java.util.EnumMap",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentHashMap",
+            "java.util.concurrent.ConcurrentHashMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "boolean execute(String sql, String[] columnNames)",
+            "String getString(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.Hashtable",
+            "java.util.Hashtable",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentMap",
+            "java.util.concurrent.ConcurrentMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.util.NavigableMap",
+            "java.util.NavigableMap",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.SortedMap",
+            "java.util.SortedMap",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.LinkedHashMap",
+            "java.util.LinkedHashMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getMinimumSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void add(Component comp, Object constraints, int index)",
+            "Component findComponentAt(Point p)",
+            0.0,
+            1,
+            "[(2, 1)]-->(1, 0)"
+        ],
+        [
+            "java.util.Map",
+            "java.util.Map",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.TreeMap",
+            "java.util.TreeMap",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.BitSet",
+            "java.util.BitSet",
+            "void or(BitSet set)",
+            "BitSet get(int fromIndex, int toIndex)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.EnumMap",
+            "java.util.EnumMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.util.BitSet",
+            "java.util.BitSet",
+            "void xor(BitSet set)",
+            "BitSet valueOf(byte[] bytes)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setSize(Dimension d)",
+            "Dimension getPreferredSize()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getMaximumSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void add(Component comp, Object constraints)",
+            "Component findComponentAt(Point p)",
+            0.0,
+            1,
+            "[(2, 1)]-->(1, 0)"
+        ],
+        [
+            "java.util.AbstractMap",
+            "java.util.AbstractMap",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.Hashtable",
+            "java.util.Hashtable",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer append(String str)",
+            "String substring(int start)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.EnumMap",
+            "java.util.EnumMap",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentHashMap",
+            "java.util.concurrent.ConcurrentHashMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V reduceValues(long parallelismThreshold, BiFunction reducer)",
+            0.0,
+            1,
+            "[(3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer insert(int offset, String str)",
+            "String substring(int start, int end)",
+            1,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.util.EnumMap",
+            "java.util.EnumMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setSize(Dimension d)",
+            "Dimension getMaximumSize()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.concurrent.atomic.AtomicReferenceArray",
+            "java.util.concurrent.atomic.AtomicReferenceArray",
+            "E accumulateAndGet(int i, E x, BinaryOperator accumulatorFunction)",
+            "E get(int i)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setNull(String parameterName, int sqlType, String typeName)",
+            "String getString(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(3, 0)"
+        ],
+        [
+            "java.nio.IntBuffer",
+            "java.nio.IntBuffer",
+            "IntBuffer get(int[] dst, int offset, int length)",
+            "int[] array()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.HashMap",
+            "java.util.HashMap",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void add(Component comp, Object constraints, int index)",
+            "Object getTreeLock()",
+            0.0,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setNull(String parameterName, int sqlType, String typeName)",
+            "String getNString(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(3, 0)"
+        ],
+        [
+            "android.content.ComponentName",
+            "android.content.ComponentName",
+            "ComponentName createRelative(Context pkg, String cls)",
+            "String flattenToString()",
+            0.0,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.util.HashMap",
+            "java.util.HashMap",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.TreeMap",
+            "java.util.TreeMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setSize(Dimension d)",
+            "Dimension getMinimumSize()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "android.content.Intent",
+            "android.content.Intent",
+            "int fillIn(Intent other, int flags)",
+            "Intent getSelector()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer append(StringBuffer sb)",
+            "StringBuffer reverse()",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(int parameterIndex, Object x, SQLType targetSqlType)",
+            "Object getObject(int parameterIndex, Map map)",
+            1.0,
+            1,
+            "[(1, 1), (2, 2)]-->(3, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(int parameterIndex, Object x, SQLType targetSqlType, int scaleOrLength)",
+            "Object getObject(String parameterName)",
+            0.0,
+            1,
+            "[(2, 1)]-->(3, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer replace(int start, int end, String str)",
+            "String substring(int start)",
+            2.0,
+            1,
+            "[(1, 1)]-->(3, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getMinimumSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuilder",
+            "java.lang.StringBuilder",
+            "StringBuilder append(CharSequence s)",
+            "CharSequence subSequence(int start, int end)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.net.HttpCookie",
+            "java.net.HttpCookie",
+            "List parse(String header)",
+            "String getName()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.Map",
+            "java.util.Map",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.BitSet",
+            "java.util.BitSet",
+            "void xor(BitSet set)",
+            "BitSet get(int fromIndex, int toIndex)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void add(Component comp, Object constraints)",
+            "Component getComponentAt(Point p)",
+            0.0,
+            1,
+            "[(2, 1)]-->(1, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(int parameterIndex, Object x, SQLType targetSqlType)",
+            "Object getObject(int parameterIndex)",
+            1.0,
+            1,
+            "[(1, 1)]-->(3, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "Component add(String name, Component comp)",
+            "String paramString()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentMap",
+            "java.util.concurrent.ConcurrentMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.util.Hashtable",
+            "java.util.Hashtable",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getMaximumSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.SortedMap",
+            "java.util.SortedMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(String parameterName, Object x, SQLType targetSqlType, int scaleOrLength)",
+            "Object getObject(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(3, 0)"
+        ],
+        [
+            "java.util.HashMap",
+            "java.util.HashMap",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(int parameterIndex, Object x, SQLType targetSqlType)",
+            "Object getObject(String parameterName, Map map)",
+            0.0,
+            1,
+            "[(2, 2)]-->(3, 0)"
+        ],
+        [
+            "java.util.Properties",
+            "java.util.Properties",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentMap",
+            "java.util.concurrent.ConcurrentMap",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.concurrent.atomic.AtomicReferenceArray",
+            "java.util.concurrent.atomic.AtomicReferenceArray",
+            "E getAndAccumulate(int i, E x, BinaryOperator accumulatorFunction)",
+            "E get(int i)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.Map",
+            "java.util.Map",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "android.location.Location",
+            "android.location.Location",
+            "void setProvider(String provider)",
+            "String convert(double coordinate, int outputType)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer insert(int dstOffset, CharSequence s)",
+            "CharSequence subSequence(int start, int end)",
+            0.0,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void add(Component comp, Object constraints, int index)",
+            "Component getComponentAt(Point p)",
+            0.0,
+            1,
+            "[(2, 1)]-->(1, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "Point getLocation(Point rv)",
+            "Point getLocation()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setNull(int parameterIndex, int sqlType, String typeName)",
+            "String getString(int parameterIndex)",
+            1.0,
+            1,
+            "[(1, 1)]-->(3, 0)"
+        ],
+        [
+            "java.util.IdentityHashMap",
+            "java.util.IdentityHashMap",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setObject(int parameterIndex, Object x, SQLType targetSqlType, int scaleOrLength)",
+            "Object getObject(int parameterIndex, Map map)",
+            1.0,
+            1,
+            "[(1, 1), (2, 2)]-->(3, 0)"
+        ],
+        [
+            "java.util.NavigableMap",
+            "java.util.NavigableMap",
+            "Map.Entry ceilingEntry(K key)",
+            "K lastKey()",
+            1.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setTime(String parameterName, Time x, Calendar cal)",
+            "Time getTime(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.util.Hashtable",
+            "java.util.Hashtable",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.net.HttpCookie",
+            "java.net.HttpCookie",
+            "List parse(String header)",
+            "String getPortlist()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.SortedMap",
+            "java.util.SortedMap",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.IdentityHashMap",
+            "java.util.IdentityHashMap",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.nio.IntBuffer",
+            "java.nio.IntBuffer",
+            "IntBuffer put(IntBuffer src)",
+            "IntBuffer get(int[] dst)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.BitSet",
+            "java.util.BitSet",
+            "void and(BitSet set)",
+            "BitSet valueOf(byte[] bytes)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentHashMap",
+            "java.util.concurrent.ConcurrentHashMap",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.EnumMap",
+            "java.util.EnumMap",
+            "V replace(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.NavigableMap",
+            "java.util.NavigableMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "boolean execute(String sql, int autoGeneratedKeys)",
+            "String getNString(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "boolean execute(String sql, int autoGeneratedKeys)",
+            "String getString(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getMinimumSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.Hashtable",
+            "java.util.Hashtable",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.util.SortedMap",
+            "java.util.SortedMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.util.NavigableMap",
+            "java.util.NavigableMap",
+            "Map.Entry ceilingEntry(K key)",
+            "K firstKey()",
+            1.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setPreferredSize(Dimension preferredSize)",
+            "Dimension getSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.NavigableMap",
+            "java.util.NavigableMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void setMaximumSize(Dimension maximumSize)",
+            "Dimension getPreferredSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "Dimension getSize(Dimension rv)",
+            "Dimension getPreferredSize()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer replace(int start, int end, String str)",
+            "String substring(int start, int end)",
+            3.0,
+            1,
+            "[(1, 1), (2, 2)]-->(3, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "Dimension getSize(Dimension rv)",
+            "Dimension getMinimumSize()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "java.lang.StringBuffer",
+            "StringBuffer append(StringBuffer sb)",
+            "StringBuffer append(char[] str, int offset, int len)",
+            1,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "boolean execute(String sql, int[] columnIndexes)",
+            "String getString(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.Properties",
+            "java.util.Properties",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentHashMap",
+            "java.util.concurrent.ConcurrentHashMap",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.Map",
+            "java.util.Map",
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.Map",
+            "java.util.Map",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.sql.CallableStatement",
+            "java.sql.CallableStatement",
+            "void setClob(String parameterName, Clob x)",
+            "Clob getClob(int parameterIndex)",
+            0.0,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setSize(Dimension d)",
+            "Dimension getMinimumSize()",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentHashMap",
+            "java.util.concurrent.ConcurrentHashMap",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "android.content.IntentFilter",
+            "android.content.IntentFilter",
+            "IntentFilter create(String action, String dataType)",
+            "String getCategory(int index)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.NavigableMap",
+            "java.util.NavigableMap",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.awt.Container",
+            "java.awt.Container",
+            "void add(Component comp, Object constraints)",
+            "Object getTreeLock()",
+            0.0,
+            1,
+            "[]-->(2, 0)"
+        ],
+        [
+            "java.util.BitSet",
+            "java.util.BitSet",
+            "void or(BitSet set)",
+            "BitSet valueOf(byte[] bytes)",
+            0.0,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.awt.Component",
+            "java.awt.Component",
+            "void setMinimumSize(Dimension minimumSize)",
+            "Dimension getPreferredSize()",
+            0.6666666666666666,
+            1,
+            "[]-->(1, 0)"
+        ],
+        [
+            "java.util.concurrent.ConcurrentMap",
+            "java.util.concurrent.ConcurrentMap",
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.HashMap",
+            "java.util.HashMap",
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            3.0,
+            1,
+            "[(1, 1), (3, 2)]-->(2, 0)"
+        ],
+        [
+            "java.util.Properties",
+            "java.util.Properties",
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.EnumMap",
+            "java.util.EnumMap",
+            "V replace(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ],
+        [
+            "java.util.Properties",
+            "java.util.Properties",
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)",
+            2.0,
+            1,
+            "[(1, 1)]-->(2, 0)"
+        ]
+    ]
+}

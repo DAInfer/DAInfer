@@ -1,0 +1,234 @@
+{
+    "IntBuffer allocate(int capacity)": {
+        "return type": "IntBuffer",
+        "method name": "allocate",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int[] array()": {
+        "return type": "int[]",
+        "method name": "array",
+        "parameters": []
+    },
+    "int arrayOffset()": {
+        "return type": "int",
+        "method name": "arrayOffset",
+        "parameters": []
+    },
+    "IntBuffer asReadOnlyBuffer()": {
+        "return type": "IntBuffer",
+        "method name": "asReadOnlyBuffer",
+        "parameters": []
+    },
+    "IntBuffer compact()": {
+        "return type": "IntBuffer",
+        "method name": "compact",
+        "parameters": []
+    },
+    "int compareTo(IntBuffer that)": {
+        "return type": "int",
+        "method name": "compareTo",
+        "parameters": [
+            "IntBuffer"
+        ]
+    },
+    "IntBuffer duplicate()": {
+        "return type": "IntBuffer",
+        "method name": "duplicate",
+        "parameters": []
+    },
+    "boolean equals(Object ob)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "int get()": {
+        "return type": "int",
+        "method name": "get",
+        "parameters": []
+    },
+    "int get(int index)": {
+        "return type": "int",
+        "method name": "get",
+        "parameters": [
+            "int"
+        ]
+    },
+    "IntBuffer get(int[] dst)": {
+        "return type": "IntBuffer",
+        "method name": "get",
+        "parameters": [
+            "int[]"
+        ]
+    },
+    "IntBuffer get(int[] dst, int offset, int length)": {
+        "return type": "IntBuffer",
+        "method name": "get",
+        "parameters": [
+            "int[]",
+            "int",
+            "int"
+        ]
+    },
+    "boolean hasArray()": {
+        "return type": "boolean",
+        "method name": "hasArray",
+        "parameters": []
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "boolean isDirect()": {
+        "return type": "boolean",
+        "method name": "isDirect",
+        "parameters": []
+    },
+    "ByteOrder order()": {
+        "return type": "ByteOrder",
+        "method name": "order",
+        "parameters": []
+    },
+    "IntBuffer put(int i)": {
+        "return type": "IntBuffer",
+        "method name": "put",
+        "parameters": [
+            "int"
+        ]
+    },
+    "IntBuffer put(int[] src)": {
+        "return type": "IntBuffer",
+        "method name": "put",
+        "parameters": [
+            "int[]"
+        ]
+    },
+    "IntBuffer put(int[] src, int offset, int length)": {
+        "return type": "IntBuffer",
+        "method name": "put",
+        "parameters": [
+            "int[]",
+            "int",
+            "int"
+        ]
+    },
+    "IntBuffer put(IntBuffer src)": {
+        "return type": "IntBuffer",
+        "method name": "put",
+        "parameters": [
+            "IntBuffer"
+        ]
+    },
+    "IntBuffer put(int index, int i)": {
+        "return type": "IntBuffer",
+        "method name": "put",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "IntBuffer slice()": {
+        "return type": "IntBuffer",
+        "method name": "slice",
+        "parameters": []
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "IntBuffer wrap(int[] array)": {
+        "return type": "IntBuffer",
+        "method name": "wrap",
+        "parameters": [
+            "int[]"
+        ]
+    },
+    "IntBuffer wrap(int[] array, int offset, int length)": {
+        "return type": "IntBuffer",
+        "method name": "wrap",
+        "parameters": [
+            "int[]",
+            "int",
+            "int"
+        ]
+    },
+    "Object array()": {
+        "return type": "Object",
+        "method name": "array",
+        "parameters": []
+    },
+    "int capacity()": {
+        "return type": "int",
+        "method name": "capacity",
+        "parameters": []
+    },
+    "Buffer clear()": {
+        "return type": "Buffer",
+        "method name": "clear",
+        "parameters": []
+    },
+    "Buffer flip()": {
+        "return type": "Buffer",
+        "method name": "flip",
+        "parameters": []
+    },
+    "boolean hasRemaining()": {
+        "return type": "boolean",
+        "method name": "hasRemaining",
+        "parameters": []
+    },
+    "boolean isReadOnly()": {
+        "return type": "boolean",
+        "method name": "isReadOnly",
+        "parameters": []
+    },
+    "int limit()": {
+        "return type": "int",
+        "method name": "limit",
+        "parameters": []
+    },
+    "Buffer limit(int newLimit)": {
+        "return type": "Buffer",
+        "method name": "limit",
+        "parameters": [
+            "int"
+        ]
+    },
+    "Buffer mark()": {
+        "return type": "Buffer",
+        "method name": "mark",
+        "parameters": []
+    },
+    "int position()": {
+        "return type": "int",
+        "method name": "position",
+        "parameters": []
+    },
+    "Buffer position(int newPosition)": {
+        "return type": "Buffer",
+        "method name": "position",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int remaining()": {
+        "return type": "int",
+        "method name": "remaining",
+        "parameters": []
+    },
+    "Buffer reset()": {
+        "return type": "Buffer",
+        "method name": "reset",
+        "parameters": []
+    },
+    "Buffer rewind()": {
+        "return type": "Buffer",
+        "method name": "rewind",
+        "parameters": []
+    }
+}

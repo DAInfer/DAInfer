@@ -1,0 +1,35 @@
+{
+    "class": "Skin",
+    "category": "Class",
+    "methods": {
+        "void add(String name, Object resource)": "",
+        "void add(String name, Object resource, Class type)": "",
+        "void addRegions(TextureAtlas atlas)": "Adds all named texture regions from the atlas.",
+        "void dispose()": "Disposes the TextureAtlas and all Disposable resources in the skin.",
+        "String find(Object resource)": "Returns the name of the specified style object, or null if it is not in the skin.",
+        "T get(Class type)": "",
+        "T get(String name, Class type)": "",
+        "ObjectMap getAll(Class type)": "Returns the name to resource mapping for the specified type, or null if no resources of that type exist.",
+        "TextureAtlas getAtlas()": "Returns the TextureAtlas that resources in this skin reference, or null.",
+        "Color getColor(String name)": "",
+        "Drawable getDrawable(String name)": "Returns a registered drawable.",
+        "BitmapFont getFont(String name)": "",
+        "NinePatch getPatch(String name)": "Returns a registered ninepatch.",
+        "TextureRegion getRegion(String name)": "Returns a registered texture region.",
+        "Sprite getSprite(String name)": "Returns a registered sprite.",
+        "TiledDrawable getTiledDrawable(String name)": "Returns a registered tiled drawable.",
+        "boolean has(String name, Class type)": "",
+        "void load(FileHandle skinFile)": "Adds all resources in the specified skin JSON file.",
+        "Drawable newDrawable(Drawable drawable)": "Returns a copy of the specified drawable.",
+        "Drawable newDrawable(Drawable drawable, Color tint)": "Returns a tinted copy of a drawable found in the skin via getDrawable(String).",
+        "Drawable newDrawable(Drawable drawable, float r, float g, float b, float a)": "Returns a tinted copy of a drawable found in the skin via getDrawable(String).",
+        "Drawable newDrawable(String name)": "Returns a copy of a drawable found in the skin via getDrawable(String).",
+        "Drawable newDrawable(String name, Color tint)": "Returns a tinted copy of a drawable found in the skin via getDrawable(String).",
+        "Drawable newDrawable(String name, float r, float g, float b, float a)": "Returns a tinted copy of a drawable found in the skin via getDrawable(String).",
+        "T optional(String name, Class type)": "",
+        "void remove(String name, Class type)": "",
+        "void setEnabled(Actor actor, boolean enabled)": "Sets the style on the actor to disabled or enabled."
+    },
+    "super class": [
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "class": "MemoryConfiguration",
+    "category": "Class",
+    "methods": {
+        "void addDefault(String path, Object value)": "Sets the default value in the root at the given path as provided.",
+        "void addDefaults(Map<String,Object> defaults)": "Sets the default values of the given paths as provided.",
+        "void addDefaults(Configuration defaults)": "Sets the default values of the given paths as provided.",
+        "Configuration getDefaults()": "Gets the source Configuration for this configuration.",
+        "ConfigurationSection getParent()": "Gets the parent ConfigurationSection that directly contains this ConfigurationSection.",
+        "MemoryConfigurationOptions options()": "Gets the ConfigurationOptions for this Configuration.",
+        "void setDefaults(Configuration defaults)": "Sets the source of all default values for this Configuration."
+    },
+    "super class": [
+        "org.bukkit.configuration.MemorySection"
+    ]
+}

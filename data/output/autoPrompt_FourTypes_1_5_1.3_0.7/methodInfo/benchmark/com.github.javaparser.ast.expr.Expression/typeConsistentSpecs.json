@@ -1,0 +1,892 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void ifSingleMemberAnnotationExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node findRootNode()"
+        ],
+        [
+            "boolean containsData(DataKey key)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "ThisExpr asThisExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "BooleanLiteralExpr asBooleanLiteralExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "CastExpr asCastExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "NameExpr asNameExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "UnaryExpr asUnaryExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "LiteralExpr asLiteralExpr()"
+        ],
+        [
+            "boolean removeOrphanComment(Comment comment)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node removeComment()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "MethodCallExpr asMethodCallExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "SingleMemberAnnotationExpr asSingleMemberAnnotationExpr()"
+        ],
+        [
+            "void ifObjectCreationExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "boolean replace(Node node)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "ArrayAccessExpr asArrayAccessExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "NullLiteralExpr asNullLiteralExpr()"
+        ],
+        [
+            "void ifArrayInitializerExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void ifNullLiteralExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node removeComment()"
+        ],
+        [
+            "Node setParsed(Node.Parsedness parsed)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void ifVariableDeclarationExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Optional getComment()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "ConditionalExpr asConditionalExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "StringLiteralExpr asStringLiteralExpr()"
+        ],
+        [
+            "void ifThisExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "Node setLineComment(String comment)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void ifBooleanLiteralExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "LongLiteralExpr asLongLiteralExpr()"
+        ],
+        [
+            "void ifLambdaExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "NameExpr asNameExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "NormalAnnotationExpr asNormalAnnotationExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "ExpressionMetaModel getMetaModel()"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "LiteralExpr asLiteralExpr()"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "SingleMemberAnnotationExpr asSingleMemberAnnotationExpr()"
+        ],
+        [
+            "void ifMethodReferenceExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node removeComment()"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node findRootNode()"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "void ifEnclosedExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "ArrayAccessExpr asArrayAccessExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "NullLiteralExpr asNullLiteralExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "InstanceOfExpr asInstanceOfExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "List getOrphanComments()"
+        ],
+        [
+            "void ifDoubleLiteralExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "LambdaExpr asLambdaExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "LiteralStringValueExpr asLiteralStringValueExpr()"
+        ],
+        [
+            "void ifArrayAccessExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Optional getComment()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "ConditionalExpr asConditionalExpr()"
+        ],
+        [
+            "void ifLiteralExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void ifCharLiteralExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Optional getRange()"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node findRootNode()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "LongLiteralExpr asLongLiteralExpr()"
+        ],
+        [
+            "boolean isRegistered(AstObserver observer)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "NormalAnnotationExpr asNormalAnnotationExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "ExpressionMetaModel getMetaModel()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "void ifLongLiteralExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Optional getTokenRange()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "InstanceOfExpr asInstanceOfExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "ClassExpr asClassExpr()"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "List getAllContainedComments()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "BinaryExpr asBinaryExpr()"
+        ],
+        [
+            "void ifCastExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Optional getRange()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Optional findCompilationUnit()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "ThisExpr asThisExpr()"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "MethodReferenceExpr asMethodReferenceExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void ifFieldAccessExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "List getChildNodesByType(Class clazz)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "void ifInstanceOfExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "Node setRange(Range range)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "void ifNameExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "void unregister(AstObserver observer)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "AnnotationExpr asAnnotationExpr()"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "IntegerLiteralExpr asIntegerLiteralExpr()"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node removeComment()"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "MethodCallExpr asMethodCallExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Optional getTokenRange()"
+        ],
+        [
+            "void ifConditionalExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "void ifArrayCreationExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void ifMarkerAnnotationExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void ifSuperExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node findRootNode()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "MarkerAnnotationExpr asMarkerAnnotationExpr()"
+        ],
+        [
+            "void ifStringLiteralExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void ifLiteralStringValueExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void ifClassExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "List getAllContainedComments()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "BinaryExpr asBinaryExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Optional findCompilationUnit()"
+        ],
+        [
+            "void setAsParentNodeOf(NodeList list)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void tryAddImportToParentCompilationUnit(Class clazz)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "CharLiteralExpr asCharLiteralExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "SuperExpr asSuperExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "List getChildNodesByType(Class clazz)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "ArrayInitializerExpr asArrayInitializerExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "DoubleLiteralExpr asDoubleLiteralExpr()"
+        ],
+        [
+            "void addOrphanComment(Comment comment)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "SymbolResolver getSymbolResolver()"
+        ],
+        [
+            "boolean remove(Node node)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "IntegerLiteralExpr asIntegerLiteralExpr()"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "Node setTokenRange(TokenRange tokenRange)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "void ifAnnotationExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "NodeMetaModel getMetaModel()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node findRootNode()"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "MarkerAnnotationExpr asMarkerAnnotationExpr()"
+        ],
+        [
+            "void register(AstObserver observer)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "LiteralStringValueExpr asLiteralStringValueExpr()"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node removeComment()"
+        ],
+        [
+            "Node setParsed(Node.Parsedness parsed)",
+            "Node.Parsedness getParsed()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "FieldAccessExpr asFieldAccessExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "ArrayCreationExpr asArrayCreationExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "SuperExpr asSuperExpr()"
+        ],
+        [
+            "void ifMethodCallExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node findRootNode()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node removeComment()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Optional getParentNode()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "void register(AstObserver observer, Node.ObserverRegistrationMode mode)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "ArrayInitializerExpr asArrayInitializerExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "DoubleLiteralExpr asDoubleLiteralExpr()"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node removeComment()"
+        ],
+        [
+            "Node setComment(Comment comment)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "List getChildNodes()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "NodeMetaModel getMetaModel()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "TypeExpr asTypeExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "AssignExpr asAssignExpr()"
+        ],
+        [
+            "void ifNormalAnnotationExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "ClassExpr asClassExpr()"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node findRootNode()"
+        ],
+        [
+            "void ifBinaryExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "FieldAccessExpr asFieldAccessExpr()"
+        ],
+        [
+            "List getChildNodesByType(Class clazz)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "ArrayCreationExpr asArrayCreationExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "void ifIntegerLiteralExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void ifTypeExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Optional getParentNode()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "MethodReferenceExpr asMethodReferenceExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "EnclosedExpr asEnclosedExpr()"
+        ],
+        [
+            "void registerForSubtree(AstObserver observer)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "VariableDeclarationExpr asVariableDeclarationExpr()"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "List getOrphanComments()"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node.Parsedness getParsed()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "LambdaExpr asLambdaExpr()"
+        ],
+        [
+            "Node setBlockComment(String comment)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void ifUnaryExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "void ifAssignExpr(Consumer action)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "List getChildNodes()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "CharLiteralExpr asCharLiteralExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "ObjectCreationExpr asObjectCreationExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "TypeExpr asTypeExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "AssignExpr asAssignExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "AnnotationExpr asAnnotationExpr()"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "BooleanLiteralExpr asBooleanLiteralExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "CastExpr asCastExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "UnaryExpr asUnaryExpr()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "EnclosedExpr asEnclosedExpr()"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "VariableDeclarationExpr asVariableDeclarationExpr()"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "SymbolResolver getSymbolResolver()"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node.Parsedness getParsed()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "ObjectCreationExpr asObjectCreationExpr()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "StringLiteralExpr asStringLiteralExpr()"
+        ]
+    ]
+}

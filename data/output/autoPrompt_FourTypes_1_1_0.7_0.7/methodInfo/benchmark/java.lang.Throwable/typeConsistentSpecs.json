@@ -1,0 +1,28 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void addSuppressed(Throwable exception)",
+            "Throwable initCause(Throwable cause)"
+        ],
+        [
+            "Throwable initCause(Throwable cause)",
+            "Throwable getCause()"
+        ],
+        [
+            "void addSuppressed(Throwable exception)",
+            "Throwable getCause()"
+        ],
+        [
+            "Throwable initCause(Throwable cause)",
+            "Throwable fillInStackTrace()"
+        ],
+        [
+            "void setStackTrace(StackTraceElement[] stackTrace)",
+            "StackTraceElement[] getStackTrace()"
+        ],
+        [
+            "void addSuppressed(Throwable exception)",
+            "Throwable fillInStackTrace()"
+        ]
+    ]
+}

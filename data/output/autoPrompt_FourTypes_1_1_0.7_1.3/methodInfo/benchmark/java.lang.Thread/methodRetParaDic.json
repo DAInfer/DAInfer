@@ -1,0 +1,213 @@
+{
+    "int activeCount()": {
+        "return type": "int",
+        "method name": "activeCount",
+        "parameters": []
+    },
+    "void checkAccess()": {
+        "return type": "void",
+        "method name": "checkAccess",
+        "parameters": []
+    },
+    "Object clone()": {
+        "return type": "Object",
+        "method name": "clone",
+        "parameters": []
+    },
+    "Thread currentThread()": {
+        "return type": "Thread",
+        "method name": "currentThread",
+        "parameters": []
+    },
+    "void dumpStack()": {
+        "return type": "void",
+        "method name": "dumpStack",
+        "parameters": []
+    },
+    "int enumerate(Thread[] tarray)": {
+        "return type": "int",
+        "method name": "enumerate",
+        "parameters": [
+            "Thread[]"
+        ]
+    },
+    "Map getAllStackTraces()": {
+        "return type": "Map",
+        "method name": "getAllStackTraces",
+        "parameters": []
+    },
+    "ClassLoader getContextClassLoader()": {
+        "return type": "ClassLoader",
+        "method name": "getContextClassLoader",
+        "parameters": []
+    },
+    "Thread.UncaughtExceptionHandler getDefaultUncaughtExceptionHandler()": {
+        "return type": "Thread.UncaughtExceptionHandler",
+        "method name": "getDefaultUncaughtExceptionHandler",
+        "parameters": []
+    },
+    "long getId()": {
+        "return type": "long",
+        "method name": "getId",
+        "parameters": []
+    },
+    "String getName()": {
+        "return type": "String",
+        "method name": "getName",
+        "parameters": []
+    },
+    "int getPriority()": {
+        "return type": "int",
+        "method name": "getPriority",
+        "parameters": []
+    },
+    "StackTraceElement[] getStackTrace()": {
+        "return type": "StackTraceElement[]",
+        "method name": "getStackTrace",
+        "parameters": []
+    },
+    "Thread.State getState()": {
+        "return type": "Thread.State",
+        "method name": "getState",
+        "parameters": []
+    },
+    "ThreadGroup getThreadGroup()": {
+        "return type": "ThreadGroup",
+        "method name": "getThreadGroup",
+        "parameters": []
+    },
+    "Thread.UncaughtExceptionHandler getUncaughtExceptionHandler()": {
+        "return type": "Thread.UncaughtExceptionHandler",
+        "method name": "getUncaughtExceptionHandler",
+        "parameters": []
+    },
+    "boolean holdsLock(Object obj)": {
+        "return type": "boolean",
+        "method name": "holdsLock",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "void interrupt()": {
+        "return type": "void",
+        "method name": "interrupt",
+        "parameters": []
+    },
+    "boolean interrupted()": {
+        "return type": "boolean",
+        "method name": "interrupted",
+        "parameters": []
+    },
+    "boolean isAlive()": {
+        "return type": "boolean",
+        "method name": "isAlive",
+        "parameters": []
+    },
+    "boolean isDaemon()": {
+        "return type": "boolean",
+        "method name": "isDaemon",
+        "parameters": []
+    },
+    "boolean isInterrupted()": {
+        "return type": "boolean",
+        "method name": "isInterrupted",
+        "parameters": []
+    },
+    "void join()": {
+        "return type": "void",
+        "method name": "join",
+        "parameters": []
+    },
+    "void join(long millis)": {
+        "return type": "void",
+        "method name": "join",
+        "parameters": [
+            "long"
+        ]
+    },
+    "void join(long millis, int nanos)": {
+        "return type": "void",
+        "method name": "join",
+        "parameters": [
+            "long",
+            "int"
+        ]
+    },
+    "void run()": {
+        "return type": "void",
+        "method name": "run",
+        "parameters": []
+    },
+    "void setContextClassLoader(ClassLoader cl)": {
+        "return type": "void",
+        "method name": "setContextClassLoader",
+        "parameters": [
+            "ClassLoader"
+        ]
+    },
+    "void setDaemon(boolean on)": {
+        "return type": "void",
+        "method name": "setDaemon",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setDefaultUncaughtExceptionHandler(Thread.UncaughtExceptionHandler eh)": {
+        "return type": "void",
+        "method name": "setDefaultUncaughtExceptionHandler",
+        "parameters": [
+            "Thread.UncaughtExceptionHandler"
+        ]
+    },
+    "void setName(String name)": {
+        "return type": "void",
+        "method name": "setName",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setPriority(int newPriority)": {
+        "return type": "void",
+        "method name": "setPriority",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setUncaughtExceptionHandler(Thread.UncaughtExceptionHandler eh)": {
+        "return type": "void",
+        "method name": "setUncaughtExceptionHandler",
+        "parameters": [
+            "Thread.UncaughtExceptionHandler"
+        ]
+    },
+    "void sleep(long millis)": {
+        "return type": "void",
+        "method name": "sleep",
+        "parameters": [
+            "long"
+        ]
+    },
+    "void sleep(long millis, int nanos)": {
+        "return type": "void",
+        "method name": "sleep",
+        "parameters": [
+            "long",
+            "int"
+        ]
+    },
+    "void start()": {
+        "return type": "void",
+        "method name": "start",
+        "parameters": []
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "void yield()": {
+        "return type": "void",
+        "method name": "yield",
+        "parameters": []
+    }
+}

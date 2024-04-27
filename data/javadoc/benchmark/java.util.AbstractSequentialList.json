@@ -1,0 +1,20 @@
+{
+    "class": "AbstractSequentialList",
+    "category": "Class",
+    "methods": {
+        "void add(int index, E element)": "Inserts the specified element at the specified position in this list (optional operation).",
+        "boolean addAll(int index, Collection c)": "Inserts all of the elements in the specified collection into this list at the specified position (optional operation).",
+        "E get(int index)": "Returns the element at the specified position in this list.",
+        "Iterator iterator()": "Returns an iterator over the elements in this list (in proper sequence).",
+        "ListIterator listIterator(int index)": "Returns a list iterator over the elements in this list (in proper sequence).",
+        "E remove(int index)": "Removes the element at the specified position in this list (optional operation).",
+        "E set(int index, E element)": "Replaces the element at the specified position in this list with the specified element (optional operation)."
+    },
+    "super class": [
+        "java.util.AbstractList",
+        "java.util.AbstractCollection",
+        "java.util.Collection",
+        "java.util.List",
+        "java.lang.Iterable"
+    ]
+}

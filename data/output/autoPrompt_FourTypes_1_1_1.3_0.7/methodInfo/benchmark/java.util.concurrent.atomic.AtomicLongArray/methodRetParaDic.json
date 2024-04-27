@@ -1,0 +1,139 @@
+{
+    "long accumulateAndGet(int i, long x, LongBinaryOperator accumulatorFunction)": {
+        "return type": "long",
+        "method name": "accumulateAndGet",
+        "parameters": [
+            "int",
+            "long",
+            "LongBinaryOperator"
+        ]
+    },
+    "long addAndGet(int i, long delta)": {
+        "return type": "long",
+        "method name": "addAndGet",
+        "parameters": [
+            "int",
+            "long"
+        ]
+    },
+    "boolean compareAndSet(int i, long expect, long update)": {
+        "return type": "boolean",
+        "method name": "compareAndSet",
+        "parameters": [
+            "int",
+            "long",
+            "long"
+        ]
+    },
+    "long decrementAndGet(int i)": {
+        "return type": "long",
+        "method name": "decrementAndGet",
+        "parameters": [
+            "int"
+        ]
+    },
+    "long get(int i)": {
+        "return type": "long",
+        "method name": "get",
+        "parameters": [
+            "int"
+        ]
+    },
+    "long getAndAccumulate(int i, long x, LongBinaryOperator accumulatorFunction)": {
+        "return type": "long",
+        "method name": "getAndAccumulate",
+        "parameters": [
+            "int",
+            "long",
+            "LongBinaryOperator"
+        ]
+    },
+    "long getAndAdd(int i, long delta)": {
+        "return type": "long",
+        "method name": "getAndAdd",
+        "parameters": [
+            "int",
+            "long"
+        ]
+    },
+    "long getAndDecrement(int i)": {
+        "return type": "long",
+        "method name": "getAndDecrement",
+        "parameters": [
+            "int"
+        ]
+    },
+    "long getAndIncrement(int i)": {
+        "return type": "long",
+        "method name": "getAndIncrement",
+        "parameters": [
+            "int"
+        ]
+    },
+    "long getAndSet(int i, long newValue)": {
+        "return type": "long",
+        "method name": "getAndSet",
+        "parameters": [
+            "int",
+            "long"
+        ]
+    },
+    "long getAndUpdate(int i, LongUnaryOperator updateFunction)": {
+        "return type": "long",
+        "method name": "getAndUpdate",
+        "parameters": [
+            "int",
+            "LongUnaryOperator"
+        ]
+    },
+    "long incrementAndGet(int i)": {
+        "return type": "long",
+        "method name": "incrementAndGet",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void lazySet(int i, long newValue)": {
+        "return type": "void",
+        "method name": "lazySet",
+        "parameters": [
+            "int",
+            "long"
+        ]
+    },
+    "int length()": {
+        "return type": "int",
+        "method name": "length",
+        "parameters": []
+    },
+    "void set(int i, long newValue)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "long"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "long updateAndGet(int i, LongUnaryOperator updateFunction)": {
+        "return type": "long",
+        "method name": "updateAndGet",
+        "parameters": [
+            "int",
+            "LongUnaryOperator"
+        ]
+    },
+    "boolean weakCompareAndSet(int i, long expect, long update)": {
+        "return type": "boolean",
+        "method name": "weakCompareAndSet",
+        "parameters": [
+            "int",
+            "long",
+            "long"
+        ]
+    }
+}

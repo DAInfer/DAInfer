@@ -1,0 +1,236 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void setEntry(String alias, KeyStore.Entry entry, KeyStore.ProtectionParameter protParam)",
+            "String getType()"
+        ],
+        [
+            "KeyStore getInstance(String type, Provider provider)",
+            "String getType()"
+        ],
+        [
+            "void setKeyEntry(String alias, Key key, char[] password, Certificate[] chain)",
+            "String getType()"
+        ],
+        [
+            "void setKeyEntry(String alias, Key key, char[] password, Certificate[] chain)",
+            "Certificate[] getCertificateChain(String alias)"
+        ],
+        [
+            "Certificate getCertificate(String alias)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "void setCertificateEntry(String alias, Certificate cert)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "Certificate getCertificate(String alias)",
+            "String getType()"
+        ],
+        [
+            "boolean isCertificateEntry(String alias)",
+            "String getDefaultType()"
+        ],
+        [
+            "boolean containsAlias(String alias)",
+            "String getDefaultType()"
+        ],
+        [
+            "String getCertificateAlias(Certificate cert)",
+            "Certificate getCertificate(String alias)"
+        ],
+        [
+            "Key getKey(String alias, char[] password)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "boolean isKeyEntry(String alias)",
+            "String getDefaultType()"
+        ],
+        [
+            "Certificate[] getCertificateChain(String alias)",
+            "String getDefaultType()"
+        ],
+        [
+            "void setCertificateEntry(String alias, Certificate cert)",
+            "String getType()"
+        ],
+        [
+            "Certificate[] getCertificateChain(String alias)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "KeyStore getInstance(String type, String provider)",
+            "String getDefaultType()"
+        ],
+        [
+            "Key getKey(String alias, char[] password)",
+            "String getType()"
+        ],
+        [
+            "Date getCreationDate(String alias)",
+            "String getDefaultType()"
+        ],
+        [
+            "Certificate[] getCertificateChain(String alias)",
+            "String getType()"
+        ],
+        [
+            "void setKeyEntry(String alias, byte[] key, Certificate[] chain)",
+            "String getType()"
+        ],
+        [
+            "void setEntry(String alias, KeyStore.Entry entry, KeyStore.ProtectionParameter protParam)",
+            "KeyStore.Entry getEntry(String alias, KeyStore.ProtectionParameter protParam)"
+        ],
+        [
+            "boolean entryInstanceOf(String alias, Class entryClass)",
+            "String getDefaultType()"
+        ],
+        [
+            "boolean isCertificateEntry(String alias)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "boolean isKeyEntry(String alias)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "boolean containsAlias(String alias)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "KeyStore.Entry getEntry(String alias, KeyStore.ProtectionParameter protParam)",
+            "String getDefaultType()"
+        ],
+        [
+            "KeyStore getInstance(String type, String provider)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "boolean containsAlias(String alias)",
+            "String getType()"
+        ],
+        [
+            "KeyStore getInstance(String type)",
+            "String getDefaultType()"
+        ],
+        [
+            "boolean isCertificateEntry(String alias)",
+            "String getType()"
+        ],
+        [
+            "boolean isKeyEntry(String alias)",
+            "String getType()"
+        ],
+        [
+            "Date getCreationDate(String alias)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "void setKeyEntry(String alias, byte[] key, Certificate[] chain)",
+            "String getDefaultType()"
+        ],
+        [
+            "KeyStore getInstance(String type, String provider)",
+            "String getType()"
+        ],
+        [
+            "void deleteEntry(String alias)",
+            "String getDefaultType()"
+        ],
+        [
+            "Date getCreationDate(String alias)",
+            "String getType()"
+        ],
+        [
+            "void setEntry(String alias, KeyStore.Entry entry, KeyStore.ProtectionParameter protParam)",
+            "String getDefaultType()"
+        ],
+        [
+            "KeyStore getInstance(String type, Provider provider)",
+            "String getDefaultType()"
+        ],
+        [
+            "KeyStore getInstance(String type, Provider provider)",
+            "Provider getProvider()"
+        ],
+        [
+            "void setCertificateEntry(String alias, Certificate cert)",
+            "Certificate getCertificate(String alias)"
+        ],
+        [
+            "void setKeyEntry(String alias, Key key, char[] password, Certificate[] chain)",
+            "String getDefaultType()"
+        ],
+        [
+            "boolean entryInstanceOf(String alias, Class entryClass)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "KeyStore getInstance(String type)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "void setKeyEntry(String alias, Key key, char[] password, Certificate[] chain)",
+            "Key getKey(String alias, char[] password)"
+        ],
+        [
+            "boolean entryInstanceOf(String alias, Class entryClass)",
+            "String getType()"
+        ],
+        [
+            "Certificate getCertificate(String alias)",
+            "String getDefaultType()"
+        ],
+        [
+            "KeyStore.Entry getEntry(String alias, KeyStore.ProtectionParameter protParam)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "void setCertificateEntry(String alias, Certificate cert)",
+            "String getDefaultType()"
+        ],
+        [
+            "void setKeyEntry(String alias, byte[] key, Certificate[] chain)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "KeyStore.Entry getEntry(String alias, KeyStore.ProtectionParameter protParam)",
+            "String getType()"
+        ],
+        [
+            "KeyStore getInstance(String type)",
+            "String getType()"
+        ],
+        [
+            "Key getKey(String alias, char[] password)",
+            "String getDefaultType()"
+        ],
+        [
+            "void deleteEntry(String alias)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "void setKeyEntry(String alias, Key key, char[] password, Certificate[] chain)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "void setEntry(String alias, KeyStore.Entry entry, KeyStore.ProtectionParameter protParam)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "void setKeyEntry(String alias, byte[] key, Certificate[] chain)",
+            "Certificate[] getCertificateChain(String alias)"
+        ],
+        [
+            "KeyStore getInstance(String type, Provider provider)",
+            "String getCertificateAlias(Certificate cert)"
+        ],
+        [
+            "void deleteEntry(String alias)",
+            "String getType()"
+        ]
+    ]
+}

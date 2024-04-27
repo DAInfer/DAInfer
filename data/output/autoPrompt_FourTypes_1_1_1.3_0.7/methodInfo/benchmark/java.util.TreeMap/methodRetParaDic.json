@@ -1,0 +1,363 @@
+{
+    "Map.Entry ceilingEntry(K key)": {
+        "return type": "Map.Entry",
+        "method name": "ceilingEntry",
+        "parameters": [
+            "K"
+        ]
+    },
+    "K ceilingKey(K key)": {
+        "return type": "K",
+        "method name": "ceilingKey",
+        "parameters": [
+            "K"
+        ]
+    },
+    "void clear()": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": []
+    },
+    "Object clone()": {
+        "return type": "Object",
+        "method name": "clone",
+        "parameters": []
+    },
+    "Comparator comparator()": {
+        "return type": "Comparator",
+        "method name": "comparator",
+        "parameters": []
+    },
+    "boolean containsKey(Object key)": {
+        "return type": "boolean",
+        "method name": "containsKey",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean containsValue(Object value)": {
+        "return type": "boolean",
+        "method name": "containsValue",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "NavigableSet descendingKeySet()": {
+        "return type": "NavigableSet",
+        "method name": "descendingKeySet",
+        "parameters": []
+    },
+    "NavigableMap descendingMap()": {
+        "return type": "NavigableMap",
+        "method name": "descendingMap",
+        "parameters": []
+    },
+    "Set entrySet()": {
+        "return type": "Set",
+        "method name": "entrySet",
+        "parameters": []
+    },
+    "Map.Entry firstEntry()": {
+        "return type": "Map.Entry",
+        "method name": "firstEntry",
+        "parameters": []
+    },
+    "K firstKey()": {
+        "return type": "K",
+        "method name": "firstKey",
+        "parameters": []
+    },
+    "Map.Entry floorEntry(K key)": {
+        "return type": "Map.Entry",
+        "method name": "floorEntry",
+        "parameters": [
+            "K"
+        ]
+    },
+    "K floorKey(K key)": {
+        "return type": "K",
+        "method name": "floorKey",
+        "parameters": [
+            "K"
+        ]
+    },
+    "void forEach(BiConsumer action)": {
+        "return type": "void",
+        "method name": "forEach",
+        "parameters": [
+            "BiConsumer"
+        ]
+    },
+    "V get(Object key)": {
+        "return type": "V",
+        "method name": "get",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "SortedMap headMap(K toKey)": {
+        "return type": "SortedMap",
+        "method name": "headMap",
+        "parameters": [
+            "K"
+        ]
+    },
+    "NavigableMap headMap(K toKey, boolean inclusive)": {
+        "return type": "NavigableMap",
+        "method name": "headMap",
+        "parameters": [
+            "K",
+            "boolean"
+        ]
+    },
+    "Map.Entry higherEntry(K key)": {
+        "return type": "Map.Entry",
+        "method name": "higherEntry",
+        "parameters": [
+            "K"
+        ]
+    },
+    "K higherKey(K key)": {
+        "return type": "K",
+        "method name": "higherKey",
+        "parameters": [
+            "K"
+        ]
+    },
+    "Set keySet()": {
+        "return type": "Set",
+        "method name": "keySet",
+        "parameters": []
+    },
+    "Map.Entry lastEntry()": {
+        "return type": "Map.Entry",
+        "method name": "lastEntry",
+        "parameters": []
+    },
+    "K lastKey()": {
+        "return type": "K",
+        "method name": "lastKey",
+        "parameters": []
+    },
+    "Map.Entry lowerEntry(K key)": {
+        "return type": "Map.Entry",
+        "method name": "lowerEntry",
+        "parameters": [
+            "K"
+        ]
+    },
+    "K lowerKey(K key)": {
+        "return type": "K",
+        "method name": "lowerKey",
+        "parameters": [
+            "K"
+        ]
+    },
+    "NavigableSet navigableKeySet()": {
+        "return type": "NavigableSet",
+        "method name": "navigableKeySet",
+        "parameters": []
+    },
+    "Map.Entry pollFirstEntry()": {
+        "return type": "Map.Entry",
+        "method name": "pollFirstEntry",
+        "parameters": []
+    },
+    "Map.Entry pollLastEntry()": {
+        "return type": "Map.Entry",
+        "method name": "pollLastEntry",
+        "parameters": []
+    },
+    "V put(K key, V value)": {
+        "return type": "V",
+        "method name": "put",
+        "parameters": [
+            "K",
+            "V"
+        ]
+    },
+    "void putAll(Map map)": {
+        "return type": "void",
+        "method name": "putAll",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "V remove(Object key)": {
+        "return type": "V",
+        "method name": "remove",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "V replace(K key, V value)": {
+        "return type": "V",
+        "method name": "replace",
+        "parameters": [
+            "K",
+            "V"
+        ]
+    },
+    "boolean replace(K key, V oldValue, V newValue)": {
+        "return type": "boolean",
+        "method name": "replace",
+        "parameters": [
+            "K",
+            "V",
+            "V"
+        ]
+    },
+    "void replaceAll(BiFunction function)": {
+        "return type": "void",
+        "method name": "replaceAll",
+        "parameters": [
+            "BiFunction"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)": {
+        "return type": "NavigableMap",
+        "method name": "subMap",
+        "parameters": [
+            "K",
+            "boolean",
+            "K",
+            "boolean"
+        ]
+    },
+    "SortedMap subMap(K fromKey, K toKey)": {
+        "return type": "SortedMap",
+        "method name": "subMap",
+        "parameters": [
+            "K",
+            "K"
+        ]
+    },
+    "SortedMap tailMap(K fromKey)": {
+        "return type": "SortedMap",
+        "method name": "tailMap",
+        "parameters": [
+            "K"
+        ]
+    },
+    "NavigableMap tailMap(K fromKey, boolean inclusive)": {
+        "return type": "NavigableMap",
+        "method name": "tailMap",
+        "parameters": [
+            "K",
+            "boolean"
+        ]
+    },
+    "Collection values()": {
+        "return type": "Collection",
+        "method name": "values",
+        "parameters": []
+    },
+    "boolean equals(Object o)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "boolean isEmpty()": {
+        "return type": "boolean",
+        "method name": "isEmpty",
+        "parameters": []
+    },
+    "void putAll(Map m)": {
+        "return type": "void",
+        "method name": "putAll",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "V compute(K key, BiFunction remappingFunction)": {
+        "return type": "V",
+        "method name": "compute",
+        "parameters": [
+            "K",
+            "BiFunction"
+        ]
+    },
+    "V computeIfAbsent(K key, Function mappingFunction)": {
+        "return type": "V",
+        "method name": "computeIfAbsent",
+        "parameters": [
+            "K",
+            "Function"
+        ]
+    },
+    "V computeIfPresent(K key, BiFunction remappingFunction)": {
+        "return type": "V",
+        "method name": "computeIfPresent",
+        "parameters": [
+            "K",
+            "BiFunction"
+        ]
+    },
+    "V getOrDefault(Object key, V defaultValue)": {
+        "return type": "V",
+        "method name": "getOrDefault",
+        "parameters": [
+            "Object",
+            "V"
+        ]
+    },
+    "V merge(K key, V value, BiFunction remappingFunction)": {
+        "return type": "V",
+        "method name": "merge",
+        "parameters": [
+            "K",
+            "V",
+            "BiFunction"
+        ]
+    },
+    "V putIfAbsent(K key, V value)": {
+        "return type": "V",
+        "method name": "putIfAbsent",
+        "parameters": [
+            "K",
+            "V"
+        ]
+    },
+    "boolean remove(Object key, Object value)": {
+        "return type": "boolean",
+        "method name": "remove",
+        "parameters": [
+            "Object",
+            "Object"
+        ]
+    },
+    "void forEach(Consumer action)": {
+        "return type": "void",
+        "method name": "forEach",
+        "parameters": [
+            "Consumer"
+        ]
+    },
+    "Iterator iterator()": {
+        "return type": "Iterator",
+        "method name": "iterator",
+        "parameters": []
+    },
+    "Spliterator spliterator()": {
+        "return type": "Spliterator",
+        "method name": "spliterator",
+        "parameters": []
+    }
+}

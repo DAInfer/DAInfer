@@ -1,0 +1,11 @@
+{
+    "class": "Iterator",
+    "category": "Interface",
+    "methods": {
+        "void forEachRemaining(Consumer action)": "Performs the given action for each remaining element until all elements have been processed or the action throws an exception.",
+        "boolean hasNext()": "Returns true if the iteration has more elements.",
+        "E next()": "Returns the next element in the iteration.",
+        "void remove()": "Removes from the underlying collection the last element returned by this iterator (optional operation)."
+    },
+    "super class": []
+}

@@ -1,0 +1,196 @@
+{
+    "Enumeration aliases()": {
+        "return type": "Enumeration",
+        "method name": "aliases",
+        "parameters": []
+    },
+    "boolean containsAlias(String alias)": {
+        "return type": "boolean",
+        "method name": "containsAlias",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void deleteEntry(String alias)": {
+        "return type": "void",
+        "method name": "deleteEntry",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean entryInstanceOf(String alias, Class entryClass)": {
+        "return type": "boolean",
+        "method name": "entryInstanceOf",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "Certificate getCertificate(String alias)": {
+        "return type": "Certificate",
+        "method name": "getCertificate",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getCertificateAlias(Certificate cert)": {
+        "return type": "String",
+        "method name": "getCertificateAlias",
+        "parameters": [
+            "Certificate"
+        ]
+    },
+    "Certificate[] getCertificateChain(String alias)": {
+        "return type": "Certificate[]",
+        "method name": "getCertificateChain",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Date getCreationDate(String alias)": {
+        "return type": "Date",
+        "method name": "getCreationDate",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getDefaultType()": {
+        "return type": "String",
+        "method name": "getDefaultType",
+        "parameters": []
+    },
+    "KeyStore.Entry getEntry(String alias, KeyStore.ProtectionParameter protParam)": {
+        "return type": "KeyStore.Entry",
+        "method name": "getEntry",
+        "parameters": [
+            "String",
+            "KeyStore.ProtectionParameter"
+        ]
+    },
+    "KeyStore getInstance(String type)": {
+        "return type": "KeyStore",
+        "method name": "getInstance",
+        "parameters": [
+            "String"
+        ]
+    },
+    "KeyStore getInstance(String type, Provider provider)": {
+        "return type": "KeyStore",
+        "method name": "getInstance",
+        "parameters": [
+            "String",
+            "Provider"
+        ]
+    },
+    "KeyStore getInstance(String type, String provider)": {
+        "return type": "KeyStore",
+        "method name": "getInstance",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "Key getKey(String alias, char[] password)": {
+        "return type": "Key",
+        "method name": "getKey",
+        "parameters": [
+            "String",
+            "char[]"
+        ]
+    },
+    "Provider getProvider()": {
+        "return type": "Provider",
+        "method name": "getProvider",
+        "parameters": []
+    },
+    "String getType()": {
+        "return type": "String",
+        "method name": "getType",
+        "parameters": []
+    },
+    "boolean isCertificateEntry(String alias)": {
+        "return type": "boolean",
+        "method name": "isCertificateEntry",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isKeyEntry(String alias)": {
+        "return type": "boolean",
+        "method name": "isKeyEntry",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void load(InputStream stream, char[] password)": {
+        "return type": "void",
+        "method name": "load",
+        "parameters": [
+            "InputStream",
+            "char[]"
+        ]
+    },
+    "void load(KeyStore.LoadStoreParameter param)": {
+        "return type": "void",
+        "method name": "load",
+        "parameters": [
+            "KeyStore.LoadStoreParameter"
+        ]
+    },
+    "void setCertificateEntry(String alias, Certificate cert)": {
+        "return type": "void",
+        "method name": "setCertificateEntry",
+        "parameters": [
+            "String",
+            "Certificate"
+        ]
+    },
+    "void setEntry(String alias, KeyStore.Entry entry, KeyStore.ProtectionParameter protParam)": {
+        "return type": "void",
+        "method name": "setEntry",
+        "parameters": [
+            "String",
+            "KeyStore.Entry",
+            "KeyStore.ProtectionParameter"
+        ]
+    },
+    "void setKeyEntry(String alias, byte[] key, Certificate[] chain)": {
+        "return type": "void",
+        "method name": "setKeyEntry",
+        "parameters": [
+            "String",
+            "byte[]",
+            "Certificate[]"
+        ]
+    },
+    "void setKeyEntry(String alias, Key key, char[] password, Certificate[] chain)": {
+        "return type": "void",
+        "method name": "setKeyEntry",
+        "parameters": [
+            "String",
+            "Key",
+            "char[]",
+            "Certificate[]"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "void store(KeyStore.LoadStoreParameter param)": {
+        "return type": "void",
+        "method name": "store",
+        "parameters": [
+            "KeyStore.LoadStoreParameter"
+        ]
+    },
+    "void store(OutputStream stream, char[] password)": {
+        "return type": "void",
+        "method name": "store",
+        "parameters": [
+            "OutputStream",
+            "char[]"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "class": "Item",
+    "category": "Class",
+    "methods": {
+        "Image getImage()": "Returns the receiver's image if it has one, or null if it does not",
+        "String getText()": "Returns the receiver's text, which will be an empty string if it has never been set",
+        "void setImage(Image image)": "Sets the receiver's image to the argument, which may be null indicating that no image should be displayed.",
+        "void setText(String string)": "Sets the receiver's text."
+    },
+    "super class": [
+        "org.eclipse.swt.widgets.Widget"
+    ]
+}

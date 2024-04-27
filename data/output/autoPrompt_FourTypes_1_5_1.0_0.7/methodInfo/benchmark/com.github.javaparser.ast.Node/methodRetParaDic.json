@@ -1,0 +1,296 @@
+{
+    "void addOrphanComment(Comment comment)": {
+        "return type": "void",
+        "method name": "addOrphanComment",
+        "parameters": [
+            "Comment"
+        ]
+    },
+    "Node clone()": {
+        "return type": "Node",
+        "method name": "clone",
+        "parameters": []
+    },
+    "boolean containsData(DataKey key)": {
+        "return type": "boolean",
+        "method name": "containsData",
+        "parameters": [
+            "DataKey"
+        ]
+    },
+    "void customInitialization()": {
+        "return type": "void",
+        "method name": "customInitialization",
+        "parameters": []
+    },
+    "boolean equals(Object obj)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "Optional findCompilationUnit()": {
+        "return type": "Optional",
+        "method name": "findCompilationUnit",
+        "parameters": []
+    },
+    "Node findRootNode()": {
+        "return type": "Node",
+        "method name": "findRootNode",
+        "parameters": []
+    },
+    "List getAllContainedComments()": {
+        "return type": "List",
+        "method name": "getAllContainedComments",
+        "parameters": []
+    },
+    "List getChildNodes()": {
+        "return type": "List",
+        "method name": "getChildNodes",
+        "parameters": []
+    },
+    "List getChildNodesByType(Class clazz)": {
+        "return type": "List",
+        "method name": "getChildNodesByType",
+        "parameters": [
+            "Class"
+        ]
+    },
+    "Optional getComment()": {
+        "return type": "Optional",
+        "method name": "getComment",
+        "parameters": []
+    },
+    "M getData(DataKey key)": {
+        "return type": "M",
+        "method name": "getData",
+        "parameters": [
+            "DataKey"
+        ]
+    },
+    "NodeMetaModel getMetaModel()": {
+        "return type": "NodeMetaModel",
+        "method name": "getMetaModel",
+        "parameters": []
+    },
+    "List getOrphanComments()": {
+        "return type": "List",
+        "method name": "getOrphanComments",
+        "parameters": []
+    },
+    "Optional getParentNode()": {
+        "return type": "Optional",
+        "method name": "getParentNode",
+        "parameters": []
+    },
+    "Node getParentNodeForChildren()": {
+        "return type": "Node",
+        "method name": "getParentNodeForChildren",
+        "parameters": []
+    },
+    "Node.Parsedness getParsed()": {
+        "return type": "Node.Parsedness",
+        "method name": "getParsed",
+        "parameters": []
+    },
+    "Optional getRange()": {
+        "return type": "Optional",
+        "method name": "getRange",
+        "parameters": []
+    },
+    "SymbolResolver getSymbolResolver()": {
+        "return type": "SymbolResolver",
+        "method name": "getSymbolResolver",
+        "parameters": []
+    },
+    "Optional getTokenRange()": {
+        "return type": "Optional",
+        "method name": "getTokenRange",
+        "parameters": []
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "boolean isRegistered(AstObserver observer)": {
+        "return type": "boolean",
+        "method name": "isRegistered",
+        "parameters": [
+            "AstObserver"
+        ]
+    },
+    "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)": {
+        "return type": "void",
+        "method name": "notifyPropertyChange",
+        "parameters": [
+            "ObservableProperty",
+            "P",
+            "P"
+        ]
+    },
+    "void register(AstObserver observer)": {
+        "return type": "void",
+        "method name": "register",
+        "parameters": [
+            "AstObserver"
+        ]
+    },
+    "void register(AstObserver observer, Node.ObserverRegistrationMode mode)": {
+        "return type": "void",
+        "method name": "register",
+        "parameters": [
+            "AstObserver",
+            "Node.ObserverRegistrationMode"
+        ]
+    },
+    "void registerForSubtree(AstObserver observer)": {
+        "return type": "void",
+        "method name": "registerForSubtree",
+        "parameters": [
+            "AstObserver"
+        ]
+    },
+    "boolean remove()": {
+        "return type": "boolean",
+        "method name": "remove",
+        "parameters": []
+    },
+    "boolean remove(Node node)": {
+        "return type": "boolean",
+        "method name": "remove",
+        "parameters": [
+            "Node"
+        ]
+    },
+    "Node removeComment()": {
+        "return type": "Node",
+        "method name": "removeComment",
+        "parameters": []
+    },
+    "void removeForced()": {
+        "return type": "void",
+        "method name": "removeForced",
+        "parameters": []
+    },
+    "boolean removeOrphanComment(Comment comment)": {
+        "return type": "boolean",
+        "method name": "removeOrphanComment",
+        "parameters": [
+            "Comment"
+        ]
+    },
+    "boolean replace(Node node)": {
+        "return type": "boolean",
+        "method name": "replace",
+        "parameters": [
+            "Node"
+        ]
+    },
+    "boolean replace(Node node, Node replacementNode)": {
+        "return type": "boolean",
+        "method name": "replace",
+        "parameters": [
+            "Node",
+            "Node"
+        ]
+    },
+    "void setAsParentNodeOf(Node childNode)": {
+        "return type": "void",
+        "method name": "setAsParentNodeOf",
+        "parameters": [
+            "Node"
+        ]
+    },
+    "void setAsParentNodeOf(NodeList list)": {
+        "return type": "void",
+        "method name": "setAsParentNodeOf",
+        "parameters": [
+            "NodeList"
+        ]
+    },
+    "Node setBlockComment(String comment)": {
+        "return type": "Node",
+        "method name": "setBlockComment",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Node setComment(Comment comment)": {
+        "return type": "Node",
+        "method name": "setComment",
+        "parameters": [
+            "Comment"
+        ]
+    },
+    "void setData(DataKey key, M object)": {
+        "return type": "void",
+        "method name": "setData",
+        "parameters": [
+            "DataKey",
+            "M"
+        ]
+    },
+    "Node setLineComment(String comment)": {
+        "return type": "Node",
+        "method name": "setLineComment",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Node setParentNode(Node newParentNode)": {
+        "return type": "Node",
+        "method name": "setParentNode",
+        "parameters": [
+            "Node"
+        ]
+    },
+    "Node setParsed(Node.Parsedness parsed)": {
+        "return type": "Node",
+        "method name": "setParsed",
+        "parameters": [
+            "Node.Parsedness"
+        ]
+    },
+    "Node setRange(Range range)": {
+        "return type": "Node",
+        "method name": "setRange",
+        "parameters": [
+            "Range"
+        ]
+    },
+    "Node setTokenRange(TokenRange tokenRange)": {
+        "return type": "Node",
+        "method name": "setTokenRange",
+        "parameters": [
+            "TokenRange"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "String toString(PrettyPrinterConfiguration prettyPrinterConfiguration)": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": [
+            "PrettyPrinterConfiguration"
+        ]
+    },
+    "void tryAddImportToParentCompilationUnit(Class clazz)": {
+        "return type": "void",
+        "method name": "tryAddImportToParentCompilationUnit",
+        "parameters": [
+            "Class"
+        ]
+    },
+    "void unregister(AstObserver observer)": {
+        "return type": "void",
+        "method name": "unregister",
+        "parameters": [
+            "AstObserver"
+        ]
+    }
+}

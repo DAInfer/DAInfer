@@ -1,0 +1,112 @@
+{
+    "ComponentName clone()": {
+        "return type": "ComponentName",
+        "method name": "clone",
+        "parameters": []
+    },
+    "int compareTo(ComponentName that)": {
+        "return type": "int",
+        "method name": "compareTo",
+        "parameters": [
+            "ComponentName"
+        ]
+    },
+    "ComponentName createRelative(String pkg, String cls)": {
+        "return type": "ComponentName",
+        "method name": "createRelative",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "ComponentName createRelative(Context pkg, String cls)": {
+        "return type": "ComponentName",
+        "method name": "createRelative",
+        "parameters": [
+            "Context",
+            "String"
+        ]
+    },
+    "int describeContents()": {
+        "return type": "int",
+        "method name": "describeContents",
+        "parameters": []
+    },
+    "boolean equals(Object obj)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "String flattenToShortString()": {
+        "return type": "String",
+        "method name": "flattenToShortString",
+        "parameters": []
+    },
+    "String flattenToString()": {
+        "return type": "String",
+        "method name": "flattenToString",
+        "parameters": []
+    },
+    "String getClassName()": {
+        "return type": "String",
+        "method name": "getClassName",
+        "parameters": []
+    },
+    "String getPackageName()": {
+        "return type": "String",
+        "method name": "getPackageName",
+        "parameters": []
+    },
+    "String getShortClassName()": {
+        "return type": "String",
+        "method name": "getShortClassName",
+        "parameters": []
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "ComponentName readFromParcel(Parcel in)": {
+        "return type": "ComponentName",
+        "method name": "readFromParcel",
+        "parameters": [
+            "Parcel"
+        ]
+    },
+    "String toShortString()": {
+        "return type": "String",
+        "method name": "toShortString",
+        "parameters": []
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "ComponentName unflattenFromString(String str)": {
+        "return type": "ComponentName",
+        "method name": "unflattenFromString",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void writeToParcel(ComponentName c, Parcel out)": {
+        "return type": "void",
+        "method name": "writeToParcel",
+        "parameters": [
+            "ComponentName",
+            "Parcel"
+        ]
+    },
+    "void writeToParcel(Parcel out, int flags)": {
+        "return type": "void",
+        "method name": "writeToParcel",
+        "parameters": [
+            "Parcel",
+            "int"
+        ]
+    }
+}

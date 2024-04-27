@@ -1,0 +1,95 @@
+{
+    "E accumulateAndGet(int i, E x, BinaryOperator accumulatorFunction)": {
+        "return type": "E",
+        "method name": "accumulateAndGet",
+        "parameters": [
+            "int",
+            "E",
+            "BinaryOperator"
+        ]
+    },
+    "boolean compareAndSet(int i, E expect, E update)": {
+        "return type": "boolean",
+        "method name": "compareAndSet",
+        "parameters": [
+            "int",
+            "E",
+            "E"
+        ]
+    },
+    "E get(int i)": {
+        "return type": "E",
+        "method name": "get",
+        "parameters": [
+            "int"
+        ]
+    },
+    "E getAndAccumulate(int i, E x, BinaryOperator accumulatorFunction)": {
+        "return type": "E",
+        "method name": "getAndAccumulate",
+        "parameters": [
+            "int",
+            "E",
+            "BinaryOperator"
+        ]
+    },
+    "E getAndSet(int i, E newValue)": {
+        "return type": "E",
+        "method name": "getAndSet",
+        "parameters": [
+            "int",
+            "E"
+        ]
+    },
+    "E getAndUpdate(int i, UnaryOperator updateFunction)": {
+        "return type": "E",
+        "method name": "getAndUpdate",
+        "parameters": [
+            "int",
+            "UnaryOperator"
+        ]
+    },
+    "void lazySet(int i, E newValue)": {
+        "return type": "void",
+        "method name": "lazySet",
+        "parameters": [
+            "int",
+            "E"
+        ]
+    },
+    "int length()": {
+        "return type": "int",
+        "method name": "length",
+        "parameters": []
+    },
+    "void set(int i, E newValue)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "E"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "E updateAndGet(int i, UnaryOperator updateFunction)": {
+        "return type": "E",
+        "method name": "updateAndGet",
+        "parameters": [
+            "int",
+            "UnaryOperator"
+        ]
+    },
+    "boolean weakCompareAndSet(int i, E expect, E update)": {
+        "return type": "boolean",
+        "method name": "weakCompareAndSet",
+        "parameters": [
+            "int",
+            "E",
+            "E"
+        ]
+    }
+}

@@ -1,0 +1,175 @@
+{
+    "V compute(K key, BiFunction remappingFunction)": {
+        "return type": "V",
+        "method name": "compute",
+        "parameters": [
+            "K",
+            "BiFunction"
+        ]
+    },
+    "V computeIfAbsent(K key, Function mappingFunction)": {
+        "return type": "V",
+        "method name": "computeIfAbsent",
+        "parameters": [
+            "K",
+            "Function"
+        ]
+    },
+    "V computeIfPresent(K key, BiFunction remappingFunction)": {
+        "return type": "V",
+        "method name": "computeIfPresent",
+        "parameters": [
+            "K",
+            "BiFunction"
+        ]
+    },
+    "void forEach(BiConsumer action)": {
+        "return type": "void",
+        "method name": "forEach",
+        "parameters": [
+            "BiConsumer"
+        ]
+    },
+    "V getOrDefault(Object key, V defaultValue)": {
+        "return type": "V",
+        "method name": "getOrDefault",
+        "parameters": [
+            "Object",
+            "V"
+        ]
+    },
+    "V merge(K key, V value, BiFunction remappingFunction)": {
+        "return type": "V",
+        "method name": "merge",
+        "parameters": [
+            "K",
+            "V",
+            "BiFunction"
+        ]
+    },
+    "V putIfAbsent(K key, V value)": {
+        "return type": "V",
+        "method name": "putIfAbsent",
+        "parameters": [
+            "K",
+            "V"
+        ]
+    },
+    "boolean remove(Object key, Object value)": {
+        "return type": "boolean",
+        "method name": "remove",
+        "parameters": [
+            "Object",
+            "Object"
+        ]
+    },
+    "V replace(K key, V value)": {
+        "return type": "V",
+        "method name": "replace",
+        "parameters": [
+            "K",
+            "V"
+        ]
+    },
+    "boolean replace(K key, V oldValue, V newValue)": {
+        "return type": "boolean",
+        "method name": "replace",
+        "parameters": [
+            "K",
+            "V",
+            "V"
+        ]
+    },
+    "void replaceAll(BiFunction function)": {
+        "return type": "void",
+        "method name": "replaceAll",
+        "parameters": [
+            "BiFunction"
+        ]
+    },
+    "void clear()": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": []
+    },
+    "boolean containsKey(Object key)": {
+        "return type": "boolean",
+        "method name": "containsKey",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean containsValue(Object value)": {
+        "return type": "boolean",
+        "method name": "containsValue",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "Set entrySet()": {
+        "return type": "Set",
+        "method name": "entrySet",
+        "parameters": []
+    },
+    "boolean equals(Object o)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "V get(Object key)": {
+        "return type": "V",
+        "method name": "get",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "boolean isEmpty()": {
+        "return type": "boolean",
+        "method name": "isEmpty",
+        "parameters": []
+    },
+    "Set keySet()": {
+        "return type": "Set",
+        "method name": "keySet",
+        "parameters": []
+    },
+    "V put(K key, V value)": {
+        "return type": "V",
+        "method name": "put",
+        "parameters": [
+            "K",
+            "V"
+        ]
+    },
+    "void putAll(Map m)": {
+        "return type": "void",
+        "method name": "putAll",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "V remove(Object key)": {
+        "return type": "V",
+        "method name": "remove",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "Collection values()": {
+        "return type": "Collection",
+        "method name": "values",
+        "parameters": []
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "class": "Message",
+    "category": "class",
+    "methods": {
+        "void copyFrom(Message o)": "Make this message like o.",
+        "int describeContents()": "Describe the kinds of special objects contained in this Parcelable instance's marshaled representation.",
+        "Runnable getCallback()": "Retrieve callback object that will execute when this message is handled.",
+        "Bundle getData()": "Obtains a Bundle of arbitrary data associated with this event, lazily creating it if necessary.",
+        "Handler getTarget()": "Retrieve the Handler implementation that will receive this message.",
+        "long getWhen()": "Return the targeted delivery time of this message, in milliseconds.",
+        "boolean isAsynchronous()": "Returns true if the message is asynchronous, meaning that it is not subject to Looper synchronization barriers.",
+        "Message obtain(Handler h)": "Same as obtain(), but sets the value for the target member on the Message returned.",
+        "Message obtain(Handler h, int what)": "Same as obtain(), but sets the values for both target and what members on the Message.",
+        "Message obtain(Handler h, Runnable callback)": "Same as obtain(android.os.Handler), but assigns a callback Runnable on the Message that is returned.",
+        "Message obtain(Message orig)": "Same as obtain(), but copies the values of an existing message (including its target) into the new one.",
+        "Message obtain(Handler h, int what, int arg1, int arg2, Object obj)": "Same as obtain(), but sets the values of the target, what, arg1, arg2, and obj members.",
+        "Message obtain(Handler h, int what, int arg1, int arg2)": "Same as obtain(), but sets the values of the target, what, arg1, and arg2 members.",
+        "Message obtain(Handler h, int what, Object obj)": "Same as obtain(), but sets the values of the target, what, and obj members.",
+        "Message obtain()": "Return a new Message instance from the global pool.",
+        "Bundle peekData()": "Like getData(), but does not lazily create the Bundle.",
+        "void recycle()": "Return a Message instance to the global pool.",
+        "void sendToTarget()": "Sends this Message to the Handler specified by getTarget().",
+        "void setAsynchronous(boolean async)": "Sets whether the message is asynchronous, meaning that it is not subject to Looper synchronization barriers.",
+        "void setData(Bundle data)": "Sets a Bundle of arbitrary data values.",
+        "void setTarget(Handler target)": "void setTarget(Handler target)",
+        "String toString()": "Returns a string representation of the object.",
+        "void writeToParcel(Parcel dest, int flags)": "Flatten this object in to a Parcel."
+    },
+    "super class": [
+    ]
+}

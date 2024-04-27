@@ -1,0 +1,15 @@
+{
+    "class": "ReshapeMatrix64F",
+    "category": "Class",
+    "methods": {
+        "int getNumCols()": "Returns the number of columns in this matrix.",
+        "int getNumRows()": "Returns the number of rows in this matrix.",
+        "MatrixIterator iterator(boolean rowMajor, int minRow, int minCol, int maxRow, int maxCol)": "Creates a new iterator for traversing through a submatrix inside this matrix.",
+        "void reshape(int numRows, int numCols)": "Equivalent to invoking reshape(numRows, numCols, false);",
+        "void reshape(int numRows, int numCols, boolean saveValues)": "Changes the number of rows and columns in the matrix, allowing its size to grow or shrink.",
+        "void set(ReshapeMatrix64F A)": "Assigns the value of 'this' matrix to be the same as 'A'.",
+        "void setNumCols(int numCols)": "Sets the number of columns.",
+        "void setNumRows(int numRows)": "Sets the number of rows."
+    },
+    "super class": []
+}

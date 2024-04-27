@@ -1,0 +1,1624 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "SortedMap tailMap(K fromKey)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Map.Entry floorEntry(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "Map.Entry ceilingEntry(K key)",
+            "K higherKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Map.Entry lowerEntry(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "NavigableSet navigableKeySet()"
+        ],
+        [
+            "NavigableMap headMap(K toKey, boolean inclusive)",
+            "K lastKey()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "K higherKey(K key)"
+        ],
+        [
+            "V remove(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V get(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "NavigableMap tailMap(K fromKey, boolean inclusive)"
+        ],
+        [
+            "V remove(Object key)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Map.Entry pollFirstEntry()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V get(Object key)",
+            "NavigableSet descendingKeySet()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Map.Entry ceilingEntry(K key)"
+        ],
+        [
+            "K higherKey(K key)",
+            "K floorKey(K key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Map.Entry higherEntry(K key)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "K firstKey()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "K lastKey()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "K lastKey()"
+        ],
+        [
+            "Map.Entry lowerEntry(K key)",
+            "K higherKey(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "K floorKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "K firstKey()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "K firstKey()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "K lastKey()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "K firstKey()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "K lastKey()"
+        ],
+        [
+            "V remove(Object key)",
+            "Map.Entry pollFirstEntry()"
+        ],
+        [
+            "V get(Object key)",
+            "Map.Entry pollLastEntry()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Iterator iterator()"
+        ],
+        [
+            "V remove(Object key)",
+            "Map.Entry higherEntry(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "K floorKey(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "K higherKey(K key)"
+        ],
+        [
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)",
+            "K higherKey(K key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "K higherKey(K key)"
+        ],
+        [
+            "K ceilingKey(K key)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V put(K key, V value)"
+        ],
+        [
+            "K lowerKey(K key)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "Comparator comparator()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V get(Object key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "Map.Entry higherEntry(K key)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "K floorKey(K key)",
+            "K higherKey(K key)"
+        ],
+        [
+            "Map.Entry higherEntry(K key)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Map.Entry lowerEntry(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "NavigableSet navigableKeySet()"
+        ],
+        [
+            "V remove(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V get(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "NavigableMap descendingMap()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Map.Entry firstEntry()"
+        ],
+        [
+            "V remove(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "K higherKey(K key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V remove(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "V remove(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "Map.Entry firstEntry()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "NavigableMap tailMap(K fromKey, boolean inclusive)"
+        ],
+        [
+            "V remove(Object key)",
+            "Map.Entry lowerEntry(K key)"
+        ],
+        [
+            "V remove(Object key)",
+            "NavigableSet navigableKeySet()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Map.Entry lastEntry()"
+        ],
+        [
+            "V get(Object key)",
+            "K lastKey()"
+        ],
+        [
+            "V remove(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "K ceilingKey(K key)",
+            "K lastKey()"
+        ],
+        [
+            "V remove(Object key)",
+            "NavigableMap headMap(K toKey, boolean inclusive)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "Map.Entry higherEntry(K key)",
+            "K firstKey()"
+        ],
+        [
+            "V remove(Object key)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V get(Object key)",
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "NavigableSet descendingKeySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "K firstKey()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "Map.Entry lowerEntry(K key)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "Map.Entry floorEntry(K key)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "NavigableSet descendingKeySet()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "Map.Entry lowerEntry(K key)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "Map.Entry floorEntry(K key)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V remove(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "K higherKey(K key)"
+        ],
+        [
+            "Map.Entry ceilingEntry(K key)",
+            "K firstKey()"
+        ],
+        [
+            "Map.Entry ceilingEntry(K key)",
+            "K lastKey()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "K firstKey()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Map.Entry ceilingEntry(K key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Map.Entry pollLastEntry()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Iterator iterator()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "K floorKey(K key)"
+        ],
+        [
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Map.Entry pollFirstEntry()"
+        ],
+        [
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Map.Entry pollLastEntry()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "K floorKey(K key)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "Map.Entry lastEntry()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Comparator comparator()"
+        ],
+        [
+            "K floorKey(K key)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Map.Entry higherEntry(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "K higherKey(K key)"
+        ],
+        [
+            "Map.Entry lowerEntry(K key)",
+            "K firstKey()"
+        ],
+        [
+            "Map.Entry floorEntry(K key)",
+            "K firstKey()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Comparator comparator()"
+        ],
+        [
+            "V remove(Object key)",
+            "K higherKey(K key)"
+        ],
+        [
+            "V remove(Object key)",
+            "Collection values()"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "K higherKey(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "Map.Entry floorEntry(K key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Set keySet()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "NavigableMap descendingMap()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "Map.Entry floorEntry(K key)",
+            "K higherKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "NavigableSet descendingKeySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "SortedMap tailMap(K fromKey)",
+            "K lastKey()"
+        ],
+        [
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)",
+            "K firstKey()"
+        ],
+        [
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)",
+            "K lastKey()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Map.Entry firstEntry()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "K firstKey()"
+        ],
+        [
+            "V remove(Object key)",
+            "NavigableMap tailMap(K fromKey, boolean inclusive)"
+        ],
+        [
+            "V get(Object key)",
+            "Map.Entry ceilingEntry(K key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V get(Object key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "K floorKey(K key)",
+            "K firstKey()"
+        ],
+        [
+            "K higherKey(K key)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "Set entrySet()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Map.Entry lowerEntry(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "NavigableSet navigableKeySet()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "K firstKey()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "K lastKey()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "NavigableMap headMap(K toKey, boolean inclusive)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Map.Entry pollLastEntry()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V remove(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "Map.Entry higherEntry(K key)",
+            "K floorKey(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "K higherKey(K key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "K floorKey(K key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Comparator comparator()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "V remove(Object key)",
+            "Iterator iterator()"
+        ],
+        [
+            "V get(Object key)",
+            "NavigableMap headMap(K toKey, boolean inclusive)"
+        ],
+        [
+            "K lowerKey(K key)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "Map.Entry ceilingEntry(K key)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "K firstKey()"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V remove(Object key)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "V remove(Object key)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "Map.Entry higherEntry(K key)",
+            "K lastKey()"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "V remove(Object key)",
+            "Comparator comparator()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Map.Entry lastEntry()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "K higherKey(K key)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "K firstKey()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "K lastKey()"
+        ],
+        [
+            "V remove(Object key)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Map.Entry firstEntry()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Map.Entry pollFirstEntry()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Map.Entry floorEntry(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "K lastKey()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "Map.Entry lowerEntry(K key)",
+            "K floorKey(K key)"
+        ],
+        [
+            "Map.Entry floorEntry(K key)",
+            "K floorKey(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "K higherKey(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Collection values()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Map.Entry higherEntry(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Map.Entry floorEntry(K key)"
+        ],
+        [
+            "NavigableMap tailMap(K fromKey, boolean inclusive)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)"
+        ],
+        [
+            "NavigableMap tailMap(K fromKey, boolean inclusive)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "V get(Object key)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V remove(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "V get(Object key)",
+            "V remove(Object key)"
+        ],
+        [
+            "V computeIfPresent(K key, BiFunction remappingFunction)",
+            "K lastKey()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "NavigableMap headMap(K toKey, boolean inclusive)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "NavigableMap headMap(K toKey, boolean inclusive)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "K firstKey()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "NavigableMap descendingMap()"
+        ],
+        [
+            "V get(Object key)",
+            "K higherKey(K key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "NavigableMap tailMap(K fromKey, boolean inclusive)"
+        ],
+        [
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "Collection values()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "K floorKey(K key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Map.Entry ceilingEntry(K key)"
+        ],
+        [
+            "V remove(Object key)",
+            "K firstKey()"
+        ],
+        [
+            "K ceilingKey(K key)",
+            "K higherKey(K key)"
+        ],
+        [
+            "V remove(Object key)",
+            "K lastKey()"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "K firstKey()"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "K lastKey()"
+        ],
+        [
+            "K lowerKey(K key)",
+            "K higherKey(K key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "V put(K key, V value)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "Map.Entry lowerEntry(K key)",
+            "K lastKey()"
+        ],
+        [
+            "Map.Entry floorEntry(K key)",
+            "K lastKey()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V put(K key, V value)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V get(Object key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V get(Object key)",
+            "NavigableMap tailMap(K fromKey, boolean inclusive)"
+        ],
+        [
+            "NavigableMap tailMap(K fromKey, boolean inclusive)",
+            "K firstKey()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "NavigableSet descendingKeySet()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "NavigableSet navigableKeySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "Map.Entry pollFirstEntry()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Map.Entry lastEntry()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "NavigableMap headMap(K toKey, boolean inclusive)"
+        ],
+        [
+            "NavigableMap headMap(K toKey, boolean inclusive)",
+            "K firstKey()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "V get(Object key)",
+            "Map.Entry higherEntry(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Set keySet()"
+        ],
+        [
+            "V put(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Iterator iterator()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "NavigableMap headMap(K toKey, boolean inclusive)"
+        ],
+        [
+            "NavigableMap tailMap(K fromKey, boolean inclusive)",
+            "K higherKey(K key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "K lastKey()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Map.Entry floorEntry(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "K floorKey(K key)",
+            "K lastKey()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Map.Entry pollLastEntry()"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Map.Entry firstEntry()"
+        ],
+        [
+            "K higherKey(K key)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "NavigableMap descendingMap()"
+        ],
+        [
+            "NavigableMap headMap(K toKey, boolean inclusive)",
+            "K higherKey(K key)"
+        ],
+        [
+            "V put(K key, V value)",
+            "K firstKey()"
+        ],
+        [
+            "V put(K key, V value)",
+            "K lastKey()"
+        ],
+        [
+            "V remove(Object key)",
+            "Map.Entry lastEntry()"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "K firstKey()"
+        ],
+        [
+            "V get(Object key)",
+            "Iterator iterator()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Map.Entry ceilingEntry(K key)"
+        ],
+        [
+            "V remove(Object key)",
+            "NavigableSet descendingKeySet()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Comparator comparator()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Set entrySet()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "NavigableMap descendingMap()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V remove(Object key)",
+            "Map.Entry floorEntry(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "V put(K key, V value)"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "K higherKey(K key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V remove(Object key)"
+        ],
+        [
+            "V remove(Object key)",
+            "SortedMap tailMap(K fromKey)"
+        ],
+        [
+            "V get(Object key)",
+            "Map.Entry lowerEntry(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "NavigableSet navigableKeySet()"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "K higherKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V get(Object key)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "K higherKey(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V get(Object key)",
+            "SortedMap headMap(K toKey)"
+        ],
+        [
+            "K ceilingKey(K key)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "K higherKey(K key)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "V getOrDefault(Object key, V defaultValue)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Collection values()"
+        ],
+        [
+            "K higherKey(K key)",
+            "K firstKey()"
+        ],
+        [
+            "K higherKey(K key)",
+            "K lastKey()"
+        ],
+        [
+            "V get(Object key)",
+            "Spliterator spliterator()"
+        ],
+        [
+            "V remove(Object key)",
+            "Map.Entry ceilingEntry(K key)"
+        ],
+        [
+            "V putIfAbsent(K key, V value)",
+            "K lastKey()"
+        ],
+        [
+            "V remove(Object key)",
+            "Map.Entry pollLastEntry()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Set keySet()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Collection values()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "K firstKey()"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "K lastKey()"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "NavigableMap headMap(K toKey, boolean inclusive)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "K floorKey(K key)"
+        ],
+        [
+            "SortedMap subMap(K fromKey, K toKey)",
+            "K floorKey(K key)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "NavigableMap tailMap(K fromKey, boolean inclusive)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V computeIfPresent(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "Map.Entry ceilingEntry(K key)",
+            "K ceilingKey(K key)"
+        ],
+        [
+            "Map.Entry ceilingEntry(K key)",
+            "K lowerKey(K key)"
+        ],
+        [
+            "V get(Object key)",
+            "K firstKey()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Map.Entry pollFirstEntry()"
+        ],
+        [
+            "NavigableMap tailMap(K fromKey, boolean inclusive)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V remove(Object key)",
+            "Set keySet()"
+        ],
+        [
+            "K ceilingKey(K key)",
+            "K firstKey()"
+        ],
+        [
+            "K lowerKey(K key)",
+            "K firstKey()"
+        ],
+        [
+            "K lowerKey(K key)",
+            "K lastKey()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "V putIfAbsent(K key, V value)"
+        ],
+        [
+            "NavigableMap headMap(K toKey, boolean inclusive)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Map.Entry higherEntry(K key)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "SortedMap subMap(K fromKey, K toKey)"
+        ],
+        [
+            "V computeIfAbsent(K key, Function mappingFunction)",
+            "K lastKey()"
+        ],
+        [
+            "V remove(Object key)",
+            "Map.Entry firstEntry()"
+        ],
+        [
+            "V merge(K key, V value, BiFunction remappingFunction)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V replace(K key, V value)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "Set entrySet()"
+        ],
+        [
+            "Map.Entry higherEntry(K key)",
+            "K higherKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "V remove(Object key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "NavigableMap descendingMap()"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Iterator iterator()"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V merge(K key, V value, BiFunction remappingFunction)"
+        ],
+        [
+            "V remove(Object key)",
+            "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)"
+        ],
+        [
+            "boolean containsKey(Object key)",
+            "Map.Entry lastEntry()"
+        ],
+        [
+            "V compute(K key, BiFunction remappingFunction)",
+            "K floorKey(K key)"
+        ],
+        [
+            "V getOrDefault(Object key, V defaultValue)",
+            "V computeIfAbsent(K key, Function mappingFunction)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "K higherKey(K key)"
+        ],
+        [
+            "SortedMap headMap(K toKey)",
+            "K floorKey(K key)"
+        ],
+        [
+            "boolean containsValue(Object value)",
+            "Collection values()"
+        ],
+        [
+            "V replace(K key, V value)",
+            "V compute(K key, BiFunction remappingFunction)"
+        ],
+        [
+            "boolean remove(Object key, Object value)",
+            "Map.Entry lowerEntry(K key)"
+        ],
+        [
+            "NavigableMap tailMap(K fromKey, boolean inclusive)",
+            "K lastKey()"
+        ],
+        [
+            "boolean replace(K key, V oldValue, V newValue)",
+            "K floorKey(K key)"
+        ]
+    ]
+}

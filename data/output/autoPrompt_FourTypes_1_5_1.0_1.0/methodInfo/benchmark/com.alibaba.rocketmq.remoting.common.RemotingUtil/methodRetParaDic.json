@@ -1,0 +1,65 @@
+{
+    "void closeChannel(io.netty.channel.Channel channel)": {
+        "return type": "void",
+        "method name": "closeChannel",
+        "parameters": [
+            "io.netty.channel.Channel"
+        ]
+    },
+    "SocketChannel connect(SocketAddress remote)": {
+        "return type": "SocketChannel",
+        "method name": "connect",
+        "parameters": [
+            "SocketAddress"
+        ]
+    },
+    "SocketChannel connect(SocketAddress remote, int timeoutMillis)": {
+        "return type": "SocketChannel",
+        "method name": "connect",
+        "parameters": [
+            "SocketAddress",
+            "int"
+        ]
+    },
+    "String getLocalAddress()": {
+        "return type": "String",
+        "method name": "getLocalAddress",
+        "parameters": []
+    },
+    "boolean isLinuxPlatform()": {
+        "return type": "boolean",
+        "method name": "isLinuxPlatform",
+        "parameters": []
+    },
+    "boolean isWindowsPlatform()": {
+        "return type": "boolean",
+        "method name": "isWindowsPlatform",
+        "parameters": []
+    },
+    "String normalizeHostAddress(InetAddress localHost)": {
+        "return type": "String",
+        "method name": "normalizeHostAddress",
+        "parameters": [
+            "InetAddress"
+        ]
+    },
+    "Selector openSelector()": {
+        "return type": "Selector",
+        "method name": "openSelector",
+        "parameters": []
+    },
+    "String socketAddress2String(SocketAddress addr)": {
+        "return type": "String",
+        "method name": "socketAddress2String",
+        "parameters": [
+            "SocketAddress"
+        ]
+    },
+    "SocketAddress string2SocketAddress(String addr)": {
+        "return type": "SocketAddress",
+        "method name": "string2SocketAddress",
+        "parameters": [
+            "String"
+        ]
+    }
+}

@@ -1,0 +1,584 @@
+{
+    "void addDefault(String path, Object value)": {
+        "return type": "void",
+        "method name": "addDefault",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "void addDefaults(Map<String,Object> defaults)": {
+        "return type": "void",
+        "method name": "addDefaults",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "void addDefaults(Configuration defaults)": {
+        "return type": "void",
+        "method name": "addDefaults",
+        "parameters": [
+            "Configuration"
+        ]
+    },
+    "Configuration getDefaults()": {
+        "return type": "Configuration",
+        "method name": "getDefaults",
+        "parameters": []
+    },
+    "ConfigurationSection getParent()": {
+        "return type": "ConfigurationSection",
+        "method name": "getParent",
+        "parameters": []
+    },
+    "MemoryConfigurationOptions options()": {
+        "return type": "MemoryConfigurationOptions",
+        "method name": "options",
+        "parameters": []
+    },
+    "void setDefaults(Configuration defaults)": {
+        "return type": "void",
+        "method name": "setDefaults",
+        "parameters": [
+            "Configuration"
+        ]
+    },
+    "boolean contains(String path)": {
+        "return type": "boolean",
+        "method name": "contains",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean contains(String path, boolean ignoreDefault)": {
+        "return type": "boolean",
+        "method name": "contains",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "String createPath(ConfigurationSection section, String key)": {
+        "return type": "String",
+        "method name": "createPath",
+        "parameters": [
+            "ConfigurationSection",
+            "String"
+        ]
+    },
+    "String createPath(ConfigurationSection section, String key, ConfigurationSection relativeTo)": {
+        "return type": "String",
+        "method name": "createPath",
+        "parameters": [
+            "ConfigurationSection",
+            "String",
+            "ConfigurationSection"
+        ]
+    },
+    "ConfigurationSection createSection(String path)": {
+        "return type": "ConfigurationSection",
+        "method name": "createSection",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ConfigurationSection createSection(String path, Map<?,?> map)": {
+        "return type": "ConfigurationSection",
+        "method name": "createSection",
+        "parameters": [
+            "String",
+            "Map"
+        ]
+    },
+    "Object get(String path)": {
+        "return type": "Object",
+        "method name": "get",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Object get(String path, Object def)": {
+        "return type": "Object",
+        "method name": "get",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "boolean getBoolean(String path)": {
+        "return type": "boolean",
+        "method name": "getBoolean",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean getBoolean(String path, boolean def)": {
+        "return type": "boolean",
+        "method name": "getBoolean",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "List<Boolean> getBooleanList(String path)": {
+        "return type": "List",
+        "method name": "getBooleanList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List<Byte> getByteList(String path)": {
+        "return type": "List",
+        "method name": "getByteList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List<Character> getCharacterList(String path)": {
+        "return type": "List",
+        "method name": "getCharacterList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Color getColor(String path)": {
+        "return type": "Color",
+        "method name": "getColor",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Color getColor(String path, Color def)": {
+        "return type": "Color",
+        "method name": "getColor",
+        "parameters": [
+            "String",
+            "Color"
+        ]
+    },
+    "List<String> getComments(String path)": {
+        "return type": "List",
+        "method name": "getComments",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ConfigurationSection getConfigurationSection(String path)": {
+        "return type": "ConfigurationSection",
+        "method name": "getConfigurationSection",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getCurrentPath()": {
+        "return type": "String",
+        "method name": "getCurrentPath",
+        "parameters": []
+    },
+    "Object getDefault(String path)": {
+        "return type": "Object",
+        "method name": "getDefault",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ConfigurationSection getDefaultSection()": {
+        "return type": "ConfigurationSection",
+        "method name": "getDefaultSection",
+        "parameters": []
+    },
+    "double getDouble(String path)": {
+        "return type": "double",
+        "method name": "getDouble",
+        "parameters": [
+            "String"
+        ]
+    },
+    "double getDouble(String path, double def)": {
+        "return type": "double",
+        "method name": "getDouble",
+        "parameters": [
+            "String",
+            "double"
+        ]
+    },
+    "List<Double> getDoubleList(String path)": {
+        "return type": "List",
+        "method name": "getDoubleList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List<Float> getFloatList(String path)": {
+        "return type": "List",
+        "method name": "getFloatList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List<String> getInlineComments(String path)": {
+        "return type": "List",
+        "method name": "getInlineComments",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int getInt(String path)": {
+        "return type": "int",
+        "method name": "getInt",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int getInt(String path, int def)": {
+        "return type": "int",
+        "method name": "getInt",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "List<Integer> getIntegerList(String path)": {
+        "return type": "List",
+        "method name": "getIntegerList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ItemStack getItemStack(String path)": {
+        "return type": "ItemStack",
+        "method name": "getItemStack",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ItemStack getItemStack(String path, ItemStack def)": {
+        "return type": "ItemStack",
+        "method name": "getItemStack",
+        "parameters": [
+            "String",
+            "ItemStack"
+        ]
+    },
+    "Set<String> getKeys(boolean deep)": {
+        "return type": "Set",
+        "method name": "getKeys",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "List<?> getList(String path)": {
+        "return type": "List",
+        "method name": "getList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List<?> getList(String path, List<?> def)": {
+        "return type": "List",
+        "method name": "getList",
+        "parameters": [
+            "String",
+            "List"
+        ]
+    },
+    "Location getLocation(String path)": {
+        "return type": "Location",
+        "method name": "getLocation",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Location getLocation(String path, Location def)": {
+        "return type": "Location",
+        "method name": "getLocation",
+        "parameters": [
+            "String",
+            "Location"
+        ]
+    },
+    "long getLong(String path)": {
+        "return type": "long",
+        "method name": "getLong",
+        "parameters": [
+            "String"
+        ]
+    },
+    "long getLong(String path, long def)": {
+        "return type": "long",
+        "method name": "getLong",
+        "parameters": [
+            "String",
+            "long"
+        ]
+    },
+    "List<Long> getLongList(String path)": {
+        "return type": "List",
+        "method name": "getLongList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "List<Map<?,?>> getMapList(String path)": {
+        "return type": "List",
+        "method name": "getMapList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getName()": {
+        "return type": "String",
+        "method name": "getName",
+        "parameters": []
+    },
+    "<T> T getObject(String path, Class<T> clazz)": {
+        "return type": "T",
+        "method name": "getObject",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "<T> T getObject(String path, Class<T> clazz, T def)": {
+        "return type": "T",
+        "method name": "getObject",
+        "parameters": [
+            "String",
+            "Class",
+            "T"
+        ]
+    },
+    "OfflinePlayer getOfflinePlayer(String path)": {
+        "return type": "OfflinePlayer",
+        "method name": "getOfflinePlayer",
+        "parameters": [
+            "String"
+        ]
+    },
+    "OfflinePlayer getOfflinePlayer(String path, OfflinePlayer def)": {
+        "return type": "OfflinePlayer",
+        "method name": "getOfflinePlayer",
+        "parameters": [
+            "String",
+            "OfflinePlayer"
+        ]
+    },
+    "Configuration getRoot()": {
+        "return type": "Configuration",
+        "method name": "getRoot",
+        "parameters": []
+    },
+    "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz)": {
+        "return type": "T",
+        "method name": "getSerializable",
+        "parameters": [
+            "String",
+            "Class"
+        ]
+    },
+    "<T extends ConfigurationSerializable> T getSerializable(String path, Class<T> clazz, T def)": {
+        "return type": "T",
+        "method name": "getSerializable",
+        "parameters": [
+            "String",
+            "Class",
+            "T"
+        ]
+    },
+    "List<Short> getShortList(String path)": {
+        "return type": "List",
+        "method name": "getShortList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getString(String path)": {
+        "return type": "String",
+        "method name": "getString",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getString(String path, String def)": {
+        "return type": "String",
+        "method name": "getString",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "List<String> getStringList(String path)": {
+        "return type": "List",
+        "method name": "getStringList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Map<String,Object> getValues(boolean deep)": {
+        "return type": "Map",
+        "method name": "getValues",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "Vector getVector(String path)": {
+        "return type": "Vector",
+        "method name": "getVector",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Vector getVector(String path, Vector def)": {
+        "return type": "Vector",
+        "method name": "getVector",
+        "parameters": [
+            "String",
+            "Vector"
+        ]
+    },
+    "boolean isBoolean(String path)": {
+        "return type": "boolean",
+        "method name": "isBoolean",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isColor(String path)": {
+        "return type": "boolean",
+        "method name": "isColor",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isConfigurationSection(String path)": {
+        "return type": "boolean",
+        "method name": "isConfigurationSection",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isDouble(String path)": {
+        "return type": "boolean",
+        "method name": "isDouble",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isInt(String path)": {
+        "return type": "boolean",
+        "method name": "isInt",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isItemStack(String path)": {
+        "return type": "boolean",
+        "method name": "isItemStack",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isList(String path)": {
+        "return type": "boolean",
+        "method name": "isList",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isLocation(String path)": {
+        "return type": "boolean",
+        "method name": "isLocation",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isLong(String path)": {
+        "return type": "boolean",
+        "method name": "isLong",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isOfflinePlayer(String path)": {
+        "return type": "boolean",
+        "method name": "isOfflinePlayer",
+        "parameters": [
+            "String"
+        ]
+    },
+    "protected boolean isPrimitiveWrapper(Object input)": {
+        "return type": "protected",
+        "method name": "boolean isPrimitiveWrapper",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "boolean isSet(String path)": {
+        "return type": "boolean",
+        "method name": "isSet",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isString(String path)": {
+        "return type": "boolean",
+        "method name": "isString",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isVector(String path)": {
+        "return type": "boolean",
+        "method name": "isVector",
+        "parameters": [
+            "String"
+        ]
+    },
+    "protected void mapChildrenKeys(Set<String> output, ConfigurationSection section, boolean deep)": {
+        "return type": "protected",
+        "method name": "void mapChildrenKeys",
+        "parameters": [
+            "Set",
+            "ConfigurationSection",
+            "boolean"
+        ]
+    },
+    "protected void mapChildrenValues(Map<String,Object> output, ConfigurationSection section, boolean deep)": {
+        "return type": "protected",
+        "method name": "void mapChildrenValues",
+        "parameters": [
+            "Map",
+            "ConfigurationSection",
+            "boolean"
+        ]
+    },
+    "void set(String path, Object value)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "void setComments(String path, List<String> comments)": {
+        "return type": "void",
+        "method name": "setComments",
+        "parameters": [
+            "String",
+            "List"
+        ]
+    },
+    "void setInlineComments(String path, List<String> comments)": {
+        "return type": "void",
+        "method name": "setInlineComments",
+        "parameters": [
+            "String",
+            "List"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    }
+}

@@ -1,0 +1,828 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector times(Vector that)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector logNormalize()"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector assign(DenseVector vector)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector normalize(double power)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector assign(Vector other, DoubleDoubleFunction function)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector plus(double x)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector normalize(double power)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector logNormalize(double power)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector normalize()"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector times(double x)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector createOptimizedCopy()"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector normalize()"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector times(Vector that)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector logNormalize()"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector assign(DenseVector vector)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector minus(Vector that)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector assign(double value)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector plus(double x)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector minus(Vector that)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector like(int cardinality)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector plus(Vector that)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector logNormalize()"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector assign(DenseVector vector)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector viewPart(int offset, int length)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector assign(Vector other, DoubleDoubleFunction function)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector times(double x)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector logNormalize(double power)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector normalize(double power)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector logNormalize(double power, double normLength)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector like(int cardinality)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector plus(Vector that)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector createOptimizedCopy()"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector viewPart(int offset, int length)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector normalize()"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector logNormalize(double power, double normLength)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector like(int cardinality)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector assign(Vector other, DoubleDoubleFunction function)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector assign(DoubleFunction f)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector assign(DoubleFunction f)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector assign(Vector other)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector divide(double x)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector assign(double value)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector createOptimizedCopy()"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector assign(DoubleFunction f)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector plus(Vector that)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector assign(Vector other)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector times(Vector that)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector viewPart(int offset, int length)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector assign(double[] values)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector logNormalize()"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector assign(DenseVector vector)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector assign(double[] values)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector divide(double x)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector assign(double value)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector assign(double[] values)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector assign(DoubleDoubleFunction f, double y)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector createOptimizedCopy()"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector normalize(double power)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector assign(DoubleDoubleFunction f, double y)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector plus(Vector that)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector normalize()"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector viewPart(int offset, int length)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector assign(Vector other, DoubleDoubleFunction function)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector assign(double value)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector normalize(double power)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector createOptimizedCopy()"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector assign(DoubleFunction f)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector assign(Vector other)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector plus(double x)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector assign(double value)"
+        ],
+        [
+            "Vector assign(DenseVector vector)",
+            "DenseVector like()"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector normalize(double power)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector logNormalize(double power)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector times(double x)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector plus(double x)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector minus(Vector that)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector plus(double x)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector normalize()"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector minus(Vector that)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector assign(DoubleDoubleFunction f, double y)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector times(double x)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector logNormalize(double power)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector normalize(double power)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector createOptimizedCopy()"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector times(double x)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector times(Vector that)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector logNormalize(double power, double normLength)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector assign(DoubleFunction f)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector like(int cardinality)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector assign(DenseVector vector)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector assign(Vector other)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector logNormalize()"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector normalize()"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector logNormalize(double power, double normLength)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector like(int cardinality)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector assign(double value)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector assign(double[] values)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector times(Vector that)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector assign(DoubleFunction f)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector logNormalize()"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector assign(DenseVector vector)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector assign(Vector other)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector normalize()"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector assign(DoubleDoubleFunction f, double y)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector minus(Vector that)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector assign(Vector other, DoubleDoubleFunction function)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector logNormalize()"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector assign(double[] values)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector normalize(double power)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector divide(double x)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector assign(DoubleFunction f)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector assign(Vector other)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector assign(DoubleDoubleFunction f, double y)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector normalize()"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector divide(double x)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector assign(Vector other, DoubleDoubleFunction function)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector plus(Vector that)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector viewPart(int offset, int length)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector logNormalize(double power, double normLength)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector assign(Vector other, DoubleDoubleFunction function)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector assign(double[] values)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector like(int cardinality)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector plus(Vector that)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector assign(DoubleFunction f)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector assign(Vector other)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector assign(DoubleDoubleFunction f, double y)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector viewPart(int offset, int length)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector createOptimizedCopy()"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector plus(double x)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector assign(double[] values)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector plus(double x)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector assign(DoubleDoubleFunction f, double y)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector plus(Vector that)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector viewPart(int offset, int length)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector divide(double x)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector assign(double value)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector createOptimizedCopy()"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector logNormalize(double power, double normLength)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector times(double x)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector like(int cardinality)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector logNormalize(double power)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector times(double x)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector assign(DoubleFunction f)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector logNormalize(double power)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector minus(Vector that)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector assign(double value)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector normalize(double power)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector assign(DoubleDoubleFunction f, double y)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector times(Vector that)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector logNormalize()"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector assign(DenseVector vector)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector plus(double x)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector divide(double x)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector minus(Vector that)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector times(Vector that)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector logNormalize(double power, double normLength)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector normalize(double power)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector like(int cardinality)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector assign(DenseVector vector)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector normalize()"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector minus(Vector that)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector divide(double x)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector logNormalize(double power)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector times(double x)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector normalize()"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector logNormalize(double power, double normLength)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector like(int cardinality)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector assign(Vector other, DoubleDoubleFunction function)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector divide(double x)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector minus(Vector that)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector logNormalize(double power, double normLength)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector plus(double x)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector times(Vector that)"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector logNormalize()"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector assign(DenseVector vector)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector assign(double[] values)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector plus(Vector that)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector assign(DoubleFunction f)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector assign(Vector other)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector plus(Vector that)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector viewPart(int offset, int length)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector viewPart(int offset, int length)"
+        ],
+        [
+            "Vector times(Vector that)",
+            "Vector divide(double x)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector logNormalize(double power)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector times(double x)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector viewPart(int offset, int length)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector logNormalize(double power, double normLength)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector like(int cardinality)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector assign(double[] values)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector assign(Vector other)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector createOptimizedCopy()"
+        ],
+        [
+            "Matrix cross(Vector other)",
+            "Vector assign(Vector other, DoubleDoubleFunction function)"
+        ],
+        [
+            "double getDistanceSquared(Vector that)",
+            "Vector assign(DoubleDoubleFunction f, double y)"
+        ],
+        [
+            "double aggregate(Vector other, DoubleDoubleFunction aggregator, DoubleDoubleFunction combiner)",
+            "Vector logNormalize(double power)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector createOptimizedCopy()"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector plus(double x)"
+        ],
+        [
+            "Vector assign(Vector other, DoubleDoubleFunction function)",
+            "Vector assign(double value)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector times(Vector that)"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector logNormalize()"
+        ],
+        [
+            "Vector minus(Vector that)",
+            "Vector assign(DenseVector vector)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector assign(double[] values)"
+        ],
+        [
+            "double dot(Vector x)",
+            "Vector assign(DoubleDoubleFunction f, double y)"
+        ],
+        [
+            "Vector plus(Vector that)",
+            "Vector assign(double value)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector times(double x)"
+        ],
+        [
+            "void addAll(Vector v)",
+            "Vector logNormalize(double power)"
+        ],
+        [
+            "Vector assign(Vector other)",
+            "Vector divide(double x)"
+        ]
+    ]
+}

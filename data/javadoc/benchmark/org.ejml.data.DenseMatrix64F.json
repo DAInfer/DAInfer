@@ -1,0 +1,28 @@
+{
+    "class": "DenseMatrix64F",
+    "category": "Class",
+    "methods": {
+        "void add(int row, int col, double value)": "Adds 'value' to the specified element in the matrix. aij = aij + value",
+        "DenseMatrix64F copy()": "Creates and returns a matrix which is idential to this one.",
+        "double get(int row, int col)": "Returns the value of the specified matrix element.",
+        "int getIndex(int row, int col)": "Returns the internal array index for the specified row and column.",
+        "int getNumElements()": "Returns the number of elements in this matrix, which is equal to the number of rows times the number of columns.",
+        "boolean isInBounds(int row, int col)": "Determins if the specified element is inside the bounds of the Matrix.",
+        "void print()": "Prints the value of this matrix to the screen.",
+        "void print(String format)": "Prints the value of this matrix to the screen using the same format as {@link java.io.PrintStream#printf).",
+        "void reshape(int numRows, int numCols, boolean saveValues)": "Changes the number of rows and columns in the matrix, allowing its size to grow or shrink.",
+        "void set(int numRows, int numCols, boolean rowMajor, double... data)": "Sets this matrix equal to the matrix encoded in the array.",
+        "void set(int row, int col, double value)": "Assigns the element in the Matrix to the specified value.",
+        "void setReshape(DenseMatrix64F b)": "Sets the value and shape of this matrix to be identical to the specified matrix.",
+        "String toString()": "Converts the array into a string format for display purposes.",
+        "double unsafe_get(int row, int col)": "Same as Matrix64F.get(int, int) but does not perform bounds check on input parameters.",
+        "void unsafe_set(int row, int col, double value)": "Same as Matrix64F.set(int, int, double) but does not perform bounds check on input parameters.",
+        "DenseMatrix64F wrap(int numRows, int numCols, double[] data)": "Creates a new DenseMatrix64F around the provided data.",
+        "void zero()": "Sets all elements equal to zero."
+    },
+    "super class": [
+        "org.ejml.data.RowD1Matrix64F",
+        "org.ejml.data.D1Matrix64F",
+        "org.ejml.data.ReshapeMatrix64F"
+    ]
+}

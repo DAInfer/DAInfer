@@ -1,0 +1,18 @@
+{
+    "class": "SortedMap",
+    "category": "Interface",
+    "methods": {
+        "Comparator comparator()": "Returns the comparator used to order the keys in this map, or null if this map uses the natural ordering of its keys.",
+        "Set entrySet()": "Returns a Set view of the mappings contained in this map.",
+        "K firstKey()": "Returns the first (lowest) key currently in this map.",
+        "SortedMap headMap(K toKey)": "Returns a view of the portion of this map whose keys are strictly less than toKey.",
+        "Set keySet()": "Returns a Set view of the keys contained in this map.",
+        "K lastKey()": "Returns the last (highest) key currently in this map.",
+        "SortedMap subMap(K fromKey, K toKey)": "Returns a view of the portion of this map whose keys range from fromKey, inclusive, to toKey, exclusive.",
+        "SortedMap tailMap(K fromKey)": "Returns a view of the portion of this map whose keys are greater than or equal to fromKey.",
+        "Collection values()": "Returns a Collection view of the values contained in this map."
+    },
+    "super class": [
+        "java.util.Map"
+    ]
+}

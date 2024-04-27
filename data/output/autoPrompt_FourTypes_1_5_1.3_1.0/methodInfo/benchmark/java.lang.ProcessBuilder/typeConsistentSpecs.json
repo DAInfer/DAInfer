@@ -1,0 +1,60 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "ProcessBuilder redirectInput(ProcessBuilder.Redirect source)",
+            "ProcessBuilder.Redirect redirectInput()"
+        ],
+        [
+            "ProcessBuilder redirectOutput(ProcessBuilder.Redirect destination)",
+            "ProcessBuilder.Redirect redirectInput()"
+        ],
+        [
+            "ProcessBuilder redirectError(ProcessBuilder.Redirect destination)",
+            "ProcessBuilder.Redirect redirectError()"
+        ],
+        [
+            "ProcessBuilder directory(File directory)",
+            "File directory()"
+        ],
+        [
+            "ProcessBuilder redirectInput(File file)",
+            "File directory()"
+        ],
+        [
+            "ProcessBuilder command(List command)",
+            "List command()"
+        ],
+        [
+            "ProcessBuilder redirectError(ProcessBuilder.Redirect destination)",
+            "ProcessBuilder.Redirect redirectInput()"
+        ],
+        [
+            "ProcessBuilder redirectOutput(File file)",
+            "File directory()"
+        ],
+        [
+            "ProcessBuilder redirectError(File file)",
+            "File directory()"
+        ],
+        [
+            "ProcessBuilder redirectInput(ProcessBuilder.Redirect source)",
+            "ProcessBuilder.Redirect redirectOutput()"
+        ],
+        [
+            "ProcessBuilder redirectOutput(ProcessBuilder.Redirect destination)",
+            "ProcessBuilder.Redirect redirectOutput()"
+        ],
+        [
+            "ProcessBuilder redirectOutput(ProcessBuilder.Redirect destination)",
+            "ProcessBuilder.Redirect redirectError()"
+        ],
+        [
+            "ProcessBuilder redirectError(ProcessBuilder.Redirect destination)",
+            "ProcessBuilder.Redirect redirectOutput()"
+        ],
+        [
+            "ProcessBuilder redirectInput(ProcessBuilder.Redirect source)",
+            "ProcessBuilder.Redirect redirectError()"
+        ]
+    ]
+}

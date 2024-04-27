@@ -1,0 +1,79 @@
+{
+    "V accumulateAndGet(V x, BinaryOperator accumulatorFunction)": {
+        "return type": "V",
+        "method name": "accumulateAndGet",
+        "parameters": [
+            "V",
+            "BinaryOperator"
+        ]
+    },
+    "boolean compareAndSet(V expect, V update)": {
+        "return type": "boolean",
+        "method name": "compareAndSet",
+        "parameters": [
+            "V",
+            "V"
+        ]
+    },
+    "V get()": {
+        "return type": "V",
+        "method name": "get",
+        "parameters": []
+    },
+    "V getAndAccumulate(V x, BinaryOperator accumulatorFunction)": {
+        "return type": "V",
+        "method name": "getAndAccumulate",
+        "parameters": [
+            "V",
+            "BinaryOperator"
+        ]
+    },
+    "V getAndSet(V newValue)": {
+        "return type": "V",
+        "method name": "getAndSet",
+        "parameters": [
+            "V"
+        ]
+    },
+    "V getAndUpdate(UnaryOperator updateFunction)": {
+        "return type": "V",
+        "method name": "getAndUpdate",
+        "parameters": [
+            "UnaryOperator"
+        ]
+    },
+    "void lazySet(V newValue)": {
+        "return type": "void",
+        "method name": "lazySet",
+        "parameters": [
+            "V"
+        ]
+    },
+    "void set(V newValue)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "V"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "V updateAndGet(UnaryOperator updateFunction)": {
+        "return type": "V",
+        "method name": "updateAndGet",
+        "parameters": [
+            "UnaryOperator"
+        ]
+    },
+    "boolean weakCompareAndSet(V expect, V update)": {
+        "return type": "boolean",
+        "method name": "weakCompareAndSet",
+        "parameters": [
+            "V",
+            "V"
+        ]
+    }
+}

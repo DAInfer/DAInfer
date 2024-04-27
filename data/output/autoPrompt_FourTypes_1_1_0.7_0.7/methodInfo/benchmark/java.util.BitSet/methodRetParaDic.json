@@ -1,0 +1,232 @@
+{
+    "void and(BitSet set)": {
+        "return type": "void",
+        "method name": "and",
+        "parameters": [
+            "BitSet"
+        ]
+    },
+    "void andNot(BitSet set)": {
+        "return type": "void",
+        "method name": "andNot",
+        "parameters": [
+            "BitSet"
+        ]
+    },
+    "int cardinality()": {
+        "return type": "int",
+        "method name": "cardinality",
+        "parameters": []
+    },
+    "void clear()": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": []
+    },
+    "void clear(int bitIndex)": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void clear(int fromIndex, int toIndex)": {
+        "return type": "void",
+        "method name": "clear",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "Object clone()": {
+        "return type": "Object",
+        "method name": "clone",
+        "parameters": []
+    },
+    "boolean equals(Object obj)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "void flip(int bitIndex)": {
+        "return type": "void",
+        "method name": "flip",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void flip(int fromIndex, int toIndex)": {
+        "return type": "void",
+        "method name": "flip",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "boolean get(int bitIndex)": {
+        "return type": "boolean",
+        "method name": "get",
+        "parameters": [
+            "int"
+        ]
+    },
+    "BitSet get(int fromIndex, int toIndex)": {
+        "return type": "BitSet",
+        "method name": "get",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "boolean intersects(BitSet set)": {
+        "return type": "boolean",
+        "method name": "intersects",
+        "parameters": [
+            "BitSet"
+        ]
+    },
+    "boolean isEmpty()": {
+        "return type": "boolean",
+        "method name": "isEmpty",
+        "parameters": []
+    },
+    "int length()": {
+        "return type": "int",
+        "method name": "length",
+        "parameters": []
+    },
+    "int nextClearBit(int fromIndex)": {
+        "return type": "int",
+        "method name": "nextClearBit",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int nextSetBit(int fromIndex)": {
+        "return type": "int",
+        "method name": "nextSetBit",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void or(BitSet set)": {
+        "return type": "void",
+        "method name": "or",
+        "parameters": [
+            "BitSet"
+        ]
+    },
+    "int previousClearBit(int fromIndex)": {
+        "return type": "int",
+        "method name": "previousClearBit",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int previousSetBit(int fromIndex)": {
+        "return type": "int",
+        "method name": "previousSetBit",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void set(int bitIndex)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void set(int bitIndex, boolean value)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "boolean"
+        ]
+    },
+    "void set(int fromIndex, int toIndex)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void set(int fromIndex, int toIndex, boolean value)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "int",
+            "boolean"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "IntStream stream()": {
+        "return type": "IntStream",
+        "method name": "stream",
+        "parameters": []
+    },
+    "byte[] toByteArray()": {
+        "return type": "byte[]",
+        "method name": "toByteArray",
+        "parameters": []
+    },
+    "long[] toLongArray()": {
+        "return type": "long[]",
+        "method name": "toLongArray",
+        "parameters": []
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "BitSet valueOf(byte[] bytes)": {
+        "return type": "BitSet",
+        "method name": "valueOf",
+        "parameters": [
+            "byte[]"
+        ]
+    },
+    "BitSet valueOf(ByteBuffer bb)": {
+        "return type": "BitSet",
+        "method name": "valueOf",
+        "parameters": [
+            "ByteBuffer"
+        ]
+    },
+    "BitSet valueOf(long[] longs)": {
+        "return type": "BitSet",
+        "method name": "valueOf",
+        "parameters": [
+            "long[]"
+        ]
+    },
+    "BitSet valueOf(LongBuffer lb)": {
+        "return type": "BitSet",
+        "method name": "valueOf",
+        "parameters": [
+            "LongBuffer"
+        ]
+    },
+    "void xor(BitSet set)": {
+        "return type": "void",
+        "method name": "xor",
+        "parameters": [
+            "BitSet"
+        ]
+    }
+}

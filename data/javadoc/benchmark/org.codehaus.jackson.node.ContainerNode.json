@@ -1,0 +1,20 @@
+{
+    "class": "ContainerNode",
+    "category": "Class",
+    "methods": {
+        "void appendElement(JsonNode node)": "Appends the specified node to the end of this array node.",
+        "JsonNode getElementValue(int index)": "Method for accessing value of the specified element of an array node.",
+        "JsonNode getFieldValue(String fieldName)": "Method for accessing value of the specified field of an object node.",
+        "String getValueAsText()": "Method that will return valid String representation of the container value, if the node is a value node (method JsonNode.isValueNode() returns true), otherwise null.",
+        "void insertElement(int index, JsonNode value)": "Inserts the specified node at the specified position in this array node.",
+        "boolean isContainerNode()": "Method that returns true for container nodes: Arrays and Objects.",
+        "JsonNode removeElement(int index)": "Removes the element at the specified position in this array node.",
+        "JsonNode removeElement(String fieldName)": "Removes the field with the specified name from this object node.",
+        "JsonNode setElement(int index, JsonNode value)": "Replaces the element at the specified position in this array node with the specified node.",
+        "JsonNode setElement(String fieldName, JsonNode value)": "Replaces the field with the specified name in this object node with the specified value.",
+        "int size()": "Returns the number of child nodes of this container node."
+    },
+    "super class": [
+        "org.codehaus.jackson.map.JsonNode"
+    ]
+}

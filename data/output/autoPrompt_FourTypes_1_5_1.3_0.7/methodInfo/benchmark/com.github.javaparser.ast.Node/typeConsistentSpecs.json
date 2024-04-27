@@ -1,0 +1,476 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node findRootNode()"
+        ],
+        [
+            "boolean containsData(DataKey key)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "boolean removeOrphanComment(Comment comment)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node removeComment()"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "boolean replace(Node node)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "Node setParsed(Node.Parsedness parsed)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node removeComment()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Optional getComment()"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "Node setLineComment(String comment)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node removeComment()"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node findRootNode()"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "List getOrphanComments()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Optional getComment()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Optional getRange()"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node findRootNode()"
+        ],
+        [
+            "boolean isRegistered(AstObserver observer)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Optional getTokenRange()"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "List getAllContainedComments()"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Optional getRange()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Optional findCompilationUnit()"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "List getChildNodesByType(Class clazz)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "Node setRange(Range range)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "void unregister(AstObserver observer)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node removeComment()"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Optional getTokenRange()"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node findRootNode()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "List getAllContainedComments()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Optional findCompilationUnit()"
+        ],
+        [
+            "void setAsParentNodeOf(NodeList list)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void tryAddImportToParentCompilationUnit(Class clazz)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "List getChildNodesByType(Class clazz)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "void addOrphanComment(Comment comment)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "SymbolResolver getSymbolResolver()"
+        ],
+        [
+            "boolean remove(Node node)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "Node setTokenRange(TokenRange tokenRange)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "NodeMetaModel getMetaModel()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node findRootNode()"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "void register(AstObserver observer)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node removeComment()"
+        ],
+        [
+            "Node setParsed(Node.Parsedness parsed)",
+            "Node.Parsedness getParsed()"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node findRootNode()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node removeComment()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Optional getParentNode()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "void register(AstObserver observer, Node.ObserverRegistrationMode mode)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "boolean replace(Node node)",
+            "Node removeComment()"
+        ],
+        [
+            "Node setComment(Comment comment)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "List getChildNodes()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "NodeMetaModel getMetaModel()"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node findRootNode()"
+        ],
+        [
+            "List getChildNodesByType(Class clazz)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Optional getParentNode()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "void registerForSubtree(AstObserver observer)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "List getOrphanComments()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node.Parsedness getParsed()"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "Node setBlockComment(String comment)",
+            "M getData(DataKey key)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setLineComment(String comment)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "List getChildNodes()"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ],
+        [
+            "boolean replace(Node node, Node replacementNode)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "void setAsParentNodeOf(Node childNode)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setTokenRange(TokenRange tokenRange)"
+        ],
+        [
+            "void notifyPropertyChange(ObservableProperty property, P oldValue, P newValue)",
+            "Node setRange(Range range)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setComment(Comment comment)"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setBlockComment(String comment)"
+        ],
+        [
+            "Node setParentNode(Node newParentNode)",
+            "Node getParentNodeForChildren()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "SymbolResolver getSymbolResolver()"
+        ],
+        [
+            "boolean remove(Node node)",
+            "Node setParentNode(Node newParentNode)"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node.Parsedness getParsed()"
+        ],
+        [
+            "void setData(DataKey key, M object)",
+            "Node setParsed(Node.Parsedness parsed)"
+        ]
+    ]
+}

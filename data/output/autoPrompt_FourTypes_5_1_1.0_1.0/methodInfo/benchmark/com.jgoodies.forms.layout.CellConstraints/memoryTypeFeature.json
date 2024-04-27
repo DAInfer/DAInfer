@@ -1,0 +1,50 @@
+{
+    "CellConstraints xyw(int col, int row, int colSpan, String encodedAlignments)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "CellConstraints rchw(int row, int col, int rowSpan, int colSpan, String encodedAlignments)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "CellConstraints xy(int col, int row, String encodedAlignments)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "String toShortString(FormLayout layout)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "String toShortString()": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "CellConstraints rcw(int row, int col, int colSpan, String encodedAlignments)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "CellConstraints xywh(int col, int row, int colSpan, int rowSpan, String encodedAlignments)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "CellConstraints rc(int row, int col, String encodedAlignments)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    }
+}

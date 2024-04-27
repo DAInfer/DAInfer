@@ -1,0 +1,15 @@
+{
+    "class": "AbstractExecutionAwareRequest",
+    "category": "Class",
+    "methods": {
+        "void abort()": "Aborts this http request.",
+        "Object clone()": "",
+        "void completed()": "",
+        "boolean isAborted()": "",
+        "void reset()": "Resets internal state of the request making it reusable.",
+        "void setCancellable(Cancellable cancellable)": "Sets Cancellable for the ongoing operation."
+    },
+    "super class": [
+        "org.apache.http.message.AbstractHttpMessage"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "void addNamedTemplate(String name, CompiledTemplate template)": {
+        "return type": "void",
+        "method name": "addNamedTemplate",
+        "parameters": [
+            "String",
+            "CompiledTemplate"
+        ]
+    },
+    "boolean contains(String name)": {
+        "return type": "boolean",
+        "method name": "contains",
+        "parameters": [
+            "String"
+        ]
+    },
+    "CompiledTemplate getNamedTemplate(String name)": {
+        "return type": "CompiledTemplate",
+        "method name": "getNamedTemplate",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Set<String> getNames()": {
+        "return type": "Set",
+        "method name": "getNames",
+        "parameters": []
+    },
+    "Iterator iterator()": {
+        "return type": "Iterator",
+        "method name": "iterator",
+        "parameters": []
+    }
+}

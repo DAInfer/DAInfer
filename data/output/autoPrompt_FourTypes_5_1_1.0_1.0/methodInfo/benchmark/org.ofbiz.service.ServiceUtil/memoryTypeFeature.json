@@ -1,0 +1,206 @@
+{
+    "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "java.util.Map returnError(java.util.List errorMessageList)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Map returnSuccess(java.util.List successMessageList)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.lang.String getResource()": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Map makeContext(T... args)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.lang.String getErrorMessage(java.util.Map result)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Map returnError(java.lang.String errorMessage)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Map returnFailure(java.util.List errorMessageList)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": true,
+        "insertion upon memory": false
+    },
+    "boolean isError(java.util.Map results)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "boolean isSuccess(java.util.Map results)": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "boolean isFailure(java.util.Map results)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Map returnSuccess(java.lang.String successMessage)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Map returnFailure()": {
+        "memory read": false,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    },
+    "java.util.Map returnFailure(java.lang.String errorMessage)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "void setMessages(HttpServletRequest request, java.lang.String errorMessage, java.lang.String eventMessage, java.lang.String defaultMessage)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.util.Map returnSuccess()": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)": {
+        "memory read": true,
+        "memory write": false,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Map returnMessage(java.lang.String code, java.lang.String message)": {
+        "memory read": false,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": true
+    },
+    "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": false,
+        "insertion upon memory": false
+    },
+    "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)": {
+        "memory read": true,
+        "memory write": true,
+        "deletion upon memory": true,
+        "insertion upon memory": true
+    }
+}

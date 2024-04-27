@@ -1,0 +1,431 @@
+{
+    "void addDocumentListener(IDocumentListener listener)": {
+        "return type": "void",
+        "method name": "addDocumentListener",
+        "parameters": [
+            "IDocumentListener"
+        ]
+    },
+    "void addDocumentPartitioningListener(IDocumentPartitioningListener listener)": {
+        "return type": "void",
+        "method name": "addDocumentPartitioningListener",
+        "parameters": [
+            "IDocumentPartitioningListener"
+        ]
+    },
+    "void addPosition(Position position)": {
+        "return type": "void",
+        "method name": "addPosition",
+        "parameters": [
+            "Position"
+        ]
+    },
+    "void addPosition(String category, Position position)": {
+        "return type": "void",
+        "method name": "addPosition",
+        "parameters": [
+            "String",
+            "Position"
+        ]
+    },
+    "void addPositionCategory(String category)": {
+        "return type": "void",
+        "method name": "addPositionCategory",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void addPositionUpdater(IPositionUpdater updater)": {
+        "return type": "void",
+        "method name": "addPositionUpdater",
+        "parameters": [
+            "IPositionUpdater"
+        ]
+    },
+    "void addPrenotifiedDocumentListener(IDocumentListener listener)": {
+        "return type": "void",
+        "method name": "addPrenotifiedDocumentListener",
+        "parameters": [
+            "IDocumentListener"
+        ]
+    },
+    "void completeInitialization()": {
+        "return type": "void",
+        "method name": "completeInitialization",
+        "parameters": []
+    },
+    "int computeIndexInCategory(String category, int offset)": {
+        "return type": "int",
+        "method name": "computeIndexInCategory",
+        "parameters": [
+            "String",
+            "int"
+        ]
+    },
+    "int computeIndexInPositionList(List positions, int offset)": {
+        "return type": "int",
+        "method name": "computeIndexInPositionList",
+        "parameters": [
+            "List",
+            "int"
+        ]
+    },
+    "int computeNumberOfLines(String text)": {
+        "return type": "int",
+        "method name": "computeNumberOfLines",
+        "parameters": [
+            "String"
+        ]
+    },
+    "ITypedRegion[] computePartitioning(int offset, int length)": {
+        "return type": "ITypedRegion[]",
+        "method name": "computePartitioning",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "boolean containsPosition(String category, int offset, int length)": {
+        "return type": "boolean",
+        "method name": "containsPosition",
+        "parameters": [
+            "String",
+            "int",
+            "int"
+        ]
+    },
+    "boolean containsPositionCategory(String category)": {
+        "return type": "boolean",
+        "method name": "containsPositionCategory",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void fireDocumentAboutToBeChanged(DocumentEvent event)": {
+        "return type": "void",
+        "method name": "fireDocumentAboutToBeChanged",
+        "parameters": [
+            "DocumentEvent"
+        ]
+    },
+    "void fireDocumentChanged(DocumentEvent event)": {
+        "return type": "void",
+        "method name": "fireDocumentChanged",
+        "parameters": [
+            "DocumentEvent"
+        ]
+    },
+    "void fireDocumentPartitioningChanged()": {
+        "return type": "void",
+        "method name": "fireDocumentPartitioningChanged",
+        "parameters": []
+    },
+    "void fireDocumentPartitioningChanged(IRegion region)": {
+        "return type": "void",
+        "method name": "fireDocumentPartitioningChanged",
+        "parameters": [
+            "IRegion"
+        ]
+    },
+    "String get()": {
+        "return type": "String",
+        "method name": "get",
+        "parameters": []
+    },
+    "String get(int pos, int length)": {
+        "return type": "String",
+        "method name": "get",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "char getChar(int pos)": {
+        "return type": "char",
+        "method name": "getChar",
+        "parameters": [
+            "int"
+        ]
+    },
+    "String getContentType(int offset)": {
+        "return type": "String",
+        "method name": "getContentType",
+        "parameters": [
+            "int"
+        ]
+    },
+    "List getDocumentListeners()": {
+        "return type": "List",
+        "method name": "getDocumentListeners",
+        "parameters": []
+    },
+    "Map getDocumentManagedPositions()": {
+        "return type": "Map",
+        "method name": "getDocumentManagedPositions",
+        "parameters": []
+    },
+    "IDocumentPartitioner getDocumentPartitioner()": {
+        "return type": "IDocumentPartitioner",
+        "method name": "getDocumentPartitioner",
+        "parameters": []
+    },
+    "List getDocumentPartitioningListeners()": {
+        "return type": "List",
+        "method name": "getDocumentPartitioningListeners",
+        "parameters": []
+    },
+    "String[] getLegalContentTypes()": {
+        "return type": "String[]",
+        "method name": "getLegalContentTypes",
+        "parameters": []
+    },
+    "String[] getLegalLineDelimiters()": {
+        "return type": "String[]",
+        "method name": "getLegalLineDelimiters",
+        "parameters": []
+    },
+    "int getLength()": {
+        "return type": "int",
+        "method name": "getLength",
+        "parameters": []
+    },
+    "String getLineDelimiter(int line)": {
+        "return type": "String",
+        "method name": "getLineDelimiter",
+        "parameters": [
+            "int"
+        ]
+    },
+    "IRegion getLineInformation(int line)": {
+        "return type": "IRegion",
+        "method name": "getLineInformation",
+        "parameters": [
+            "int"
+        ]
+    },
+    "IRegion getLineInformationOfOffset(int offset)": {
+        "return type": "IRegion",
+        "method name": "getLineInformationOfOffset",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int getLineLength(int line)": {
+        "return type": "int",
+        "method name": "getLineLength",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int getLineOffset(int line)": {
+        "return type": "int",
+        "method name": "getLineOffset",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int getLineOfOffset(int pos)": {
+        "return type": "int",
+        "method name": "getLineOfOffset",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int getNumberOfLines()": {
+        "return type": "int",
+        "method name": "getNumberOfLines",
+        "parameters": []
+    },
+    "int getNumberOfLines(int offset, int length)": {
+        "return type": "int",
+        "method name": "getNumberOfLines",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "ITypedRegion getPartition(int offset)": {
+        "return type": "ITypedRegion",
+        "method name": "getPartition",
+        "parameters": [
+            "int"
+        ]
+    },
+    "String[] getPositionCategories()": {
+        "return type": "String[]",
+        "method name": "getPositionCategories",
+        "parameters": []
+    },
+    "Position[] getPositions(String category)": {
+        "return type": "Position[]",
+        "method name": "getPositions",
+        "parameters": [
+            "String"
+        ]
+    },
+    "IPositionUpdater[] getPositionUpdaters()": {
+        "return type": "IPositionUpdater[]",
+        "method name": "getPositionUpdaters",
+        "parameters": []
+    },
+    "ITextStore getStore()": {
+        "return type": "ITextStore",
+        "method name": "getStore",
+        "parameters": []
+    },
+    "ILineTracker getTracker()": {
+        "return type": "ILineTracker",
+        "method name": "getTracker",
+        "parameters": []
+    },
+    "void insertPositionUpdater(IPositionUpdater updater, int index)": {
+        "return type": "void",
+        "method name": "insertPositionUpdater",
+        "parameters": [
+            "IPositionUpdater",
+            "int"
+        ]
+    },
+    "void registerPostNotificationReplace(IDocumentListener owner, IDocumentExtension.IReplace replace)": {
+        "return type": "void",
+        "method name": "registerPostNotificationReplace",
+        "parameters": [
+            "IDocumentListener",
+            "IDocumentExtension.IReplace"
+        ]
+    },
+    "void removeDocumentListener(IDocumentListener listener)": {
+        "return type": "void",
+        "method name": "removeDocumentListener",
+        "parameters": [
+            "IDocumentListener"
+        ]
+    },
+    "void removeDocumentPartitioningListener(IDocumentPartitioningListener listener)": {
+        "return type": "void",
+        "method name": "removeDocumentPartitioningListener",
+        "parameters": [
+            "IDocumentPartitioningListener"
+        ]
+    },
+    "void removePosition(Position position)": {
+        "return type": "void",
+        "method name": "removePosition",
+        "parameters": [
+            "Position"
+        ]
+    },
+    "void removePosition(String category, Position position)": {
+        "return type": "void",
+        "method name": "removePosition",
+        "parameters": [
+            "String",
+            "Position"
+        ]
+    },
+    "void removePositionCategory(String category)": {
+        "return type": "void",
+        "method name": "removePositionCategory",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void removePositionUpdater(IPositionUpdater updater)": {
+        "return type": "void",
+        "method name": "removePositionUpdater",
+        "parameters": [
+            "IPositionUpdater"
+        ]
+    },
+    "void removePrenotifiedDocumentListener(IDocumentListener listener)": {
+        "return type": "void",
+        "method name": "removePrenotifiedDocumentListener",
+        "parameters": [
+            "IDocumentListener"
+        ]
+    },
+    "void replace(int pos, int length, String text)": {
+        "return type": "void",
+        "method name": "replace",
+        "parameters": [
+            "int",
+            "int",
+            "String"
+        ]
+    },
+    "void resumePostNotificationProcessing()": {
+        "return type": "void",
+        "method name": "resumePostNotificationProcessing",
+        "parameters": []
+    },
+    "int search(int startPosition, String findString, boolean forwardSearch, boolean caseSensitive, boolean wholeWord)": {
+        "return type": "int",
+        "method name": "search",
+        "parameters": [
+            "int",
+            "String",
+            "boolean",
+            "boolean",
+            "boolean"
+        ]
+    },
+    "void set(String text)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setDocumentPartitioner(IDocumentPartitioner partitioner)": {
+        "return type": "void",
+        "method name": "setDocumentPartitioner",
+        "parameters": [
+            "IDocumentPartitioner"
+        ]
+    },
+    "void setLineTracker(ILineTracker tracker)": {
+        "return type": "void",
+        "method name": "setLineTracker",
+        "parameters": [
+            "ILineTracker"
+        ]
+    },
+    "void setTextStore(ITextStore store)": {
+        "return type": "void",
+        "method name": "setTextStore",
+        "parameters": [
+            "ITextStore"
+        ]
+    },
+    "void startSequentialRewrite(boolean normalized)": {
+        "return type": "void",
+        "method name": "startSequentialRewrite",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void stopPostNotificationProcessing()": {
+        "return type": "void",
+        "method name": "stopPostNotificationProcessing",
+        "parameters": []
+    },
+    "void stopSequentialRewrite()": {
+        "return type": "void",
+        "method name": "stopSequentialRewrite",
+        "parameters": []
+    },
+    "void updateDocumentStructures(DocumentEvent event)": {
+        "return type": "void",
+        "method name": "updateDocumentStructures",
+        "parameters": [
+            "DocumentEvent"
+        ]
+    },
+    "void updatePositions(DocumentEvent event)": {
+        "return type": "void",
+        "method name": "updatePositions",
+        "parameters": [
+            "DocumentEvent"
+        ]
+    }
+}

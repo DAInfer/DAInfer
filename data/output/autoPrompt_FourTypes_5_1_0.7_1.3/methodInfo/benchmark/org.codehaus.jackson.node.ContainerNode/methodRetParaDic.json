@@ -1,0 +1,76 @@
+{
+    "void appendElement(JsonNode node)": {
+        "return type": "void",
+        "method name": "appendElement",
+        "parameters": [
+            "JsonNode"
+        ]
+    },
+    "JsonNode getElementValue(int index)": {
+        "return type": "JsonNode",
+        "method name": "getElementValue",
+        "parameters": [
+            "int"
+        ]
+    },
+    "JsonNode getFieldValue(String fieldName)": {
+        "return type": "JsonNode",
+        "method name": "getFieldValue",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getValueAsText()": {
+        "return type": "String",
+        "method name": "getValueAsText",
+        "parameters": []
+    },
+    "void insertElement(int index, JsonNode value)": {
+        "return type": "void",
+        "method name": "insertElement",
+        "parameters": [
+            "int",
+            "JsonNode"
+        ]
+    },
+    "boolean isContainerNode()": {
+        "return type": "boolean",
+        "method name": "isContainerNode",
+        "parameters": []
+    },
+    "JsonNode removeElement(int index)": {
+        "return type": "JsonNode",
+        "method name": "removeElement",
+        "parameters": [
+            "int"
+        ]
+    },
+    "JsonNode removeElement(String fieldName)": {
+        "return type": "JsonNode",
+        "method name": "removeElement",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JsonNode setElement(int index, JsonNode value)": {
+        "return type": "JsonNode",
+        "method name": "setElement",
+        "parameters": [
+            "int",
+            "JsonNode"
+        ]
+    },
+    "JsonNode setElement(String fieldName, JsonNode value)": {
+        "return type": "JsonNode",
+        "method name": "setElement",
+        "parameters": [
+            "String",
+            "JsonNode"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    }
+}

@@ -1,0 +1,1960 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "java.util.Map returnError(java.lang.String errorMessage)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnFailure(java.lang.String errorMessage)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.util.Map returnSuccess(java.lang.String successMessage)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "void setMessages(HttpServletRequest request, java.lang.String errorMessage, java.lang.String eventMessage, java.lang.String defaultMessage)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map returnSuccess(java.lang.String successMessage)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map returnFailure(java.lang.String errorMessage)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.util.Map returnSuccess(java.lang.String successMessage)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map returnFailure(java.lang.String errorMessage)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.util.Map returnSuccess(java.lang.String successMessage)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "void setMessages(HttpServletRequest request, java.lang.String errorMessage, java.lang.String eventMessage, java.lang.String defaultMessage)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.util.Map returnSuccess(java.lang.String successMessage)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map returnFailure(java.lang.String errorMessage)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "void setMessages(HttpServletRequest request, java.lang.String errorMessage, java.lang.String eventMessage, java.lang.String defaultMessage)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "java.util.Map returnSuccess(java.lang.String successMessage)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.util.Map returnFailure(java.lang.String errorMessage)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.util.Map returnFailure(java.lang.String errorMessage)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "void setMessages(HttpServletRequest request, java.lang.String errorMessage, java.lang.String eventMessage, java.lang.String defaultMessage)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "void setMessages(HttpServletRequest request, java.lang.String errorMessage, java.lang.String eventMessage, java.lang.String defaultMessage)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "java.util.Map returnFailure(java.lang.String errorMessage)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure(java.lang.String errorMessage)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess(java.util.List successMessageList)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "void getMessages(HttpServletRequest request, java.util.Map result, java.lang.String defaultMessage, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.lang.String makeMessageList(java.util.List msgList, java.lang.String msgPrefix, java.lang.String msgSuffix)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.lang.String getErrorMessage(java.util.Map result)"
+        ],
+        [
+            "void setMessages(HttpServletRequest request, java.lang.String errorMessage, java.lang.String eventMessage, java.lang.String defaultMessage)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)",
+            "java.lang.String getResource()"
+        ],
+        [
+            "boolean isError(java.util.Map results)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnFailure()"
+        ],
+        [
+            "java.util.Map cancelJobRetries(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)",
+            "java.util.Map returnFailure(java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)",
+            "java.util.Map returnSuccess(java.lang.String successMessage)"
+        ],
+        [
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnSuccess()"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.lang.String makeErrorMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String errorPrefix, java.lang.String errorSuffix)"
+        ],
+        [
+            "java.util.Map returnSuccess(java.lang.String successMessage)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)"
+        ],
+        [
+            "void addErrors(java.util.List targetList, java.util.Map targetMap, java.util.Map callResult)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "GenericValue getUserLogin(DispatchContext dctx, java.util.Map context, java.lang.String runAsUser)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)"
+        ],
+        [
+            "void setMessages(HttpServletRequest request, java.lang.String errorMessage, java.lang.String eventMessage, java.lang.String defaultMessage)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation, java.lang.String adminSecEntity, java.lang.String adminSecOperation)"
+        ],
+        [
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map returnError(java.util.List errorMessageList)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)",
+            "java.util.Map makeContext(T... args)"
+        ],
+        [
+            "boolean isSuccess(java.util.Map results)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)",
+            "java.lang.String makeSuccessMessage(java.util.Map result, java.lang.String msgPrefix, java.lang.String msgSuffix, java.lang.String successPrefix, java.lang.String successSuffix)"
+        ],
+        [
+            "java.util.Map purgeOldJobs(DispatchContext dctx, java.util.Map context)",
+            "java.util.Map resetJob(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "java.lang.String getErrorMessage(java.util.Map result)",
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map genericDateCondition(DispatchContext dctx, java.util.Map context)"
+        ],
+        [
+            "boolean isFailure(java.util.Map results)",
+            "java.util.Map returnError(java.lang.String errorMessage, java.util.List errorMessageList)"
+        ],
+        [
+            "java.util.Map returnMessage(java.lang.String code, java.lang.String message)",
+            "java.lang.String getPartyIdCheckSecurity(GenericValue userLogin, Security security, java.util.Map context, java.util.Map result, java.lang.String secEntity, java.lang.String secOperation)"
+        ],
+        [
+            "java.util.Map returnProblem(java.lang.String returnType, java.lang.String errorMessage, java.util.List errorMessageList, java.util.Map errorMessageMap, java.util.Map nestedResult)",
+            "java.util.Map returnError(java.lang.String errorMessage)"
+        ],
+        [
+            "java.util.Map setServiceFields(LocalDispatcher dispatcher, java.lang.String serviceName, java.util.Map fromMap, GenericValue userLogin, java.util.TimeZone timeZone, java.util.Locale locale)",
+            "java.util.Map cancelJob(DispatchContext dctx, java.util.Map context)"
+        ]
+    ]
+}

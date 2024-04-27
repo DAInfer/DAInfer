@@ -1,0 +1,532 @@
+{
+    "JsonObject clear()": {
+        "return type": "JsonObject",
+        "method name": "clear",
+        "parameters": []
+    },
+    "boolean containsKey(String key)": {
+        "return type": "boolean",
+        "method name": "containsKey",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JsonObject copy()": {
+        "return type": "JsonObject",
+        "method name": "copy",
+        "parameters": []
+    },
+    "JsonObject copy(java.util.function.Function cloner)": {
+        "return type": "JsonObject",
+        "method name": "copy",
+        "parameters": [
+            "java.util.function.Function"
+        ]
+    },
+    "String encode()": {
+        "return type": "String",
+        "method name": "encode",
+        "parameters": []
+    },
+    "String encodePrettily()": {
+        "return type": "String",
+        "method name": "encodePrettily",
+        "parameters": []
+    },
+    "boolean equals(Object o)": {
+        "return type": "boolean",
+        "method name": "equals",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "Set fieldNames()": {
+        "return type": "Set",
+        "method name": "fieldNames",
+        "parameters": []
+    },
+    "byte[] getBinary(String key)": {
+        "return type": "byte[]",
+        "method name": "getBinary",
+        "parameters": [
+            "String"
+        ]
+    },
+    "byte[] getBinary(String key, byte[] def)": {
+        "return type": "byte[]",
+        "method name": "getBinary",
+        "parameters": [
+            "String",
+            "byte[]"
+        ]
+    },
+    "Boolean getBoolean(String key)": {
+        "return type": "Boolean",
+        "method name": "getBoolean",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Boolean getBoolean(String key, Boolean def)": {
+        "return type": "Boolean",
+        "method name": "getBoolean",
+        "parameters": [
+            "String",
+            "Boolean"
+        ]
+    },
+    "Buffer getBuffer(String key)": {
+        "return type": "Buffer",
+        "method name": "getBuffer",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Buffer getBuffer(String key, Buffer def)": {
+        "return type": "Buffer",
+        "method name": "getBuffer",
+        "parameters": [
+            "String",
+            "Buffer"
+        ]
+    },
+    "Double getDouble(String key)": {
+        "return type": "Double",
+        "method name": "getDouble",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Double getDouble(String key, Double def)": {
+        "return type": "Double",
+        "method name": "getDouble",
+        "parameters": [
+            "String",
+            "Double"
+        ]
+    },
+    "Float getFloat(String key)": {
+        "return type": "Float",
+        "method name": "getFloat",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Float getFloat(String key, Float def)": {
+        "return type": "Float",
+        "method name": "getFloat",
+        "parameters": [
+            "String",
+            "Float"
+        ]
+    },
+    "java.time.Instant getInstant(String key)": {
+        "return type": "java.time.Instant",
+        "method name": "getInstant",
+        "parameters": [
+            "String"
+        ]
+    },
+    "java.time.Instant getInstant(String key, java.time.Instant def)": {
+        "return type": "java.time.Instant",
+        "method name": "getInstant",
+        "parameters": [
+            "String",
+            "java.time.Instant"
+        ]
+    },
+    "Integer getInteger(String key)": {
+        "return type": "Integer",
+        "method name": "getInteger",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Integer getInteger(String key, Integer def)": {
+        "return type": "Integer",
+        "method name": "getInteger",
+        "parameters": [
+            "String",
+            "Integer"
+        ]
+    },
+    "JsonArray getJsonArray(String key)": {
+        "return type": "JsonArray",
+        "method name": "getJsonArray",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JsonArray getJsonArray(String key, JsonArray def)": {
+        "return type": "JsonArray",
+        "method name": "getJsonArray",
+        "parameters": [
+            "String",
+            "JsonArray"
+        ]
+    },
+    "JsonObject getJsonObject(String key)": {
+        "return type": "JsonObject",
+        "method name": "getJsonObject",
+        "parameters": [
+            "String"
+        ]
+    },
+    "JsonObject getJsonObject(String key, JsonObject def)": {
+        "return type": "JsonObject",
+        "method name": "getJsonObject",
+        "parameters": [
+            "String",
+            "JsonObject"
+        ]
+    },
+    "Long getLong(String key)": {
+        "return type": "Long",
+        "method name": "getLong",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Long getLong(String key, Long def)": {
+        "return type": "Long",
+        "method name": "getLong",
+        "parameters": [
+            "String",
+            "Long"
+        ]
+    },
+    "Map getMap()": {
+        "return type": "Map",
+        "method name": "getMap",
+        "parameters": []
+    },
+    "Number getNumber(String key)": {
+        "return type": "Number",
+        "method name": "getNumber",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Number getNumber(String key, Number def)": {
+        "return type": "Number",
+        "method name": "getNumber",
+        "parameters": [
+            "String",
+            "Number"
+        ]
+    },
+    "String getString(String key)": {
+        "return type": "String",
+        "method name": "getString",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String getString(String key, String def)": {
+        "return type": "String",
+        "method name": "getString",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "Object getValue(String key)": {
+        "return type": "Object",
+        "method name": "getValue",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Object getValue(String key, Object def)": {
+        "return type": "Object",
+        "method name": "getValue",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "int hashCode()": {
+        "return type": "int",
+        "method name": "hashCode",
+        "parameters": []
+    },
+    "boolean isEmpty()": {
+        "return type": "boolean",
+        "method name": "isEmpty",
+        "parameters": []
+    },
+    "Iterator iterator()": {
+        "return type": "Iterator",
+        "method name": "iterator",
+        "parameters": []
+    },
+    "JsonObject mapFrom(Object obj)": {
+        "return type": "JsonObject",
+        "method name": "mapFrom",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "T mapTo(Class type)": {
+        "return type": "T",
+        "method name": "mapTo",
+        "parameters": [
+            "Class"
+        ]
+    },
+    "JsonObject mergeIn(JsonObject other)": {
+        "return type": "JsonObject",
+        "method name": "mergeIn",
+        "parameters": [
+            "JsonObject"
+        ]
+    },
+    "JsonObject mergeIn(JsonObject other, boolean deep)": {
+        "return type": "JsonObject",
+        "method name": "mergeIn",
+        "parameters": [
+            "JsonObject",
+            "boolean"
+        ]
+    },
+    "JsonObject mergeIn(JsonObject other, int depth)": {
+        "return type": "JsonObject",
+        "method name": "mergeIn",
+        "parameters": [
+            "JsonObject",
+            "int"
+        ]
+    },
+    "JsonObject of()": {
+        "return type": "JsonObject",
+        "method name": "of",
+        "parameters": []
+    },
+    "JsonObject of(String k1, Object v1)": {
+        "return type": "JsonObject",
+        "method name": "of",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "JsonObject of(String k1, Object v1, String k2, Object v2)": {
+        "return type": "JsonObject",
+        "method name": "of",
+        "parameters": [
+            "String",
+            "Object",
+            "String",
+            "Object"
+        ]
+    },
+    "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3)": {
+        "return type": "JsonObject",
+        "method name": "of",
+        "parameters": [
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object"
+        ]
+    },
+    "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4)": {
+        "return type": "JsonObject",
+        "method name": "of",
+        "parameters": [
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object"
+        ]
+    },
+    "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5)": {
+        "return type": "JsonObject",
+        "method name": "of",
+        "parameters": [
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object"
+        ]
+    },
+    "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6)": {
+        "return type": "JsonObject",
+        "method name": "of",
+        "parameters": [
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object"
+        ]
+    },
+    "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7)": {
+        "return type": "JsonObject",
+        "method name": "of",
+        "parameters": [
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object"
+        ]
+    },
+    "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8)": {
+        "return type": "JsonObject",
+        "method name": "of",
+        "parameters": [
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object"
+        ]
+    },
+    "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9)": {
+        "return type": "JsonObject",
+        "method name": "of",
+        "parameters": [
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object"
+        ]
+    },
+    "JsonObject of(String k1, Object v1, String k2, Object v2, String k3, Object v3, String k4, Object v4, String k5, Object v5, String k6, Object v6, String k7, Object v7, String k8, Object v8, String k9, Object v9, String k10, Object v10)": {
+        "return type": "JsonObject",
+        "method name": "of",
+        "parameters": [
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object",
+            "String",
+            "Object"
+        ]
+    },
+    "JsonObject put(String key, Object value)": {
+        "return type": "JsonObject",
+        "method name": "put",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "JsonObject putNull(String key)": {
+        "return type": "JsonObject",
+        "method name": "putNull",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int readFromBuffer(int pos, Buffer buffer)": {
+        "return type": "int",
+        "method name": "readFromBuffer",
+        "parameters": [
+            "int",
+            "Buffer"
+        ]
+    },
+    "Object remove(String key)": {
+        "return type": "Object",
+        "method name": "remove",
+        "parameters": [
+            "String"
+        ]
+    },
+    "int size()": {
+        "return type": "int",
+        "method name": "size",
+        "parameters": []
+    },
+    "java.util.stream.Stream stream()": {
+        "return type": "java.util.stream.Stream",
+        "method name": "stream",
+        "parameters": []
+    },
+    "Buffer toBuffer()": {
+        "return type": "Buffer",
+        "method name": "toBuffer",
+        "parameters": []
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "void writeToBuffer(Buffer buffer)": {
+        "return type": "void",
+        "method name": "writeToBuffer",
+        "parameters": [
+            "Buffer"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "class": "JSONObject",
+    "category": "Class",
+    "methods": {
+        "java.lang.String escape(java.lang.String s)": "Escape quotes, \\, /, \\r, \\n, \\b, \\f, \\t and other control characters (U+0000 through U+001F).",
+        "java.lang.String toJSONString()": "",
+        "java.lang.String toJSONString(java.util.Map map)": "Convert a map to JSON text.",
+        "java.lang.String toString()": "",
+        "java.lang.String toString(java.lang.String key, java.lang.Object value)": "",
+        "void writeJSONString(java.util.Map map, java.io.Writer out)": "Encode a map into JSON text and write it to out.",
+        "void writeJSONString(java.io.Writer out)": "write JSON string to out."
+    },
+    "super class": [
+        "java.util.HashMap"
+    ]
+}

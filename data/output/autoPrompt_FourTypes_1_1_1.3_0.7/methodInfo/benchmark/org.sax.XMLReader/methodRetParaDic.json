@@ -1,0 +1,94 @@
+{
+    "ContentHandler getContentHandler()": {
+        "return type": "ContentHandler",
+        "method name": "getContentHandler",
+        "parameters": []
+    },
+    "DTDHandler getDTDHandler()": {
+        "return type": "DTDHandler",
+        "method name": "getDTDHandler",
+        "parameters": []
+    },
+    "EntityResolver getEntityResolver()": {
+        "return type": "EntityResolver",
+        "method name": "getEntityResolver",
+        "parameters": []
+    },
+    "ErrorHandler getErrorHandler()": {
+        "return type": "ErrorHandler",
+        "method name": "getErrorHandler",
+        "parameters": []
+    },
+    "boolean getFeature(String name)": {
+        "return type": "boolean",
+        "method name": "getFeature",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Object getProperty(String name)": {
+        "return type": "Object",
+        "method name": "getProperty",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void parse(InputSource input)": {
+        "return type": "void",
+        "method name": "parse",
+        "parameters": [
+            "InputSource"
+        ]
+    },
+    "void parse(String systemId)": {
+        "return type": "void",
+        "method name": "parse",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setContentHandler(ContentHandler handler)": {
+        "return type": "void",
+        "method name": "setContentHandler",
+        "parameters": [
+            "ContentHandler"
+        ]
+    },
+    "void setDTDHandler(DTDHandler handler)": {
+        "return type": "void",
+        "method name": "setDTDHandler",
+        "parameters": [
+            "DTDHandler"
+        ]
+    },
+    "void setEntityResolver(EntityResolver resolver)": {
+        "return type": "void",
+        "method name": "setEntityResolver",
+        "parameters": [
+            "EntityResolver"
+        ]
+    },
+    "void setErrorHandler(ErrorHandler handler)": {
+        "return type": "void",
+        "method name": "setErrorHandler",
+        "parameters": [
+            "ErrorHandler"
+        ]
+    },
+    "void setFeature(String name, boolean value)": {
+        "return type": "void",
+        "method name": "setFeature",
+        "parameters": [
+            "String",
+            "boolean"
+        ]
+    },
+    "void setProperty(String name, Object value)": {
+        "return type": "void",
+        "method name": "setProperty",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    }
+}

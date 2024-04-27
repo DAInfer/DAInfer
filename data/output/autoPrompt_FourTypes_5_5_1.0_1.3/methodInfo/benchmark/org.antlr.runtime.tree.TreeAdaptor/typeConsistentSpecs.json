@@ -1,0 +1,1848 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "String getText(Object t)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object create(Token payload)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object nil()"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "String getText(Object t)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object nil()"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object nil()"
+        ],
+        [
+            "String getText(Object t)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "String getText(Object t)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object nil()"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "String getText(Object t)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object nil()"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object create(Token payload)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object nil()"
+        ],
+        [
+            "String getText(Object t)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object create(Token payload)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "String getText(Object t)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "String getText(Object t)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object nil()"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object nil()"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object create(Token payload)"
+        ],
+        [
+            "String getText(Object t)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object nil()"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "String getText(Object t)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "String getText(Object t)",
+            "Object nil()"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "String getText(Object t)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object create(Token payload)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object nil()"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "String getText(Object t)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "String getText(Object t)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object nil()"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object create(Token payload)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object nil()"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object create(Token payload)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object create(Token payload)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "String getText(Object t)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "String getText(Object t)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object create(Token payload)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "String getText(Object t)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object nil()"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "int getType(Object t)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "String getText(Object t)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "String getText(Object t)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "int getType(Object t)",
+            "String getText(Object t)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "String getText(Object t)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object create(Token payload)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object nil()"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object nil()"
+        ],
+        [
+            "int getType(Object t)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object nil()"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object nil()"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "String getText(Object t)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "String getText(Object t)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "String getText(Object t)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "String getText(Object t)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "String getText(Object t)"
+        ],
+        [
+            "String getText(Object t)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "String getText(Object t)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "String getText(Object t)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object nil()"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "String getText(Object t)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object create(Token payload)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object nil()"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object nil()"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object create(Token payload)"
+        ],
+        [
+            "void setType(Object t, int type)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object nil()"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object nil()"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object nil()"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "String getText(Object t)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "int getTokenStopIndex(Object t)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "String getText(Object t)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object create(Token payload)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object nil()"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object deleteChild(Object t, int i)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "String getText(Object t)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "int getTokenStartIndex(Object t)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object nil()"
+        ],
+        [
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object nil()"
+        ],
+        [
+            "int getChildIndex(Object t)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "String getText(Object t)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "Object getChild(Object t, int i)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "String getText(Object t)"
+        ],
+        [
+            "Token getToken(Object t)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "void addChild(Object t, Object child)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object nil()"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object deleteChild(Object t, int i)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "String getText(Object t)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void setChildIndex(Object t, int index)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "Object rulePostProcessing(Object root)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "Object becomeRoot(Object newRoot, Object oldRoot)",
+            "Object create(int tokenType, Token fromToken)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object becomeRoot(Object newRoot, Object oldRoot)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "int getUniqueID(Object node)",
+            "Object create(int tokenType, Token fromToken, String text)"
+        ],
+        [
+            "void setTokenBoundaries(Object t, Token startToken, Token stopToken)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void setParent(Object t, Object parent)",
+            "String getText(Object t)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "int getType(Object t)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object create(Token payload)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "void replaceChildren(Object parent, int startChildIndex, int stopChildIndex, Object t)",
+            "Object getChild(Object t, int i)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object nil()"
+        ],
+        [
+            "String getText(Object t)",
+            "Object create(Token payload)"
+        ],
+        [
+            "Object dupNode(Object treeNode)",
+            "Object rulePostProcessing(Object root)"
+        ],
+        [
+            "Object becomeRoot(Token newRoot, Object oldRoot)",
+            "Token getToken(Object t)"
+        ],
+        [
+            "void setText(Object t, String text)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object getParent(Object t)",
+            "String getText(Object t)"
+        ],
+        [
+            "void setChild(Object t, int i, Object child)",
+            "Object getParent(Object t)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken, String text)",
+            "String getText(Object t)"
+        ],
+        [
+            "int getChildCount(Object t)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object create(Token payload)"
+        ],
+        [
+            "boolean isNil(Object tree)",
+            "Object create(int tokenType, String text)"
+        ],
+        [
+            "String getText(Object t)",
+            "Object dupTree(Object tree)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object create(int tokenType, String text)",
+            "Object nil()"
+        ],
+        [
+            "int getType(Object t)",
+            "Object dupNode(Object treeNode)"
+        ],
+        [
+            "Object dupTree(Object tree)",
+            "Object errorNode(TokenStream input, Token start, Token stop, RecognitionException e)"
+        ],
+        [
+            "Object create(int tokenType, Token fromToken)",
+            "Object becomeRoot(Token newRoot, Object oldRoot)"
+        ]
+    ]
+}

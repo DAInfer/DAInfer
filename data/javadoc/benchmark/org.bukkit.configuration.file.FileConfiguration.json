@@ -1,0 +1,19 @@
+{
+    "class": "FileConfiguration",
+    "category": "Class",
+    "methods": {
+        "String buildHeader()": "Builds a header for this FileConfiguration. Deprecated and only exists for backwards compatibility.",
+        "void load(File file)": "Loads this FileConfiguration from the specified location.",
+        "void load(Reader reader)": "Loads this FileConfiguration from the specified reader.",
+        "void load(String file)": "Loads this FileConfiguration from the specified location.",
+        "void loadFromString(String contents)": "Loads this FileConfiguration from the specified string, as opposed to from file.",
+        "FileConfigurationOptions options()": "Gets the ConfigurationOptions for this Configuration.",
+        "void save(File file)": "Saves this FileConfiguration to the specified location.",
+        "void save(String file)": "Saves this FileConfiguration to the specified location.",
+        "String saveToString()": "Saves this FileConfiguration to a string, and returns it."
+    },
+    "super class": [
+        "org.bukkit.configuration.MemorySection",
+        "org.bukkit.configuration.MemoryConfiguration"
+    ]
+}

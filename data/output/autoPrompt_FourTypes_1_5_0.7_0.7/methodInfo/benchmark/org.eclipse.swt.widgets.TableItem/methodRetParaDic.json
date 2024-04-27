@@ -1,0 +1,262 @@
+{
+    "void checkSubclass()": {
+        "return type": "void",
+        "method name": "checkSubclass",
+        "parameters": []
+    },
+    "Color getBackground()": {
+        "return type": "Color",
+        "method name": "getBackground",
+        "parameters": []
+    },
+    "Rectangle getBounds(int index)": {
+        "return type": "Rectangle",
+        "method name": "getBounds",
+        "parameters": [
+            "int"
+        ]
+    },
+    "boolean getChecked()": {
+        "return type": "boolean",
+        "method name": "getChecked",
+        "parameters": []
+    },
+    "Display getDisplay()": {
+        "return type": "Display",
+        "method name": "getDisplay",
+        "parameters": []
+    },
+    "Color getForeground()": {
+        "return type": "Color",
+        "method name": "getForeground",
+        "parameters": []
+    },
+    "boolean getGrayed()": {
+        "return type": "boolean",
+        "method name": "getGrayed",
+        "parameters": []
+    },
+    "Image getImage(int index)": {
+        "return type": "Image",
+        "method name": "getImage",
+        "parameters": [
+            "int"
+        ]
+    },
+    "Rectangle getImageBounds(int index)": {
+        "return type": "Rectangle",
+        "method name": "getImageBounds",
+        "parameters": [
+            "int"
+        ]
+    },
+    "int getImageIndent()": {
+        "return type": "int",
+        "method name": "getImageIndent",
+        "parameters": []
+    },
+    "Table getParent()": {
+        "return type": "Table",
+        "method name": "getParent",
+        "parameters": []
+    },
+    "String getText(int index)": {
+        "return type": "String",
+        "method name": "getText",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setBackground(Color color)": {
+        "return type": "void",
+        "method name": "setBackground",
+        "parameters": [
+            "Color"
+        ]
+    },
+    "void setChecked(boolean checked)": {
+        "return type": "void",
+        "method name": "setChecked",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setForeground(Color color)": {
+        "return type": "void",
+        "method name": "setForeground",
+        "parameters": [
+            "Color"
+        ]
+    },
+    "void setGrayed(boolean grayed)": {
+        "return type": "void",
+        "method name": "setGrayed",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "void setImage(Image image)": {
+        "return type": "void",
+        "method name": "setImage",
+        "parameters": [
+            "Image"
+        ]
+    },
+    "void setImages(Image[] images)": {
+        "return type": "void",
+        "method name": "setImages",
+        "parameters": [
+            "Image[]"
+        ]
+    },
+    "void setImage(int index, Image image)": {
+        "return type": "void",
+        "method name": "setImage",
+        "parameters": [
+            "int",
+            "Image"
+        ]
+    },
+    "void setImageIndent(int indent)": {
+        "return type": "void",
+        "method name": "setImageIndent",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void setText(int index, String string)": {
+        "return type": "void",
+        "method name": "setText",
+        "parameters": [
+            "int",
+            "String"
+        ]
+    },
+    "void setText(String string)": {
+        "return type": "void",
+        "method name": "setText",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setTexts(String[] strings)": {
+        "return type": "void",
+        "method name": "setTexts",
+        "parameters": [
+            "String[]"
+        ]
+    },
+    "void addListener(int eventType, Listener listener)": {
+        "return type": "void",
+        "method name": "addListener",
+        "parameters": [
+            "int",
+            "Listener"
+        ]
+    },
+    "void checkWidget()": {
+        "return type": "void",
+        "method name": "checkWidget",
+        "parameters": []
+    },
+    "void dispose()": {
+        "return type": "void",
+        "method name": "dispose",
+        "parameters": []
+    },
+    "Object getData()": {
+        "return type": "Object",
+        "method name": "getData",
+        "parameters": []
+    },
+    "Object getData(String key)": {
+        "return type": "Object",
+        "method name": "getData",
+        "parameters": [
+            "String"
+        ]
+    },
+    "abstract Display getDisplay()": {
+        "return type": "Display",
+        "method name": "getDisplay",
+        "parameters": []
+    },
+    "int getStyle()": {
+        "return type": "int",
+        "method name": "getStyle",
+        "parameters": []
+    },
+    "boolean isDisposed()": {
+        "return type": "boolean",
+        "method name": "isDisposed",
+        "parameters": []
+    },
+    "boolean isListening(int eventType)": {
+        "return type": "boolean",
+        "method name": "isListening",
+        "parameters": [
+            "int"
+        ]
+    },
+    "void notifyListeners(int eventType, Event event)": {
+        "return type": "void",
+        "method name": "notifyListeners",
+        "parameters": [
+            "int",
+            "Event"
+        ]
+    },
+    "void removeDisposeListener(DisposeListener listener)": {
+        "return type": "void",
+        "method name": "removeDisposeListener",
+        "parameters": [
+            "DisposeListener"
+        ]
+    },
+    "void removeListener(int eventType, Listener listener)": {
+        "return type": "void",
+        "method name": "removeListener",
+        "parameters": [
+            "int",
+            "Listener"
+        ]
+    },
+    "void removeListener(int eventType, org.eclipse.swt.internal.SWTEventListener listener)": {
+        "return type": "void",
+        "method name": "removeListener",
+        "parameters": [
+            "int",
+            "org.eclipse.swt.internal.SWTEventListener"
+        ]
+    },
+    "void setData(Object data)": {
+        "return type": "void",
+        "method name": "setData",
+        "parameters": [
+            "Object"
+        ]
+    },
+    "void setData(String key, Object value)": {
+        "return type": "void",
+        "method name": "setData",
+        "parameters": [
+            "String",
+            "Object"
+        ]
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "Image getImage()": {
+        "return type": "Image",
+        "method name": "getImage",
+        "parameters": []
+    },
+    "String getText()": {
+        "return type": "String",
+        "method name": "getText",
+        "parameters": []
+    }
+}

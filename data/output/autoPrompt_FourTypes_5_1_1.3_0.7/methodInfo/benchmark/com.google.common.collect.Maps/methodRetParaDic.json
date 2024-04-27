@@ -1,0 +1,365 @@
+{
+    "Converter asConverter(BiMap bimap)": {
+        "return type": "Converter",
+        "method name": "asConverter",
+        "parameters": [
+            "BiMap"
+        ]
+    },
+    "NavigableMap asMap(NavigableSet set, Function function)": {
+        "return type": "NavigableMap",
+        "method name": "asMap",
+        "parameters": [
+            "NavigableSet",
+            "Function"
+        ]
+    },
+    "Map asMap(Set set, Function function)": {
+        "return type": "Map",
+        "method name": "asMap",
+        "parameters": [
+            "Set",
+            "Function"
+        ]
+    },
+    "SortedMap asMap(SortedSet set, Function function)": {
+        "return type": "SortedMap",
+        "method name": "asMap",
+        "parameters": [
+            "SortedSet",
+            "Function"
+        ]
+    },
+    "MapDifference difference(Map left, Map right)": {
+        "return type": "MapDifference",
+        "method name": "difference",
+        "parameters": [
+            "Map",
+            "Map"
+        ]
+    },
+    "MapDifference difference(Map left, Map right, Equivalence valueEquivalence)": {
+        "return type": "MapDifference",
+        "method name": "difference",
+        "parameters": [
+            "Map",
+            "Map",
+            "Equivalence"
+        ]
+    },
+    "SortedMapDifference difference(SortedMap left, Map right)": {
+        "return type": "SortedMapDifference",
+        "method name": "difference",
+        "parameters": [
+            "SortedMap",
+            "Map"
+        ]
+    },
+    "BiMap filterEntries(BiMap unfiltered, Predicate entryPredicate)": {
+        "return type": "BiMap",
+        "method name": "filterEntries",
+        "parameters": [
+            "BiMap",
+            "Predicate"
+        ]
+    },
+    "Map filterEntries(Map unfiltered, Predicate entryPredicate)": {
+        "return type": "Map",
+        "method name": "filterEntries",
+        "parameters": [
+            "Map",
+            "Predicate"
+        ]
+    },
+    "NavigableMap filterEntries(NavigableMap unfiltered, Predicate entryPredicate)": {
+        "return type": "NavigableMap",
+        "method name": "filterEntries",
+        "parameters": [
+            "NavigableMap",
+            "Predicate"
+        ]
+    },
+    "SortedMap filterEntries(SortedMap unfiltered, Predicate entryPredicate)": {
+        "return type": "SortedMap",
+        "method name": "filterEntries",
+        "parameters": [
+            "SortedMap",
+            "Predicate"
+        ]
+    },
+    "BiMap filterKeys(BiMap unfiltered, Predicate keyPredicate)": {
+        "return type": "BiMap",
+        "method name": "filterKeys",
+        "parameters": [
+            "BiMap",
+            "Predicate"
+        ]
+    },
+    "Map filterKeys(Map unfiltered, Predicate keyPredicate)": {
+        "return type": "Map",
+        "method name": "filterKeys",
+        "parameters": [
+            "Map",
+            "Predicate"
+        ]
+    },
+    "NavigableMap filterKeys(NavigableMap unfiltered, Predicate keyPredicate)": {
+        "return type": "NavigableMap",
+        "method name": "filterKeys",
+        "parameters": [
+            "NavigableMap",
+            "Predicate"
+        ]
+    },
+    "SortedMap filterKeys(SortedMap unfiltered, Predicate keyPredicate)": {
+        "return type": "SortedMap",
+        "method name": "filterKeys",
+        "parameters": [
+            "SortedMap",
+            "Predicate"
+        ]
+    },
+    "BiMap filterValues(BiMap unfiltered, Predicate valuePredicate)": {
+        "return type": "BiMap",
+        "method name": "filterValues",
+        "parameters": [
+            "BiMap",
+            "Predicate"
+        ]
+    },
+    "Map filterValues(Map unfiltered, Predicate valuePredicate)": {
+        "return type": "Map",
+        "method name": "filterValues",
+        "parameters": [
+            "Map",
+            "Predicate"
+        ]
+    },
+    "NavigableMap filterValues(NavigableMap unfiltered, Predicate valuePredicate)": {
+        "return type": "NavigableMap",
+        "method name": "filterValues",
+        "parameters": [
+            "NavigableMap",
+            "Predicate"
+        ]
+    },
+    "SortedMap filterValues(SortedMap unfiltered, Predicate valuePredicate)": {
+        "return type": "SortedMap",
+        "method name": "filterValues",
+        "parameters": [
+            "SortedMap",
+            "Predicate"
+        ]
+    },
+    "ImmutableMap fromProperties(Properties properties)": {
+        "return type": "ImmutableMap",
+        "method name": "fromProperties",
+        "parameters": [
+            "Properties"
+        ]
+    },
+    "Map.Entry immutableEntry(K key, V value)": {
+        "return type": "Map.Entry",
+        "method name": "immutableEntry",
+        "parameters": [
+            "K",
+            "V"
+        ]
+    },
+    "ImmutableMap immutableEnumMap(Map map)": {
+        "return type": "ImmutableMap",
+        "method name": "immutableEnumMap",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "ConcurrentMap newConcurrentMap()": {
+        "return type": "ConcurrentMap",
+        "method name": "newConcurrentMap",
+        "parameters": []
+    },
+    "EnumMap newEnumMap(Class type)": {
+        "return type": "EnumMap",
+        "method name": "newEnumMap",
+        "parameters": [
+            "Class"
+        ]
+    },
+    "EnumMap newEnumMap(Map map)": {
+        "return type": "EnumMap",
+        "method name": "newEnumMap",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "HashMap newHashMap()": {
+        "return type": "HashMap",
+        "method name": "newHashMap",
+        "parameters": []
+    },
+    "HashMap newHashMap(Map map)": {
+        "return type": "HashMap",
+        "method name": "newHashMap",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "HashMap newHashMapWithExpectedSize(int expectedSize)": {
+        "return type": "HashMap",
+        "method name": "newHashMapWithExpectedSize",
+        "parameters": [
+            "int"
+        ]
+    },
+    "IdentityHashMap newIdentityHashMap()": {
+        "return type": "IdentityHashMap",
+        "method name": "newIdentityHashMap",
+        "parameters": []
+    },
+    "LinkedHashMap newLinkedHashMap()": {
+        "return type": "LinkedHashMap",
+        "method name": "newLinkedHashMap",
+        "parameters": []
+    },
+    "LinkedHashMap newLinkedHashMap(Map map)": {
+        "return type": "LinkedHashMap",
+        "method name": "newLinkedHashMap",
+        "parameters": [
+            "Map"
+        ]
+    },
+    "LinkedHashMap newLinkedHashMapWithExpectedSize(int expectedSize)": {
+        "return type": "LinkedHashMap",
+        "method name": "newLinkedHashMapWithExpectedSize",
+        "parameters": [
+            "int"
+        ]
+    },
+    "TreeMap newTreeMap()": {
+        "return type": "TreeMap",
+        "method name": "newTreeMap",
+        "parameters": []
+    },
+    "TreeMap newTreeMap(Comparator comparator)": {
+        "return type": "TreeMap",
+        "method name": "newTreeMap",
+        "parameters": [
+            "Comparator"
+        ]
+    },
+    "TreeMap newTreeMap(SortedMap map)": {
+        "return type": "TreeMap",
+        "method name": "newTreeMap",
+        "parameters": [
+            "SortedMap"
+        ]
+    },
+    "BiMap synchronizedBiMap(BiMap bimap)": {
+        "return type": "BiMap",
+        "method name": "synchronizedBiMap",
+        "parameters": [
+            "BiMap"
+        ]
+    },
+    "NavigableMap synchronizedNavigableMap(NavigableMap navigableMap)": {
+        "return type": "NavigableMap",
+        "method name": "synchronizedNavigableMap",
+        "parameters": [
+            "NavigableMap"
+        ]
+    },
+    "ImmutableMap toMap(Iterable keys, Function valueFunction)": {
+        "return type": "ImmutableMap",
+        "method name": "toMap",
+        "parameters": [
+            "Iterable",
+            "Function"
+        ]
+    },
+    "ImmutableMap toMap(Iterator keys, Function valueFunction)": {
+        "return type": "ImmutableMap",
+        "method name": "toMap",
+        "parameters": [
+            "Iterator",
+            "Function"
+        ]
+    },
+    "Map transformEntries(Map fromMap, Maps.EntryTransformer transformer)": {
+        "return type": "Map",
+        "method name": "transformEntries",
+        "parameters": [
+            "Map",
+            "Maps.EntryTransformer"
+        ]
+    },
+    "NavigableMap transformEntries(NavigableMap fromMap, Maps.EntryTransformer transformer)": {
+        "return type": "NavigableMap",
+        "method name": "transformEntries",
+        "parameters": [
+            "NavigableMap",
+            "Maps.EntryTransformer"
+        ]
+    },
+    "SortedMap transformEntries(SortedMap fromMap, Maps.EntryTransformer transformer)": {
+        "return type": "SortedMap",
+        "method name": "transformEntries",
+        "parameters": [
+            "SortedMap",
+            "Maps.EntryTransformer"
+        ]
+    },
+    "Map transformValues(Map fromMap, Function function)": {
+        "return type": "Map",
+        "method name": "transformValues",
+        "parameters": [
+            "Map",
+            "Function"
+        ]
+    },
+    "NavigableMap transformValues(NavigableMap fromMap, Function function)": {
+        "return type": "NavigableMap",
+        "method name": "transformValues",
+        "parameters": [
+            "NavigableMap",
+            "Function"
+        ]
+    },
+    "SortedMap transformValues(SortedMap fromMap, Function function)": {
+        "return type": "SortedMap",
+        "method name": "transformValues",
+        "parameters": [
+            "SortedMap",
+            "Function"
+        ]
+    },
+    "ImmutableMap uniqueIndex(Iterable values, Function keyFunction)": {
+        "return type": "ImmutableMap",
+        "method name": "uniqueIndex",
+        "parameters": [
+            "Iterable",
+            "Function"
+        ]
+    },
+    "ImmutableMap uniqueIndex(Iterator values, Function keyFunction)": {
+        "return type": "ImmutableMap",
+        "method name": "uniqueIndex",
+        "parameters": [
+            "Iterator",
+            "Function"
+        ]
+    },
+    "BiMap unmodifiableBiMap(BiMap bimap)": {
+        "return type": "BiMap",
+        "method name": "unmodifiableBiMap",
+        "parameters": [
+            "BiMap"
+        ]
+    },
+    "NavigableMap unmodifiableNavigableMap(NavigableMap map)": {
+        "return type": "NavigableMap",
+        "method name": "unmodifiableNavigableMap",
+        "parameters": [
+            "NavigableMap"
+        ]
+    }
+}

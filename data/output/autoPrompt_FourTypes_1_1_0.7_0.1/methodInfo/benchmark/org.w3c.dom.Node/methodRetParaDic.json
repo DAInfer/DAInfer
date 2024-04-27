@@ -1,0 +1,229 @@
+{
+    "Node appendChild(Node newChild)": {
+        "return type": "Node",
+        "method name": "appendChild",
+        "parameters": [
+            "Node"
+        ]
+    },
+    "Node cloneNode(boolean deep)": {
+        "return type": "Node",
+        "method name": "cloneNode",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "short compareDocumentPosition(Node other)": {
+        "return type": "short",
+        "method name": "compareDocumentPosition",
+        "parameters": [
+            "Node"
+        ]
+    },
+    "NamedNodeMap getAttributes()": {
+        "return type": "NamedNodeMap",
+        "method name": "getAttributes",
+        "parameters": []
+    },
+    "String getBaseURI()": {
+        "return type": "String",
+        "method name": "getBaseURI",
+        "parameters": []
+    },
+    "NodeList getChildNodes()": {
+        "return type": "NodeList",
+        "method name": "getChildNodes",
+        "parameters": []
+    },
+    "Object getFeature(String feature, String version)": {
+        "return type": "Object",
+        "method name": "getFeature",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "Node getFirstChild()": {
+        "return type": "Node",
+        "method name": "getFirstChild",
+        "parameters": []
+    },
+    "Node getLastChild()": {
+        "return type": "Node",
+        "method name": "getLastChild",
+        "parameters": []
+    },
+    "String getLocalName()": {
+        "return type": "String",
+        "method name": "getLocalName",
+        "parameters": []
+    },
+    "String getNamespaceURI()": {
+        "return type": "String",
+        "method name": "getNamespaceURI",
+        "parameters": []
+    },
+    "Node getNextSibling()": {
+        "return type": "Node",
+        "method name": "getNextSibling",
+        "parameters": []
+    },
+    "String getNodeName()": {
+        "return type": "String",
+        "method name": "getNodeName",
+        "parameters": []
+    },
+    "short getNodeType()": {
+        "return type": "short",
+        "method name": "getNodeType",
+        "parameters": []
+    },
+    "String getNodeValue()": {
+        "return type": "String",
+        "method name": "getNodeValue",
+        "parameters": []
+    },
+    "Document getOwnerDocument()": {
+        "return type": "Document",
+        "method name": "getOwnerDocument",
+        "parameters": []
+    },
+    "Node getParentNode()": {
+        "return type": "Node",
+        "method name": "getParentNode",
+        "parameters": []
+    },
+    "String getPrefix()": {
+        "return type": "String",
+        "method name": "getPrefix",
+        "parameters": []
+    },
+    "Node getPreviousSibling()": {
+        "return type": "Node",
+        "method name": "getPreviousSibling",
+        "parameters": []
+    },
+    "String getTextContent()": {
+        "return type": "String",
+        "method name": "getTextContent",
+        "parameters": []
+    },
+    "Object getUserData(String key)": {
+        "return type": "Object",
+        "method name": "getUserData",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean hasAttributes()": {
+        "return type": "boolean",
+        "method name": "hasAttributes",
+        "parameters": []
+    },
+    "boolean hasChildNodes()": {
+        "return type": "boolean",
+        "method name": "hasChildNodes",
+        "parameters": []
+    },
+    "Node insertBefore(Node newChild, Node refChild)": {
+        "return type": "Node",
+        "method name": "insertBefore",
+        "parameters": [
+            "Node",
+            "Node"
+        ]
+    },
+    "boolean isDefaultNamespace(String namespaceURI)": {
+        "return type": "boolean",
+        "method name": "isDefaultNamespace",
+        "parameters": [
+            "String"
+        ]
+    },
+    "boolean isEqualNode(Node arg)": {
+        "return type": "boolean",
+        "method name": "isEqualNode",
+        "parameters": [
+            "Node"
+        ]
+    },
+    "boolean isSameNode(Node other)": {
+        "return type": "boolean",
+        "method name": "isSameNode",
+        "parameters": [
+            "Node"
+        ]
+    },
+    "boolean isSupported(String feature, String version)": {
+        "return type": "boolean",
+        "method name": "isSupported",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "String lookupNamespaceURI(String prefix)": {
+        "return type": "String",
+        "method name": "lookupNamespaceURI",
+        "parameters": [
+            "String"
+        ]
+    },
+    "String lookupPrefix(String namespaceURI)": {
+        "return type": "String",
+        "method name": "lookupPrefix",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void normalize()": {
+        "return type": "void",
+        "method name": "normalize",
+        "parameters": []
+    },
+    "Node removeChild(Node oldChild)": {
+        "return type": "Node",
+        "method name": "removeChild",
+        "parameters": [
+            "Node"
+        ]
+    },
+    "Node replaceChild(Node newChild, Node oldChild)": {
+        "return type": "Node",
+        "method name": "replaceChild",
+        "parameters": [
+            "Node",
+            "Node"
+        ]
+    },
+    "void setNodeValue(String nodeValue)": {
+        "return type": "void",
+        "method name": "setNodeValue",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setPrefix(String prefix)": {
+        "return type": "void",
+        "method name": "setPrefix",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setTextContent(String textContent)": {
+        "return type": "void",
+        "method name": "setTextContent",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Object setUserData(String key, Object data, UserDataHandler handler)": {
+        "return type": "Object",
+        "method name": "setUserData",
+        "parameters": [
+            "String",
+            "Object",
+            "UserDataHandler"
+        ]
+    }
+}

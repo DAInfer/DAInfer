@@ -1,0 +1,20 @@
+{
+    "class": "ConcurrentMap",
+    "category": "Interface",
+    "methods": {
+        "V compute(K key, BiFunction remappingFunction)": "Attempts to compute a mapping for the specified key and its current mapped value (or null if there is no current mapping).",
+        "V computeIfAbsent(K key, Function mappingFunction)": "If the specified key is not already associated with a value (or is mapped to null), attempts to compute its value using the given mapping function and enters it into this map unless null.",
+        "V computeIfPresent(K key, BiFunction remappingFunction)": "If the value for the specified key is present and non-null, attempts to compute a new mapping given the key and its current mapped value.",
+        "void forEach(BiConsumer action)": "Performs the given action for each entry in this map until all entries have been processed or the action throws an exception.",
+        "V getOrDefault(Object key, V defaultValue)": "Returns the value to which the specified key is mapped, or defaultValue if this map contains no mapping for the key.",
+        "V merge(K key, V value, BiFunction remappingFunction)": "If the specified key is not already associated with a value or is associated with null, associates it with the given non-null value.",
+        "V putIfAbsent(K key, V value)": "If the specified key is not already associated with a value, associate it with the given value.",
+        "boolean remove(Object key, Object value)": "Removes the entry for a key only if currently mapped to a given value.",
+        "V replace(K key, V value)": "Replaces the entry for a key only if currently mapped to some value.",
+        "boolean replace(K key, V oldValue, V newValue)": "Replaces the entry for a key only if currently mapped to a given value.",
+        "void replaceAll(BiFunction function)": "Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception."
+    },
+    "super class": [
+        "java.util.Map"
+    ]
+}

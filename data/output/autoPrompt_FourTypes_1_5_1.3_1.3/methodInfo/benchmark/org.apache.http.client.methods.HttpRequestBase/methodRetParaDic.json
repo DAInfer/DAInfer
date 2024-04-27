@@ -1,0 +1,191 @@
+{
+    "RequestConfig getConfig()": {
+        "return type": "RequestConfig",
+        "method name": "getConfig",
+        "parameters": []
+    },
+    "String getMethod()": {
+        "return type": "String",
+        "method name": "getMethod",
+        "parameters": []
+    },
+    "ProtocolVersion getProtocolVersion()": {
+        "return type": "ProtocolVersion",
+        "method name": "getProtocolVersion",
+        "parameters": []
+    },
+    "RequestLine getRequestLine()": {
+        "return type": "RequestLine",
+        "method name": "getRequestLine",
+        "parameters": []
+    },
+    "URI getURI()": {
+        "return type": "URI",
+        "method name": "getURI",
+        "parameters": []
+    },
+    "void releaseConnection()": {
+        "return type": "void",
+        "method name": "releaseConnection",
+        "parameters": []
+    },
+    "void setConfig(RequestConfig config)": {
+        "return type": "void",
+        "method name": "setConfig",
+        "parameters": [
+            "RequestConfig"
+        ]
+    },
+    "void setProtocolVersion(ProtocolVersion version)": {
+        "return type": "void",
+        "method name": "setProtocolVersion",
+        "parameters": [
+            "ProtocolVersion"
+        ]
+    },
+    "void setURI(URI uri)": {
+        "return type": "void",
+        "method name": "setURI",
+        "parameters": [
+            "URI"
+        ]
+    },
+    "void started()": {
+        "return type": "void",
+        "method name": "started",
+        "parameters": []
+    },
+    "String toString()": {
+        "return type": "String",
+        "method name": "toString",
+        "parameters": []
+    },
+    "void abort()": {
+        "return type": "void",
+        "method name": "abort",
+        "parameters": []
+    },
+    "Object clone()": {
+        "return type": "Object",
+        "method name": "clone",
+        "parameters": []
+    },
+    "void completed()": {
+        "return type": "void",
+        "method name": "completed",
+        "parameters": []
+    },
+    "boolean isAborted()": {
+        "return type": "boolean",
+        "method name": "isAborted",
+        "parameters": []
+    },
+    "void reset()": {
+        "return type": "void",
+        "method name": "reset",
+        "parameters": []
+    },
+    "void setCancellable(Cancellable cancellable)": {
+        "return type": "void",
+        "method name": "setCancellable",
+        "parameters": [
+            "Cancellable"
+        ]
+    },
+    "void addHeader(Header header)": {
+        "return type": "void",
+        "method name": "addHeader",
+        "parameters": [
+            "Header"
+        ]
+    },
+    "void addHeader(String name, String value)": {
+        "return type": "void",
+        "method name": "addHeader",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "boolean containsHeader(String name)": {
+        "return type": "boolean",
+        "method name": "containsHeader",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Header[] getAllHeaders()": {
+        "return type": "Header[]",
+        "method name": "getAllHeaders",
+        "parameters": []
+    },
+    "Header getFirstHeader(String name)": {
+        "return type": "Header",
+        "method name": "getFirstHeader",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Header[] getHeaders(String name)": {
+        "return type": "Header[]",
+        "method name": "getHeaders",
+        "parameters": [
+            "String"
+        ]
+    },
+    "Header getLastHeader(String name)": {
+        "return type": "Header",
+        "method name": "getLastHeader",
+        "parameters": [
+            "String"
+        ]
+    },
+    "HeaderIterator headerIterator()": {
+        "return type": "HeaderIterator",
+        "method name": "headerIterator",
+        "parameters": []
+    },
+    "HeaderIterator headerIterator(String name)": {
+        "return type": "HeaderIterator",
+        "method name": "headerIterator",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void removeHeader(Header header)": {
+        "return type": "void",
+        "method name": "removeHeader",
+        "parameters": [
+            "Header"
+        ]
+    },
+    "void removeHeaders(String name)": {
+        "return type": "void",
+        "method name": "removeHeaders",
+        "parameters": [
+            "String"
+        ]
+    },
+    "void setHeader(Header header)": {
+        "return type": "void",
+        "method name": "setHeader",
+        "parameters": [
+            "Header"
+        ]
+    },
+    "void setHeader(String name, String value)": {
+        "return type": "void",
+        "method name": "setHeader",
+        "parameters": [
+            "String",
+            "String"
+        ]
+    },
+    "void setHeaders(Header[] headers)": {
+        "return type": "void",
+        "method name": "setHeaders",
+        "parameters": [
+            "Header[]"
+        ]
+    }
+}

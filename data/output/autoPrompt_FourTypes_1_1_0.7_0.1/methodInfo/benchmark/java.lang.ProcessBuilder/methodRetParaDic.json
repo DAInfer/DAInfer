@@ -1,0 +1,117 @@
+{
+    "List command()": {
+        "return type": "List",
+        "method name": "command",
+        "parameters": []
+    },
+    "ProcessBuilder command(List command)": {
+        "return type": "ProcessBuilder",
+        "method name": "command",
+        "parameters": [
+            "List"
+        ]
+    },
+    "ProcessBuilder command(String... command)": {
+        "return type": "ProcessBuilder",
+        "method name": "command",
+        "parameters": [
+            "String..."
+        ]
+    },
+    "File directory()": {
+        "return type": "File",
+        "method name": "directory",
+        "parameters": []
+    },
+    "ProcessBuilder directory(File directory)": {
+        "return type": "ProcessBuilder",
+        "method name": "directory",
+        "parameters": [
+            "File"
+        ]
+    },
+    "Map environment()": {
+        "return type": "Map",
+        "method name": "environment",
+        "parameters": []
+    },
+    "ProcessBuilder inheritIO()": {
+        "return type": "ProcessBuilder",
+        "method name": "inheritIO",
+        "parameters": []
+    },
+    "ProcessBuilder.Redirect redirectError()": {
+        "return type": "ProcessBuilder.Redirect",
+        "method name": "redirectError",
+        "parameters": []
+    },
+    "ProcessBuilder redirectError(File file)": {
+        "return type": "ProcessBuilder",
+        "method name": "redirectError",
+        "parameters": [
+            "File"
+        ]
+    },
+    "ProcessBuilder redirectError(ProcessBuilder.Redirect destination)": {
+        "return type": "ProcessBuilder",
+        "method name": "redirectError",
+        "parameters": [
+            "ProcessBuilder.Redirect"
+        ]
+    },
+    "boolean redirectErrorStream()": {
+        "return type": "boolean",
+        "method name": "redirectErrorStream",
+        "parameters": []
+    },
+    "ProcessBuilder redirectErrorStream(boolean redirectErrorStream)": {
+        "return type": "ProcessBuilder",
+        "method name": "redirectErrorStream",
+        "parameters": [
+            "boolean"
+        ]
+    },
+    "ProcessBuilder.Redirect redirectInput()": {
+        "return type": "ProcessBuilder.Redirect",
+        "method name": "redirectInput",
+        "parameters": []
+    },
+    "ProcessBuilder redirectInput(File file)": {
+        "return type": "ProcessBuilder",
+        "method name": "redirectInput",
+        "parameters": [
+            "File"
+        ]
+    },
+    "ProcessBuilder redirectInput(ProcessBuilder.Redirect source)": {
+        "return type": "ProcessBuilder",
+        "method name": "redirectInput",
+        "parameters": [
+            "ProcessBuilder.Redirect"
+        ]
+    },
+    "ProcessBuilder.Redirect redirectOutput()": {
+        "return type": "ProcessBuilder.Redirect",
+        "method name": "redirectOutput",
+        "parameters": []
+    },
+    "ProcessBuilder redirectOutput(File file)": {
+        "return type": "ProcessBuilder",
+        "method name": "redirectOutput",
+        "parameters": [
+            "File"
+        ]
+    },
+    "ProcessBuilder redirectOutput(ProcessBuilder.Redirect destination)": {
+        "return type": "ProcessBuilder",
+        "method name": "redirectOutput",
+        "parameters": [
+            "ProcessBuilder.Redirect"
+        ]
+    },
+    "Process start()": {
+        "return type": "Process",
+        "method name": "start",
+        "parameters": []
+    }
+}

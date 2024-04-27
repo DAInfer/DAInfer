@@ -1,0 +1,26 @@
+{
+    "class": "JsonObject",
+    "category": "Class",
+    "methods": {
+        "void add(java.lang.String property, JsonElement value)": "Adds a member, which is a name-value pair, to self.",
+        "void addProperty(java.lang.String property, java.lang.Boolean value)": "Convenience method to add a boolean member.",
+        "void addProperty(java.lang.String property, java.lang.Character value)": "Convenience method to add a char member.",
+        "void addProperty(java.lang.String property, java.lang.Number value)": "Convenience method to add a primitive member.",
+        "void addProperty(java.lang.String property, java.lang.String value)": "Convenience method to add a primitive member.",
+        "JsonObject deepCopy()": "Creates a deep copy of this element and all its children",
+        "java.util.Set entrySet()": "Returns a set of members of this object.",
+        "boolean equals(java.lang.Object o)": "",
+        "JsonElement get(java.lang.String memberName)": "Returns the member with the specified name.",
+        "JsonArray getAsJsonArray(java.lang.String memberName)": "Convenience method to get the specified member as a JsonArray.",
+        "JsonObject getAsJsonObject(java.lang.String memberName)": "Convenience method to get the specified member as a JsonObject.",
+        "JsonPrimitive getAsJsonPrimitive(java.lang.String memberName)": "Convenience method to get the specified member as a JsonPrimitive element.",
+        "boolean has(java.lang.String memberName)": "Convenience method to check if a member with the specified name is present in this object.",
+        "int hashCode()": "",
+        "java.util.Set keySet()": "Returns a set of members key values.",
+        "JsonElement remove(java.lang.String property)": "Removes the property from this JsonObject.",
+        "int size()": "Returns the number of key/value pairs in the object."
+    },
+    "super class": [
+        "com.google.gson.JsonElement"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "class": "AbstractHttpMessage",
+    "category": "Class",
+    "methods": {
+        "void addHeader(Header header)": "Adds a header to this message.",
+        "void addHeader(String name, String value)": "Adds a header to this message.",
+        "boolean containsHeader(String name)": "Checks if a certain header is present in this message.",
+        "Header[] getAllHeaders()": "Returns all the headers of this message.",
+        "Header getFirstHeader(String name)": "Returns the first header with a specified name of this message.",
+        "Header[] getHeaders(String name)": "Returns all the headers with a specified name of this message.",
+        "Header getLastHeader(String name)": "Returns the last header with a specified name of this message.",
+        "HeaderIterator headerIterator()": "Returns an iterator of all the headers.",
+        "HeaderIterator headerIterator(String name)": "Returns an iterator of the headers with a given name.",
+        "void removeHeader(Header header)": "Removes a header from this message.",
+        "void removeHeaders(String name)": "Removes all headers with a certain name from this message.",
+        "void setHeader(Header header)": "Overwrites the first header with the same name.",
+        "void setHeader(String name, String value)": "Overwrites the first header with the same name.",
+        "void setHeaders(Header[] headers)": "Overwrites all the headers in the message."
+    },
+    "super class": []
+}

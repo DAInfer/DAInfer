@@ -1,0 +1,120 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "Object getProperty(String name)",
+            "Object getProperty(String name, ImageObserver observer)"
+        ],
+        [
+            "Object getProperty(String name, ImageObserver observer)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void setData(Raster r)",
+            "Raster getData()"
+        ],
+        [
+            "Raster getData(Rectangle rect)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "WritableRaster copyData(WritableRaster outRaster)",
+            "WritableRaster getRaster()"
+        ],
+        [
+            "Raster getData(Rectangle rect)",
+            "Object getProperty(String name, ImageObserver observer)"
+        ],
+        [
+            "int getWidth(ImageObserver observer)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void setRGB(int startX, int startY, int w, int h, int[] rgbArray, int offset, int scansize)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "int[] getRGB(int startX, int startY, int w, int h, int[] rgbArray, int offset, int scansize)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "int getWidth(ImageObserver observer)",
+            "Object getProperty(String name, ImageObserver observer)"
+        ],
+        [
+            "void setData(Raster r)",
+            "Raster getData(Rectangle rect)"
+        ],
+        [
+            "ImageCapabilities getCapabilities(GraphicsConfiguration gc)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void setRGB(int startX, int startY, int w, int h, int[] rgbArray, int offset, int scansize)",
+            "Object getProperty(String name, ImageObserver observer)"
+        ],
+        [
+            "int[] getRGB(int startX, int startY, int w, int h, int[] rgbArray, int offset, int scansize)",
+            "Object getProperty(String name, ImageObserver observer)"
+        ],
+        [
+            "ImageCapabilities getCapabilities(GraphicsConfiguration gc)",
+            "Object getProperty(String name, ImageObserver observer)"
+        ],
+        [
+            "int getHeight(ImageObserver observer)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "WritableRaster copyData(WritableRaster outRaster)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "WritableRaster copyData(WritableRaster outRaster)",
+            "Object getProperty(String name, ImageObserver observer)"
+        ],
+        [
+            "void setRGB(int startX, int startY, int w, int h, int[] rgbArray, int offset, int scansize)",
+            "int[] getRGB(int startX, int startY, int w, int h, int[] rgbArray, int offset, int scansize)"
+        ],
+        [
+            "int getHeight(ImageObserver observer)",
+            "Object getProperty(String name, ImageObserver observer)"
+        ],
+        [
+            "void removeTileObserver(TileObserver to)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void setData(Raster r)",
+            "Raster getTile(int tileX, int tileY)"
+        ],
+        [
+            "void removeTileObserver(TileObserver to)",
+            "Object getProperty(String name, ImageObserver observer)"
+        ],
+        [
+            "void addTileObserver(TileObserver to)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "WritableRaster copyData(WritableRaster outRaster)",
+            "WritableRaster getWritableTile(int tileX, int tileY)"
+        ],
+        [
+            "void setData(Raster r)",
+            "Object getProperty(String name)"
+        ],
+        [
+            "void addTileObserver(TileObserver to)",
+            "Object getProperty(String name, ImageObserver observer)"
+        ],
+        [
+            "void setData(Raster r)",
+            "Object getProperty(String name, ImageObserver observer)"
+        ],
+        [
+            "WritableRaster copyData(WritableRaster outRaster)",
+            "WritableRaster getAlphaRaster()"
+        ]
+    ]
+}

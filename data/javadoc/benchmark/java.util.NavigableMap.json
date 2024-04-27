@@ -1,0 +1,31 @@
+{
+    "class": "NavigableMap",
+    "category": "Interface",
+    "methods": {
+        "Map.Entry ceilingEntry(K key)": "Returns a key-value mapping associated with the least key greater than or equal to the given key, or null if there is no such key.",
+        "K ceilingKey(K key)": "Returns the least key greater than or equal to the given key, or null if there is no such key.",
+        "NavigableSet descendingKeySet()": "Returns a reverse order NavigableSet view of the keys contained in this map.",
+        "NavigableMap descendingMap()": "Returns a reverse order view of the mappings contained in this map.",
+        "Map.Entry firstEntry()": "Returns a key-value mapping associated with the least key in this map, or null if the map is empty.",
+        "Map.Entry floorEntry(K key)": "Returns a key-value mapping associated with the greatest key less than or equal to the given key, or null if there is no such key.",
+        "K floorKey(K key)": "Returns the greatest key less than or equal to the given key, or null if there is no such key.",
+        "SortedMap headMap(K toKey)": "Returns a view of the portion of this map whose keys are strictly less than toKey.",
+        "NavigableMap headMap(K toKey, boolean inclusive)": "Returns a view of the portion of this map whose keys are less than (or equal to, if inclusive is true) toKey.",
+        "Map.Entry higherEntry(K key)": "Returns a key-value mapping associated with the least key strictly greater than the given key, or null if there is no such key.",
+        "K higherKey(K key)": "Returns the least key strictly greater than the given key, or null if there is no such key.",
+        "Map.Entry lastEntry()": "Returns a key-value mapping associated with the greatest key in this map, or null if the map is empty.",
+        "Map.Entry lowerEntry(K key)": "Returns a key-value mapping associated with the greatest key strictly less than the given key, or null if there is no such key.",
+        "K lowerKey(K key)": "Returns the greatest key strictly less than the given key, or null if there is no such key.",
+        "NavigableSet navigableKeySet()": "Returns a NavigableSet view of the keys contained in this map.",
+        "Map.Entry pollFirstEntry()": "Removes and returns a key-value mapping associated with the least key in this map, or null if the map is empty.",
+        "Map.Entry pollLastEntry()": "Removes and returns a key-value mapping associated with the greatest key in this map, or null if the map is empty.",
+        "NavigableMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)": "Returns a view of the portion of this map whose keys range from fromKey to toKey.",
+        "SortedMap subMap(K fromKey, K toKey)": "Returns a view of the portion of this map whose keys range from fromKey, inclusive, to toKey, exclusive.",
+        "SortedMap tailMap(K fromKey)": "Returns a view of the portion of this map whose keys are greater than or equal to fromKey.",
+        "NavigableMap tailMap(K fromKey, boolean inclusive)": "Returns a view of the portion of this map whose keys are greater than (or equal to, if inclusive is true) fromKey."
+    },
+    "super class": [
+        "java.util.Map",
+        "java.util.SortedMap"
+    ]
+}

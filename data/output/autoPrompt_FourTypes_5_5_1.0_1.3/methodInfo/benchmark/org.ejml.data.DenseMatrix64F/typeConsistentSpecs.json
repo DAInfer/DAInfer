@@ -1,0 +1,20 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void setData(double[] data)",
+            "double[] getData()"
+        ],
+        [
+            "void setReshape(DenseMatrix64F b)",
+            "DenseMatrix64F copy()"
+        ],
+        [
+            "void setReshape(DenseMatrix64F b)",
+            "DenseMatrix64F wrap(int numRows, int numCols, double[] data)"
+        ],
+        [
+            "DenseMatrix64F wrap(int numRows, int numCols, double[] data)",
+            "double[] getData()"
+        ]
+    ]
+}

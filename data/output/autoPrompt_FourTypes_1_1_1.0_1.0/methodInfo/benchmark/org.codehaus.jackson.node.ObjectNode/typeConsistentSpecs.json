@@ -1,0 +1,872 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode reportNoArrayMods()"
+        ],
+        [
+            "void put(String fieldName, double v)",
+            "String getValueAsText()"
+        ],
+        [
+            "void put(String fieldName, String v)",
+            "String getTextValue()"
+        ],
+        [
+            "void put(String fieldName, Long value)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode putAll(ObjectNode other)",
+            "ObjectNode remove(Collection fieldNames)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "Iterator getFieldNames()"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode removeElement(String fieldName)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode getFieldValue(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode getFieldValue(String fieldName)"
+        ],
+        [
+            "void put(String fieldName, float v)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode putAll(ObjectNode other)"
+        ],
+        [
+            "void put(String fieldName, int v)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode putAll(ObjectNode other)",
+            "ObjectNode putObject(String fieldName)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode getFieldValue(String fieldName)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode putAll(Map properties)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode setElement(String fieldName, JsonNode value)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode getElementValue(int index)"
+        ],
+        [
+            "JsonNode removeElement(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode put(String fieldName, JsonNode value)"
+        ],
+        [
+            "JsonNode putAll(ObjectNode other)",
+            "ObjectNode removeAll()"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName, List foundSoFar)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode setElement(String fieldName, JsonNode value)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonToken asToken()"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode putAll(Map properties)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode setElement(int index, JsonNode value)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode reportNoArrayMods()"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode removeElement(int index)"
+        ],
+        [
+            "void put(String fieldName, float v)",
+            "String getTextValue()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode reportNoArrayMods()"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode reportNoObjectMods()"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "Iterator<JsonNode> getElements()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode remove(String fieldName)"
+        ],
+        [
+            "void put(String fieldName, Boolean value)",
+            "String getTextValue()"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode setElement(String fieldName, JsonNode value)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode getPath(int index)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "String getTextValue()"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode reportNoObjectMods()"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode getPath(String fieldName)"
+        ],
+        [
+            "ObjectNode putObject(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "JsonNode putAll(ObjectNode other)",
+            "ObjectNode with(String propertyName)"
+        ],
+        [
+            "JsonNode getPath(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "String getTextValue()"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode put(String fieldName, JsonNode value)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode getPath(int index)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode getPath(String fieldName)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findValuesAsText(String fieldName, List foundSoFar)"
+        ],
+        [
+            "void put(String fieldName, Double value)",
+            "String getTextValue()"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode remove(String fieldName)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode setElement(int index, JsonNode value)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonParser.NumberType getNumberType()"
+        ],
+        [
+            "JsonNode remove(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode reportNoObjectMods()"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode put(String fieldName, JsonNode value)"
+        ],
+        [
+            "void put(String fieldName, Integer value)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode putAll(Map properties)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName, List foundSoFar)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode remove(String fieldName)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode setElement(int index, JsonNode value)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode removeElement(int index)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode getPath(String fieldName)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode removeElement(String fieldName)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "ObjectNode with(String propertyName)",
+            "String getValueAsText()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode putAll(ObjectNode other)"
+        ],
+        [
+            "JsonNode putAll(ObjectNode other)",
+            "ObjectNode findParent(String fieldName)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "JsonNode putAll(ObjectNode other)",
+            "ObjectNode retain(String... fieldNames)"
+        ],
+        [
+            "ObjectNode putObject(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "ArrayNode putArray(String fieldName)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "String getTextValue()"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode getPath(int index)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "ArrayNode putArray(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode findPath(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode get(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode getElementValue(int index)"
+        ],
+        [
+            "void put(String fieldName, double v)",
+            "String getTextValue()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "List findValuesAsText(String fieldName, List foundSoFar)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode putAll(ObjectNode other)"
+        ],
+        [
+            "void put(String fieldName, Long value)",
+            "String getTextValue()"
+        ],
+        [
+            "void putNull(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "Number getNumberValue()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "List findValues(String fieldName, List foundSoFar)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "String getTextValue()"
+        ],
+        [
+            "JsonNode getFieldValue(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "void put(String fieldName, Integer value)",
+            "String getTextValue()"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "BigDecimal getDecimalValue()"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode removeElement(String fieldName)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "Iterator getFields()"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode putAll(ObjectNode other)"
+        ],
+        [
+            "void put(String fieldName, BigDecimal v)",
+            "String getValueAsText()"
+        ],
+        [
+            "void put(String fieldName, long v)",
+            "String getValueAsText()"
+        ],
+        [
+            "void put(String fieldName, int v)",
+            "String getTextValue()"
+        ],
+        [
+            "JsonNode path(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode getElementValue(int index)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "ObjectNode retain(Collection fieldNames)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode getFieldValue(String fieldName)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode removeElement(String fieldName)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode reportNoArrayMods()"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode getElementValue(int index)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "Iterator<JsonNode> getFieldValues()"
+        ],
+        [
+            "JsonNode findPath(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode getFieldValue(String fieldName)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "Iterator getElements()"
+        ],
+        [
+            "void put(String fieldName, boolean v)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode reportNoArrayMods()"
+        ],
+        [
+            "void putNull(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "ObjectNode findParent(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode reportNoObjectMods()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode putAll(Map properties)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode getFieldValue(String fieldName)"
+        ],
+        [
+            "JsonNode path(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "ObjectNode removeAll()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName, List foundSoFar)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode removeElement(int index)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode setElement(String fieldName, JsonNode value)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode getPath(String fieldName)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode getElementValue(int index)"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "List findParents(String fieldName, List foundSoFar)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode putAll(Map properties)"
+        ],
+        [
+            "void put(String fieldName, byte[] v)",
+            "String getValueAsText()"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode reportNoArrayMods()"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "JsonNode remove(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode setElement(String fieldName, JsonNode value)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode getPath(int index)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonParser traverse()"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode removeElement(int index)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode remove(String fieldName)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode putAll(Map properties)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode put(String fieldName, JsonNode value)"
+        ],
+        [
+            "JsonNode removeElement(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode reportNoObjectMods()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "JsonNode putAll(ObjectNode other)",
+            "ObjectNode retain(Collection fieldNames)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "ObjectNode with(String propertyName)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "ObjectNode findParent(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode findPath(String fieldName)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode removeElement(int index)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "String getTextValue()"
+        ],
+        [
+            "ObjectNode with(String propertyName)",
+            "String getTextValue()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode put(String fieldName, JsonNode value)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode remove(String fieldName)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode getPath(String fieldName)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode reportNoObjectMods()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "List findParents(String fieldName, List foundSoFar)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode setElement(int index, JsonNode value)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode findValue(String fieldName)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "ObjectNode remove(Collection fieldNames)"
+        ],
+        [
+            "ArrayNode putArray(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode get(int index)"
+        ],
+        [
+            "void put(String fieldName, Boolean value)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode get(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode getPath(String fieldName)"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "String getTextValue()"
+        ],
+        [
+            "void put(String fieldName, byte[] v)",
+            "String getTextValue()"
+        ],
+        [
+            "List findValues(String fieldName, List foundSoFar)",
+            "String getValueAsText()"
+        ],
+        [
+            "void put(String fieldName, Float value)",
+            "String getValueAsText()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "ObjectNode putObject(String fieldName)"
+        ],
+        [
+            "JsonNode getPath(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode findValue(String fieldName)",
+            "String getValueAsText()"
+        ],
+        [
+            "List findValuesAsText(String fieldName, List foundSoFar)",
+            "String getValueAsText()"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode getPath(int index)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode putAll(ObjectNode other)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "ObjectNode findParent(String fieldName)"
+        ],
+        [
+            "JsonNode put(String fieldName, JsonNode value)",
+            "JsonNode setElement(int index, JsonNode value)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "ObjectNode retain(String... fieldNames)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode removeElement(int index)"
+        ],
+        [
+            "void put(String fieldName, BigDecimal v)",
+            "String getTextValue()"
+        ],
+        [
+            "void put(String fieldName, long v)",
+            "String getTextValue()"
+        ],
+        [
+            "void put(String fieldName, Double value)",
+            "String getValueAsText()"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "void put(String fieldName, String v)",
+            "String getValueAsText()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode getPath(int index)"
+        ],
+        [
+            "List findParents(String fieldName, List foundSoFar)",
+            "List findValues(String fieldName, List foundSoFar)"
+        ],
+        [
+            "void appendElement(JsonNode node)",
+            "JsonNode path(String fieldName)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode putAll(ObjectNode other)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode remove(String fieldName)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode get(String fieldName)"
+        ],
+        [
+            "JsonNode setElement(String fieldName, JsonNode value)",
+            "JsonNode getFieldValue(String fieldName)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode path(int index)"
+        ],
+        [
+            "JsonNode setElement(int index, JsonNode value)",
+            "JsonNode removeElement(String fieldName)"
+        ],
+        [
+            "void put(String fieldName, boolean v)",
+            "String getTextValue()"
+        ],
+        [
+            "void put(String fieldName, BigDecimal v)",
+            "BigDecimal getDecimalValue()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "String getValueAsText()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "JsonNode removeElement(String fieldName)"
+        ],
+        [
+            "void insertElement(int index, JsonNode value)",
+            "JsonNode getElementValue(int index)"
+        ],
+        [
+            "void put(String fieldName, Float value)",
+            "String getTextValue()"
+        ],
+        [
+            "JsonNode findValue(String fieldName)",
+            "String getTextValue()"
+        ],
+        [
+            "void putPOJO(String fieldName, Object pojo)",
+            "Iterator<String> getFieldNames()"
+        ]
+    ]
+}

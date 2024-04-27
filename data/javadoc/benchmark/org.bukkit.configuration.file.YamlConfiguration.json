@@ -1,0 +1,15 @@
+{
+    "class": "YamlConfiguration",
+    "category": "Class",
+    "methods": {
+        "YamlConfiguration loadConfiguration(Reader reader)": "Creates a new YamlConfiguration, loading from the given reader.",
+        "void loadFromString(String contents)": "Loads this FileConfiguration from the specified string, as opposed to from file.",
+        "YamlConfigurationOptions options()": "Gets the ConfigurationOptions for this Configuration",
+        "String saveToString()": "Saves this FileConfiguration to a string, and returns it."
+    },
+    "super class": [
+        "org.bukkit.configuration.MemorySection",
+        "org.bukkit.configuration.MemoryConfiguration",
+        "org.bukkit.configuration.file.FileConfiguration"
+    ]
+}

@@ -1,0 +1,1416 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "boolean getBoolean(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONObject put(String name, double value)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "long optLong(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "Object get(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "int getInt(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONObject getJSONObject(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "String optString(String name)"
+        ],
+        [
+            "double optDouble(String name, double fallback)",
+            "Object get(String name)"
+        ],
+        [
+            "long optLong(String name, long fallback)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "boolean isNull(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "boolean optBoolean(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "long optLong(String name, long fallback)",
+            "String optString(String name)"
+        ],
+        [
+            "Object remove(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "String getString(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "int getInt(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "Iterator keys()"
+        ],
+        [
+            "JSONObject getJSONObject(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "int optInt(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "boolean optBoolean(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "String getString(String name)"
+        ],
+        [
+            "int optInt(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONArray getJSONArray(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONArray optJSONArray(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONObject optJSONObject(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "boolean optBoolean(String name, boolean fallback)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONObject put(String name, double value)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "Object remove(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "Object get(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONObject put(String name, long value)",
+            "Object get(String name)"
+        ],
+        [
+            "boolean getBoolean(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "String optString(String name)"
+        ],
+        [
+            "Object get(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONArray toJSONArray(JSONArray names)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONObject optJSONObject(String name)"
+        ],
+        [
+            "JSONArray toJSONArray(JSONArray names)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONArray optJSONArray(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject optJSONObject(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject put(String name, long value)",
+            "Object remove(String name)"
+        ],
+        [
+            "boolean optBoolean(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "int optInt(String name, int fallback)",
+            "Object get(String name)"
+        ],
+        [
+            "String optString(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "double optDouble(String name, double fallback)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "int getInt(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONObject put(String name, int value)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONArray toJSONArray(JSONArray names)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONArray getJSONArray(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONObject put(String name, double value)"
+        ],
+        [
+            "JSONObject getJSONObject(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONObject put(String name, long value)",
+            "Object opt(String name)"
+        ],
+        [
+            "boolean has(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "JSONObject getJSONObject(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "int optInt(String name, int fallback)",
+            "Object remove(String name)"
+        ],
+        [
+            "String optString(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONObject put(String name, int value)",
+            "String quote(String data)"
+        ],
+        [
+            "Object remove(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONArray optJSONArray(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONObject optJSONObject(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONArray optJSONArray(String name)"
+        ],
+        [
+            "Object remove(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "boolean getBoolean(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "int optInt(String name, int fallback)",
+            "Object opt(String name)"
+        ],
+        [
+            "String optString(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONObject put(String name, long value)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONArray toJSONArray(JSONArray names)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "String getString(String name)"
+        ],
+        [
+            "String optString(String name, String fallback)",
+            "Object get(String name)"
+        ],
+        [
+            "double optDouble(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "long optLong(String name, long fallback)",
+            "String getString(String name)"
+        ],
+        [
+            "double optDouble(String name, double fallback)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "boolean isNull(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "long getLong(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "double optDouble(String name, double fallback)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONObject put(String name, int value)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONObject putOpt(String name, Object value)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONArray toJSONArray(JSONArray names)"
+        ],
+        [
+            "int optInt(String name, int fallback)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "String optString(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "String quote(String data)"
+        ],
+        [
+            "double optDouble(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "long optLong(String name, long fallback)",
+            "String quote(String data)"
+        ],
+        [
+            "int optInt(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONArray names()"
+        ],
+        [
+            "long getLong(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "String getString(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "String quote(String data)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONArray getJSONArray(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONObject put(String name, int value)"
+        ],
+        [
+            "boolean has(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONObject putOpt(String name, Object value)"
+        ],
+        [
+            "JSONObject put(String name, boolean value)",
+            "Object get(String name)"
+        ],
+        [
+            "JSONObject put(String name, double value)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "String getString(String name)"
+        ],
+        [
+            "Object get(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "double optDouble(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONArray getJSONArray(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONArray optJSONArray(String name)"
+        ],
+        [
+            "JSONObject put(String name, long value)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "int optInt(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "long getLong(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONObject put(String name, long value)",
+            "String optString(String name)"
+        ],
+        [
+            "boolean getBoolean(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONArray getJSONArray(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONObject optJSONObject(String name)"
+        ],
+        [
+            "boolean optBoolean(String name, boolean fallback)",
+            "String quote(String data)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONObject put(String name, boolean value)"
+        ],
+        [
+            "JSONObject put(String name, boolean value)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject put(String name, double value)",
+            "String quote(String data)"
+        ],
+        [
+            "boolean optBoolean(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "String quote(String data)"
+        ],
+        [
+            "Object get(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "long optLong(String name, long fallback)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONArray names()"
+        ],
+        [
+            "double optDouble(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "int optInt(String name, int fallback)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "int getInt(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "String optString(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "long getLong(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "double getDouble(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "boolean isNull(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONObject put(String name, double value)"
+        ],
+        [
+            "JSONObject put(String name, boolean value)",
+            "Object opt(String name)"
+        ],
+        [
+            "int optInt(String name, int fallback)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONObject getJSONObject(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "boolean optBoolean(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONObject putOpt(String name, Object value)"
+        ],
+        [
+            "int optInt(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONObject accumulate(String name, Object value)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONObject put(String name, Object value)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONArray getJSONArray(String name)"
+        ],
+        [
+            "boolean has(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONArray optJSONArray(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONArray getJSONArray(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "boolean optBoolean(String name, boolean fallback)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "boolean has(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "double getDouble(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "Object remove(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONObject put(String name, double value)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONObject getJSONObject(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "Object get(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONArray toJSONArray(JSONArray names)",
+            "Object get(String name)"
+        ],
+        [
+            "JSONArray getJSONArray(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONObject getJSONObject(String name)"
+        ],
+        [
+            "JSONObject put(String name, boolean value)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "JSONObject put(String name, double value)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONArray optJSONArray(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "double getDouble(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "Object remove(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONObject put(String name, boolean value)"
+        ],
+        [
+            "String optString(String name, String fallback)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "double optDouble(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "double optDouble(String name, double fallback)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONObject put(String name, int value)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "Object get(String name)"
+        ],
+        [
+            "Object opt(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "long getLong(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "String optString(String name, String fallback)",
+            "String optString(String name)"
+        ],
+        [
+            "double optDouble(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONObject getJSONObject(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONObject optJSONObject(String name)"
+        ],
+        [
+            "String quote(String data)",
+            "Object remove(String name)"
+        ],
+        [
+            "int getInt(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "long optLong(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "double getDouble(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "Object remove(String name)"
+        ],
+        [
+            "double optDouble(String name, double fallback)",
+            "String quote(String data)"
+        ],
+        [
+            "Object opt(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONObject accumulate(String name, Object value)"
+        ],
+        [
+            "JSONObject put(String name, int value)",
+            "Object opt(String name)"
+        ],
+        [
+            "String numberToString(Number number)",
+            "Object get(String name)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONObject put(String name, int value)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONObject put(String name, long value)"
+        ],
+        [
+            "Object remove(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "String getString(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "String quote(String data)",
+            "Object opt(String name)"
+        ],
+        [
+            "long optLong(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject put(String name, boolean value)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONObject put(String name, double value)"
+        ],
+        [
+            "JSONObject put(String name, long value)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONObject getJSONObject(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONObject put(String name, boolean value)",
+            "String optString(String name)"
+        ],
+        [
+            "String numberToString(Number number)",
+            "Object remove(String name)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONObject put(String name, Object value)"
+        ],
+        [
+            "long optLong(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONObject optJSONObject(String name)"
+        ],
+        [
+            "JSONObject put(String name, long value)",
+            "String quote(String data)"
+        ],
+        [
+            "double optDouble(String name, double fallback)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "boolean getBoolean(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "boolean optBoolean(String name, boolean fallback)",
+            "Object get(String name)"
+        ],
+        [
+            "JSONArray toJSONArray(JSONArray names)",
+            "JSONArray names()"
+        ],
+        [
+            "String numberToString(Number number)",
+            "Object opt(String name)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONObject getJSONObject(String name)"
+        ],
+        [
+            "int optInt(String name, int fallback)",
+            "String getString(String name)"
+        ],
+        [
+            "String optString(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "Object opt(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "String getString(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "double getDouble(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONArray toJSONArray(JSONArray names)",
+            "JSONArray getJSONArray(String name)"
+        ],
+        [
+            "boolean optBoolean(String name, boolean fallback)",
+            "Object remove(String name)"
+        ],
+        [
+            "boolean has(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONObject put(String name, double value)"
+        ],
+        [
+            "long optLong(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "boolean isNull(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "int optInt(String name, int fallback)",
+            "String quote(String data)"
+        ],
+        [
+            "String optString(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONObject put(String name, Object value)"
+        ],
+        [
+            "JSONArray toJSONArray(JSONArray names)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONObject put(String name, long value)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "boolean getBoolean(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "boolean optBoolean(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "boolean optBoolean(String name, boolean fallback)",
+            "Object opt(String name)"
+        ],
+        [
+            "boolean has(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "Iterator keys()"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONObject put(String name, int value)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONArray toJSONArray(JSONArray names)"
+        ],
+        [
+            "String optString(String name, String fallback)",
+            "String getString(String name)"
+        ],
+        [
+            "double optDouble(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "Object get(String name)"
+        ],
+        [
+            "boolean isNull(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "long getLong(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "int optInt(String name, int fallback)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONArray optJSONArray(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "String optString(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "Object opt(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "boolean optBoolean(String name, boolean fallback)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "JSONArray optJSONArray(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "JSONObject optJSONObject(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "Object opt(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "String optString(String name, String fallback)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "Object remove(String name)"
+        ],
+        [
+            "double optDouble(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "long optLong(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "boolean has(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "long getLong(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "long optLong(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "String numberToString(Number number)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONObject put(String name, long value)"
+        ],
+        [
+            "JSONObject optJSONObject(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "int getInt(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject put(String name, boolean value)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONObject put(String name, int value)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONObject put(String name, int value)",
+            "Object get(String name)"
+        ],
+        [
+            "boolean optBoolean(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONArray optJSONArray(String name)"
+        ],
+        [
+            "JSONObject optJSONObject(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "double optDouble(String name, double fallback)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject put(String name, boolean value)",
+            "String quote(String data)"
+        ],
+        [
+            "String optString(String name, String fallback)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "double optDouble(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "String quote(String data)",
+            "Object get(String name)"
+        ],
+        [
+            "long getLong(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "boolean optBoolean(String name, boolean fallback)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "String getString(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "int getInt(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "double getDouble(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "double optDouble(String name, double fallback)",
+            "Object opt(String name)"
+        ],
+        [
+            "long getLong(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONArray optJSONArray(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "JSONObject optJSONObject(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONObject put(String name, boolean value)"
+        ],
+        [
+            "String getString(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "Object get(String name)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "JSONArray names()"
+        ],
+        [
+            "boolean getBoolean(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "double getDouble(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject put(String name, boolean value)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "long optLong(String name, long fallback)",
+            "Object get(String name)"
+        ],
+        [
+            "boolean isNull(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "boolean optBoolean(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "Iterator keys()"
+        ],
+        [
+            "Object wrap(Object o)",
+            "Object remove(String name)"
+        ],
+        [
+            "boolean optBoolean(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONObject accumulate(String name, Object value)"
+        ],
+        [
+            "boolean getBoolean(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "long optLong(String name, long fallback)",
+            "Object remove(String name)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "JSONObject put(String name, long value)"
+        ],
+        [
+            "JSONObject put(String name, int value)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "String getString(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "int optInt(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "boolean isNull(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "String quote(String data)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONArray getJSONArray(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONObject put(String name, boolean value)"
+        ],
+        [
+            "Object opt(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "String quote(String data)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONObject putOpt(String name, Object value)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONObject put(String name, double value)",
+            "Object get(String name)"
+        ],
+        [
+            "double getDouble(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "Object get(String name)"
+        ],
+        [
+            "JSONArray optJSONArray(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONObject optJSONObject(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "boolean has(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "long optLong(String name, long fallback)",
+            "Object opt(String name)"
+        ],
+        [
+            "int optInt(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "boolean isNull(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONArray optJSONArray(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONObject optJSONObject(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "long optLong(String name)",
+            "String getString(String name)"
+        ],
+        [
+            "JSONArray getJSONArray(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "boolean getBoolean(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "double getDouble(String name)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "String quote(String data)"
+        ],
+        [
+            "Object opt(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONObject put(String name, double value)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "Object remove(String name)"
+        ],
+        [
+            "Object get(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONArray names()"
+        ],
+        [
+            "boolean has(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "int optInt(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONObject put(String name, long value)"
+        ],
+        [
+            "long optLong(String name)",
+            "String quote(String data)"
+        ],
+        [
+            "JSONArray getJSONArray(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "long optLong(String name, long fallback)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "int getInt(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "boolean isNull(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "JSONArray toJSONArray(JSONArray names)",
+            "JSONArray optJSONArray(String name)"
+        ],
+        [
+            "JSONObject put(String name, double value)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONObject put(String name, int value)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "JSONObject getJSONObject(String name)"
+        ],
+        [
+            "JSONObject getJSONObject(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "JSONObject accumulate(String name, Object value)",
+            "Object opt(String name)"
+        ],
+        [
+            "Object get(String name)",
+            "Object opt(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "JSONArray getJSONArray(String name)"
+        ],
+        [
+            "String getString(String name)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "String optString(String name, String fallback)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject put(String name, int value)",
+            "String optString(String name)"
+        ],
+        [
+            "String quote(String data)",
+            "Object wrap(Object o)"
+        ],
+        [
+            "int getInt(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "boolean optBoolean(String name, boolean fallback)",
+            "String getString(String name)"
+        ],
+        [
+            "int optInt(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "Object opt(String name)",
+            "String numberToString(Number number)"
+        ],
+        [
+            "Object remove(String name)",
+            "Object get(String name)"
+        ],
+        [
+            "String quote(String data)",
+            "String optString(String name)"
+        ],
+        [
+            "JSONObject getJSONObject(String name)",
+            "Object remove(String name)"
+        ],
+        [
+            "JSONArray getJSONArray(String name)",
+            "String optString(String name, String fallback)"
+        ],
+        [
+            "String optString(String name, String fallback)",
+            "Object opt(String name)"
+        ],
+        [
+            "Object wrap(Object o)",
+            "Iterator keys()"
+        ],
+        [
+            "JSONObject put(String name, Object value)",
+            "String optString(String name)"
+        ]
+    ]
+}

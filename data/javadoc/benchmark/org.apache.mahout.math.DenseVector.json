@@ -1,0 +1,33 @@
+{
+    "class": "DenseVector",
+    "category": "Class",
+    "methods": {
+        "void addAll(Vector v)": "",
+        "Vector assign(DenseVector vector)": "",
+        "Vector assign(double value)": "Assign the value to all elements of the receiver",
+        "DenseVector clone()": "Return a copy of the recipient",
+        "double dot(Vector x)": "Return the dot product of the recipient and the argument",
+        "double dotSelf()": "",
+        "boolean equals(Object o)": "Determines whether this Vector represents the same logical vector as another object.",
+        "double getIteratorAdvanceCost()": "Gets an estimate of the cost (in number of operations) it takes to advance an iterator through the nonzero elements of this vector.",
+        "double getLookupCost()": "Gets an estimate of the cost (in number of operations) it takes to lookup a random element in this vector.",
+        "int getNumNondefaultElements()": "Return the number of values in the recipient which are not the default value.",
+        "int getNumNonZeroElements()": "Return the number of non zero elements in the vector.",
+        "double getQuick(int index)": "Return the value at the given index, without checking bounds",
+        "void incrementQuick(int index, double increment)": "Increment the value at the given index by the given value.",
+        "boolean isAddConstantTime()": "Return true iff adding a new (nonzero) element takes constant time for this vector.",
+        "boolean isDense()": "true if this implementation should be considered dense -- that it explicitly represents every value",
+        "boolean isSequentialAccess()": "true if this implementation should be considered to be iterable in index order in an efficient way.",
+        "Iterator iterateNonZero()": "Returns an iterator that traverses this Vector from 0 to cardinality-1, in that order.",
+        "Iterator iterator()": "Iterates over all elements",
+        "DenseVector like()": "Return an empty vector of the same underlying class as the receiver",
+        "Vector like(int cardinality)": "Return a new empty vector of the same underlying class as the receiver with given cardinality",
+        "Matrix matrixLike(int rows, int columns)": "Subclasses must override to return an appropriately sparse or dense result",
+        "void mergeUpdates(OrderedIntDoubleMapping updates)": "Merge a set of (index, value) pairs into the vector.",
+        "void setQuick(int index, double value)": "Set the value at the given index, without checking bounds",
+        "Vector viewPart(int offset, int length)": "Return a new vector containing the subset of the recipient"
+    },
+    "super class": [
+        "org.apache.mahout.math.AbstractVector"
+    ]
+}

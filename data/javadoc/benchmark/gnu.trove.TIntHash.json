@@ -1,0 +1,17 @@
+{
+    "class": "TIntHash",
+    "category": "Class",
+    "methods": {
+        "int computeHashCode(int val)": "Default implementation of TIntHashingStrategy: delegates hashing to HashFunctions.hash(int).",
+        "boolean contains(int val)": "Searches the set for val.",
+        "boolean forEach(TIntProcedure procedure)": "Executes procedure for each element in the set.",
+        "protected int index(int val)": "Locates the index of val.",
+        "protected int insertionIndex(int val)": "Locates the index at which val can be inserted.",
+        "protected void removeAt(int index)": "Releases the element currently stored at index.",
+        "protected int setUp(int initialCapacity)": "Initializes the hashtable to a prime capacity which is at least initialCapacity + 1."
+    },
+    "super class": [
+        "gnu.trove.THash",
+        "gnu.trove.TPrimitiveHash"
+    ]
+}

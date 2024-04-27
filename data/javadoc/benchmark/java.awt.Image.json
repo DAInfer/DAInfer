@@ -1,0 +1,17 @@
+{
+    "class": "Image",
+    "category": "Class",
+    "methods": {
+        "void flush()": "Flushes all reconstructable resources being used by this Image object.",
+        "float getAccelerationPriority()": "Returns the current value of the acceleration priority hint.",
+        "ImageCapabilities getCapabilities(GraphicsConfiguration gc)": "Returns an ImageCapabilities object which can be inquired as to the capabilities of this Image on the specified GraphicsConfiguration.",
+        "Graphics getGraphics()": "Creates a graphics context for drawing to an off-screen image.",
+        "int getHeight(ImageObserver observer)": "Determines the height of the image.",
+        "Object getProperty(String name, ImageObserver observer)": "Gets a property of this image by name.",
+        "Image getScaledInstance(int width, int height, int hints)": "Creates a scaled version of this image.",
+        "ImageProducer getSource()": "Gets the object that produces the pixels for the image.",
+        "int getWidth(ImageObserver observer)": "Determines the width of the image.",
+        "void setAccelerationPriority(float priority)": "Sets a hint for this image about how important acceleration is."
+    },
+    "super class": []
+}

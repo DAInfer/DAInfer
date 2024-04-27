@@ -1,0 +1,30 @@
+package atlas.java.util;
+public abstract interface Deque<E> extends atlas.java.util.Queue<E> {
+	public abstract boolean offer(E p0);
+	public abstract void addFirst(E p0);
+	public abstract void addLast(E p0);
+	public abstract boolean offerFirst(E p0);
+	public abstract boolean offerLast(E p0);
+	public abstract E removeLast();
+	public abstract E pollFirst();
+	public abstract E pollLast();
+	public abstract E getLast();
+	public abstract E peekFirst();
+	public abstract E peekLast();
+	public abstract boolean removeFirstOccurrence(java.lang.Object p0);
+	public abstract boolean removeLastOccurrence(java.lang.Object p0);
+	public abstract atlas.java.util.Iterator<E> descendingIterator();
+	public abstract E removeFirst();
+	public abstract boolean add(E p0);
+	public abstract boolean remove(java.lang.Object p0);
+	public abstract E remove();
+	public abstract boolean contains(java.lang.Object p0);
+	public abstract int size();
+	public abstract atlas.java.util.Iterator<E> iterator();
+	public abstract E getFirst();
+	public abstract void push(E p0);
+	public abstract E pop();
+	public abstract E poll();
+	public abstract E peek();
+	public abstract E element();
+}

@@ -1,0 +1,30 @@
+{
+    "class": "CellConstraints",
+    "category": "Class",
+    "methods": {
+        "Object clone()": "Creates a copy of this cell constraints object.",
+        "CellConstraints rc(int row, int col)": "Sets row and column origins; sets height and width to 1; uses the default alignments.",
+        "CellConstraints rc(int row, int col, CellConstraints.Alignment rowAlign, CellConstraints.Alignment colAlign)": "Sets the row and column origins; sets width and height to 1; set horizontal and vertical alignment using the specified objects.",
+        "CellConstraints rc(int row, int col, String encodedAlignments)": "Sets row and column origins; sets height and width to 1; decodes vertical and horizontal alignments from the given string.",
+        "CellConstraints rchw(int row, int col, int rowSpan, int colSpan)": "Sets the row, column, height, and width; uses default alignments.",
+        "CellConstraints rchw(int row, int col, int rowSpan, int colSpan, CellConstraints.Alignment rowAlign, CellConstraints.Alignment colAlign)": "Sets the row, column, height, and width; sets the vertical and horizontal alignment using the specified alignment objects.",
+        "CellConstraints rchw(int row, int col, int rowSpan, int colSpan, String encodedAlignments)": "Sets the row, column, height, and width; decodes the vertical and horizontal alignments from the given string.",
+        "CellConstraints rcw(int row, int col, int colSpan)": "Sets the row, column, height, and width; uses a height (row span) of 1 and the vertical and horizontal default alignments.",
+        "CellConstraints rcw(int row, int col, int colSpan, CellConstraints.Alignment rowAlign, CellConstraints.Alignment colAlign)": "Sets the row, column, height, and width; sets the vertical and horizontal alignment using the specified alignment objects.",
+        "CellConstraints rcw(int row, int col, int colSpan, String encodedAlignments)": "Sets the row, column, height, and width; decodes the vertical and horizontal alignments from the given string.",
+        "String toShortString()": "Returns a short string representation of this constraints object.",
+        "String toShortString(FormLayout layout)": "Returns a short string representation of this constraints object.",
+        "String toString()": "Constructs and returns a string representation of this constraints object.",
+        "CellConstraints translate(int dx, int dy)": "Creates and returns a new CellConstraints instance where the origin has been moved along the X and Y axis as specified by dx and dy respectively.",
+        "CellConstraints xy(int col, int row)": "Sets column and row origins; sets width and height to 1; uses the default alignments.",
+        "CellConstraints xy(int col, int row, CellConstraints.Alignment colAlign, CellConstraints.Alignment rowAlign)": "Sets the column and row origins; sets width and height to 1; set horizontal and vertical alignment using the specified objects.",
+        "CellConstraints xy(int col, int row, String encodedAlignments)": "Sets column and row origins; sets width and height to 1; decodes horizontal and vertical alignments from the given string.",
+        "CellConstraints xyw(int col, int row, int colSpan)": "Sets the column, row, width, and height; uses a height (row span) of 1 and the horizontal and vertical default alignments.",
+        "CellConstraints xyw(int col, int row, int colSpan, CellConstraints.Alignment colAlign, CellConstraints.Alignment rowAlign)": "Sets the column, row, width, and height; sets the horizontal and vertical alignment using the specified alignment objects.",
+        "CellConstraints xyw(int col, int row, int colSpan, String encodedAlignments)": "Sets the column, row, width, and height; decodes the horizontal and vertical alignments from the given string.",
+        "CellConstraints xywh(int col, int row, int colSpan, int rowSpan)": "Sets the column, row, width, and height; uses default alignments.",
+        "CellConstraints xywh(int col, int row, int colSpan, int rowSpan, CellConstraints.Alignment colAlign, CellConstraints.Alignment rowAlign)": "Sets the column, row, width, and height; sets the horizontal and vertical alignment using the specified alignment objects.",
+        "CellConstraints xywh(int col, int row, int colSpan, int rowSpan, String encodedAlignments)": "Sets the column, row, width, and height; decodes the horizontal and vertical alignments from the given string."
+    },
+    "super class": []
+}

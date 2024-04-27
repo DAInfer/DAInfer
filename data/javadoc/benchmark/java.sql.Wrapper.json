@@ -1,0 +1,9 @@
+{
+    "class": "Wrapper",
+    "category": "Interface",
+    "methods": {
+        "boolean isWrapperFor(Class iface)": "Returns true if this either implements the interface argument or is directly or indirectly a wrapper for an object that does.",
+        "T unwrap(Class iface)": "Returns an object that implements the given interface to allow access to non-standard methods, or standard methods not exposed by the proxy."
+    },
+    "super class": []
+}

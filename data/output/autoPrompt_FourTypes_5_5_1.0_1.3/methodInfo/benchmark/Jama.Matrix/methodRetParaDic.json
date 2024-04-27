@@ -1,0 +1,384 @@
+{
+    "Matrix arrayLeftDivide(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "arrayLeftDivide",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "Matrix arrayLeftDivideEquals(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "arrayLeftDivideEquals",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "Matrix arrayRightDivide(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "arrayRightDivide",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "Matrix arrayRightDivideEquals(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "arrayRightDivideEquals",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "Matrix arrayTimes(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "arrayTimes",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "Matrix arrayTimesEquals(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "arrayTimesEquals",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "CholeskyDecomposition chol()": {
+        "return type": "CholeskyDecomposition",
+        "method name": "chol",
+        "parameters": []
+    },
+    "Object clone()": {
+        "return type": "Object",
+        "method name": "clone",
+        "parameters": []
+    },
+    "double cond()": {
+        "return type": "double",
+        "method name": "cond",
+        "parameters": []
+    },
+    "Matrix constructWithCopy(double[][] A)": {
+        "return type": "Matrix",
+        "method name": "constructWithCopy",
+        "parameters": [
+            "double[][]"
+        ]
+    },
+    "Matrix copy()": {
+        "return type": "Matrix",
+        "method name": "copy",
+        "parameters": []
+    },
+    "double det()": {
+        "return type": "double",
+        "method name": "det",
+        "parameters": []
+    },
+    "EigenvalueDecomposition eig()": {
+        "return type": "EigenvalueDecomposition",
+        "method name": "eig",
+        "parameters": []
+    },
+    "double get(int i, int j)": {
+        "return type": "double",
+        "method name": "get",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "double[][] getArray()": {
+        "return type": "double[][]",
+        "method name": "getArray",
+        "parameters": []
+    },
+    "double[][] getArrayCopy()": {
+        "return type": "double[][]",
+        "method name": "getArrayCopy",
+        "parameters": []
+    },
+    "int getColumnDimension()": {
+        "return type": "int",
+        "method name": "getColumnDimension",
+        "parameters": []
+    },
+    "double[] getColumnPackedCopy()": {
+        "return type": "double[]",
+        "method name": "getColumnPackedCopy",
+        "parameters": []
+    },
+    "Matrix getMatrix(int[] r, int[] c)": {
+        "return type": "Matrix",
+        "method name": "getMatrix",
+        "parameters": [
+            "int[]",
+            "int[]"
+        ]
+    },
+    "Matrix getMatrix(int[] r, int j0, int j1)": {
+        "return type": "Matrix",
+        "method name": "getMatrix",
+        "parameters": [
+            "int[]",
+            "int",
+            "int"
+        ]
+    },
+    "Matrix getMatrix(int i0, int i1, int[] c)": {
+        "return type": "Matrix",
+        "method name": "getMatrix",
+        "parameters": [
+            "int",
+            "int",
+            "int[]"
+        ]
+    },
+    "Matrix getMatrix(int i0, int i1, int j0, int j1)": {
+        "return type": "Matrix",
+        "method name": "getMatrix",
+        "parameters": [
+            "int",
+            "int",
+            "int",
+            "int"
+        ]
+    },
+    "int getRowDimension()": {
+        "return type": "int",
+        "method name": "getRowDimension",
+        "parameters": []
+    },
+    "double[] getRowPackedCopy()": {
+        "return type": "double[]",
+        "method name": "getRowPackedCopy",
+        "parameters": []
+    },
+    "Matrix identity(int m, int n)": {
+        "return type": "Matrix",
+        "method name": "identity",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "Matrix inverse()": {
+        "return type": "Matrix",
+        "method name": "inverse",
+        "parameters": []
+    },
+    "LUDecomposition lu()": {
+        "return type": "LUDecomposition",
+        "method name": "lu",
+        "parameters": []
+    },
+    "Matrix minus(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "minus",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "Matrix minusEquals(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "minusEquals",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "double norm1()": {
+        "return type": "double",
+        "method name": "norm1",
+        "parameters": []
+    },
+    "double norm2()": {
+        "return type": "double",
+        "method name": "norm2",
+        "parameters": []
+    },
+    "double normF()": {
+        "return type": "double",
+        "method name": "normF",
+        "parameters": []
+    },
+    "double normInf()": {
+        "return type": "double",
+        "method name": "normInf",
+        "parameters": []
+    },
+    "Matrix plus(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "plus",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "Matrix plusEquals(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "plusEquals",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "void print(int w, int d)": {
+        "return type": "void",
+        "method name": "print",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "void print(NumberFormat format, int width)": {
+        "return type": "void",
+        "method name": "print",
+        "parameters": [
+            "NumberFormat",
+            "int"
+        ]
+    },
+    "void print(PrintWriter output, int w, int d)": {
+        "return type": "void",
+        "method name": "print",
+        "parameters": [
+            "PrintWriter",
+            "int",
+            "int"
+        ]
+    },
+    "void print(PrintWriter output, NumberFormat format, int width)": {
+        "return type": "void",
+        "method name": "print",
+        "parameters": [
+            "PrintWriter",
+            "NumberFormat",
+            "int"
+        ]
+    },
+    "QRDecomposition qr()": {
+        "return type": "QRDecomposition",
+        "method name": "qr",
+        "parameters": []
+    },
+    "Matrix random(int m, int n)": {
+        "return type": "Matrix",
+        "method name": "random",
+        "parameters": [
+            "int",
+            "int"
+        ]
+    },
+    "int rank()": {
+        "return type": "int",
+        "method name": "rank",
+        "parameters": []
+    },
+    "Matrix read(BufferedReader input)": {
+        "return type": "Matrix",
+        "method name": "read",
+        "parameters": [
+            "BufferedReader"
+        ]
+    },
+    "void set(int i, int j, double s)": {
+        "return type": "void",
+        "method name": "set",
+        "parameters": [
+            "int",
+            "int",
+            "double"
+        ]
+    },
+    "void setMatrix(int[] r, int[] c, Matrix X)": {
+        "return type": "void",
+        "method name": "setMatrix",
+        "parameters": [
+            "int[]",
+            "int[]",
+            "Matrix"
+        ]
+    },
+    "void setMatrix(int[] r, int j0, int j1, Matrix X)": {
+        "return type": "void",
+        "method name": "setMatrix",
+        "parameters": [
+            "int[]",
+            "int",
+            "int",
+            "Matrix"
+        ]
+    },
+    "void setMatrix(int i0, int i1, int[] c, Matrix X)": {
+        "return type": "void",
+        "method name": "setMatrix",
+        "parameters": [
+            "int",
+            "int",
+            "int[]",
+            "Matrix"
+        ]
+    },
+    "void setMatrix(int i0, int i1, int j0, int j1, Matrix X)": {
+        "return type": "void",
+        "method name": "setMatrix",
+        "parameters": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "Matrix"
+        ]
+    },
+    "Matrix solve(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "solve",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "Matrix solveTranspose(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "solveTranspose",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "SingularValueDecomposition svd()": {
+        "return type": "SingularValueDecomposition",
+        "method name": "svd",
+        "parameters": []
+    },
+    "Matrix times(double s)": {
+        "return type": "Matrix",
+        "method name": "times",
+        "parameters": [
+            "double"
+        ]
+    },
+    "Matrix times(Matrix B)": {
+        "return type": "Matrix",
+        "method name": "times",
+        "parameters": [
+            "Matrix"
+        ]
+    },
+    "Matrix timesEquals(double s)": {
+        "return type": "Matrix",
+        "method name": "timesEquals",
+        "parameters": [
+            "double"
+        ]
+    },
+    "double trace()": {
+        "return type": "double",
+        "method name": "trace",
+        "parameters": []
+    },
+    "Matrix transpose()": {
+        "return type": "Matrix",
+        "method name": "transpose",
+        "parameters": []
+    },
+    "Matrix uminus()": {
+        "return type": "Matrix",
+        "method name": "uminus",
+        "parameters": []
+    }
+}

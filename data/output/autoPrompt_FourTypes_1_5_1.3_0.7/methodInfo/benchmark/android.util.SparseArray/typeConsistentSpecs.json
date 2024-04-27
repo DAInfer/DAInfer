@@ -1,0 +1,84 @@
+{
+    "typeConsistentSpecs": [
+        [
+            "void set(int key, E value)",
+            "E valueAt(int index)"
+        ],
+        [
+            "void append(int key, E value)",
+            "E valueAt(int index)"
+        ],
+        [
+            "void put(int key, E value)",
+            "E valueAt(int index)"
+        ],
+        [
+            "void set(int key, E value)",
+            "E get(int key, E valueIfKeyNotFound)"
+        ],
+        [
+            "void append(int key, E value)",
+            "E get(int key, E valueIfKeyNotFound)"
+        ],
+        [
+            "E get(int key, E valueIfKeyNotFound)",
+            "E valueAt(int index)"
+        ],
+        [
+            "void set(int key, E value)",
+            "E get(int key)"
+        ],
+        [
+            "void put(int key, E value)",
+            "E get(int key, E valueIfKeyNotFound)"
+        ],
+        [
+            "void append(int key, E value)",
+            "E get(int key)"
+        ],
+        [
+            "void put(int key, E value)",
+            "E get(int key)"
+        ],
+        [
+            "E get(int key, E valueIfKeyNotFound)",
+            "E get(int key)"
+        ],
+        [
+            "void setValueAt(int index, E value)",
+            "E valueAt(int index)"
+        ],
+        [
+            "int indexOfValue(E value)",
+            "E valueAt(int index)"
+        ],
+        [
+            "boolean contentEquals(SparseArray other)",
+            "E valueAt(int index)"
+        ],
+        [
+            "void setValueAt(int index, E value)",
+            "E get(int key, E valueIfKeyNotFound)"
+        ],
+        [
+            "int indexOfValue(E value)",
+            "E get(int key, E valueIfKeyNotFound)"
+        ],
+        [
+            "boolean contentEquals(SparseArray other)",
+            "E get(int key, E valueIfKeyNotFound)"
+        ],
+        [
+            "void setValueAt(int index, E value)",
+            "E get(int key)"
+        ],
+        [
+            "int indexOfValue(E value)",
+            "E get(int key)"
+        ],
+        [
+            "boolean contentEquals(SparseArray other)",
+            "E get(int key)"
+        ]
+    ]
+}
