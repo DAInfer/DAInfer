@@ -7,15 +7,22 @@ DAInfer: Inferring API Aliasing Specifications from Library Documentation via Ne
 
 ## Quick Start
 
-### Setup
-
-Install the packages in the `requirements.txt` file.
+Step 1: Install the packages in the `requirements.txt` file.
 
 ```commandline
-pip install -r requirements.txt
+pip install -r requirements.txt --use-deprecated=legacy-resolver
 ```
 
-Add your openai key in `src/config.py`
+Step 2: Download the necessary resources for the tagging model. Execute the following code in Python environment:
+
+```python
+> import nltk
+> nltk.download('brown')
+> nltk.download('universal_tagset')
+> nltk.download('averaged_perceptron_tagger')
+```
+
+Step 3: Add your openai key in `src/config.py`
 
 ```python
 global_openai_key = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
@@ -27,7 +34,7 @@ If you want to run the DAInfer with the default setting, you can simply execute 
 
 ```commandline
 cd src
-python main.py 1 1 0.7 0.7 --lazy
+python run.py 1 1 0.7 0.7 --lazy
 ```
 
 If you want to apply the self-consistency to the two-staged prompting and adjust the temperatures, you can change the four arguments passed to `main.py`.
@@ -35,14 +42,14 @@ For example, if you want to set K = 5 for both the two stages and the temperatur
 
 ```commandline
 cd src
-python main.py 5 5 1.0 1.0 --lazy
+python run.py 5 5 1.0 1.0 --lazy
 ```
 
 If you want to disable the lazy strategy in the neural-symbolic optimization, you can replace the `-lazy` flag with `-eager`.
 
 ```commandline
 cd src
-python main.py 1 1 0.7 0.7 --eager
+python run.py 1 1 0.7 0.7 --eager
 ```
 
 ATTENTION: The eager mode would invoke OpenAI API for a large number of methods in the library documentation, which may cost a lot of money. We recommend you to use the lazy mode to avoid the high cost.
