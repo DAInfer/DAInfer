@@ -7,6 +7,8 @@ DAInfer: Inferring API Aliasing Specifications from Library Documentation via Ne
 
 ## Quick Start
 
+### Setup
+
 Step 1: Install the packages in the `requirements.txt` file.
 
 ```commandline
